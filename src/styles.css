@@ -869,14 +869,13 @@ h3 {
 
 .image-candidate-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 8px;
 }
 
 .image-candidate {
-  min-height: 54px;
   display: grid;
-  gap: 3px;
+  gap: 6px;
   justify-items: start;
   border: 1px solid var(--line);
   border-radius: 7px;
@@ -884,6 +883,34 @@ h3 {
   color: var(--text);
   background: #fbfdff;
   text-align: left;
+  overflow: hidden;
+}
+
+.image-candidate.is-floorplan {
+  border-color: #8db9d7;
+  background: #f1f8fd;
+  box-shadow: inset 0 0 0 1px rgba(46, 111, 158, 0.08);
+}
+
+.image-candidate-preview {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.image-candidate-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-candidate.is-floorplan .image-candidate-preview img {
+  object-fit: contain;
 }
 
 .image-candidate span {
