@@ -65,17 +65,18 @@ async function main() {
     await crawlSite(normalizeSite(site), global);
   }
 
+  const outputCandidates = global.floorplanOnly ? dedupeCandidateFloorplans(candidates) : candidates;
   const result = {
     version: 1,
     generatedAt: new Date().toISOString(),
     source: "local-crawler",
-    candidates,
+    candidates: outputCandidates,
     logs
   };
 
   await mkdir(path.dirname(outPath), { recursive: true });
   await writeFile(outPath, JSON.stringify(result, null, 2), "utf8");
-  console.log(`巡回完了: 候補 ${candidates.length}件 / ログ ${logs.length}件`);
+  console.log(`巡回完了: 候補 ${outputCandidates.length}件 / ログ ${logs.length}件`);
   console.log(`出力: ${outPath}`);
 }
 
@@ -652,13 +653,47 @@ function looksLikeArticleThumbnail(haystack) {
 }
 
 function dedupeFloorplanImages(images) {
-  const seen = new Set();
-  return images.filter((image) => {
+  const best = new Map();
+  for (const image of images) {
     const key = floorplanDedupeKey(image);
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+    const current = best.get(key);
+    if (!current || floorplanSpecificScore(image) > floorplanSpecificScore(current)) {
+      best.set(key, image);
+    }
+  }
+  return [...best.values()];
+}
+
+function dedupeCandidateFloorplans(candidateList) {
+  const seen = new Set();
+  const output = [];
+  for (const candidate of candidateList) {
+    const floorplans = dedupeFloorplanImages((candidate.imageCandidates ?? []).filter((image) => image.kind === "floorplan"));
+    const uniqueImages = [];
+    for (const image of floorplans) {
+      const key = floorplanDedupeKey(image);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      uniqueImages.push(image);
+    }
+    if (!uniqueImages.length) continue;
+    output.push({
+      ...candidate,
+      imageCandidates: uniqueImages,
+      imageUrlCandidates: uniqueImages.map((image) => image.url),
+      hasFloorplanImage: true
+    });
+  }
+  return output;
+}
+
+function floorplanSpecificScore(image) {
+  const signal = imageSignalText(image.alt, image.url);
+  let score = 0;
+  if (/layout|topview|top-view|間取り図|平面図|図面|madori|floor.?plan/i.test(signal)) score += 100;
+  if (/frontview|front-view|sideview|facade|exterior|外観|立面|banner|バナー/i.test(signal)) score -= 100;
+  if (/_[0-9]+[bsz]\.(?:jpe?g|png|webp)/i.test(signal)) score -= 20;
+  return score;
 }
 
 function floorplanDedupeKey(image) {

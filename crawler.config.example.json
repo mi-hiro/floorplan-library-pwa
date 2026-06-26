@@ -164,11 +164,15 @@
       "domain": "zerohome.jp",
       "searchUrl": "",
       "manualUrls": [
+        "https://zerohome.jp/chumon/plan/slim-house/",
+        "https://zerohome.jp/chumon/plan/two-story-house/",
+        "https://zerohome.jp/chumon/plan/two-family-house/",
+        "https://zerohome.jp/chumon/plan/one-story-house/",
         "https://zerohome.jp/chumon/plan/"
       ],
       "enabled": true,
       "crawlMode": "manualOnly",
-      "perRunLimit": 1,
+      "perRunLimit": 5,
       "delaySeconds": 60,
       "recrawlIntervalDays": 30,
       "sitemapUrl": "",
