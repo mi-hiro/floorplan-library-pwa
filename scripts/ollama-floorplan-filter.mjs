@@ -48,7 +48,7 @@ async function main() {
     const filteredImages = [];
     for (const image of candidate.imageCandidates ?? []) {
       if (!reviewKeys.has(imageKey(image))) {
-        filteredImages.push(image);
+        if (keepUnchecked) filteredImages.push(image);
         continue;
       }
 
@@ -61,7 +61,7 @@ async function main() {
         continue;
       }
 
-      const accepted = review.isFloorplan && review.confidence >= minConfidence;
+      const accepted = review.isFloorplan && review.confidence >= minConfidence && !isHardRejectedImageSignal(image);
       if (accepted || !removeRejected) {
         filteredImages.push({ ...image, ollamaReview: review });
       } else {
@@ -125,6 +125,7 @@ async function reviewImage(endpoint, model, image, settings) {
       "You are filtering images for a private Japanese residential floor-plan library.",
       "Decide whether the image is primarily a house floor plan, blueprint, top-view layout, or architectural plan drawing.",
       "Reject exterior photos, interior photos, icons, logos, maps, charts, banners, lifestyle photos, and generic illustrations.",
+      "Reject single-room illustrations, isometric room scenes, catalog covers, and 3D interior renderings unless they are clearly a whole-house top-view plan drawing.",
       "Return only compact JSON with keys: isFloorplan, confidence, reason.",
       "Use confidence from 0 to 1."
     ].join(" ");
@@ -222,8 +223,24 @@ function buildReviewKeySet(candidates, maxImages) {
 function imageReviewPriority(image) {
   if (image.ollamaReview?.status === "checked") return 4;
   if (image.needsOllamaReview || image.reviewReason) return 0;
-  if (!image.ollamaReview) return 1;
+  if (isHardRejectedImageSignal(image)) return 5;
+  if (looksLikeStrongPlanSignal(image)) return 1;
+  if (!image.ollamaReview) return 2;
   return 2;
+}
+
+function looksLikeStrongPlanSignal(image) {
+  return /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|drawing|\/plan[^/]*[-_]?img|N[0-9]+-[12]F/i.test(imageSignalText(image));
+}
+
+function isHardRejectedImageSignal(image) {
+  return /logo|icon|banner|baner|og画像|ogimage|ogp|catalog|カタログ|無料プレゼント|main_img|bn[-_]|blog[-_]?card|thumb|childroom|laundryroom|genmai|rice|外観|内観|リビング|キッチン|寝室|子ども部屋|ランドリールーム|interior|exterior|facade|hero|mainvisual/i.test(
+    imageSignalText(image)
+  );
+}
+
+function imageSignalText(image) {
+  return `${image.url || ""} ${image.alt || ""} ${image.title || ""}`;
 }
 
 function imageKey(image) {

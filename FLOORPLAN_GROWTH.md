@@ -8,6 +8,14 @@
 4. Common Crawlの保存済みHTMLから間取り画像候補を抜き出す
 5. Ollamaが起動していれば、画像が本当に間取り図か判定する
 
+Chrome検索で見つけた元ページURLを発見候補に足す場合は、先に `CHROME_DISCOVERY.md` の手順で `.tmp/chrome-search-links.txt` を作り、次を実行します。
+
+```powershell
+.\run-chrome-discovery.ps1
+```
+
+Chromeは画像保存ではなく、住宅会社・工務店・間取りページの発見補助として使います。
+
 ## 実行
 
 PowerShellでこのフォルダを開いて実行します。

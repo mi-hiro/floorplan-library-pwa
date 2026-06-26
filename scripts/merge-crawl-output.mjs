@@ -49,7 +49,7 @@ function dedupeCandidates(items) {
 }
 
 function looksDecorative(image) {
-  return /logo|icon|ico[-_]|banner|ogimage|txt[-_]|takusan|hajimete|prev[-_]image|next[-_]image|point[-_]/i.test(
+  return /logo|icon|ico[-_]|banner|baner|og画像|ogimage|ogp|catalog|カタログ|main_img|bn[-_]|blog[-_]?card|thumb|txt[-_]|takusan|hajimete|prev[-_]image|next[-_]image|point[-_]|childroom|laundryroom|genmai|rice/i.test(
     `${image.url || ""} ${image.alt || ""}`
   );
 }

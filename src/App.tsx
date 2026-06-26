@@ -348,8 +348,9 @@ function sanitizeImageCandidates(images: NonNullable<CrawlCandidate["imageCandid
 function isDisplayFloorplanImage(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
   if (isOllamaAcceptedFloorplan(image)) return true;
   if (image.ollamaReview?.status === "checked" && image.ollamaReview.isFloorplan === false) return false;
+  if (image.needsOllamaReview) return false;
   const signal = imageSignalText(image);
-  if (/logo|ロゴ|icon|avatar|profile|staff|banner|バナー|campaign|キャンペーン|gift|ギフト|外観|内観|施工事例|インテリア|リビング|寝室|キッチン|frontview|sideview|facade|exterior|interior|features?_img|feature_img|mainvisual|hero/i.test(signal)) {
+  if (/logo|ロゴ|icon|avatar|profile|staff|banner|baner|バナー|campaign|キャンペーン|gift|ギフト|catalog|カタログ|og画像|ogimage|blogcard|thumb|外観|内観|施工事例|インテリア|リビング|寝室|キッチン|frontview|sideview|facade|exterior|interior|features?_img|feature_img|mainvisual|hero/i.test(signal)) {
     return false;
   }
   return /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view|[2-5]\s*LDK|[0-9]{2}\s*坪/i.test(signal);

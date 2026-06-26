@@ -448,11 +448,17 @@ async function attachPermittedImageBodies(candidate, site, robots, global, waitB
 
 async function verifyCandidateImages(candidate, site, robots, global, waitBeforeFetch) {
   const verified = [];
+  const floorplanLimit = Math.max(1, Number(global.imageFetchLimit ?? candidate.imageCandidates.length));
+  let checkedFloorplans = 0;
   for (const image of candidate.imageCandidates) {
     if (image.kind !== "floorplan") {
       verified.push(image);
       continue;
     }
+    if (checkedFloorplans >= floorplanLimit) {
+      continue;
+    }
+    checkedFloorplans += 1;
     if (!isAllowedByRobots(robots.rules, image.url)) {
       addLog(site, image.url, "画像候補検出", "robots禁止", "画像URLがrobots.txtで禁止されているため候補から外します。");
       continue;

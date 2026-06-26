@@ -1,0 +1,33 @@
+{
+  "minScore": 35,
+  "maxUrls": 300,
+  "maxUrlsPerDomain": 8,
+  "maxSeedUrlsToAdd": 120,
+  "maxSeedUrlsPerDomain": 8,
+  "updateCommonCrawl": true,
+  "queries": [
+    "新築 間取り図 3LDK",
+    "注文住宅 間取り プラン集",
+    "工務店 間取り 実例",
+    "平屋 間取り図 4LDK",
+    "住宅会社 間取り 実例"
+  ],
+  "blockedDomains": [
+    "google.com",
+    "google.co.jp",
+    "bing.com",
+    "yahoo.co.jp",
+    "duckduckgo.com",
+    "pinterest.com",
+    "instagram.com",
+    "facebook.com",
+    "x.com",
+    "twitter.com",
+    "youtube.com",
+    "amazon.co.jp",
+    "rakuten.co.jp",
+    "suumo.jp",
+    "homes.co.jp",
+    "athome.co.jp"
+  ]
+}
