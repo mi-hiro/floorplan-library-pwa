@@ -1,4 +1,4 @@
-const CACHE_NAME = "floorplan-library-v2";
+const CACHE_NAME = "floorplan-library-v3";
 const SCOPE_URL = new URL(self.registration.scope);
 const APP_SHELL = ["./", "manifest.webmanifest"].map((path) => new URL(path, SCOPE_URL).toString());
 
