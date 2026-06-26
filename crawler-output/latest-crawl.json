@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T04:35:43.336Z",
+  "generatedAt": "2026-06-26T04:38:09.111Z",
   "source": "local-crawler",
   "candidates": [
     {
@@ -210,7 +210,7 @@
           "sourceUrl": "https://www.aqura.co.jp/"
         }
       ],
-      "fetchedAt": "2026-06-26T04:35:09.735Z",
+      "fetchedAt": "2026-06-26T04:37:33.402Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     },
@@ -226,166 +226,158 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/08/f2e20b08861990f51a4081596220906d.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/03/adb97f5fc919a1cac085b363337665a2-1-1024x682.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/11/f40f34e2077a6f3e656f7907be2f61f5-1024x683.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/05/a3d9be8920f1e5b92773110fdf0a6423.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/12/c95a2d9e63fa886fb5f50195297a4363.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2023/09/48eaa2754cba3c944c10d305afcc5a7f-1-1024x683.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/05/1243fe10938816165bb8bb15d8a594a4-1024x683.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/03/9c536522741587a167542ec151d3392f-1024x682.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/02/f228a4d8f29914dfc4c5058b4ea4b624-1024x683.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/01/6188001aefae5797820809f4917bc637-1024x768.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/08/1.png",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/04/2.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/03/7966bae78213db11914ad7af893f8431-1024x768.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/01/1ef3ddeff6b0d1d2f8bdb1fb58087827.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/01/904069b71c07287f65b93ef0ce708421.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/11/e54b761694de8a7bed8e229f743cee59.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/10/415d89e0da78f03091b2e4f7073ea9ef.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/08/3e82518db10b0b7ec0b3d02389c5d736.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/07/61733019597b1817c11d6e35e53ccc11.jpg",
-        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/07/d53db3c2da8bfdbb6e244b02e304a0f7.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/08/f2e20b08861990f51a4081596220906d.jpg.pagespeed.ce.CuXD694jxr.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/03/adb97f5fc919a1cac085b363337665a2-1-1024x682.jpg.pagespeed.ce.X3TaJLa6K-.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/11/f40f34e2077a6f3e656f7907be2f61f5-1024x683.jpg.pagespeed.ce.t81NCUOMdv.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/05/a3d9be8920f1e5b92773110fdf0a6423.jpg.pagespeed.ce.FAF5uw7kKD.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/12/c95a2d9e63fa886fb5f50195297a4363.jpg.pagespeed.ce.1CvRWtH1ow.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2023/09/48eaa2754cba3c944c10d305afcc5a7f-1-1024x683.jpg.pagespeed.ce.NqoA5xJ7N4.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/05/1243fe10938816165bb8bb15d8a594a4-1024x683.jpg.pagespeed.ce.SJvlX3EOJS.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/03/9c536522741587a167542ec151d3392f-1024x682.jpg.pagespeed.ce.rZY8b_PWE7.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/02/f228a4d8f29914dfc4c5058b4ea4b624-1024x683.jpg.pagespeed.ce.6K4-_McsXj.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/01/6188001aefae5797820809f4917bc637-1024x768.jpg.pagespeed.ce.snuS89Z114.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/08/1.png.pagespeed.ce.9Lqs3aBeaZ.png",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/04/2.jpg.pagespeed.ce.I0juc4mS4a.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/01/1ef3ddeff6b0d1d2f8bdb1fb58087827.jpg.pagespeed.ce.7ZoepaZ0C2.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/01/904069b71c07287f65b93ef0ce708421.jpg.pagespeed.ce.N5_QA_9T6Z.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/11/e54b761694de8a7bed8e229f743cee59.jpg.pagespeed.ce.8e_jZkuQ-w.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/10/415d89e0da78f03091b2e4f7073ea9ef.jpg.pagespeed.ce.BzUGpZ5A3F.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/08/3e82518db10b0b7ec0b3d02389c5d736.jpg.pagespeed.ce.gzgLVJ5UbY.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/07/61733019597b1817c11d6e35e53ccc11.jpg.pagespeed.ce.cRZrGqNZoc.jpg",
+        "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/07/d53db3c2da8bfdbb6e244b02e304a0f7.jpg.pagespeed.ce.3pWXaEPjTE.jpg",
         "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/themes/marusho2026/img/common/img_cvs.png"
       ],
       "imageCandidates": [
         {
-          "id": "image_candidate_491ce729f4ed18f0",
+          "id": "image_candidate_075074aa1ae3297c",
           "kind": "floorplan",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/08/f2e20b08861990f51a4081596220906d.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/08/f2e20b08861990f51a4081596220906d.jpg.pagespeed.ce.CuXD694jxr.jpg",
           "alt": "【施工事例】おしゃれな吹き抜けのある間取り",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_2bf7d3e163885a66",
+          "id": "image_candidate_c743b5a9168c99bd",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/03/adb97f5fc919a1cac085b363337665a2-1-1024x682.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/03/adb97f5fc919a1cac085b363337665a2-1-1024x682.jpg.pagespeed.ce.X3TaJLa6K-.jpg",
           "alt": "【施工事例】ホワイトトーンで統一した平屋｜収納と家事動線にこだわった暮らしやすい住まい",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_b65b1385027364ea",
+          "id": "image_candidate_4793c76f1014a225",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/11/f40f34e2077a6f3e656f7907be2f61f5-1024x683.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/11/f40f34e2077a6f3e656f7907be2f61f5-1024x683.jpg.pagespeed.ce.t81NCUOMdv.jpg",
           "alt": "【施工事例】シックでかっこよく、暮らしやすさも満点！こだわりを詰め込んだ理想の2階建て！",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_c4f4199a764858a6",
+          "id": "image_candidate_ce36fe16129541d7",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/05/a3d9be8920f1e5b92773110fdf0a6423.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/05/a3d9be8920f1e5b92773110fdf0a6423.jpg.pagespeed.ce.FAF5uw7kKD.jpg",
           "alt": "【施工事例】もっとおしゃれに、もっと暮らしやすく！愛犬家さんの欲張りな平屋",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_37b1ad69fc99eb9b",
+          "id": "image_candidate_2c8d7c68dffce905",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/12/c95a2d9e63fa886fb5f50195297a4363.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/12/c95a2d9e63fa886fb5f50195297a4363.jpg.pagespeed.ce.1CvRWtH1ow.jpg",
           "alt": "【施工事例】こだわり造作収納のある平屋",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_757cefc40198b60e",
+          "id": "image_candidate_24c08e37f594306c",
           "kind": "exterior",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2023/09/48eaa2754cba3c944c10d305afcc5a7f-1-1024x683.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2023/09/48eaa2754cba3c944c10d305afcc5a7f-1-1024x683.jpg.pagespeed.ce.NqoA5xJ7N4.jpg",
           "alt": "外観",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_5a376c42214e9f61",
+          "id": "image_candidate_3a0714f0ab102a14",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/05/1243fe10938816165bb8bb15d8a594a4-1024x683.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/05/1243fe10938816165bb8bb15d8a594a4-1024x683.jpg.pagespeed.ce.SJvlX3EOJS.jpg",
           "alt": "【施工事例】「ただいま」が泥だらけでも大丈夫。子育て目線を詰め込んだ家",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_82b54a1ca161091a",
+          "id": "image_candidate_30cb11d5ce828d87",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/03/9c536522741587a167542ec151d3392f-1024x682.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/03/9c536522741587a167542ec151d3392f-1024x682.jpg.pagespeed.ce.rZY8b_PWE7.jpg",
           "alt": "【施工事例】和室カウンターと1階ファミクロのある家｜収納と生活動線を考えた注文住宅",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_ec78d8408bfa33fb",
+          "id": "image_candidate_bbf78d6b014f9a0c",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/02/f228a4d8f29914dfc4c5058b4ea4b624-1024x683.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/02/f228a4d8f29914dfc4c5058b4ea4b624-1024x683.jpg.pagespeed.ce.6K4-_McsXj.jpg",
           "alt": "【施工事例】デザインも使いやすさも妥協しない！毎日がときめくこだわり満載の住まい",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_c45802a373653272",
+          "id": "image_candidate_514fcabd2b9218f2",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/01/6188001aefae5797820809f4917bc637-1024x768.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2026/01/6188001aefae5797820809f4917bc637-1024x768.jpg.pagespeed.ce.snuS89Z114.jpg",
           "alt": "【施工事例】完全分離型だからこそ叶う、理想の二世帯住宅",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_4943cf9794415e43",
+          "id": "image_candidate_52e3ff7900677982",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/08/1.png",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/08/1.png.pagespeed.ce.9Lqs3aBeaZ.png",
           "alt": "【施工事例】趣味も子育ても大切にできる住まい",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_8092b04d6b87d6fa",
+          "id": "image_candidate_5800f6018134bff0",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/04/2.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/04/2.jpg.pagespeed.ce.I0juc4mS4a.jpg",
           "alt": "【施工事例】見上げていたくなる天井づくり！",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_eac95fc41ec9b2df",
+          "id": "image_candidate_ac0e6e9233644134",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/03/7966bae78213db11914ad7af893f8431-1024x768.jpg",
-          "alt": "【施工事例】おしゃれ素材×広見せテク～開放的な空間演出～",
-          "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
-        },
-        {
-          "id": "image_candidate_ed64aee7082c0ea7",
-          "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/01/1ef3ddeff6b0d1d2f8bdb1fb58087827.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/01/1ef3ddeff6b0d1d2f8bdb1fb58087827.jpg.pagespeed.ce.7ZoepaZ0C2.jpg",
           "alt": "【施工事例】おしゃれなモノトーンハウス",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_1331ac1f21f5c9bb",
+          "id": "image_candidate_40038f54477a3731",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/01/904069b71c07287f65b93ef0ce708421.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2025/01/904069b71c07287f65b93ef0ce708421.jpg.pagespeed.ce.N5_QA_9T6Z.jpg",
           "alt": "【施工事例】思い描いた理想をカタチにした『扉』",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_45cf5571b86b22c1",
+          "id": "image_candidate_bafb21d3577c2234",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/11/e54b761694de8a7bed8e229f743cee59.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/11/e54b761694de8a7bed8e229f743cee59.jpg.pagespeed.ce.8e_jZkuQ-w.jpg",
           "alt": "【施工事例】シンプルだけど“こだわり派”の素敵なお家が完成",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_83a0cf38a1207b84",
+          "id": "image_candidate_3a25dd40b93d68e8",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/10/415d89e0da78f03091b2e4f7073ea9ef.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/10/415d89e0da78f03091b2e4f7073ea9ef.jpg.pagespeed.ce.BzUGpZ5A3F.jpg",
           "alt": "【施工事例】趣味と実用性を兼ね備えた遊び心のあるお家",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_3159366e7caec053",
+          "id": "image_candidate_6ff49daacd7a6c8e",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/08/3e82518db10b0b7ec0b3d02389c5d736.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/08/3e82518db10b0b7ec0b3d02389c5d736.jpg.pagespeed.ce.gzgLVJ5UbY.jpg",
           "alt": "【施工事例】こだわりの照明と勾配天井でつくりあげる理想の空間",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_5fe44bb915b536a5",
+          "id": "image_candidate_8fb89be66c5e429e",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/07/61733019597b1817c11d6e35e53ccc11.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/07/61733019597b1817c11d6e35e53ccc11.jpg.pagespeed.ce.cRZrGqNZoc.jpg",
           "alt": "【施工事例】大きな窓から中庭を眺める憧れの暮らし",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
         {
-          "id": "image_candidate_21291a6170931996",
+          "id": "image_candidate_ede6072ef0ad3087",
           "kind": "other",
-          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/07/d53db3c2da8bfdbb6e244b02e304a0f7.jpg",
+          "url": "https://www.marusho-kensetsu.co.jp/wp2023/wp-content/uploads/2024/07/d53db3c2da8bfdbb6e244b02e304a0f7.jpg.pagespeed.ce.3pWXaEPjTE.jpg",
           "alt": "【施工事例】とても素敵な理想のお家になりました。",
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         },
@@ -397,7 +389,7 @@
           "sourceUrl": "https://www.marusho-kensetsu.co.jp/works/"
         }
       ],
-      "fetchedAt": "2026-06-26T04:35:15.780Z",
+      "fetchedAt": "2026-06-26T04:37:39.937Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     },
@@ -600,7 +592,7 @@
           "sourceUrl": "https://irohaie.com/column/1403/"
         }
       ],
-      "fetchedAt": "2026-06-26T04:35:34.114Z",
+      "fetchedAt": "2026-06-26T04:37:57.957Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     },
@@ -618,10 +610,6 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/floorplan/txt-takusan02.png",
-        "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/floorplan/txt-takusan02-sp.png",
-        "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/floorplan/txt-hajimete02.png",
-        "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/floorplan/txt-hajimete02-sp.png",
         "https://irohaie.com/floor-plan/2070/images/floorplan/prev-image.png",
         "https://irohaie.com/floor-plan/2070/imagaes/floorplan/next-image.png",
         "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/top/column3_img_mitsuboshi_text.png",
@@ -643,34 +631,6 @@
         "https://www.facebook.com/tr?id=467546648190393&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E3%81%9F%E3%81%A0%E3%81%84%E3%81%BE%E5%8B%95%E7%B7%9A%E3%81%8C%E5%85%85%E5%AE%9F%E3%81%97%E3%81%9F%E5%B9%B3%E5%B1%8B&cd%5Bpost_type%5D=floor-plan&cd%5Bpost_id%5D=2070&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=irohaie.com%2Ffloor-plan%2F2070%2F"
       ],
       "imageCandidates": [
-        {
-          "id": "image_candidate_8e8ad387471c6133",
-          "kind": "floorplan",
-          "url": "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/floorplan/txt-takusan02.png",
-          "alt": "もっと沢山の間取りをみたい方へ",
-          "sourceUrl": "https://irohaie.com/floor-plan/2070/"
-        },
-        {
-          "id": "image_candidate_9a5bf69de78fee41",
-          "kind": "floorplan",
-          "url": "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/floorplan/txt-takusan02-sp.png",
-          "alt": "もっと沢山の間取りをみたい方へ",
-          "sourceUrl": "https://irohaie.com/floor-plan/2070/"
-        },
-        {
-          "id": "image_candidate_02a6f3527369e30c",
-          "kind": "floorplan",
-          "url": "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/floorplan/txt-hajimete02.png",
-          "alt": "はじめての家づくりをする方へ",
-          "sourceUrl": "https://irohaie.com/floor-plan/2070/"
-        },
-        {
-          "id": "image_candidate_7dabdaf22c39dd61",
-          "kind": "floorplan",
-          "url": "https://irohaie.com/wpcms/wp-content/themes/irohaie/images/floorplan/txt-hajimete02-sp.png",
-          "alt": "はじめての家づくりをする方へ",
-          "sourceUrl": "https://irohaie.com/floor-plan/2070/"
-        },
         {
           "id": "image_candidate_79efd7cdaf8e9aff",
           "kind": "floorplan",
@@ -805,7 +765,7 @@
           "sourceUrl": "https://irohaie.com/floor-plan/2070/"
         }
       ],
-      "fetchedAt": "2026-06-26T04:35:39.450Z",
+      "fetchedAt": "2026-06-26T04:38:04.519Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     },
@@ -1018,15 +978,15 @@
           "sourceUrl": "https://hiyoriblog.com/1floorplan11/"
         }
       ],
-      "fetchedAt": "2026-06-26T04:35:39.924Z",
+      "fetchedAt": "2026-06-26T04:38:05.030Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     }
   ],
   "logs": [
     {
-      "id": "log_3bf92dd6-6802-4608-9fbd-1cd98552cc7e",
-      "createdAt": "2026-06-26T04:34:31.201Z",
+      "id": "log_db57862e-26b3-4ff7-8b18-fa249ea74d71",
+      "createdAt": "2026-06-26T04:36:54.038Z",
       "siteName": "SUUMO",
       "domain": "suumo.jp",
       "url": "-",
@@ -1035,8 +995,8 @@
       "message": "サイト設定がOFFのため巡回しません。"
     },
     {
-      "id": "log_f8cc7acb-5388-4fb2-9f94-a078d7c211e2",
-      "createdAt": "2026-06-26T04:34:31.219Z",
+      "id": "log_6b18219e-2bb9-401e-be00-2a0e8f804677",
+      "createdAt": "2026-06-26T04:36:54.049Z",
       "siteName": "アットホーム",
       "domain": "athome.co.jp",
       "url": "-",
@@ -1045,8 +1005,8 @@
       "message": "サイト設定がOFFのため巡回しません。"
     },
     {
-      "id": "log_080357c9-8690-4bcb-9c7e-c2c675728f2d",
-      "createdAt": "2026-06-26T04:34:31.219Z",
+      "id": "log_19b44e16-35a8-4009-bc0e-c13d942bdb9c",
+      "createdAt": "2026-06-26T04:36:54.049Z",
       "siteName": "HOME'S",
       "domain": "homes.co.jp",
       "url": "-",
@@ -1055,8 +1015,8 @@
       "message": "サイト設定がOFFのため巡回しません。"
     },
     {
-      "id": "log_8dacf62e-5e51-48f7-851e-19b5e1b29629",
-      "createdAt": "2026-06-26T04:34:31.607Z",
+      "id": "log_0f964e40-cfa6-4c9d-9b1e-4e684c9a831b",
+      "createdAt": "2026-06-26T04:36:54.451Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/robots.txt",
@@ -1065,8 +1025,8 @@
       "message": "11件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_960d1d0f-5dad-44c7-8925-83fc65ca9c35",
-      "createdAt": "2026-06-26T04:34:32.298Z",
+      "id": "log_f8c6c6e4-5e62-4f65-ae43-21009c7d37b0",
+      "createdAt": "2026-06-26T04:36:54.585Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/sitemap.xml",
@@ -1075,8 +1035,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_ff2c2ad1-be03-4a8b-a6aa-a092f2e38e88",
-      "createdAt": "2026-06-26T04:34:32.303Z",
+      "id": "log_ba9b7713-30d6-4110-b979-d19ae00aaba9",
+      "createdAt": "2026-06-26T04:36:54.590Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/sitemap.xml",
@@ -1085,8 +1045,8 @@
       "message": "3298件のURLを検出しました。"
     },
     {
-      "id": "log_bf58f1d8-c852-420f-8778-5609392700f9",
-      "createdAt": "2026-06-26T04:34:32.454Z",
+      "id": "log_a66132b5-e498-4cdb-bf7f-176507643ba3",
+      "createdAt": "2026-06-26T04:36:54.745Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/bunjou/",
@@ -1095,8 +1055,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_1e67db29-f47e-47f7-ae23-462c0379c106",
-      "createdAt": "2026-06-26T04:34:37.841Z",
+      "id": "log_431ac736-107b-4909-9b99-e9ede001bd59",
+      "createdAt": "2026-06-26T04:37:01.900Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/kodate/ideas/lifestyle/puremium/floor-plan/",
@@ -1105,8 +1065,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_7952d226-8a9a-4926-8488-6ef317a69c5a",
-      "createdAt": "2026-06-26T04:34:37.851Z",
+      "id": "log_57891a28-8234-4bd6-91a4-63ce8d29a5a0",
+      "createdAt": "2026-06-26T04:37:01.908Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/bunjou/",
@@ -1115,8 +1075,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_87a7f355-0092-432f-afda-c5413b0228d2",
-      "createdAt": "2026-06-26T04:34:38.062Z",
+      "id": "log_43134309-117f-430e-9c02-517432667a59",
+      "createdAt": "2026-06-26T04:37:02.089Z",
       "siteName": "大和ハウス",
       "domain": "daiwahouse.co.jp",
       "url": "https://www.daiwahouse.co.jp/robots.txt",
@@ -1125,8 +1085,8 @@
       "message": "robots.txt確認でHTTP 403"
     },
     {
-      "id": "log_43a739b3-25ec-4f55-bbed-8aeb31d1b8f1",
-      "createdAt": "2026-06-26T04:34:38.268Z",
+      "id": "log_a2146955-a2f1-4a05-9779-80b4938d4554",
+      "createdAt": "2026-06-26T04:37:02.303Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/robots.txt",
@@ -1135,8 +1095,8 @@
       "message": "1件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_c549f2e0-4450-4821-8dab-8e2d68d25dc2",
-      "createdAt": "2026-06-26T04:34:38.627Z",
+      "id": "log_8b930761-c51c-4524-b363-9685319de303",
+      "createdAt": "2026-06-26T04:37:02.593Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/sitemap.xml",
@@ -1145,8 +1105,8 @@
       "message": "対象ファイルは見つかりませんでした。"
     },
     {
-      "id": "log_52ca50a0-41c7-4f60-901a-6913b6912411",
-      "createdAt": "2026-06-26T04:34:38.763Z",
+      "id": "log_382f5380-7bd0-4aa4-87b8-a26aaec564cd",
+      "createdAt": "2026-06-26T04:37:02.715Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/bunjyo/",
@@ -1155,8 +1115,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_6460116f-a256-4387-9cc1-1d911474c012",
-      "createdAt": "2026-06-26T04:34:44.180Z",
+      "id": "log_b3774fa5-57a6-44c7-8902-34b0d1d5e0a6",
+      "createdAt": "2026-06-26T04:37:08.093Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/ie/modelhouse/",
@@ -1165,8 +1125,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_7fb09dab-68f0-40d7-868d-c1ca3af14a99",
-      "createdAt": "2026-06-26T04:34:44.195Z",
+      "id": "log_8e66ca3b-677f-495b-8117-8bca0e30916c",
+      "createdAt": "2026-06-26T04:37:08.107Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/bunjyo/",
@@ -1175,8 +1135,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_98e2f035-dfcf-4a58-b272-8a6d883645a9",
-      "createdAt": "2026-06-26T04:34:44.415Z",
+      "id": "log_8b9b12f0-7085-43b0-a4ae-f192a853cdb1",
+      "createdAt": "2026-06-26T04:37:08.330Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/robots.txt",
@@ -1185,8 +1145,8 @@
       "message": "1件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_1802de3a-d3da-4e60-8644-2b8ec0d3be8c",
-      "createdAt": "2026-06-26T04:34:44.645Z",
+      "id": "log_3d0285da-591b-4514-bf66-34916b1dbfbd",
+      "createdAt": "2026-06-26T04:37:08.585Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/sitemap.xml",
@@ -1195,8 +1155,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_657e2360-5187-406f-a1de-a5f7bcacdb71",
-      "createdAt": "2026-06-26T04:34:44.648Z",
+      "id": "log_80e12eb2-4206-4027-b911-909c6ac0eb26",
+      "createdAt": "2026-06-26T04:37:08.587Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/sitemap.xml",
@@ -1205,8 +1165,8 @@
       "message": "1748件のURLを検出しました。"
     },
     {
-      "id": "log_5edbb46d-0ae7-4e2c-b0aa-1deeb1f93dbe",
-      "createdAt": "2026-06-26T04:34:44.720Z",
+      "id": "log_569ea01f-8711-4e10-96f5-2a0edb34aa11",
+      "createdAt": "2026-06-26T04:37:08.659Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/land/",
@@ -1215,8 +1175,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_1bdd2a63-9f28-4bbf-982f-97b659528277",
-      "createdAt": "2026-06-26T04:34:50.269Z",
+      "id": "log_d31842ab-9cc1-4dc0-9c76-f93a9302c93b",
+      "createdAt": "2026-06-26T04:37:14.197Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/iikoto/loan/",
@@ -1225,8 +1185,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_8d19ff0f-0e59-42c4-8688-1031f877b064",
-      "createdAt": "2026-06-26T04:34:50.271Z",
+      "id": "log_ec990def-4883-48f2-9c96-f6648e06c9d8",
+      "createdAt": "2026-06-26T04:37:14.202Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/land/",
@@ -1235,8 +1195,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_1357d5d5-b298-43b4-9cbb-98a2cfb6eb50",
-      "createdAt": "2026-06-26T04:34:51.009Z",
+      "id": "log_23ed9749-38f4-4500-9d64-dbca7a240717",
+      "createdAt": "2026-06-26T04:37:14.920Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/robots.txt",
@@ -1245,8 +1205,8 @@
       "message": "1件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_4d27f99c-b715-430f-b220-d0d4c2842f94",
-      "createdAt": "2026-06-26T04:34:51.047Z",
+      "id": "log_28c6b29e-d047-471d-afa9-0f72573cd857",
+      "createdAt": "2026-06-26T04:37:14.955Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/sitemap.xml",
@@ -1255,8 +1215,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_20d08dda-9005-45da-8cbd-8615d3d94423",
-      "createdAt": "2026-06-26T04:34:51.048Z",
+      "id": "log_1447aadb-9280-4139-a6fa-d709a217b877",
+      "createdAt": "2026-06-26T04:37:14.956Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/sitemap.xml",
@@ -1265,8 +1225,8 @@
       "message": "911件のURLを検出しました。"
     },
     {
-      "id": "log_d6e742e1-68f7-44e9-b855-74d996ef9009",
-      "createdAt": "2026-06-26T04:34:51.111Z",
+      "id": "log_ed4bd586-93d6-4ab1-b6f5-8db8dc52af80",
+      "createdAt": "2026-06-26T04:37:15.022Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/estate/",
@@ -1275,8 +1235,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_6bd99c39-4065-4666-bda2-b243a7a6c04e",
-      "createdAt": "2026-06-26T04:34:56.334Z",
+      "id": "log_a20d8342-8843-4343-a42d-2674c6ff4dde",
+      "createdAt": "2026-06-26T04:37:20.245Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/madori/imagehint/bedroom/workspace/",
@@ -1285,8 +1245,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_405e96af-0230-46ed-996b-9432eca7ee1c",
-      "createdAt": "2026-06-26T04:34:56.338Z",
+      "id": "log_7f4d81ab-ddbd-480e-9dd4-e8055ecfd76c",
+      "createdAt": "2026-06-26T04:37:20.249Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/estate/",
@@ -1295,8 +1255,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_ced997e0-1233-4bde-aca2-841ca4c9c48a",
-      "createdAt": "2026-06-26T04:34:56.524Z",
+      "id": "log_24cb48dd-c477-4e0c-9cbb-51fe183e64c9",
+      "createdAt": "2026-06-26T04:37:20.460Z",
       "siteName": "ミサワホーム",
       "domain": "misawa.co.jp",
       "url": "https://www.misawa.co.jp/robots.txt",
@@ -1305,8 +1265,8 @@
       "message": "robots.txt確認でHTTP 403"
     },
     {
-      "id": "log_e967d8b9-c252-47ee-89b2-83ef2da31c33",
-      "createdAt": "2026-06-26T04:34:56.838Z",
+      "id": "log_89f74416-fe2d-40de-b76b-07805f072742",
+      "createdAt": "2026-06-26T04:37:20.701Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/robots.txt",
@@ -1315,8 +1275,8 @@
       "message": "3件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_d03be904-c424-4540-97db-61064a4a10a1",
-      "createdAt": "2026-06-26T04:34:57.134Z",
+      "id": "log_5fbfd885-3c0b-4b38-97b1-25a71fddd60a",
+      "createdAt": "2026-06-26T04:37:20.908Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/sitemap.xml",
@@ -1325,8 +1285,8 @@
       "message": "対象ファイルは見つかりませんでした。"
     },
     {
-      "id": "log_4b2d428b-3588-424c-9b2a-13f2b675d7f8",
-      "createdAt": "2026-06-26T04:34:57.181Z",
+      "id": "log_9d46f626-ade7-46a6-8fab-224b92213cc1",
+      "createdAt": "2026-06-26T04:37:20.957Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/kyoten/bunjyo/",
@@ -1335,8 +1295,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_32807ef6-4c84-443a-9c00-0e9191ae1acd",
-      "createdAt": "2026-06-26T04:35:02.458Z",
+      "id": "log_b41c0dc5-fd43-4bbf-aaf2-178b44558a05",
+      "createdAt": "2026-06-26T04:37:26.198Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/case/sumai_tag.html?tag1=%e6%b3%a8%e6%96%87%e4%bd%8f%e5%ae%85",
@@ -1345,8 +1305,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_8f7e60c1-7217-4d0a-8cab-0d74d9ed6e69",
-      "createdAt": "2026-06-26T04:35:02.464Z",
+      "id": "log_c40d27f2-7ff5-4241-aa21-a89725955f49",
+      "createdAt": "2026-06-26T04:37:26.205Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/kyoten/bunjyo/",
@@ -1355,8 +1315,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_5601386d-7fa0-4e0b-b332-06821087eb27",
-      "createdAt": "2026-06-26T04:35:02.931Z",
+      "id": "log_39caf42c-02aa-4213-8a63-80245986b3c2",
+      "createdAt": "2026-06-26T04:37:26.579Z",
       "siteName": "トヨタホーム",
       "domain": "toyotahome.co.jp",
       "url": "https://www.toyotahome.co.jp/robots.txt",
@@ -1365,8 +1325,8 @@
       "message": "robots.txt確認でHTTP 403"
     },
     {
-      "id": "log_00fc4016-6c84-4a70-a3f8-1cb706173a33",
-      "createdAt": "2026-06-26T04:35:03.297Z",
+      "id": "log_671f3a49-9a1f-4841-ac59-ca579967a491",
+      "createdAt": "2026-06-26T04:37:26.840Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/robots.txt",
@@ -1375,8 +1335,8 @@
       "message": "robots.txtが見つからないため、明示的な禁止なしとして扱います。"
     },
     {
-      "id": "log_e23d8aae-79e4-404a-b9f5-40b1b9fb4ac4",
-      "createdAt": "2026-06-26T04:35:03.520Z",
+      "id": "log_2c184cb0-ae92-409a-9961-16ad28eecf96",
+      "createdAt": "2026-06-26T04:37:27.041Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/sitemap.xml",
@@ -1385,8 +1345,8 @@
       "message": "対象ファイルは見つかりませんでした。"
     },
     {
-      "id": "log_f34545a4-3886-4089-860c-c9a03c8b66ea",
-      "createdAt": "2026-06-26T04:35:03.980Z",
+      "id": "log_4ca8a3a6-f36f-4d19-babd-71c12771fdf0",
+      "createdAt": "2026-06-26T04:37:27.621Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/bunjyo/",
@@ -1395,8 +1355,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_c42153a0-f5f7-4dcb-b24e-29c0377ec990",
-      "createdAt": "2026-06-26T04:35:09.186Z",
+      "id": "log_dcd4fde1-46ed-475f-98f4-75e1c279104c",
+      "createdAt": "2026-06-26T04:37:32.854Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/home/works/",
@@ -1405,8 +1365,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_01c9bded-5f29-4b38-acd5-6a81724b52c9",
-      "createdAt": "2026-06-26T04:35:09.194Z",
+      "id": "log_11de60e8-3cb5-4ce8-b7ec-7c4e4cea75d3",
+      "createdAt": "2026-06-26T04:37:32.863Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/bunjyo/",
@@ -1415,8 +1375,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_501b94ab-c937-48dc-84bb-c77ab895f432",
-      "createdAt": "2026-06-26T04:35:09.387Z",
+      "id": "log_fdb216c7-a327-40d1-ac94-5ad3a244c8fa",
+      "createdAt": "2026-06-26T04:37:33.066Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/robots.txt",
@@ -1425,8 +1385,8 @@
       "message": "5件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_904626e8-c081-4a39-8397-e5688c782118",
-      "createdAt": "2026-06-26T04:35:09.655Z",
+      "id": "log_aafa85b6-5985-426a-bf64-e2bf4d57a5bf",
+      "createdAt": "2026-06-26T04:37:33.317Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/",
@@ -1435,8 +1395,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_a1b55154-7d0e-4c81-afc9-af96a20bc989",
-      "createdAt": "2026-06-26T04:35:09.656Z",
+      "id": "log_9d224098-06b4-4435-a69f-e36ffb38c94c",
+      "createdAt": "2026-06-26T04:37:33.317Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/sitemap.xml",
@@ -1445,8 +1405,8 @@
       "message": "0件のURLを検出しました。"
     },
     {
-      "id": "log_594d50c0-f1ba-49d2-8a97-c1f93e6a80ba",
-      "createdAt": "2026-06-26T04:35:09.732Z",
+      "id": "log_09d9b8cb-1eef-4599-b940-a32b3653d7c4",
+      "createdAt": "2026-06-26T04:37:33.397Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/",
@@ -1455,8 +1415,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_aacc24de-3a65-4a39-9f06-188b3c68b079",
-      "createdAt": "2026-06-26T04:35:09.735Z",
+      "id": "log_7f0ac48b-e02c-4076-bb5b-c4f5435ccbfd",
+      "createdAt": "2026-06-26T04:37:33.403Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/",
@@ -1465,8 +1425,8 @@
       "message": "AQ Group アキュラホーム を確認待ち候補として保存しました。"
     },
     {
-      "id": "log_16ccac31-9963-469b-b3b5-79eeb0ac4f80",
-      "createdAt": "2026-06-26T04:35:15.083Z",
+      "id": "log_c31177fe-6823-4e97-862a-1de22eb75ce2",
+      "createdAt": "2026-06-26T04:37:39.044Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/modelhouse/",
@@ -1475,8 +1435,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_509a7910-9b97-4995-b074-94ba0b15c1ca",
-      "createdAt": "2026-06-26T04:35:15.085Z",
+      "id": "log_a42b9926-09ee-4764-9bf0-ace8659d944f",
+      "createdAt": "2026-06-26T04:37:39.046Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/",
@@ -1485,8 +1445,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_b40a86dc-3f14-48ec-bb68-cf5aa6aaffc2",
-      "createdAt": "2026-06-26T04:35:15.301Z",
+      "id": "log_64988379-7716-40ae-afc9-9e4f1d687149",
+      "createdAt": "2026-06-26T04:37:39.354Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/robots.txt",
@@ -1495,8 +1455,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_e21b5730-ef3d-4eb9-965a-d452080890f8",
-      "createdAt": "2026-06-26T04:35:15.585Z",
+      "id": "log_15460ff0-a267-48ed-b6ec-3e4837a2b622",
+      "createdAt": "2026-06-26T04:37:39.735Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/sitemap.xml",
@@ -1505,8 +1465,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_bb23b63c-9e4a-4a98-92cb-e893b81d1e42",
-      "createdAt": "2026-06-26T04:35:15.585Z",
+      "id": "log_37dbb60b-2155-4d7c-bd66-7c2fea987f5f",
+      "createdAt": "2026-06-26T04:37:39.735Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/sitemap.xml",
@@ -1515,8 +1475,8 @@
       "message": "19件のURLを検出しました。"
     },
     {
-      "id": "log_c2c70f21-73cb-4f5d-aca3-63094ce072a9",
-      "createdAt": "2026-06-26T04:35:15.777Z",
+      "id": "log_5e685f28-ee34-4080-bd65-93c05ec5fcd4",
+      "createdAt": "2026-06-26T04:37:39.934Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/works/",
@@ -1525,8 +1485,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_b61399b6-c114-4277-af60-34febd580bc6",
-      "createdAt": "2026-06-26T04:35:15.780Z",
+      "id": "log_d92e52c9-06d9-4b15-bee4-2b8d0f0608ef",
+      "createdAt": "2026-06-26T04:37:39.937Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/works/",
@@ -1535,8 +1495,8 @@
       "message": "施工事例｜宮崎・鹿児島の注文住宅・自由設計なら株式会社丸商建設 を確認待ち候補として保存しました。"
     },
     {
-      "id": "log_765bbdf2-6a38-4a88-a691-c6edaca978e0",
-      "createdAt": "2026-06-26T04:35:21.086Z",
+      "id": "log_ecc063ae-968f-4573-b14e-03a718420d96",
+      "createdAt": "2026-06-26T04:37:45.201Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/works-sitemap.xml",
@@ -1545,8 +1505,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_71d058e6-91a8-4976-89d4-cad44736535c",
-      "createdAt": "2026-06-26T04:35:21.088Z",
+      "id": "log_c01e9c94-fe38-437c-8221-ade5908bafaf",
+      "createdAt": "2026-06-26T04:37:45.202Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/works/",
@@ -1555,8 +1515,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_10415d9a-aeda-486a-b25b-e6a567fa00ef",
-      "createdAt": "2026-06-26T04:35:21.301Z",
+      "id": "log_1fb3697e-a75d-4d63-b2ed-5518c8b0e4c3",
+      "createdAt": "2026-06-26T04:37:45.446Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/robots.txt",
@@ -1565,8 +1525,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_65ab25d9-f160-4ed8-9d84-8755823103c7",
-      "createdAt": "2026-06-26T04:35:21.675Z",
+      "id": "log_f61aaa7b-7f11-422f-96fd-f932ff72f4d3",
+      "createdAt": "2026-06-26T04:37:45.814Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/wp-sitemap.xml",
@@ -1575,8 +1535,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_eab1fa5e-b3c6-44df-b7ef-1a5bfe1cf23e",
-      "createdAt": "2026-06-26T04:35:21.675Z",
+      "id": "log_b161a8ae-3d98-457f-83ee-a7d5cda74be8",
+      "createdAt": "2026-06-26T04:37:45.815Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/sitemap.xml",
@@ -1585,8 +1545,8 @@
       "message": "19件のURLを検出しました。"
     },
     {
-      "id": "log_5ce82145-b2ba-4919-ba52-ff5bf9081135",
-      "createdAt": "2026-06-26T04:35:21.761Z",
+      "id": "log_ab8bb8a0-f2e0-441b-8169-8f3caac87a3f",
+      "createdAt": "2026-06-26T04:37:45.910Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/works",
@@ -1595,8 +1555,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_3909232c-f65a-4bec-9db4-4359ce69400a",
-      "createdAt": "2026-06-26T04:35:26.982Z",
+      "id": "log_612b48ec-cde4-4272-988f-5efa4fe80843",
+      "createdAt": "2026-06-26T04:37:51.136Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/wp-sitemap-posts-works-1.xml",
@@ -1605,8 +1565,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_c8738ae4-c70c-4d5a-87f6-4900a767186f",
-      "createdAt": "2026-06-26T04:35:26.982Z",
+      "id": "log_5c63e9d9-96a6-4bc1-900b-f8243abc2018",
+      "createdAt": "2026-06-26T04:37:51.136Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/works/",
@@ -1615,8 +1575,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_b7ff5bb9-b348-4f69-9eb1-ac9b00b5ae72",
-      "createdAt": "2026-06-26T04:35:27.273Z",
+      "id": "log_71001c74-59a0-45e4-aff8-98e77624e31f",
+      "createdAt": "2026-06-26T04:37:51.417Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/robots.txt",
@@ -1625,8 +1585,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_1b4072ef-ff43-4dfb-bbb0-be65203222eb",
-      "createdAt": "2026-06-26T04:35:27.374Z",
+      "id": "log_9f7379f8-f741-4f88-b0e4-77413833ec2e",
+      "createdAt": "2026-06-26T04:37:51.516Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/sitemap.xml",
@@ -1635,8 +1595,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_bb4ebb5d-b040-457c-a83c-3d0a392a7221",
-      "createdAt": "2026-06-26T04:35:27.374Z",
+      "id": "log_22db04df-7700-4771-9ec6-07009e98ba92",
+      "createdAt": "2026-06-26T04:37:51.516Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/sitemap.xml",
@@ -1645,8 +1605,8 @@
       "message": "3件のURLを検出しました。"
     },
     {
-      "id": "log_b98f84f5-7bcb-4bde-a847-ded2b06ee7ff",
-      "createdAt": "2026-06-26T04:35:27.801Z",
+      "id": "log_b55664e7-c5e5-46f7-a9d6-810c9ae6a9e8",
+      "createdAt": "2026-06-26T04:37:51.936Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/works/",
@@ -1655,8 +1615,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_96130d53-77ec-453f-b986-30a3b71719a9",
-      "createdAt": "2026-06-26T04:35:33.402Z",
+      "id": "log_18b6fd36-e1ac-4dac-aed4-ddb420fbeb03",
+      "createdAt": "2026-06-26T04:37:57.255Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/sitemap-misc.xml",
@@ -1665,8 +1625,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_522d4155-a9bd-4610-b11e-832cfebb3578",
-      "createdAt": "2026-06-26T04:35:33.402Z",
+      "id": "log_8ce8065f-20eb-439f-abbc-534fb695612f",
+      "createdAt": "2026-06-26T04:37:57.256Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/works/",
@@ -1675,8 +1635,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_aa0186cb-14d8-4d56-a1b8-2c10979adef6",
-      "createdAt": "2026-06-26T04:35:33.953Z",
+      "id": "log_fe6c5459-14e2-42ec-a50d-fd13de5fdd16",
+      "createdAt": "2026-06-26T04:37:57.795Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/robots.txt",
@@ -1685,8 +1645,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_f58eb118-ac0a-4d04-bac7-c233fb262f11",
-      "createdAt": "2026-06-26T04:35:34.109Z",
+      "id": "log_69e5ae90-ed87-4679-bd75-7f352152f772",
+      "createdAt": "2026-06-26T04:37:57.953Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/column/1403/",
@@ -1695,8 +1655,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_5ce7fa16-5599-4f4d-a494-7f7525c16705",
-      "createdAt": "2026-06-26T04:35:34.114Z",
+      "id": "log_3fd2fa24-e2df-4356-a31a-b3a2b5f80f97",
+      "createdAt": "2026-06-26T04:37:57.957Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/column/1403/",
@@ -1705,8 +1665,8 @@
       "message": "家庭菜園を楽しみながらゆったり暮らす3LDK平屋住宅 27坪の間取り | IROHA.IE を確認待ち候補として保存しました。"
     },
     {
-      "id": "log_c9806efc-f59d-48a4-98dd-5d3a308a671a",
-      "createdAt": "2026-06-26T04:35:39.446Z",
+      "id": "log_370d0d23-475f-4a0c-b9d1-95e6c671a73d",
+      "createdAt": "2026-06-26T04:38:04.516Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/floor-plan/2070/",
@@ -1715,8 +1675,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_84dea95a-225e-4b14-991d-f2f5f771be2f",
-      "createdAt": "2026-06-26T04:35:39.450Z",
+      "id": "log_8379229e-53fa-492f-995a-53f21b772f09",
+      "createdAt": "2026-06-26T04:38:04.519Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/floor-plan/2070/",
@@ -1725,8 +1685,8 @@
       "message": "ただいま動線が充実した平屋 | IROHA.IE を確認待ち候補として保存しました。"
     },
     {
-      "id": "log_3a50afed-0e9b-49f0-a037-7c0df8e8f00e",
-      "createdAt": "2026-06-26T04:35:39.450Z",
+      "id": "log_92f2843a-4bd0-4901-9a5e-5227b0aaf1f6",
+      "createdAt": "2026-06-26T04:38:04.520Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com",
@@ -1735,8 +1695,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_1d4065b7-8a29-448f-8f9d-c7b6cafb7d10",
-      "createdAt": "2026-06-26T04:35:39.745Z",
+      "id": "log_0689fef1-4be3-4e33-8ee2-92d331c14588",
+      "createdAt": "2026-06-26T04:38:04.830Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com/robots.txt",
@@ -1745,8 +1705,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_8f0d54cc-daf5-4f91-a1a5-313974e65834",
-      "createdAt": "2026-06-26T04:35:39.919Z",
+      "id": "log_e2eda40d-1654-4411-b994-fc302730cd75",
+      "createdAt": "2026-06-26T04:38:05.027Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com/1floorplan11/",
@@ -1755,8 +1715,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_95507053-9b19-49a1-a68f-ff440b6f62fa",
-      "createdAt": "2026-06-26T04:35:39.924Z",
+      "id": "log_99587174-223f-4d9a-b3a4-d5237da44ffa",
+      "createdAt": "2026-06-26T04:38:05.030Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com/1floorplan11/",
@@ -1765,8 +1725,8 @@
       "message": "平屋×3LDK×26坪｜30坪未満でも広々LDK！廊下のない平屋の間取り | 咲くくらし を確認待ち候補として保存しました。"
     },
     {
-      "id": "log_bdf6a966-c749-46d4-a8f1-c5bb38deb412",
-      "createdAt": "2026-06-26T04:35:39.924Z",
+      "id": "log_6f644e5b-6a61-4fdc-a842-2102f6b5dc77",
+      "createdAt": "2026-06-26T04:38:05.031Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com",
@@ -1775,8 +1735,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_2d82e508-bcd2-4713-8b99-158ae03a3182",
-      "createdAt": "2026-06-26T04:35:40.206Z",
+      "id": "log_fff7eecb-aa31-4cef-9fa0-ee1c6c287920",
+      "createdAt": "2026-06-26T04:38:06.024Z",
       "siteName": "ときめきハウス 間取り実例",
       "domain": "tokimeki-house.jp",
       "url": "https://www.tokimeki-house.jp/robots.txt",
@@ -1785,8 +1745,8 @@
       "message": "0件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_5c055f8c-e97e-4ba1-bb72-7d9c7fdacc04",
-      "createdAt": "2026-06-26T04:35:40.331Z",
+      "id": "log_1cdb9b00-88c2-4da5-896b-4e9aad2ee9eb",
+      "createdAt": "2026-06-26T04:38:06.154Z",
       "siteName": "ときめきハウス 間取り実例",
       "domain": "tokimeki-house.jp",
       "url": "https://www.tokimeki-house.jp/blog/entry-872.html",
@@ -1795,8 +1755,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_64714506-8f57-47fa-a6f1-8e3fe93acb96",
-      "createdAt": "2026-06-26T04:35:40.333Z",
+      "id": "log_8e1b8d20-bf09-4402-ae97-0db5a820b654",
+      "createdAt": "2026-06-26T04:38:06.155Z",
       "siteName": "ときめきハウス 間取り実例",
       "domain": "tokimeki-house.jp",
       "url": "https://www.tokimeki-house.jp",
@@ -1805,8 +1765,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_332c8745-20b5-4cc9-8d14-23a670837389",
-      "createdAt": "2026-06-26T04:35:40.911Z",
+      "id": "log_51963f5a-8096-467c-ac66-dfe549aca31b",
+      "createdAt": "2026-06-26T04:38:06.697Z",
       "siteName": "両備ホームズ 間取り実例",
       "domain": "ryobi-homes.co.jp",
       "url": "https://ryobi-homes.co.jp/robots.txt",
@@ -1815,8 +1775,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_88916f7b-b1b2-4345-8ab2-07d4e2e1ffc5",
-      "createdAt": "2026-06-26T04:35:41.130Z",
+      "id": "log_871516a7-d291-4cd1-95bb-4a6ca123d3c6",
+      "createdAt": "2026-06-26T04:38:06.936Z",
       "siteName": "両備ホームズ 間取り実例",
       "domain": "ryobi-homes.co.jp",
       "url": "https://ryobi-homes.co.jp/property/property-7164/",
@@ -1825,8 +1785,8 @@
       "message": "HTTP 404"
     },
     {
-      "id": "log_5d9d3264-e4a2-4a85-9553-f1367eb46750",
-      "createdAt": "2026-06-26T04:35:41.612Z",
+      "id": "log_1874fc28-45d3-4899-a0e0-41a060326878",
+      "createdAt": "2026-06-26T04:38:07.597Z",
       "siteName": "平屋スタイル工房 間取り実例",
       "domain": "hiraya-koubou.com",
       "url": "https://www.hiraya-koubou.com/robots.txt",
@@ -1835,8 +1795,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_993cd3e7-3837-40e9-b47c-40814a44c7a0",
-      "createdAt": "2026-06-26T04:35:41.977Z",
+      "id": "log_421102d9-9d72-4c5d-8255-c8a6e8c1f864",
+      "createdAt": "2026-06-26T04:38:07.933Z",
       "siteName": "平屋スタイル工房 間取り実例",
       "domain": "hiraya-koubou.com",
       "url": "https://www.hiraya-koubou.com/lineup/hiraya-s13/",
@@ -1845,8 +1805,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_d94ca446-b011-45a2-8fa8-c94cc09facbb",
-      "createdAt": "2026-06-26T04:35:41.978Z",
+      "id": "log_553fb626-2292-4f52-b6a9-23b3b4d83819",
+      "createdAt": "2026-06-26T04:38:07.936Z",
       "siteName": "平屋スタイル工房 間取り実例",
       "domain": "hiraya-koubou.com",
       "url": "https://www.hiraya-koubou.com",
@@ -1855,8 +1815,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_8edcae84-efcb-47f8-bac4-f5d26a33e1c4",
-      "createdAt": "2026-06-26T04:35:42.613Z",
+      "id": "log_d2671862-0e65-494a-9041-56fecb7e614a",
+      "createdAt": "2026-06-26T04:38:08.209Z",
       "siteName": "iemiru 間取り実例",
       "domain": "ie-miru.jp",
       "url": "https://www.ie-miru.jp/robots.txt",
@@ -1865,8 +1825,8 @@
       "message": "10件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_cce2e3fd-8d1c-4814-a9bf-bc9ef7808dcd",
-      "createdAt": "2026-06-26T04:35:43.334Z",
+      "id": "log_5a439e25-7231-4051-96f6-da8e215c845b",
+      "createdAt": "2026-06-26T04:38:09.110Z",
       "siteName": "iemiru 間取り実例",
       "domain": "ie-miru.jp",
       "url": "https://www.ie-miru.jp/cms/yoyaku/syh/events/106160",
@@ -1875,8 +1835,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_df968b6c-0101-46a6-bd22-0cbcf779d297",
-      "createdAt": "2026-06-26T04:35:43.336Z",
+      "id": "log_4fb8f263-7089-42a9-8ec3-3c77649eccf3",
+      "createdAt": "2026-06-26T04:38:09.111Z",
       "siteName": "iemiru 間取り実例",
       "domain": "ie-miru.jp",
       "url": "https://www.ie-miru.jp",
