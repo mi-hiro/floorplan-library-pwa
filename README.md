@@ -19,6 +19,7 @@ Vercel、Netlify、GitHub Pages向けの設定を追加済みです。手順は 
 ## ローカル自動巡回
 
 相手サイトに負荷をかけない低頻度巡回エンジンを追加済みです。手順は [CRAWLER.md](./CRAWLER.md) を見てください。
+定期実行したい場合は `register-crawler-task.ps1` でWindowsタスクとして登録できます。
 
 ## 実装済み
 

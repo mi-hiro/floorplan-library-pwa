@@ -20,6 +20,20 @@ PowerShellでこのフォルダを開きます。
 
 結果は `crawler-output/latest-crawl.json` に保存されます。Webアプリの「取得候補」画面で「JSON選択」から取り込んでください。
 
+## 定期実行
+
+Windowsのタスクスケジューラへ登録する場合は次を実行します。
+
+```powershell
+.\register-crawler-task.ps1
+```
+
+初期設定では毎週日曜 03:30 に `run-crawler.ps1` を実行します。毎日実行したい場合は次のように指定できます。
+
+```powershell
+.\register-crawler-task.ps1 -Schedule Daily -At 03:30
+```
+
 ## 大手ポータルの扱い
 
 SUUMO、アットホーム、HOME'Sなどは初期OFFです。ONにする場合は、設定内で次の両方が必要です。
