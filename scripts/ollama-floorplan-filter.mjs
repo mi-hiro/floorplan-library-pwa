@@ -40,13 +40,22 @@ async function main() {
   const fetchTimeoutMs = Number(args.fetchTimeoutSeconds ?? config.fetchTimeoutSeconds ?? 20) * 1000;
   const ollamaTimeoutMs = Number(args.ollamaTimeoutSeconds ?? config.ollamaTimeoutSeconds ?? 60) * 1000;
   const maxImageBytes = Number(args.maxImageBytes ?? config.maxImageBytes ?? 3000000);
+  const checkpointEveryCandidates = Number(args.checkpointEveryCandidates ?? config.checkpointEveryCandidates ?? 1);
+  const checkpointEveryImages = Number(args.checkpointEveryImages ?? config.checkpointEveryImages ?? 1);
   const reviewKeys = buildReviewKeySet(candidates, maxImages);
   let checked = 0;
 
   const filteredCandidates = [];
-  for (const candidate of candidates) {
+  for (let candidateIndex = 0; candidateIndex < candidates.length; candidateIndex += 1) {
+    const candidate = candidates[candidateIndex];
+    const candidateImages = candidate.imageCandidates ?? [];
     const filteredImages = [];
-    for (const image of candidate.imageCandidates ?? []) {
+    for (let imageIndex = 0; imageIndex < candidateImages.length; imageIndex += 1) {
+      const image = candidateImages[imageIndex];
+      if (image.ollamaReview?.status === "checked") {
+        if (image.ollamaReview.isFloorplan !== false || !removeRejected) filteredImages.push(image);
+        continue;
+      }
       if (!reviewKeys.has(imageKey(image))) {
         if (keepUnchecked) filteredImages.push(image);
         continue;
@@ -67,16 +76,19 @@ async function main() {
       } else {
         addLog("Ollama", image.url, "image-review", "rejected", review.reason || "Rejected as non-floorplan");
       }
+
+      if (checkpointEveryImages > 0 && checked > 0 && checked % checkpointEveryImages === 0) {
+        const partialCandidate = makeCandidateWithImages(candidate, [...filteredImages, ...candidateImages.slice(imageIndex + 1)]);
+        await writeCheckpoint(outputPath, payload, [...filteredCandidates, partialCandidate], candidates.slice(candidateIndex + 1), logs);
+      }
     }
 
-    const nextCandidate = {
-      ...candidate,
-      imageCandidates: filteredImages,
-      imageUrlCandidates: filteredImages.map((image) => image.url),
-      hasFloorplanImage: filteredImages.length > 0,
-      memo: appendMemo(candidate.memo, checked > 0 ? `Ollama reviewed with ${model}.` : "")
-    };
+    const nextCandidate = makeCandidateWithImages(candidate, filteredImages, checked > 0 ? `Ollama reviewed with ${model}.` : "");
     if (nextCandidate.hasFloorplanImage || keepUnchecked) filteredCandidates.push(nextCandidate);
+
+    if (checkpointEveryCandidates > 0 && checked > 0 && (candidateIndex + 1) % checkpointEveryCandidates === 0) {
+      await writeCheckpoint(outputPath, payload, filteredCandidates, candidates.slice(candidateIndex + 1), logs);
+    }
   }
 
   const result = appendLogs(
@@ -90,6 +102,28 @@ async function main() {
   await writeJson(outputPath, result);
   console.log(`Ollama filter finished: checked ${checked} images / candidates ${filteredCandidates.length}`);
   console.log(`Output: ${outputPath}`);
+}
+
+function makeCandidateWithImages(candidate, images, memoAddition = "") {
+  return {
+    ...candidate,
+    imageCandidates: images,
+    imageUrlCandidates: images.map((image) => image.url),
+    hasFloorplanImage: images.length > 0,
+    memo: appendMemo(candidate.memo, memoAddition)
+  };
+}
+
+async function writeCheckpoint(outputPath, payload, filteredCandidates, remainingCandidates, newLogs) {
+  const result = appendLogs(
+    {
+      ...payload,
+      generatedAt: new Date().toISOString(),
+      candidates: [...filteredCandidates, ...remainingCandidates]
+    },
+    newLogs
+  );
+  await writeJson(outputPath, result);
 }
 
 async function resolveVisionModel(endpoint, config) {
@@ -207,6 +241,7 @@ function buildReviewKeySet(candidates, maxImages) {
   let order = 0;
   for (const candidate of candidates) {
     for (const image of candidate.imageCandidates ?? []) {
+      if (image.ollamaReview?.status === "checked") continue;
       items.push({ key: imageKey(image), priority: imageReviewPriority(image), order });
       order += 1;
     }

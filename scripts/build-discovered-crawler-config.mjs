@@ -63,6 +63,7 @@ async function main() {
     .map(([hostname, urls]) => {
       const manualUrls = urls.sort((a, b) => scoreUrl(b) - scoreUrl(a)).slice(0, maxUrlsPerDomain);
       const shouldFollowLinks = manualUrls.some(looksLikeListingUrl);
+      const followLinkBudget = shouldFollowLinks ? Math.max(8, maxUrlsPerDomain * 2) : 0;
       return {
         id: `discovered_${hashId(hostname)}`,
         siteName: `discovered ${hostname}`,
@@ -71,7 +72,7 @@ async function main() {
         manualUrls,
         enabled: true,
         crawlMode: shouldFollowLinks ? "lowFrequency" : "manualOnly",
-        perRunLimit: shouldFollowLinks ? Math.min(maxUrlsPerDomain, Math.max(manualUrls.length, 3)) : manualUrls.length,
+        perRunLimit: shouldFollowLinks ? manualUrls.length + followLinkBudget : manualUrls.length,
         delaySeconds,
         recrawlIntervalDays: 30,
         sitemapUrl: "",
@@ -86,10 +87,10 @@ async function main() {
       userAgent: "FloorplanLibraryCrawler/0.1 (+personal low-frequency crawler; respects robots.txt)",
       requestTimeoutSeconds: 30,
       maxPagesPerRun: Math.max(1, maxDomains * maxUrlsPerDomain),
-      maxImagesPerCandidate: 60,
+      maxImagesPerCandidate: 90,
       floorplanOnly: true,
       verifyImageUrls: true,
-      imageFetchLimit: 6,
+      imageFetchLimit: 12,
       maxImageBytes: 3145728,
       ...(baseConfig.global ?? {}),
       floorplanOnly: true,

@@ -252,7 +252,8 @@ function extractImagesFromHtml(html, pageUrl, title = "", text = "", options = {
   const images = [];
   const seen = new Set();
   const pageFloorplanContext = looksLikeFloorplanPage(`${title} ${text} ${pageUrl}`);
-  const looseCandidateContext = Boolean(options.looseImageCandidates) && looksLikeExplicitFloorplanPage(`${title} ${pageUrl}`);
+  const looseCandidateContext = Boolean(options.looseImageCandidates) && looksLikeExplicitFloorplanPage(`${title} ${pageUrl} ${text.slice(0, 16000)}`);
+  let contentImageCounter = 0;
   const addImage = (rawUrl, alt = "", imageOptions = {}) => {
     if (!rawUrl || /^(undefined|null)$/i.test(String(rawUrl))) return;
     const url = normalizeUrl(rawUrl, pageUrl);
@@ -260,7 +261,8 @@ function extractImagesFromHtml(html, pageUrl, title = "", text = "", options = {
     if (!isImageUrl(url)) return;
     const signal = imageSignalText(alt, url);
     const contextualFloorplan = pageFloorplanContext && looksLikePlanNamedImage(signal);
-    const looseReviewCandidate = looseCandidateContext && looksLikeContentImage(url, imageOptions);
+    const looseReviewCandidate =
+      looseCandidateContext && looksLikeContentImage(url, imageOptions) && Number(imageOptions.contentImageIndex ?? 0) <= 10;
     if (!looksLikeFloorplanImage(signal) && !contextualFloorplan && !looseReviewCandidate) return;
     if (looseReviewCandidate && !contextualFloorplan && !looksLikeFloorplanImage(signal) && looksLikeNonFloorplanPhotoSignal(signal)) return;
     if (looksLikeDecorativeOrNonFloorplan(signal)) return;
@@ -286,6 +288,8 @@ function extractImagesFromHtml(html, pageUrl, title = "", text = "", options = {
     const alt = attrs.alt || attrs.title || attrs["aria-label"] || attrs.class || attrs.id || "";
     const width = Number(attrs.width || 0);
     const height = Number(attrs.height || 0);
+    const hasContentShape = width >= 420 || height >= 260 || /wp-image|content|main|floor|plan|madori/i.test(alt);
+    const contentImageIndex = hasContentShape ? contentImageCounter++ : undefined;
     [
       attrs.src,
       attrs["data-src"],
@@ -295,14 +299,18 @@ function extractImagesFromHtml(html, pageUrl, title = "", text = "", options = {
       attrs["data-original-src"],
       attrs["data-bg"],
       attrs["data-background"],
-      firstSrcsetUrl(attrs.srcset),
-      firstSrcsetUrl(attrs["data-srcset"])
-    ].forEach((rawUrl) => addImage(rawUrl, alt, { width, height }));
+      attrs["data-bg-src"],
+      attrs["data-lazy-background"],
+      attrs["data-src-mobile"],
+      attrs["data-src-pc"],
+      ...srcsetUrls(attrs.srcset),
+      ...srcsetUrls(attrs["data-srcset"])
+    ].filter(Boolean).forEach((rawUrl) => addImage(rawUrl, alt, { width, height, contentImageIndex }));
   }
 
   for (const match of html.matchAll(/<source\b[^>]*>/gi)) {
     const attrs = parseAttributes(match[0]);
-    addImage(firstSrcsetUrl(attrs.srcset || attrs["data-srcset"]), attrs.alt || attrs.title || "");
+    srcsetUrls(attrs.srcset || attrs["data-srcset"]).forEach((rawUrl) => addImage(rawUrl, attrs.alt || attrs.title || ""));
   }
 
   for (const match of html.matchAll(/<a\b[^>]*href\s*=\s*(["']?)([^"'\s>]+)\1[^>]*>(.*?)<\/a>/gis)) {
@@ -313,6 +321,11 @@ function extractImagesFromHtml(html, pageUrl, title = "", text = "", options = {
 
   for (const match of html.matchAll(/url\((["']?)([^"')]+\.(?:png|jpe?g|webp|gif)(?:\?[^"')]+)?)\1\)/gi)) {
     addImage(match[2], "background image");
+  }
+
+  for (const match of html.matchAll(/(?:"|')((?:https?:)?\/\/[^"'\s)]+?\.(?:png|jpe?g|webp|gif)(?:\?[^"'\s)]*)?|(?:\/|\.\.?\/)[^"'\s)]+?\.(?:png|jpe?g|webp|gif)(?:\?[^"'\s)]*)?)(?:"|')/gi)) {
+    const nearby = html.slice(Math.max(0, match.index - 240), Math.min(html.length, match.index + 320));
+    addImage(match[1], stripHtml(nearby), { literalImage: true, contentImageIndex: contentImageCounter++ });
   }
 
   return images
@@ -582,8 +595,19 @@ function parseAttributes(tag) {
   return attrs;
 }
 
-function firstSrcsetUrl(srcset) {
-  return srcset?.split(",")[0]?.trim().split(/\s+/)[0] ?? "";
+function srcsetUrls(srcset) {
+  if (!srcset) return [];
+  return srcset
+    .split(",")
+    .map((item) => {
+      const [url, descriptor = ""] = item.trim().split(/\s+/);
+      const width = Number(descriptor.match(/([0-9]+)w/i)?.[1] ?? 0);
+      const density = Number(descriptor.match(/([0-9.]+)x/i)?.[1] ?? 0);
+      return { url, rank: width || density * 1000 || 0 };
+    })
+    .filter((item) => item.url)
+    .sort((a, b) => b.rank - a.rank)
+    .map((item) => item.url);
 }
 
 function stripHtml(html) {
@@ -642,7 +666,7 @@ function looksLikeContentImage(url, options = {}) {
   const height = Number(options.height || 0);
   if (!isImageUrl(url)) return false;
   if (/logo|icon|avatar|staff|profile|banner|button|theme|assets\/images\/top/i.test(url)) return false;
-  return /wp-content\/uploads|\/uploads\//i.test(url) || width >= 420 || height >= 260;
+  return /wp-content\/uploads|\/uploads\/|\/upload\/|\/images?\/|\/img\/|\/files?\//i.test(url) || width >= 420 || height >= 260 || Boolean(options.literalImage);
 }
 
 function looksLikeNonFloorplanPhotoSignal(signal) {
