@@ -18,15 +18,15 @@ $Output = Join-Path $ProjectRoot "crawler-output\latest-crawl.json"
 
 if (!(Test-Path $Config)) {
   Copy-Item -LiteralPath $ExampleConfig -Destination $Config
-  Write-Host "image-search.config.json を作成しました。検索語を調整できます。"
+  Write-Host "Created image-search.config.json. You can edit search queries in this file."
 }
 
 if (!$env:BRAVE_SEARCH_API_KEY -and !$env:GOOGLE_CUSTOM_SEARCH_API_KEY -and !$env:BING_IMAGE_SEARCH_KEY) {
-  Write-Host "公式画像検索APIのキーが未設定です。"
-  Write-Host "おすすめ: BRAVE_SEARCH_API_KEY を設定してください。"
-  Write-Host "Googleの場合: GOOGLE_CUSTOM_SEARCH_API_KEY と GOOGLE_CUSTOM_SEARCH_CX を設定してください。"
-  Write-Host "Bingの場合: BING_IMAGE_SEARCH_KEY を設定してください。"
-  Write-Host "キー登録補助: .\set-image-search-keys.ps1"
+  Write-Host "Image search API key is not set."
+  Write-Host "Recommended: set BRAVE_SEARCH_API_KEY."
+  Write-Host "Google: set GOOGLE_CUSTOM_SEARCH_API_KEY and GOOGLE_CUSTOM_SEARCH_CX."
+  Write-Host "Bing: set BING_IMAGE_SEARCH_KEY."
+  Write-Host "Setup helper: .\set-image-search-keys.ps1"
   exit 1
 }
 
@@ -57,7 +57,7 @@ if (!$NoPublish) {
     try {
       & $PublishScript -InputPath $Output
     } catch {
-      Write-Warning "画像検索は完了しましたが、Webへの反映に失敗しました: $($_.Exception.Message)"
+      Write-Warning ("Image search finished, but publishing failed: {0}" -f $_.Exception.Message)
     }
   }
 }
