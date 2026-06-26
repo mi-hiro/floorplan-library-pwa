@@ -4,7 +4,6 @@ import {
   Home,
   LayoutGrid,
   Plus,
-  RotateCcw,
   Scale,
   Settings,
   ShieldCheck,
@@ -720,10 +719,6 @@ export default function App() {
           <span>{autoSyncStatus === "巡回データ確認待ち" ? "巡回待ち" : autoSyncStatus}</span>
           <span>更新 {formatDate(properties[0]?.updatedAt)}</span>
         </div>
-        <button className="primary-button header-add-button" type="button" onClick={() => setIsCreating(true)}>
-          <Plus size={18} />
-          新規登録
-        </button>
       </header>
 
       <nav className="app-nav" aria-label="画面切り替え">
@@ -744,22 +739,13 @@ export default function App() {
             availableTags={availableTags}
             listingSources={listingSources}
             companies={companies}
+            onAdd={() => setIsCreating(true)}
           />
           <section className="library-main">
             <div className="section-heading">
               <div>
                 <p className="eyebrow">一覧</p>
                 <h2>間取り図一覧</h2>
-              </div>
-              <div className="section-actions">
-                <button className="secondary-button" type="button" onClick={() => setFilters(defaultFilters)}>
-                  <RotateCcw size={17} />
-                  条件クリア
-                </button>
-                <button className="primary-button" type="button" onClick={() => setIsCreating(true)}>
-                  <Plus size={17} />
-                  追加
-                </button>
               </div>
             </div>
 
@@ -848,7 +834,7 @@ export default function App() {
                 <div className="empty-actions">
                   <button className="primary-button" type="button" onClick={() => setIsCreating(true)}>
                     <Plus size={17} />
-                    新規登録
+                    追加
                   </button>
                   <button className="secondary-button" type="button" onClick={handleAddSamples}>
                     サンプルを追加

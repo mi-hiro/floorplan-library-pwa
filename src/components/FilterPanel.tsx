@@ -1,4 +1,4 @@
-import { ChevronDown, ChevronUp, RotateCcw, Search } from "lucide-react";
+import { ChevronDown, ChevronUp, Plus, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { EntranceDirection, FilterState, FloorCount, LayoutType } from "../types";
 import { DIRECTION_OPTIONS, FLOOR_OPTIONS, LAYOUT_OPTIONS } from "../types";
@@ -9,6 +9,7 @@ interface FilterPanelProps {
   availableTags: string[];
   listingSources: string[];
   companies: string[];
+  onAdd: () => void;
 }
 
 export const defaultFilters: FilterState = {
@@ -35,7 +36,7 @@ export const defaultFilters: FilterState = {
   hasCircularFlow: false
 };
 
-export function FilterPanel({ filters, onChange, availableTags, listingSources, companies }: FilterPanelProps) {
+export function FilterPanel({ filters, onChange, availableTags, listingSources, companies, onAdd }: FilterPanelProps) {
   const [draftFilters, setDraftFilters] = useState(filters);
   const [isOpen, setIsOpen] = useState(() => (typeof window === "undefined" ? true : window.innerWidth >= 900));
 
@@ -60,9 +61,6 @@ export function FilterPanel({ filters, onChange, availableTags, listingSources, 
           <h2>間取り図を探す</h2>
         </div>
         <div className="filter-header-actions">
-          <button className="icon-button" type="button" title="条件クリア" onClick={clearFilters}>
-            <RotateCcw size={18} />
-          </button>
           <button
             className="icon-button"
             type="button"
@@ -225,6 +223,14 @@ export function FilterPanel({ filters, onChange, availableTags, listingSources, 
           </label>
         </div>
         <div className="filter-actions">
+          <button className="secondary-button" type="button" onClick={clearFilters}>
+            <RotateCcw size={16} />
+            条件クリア
+          </button>
+          <button className="secondary-button" type="button" onClick={onAdd}>
+            <Plus size={16} />
+            追加
+          </button>
           <button className="primary-button" type="button" onClick={() => onChange(draftFilters)}>
             <Search size={17} />
             探す

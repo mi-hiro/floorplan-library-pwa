@@ -224,11 +224,6 @@ h3 {
   box-shadow: 0 8px 18px rgb(46 111 158 / 18%);
 }
 
-.header-add-button {
-  min-height: 36px;
-  padding: 8px 12px;
-}
-
 .primary-button:hover {
   background: var(--primary-dark);
 }
@@ -338,6 +333,8 @@ h3 {
   position: sticky;
   bottom: -15px;
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
   margin: 2px -15px -15px;
   padding: 12px 15px 15px;
   border-top: 1px solid var(--line);
@@ -345,8 +342,15 @@ h3 {
 }
 
 .filter-actions .primary-button {
+  grid-column: 1 / -1;
   width: 100%;
   justify-content: center;
+}
+
+.filter-actions .secondary-button {
+  min-width: 0;
+  justify-content: center;
+  padding: 8px 9px;
 }
 
 .filter-header-actions {
@@ -1402,11 +1406,6 @@ h3 {
 
   .summary-strip {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .header-add-button svg {
-    width: 15px;
-    height: 15px;
   }
 
   .card-actions .ghost-button,
