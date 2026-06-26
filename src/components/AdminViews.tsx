@@ -351,6 +351,15 @@ export function CandidatesView({
   const [draft, setDraft] = useState<CrawlCandidate>(blankCandidate(sites[0]?.id ?? ""));
   const [importMessage, setImportMessage] = useState("");
   const selectedSite = useMemo(() => sites.find((site) => site.id === draft.siteId), [sites, draft.siteId]);
+  const floorplanCandidateCount = useMemo(() => candidates.filter((candidate) => candidate.hasFloorplanImage).length, [candidates]);
+  const displayCandidates = useMemo(
+    () =>
+      [...candidates].sort((a, b) => {
+        if (a.hasFloorplanImage !== b.hasFloorplanImage) return a.hasFloorplanImage ? -1 : 1;
+        return b.fetchedAt.localeCompare(a.fetchedAt);
+      }),
+    [candidates]
+  );
 
   function update<K extends keyof CrawlCandidate>(key: K, value: CrawlCandidate[K]) {
     setDraft((current) => ({ ...current, [key]: value }));
@@ -399,6 +408,7 @@ export function CandidatesView({
         <div>
           <p className="eyebrow">取得候補</p>
           <h2>確認待ち候補</h2>
+          <p className="muted-text">自動収集 {candidates.length}件 / 間取り候補 {floorplanCandidateCount}件</p>
         </div>
       </div>
       <div className="notice">
@@ -525,7 +535,11 @@ export function CandidatesView({
           {candidates.length === 0 ? (
             <div className="empty-list">確認待ち候補はまだありません。</div>
           ) : (
-            candidates.map((candidate) => (
+            displayCandidates.map((candidate) => {
+              const imageKindOrder = { floorplan: 0, sitePlan: 1, exterior: 2, interior: 3, other: 4 };
+              const imageCandidates = [...(candidate.imageCandidates ?? [])].sort((a, b) => imageKindOrder[a.kind] - imageKindOrder[b.kind]);
+
+              return (
               <article className="candidate-card" key={candidate.id}>
                 <div className="candidate-header">
                   <div>
@@ -553,16 +567,19 @@ export function CandidatesView({
                   </div>
                 </dl>
                 <p className="muted-text">取得日時：{formatDate(candidate.fetchedAt)}</p>
-                {(candidate.imageCandidates?.length ?? 0) > 0 ? (
+                {imageCandidates.length > 0 ? (
                   <div className="image-candidate-list">
-                    {candidate.imageCandidates?.slice(0, 12).map((image) => (
+                    {imageCandidates.slice(0, 12).map((image) => (
                       <button
-                        className="image-candidate"
+                        className={image.kind === "floorplan" ? "image-candidate is-floorplan" : "image-candidate"}
                         key={image.id}
                         type="button"
                         onClick={() => openExternalUrl(image.url)}
                         title={image.url}
                       >
+                        <div className="image-candidate-preview">
+                          <img src={image.dataUrl || image.url} alt={image.alt || IMAGE_KIND_LABELS[image.kind]} loading="lazy" />
+                        </div>
                         <span>{IMAGE_KIND_LABELS[image.kind]}</span>
                         <small>{image.alt || "画像候補"}</small>
                       </button>
@@ -587,7 +604,8 @@ export function CandidatesView({
                   </button>
                 </div>
               </article>
-            ))
+              );
+            })
           )}
         </div>
       </div>
