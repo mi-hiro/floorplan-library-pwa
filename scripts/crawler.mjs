@@ -247,7 +247,11 @@ function detectBlockPage(html) {
   if (/captcha|recaptcha|認証コード|私はロボットではありません/.test(text)) {
     return { result: "CAPTCHA検出", message: "CAPTCHAらしきページを検出したため停止します。" };
   }
-  if (/ログイン|login required|sign in|会員登録|認証が必要/.test(text)) {
+  if (
+    /ログインしてください|ログインが必要|ログインして|会員専用|認証が必要|login required|please sign in|sign in required/.test(
+      text
+    )
+  ) {
     return { result: "ログイン要求", message: "ログイン要求ページを検出したため停止します。" };
   }
   if (/access denied|forbidden|アクセス拒否|閲覧できません/.test(text)) {
