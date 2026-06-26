@@ -4,7 +4,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 const IMAGE_KIND_KEYWORDS = {
-  floorplan: [/間取り/, /間取/, /平面図/, /プラン/, /madori/i, /floor.?plan/i, /layout/i, /plan/i],
+  floorplan: [/間取り図/, /間取り/, /間取/, /平面図/, /図面/, /madori/i, /floor.?plan/i, /floor_plan/i, /layout/i, /plan/i],
   exterior: [/外観/, /外装/, /建物外/, /外部/, /exterior/i, /facade/i, /appearance/i],
   interior: [/内観/, /室内/, /リビング/, /キッチン/, /寝室/, /interior/i, /living/i, /kitchen/i, /bedroom/i],
   sitePlan: [/配置/, /区画/, /敷地/, /site.?plan/i, /plot/i, /land/i]
@@ -53,6 +53,7 @@ async function main() {
     requestTimeoutSeconds: 30,
     maxPagesPerRun: 25,
     maxImagesPerCandidate: 24,
+    floorplanOnly: Boolean(args.floorplanOnly),
     imageFetchLimit: 6,
     maxImageBytes: 3 * 1024 * 1024,
     ...(config.global ?? {})
@@ -122,7 +123,11 @@ async function crawlSite(site, global) {
 
   if (site.crawlMode !== "manualOnly") {
     const sitemapUrls = await loadSitemapUrls(site, origin, robots, global);
-    sitemapUrls.filter(looksRelevantUrl).slice(0, pageBudget).forEach(addUrl);
+    sitemapUrls
+      .filter(looksRelevantUrl)
+      .sort((a, b) => scoreUrlRelevance(b) - scoreUrlRelevance(a))
+      .slice(0, pageBudget)
+      .forEach(addUrl);
   }
 
   let requestCount = 0;
@@ -140,7 +145,11 @@ async function crawlSite(site, global) {
       pageBudget -= 1;
 
       if (site.crawlMode !== "manualOnly") {
-        extractLinks(html, url).filter(looksRelevantUrl).slice(0, pageBudget).forEach(addUrl);
+        extractLinks(html, url)
+          .filter(looksRelevantUrl)
+          .sort((a, b) => scoreUrlRelevance(b) - scoreUrlRelevance(a))
+          .slice(0, Math.max(pageBudget * 3, pageBudget))
+          .forEach(addUrl);
       }
 
       const candidate = extractCandidate(html, url, site, global);
@@ -276,6 +285,7 @@ function extractCandidate(html, pageUrl, site, global) {
   const entranceDirection = extractEntranceDirection(text);
   const company = extractCompany(text);
 
+  if (global.floorplanOnly && !images.some((image) => image.kind === "floorplan")) return null;
   if (!title && !layout && !areaSqm && !priceManYen && images.length === 0) return null;
 
   return {
@@ -303,38 +313,65 @@ function extractCandidate(html, pageUrl, site, global) {
 function extractImages(html, pageUrl, limit) {
   const images = [];
   const seen = new Set();
+  const addImage = (rawUrl, alt = "") => {
+    const url = normalizeUrl(rawUrl, pageUrl);
+    if (!url || seen.has(url) || url.startsWith("data:")) return;
+    const decodedAlt = decodeHtml(alt);
+    const kind = classifyImage(decodedAlt, url);
+    if (isLikelyDecorativeImage(decodedAlt, url, kind)) return;
+    seen.add(url);
+    images.push({
+      id: `image_candidate_${hashId(`${pageUrl}:${url}`)}`,
+      kind,
+      url,
+      alt: decodedAlt,
+      sourceUrl: pageUrl,
+      score: scoreImageCandidate(decodedAlt, url, kind)
+    });
+  };
+
   const ogImage = getMeta(html, "og:image") || getMeta(html, "twitter:image");
   if (ogImage) {
-    const url = normalizeUrl(ogImage, pageUrl);
-    if (url) {
-      seen.add(url);
-      images.push({
-        id: `image_candidate_${hashId(`${pageUrl}:${url}`)}`,
-        kind: classifyImage("", url),
-        url,
-        alt: "OG画像",
-        sourceUrl: pageUrl
-      });
-    }
+    addImage(ogImage, "OG画像");
   }
 
   for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
     const attrs = parseAttributes(match[0]);
-    const rawUrl = attrs.src || attrs["data-src"] || attrs["data-original"] || attrs["data-lazy"] || firstSrcsetUrl(attrs.srcset);
-    const url = normalizeUrl(rawUrl, pageUrl);
-    if (!url || seen.has(url) || url.startsWith("data:")) continue;
-    seen.add(url);
-    const alt = decodeHtml(attrs.alt || attrs.title || "");
-    images.push({
-      id: `image_candidate_${hashId(`${pageUrl}:${url}`)}`,
-      kind: classifyImage(alt, url),
-      url,
-      alt,
-      sourceUrl: pageUrl
-    });
-    if (images.length >= limit) break;
+    const alt = decodeHtml(attrs.alt || attrs.title || attrs["aria-label"] || attrs.class || attrs.id || "");
+    const rawUrls = [
+      attrs.src,
+      attrs["data-src"],
+      attrs["data-original"],
+      attrs["data-lazy"],
+      attrs["data-lazy-src"],
+      attrs["data-original-src"],
+      attrs["data-bg"],
+      attrs["data-background"],
+      firstSrcsetUrl(attrs.srcset),
+      firstSrcsetUrl(attrs["data-srcset"])
+    ];
+    rawUrls.forEach((rawUrl) => addImage(rawUrl, alt));
   }
-  return images;
+
+  for (const match of html.matchAll(/<source\b[^>]*>/gi)) {
+    const attrs = parseAttributes(match[0]);
+    addImage(firstSrcsetUrl(attrs.srcset || attrs["data-srcset"]), attrs.alt || attrs.title || "");
+  }
+
+  for (const match of html.matchAll(/<a\b[^>]*href\s*=\s*(["']?)([^"'\s>]+)\1[^>]*>(.*?)<\/a>/gis)) {
+    const href = decodeHtml(match[2]);
+    if (!isImageUrl(href)) continue;
+    addImage(href, stripHtml(match[3]));
+  }
+
+  for (const match of html.matchAll(/url\((["']?)([^"')]+\.(?:png|jpe?g|webp|gif)(?:\?[^"')]+)?)\1\)/gi)) {
+    addImage(match[2], "背景画像");
+  }
+
+  return images
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ score, ...image }) => image);
 }
 
 async function attachPermittedImageBodies(candidate, site, robots, global, waitBeforeFetch) {
@@ -458,11 +495,52 @@ function extractCompany(text) {
 }
 
 function classifyImage(alt, url) {
-  const haystack = `${alt} ${url}`;
+  const haystack = imageSignalText(alt, url);
   for (const [kind, patterns] of Object.entries(IMAGE_KIND_KEYWORDS)) {
     if (patterns.some((pattern) => pattern.test(haystack))) return kind;
   }
   return "other";
+}
+
+function scoreImageCandidate(alt, url, kind) {
+  const haystack = imageSignalText(alt, url);
+  let score = 0;
+  if (kind === "floorplan") score += 120;
+  if (kind === "sitePlan") score += 70;
+  if (kind === "exterior") score += 20;
+  if (kind === "interior") score += 10;
+  if (/間取り図|間取り|間取|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(haystack)) score += 90;
+  if (/[2-5]\s*LDK|平屋|二階建|2階建|坪|㎡|m2|帖|畳/i.test(haystack)) score += 35;
+  if (/施工事例|建売|新築|注文住宅|住宅|暮らし|家事動線|収納|LDK/i.test(haystack)) score += 12;
+  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|bnr|loading|spinner|dummy|placeholder|noimage|ogp|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete/i.test(haystack)) {
+    score -= 130;
+  }
+  if (/\.svg(?:\?|$)/i.test(url)) score -= 80;
+  return score;
+}
+
+function isLikelyDecorativeImage(alt, url, kind) {
+  const haystack = imageSignalText(alt, url);
+  if (/\.svg(?:\?|$)/i.test(url)) return true;
+  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|bnr|loading|spinner|dummy|placeholder|noimage|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete/i.test(haystack)) {
+    return true;
+  }
+  if (kind === "floorplan") return false;
+  return false;
+}
+
+function isImageUrl(value) {
+  return /\.(?:png|jpe?g|webp|gif)(?:[?#].*)?$/i.test(value || "");
+}
+
+function imageSignalText(alt, url) {
+  try {
+    const parsed = new URL(url);
+    const segments = parsed.pathname.split("/").filter(Boolean);
+    return `${alt} ${segments.slice(-3).join("/")}`;
+  } catch {
+    return `${alt} ${url}`;
+  }
 }
 
 function getMeta(html, property) {
@@ -524,6 +602,15 @@ function normalizeUrl(rawUrl, baseUrl) {
 
 function looksRelevantUrl(value) {
   return RELEVANT_URL_KEYWORDS.some((pattern) => pattern.test(value));
+}
+
+function scoreUrlRelevance(value) {
+  let score = 0;
+  if (/間取り|間取|平面図|図面|madori|floor.?plan|layout/i.test(value)) score += 100;
+  if (/[2-5]ldk|[2-5]LDK|平屋|二階建|2階建|3階建|坪|帖/.test(value)) score += 40;
+  if (/施工事例|works|case|建築実例|実例|注文住宅|建売|分譲/i.test(value)) score += 25;
+  if (/contact|inquiry|privacy|company|recruit|news|blog\/tag|category|login/i.test(value)) score -= 60;
+  return score;
 }
 
 function siteOrigin(site) {
