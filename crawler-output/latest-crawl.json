@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T06:17:35.051Z",
+  "generatedAt": "2026-06-26T06:27:53.973Z",
   "source": "local-crawler",
   "candidates": [
     {
@@ -28,7 +28,407 @@
           "sourceUrl": "https://hiyoriblog.com/1floorplan11/"
         }
       ],
-      "fetchedAt": "2026-06-26T06:17:26.045Z",
+      "fetchedAt": "2026-06-26T06:27:34.972Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_0720c10c0a5670f8",
+      "title": "狭小住宅のプラン集 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "ゼロホーム 間取り実例",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "siteId": "site_zerohome_floorplans",
+      "company": "",
+      "priceManYen": 1000,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan01.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan02.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan03.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan04-1.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan05.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan06.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan07.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan08.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan09.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan10.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan11.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan12.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan13.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan14.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan15.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan16.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan17.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_206c4cd1a75ddc5b",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan01.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 01",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_03ae06e314e389f4",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan02.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 02",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_3bf6b4b1f6331d45",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan03.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 03",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_2055f3f93d98e8bb",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan04-1.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 04",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_5f2b90be5fec68a5",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan05.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 05",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_24c0a34b55e79466",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan06.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 06",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_974fade8e48f49ff",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan07.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 07",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_ad3d457ee0d6feb9",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan08.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 08",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_451528c61532dd61",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan09.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 09",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_088e479009ee1b99",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan10.jpg",
+          "alt": "狭小住宅の間取り図PLAN 10",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_2a30a82a07098390",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan11.jpg",
+          "alt": "狭小住宅の間取り図PLAN 11",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_8c1eda049bbfe90e",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan12.jpg",
+          "alt": "狭小住宅の間取り図PLAN 12",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_e2e57d1bdc9e612f",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan13.jpg",
+          "alt": "狭小住宅の間取り図PLAN 13",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_a8ec27050fa0ac51",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan14.jpg",
+          "alt": "狭小住宅の間取り図PLAN 14",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_8b078c0198c12cfc",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan15.jpg",
+          "alt": "狭小住宅の間取り図PLAN 15",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_f303128076494c16",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan16.jpg",
+          "alt": "狭小住宅の間取り図PLAN 16",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        },
+        {
+          "id": "image_candidate_aaf42e2bd7e4e5fe",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan17.jpg",
+          "alt": "狭小住宅の間取り図PLAN 17",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T06:27:36.466Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_368e59c5a80d3de9",
+      "title": "２階建て | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "ゼロホーム 間取り実例",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "siteId": "site_zerohome_floorplans",
+      "company": "",
+      "priceManYen": 1000,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan18.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan19.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan20.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan21.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan22.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan23.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan24.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan25.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan26.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan27.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan28.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan29.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan30.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_449eb9410e516c01",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan18.jpg",
+          "alt": "2階建ての間取り図PLAN 18",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_bd278ab2993a44db",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan19.jpg",
+          "alt": "2階建ての間取り図PLAN 19",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_81158419d98260a7",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan20.jpg",
+          "alt": "2階建ての間取り図PLAN 20",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_73f358a38b390b85",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan21.jpg",
+          "alt": "2階建ての間取り図PLAN 21",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_ea8f99c8f7256fc6",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan22.jpg",
+          "alt": "2階建ての間取り図PLAN 22",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_0ba0e8d31e06dd75",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan23.jpg",
+          "alt": "2階建ての間取り図PLAN 23",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_50e0caba31622c88",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan24.jpg",
+          "alt": "2階建ての間取り図PLAN 24",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_560c26fe5a0320dd",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan25.jpg",
+          "alt": "2階建ての間取り図PLAN 25",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_c148ca20ca988cec",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan26.jpg",
+          "alt": "2階建ての間取り図PLAN 26",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_e3369674abec5349",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan27.jpg",
+          "alt": "2階建ての間取り図PLAN 27",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_c97c13281153b8e0",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan28.jpg",
+          "alt": "2階建ての間取り図PLAN 28",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_b57af4cdc185421f",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan29.jpg",
+          "alt": "2階建ての間取り図PLAN 29",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        },
+        {
+          "id": "image_candidate_d25591236eec9eb8",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan30.jpg",
+          "alt": "2階建ての間取り図PLAN 30",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T06:27:40.034Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_0a0ee9f45a6cda49",
+      "title": "二世帯 住宅のプラン集| 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "ゼロホーム 間取り実例",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+      "siteId": "site_zerohome_floorplans",
+      "company": "",
+      "priceManYen": 1000,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan31.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan32.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan33.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan34.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan35.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_832cccd38148b942",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan31.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 31",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/"
+        },
+        {
+          "id": "image_candidate_76d4c2b08a579af5",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan32.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 32",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/"
+        },
+        {
+          "id": "image_candidate_69e5c6f7d98b2d8a",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan33.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 33",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/"
+        },
+        {
+          "id": "image_candidate_078475c8c6da441a",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan34.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 34",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/"
+        },
+        {
+          "id": "image_candidate_5fc9d425895f2e63",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan35.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 35",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T06:27:42.936Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_7a0511c32f269d70",
+      "title": "平屋のプラン集 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "ゼロホーム 間取り実例",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+      "siteId": "site_zerohome_floorplans",
+      "company": "",
+      "priceManYen": 1000,
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan36.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan37.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan38.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan39.jpg",
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan40.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_a0b2fa1fc08e7960",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan36.jpg",
+          "alt": "平屋の間取り図PLAN 36",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+        },
+        {
+          "id": "image_candidate_734a49423ed0df62",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan37.jpg",
+          "alt": "平屋の間取り図PLAN 37",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+        },
+        {
+          "id": "image_candidate_d8960e227c73f70d",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan38.jpg",
+          "alt": "平屋の間取り図PLAN 38",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+        },
+        {
+          "id": "image_candidate_449acb297c37175d",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan39.jpg",
+          "alt": "平屋の間取り図PLAN 39",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+        },
+        {
+          "id": "image_candidate_5b022c88d5e1fc2e",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan40.jpg",
+          "alt": "平屋の間取り図PLAN 40",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T06:27:44.355Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     },
@@ -208,7 +608,7 @@
           "sourceUrl": "https://zerohome.jp/chumon/plan/"
         }
       ],
-      "fetchedAt": "2026-06-26T06:17:28.355Z",
+      "fetchedAt": "2026-06-26T06:27:47.262Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     },
@@ -227,26 +627,26 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.tanaken.co.jp/photo/estate/34/es342_2b.jpg?20260624133531"
+        "https://www.tanaken.co.jp/photo/estate/34/es342_layout.jpg?20260624133534"
       ],
       "imageCandidates": [
         {
-          "id": "image_candidate_f4b3ef545366a6e2",
+          "id": "image_candidate_380586ca59ffa27f",
           "kind": "floorplan",
-          "url": "https://www.tanaken.co.jp/photo/estate/34/es342_2b.jpg?20260624133531",
+          "url": "https://www.tanaken.co.jp/photo/estate/34/es342_layout.jpg?20260624133534",
           "alt": "間取り図",
           "sourceUrl": "https://www.tanaken.co.jp/estate/details_342.html"
         }
       ],
-      "fetchedAt": "2026-06-26T06:17:32.962Z",
+      "fetchedAt": "2026-06-26T06:27:52.113Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     }
   ],
   "logs": [
     {
-      "id": "log_bf1daac2-03ab-4c06-9e3d-67aca25ad2bf",
-      "createdAt": "2026-06-26T06:17:09.232Z",
+      "id": "log_1b781316-cc73-44f5-a370-4e0e53db8813",
+      "createdAt": "2026-06-26T06:27:17.998Z",
       "siteName": "SUUMO",
       "domain": "suumo.jp",
       "url": "-",
@@ -255,8 +655,8 @@
       "message": "サイト設定がOFFのため巡回しません。"
     },
     {
-      "id": "log_09c74bb4-5794-4e79-8b43-59b4cfe60093",
-      "createdAt": "2026-06-26T06:17:09.383Z",
+      "id": "log_82cf4a41-9f2c-4d09-a646-b602bfd2025f",
+      "createdAt": "2026-06-26T06:27:18.006Z",
       "siteName": "アットホーム",
       "domain": "athome.co.jp",
       "url": "-",
@@ -265,8 +665,8 @@
       "message": "サイト設定がOFFのため巡回しません。"
     },
     {
-      "id": "log_fffcc126-61aa-4cf8-a5fb-ef47a89feef9",
-      "createdAt": "2026-06-26T06:17:09.383Z",
+      "id": "log_82e4f663-6da2-4676-bd85-1d65f783c9f0",
+      "createdAt": "2026-06-26T06:27:18.006Z",
       "siteName": "HOME'S",
       "domain": "homes.co.jp",
       "url": "-",
@@ -275,8 +675,8 @@
       "message": "サイト設定がOFFのため巡回しません。"
     },
     {
-      "id": "log_8848ca2a-54ad-4b92-b55b-7223ba159bd0",
-      "createdAt": "2026-06-26T06:17:09.793Z",
+      "id": "log_40c88fda-c69c-47e7-a0e6-a59ead1ffb26",
+      "createdAt": "2026-06-26T06:27:18.648Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/robots.txt",
@@ -285,8 +685,8 @@
       "message": "11件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_52d4e17c-4568-497c-ae95-73d8b48beb14",
-      "createdAt": "2026-06-26T06:17:10.260Z",
+      "id": "log_4727b388-73ef-42aa-a9db-eb407dd513dc",
+      "createdAt": "2026-06-26T06:27:19.060Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/sitemap.xml",
@@ -295,8 +695,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_12ec2788-c615-4a70-bf3e-60c4f6e71917",
-      "createdAt": "2026-06-26T06:17:10.265Z",
+      "id": "log_7c255e37-7611-4c26-94e4-49edabf903b9",
+      "createdAt": "2026-06-26T06:27:19.063Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/sitemap.xml",
@@ -305,8 +705,8 @@
       "message": "3298件のURLを検出しました。"
     },
     {
-      "id": "log_3a8e8fc7-b022-48ad-8ced-72ae330e6ad1",
-      "createdAt": "2026-06-26T06:17:10.479Z",
+      "id": "log_e7ddc4be-33bb-48b0-93d7-d449cb2e51bc",
+      "createdAt": "2026-06-26T06:27:19.235Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/bunjou/",
@@ -315,8 +715,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_253d34a8-f5a1-4de2-8853-644081066b11",
-      "createdAt": "2026-06-26T06:17:10.659Z",
+      "id": "log_529d5bbf-4821-4bd1-8149-68bc657e8a57",
+      "createdAt": "2026-06-26T06:27:19.439Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/kodate/ideas/lifestyle/puremium/floor-plan/",
@@ -325,8 +725,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_19184ce1-5aca-4566-bab6-496920502880",
-      "createdAt": "2026-06-26T06:17:10.669Z",
+      "id": "log_7b81b53c-4019-4248-b0ee-b05fc375a233",
+      "createdAt": "2026-06-26T06:27:19.444Z",
       "siteName": "積水ハウス",
       "domain": "sekisuihouse.co.jp",
       "url": "https://www.sekisuihouse.co.jp/bunjou/",
@@ -335,8 +735,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_82299887-7ccf-4c41-92bc-530dcf456855",
-      "createdAt": "2026-06-26T06:17:10.848Z",
+      "id": "log_32cacf36-af4d-49d3-9297-e2fe67f62c86",
+      "createdAt": "2026-06-26T06:27:19.626Z",
       "siteName": "大和ハウス",
       "domain": "daiwahouse.co.jp",
       "url": "https://www.daiwahouse.co.jp/robots.txt",
@@ -345,8 +745,8 @@
       "message": "robots.txt確認でHTTP 403"
     },
     {
-      "id": "log_322d5616-441d-44a5-8e79-60d4332d8a8b",
-      "createdAt": "2026-06-26T06:17:11.013Z",
+      "id": "log_a44d8f9e-e73b-45d4-9e3e-33ed5c5c427b",
+      "createdAt": "2026-06-26T06:27:19.761Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/robots.txt",
@@ -355,8 +755,8 @@
       "message": "1件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_b7109d79-681a-4f89-82b4-6d482a001dab",
-      "createdAt": "2026-06-26T06:17:11.280Z",
+      "id": "log_dc698a07-92e8-4a37-b13c-a1970d7e327a",
+      "createdAt": "2026-06-26T06:27:19.950Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/sitemap.xml",
@@ -365,8 +765,8 @@
       "message": "対象ファイルは見つかりませんでした。"
     },
     {
-      "id": "log_ffcc5f0e-3e57-45ac-902d-e42c259d8dfd",
-      "createdAt": "2026-06-26T06:17:11.391Z",
+      "id": "log_3a84d75e-0f43-4924-b0f5-12572efc2c07",
+      "createdAt": "2026-06-26T06:27:20.058Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/bunjyo/",
@@ -375,8 +775,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_18afefe6-3b31-43ba-a2fb-eb81cae5e57f",
-      "createdAt": "2026-06-26T06:17:11.537Z",
+      "id": "log_1b376acb-3ccd-4743-81b0-b9bda46a3a8a",
+      "createdAt": "2026-06-26T06:27:20.197Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/ie/modelhouse/",
@@ -385,8 +785,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_d5e60cc5-bc6f-494e-bcae-d3ecdd634b8a",
-      "createdAt": "2026-06-26T06:17:11.544Z",
+      "id": "log_ed248e97-371a-4db0-91e8-d13212995fd8",
+      "createdAt": "2026-06-26T06:27:20.202Z",
       "siteName": "住友林業",
       "domain": "sfc.jp",
       "url": "https://sfc.jp/bunjyo/",
@@ -395,8 +795,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_826586d7-43ab-4f21-be68-bcb5a5a1944a",
-      "createdAt": "2026-06-26T06:17:11.703Z",
+      "id": "log_6252a7d2-4a4d-41eb-8c0e-f23a42adfb72",
+      "createdAt": "2026-06-26T06:27:20.362Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/robots.txt",
@@ -405,8 +805,8 @@
       "message": "1件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_6d2b4da4-ea2a-4ce6-858f-407aa6283253",
-      "createdAt": "2026-06-26T06:17:11.891Z",
+      "id": "log_6682c98b-82db-46c7-92c4-98e0851d0c9c",
+      "createdAt": "2026-06-26T06:27:20.555Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/sitemap.xml",
@@ -415,8 +815,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_174ef6b3-cc5e-4a64-a048-f4e1ea2fc67a",
-      "createdAt": "2026-06-26T06:17:11.893Z",
+      "id": "log_4030c5d4-d705-48ca-8438-95855a984f9a",
+      "createdAt": "2026-06-26T06:27:20.556Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/sitemap.xml",
@@ -425,8 +825,8 @@
       "message": "1748件のURLを検出しました。"
     },
     {
-      "id": "log_4662b668-3b29-455b-b416-9e18b0bbb406",
-      "createdAt": "2026-06-26T06:17:11.967Z",
+      "id": "log_a6954324-298d-419e-b657-85a9dd981103",
+      "createdAt": "2026-06-26T06:27:20.628Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/land/",
@@ -435,8 +835,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_e1f579ee-bd0c-43d0-96ea-eb987501b4f5",
-      "createdAt": "2026-06-26T06:17:12.133Z",
+      "id": "log_9312936a-cc6d-40c6-ac47-a9f77582b02f",
+      "createdAt": "2026-06-26T06:27:20.791Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/iikoto/loan/",
@@ -445,8 +845,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_1c8e2200-b232-490e-ba24-75c97d8c7a4d",
-      "createdAt": "2026-06-26T06:17:12.135Z",
+      "id": "log_603847cc-718c-43d9-9b11-598f22968c2d",
+      "createdAt": "2026-06-26T06:27:20.793Z",
       "siteName": "一条工務店",
       "domain": "ichijo.co.jp",
       "url": "https://www.ichijo.co.jp/land/",
@@ -455,8 +855,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_532fcc7d-334b-4e08-8956-22ead77a3832",
-      "createdAt": "2026-06-26T06:17:12.961Z",
+      "id": "log_84e69292-b29e-4d47-ae2a-75fa2d5732a8",
+      "createdAt": "2026-06-26T06:27:21.579Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/robots.txt",
@@ -465,8 +865,8 @@
       "message": "1件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_8bb79845-20f6-4390-af93-7db2d6299d4d",
-      "createdAt": "2026-06-26T06:17:12.999Z",
+      "id": "log_8234c1f4-84d1-43ab-98d2-09f65638af2f",
+      "createdAt": "2026-06-26T06:27:21.613Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/sitemap.xml",
@@ -475,8 +875,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_53d4cecc-f296-4ff2-95d8-fba9353d9774",
-      "createdAt": "2026-06-26T06:17:13.000Z",
+      "id": "log_9dce5b95-c7b3-4d9c-b168-6392f9a2cbe6",
+      "createdAt": "2026-06-26T06:27:21.613Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/sitemap.xml",
@@ -485,8 +885,8 @@
       "message": "911件のURLを検出しました。"
     },
     {
-      "id": "log_c5a7dcab-4cfc-4794-86d8-7852b25bde34",
-      "createdAt": "2026-06-26T06:17:13.051Z",
+      "id": "log_ba2bf2de-b337-495d-bb8f-8df759fe23cb",
+      "createdAt": "2026-06-26T06:27:21.658Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/estate/",
@@ -495,8 +895,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_fe6252d2-b61c-4a86-bca0-5c9b7f8ea90e",
-      "createdAt": "2026-06-26T06:17:13.094Z",
+      "id": "log_38100486-35cc-4679-b89d-a517e7464faa",
+      "createdAt": "2026-06-26T06:27:21.696Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/madori/imagehint/bedroom/workspace/",
@@ -505,8 +905,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_a8abde68-734e-4d23-a279-d7de8c6054ee",
-      "createdAt": "2026-06-26T06:17:13.098Z",
+      "id": "log_abe49f50-83e8-45c0-9f32-1108f063e832",
+      "createdAt": "2026-06-26T06:27:21.701Z",
       "siteName": "セキスイハイム",
       "domain": "sekisuiheim.com",
       "url": "https://www.sekisuiheim.com/estate/",
@@ -515,8 +915,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_47cc098a-fe78-402f-b414-fb89be0a54b1",
-      "createdAt": "2026-06-26T06:17:13.333Z",
+      "id": "log_3626aeda-c9c3-4c52-ae8e-90fb8e62451a",
+      "createdAt": "2026-06-26T06:27:21.936Z",
       "siteName": "ミサワホーム",
       "domain": "misawa.co.jp",
       "url": "https://www.misawa.co.jp/robots.txt",
@@ -525,8 +925,8 @@
       "message": "robots.txt確認でHTTP 403"
     },
     {
-      "id": "log_c8b6c6d9-e8d1-4f03-a2c7-18bad0f33fbb",
-      "createdAt": "2026-06-26T06:17:13.590Z",
+      "id": "log_e0acc75e-d534-4571-9fe2-5ee9b00a2005",
+      "createdAt": "2026-06-26T06:27:22.175Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/robots.txt",
@@ -535,8 +935,8 @@
       "message": "3件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_cbad61f7-89dd-4b54-b73d-11d44f6c6e7b",
-      "createdAt": "2026-06-26T06:17:13.760Z",
+      "id": "log_28da6b37-b0a2-4bb3-8230-a4a69f54f70e",
+      "createdAt": "2026-06-26T06:27:22.437Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/sitemap.xml",
@@ -545,8 +945,8 @@
       "message": "対象ファイルは見つかりませんでした。"
     },
     {
-      "id": "log_6d8ab379-f145-4343-8617-261bdfbf739e",
-      "createdAt": "2026-06-26T06:17:13.804Z",
+      "id": "log_742ff281-76e6-4e88-9af6-6585ea4f5b8b",
+      "createdAt": "2026-06-26T06:27:22.477Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/kyoten/bunjyo/",
@@ -555,8 +955,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_52ad79cc-1cfb-4f54-9e5f-b623794448cf",
-      "createdAt": "2026-06-26T06:17:13.893Z",
+      "id": "log_b8cb4617-1bde-4a14-b008-c4482b24ebb1",
+      "createdAt": "2026-06-26T06:27:22.577Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/case/sumai_tag.html?tag1=%e6%b3%a8%e6%96%87%e4%bd%8f%e5%ae%85",
@@ -565,8 +965,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_d8518d60-cb99-402f-8c33-582579cc3ba2",
-      "createdAt": "2026-06-26T06:17:13.897Z",
+      "id": "log_290db785-bf2a-4f0e-9e99-40cda7775191",
+      "createdAt": "2026-06-26T06:27:22.582Z",
       "siteName": "パナソニックホームズ",
       "domain": "homes.panasonic.com",
       "url": "https://homes.panasonic.com/kyoten/bunjyo/",
@@ -575,8 +975,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_f93a1d0e-7c0c-4148-8467-af4cb039b51f",
-      "createdAt": "2026-06-26T06:17:15.282Z",
+      "id": "log_987c510b-35b6-4e05-ad9d-e0f7d7ceb29b",
+      "createdAt": "2026-06-26T06:27:22.992Z",
       "siteName": "トヨタホーム",
       "domain": "toyotahome.co.jp",
       "url": "https://www.toyotahome.co.jp/robots.txt",
@@ -585,8 +985,8 @@
       "message": "robots.txt確認でHTTP 403"
     },
     {
-      "id": "log_fd0c1901-5b11-430a-b56c-074bc3cce66d",
-      "createdAt": "2026-06-26T06:17:15.562Z",
+      "id": "log_1b9d08a1-a4e8-43ce-b323-e25c23ca38e3",
+      "createdAt": "2026-06-26T06:27:23.246Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/robots.txt",
@@ -595,8 +995,8 @@
       "message": "robots.txtが見つからないため、明示的な禁止なしとして扱います。"
     },
     {
-      "id": "log_01521af3-960b-4050-8b08-59e594b4da30",
-      "createdAt": "2026-06-26T06:17:15.777Z",
+      "id": "log_3a462e46-06df-4701-85b2-d0fe5699964d",
+      "createdAt": "2026-06-26T06:27:23.458Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/sitemap.xml",
@@ -605,8 +1005,8 @@
       "message": "対象ファイルは見つかりませんでした。"
     },
     {
-      "id": "log_a0ea6970-1745-4469-be81-48a65b9dc182",
-      "createdAt": "2026-06-26T06:17:16.232Z",
+      "id": "log_68b2608a-1069-4956-afe0-d6e5c28faf5c",
+      "createdAt": "2026-06-26T06:27:23.981Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/bunjyo/",
@@ -615,8 +1015,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_2735537a-433f-44ec-9017-095f61c8bc08",
-      "createdAt": "2026-06-26T06:17:16.307Z",
+      "id": "log_7cb6d4eb-1599-43ff-bbce-7544ae2ab368",
+      "createdAt": "2026-06-26T06:27:24.047Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/home/works/",
@@ -625,8 +1025,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_761e915a-8a98-462b-b2bc-c1a2507c7e13",
-      "createdAt": "2026-06-26T06:17:16.314Z",
+      "id": "log_c7a4d38f-abbf-4c51-946f-507ea1a95faf",
+      "createdAt": "2026-06-26T06:27:24.055Z",
       "siteName": "三井ホーム",
       "domain": "mitsuihome.co.jp",
       "url": "https://www.mitsuihome.co.jp/bunjyo/",
@@ -635,8 +1035,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_aa7f9513-b63d-481d-9781-3562c020c952",
-      "createdAt": "2026-06-26T06:17:16.495Z",
+      "id": "log_5831850a-f2e8-4b9a-86aa-1d0103bf44cf",
+      "createdAt": "2026-06-26T06:27:24.740Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/robots.txt",
@@ -645,8 +1045,8 @@
       "message": "5件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_39d2fc02-d9e6-4e49-aa6d-ca2de01dd397",
-      "createdAt": "2026-06-26T06:17:16.751Z",
+      "id": "log_e1283c65-7de9-4595-ac4b-f023fc280292",
+      "createdAt": "2026-06-26T06:27:25.000Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/",
@@ -655,8 +1055,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_411709fa-144f-43d0-82a2-dd08534480ac",
-      "createdAt": "2026-06-26T06:17:16.752Z",
+      "id": "log_c7360b72-5a9a-4fbf-b4e4-acb20edea668",
+      "createdAt": "2026-06-26T06:27:25.000Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/sitemap.xml",
@@ -665,8 +1065,8 @@
       "message": "0件のURLを検出しました。"
     },
     {
-      "id": "log_f998e3fa-3ce5-48c3-b486-4662d9485a6d",
-      "createdAt": "2026-06-26T06:17:16.827Z",
+      "id": "log_bc42d60d-1503-4d37-b030-76d10bf98b98",
+      "createdAt": "2026-06-26T06:27:25.061Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/",
@@ -675,8 +1075,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_4faaf988-dfc2-4328-b4e3-1f4575b7e20e",
-      "createdAt": "2026-06-26T06:17:16.870Z",
+      "id": "log_f62c5caa-f76b-43b4-87ac-d988d5795d1a",
+      "createdAt": "2026-06-26T06:27:25.104Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/modelhouse/",
@@ -685,8 +1085,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_3a50ddc1-67be-455d-a34b-1965aed0ff37",
-      "createdAt": "2026-06-26T06:17:16.872Z",
+      "id": "log_f144ad9d-ab2b-4998-9c4c-5102d2e54151",
+      "createdAt": "2026-06-26T06:27:25.110Z",
       "siteName": "AQ Group / アキュラホーム",
       "domain": "aqura.co.jp",
       "url": "https://www.aqura.co.jp/",
@@ -695,8 +1095,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_c751b6f0-409c-429e-a004-c70cf428d7d8",
-      "createdAt": "2026-06-26T06:17:17.070Z",
+      "id": "log_3d6ab727-2763-464e-9182-077766fb595c",
+      "createdAt": "2026-06-26T06:27:25.282Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/robots.txt",
@@ -705,8 +1105,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_6fa1c616-6a4a-4bd8-8f50-787f01ded836",
-      "createdAt": "2026-06-26T06:17:17.372Z",
+      "id": "log_ace4ce01-aedc-4398-a283-59e4b5d74d92",
+      "createdAt": "2026-06-26T06:27:25.562Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/sitemap.xml",
@@ -715,8 +1115,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_e8b136d1-3a5c-42aa-9e97-700a525f8bf6",
-      "createdAt": "2026-06-26T06:17:17.372Z",
+      "id": "log_f4d6b2d2-be80-472f-85ed-1c99469bd312",
+      "createdAt": "2026-06-26T06:27:25.562Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/sitemap.xml",
@@ -725,8 +1125,8 @@
       "message": "19件のURLを検出しました。"
     },
     {
-      "id": "log_2d8f749b-2428-430e-aabb-c0618e7a99d3",
-      "createdAt": "2026-06-26T06:17:17.651Z",
+      "id": "log_c754639e-788f-4093-a229-0e88b611ba27",
+      "createdAt": "2026-06-26T06:27:26.728Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/works/",
@@ -735,8 +1135,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_23ece6b0-b648-41fb-bcd5-6d5e5a16fb8b",
-      "createdAt": "2026-06-26T06:17:17.747Z",
+      "id": "log_86ec76bc-e3b5-4476-bac9-e53ff3ea2c39",
+      "createdAt": "2026-06-26T06:27:26.815Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/works-sitemap.xml",
@@ -745,8 +1145,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_c960fef8-c19d-4f1a-881c-3146b8d23bb6",
-      "createdAt": "2026-06-26T06:17:17.749Z",
+      "id": "log_1110ea8c-c73a-46ac-9028-c43aab64041a",
+      "createdAt": "2026-06-26T06:27:26.816Z",
       "siteName": "丸商建設",
       "domain": "marusho-kensetsu.co.jp",
       "url": "https://www.marusho-kensetsu.co.jp/works/",
@@ -755,8 +1155,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_43360264-0127-4695-b42b-f9522a832187",
-      "createdAt": "2026-06-26T06:17:17.967Z",
+      "id": "log_af2a1399-f879-433f-a2b8-65f856dec0a0",
+      "createdAt": "2026-06-26T06:27:27.241Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/robots.txt",
@@ -765,8 +1165,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_d306be1f-41b4-4da8-9281-a4a5fbe2d14b",
-      "createdAt": "2026-06-26T06:17:18.373Z",
+      "id": "log_f8e589df-afbc-4f56-b0c0-bc498c422259",
+      "createdAt": "2026-06-26T06:27:27.874Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/wp-sitemap.xml",
@@ -775,8 +1175,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_76371915-946f-4818-8d8e-043554977db6",
-      "createdAt": "2026-06-26T06:17:18.374Z",
+      "id": "log_ff5bb58a-3c08-4104-8599-d745a1d6d1de",
+      "createdAt": "2026-06-26T06:27:27.874Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/sitemap.xml",
@@ -785,8 +1185,8 @@
       "message": "19件のURLを検出しました。"
     },
     {
-      "id": "log_9efb0b3d-e874-44b9-810b-c56279f6f96d",
-      "createdAt": "2026-06-26T06:17:18.456Z",
+      "id": "log_d5687af5-b9ce-4501-a4f4-810edace5f5c",
+      "createdAt": "2026-06-26T06:27:28.347Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/works",
@@ -795,8 +1195,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_da3c5172-31c5-4554-ae4b-4d69319495ae",
-      "createdAt": "2026-06-26T06:17:18.498Z",
+      "id": "log_91bdbba2-f042-46a7-8476-6f12089bbe4e",
+      "createdAt": "2026-06-26T06:27:28.535Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/wp-sitemap-posts-works-1.xml",
@@ -805,8 +1205,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_41f4ece8-292f-4477-94d0-81f4e49028bf",
-      "createdAt": "2026-06-26T06:17:18.498Z",
+      "id": "log_55523ec1-a432-4b59-904b-cb8bfbbcce5e",
+      "createdAt": "2026-06-26T06:27:28.535Z",
       "siteName": "七呂建設",
       "domain": "shichiro.com",
       "url": "https://www.shichiro.com/works/",
@@ -815,8 +1215,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_73d4c2c1-01a4-446f-afb1-ff64ed5df1af",
-      "createdAt": "2026-06-26T06:17:19.043Z",
+      "id": "log_1dbfb96a-dba1-42b0-868f-5d1e1ebc01b8",
+      "createdAt": "2026-06-26T06:27:29.112Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/robots.txt",
@@ -825,8 +1225,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_3fb4c14c-a782-4028-9a38-400d62e11af5",
-      "createdAt": "2026-06-26T06:17:19.442Z",
+      "id": "log_52740af0-3c28-47ea-922d-279d440fbb49",
+      "createdAt": "2026-06-26T06:27:29.237Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/sitemap.xml",
@@ -835,8 +1235,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_b89effff-b0c5-4d50-b7f8-8e869d8d1484",
-      "createdAt": "2026-06-26T06:17:19.442Z",
+      "id": "log_d9f2031c-8903-4ca2-9a68-74ea154eda4f",
+      "createdAt": "2026-06-26T06:27:29.237Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/sitemap.xml",
@@ -845,8 +1245,8 @@
       "message": "3件のURLを検出しました。"
     },
     {
-      "id": "log_f5f20656-60e4-4e04-8f5d-36791c82b23a",
-      "createdAt": "2026-06-26T06:17:19.886Z",
+      "id": "log_68629617-abff-47fa-8c5d-6cfd36e38a07",
+      "createdAt": "2026-06-26T06:27:29.732Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/works/",
@@ -855,8 +1255,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_b57e3ff5-f7c0-4373-857f-5e02cd50fcac",
-      "createdAt": "2026-06-26T06:17:20.284Z",
+      "id": "log_6b4fc911-6531-4253-b52b-85bdc2eca995",
+      "createdAt": "2026-06-26T06:27:29.858Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/sitemap-misc.xml",
@@ -865,8 +1265,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_75f795ea-b14f-4acd-8452-6b50e703ee93",
-      "createdAt": "2026-06-26T06:17:20.284Z",
+      "id": "log_0245a00e-081f-499c-944d-93905763acce",
+      "createdAt": "2026-06-26T06:27:29.858Z",
       "siteName": "万代ホーム",
       "domain": "mandai-home.com",
       "url": "https://www.mandai-home.com/works/",
@@ -875,8 +1275,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_6eec4027-ad1b-4374-bff7-f52450194294",
-      "createdAt": "2026-06-26T06:17:21.504Z",
+      "id": "log_8378b03b-6a3f-4f7f-a01a-7279e03ebd33",
+      "createdAt": "2026-06-26T06:27:31.328Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/robots.txt",
@@ -885,8 +1285,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_f4367abe-ab5a-4d67-94a2-bfb12856fc38",
-      "createdAt": "2026-06-26T06:17:21.831Z",
+      "id": "log_907aa6f2-28d9-4c18-a695-451784996a81",
+      "createdAt": "2026-06-26T06:27:31.572Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/column/1403/",
@@ -895,8 +1295,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_4ebe2883-c30d-441d-980c-d9d66f002c25",
-      "createdAt": "2026-06-26T06:17:22.397Z",
+      "id": "log_e9502a7b-0d18-4928-b553-658ebab924a7",
+      "createdAt": "2026-06-26T06:27:32.037Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/column/1403/images/floorplan/prev-image.png",
@@ -905,8 +1305,8 @@
       "message": "画像として読めなかったため候補から外しました。"
     },
     {
-      "id": "log_054be6c5-c72e-47fc-8cce-214d264921ab",
-      "createdAt": "2026-06-26T06:17:23.914Z",
+      "id": "log_4c99a7ab-2dd4-41ff-911b-ebe429b0a5db",
+      "createdAt": "2026-06-26T06:27:32.682Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/column/1403/imagaes/floorplan/next-image.png",
@@ -915,8 +1315,8 @@
       "message": "画像として読めなかったため候補から外しました。"
     },
     {
-      "id": "log_06515825-ec3f-4849-a581-1430412da675",
-      "createdAt": "2026-06-26T06:17:23.914Z",
+      "id": "log_93fcebbc-614d-4800-91a7-4869425631be",
+      "createdAt": "2026-06-26T06:27:32.683Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/column/1403/",
@@ -925,8 +1325,8 @@
       "message": "読める間取り画像が残らなかったため候補保存をスキップしました。"
     },
     {
-      "id": "log_65a9dc7f-b1a5-47c3-b030-af035ba3f178",
-      "createdAt": "2026-06-26T06:17:24.285Z",
+      "id": "log_109278d5-d1db-4bb5-94e9-2fc4c3424de6",
+      "createdAt": "2026-06-26T06:27:33.022Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/floor-plan/2070/",
@@ -935,8 +1335,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_69a3a799-a677-4f4d-8061-9b02ccf8aad2",
-      "createdAt": "2026-06-26T06:17:24.855Z",
+      "id": "log_f70f97b8-654e-4d18-bfeb-d62255c68b8e",
+      "createdAt": "2026-06-26T06:27:33.635Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/floor-plan/2070/images/floorplan/prev-image.png",
@@ -945,8 +1345,8 @@
       "message": "画像として読めなかったため候補から外しました。"
     },
     {
-      "id": "log_24bb9476-0afa-4f89-924c-be204ed6a636",
-      "createdAt": "2026-06-26T06:17:25.542Z",
+      "id": "log_9ad1469e-7f51-433a-ba3d-df20c775a2ae",
+      "createdAt": "2026-06-26T06:27:34.214Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/floor-plan/2070/imagaes/floorplan/next-image.png",
@@ -955,8 +1355,8 @@
       "message": "画像として読めなかったため候補から外しました。"
     },
     {
-      "id": "log_14aab144-02af-4296-b2b6-b89e4e03326a",
-      "createdAt": "2026-06-26T06:17:25.542Z",
+      "id": "log_cfb55de5-a50f-4737-b854-d4742cea59d9",
+      "createdAt": "2026-06-26T06:27:34.214Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com/floor-plan/2070/",
@@ -965,8 +1365,8 @@
       "message": "読める間取り画像が残らなかったため候補保存をスキップしました。"
     },
     {
-      "id": "log_1bbf98a7-3fc8-4357-9115-fb35e311355d",
-      "createdAt": "2026-06-26T06:17:25.542Z",
+      "id": "log_abe2131d-48e2-47d6-af01-e1d56ca9e109",
+      "createdAt": "2026-06-26T06:27:34.214Z",
       "siteName": "IROHA.IE 間取り実例",
       "domain": "irohaie.com",
       "url": "https://irohaie.com",
@@ -975,8 +1375,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_bdcf69ea-352e-4778-ad87-70f4da8d7ed4",
-      "createdAt": "2026-06-26T06:17:25.854Z",
+      "id": "log_ddb6b55b-d251-4652-906c-1984094d8406",
+      "createdAt": "2026-06-26T06:27:34.799Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com/robots.txt",
@@ -985,8 +1385,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_616b419f-25f3-4643-99d0-353ff8b0cb54",
-      "createdAt": "2026-06-26T06:17:26.041Z",
+      "id": "log_95aaca22-f648-444a-bb5a-4333238fbdf8",
+      "createdAt": "2026-06-26T06:27:34.967Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com/1floorplan11/",
@@ -995,8 +1395,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_cd4f5ec8-b1c9-44b6-8419-57b6e30791c9",
-      "createdAt": "2026-06-26T06:17:26.079Z",
+      "id": "log_55034664-632c-4b36-9f91-c967951b3122",
+      "createdAt": "2026-06-26T06:27:35.000Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com/1floorplan11/",
@@ -1005,8 +1405,8 @@
       "message": "平屋×3LDK×26坪｜30坪未満でも広々LDK！廊下のない平屋の間取り | 咲くくらし を確認待ち候補として保存しました。"
     },
     {
-      "id": "log_8e63e7be-22d1-4717-aaed-42bb1e9648e7",
-      "createdAt": "2026-06-26T06:17:26.416Z",
+      "id": "log_72edc1b3-2723-4204-af16-82d2f0f6a4c6",
+      "createdAt": "2026-06-26T06:27:35.338Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com/1floorplan8/",
@@ -1015,8 +1415,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_a5d5fdda-f6fb-400c-9917-4d447f544903",
-      "createdAt": "2026-06-26T06:17:26.421Z",
+      "id": "log_a430566d-7401-4303-b183-0c9b0222bde2",
+      "createdAt": "2026-06-26T06:27:35.341Z",
       "siteName": "咲くくらし 間取り実例",
       "domain": "hiyoriblog.com",
       "url": "https://hiyoriblog.com",
@@ -1025,8 +1425,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_2f64448c-ae26-4e69-8012-4a54e9f4a7b1",
-      "createdAt": "2026-06-26T06:17:26.736Z",
+      "id": "log_3e4e60f3-bf7b-450a-89b2-0200aab9cf21",
+      "createdAt": "2026-06-26T06:27:35.667Z",
       "siteName": "ときめきハウス 間取り実例",
       "domain": "tokimeki-house.jp",
       "url": "https://www.tokimeki-house.jp/robots.txt",
@@ -1035,8 +1435,8 @@
       "message": "0件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_d13d6edf-7f6a-4832-9d3f-1369f1898c36",
-      "createdAt": "2026-06-26T06:17:26.872Z",
+      "id": "log_c1268f5f-7937-4b75-8900-150501b788aa",
+      "createdAt": "2026-06-26T06:27:35.801Z",
       "siteName": "ときめきハウス 間取り実例",
       "domain": "tokimeki-house.jp",
       "url": "https://www.tokimeki-house.jp/blog/entry-872.html",
@@ -1045,8 +1445,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_e1c77317-a52d-4240-a66a-4edc7f40677b",
-      "createdAt": "2026-06-26T06:17:26.873Z",
+      "id": "log_c2eb7241-7579-4fd7-a72b-09cb256b9344",
+      "createdAt": "2026-06-26T06:27:35.802Z",
       "siteName": "ときめきハウス 間取り実例",
       "domain": "tokimeki-house.jp",
       "url": "https://www.tokimeki-house.jp",
@@ -1055,8 +1455,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_55c91c3b-d1fd-4bd8-8d16-9fa772743564",
-      "createdAt": "2026-06-26T06:17:26.873Z",
+      "id": "log_af2d87a9-778c-428c-89d1-3c51e5f63365",
+      "createdAt": "2026-06-26T06:27:35.802Z",
       "siteName": "両備ホームズ 間取り実例",
       "domain": "ryobi-homes.co.jp",
       "url": "-",
@@ -1065,8 +1465,8 @@
       "message": "サイト設定がOFFのため巡回しません。"
     },
     {
-      "id": "log_90a72e04-77c7-42ad-917f-c6af02db7032",
-      "createdAt": "2026-06-26T06:17:27.081Z",
+      "id": "log_c57d3a0d-6ba7-4b72-bea6-a64f5648970d",
+      "createdAt": "2026-06-26T06:27:36.012Z",
       "siteName": "ゼロホーム 間取り実例",
       "domain": "zerohome.jp",
       "url": "https://zerohome.jp/robots.txt",
@@ -1075,8 +1475,88 @@
       "message": "1件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_df72db4b-c7eb-481e-ace7-464aa1a73039",
-      "createdAt": "2026-06-26T06:17:28.347Z",
+      "id": "log_6c172f4a-4079-420f-9bfb-e3447fe97a62",
+      "createdAt": "2026-06-26T06:27:36.460Z",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/slim-house/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_d3ba2860-851d-449f-948f-2a96f48108bb",
+      "createdAt": "2026-06-26T06:27:39.638Z",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/slim-house/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "狭小住宅のプラン集 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_979487b2-9844-4b3d-8616-608f06425722",
+      "createdAt": "2026-06-26T06:27:40.031Z",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_d6fa7889-b75f-402b-81c3-c0000ec12b9c",
+      "createdAt": "2026-06-26T06:27:42.579Z",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "２階建て | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_30a10d3a-2195-4cf9-9005-3f3a2140d501",
+      "createdAt": "2026-06-26T06:27:42.933Z",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/two-family-house/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_a6798554-aaa6-496e-80fd-499d00e0bb82",
+      "createdAt": "2026-06-26T06:27:43.976Z",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/two-family-house/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "二世帯 住宅のプラン集| 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_b5dbc51c-f348-4568-a1ee-a84bd9417e5e",
+      "createdAt": "2026-06-26T06:27:44.351Z",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/one-story-house/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_6231d191-4647-4865-8adc-11214a599432",
+      "createdAt": "2026-06-26T06:27:45.536Z",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/one-story-house/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "平屋のプラン集 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_41ba23d0-00e5-452a-a609-80d65cce1723",
+      "createdAt": "2026-06-26T06:27:47.256Z",
       "siteName": "ゼロホーム 間取り実例",
       "domain": "zerohome.jp",
       "url": "https://zerohome.jp/chumon/plan/",
@@ -1085,8 +1565,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_5343e5b2-1064-48cb-a9a2-1ba473ba196c",
-      "createdAt": "2026-06-26T06:17:32.299Z",
+      "id": "log_7c81981c-4fc6-4abc-a9ac-90fc677db928",
+      "createdAt": "2026-06-26T06:27:51.325Z",
       "siteName": "ゼロホーム 間取り実例",
       "domain": "zerohome.jp",
       "url": "https://zerohome.jp/chumon/plan/",
@@ -1095,8 +1575,8 @@
       "message": "プランから探す | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
     },
     {
-      "id": "log_11a2db2f-bc65-436c-b71a-93df6b0ed5cd",
-      "createdAt": "2026-06-26T06:17:32.299Z",
+      "id": "log_5e8cae4c-9c35-45d7-8c7f-a51ac381c581",
+      "createdAt": "2026-06-26T06:27:51.325Z",
       "siteName": "ゼロホーム 間取り実例",
       "domain": "zerohome.jp",
       "url": "https://zerohome.jp",
@@ -1105,8 +1585,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_be9fc684-7264-4428-8545-42db229836ac",
-      "createdAt": "2026-06-26T06:17:32.564Z",
+      "id": "log_e908834d-5e77-4e57-8817-4dc744bb9702",
+      "createdAt": "2026-06-26T06:27:51.630Z",
       "siteName": "田中建設 間取り実例",
       "domain": "tanaken.co.jp",
       "url": "https://www.tanaken.co.jp/robots.txt",
@@ -1115,8 +1595,8 @@
       "message": "robots.txtが見つからないため、明示的な禁止なしとして扱います。"
     },
     {
-      "id": "log_41054cc7-a06e-4df7-a281-2fb26a00a55f",
-      "createdAt": "2026-06-26T06:17:32.957Z",
+      "id": "log_5b79ad59-8514-4f86-9cb8-b592bc118780",
+      "createdAt": "2026-06-26T06:27:52.108Z",
       "siteName": "田中建設 間取り実例",
       "domain": "tanaken.co.jp",
       "url": "https://www.tanaken.co.jp/estate/details_342.html",
@@ -1125,8 +1605,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_e52bf562-05dc-4f00-83ed-5ce7525b8647",
-      "createdAt": "2026-06-26T06:17:33.178Z",
+      "id": "log_0f2eee77-25a9-4388-94de-8a7598544734",
+      "createdAt": "2026-06-26T06:27:52.307Z",
       "siteName": "田中建設 間取り実例",
       "domain": "tanaken.co.jp",
       "url": "https://www.tanaken.co.jp/estate/details_342.html",
@@ -1135,8 +1615,8 @@
       "message": "平屋 3LDK 厚狭建売住宅【山陽小野田市】 を確認待ち候補として保存しました。"
     },
     {
-      "id": "log_d7b58a44-bf3f-407b-920e-ab30780971f2",
-      "createdAt": "2026-06-26T06:17:33.178Z",
+      "id": "log_5f1dcf95-89ab-4d64-9fa0-0ebeb29d81d4",
+      "createdAt": "2026-06-26T06:27:52.308Z",
       "siteName": "田中建設 間取り実例",
       "domain": "tanaken.co.jp",
       "url": "https://www.tanaken.co.jp",
@@ -1145,8 +1625,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_67616dee-6f87-4253-a280-67a06c0144b2",
-      "createdAt": "2026-06-26T06:17:33.178Z",
+      "id": "log_2ed4ecfd-f3c1-4e3d-85e4-d1c34c360f55",
+      "createdAt": "2026-06-26T06:27:52.308Z",
       "siteName": "平屋スタイル工房 間取り実例",
       "domain": "hiraya-koubou.com",
       "url": "-",
@@ -1155,8 +1635,8 @@
       "message": "サイト設定がOFFのため巡回しません。"
     },
     {
-      "id": "log_5a447d3e-993b-4f6d-bbc8-1b50270137d9",
-      "createdAt": "2026-06-26T06:17:33.514Z",
+      "id": "log_bccc844f-78a4-4030-930a-ea3d30f02510",
+      "createdAt": "2026-06-26T06:27:52.558Z",
       "siteName": "平屋幸房 間取り実例",
       "domain": "hirayakoubou.net",
       "url": "https://hirayakoubou.net/robots.txt",
@@ -1165,8 +1645,8 @@
       "message": "2件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_a3a0c9d9-c827-4d10-b26c-fa8ba57d4b34",
-      "createdAt": "2026-06-26T06:17:33.819Z",
+      "id": "log_1b4f2683-d836-49fe-ac37-34e769173c60",
+      "createdAt": "2026-06-26T06:27:52.918Z",
       "siteName": "平屋幸房 間取り実例",
       "domain": "hirayakoubou.net",
       "url": "https://hirayakoubou.net/plan/yew-22/",
@@ -1175,8 +1655,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_36c2f1b0-0b9f-4c29-864b-783f78c62b48",
-      "createdAt": "2026-06-26T06:17:33.820Z",
+      "id": "log_c28798ec-49ca-45c7-8580-a68d2eccb072",
+      "createdAt": "2026-06-26T06:27:52.919Z",
       "siteName": "平屋幸房 間取り実例",
       "domain": "hirayakoubou.net",
       "url": "https://hirayakoubou.net",
@@ -1185,8 +1665,8 @@
       "message": "1回あたりの取得上限に到達しました。"
     },
     {
-      "id": "log_d544a03f-7287-4d55-ac82-5e901147b37f",
-      "createdAt": "2026-06-26T06:17:34.333Z",
+      "id": "log_4352715b-93fe-47cf-8084-14ac80376304",
+      "createdAt": "2026-06-26T06:27:53.251Z",
       "siteName": "iemiru 間取り実例",
       "domain": "ie-miru.jp",
       "url": "https://www.ie-miru.jp/robots.txt",
@@ -1195,8 +1675,8 @@
       "message": "10件のrobotsルールを読み込みました。"
     },
     {
-      "id": "log_f684c804-8426-46e6-8d02-19f5adfd9b28",
-      "createdAt": "2026-06-26T06:17:35.048Z",
+      "id": "log_0b538e55-3451-4de1-9e12-5d4d9ffa77bf",
+      "createdAt": "2026-06-26T06:27:53.970Z",
       "siteName": "iemiru 間取り実例",
       "domain": "ie-miru.jp",
       "url": "https://www.ie-miru.jp/cms/yoyaku/syh/events/106160",
@@ -1205,8 +1685,8 @@
       "message": "HTMLを取得しました。"
     },
     {
-      "id": "log_254640b3-5bfa-46ad-873f-6ab14a7b9e72",
-      "createdAt": "2026-06-26T06:17:35.051Z",
+      "id": "log_a1012fde-84ab-43c0-a8f4-294998cd2226",
+      "createdAt": "2026-06-26T06:27:53.973Z",
       "siteName": "iemiru 間取り実例",
       "domain": "ie-miru.jp",
       "url": "https://www.ie-miru.jp",
