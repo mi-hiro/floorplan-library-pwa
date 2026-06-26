@@ -714,13 +714,13 @@ export default function App() {
           </div>
         </div>
         <div className="summary-strip">
-          <span>{properties.length}件登録</span>
-          <span>{floorplanCount}件の間取り図</span>
-          <span>自動収集 {collectedFloorplans.length}件</span>
-          <span>{autoSyncStatus}</span>
-          <span>最終更新 {formatDate(properties[0]?.updatedAt)}</span>
+          <span>登録 {properties.length}件</span>
+          <span>間取り {floorplanCount}件</span>
+          <span>自動 {collectedFloorplans.length}件</span>
+          <span>{autoSyncStatus === "巡回データ確認待ち" ? "巡回待ち" : autoSyncStatus}</span>
+          <span>更新 {formatDate(properties[0]?.updatedAt)}</span>
         </div>
-        <button className="primary-button" type="button" onClick={() => setIsCreating(true)}>
+        <button className="primary-button header-add-button" type="button" onClick={() => setIsCreating(true)}>
           <Plus size={18} />
           新規登録
         </button>

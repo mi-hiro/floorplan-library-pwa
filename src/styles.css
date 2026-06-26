@@ -136,9 +136,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 6px;
   color: var(--muted);
-  font-size: 0.86rem;
+  font-size: 0.8rem;
 }
 
 .summary-strip span,
@@ -148,8 +148,8 @@ h3 {
 .tag-row span {
   display: inline-flex;
   align-items: center;
-  min-height: 26px;
-  padding: 3px 9px;
+  min-height: 24px;
+  padding: 2px 8px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: #fff;
@@ -222,6 +222,11 @@ h3 {
   color: #fff;
   background: var(--primary);
   box-shadow: 0 8px 18px rgb(46 111 158 / 18%);
+}
+
+.header-add-button {
+  min-height: 36px;
+  padding: 8px 12px;
 }
 
 .primary-button:hover {
@@ -1246,10 +1251,34 @@ h3 {
 
   .app-header {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .app-header > .primary-button {
+    width: auto;
+    min-height: 34px;
+    justify-self: end;
+    padding: 7px 10px;
+    font-size: 0.86rem;
+  }
+
+  .summary-strip {
+    display: grid;
     width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5px;
+    justify-content: stretch;
+    font-size: 0.74rem;
+  }
+
+  .summary-strip span {
+    min-height: 23px;
+    justify-content: center;
+    padding: 2px 5px;
+    border-radius: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .app-nav {
@@ -1371,8 +1400,13 @@ h3 {
     height: 40px;
   }
 
-  .summary-strip span {
-    width: 100%;
+  .summary-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .header-add-button svg {
+    width: 15px;
+    height: 15px;
   }
 
   .card-actions .ghost-button,
