@@ -16,6 +16,10 @@ PowerShellでこのフォルダを開き、次を実行します。
 
 Vercel、Netlify、GitHub Pages向けの設定を追加済みです。手順は [DEPLOY.md](./DEPLOY.md) を見てください。
 
+## ローカル自動巡回
+
+相手サイトに負荷をかけない低頻度巡回エンジンを追加済みです。手順は [CRAWLER.md](./CRAWLER.md) を見てください。
+
 ## 実装済み
 
 - React + Vite + TypeScript

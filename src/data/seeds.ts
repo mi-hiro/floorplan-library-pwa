@@ -195,7 +195,7 @@ export async function addInitialLog() {
     url: "-",
     action: "停止",
     result: "停止中",
-    message: "MVPでは自動巡回処理は未実装。サイト設定、候補、ログの保存構造のみ用意済み。"
+    message: "ローカル巡回エンジンを利用できます。結果JSONを取得候補画面から取り込んでください。"
   };
 
   await putMany("logs", [log]);

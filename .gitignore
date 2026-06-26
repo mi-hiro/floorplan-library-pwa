@@ -3,6 +3,8 @@ dist/
 .env
 .env.*
 *.log
+crawler.config.json
+crawler-output/
 .DS_Store
 Thumbs.db
 *.tsbuildinfo

@@ -296,6 +296,7 @@ h3 {
 .settings-row,
 .subpanel,
 .notice,
+.import-panel,
 .empty-state,
 .viewer,
 .log-table {
@@ -841,6 +842,64 @@ h3 {
   color: #69512b;
 }
 
+.import-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+}
+
+.import-panel p {
+  margin-top: 4px;
+  color: var(--muted);
+}
+
+.file-action {
+  position: relative;
+  overflow: hidden;
+}
+
+.file-action input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-candidate-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 8px;
+}
+
+.image-candidate {
+  min-height: 54px;
+  display: grid;
+  gap: 3px;
+  justify-items: start;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 8px;
+  color: var(--text);
+  background: #fbfdff;
+  text-align: left;
+}
+
+.image-candidate span {
+  color: var(--primary-dark);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.image-candidate small {
+  width: 100%;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .admin-grid {
   display: grid;
   grid-template-columns: minmax(320px, 460px) minmax(0, 1fr);
@@ -977,6 +1036,10 @@ h3 {
 
   .settings-row {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .import-panel {
+    grid-template-columns: 1fr;
   }
 }
 

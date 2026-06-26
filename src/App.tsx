@@ -17,7 +17,16 @@ import { PropertyCard } from "./components/PropertyCard";
 import { PropertyWorkspace } from "./components/PropertyWorkspace";
 import { addInitialLog, addSampleProperties, ensureDefaultSites } from "./data/seeds";
 import { clearStore, deleteItem, getAllItems, putItem } from "./data/db";
-import type { CrawlCandidate, CrawlLog, CrawlSite, FilterState, FloorPlanProperty, ViewKey } from "./types";
+import type {
+  CrawlCandidate,
+  CrawlLog,
+  CrawlResultPackage,
+  CrawlSite,
+  FilterState,
+  FloorPlanProperty,
+  PropertyImage,
+  ViewKey
+} from "./types";
 import {
   calculateTsubo,
   formatDate,
@@ -90,6 +99,19 @@ function filterProperties(properties: FloorPlanProperty[], filters: FilterState)
 
 function candidateToProperty(candidate: CrawlCandidate): FloorPlanProperty {
   const createdAt = nowIso();
+  const imageCandidates = candidate.imageCandidates ?? [];
+  const images: PropertyImage[] = imageCandidates.map((image) => ({
+    id: makeId("image"),
+    kind: image.kind,
+    sourceType: "autoCandidate",
+    storageMode: image.dataUrl ? "dataUrl" : "urlOnly",
+    dataUrl: image.dataUrl,
+    url: image.url,
+    label: image.alt || "巡回候補画像",
+    noteLabels: ["個人メモ用", "外部共有不可", "URL参照"],
+    createdAt
+  }));
+
   return {
     id: makeId("property"),
     title: candidate.title || "名称未設定",
@@ -106,13 +128,43 @@ function candidateToProperty(candidate: CrawlCandidate): FloorPlanProperty {
     hasLaundry: false,
     hasPantry: false,
     hasCircularFlow: false,
-    images: [],
+    images,
     favorite: false,
     tags: ["確認済み候補"],
-    memo: candidate.memo || "取得候補から正式登録。必要に応じて間取り図を手動追加してください。",
+    memo:
+      candidate.memo ||
+      "取得候補から正式登録。画像はURL参照として登録しています。権利や利用条件を確認してから利用してください。",
     createdAt,
     updatedAt: createdAt,
     lastCheckedAt: candidate.fetchedAt
+  };
+}
+
+function normalizeImportedCandidate(candidate: CrawlCandidate): CrawlCandidate {
+  const imageCandidates = candidate.imageCandidates ?? [];
+  const imageUrlCandidates = [
+    ...new Set([
+      ...(candidate.imageUrlCandidates ?? []),
+      ...imageCandidates.map((image) => image.url)
+    ])
+  ];
+
+  return {
+    ...candidate,
+    id: candidate.id || makeId("candidate"),
+    title: candidate.title || "確認待ち候補",
+    listingSource: candidate.listingSource || "",
+    sourceUrl: candidate.sourceUrl || "",
+    company: candidate.company || "",
+    layout: candidate.layout || "",
+    floors: candidate.floors || "",
+    entranceDirection: candidate.entranceDirection || "",
+    hasFloorplanImage: candidate.hasFloorplanImage || imageCandidates.some((image) => image.kind === "floorplan"),
+    imageUrlCandidates,
+    imageCandidates,
+    fetchedAt: candidate.fetchedAt || nowIso(),
+    errorInfo: candidate.errorInfo || "",
+    memo: candidate.memo || ""
   };
 }
 
@@ -217,7 +269,7 @@ export default function App() {
       url: next.searchUrl || "-",
       action: "停止",
       result: next.enabled ? "成功" : "停止中",
-      message: "サイト設定を保存しました。自動巡回処理はMVPでは実行されません。"
+      message: "サイト設定を保存しました。ローカル巡回エンジン用の設定として利用できます。"
     });
   }
 
@@ -253,6 +305,38 @@ export default function App() {
     await saveProperty(property);
     await deleteCandidate(candidate.id);
     setView("library");
+  }
+
+  async function importCrawlPackage(crawlPackage: CrawlResultPackage) {
+    if (!crawlPackage.candidates || !Array.isArray(crawlPackage.candidates)) {
+      throw new Error("巡回結果JSONの形式が違います。");
+    }
+
+    const importedCandidates = crawlPackage.candidates.map(normalizeImportedCandidate);
+    const importedLogs = Array.isArray(crawlPackage.logs) ? crawlPackage.logs : [];
+
+    await Promise.all([
+      ...importedCandidates.map((candidate) => putItem("candidates", candidate)),
+      ...importedLogs.map((log) =>
+        putItem("logs", {
+          ...log,
+          id: log.id || makeId("log"),
+          createdAt: log.createdAt || nowIso()
+        })
+      )
+    ]);
+
+    setCandidates((current) => {
+      const merged = new Map(current.map((candidate) => [candidate.id, candidate]));
+      importedCandidates.forEach((candidate) => merged.set(candidate.id, candidate));
+      return [...merged.values()].sort((a, b) => b.fetchedAt.localeCompare(a.fetchedAt));
+    });
+    setLogs((current) => {
+      const merged = new Map(current.map((log) => [log.id, log]));
+      importedLogs.forEach((log) => merged.set(log.id, log));
+      return [...merged.values()].sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+    });
+    setView("candidates");
   }
 
   async function clearLogs() {
@@ -402,6 +486,7 @@ export default function App() {
             onSaveCandidate={saveCandidate}
             onDeleteCandidate={deleteCandidate}
             onPromoteCandidate={promoteCandidate}
+            onImportCrawlPackage={importCrawlPackage}
           />
         </main>
       ) : null}

@@ -56,6 +56,15 @@ export type ImageSaveMode = "none" | "urlOnly" | "storeImage";
 
 export type RobotsStatus = "unchecked" | "allowed" | "disallowed" | "error";
 
+export interface CrawlImageCandidate {
+  id: string;
+  kind: ImageKind;
+  url: string;
+  dataUrl?: string;
+  alt: string;
+  sourceUrl: string;
+}
+
 export interface CrawlSite {
   id: string;
   siteName: string;
@@ -96,9 +105,18 @@ export interface CrawlCandidate {
   entranceDirection: EntranceDirection;
   hasFloorplanImage: boolean;
   imageUrlCandidates: string[];
+  imageCandidates?: CrawlImageCandidate[];
   fetchedAt: string;
   errorInfo: string;
   memo: string;
+}
+
+export interface CrawlResultPackage {
+  version: number;
+  generatedAt: string;
+  source: "local-crawler";
+  candidates: CrawlCandidate[];
+  logs: CrawlLog[];
 }
 
 export type CrawlAction =

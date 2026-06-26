@@ -1,7 +1,8 @@
-import { AlertTriangle, Check, ClipboardList, Plus, Save, Trash2 } from "lucide-react";
+import { AlertTriangle, Check, ClipboardList, Plus, Save, Trash2, Upload } from "lucide-react";
 import { useMemo, useState } from "react";
 import type {
   CrawlCandidate,
+  CrawlResultPackage,
   CrawlLog,
   CrawlMode,
   CrawlSite,
@@ -15,6 +16,7 @@ import {
   CRAWL_MODE_LABELS,
   DIRECTION_OPTIONS,
   FLOOR_OPTIONS,
+  IMAGE_KIND_LABELS,
   IMAGE_SAVE_MODE_LABELS,
   LAYOUT_OPTIONS
 } from "../types";
@@ -37,6 +39,7 @@ interface CandidatesViewProps {
   onSaveCandidate: (candidate: CrawlCandidate) => void;
   onDeleteCandidate: (id: string) => void;
   onPromoteCandidate: (candidate: CrawlCandidate) => void;
+  onImportCrawlPackage: (crawlPackage: CrawlResultPackage) => Promise<void>;
 }
 
 interface LogsViewProps {
@@ -342,9 +345,11 @@ export function CandidatesView({
   sites,
   onSaveCandidate,
   onDeleteCandidate,
-  onPromoteCandidate
+  onPromoteCandidate,
+  onImportCrawlPackage
 }: CandidatesViewProps) {
   const [draft, setDraft] = useState<CrawlCandidate>(blankCandidate(sites[0]?.id ?? ""));
+  const [importMessage, setImportMessage] = useState("");
   const selectedSite = useMemo(() => sites.find((site) => site.id === draft.siteId), [sites, draft.siteId]);
 
   function update<K extends keyof CrawlCandidate>(key: K, value: CrawlCandidate[K]) {
@@ -375,6 +380,19 @@ export function CandidatesView({
     setDraft(blankCandidate(sites[0]?.id ?? ""));
   }
 
+  async function importCrawlResult(file: File | undefined) {
+    if (!file) return;
+    setImportMessage("取り込み中...");
+    try {
+      const text = await file.text();
+      const parsed = JSON.parse(text) as CrawlResultPackage;
+      await onImportCrawlPackage(parsed);
+      setImportMessage(`${parsed.candidates?.length ?? 0}件の候補を取り込みました。`);
+    } catch (error) {
+      setImportMessage(error instanceof Error ? error.message : "取り込みに失敗しました。");
+    }
+  }
+
   return (
     <section className="admin-view">
       <div className="section-heading">
@@ -389,6 +407,18 @@ export function CandidatesView({
           <strong>正式登録前の置き場</strong>
           <p>将来の巡回で見つけた情報はここに入り、内容確認後に物件として保存する想定です。今はURL候補を手動登録できます。</p>
         </div>
+      </div>
+      <div className="import-panel">
+        <div>
+          <strong>ローカル巡回結果を取り込む</strong>
+          <p>巡回エンジンが出力した `latest-crawl.json` を選ぶと、確認待ち候補と巡回ログに追加されます。</p>
+        </div>
+        <label className="secondary-button file-action">
+          <Upload size={17} />
+          JSON選択
+          <input type="file" accept="application/json,.json" onChange={(event) => importCrawlResult(event.target.files?.[0])} />
+        </label>
+        {importMessage ? <span className="muted-text">{importMessage}</span> : null}
       </div>
       <div className="admin-grid">
         <form className="admin-form" onSubmit={(event) => event.preventDefault()}>
@@ -523,6 +553,24 @@ export function CandidatesView({
                   </div>
                 </dl>
                 <p className="muted-text">取得日時：{formatDate(candidate.fetchedAt)}</p>
+                {(candidate.imageCandidates?.length ?? 0) > 0 ? (
+                  <div className="image-candidate-list">
+                    {candidate.imageCandidates?.slice(0, 12).map((image) => (
+                      <button
+                        className="image-candidate"
+                        key={image.id}
+                        type="button"
+                        onClick={() => openExternalUrl(image.url)}
+                        title={image.url}
+                      >
+                        <span>{IMAGE_KIND_LABELS[image.kind]}</span>
+                        <small>{image.alt || "画像候補"}</small>
+                      </button>
+                    ))}
+                  </div>
+                ) : candidate.imageUrlCandidates.length > 0 ? (
+                  <p className="muted-text">画像URL候補：{candidate.imageUrlCandidates.length}件</p>
+                ) : null}
                 {candidate.errorInfo ? <p className="error-text">{candidate.errorInfo}</p> : null}
                 <div className="card-actions">
                   {candidate.sourceUrl ? (
