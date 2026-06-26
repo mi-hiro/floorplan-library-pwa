@@ -8,8 +8,8 @@ $Output = Join-Path $ProjectRoot "crawler-output\latest-crawl.json"
 
 if (!(Test-Path $Config)) {
   Copy-Item -LiteralPath $ExampleConfig -Destination $Config
-  Write-Host "crawler.config.json を作成しました。巡回したいサイトを enabled: true にして、searchUrl か manualUrls を設定してください。"
-  Write-Host "設定後にもう一度 .\run-crawler.ps1 を実行してください。"
+  Write-Host "Created crawler.config.json."
+  Write-Host "Enable sites and set searchUrl or manualUrls, then run .\run-crawler.ps1 again."
   exit 0
 }
 
@@ -33,7 +33,7 @@ if ($CrawlerExitCode -eq 0) {
     if (Test-Path -LiteralPath $ImageSearchConfig) {
       & $Node ".\scripts\image-search-crawler.mjs" "--config" $ImageSearchConfig "--out" $Output "--merge-existing"
       if ($LASTEXITCODE -ne 0) {
-        Write-Warning "公式画像検索APIの追加収集に失敗しました。通常巡回の結果だけを公開します。"
+        Write-Warning "Image search failed. Publishing normal crawler output only."
       }
     }
   }
@@ -43,7 +43,7 @@ if ($CrawlerExitCode -eq 0) {
     try {
       & $PublishScript -InputPath $Output
     } catch {
-      Write-Warning "巡回は完了しましたが、Webへの巡回結果反映に失敗しました: $($_.Exception.Message)"
+      Write-Warning ("Crawler finished, but publishing failed: {0}" -f $_.Exception.Message)
     }
   }
 }
