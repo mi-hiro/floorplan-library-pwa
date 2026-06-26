@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T18:44:36.607Z",
+  "generatedAt": "2026-06-26T20:40:55.687Z",
   "source": "local-crawler",
   "candidates": [
     {
@@ -31,7 +31,6 @@
         "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-4.png",
         "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-1.png",
         "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-2.png",
-        "https://www.ichijo.co.jp/lp/madori/images/collection/joestown_3d_overview.png?260126",
         "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-1.png",
         "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-2.png",
         "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08-1.png",
@@ -57,133 +56,252 @@
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-1.png?241205",
           "alt": "プラン1間取り図1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, including various rooms and furniture, such as beds, sofas, and dining tables. It is a clear and "
+          }
         },
         {
           "id": "image_candidate_8d2fea12bf4a889c",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-2.png?241205",
           "alt": "プラン1間取り図2階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, including various rooms and furniture placement. It is a clear architectural drawing with measure"
+          }
         },
         {
           "id": "image_candidate_8e7d68acb43f7b00",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-3.png?241205",
           "alt": "プラン1間取り図外回り",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, as well as outdoor elements such as a pool and a carport. It i"
+          }
         },
         {
           "id": "image_candidate_d0384abd260a6ca1",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02-1.png?241206",
           "alt": "プラン2間取り図1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as beds, sofas, and other household items. It is"
+          }
         },
         {
           "id": "image_candidate_197f7bc63084afda",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02-2.png",
           "alt": "プラン2間取り図外回り",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, such as beds, sofas, and dining tables. It also shows the plac"
+          }
         },
         {
           "id": "image_candidate_3b14c2c558f101c3",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-1.png",
           "alt": "プラン3間取り図1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as a living room, dining area, kitchen, bedrooms"
+          }
         },
         {
           "id": "image_candidate_0846660247641b02",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-2.png",
           "alt": "プラン3間取り図2階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as beds, sofas, and other household items. It is"
+          }
         },
         {
           "id": "image_candidate_4f78fbb08f58a9c9",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-3.png",
           "alt": "プラン3間取り図外回り",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         },
         {
           "id": "image_candidate_d7035d0bf1a88a63",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04-1.png",
           "alt": "プラン4間取り図1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as beds, sofas, and other household items. It is"
+          }
         },
         {
           "id": "image_candidate_35c13ee60fbf81d6",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04-2.png",
           "alt": "プラン4間取り図外回り",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         },
         {
           "id": "image_candidate_d96ea26b33805ca6",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-1.png",
           "alt": "プラン5間取り図1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, such as a carport, swimming pool, kitchen, bathrooms, and bedr"
+          }
         },
         {
           "id": "image_candidate_e23b71fb3633c631",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-2.png",
           "alt": "プラン5間取り図2階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as a living room, dining area, kitchen, bedrooms"
+          }
         },
         {
           "id": "image_candidate_5c42e52dfbef249e",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-3.png",
           "alt": "プラン5間取り図3階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as beds, sofas, and dining tables. It is a clear"
+          }
         },
         {
           "id": "image_candidate_03fdd08d79949510",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-4.png",
           "alt": "プラン5間取り図外回り",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         },
         {
           "id": "image_candidate_df62fbf62d46c84d",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-1.png",
           "alt": "プラン6間取り図1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, such as a living room, bedrooms, bathrooms, kitchen, dining ar"
+          }
         },
         {
           "id": "image_candidate_524f99e171dae490",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-2.png",
           "alt": "プラン6間取り図外回り",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
-        },
-        {
-          "id": "image_candidate_0939faf75418db7d",
-          "kind": "floorplan",
-          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/joestown_3d_overview.png?260126",
-          "alt": "ジョーズ・タウン3D図面イメージ",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, such as cars, beds, chairs, and other household items. It is a"
+          }
         },
         {
           "id": "image_candidate_d3dd340824d5e23b",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-1.png",
           "alt": "プラン7間取り図1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as a living room, dining area, kitchen, bedrooms"
+          }
         },
         {
           "id": "image_candidate_f05d90335b1da634",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-2.png",
           "alt": "プラン7間取り図外回り",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/"
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed top-view layout of a Japanese residential floor plan, including various rooms and furniture, such as beds, sofas, and bathroom fixtures. It also shows "
+          }
         },
         {
           "id": "image_candidate_8fbf29349fcc1287",
@@ -300,7 +418,7 @@
       ],
       "fetchedAt": "2026-06-26T08:13:43.639Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_47cc8df2cfd44a0e",
@@ -335,7 +453,7 @@
       ],
       "fetchedAt": "2026-06-26T08:13:52.045Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_4751b4d1534fc408",
@@ -364,7 +482,7 @@
       ],
       "fetchedAt": "2026-06-26T08:13:53.402Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_044e88a254a98099",
@@ -418,7 +536,7 @@
       ],
       "fetchedAt": "2026-06-26T08:13:54.080Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_db982622c451f62f",
@@ -456,7 +574,7 @@
       ],
       "fetchedAt": "2026-06-26T08:13:55.510Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_7a53b248eacb8009",
@@ -485,7 +603,7 @@
       ],
       "fetchedAt": "2026-06-26T08:14:12.680Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_0720c10c0a5670f8",
@@ -641,7 +759,7 @@
       ],
       "fetchedAt": "2026-06-26T08:14:14.160Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_368e59c5a80d3de9",
@@ -765,7 +883,7 @@
       ],
       "fetchedAt": "2026-06-26T08:14:17.616Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_0a0ee9f45a6cda49",
@@ -825,7 +943,7 @@
       ],
       "fetchedAt": "2026-06-26T08:14:20.682Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_7a0511c32f269d70",
@@ -885,7 +1003,7 @@
       ],
       "fetchedAt": "2026-06-26T08:14:22.115Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_861ef4d9bff1b21b",
@@ -915,7 +1033,7 @@
       ],
       "fetchedAt": "2026-06-26T08:14:28.464Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_4594e67549fd20e0",
@@ -941,7 +1059,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:33.948Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_f39b901cf5a112d2",
@@ -967,7 +1085,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:34.412Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_cf140796bb40d441",
@@ -993,7 +1111,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:35.297Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_c9ae6f20182bdbc5",
@@ -1019,7 +1137,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:35.667Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_49f03096af9e31b8",
@@ -1045,7 +1163,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:36.046Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_e9e7b989fd4f60fb",
@@ -1071,7 +1189,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:36.707Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_5397106735413c9f",
@@ -1097,7 +1215,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:37.059Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_6cb1d49f35587cee",
@@ -1123,7 +1241,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:37.823Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_68ff4189d0451eba",
@@ -1149,7 +1267,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:38.217Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_fb38135e84348089",
@@ -1175,7 +1293,7 @@
       ],
       "fetchedAt": "2026-06-26T10:24:38.592Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_97abc9151b990048",
@@ -1201,7 +1319,7 @@
       ],
       "fetchedAt": "2026-06-26T10:42:16.472Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_630c82e15877168d",
@@ -1227,7 +1345,7 @@
       ],
       "fetchedAt": "2026-06-26T10:42:17.316Z",
       "errorInfo": "",
-      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_9020d7efba6a64b2",
@@ -1257,7 +1375,7 @@
       ],
       "fetchedAt": "2026-06-26T10:52:09.059Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_1ee5f88e495423ae",
@@ -1287,7 +1405,7 @@
       ],
       "fetchedAt": "2026-06-26T10:52:15.960Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_bdd025f1e909b45a",
@@ -1317,7 +1435,7 @@
       ],
       "fetchedAt": "2026-06-26T10:52:23.647Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_8f5ffda49b056b90",
@@ -1347,7 +1465,7 @@
       ],
       "fetchedAt": "2026-06-26T10:52:31.114Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_21376d92b8bd6ee4",
@@ -1377,7 +1495,7 @@
       ],
       "fetchedAt": "2026-06-26T10:52:38.388Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_fe014abd8aa4657e",
@@ -1407,7 +1525,7 @@
       ],
       "fetchedAt": "2026-06-26T10:53:56.022Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_0d335e1fe18bd4e0",
@@ -1437,7 +1555,7 @@
       ],
       "fetchedAt": "2026-06-26T10:54:00.477Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_3372083ae73c7efe",
@@ -1467,7 +1585,7 @@
       ],
       "fetchedAt": "2026-06-26T10:54:04.893Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_ccef9acb2dd88282",
@@ -1497,7 +1615,7 @@
       ],
       "fetchedAt": "2026-06-26T10:54:10.075Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_337819b8580bdf2a",
@@ -1527,7 +1645,7 @@
       ],
       "fetchedAt": "2026-06-26T10:54:14.496Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_f911835ab91117c4",
@@ -1557,7 +1675,7 @@
       ],
       "fetchedAt": "2026-06-26T10:54:18.899Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_46c5ce4ee2350c0f",
@@ -1587,7 +1705,7 @@
       ],
       "fetchedAt": "2026-06-26T10:54:28.575Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_4b77715705f3f0c1",
@@ -1617,7 +1735,7 @@
       ],
       "fetchedAt": "2026-06-26T10:54:33.803Z",
       "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
       "id": "candidate_bb5b879b58c4f27e",
@@ -2015,6 +2133,119 @@
         }
       ],
       "fetchedAt": "2026-06-26T18:15:07.998Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
+    },
+    {
+      "id": "candidate_c5b90fdbaea02b9e",
+      "title": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 ｜間取り実例｜BE ENOUGH",
+      "listingSource": "discovered be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/",
+      "siteId": "discovered_49af1ed5d4",
+      "company": "",
+      "layout": "4LDK",
+      "areaSqm": 229.5,
+      "tsubo": 69.42,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-1536x1152.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-1170x878.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-640x480.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-400x300.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/1725117a13f7247162e2.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_c9b11222a03789bf",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5.jpg",
+          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
+        },
+        {
+          "id": "image_candidate_e38d66fd6ab18336",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-1536x1152.jpg",
+          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
+        },
+        {
+          "id": "image_candidate_ed39ce81b7dad6b5",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-1170x878.jpg",
+          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
+        },
+        {
+          "id": "image_candidate_424ae0388c0c3afc",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-640x480.jpg",
+          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
+        },
+        {
+          "id": "image_candidate_57f8c0b4089e5b8c",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-400x300.jpg",
+          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
+        },
+        {
+          "id": "image_candidate_224b2351b445306d",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/1725117a13f7247162e2.jpg",
+          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T20:12:16.779Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
+    },
+    {
+      "id": "candidate_93829112709213da",
+      "title": "【公式】間取りプラン集｜アイダ設計（ハウスメーカー）",
+      "listingSource": "discovered www.aidagroup.co.jp",
+      "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "siteId": "discovered_17dd8bb788",
+      "company": "",
+      "priceManYen": 999,
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-01.jpg",
+        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-02.jpg",
+        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_1dc2ea6639af7f5a",
+          "kind": "floorplan",
+          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-01.jpg",
+          "alt": "平屋",
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/"
+        },
+        {
+          "id": "image_candidate_611e3662a0bc02b2",
+          "kind": "floorplan",
+          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-02.jpg",
+          "alt": "2階建",
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/"
+        },
+        {
+          "id": "image_candidate_f925169c4bfd4eff",
+          "kind": "floorplan",
+          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-03.jpg",
+          "alt": "3階建",
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T20:12:30.116Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     }
@@ -6419,6 +6650,386 @@
       "action": "image-review",
       "result": "accepted",
       "message": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+    },
+    {
+      "id": "log_106b4896-9fc7-444b-89ee-8016ec87483b",
+      "createdAt": "2026-06-26T20:12:16.421Z",
+      "siteName": "discovered be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "3件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_fa7dd749-b021-41fa-a5ab-683db26bc366",
+      "createdAt": "2026-06-26T20:12:16.764Z",
+      "siteName": "discovered be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_6f0a71c7-1f2c-45ef-9858-34e58e71f465",
+      "createdAt": "2026-06-26T20:12:29.511Z",
+      "siteName": "discovered be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 ｜間取り実例｜BE ENOUGH を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_5917b0c8-762c-43b8-bc7f-4d6d36b0864b",
+      "createdAt": "2026-06-26T20:12:29.511Z",
+      "siteName": "discovered be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_bcaaa936-1e00-4d5c-a802-be65e8597f77",
+      "createdAt": "2026-06-26T20:12:29.809Z",
+      "siteName": "discovered www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "1件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_5baedd03-6530-41c8-ae83-b24c09945d8a",
+      "createdAt": "2026-06-26T20:12:30.112Z",
+      "siteName": "discovered www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_67913e96-f927-4533-b567-2a4ebf33289d",
+      "createdAt": "2026-06-26T20:12:41.067Z",
+      "siteName": "discovered www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【公式】間取りプラン集｜アイダ設計（ハウスメーカー） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_a2ca6ee0-3a18-4ca0-bbce-9619258b58bd",
+      "createdAt": "2026-06-26T20:12:41.067Z",
+      "siteName": "discovered www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_4ef613e9-cac0-4cd9-a61a-005aba1e47b6",
+      "createdAt": "2026-06-26T20:12:41.928Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "2件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_8662a945-335d-4364-8941-c306b610507f",
+      "createdAt": "2026-06-26T20:12:42.332Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/floorplan1/21/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_8d7f60bb-95e5-48b6-b8b7-8275263b84b6",
+      "createdAt": "2026-06-26T20:12:55.196Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/floorplan1/21/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "一条工務店30坪平屋の4LDK・ランドリールームの間取りの考え方 - 玄米が住む一条工務店の平屋での暮らし を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_8d68a61f-000a-4334-b9a0-5a3e1318b314",
+      "createdAt": "2026-06-26T20:12:55.197Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_275ef034-f776-4875-acd1-677e7e4e14f2",
+      "createdAt": "2026-06-26T20:13:05.433Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "zerohome.jp/chumon/plan/plan04/*: This operation was aborted"
+    },
+    {
+      "id": "log_fed7df4b-ef2b-4695-8c11-1d06a060cd66",
+      "createdAt": "2026-06-26T20:13:15.434Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ichijo.co.jp/lp/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_eb04e99b-4c8b-4f46-9764-d21e35d82614",
+      "createdAt": "2026-06-26T20:13:25.435Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "irohaie.com/floor-plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_198f8208-7cbd-4409-a38a-a7a96c10c7c2",
+      "createdAt": "2026-06-26T20:13:35.436Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.misawa.co.jp/kodate/guide/hiraya/madori.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_751aa196-0524-4e05-bb0c-f7b89dd328b4",
+      "createdAt": "2026-06-26T20:34:04.142Z",
+      "siteName": "Ollama",
+      "domain": "127.0.0.1",
+      "url": "http://127.0.0.1:11434",
+      "action": "model",
+      "result": "success",
+      "message": "Using llava:latest"
+    },
+    {
+      "id": "log_6a2c89a1-ed1b-4cbe-a6c2-ca4356328dfc",
+      "createdAt": "2026-06-26T20:34:21.626Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-1.png?241205",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, including various rooms and furniture, such as beds, sofas, and dining tables. It is a clear and "
+    },
+    {
+      "id": "log_84888ed0-91a3-470c-b539-65f555d4c188",
+      "createdAt": "2026-06-26T20:34:39.007Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-2.png?241205",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, including various rooms and furniture placement. It is a clear architectural drawing with measure"
+    },
+    {
+      "id": "log_59fc72bc-ffbe-46a7-b56b-abcccece02a6",
+      "createdAt": "2026-06-26T20:34:58.621Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-3.png?241205",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, as well as outdoor elements such as a pool and a carport. It i"
+    },
+    {
+      "id": "log_cc73c419-cc18-48d1-9ee8-a5ecb5a94d23",
+      "createdAt": "2026-06-26T20:35:19.876Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02-1.png?241206",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as beds, sofas, and other household items. It is"
+    },
+    {
+      "id": "log_99aff504-9481-4d18-b6ce-9b168e8d5baf",
+      "createdAt": "2026-06-26T20:35:47.518Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02-2.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, such as beds, sofas, and dining tables. It also shows the plac"
+    },
+    {
+      "id": "log_03416ff6-1e62-453a-81bc-83c76d451bd5",
+      "createdAt": "2026-06-26T20:36:08.092Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-1.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as a living room, dining area, kitchen, bedrooms"
+    },
+    {
+      "id": "log_bfe6bf2f-806a-4b78-b2fa-cf767251ce9e",
+      "createdAt": "2026-06-26T20:36:26.406Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-2.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as beds, sofas, and other household items. It is"
+    },
+    {
+      "id": "log_bdd83a71-1132-45c3-9bdc-9e6b7986d757",
+      "createdAt": "2026-06-26T20:36:39.991Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-3.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_b17b7acd-08d5-4d38-b73e-b6c268f466b8",
+      "createdAt": "2026-06-26T20:36:58.758Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04-1.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as beds, sofas, and other household items. It is"
+    },
+    {
+      "id": "log_8d2e7098-c93a-4017-be73-6a11b1d93c5e",
+      "createdAt": "2026-06-26T20:37:27.935Z",
+      "siteName": "Ollama",
+      "domain": "127.0.0.1",
+      "url": "http://127.0.0.1:11434",
+      "action": "model",
+      "result": "success",
+      "message": "Using llava:latest"
+    },
+    {
+      "id": "log_158d13dc-23be-4452-bf9a-eb40a6ad7ce5",
+      "createdAt": "2026-06-26T20:37:40.293Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04-2.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_315eb2d5-7baf-4788-bdef-594f4a93e264",
+      "createdAt": "2026-06-26T20:38:00.332Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-1.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, such as a carport, swimming pool, kitchen, bathrooms, and bedr"
+    },
+    {
+      "id": "log_41bbb450-4093-40c6-9395-0fc97690b385",
+      "createdAt": "2026-06-26T20:38:22.720Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-2.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as a living room, dining area, kitchen, bedrooms"
+    },
+    {
+      "id": "log_a613d953-9768-4469-aa56-d4253deaa7ac",
+      "createdAt": "2026-06-26T20:38:41.508Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-3.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as beds, sofas, and dining tables. It is a clear"
+    },
+    {
+      "id": "log_e7358de8-3fe9-4beb-bb67-11fe87a54e76",
+      "createdAt": "2026-06-26T20:38:55.024Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-4.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_8e72ee34-d4d0-4d94-b0fe-cd59c93cac49",
+      "createdAt": "2026-06-26T20:39:25.387Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-1.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, such as a living room, bedrooms, bathrooms, kitchen, dining ar"
+    },
+    {
+      "id": "log_e8d892ad-0c7d-41cd-8614-415f1f79f484",
+      "createdAt": "2026-06-26T20:39:44.326Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-2.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture, such as cars, beds, chairs, and other household items. It is a"
+    },
+    {
+      "id": "log_3e7ade7f-a8c6-45e9-94d3-7d64c38b4d18",
+      "createdAt": "2026-06-26T20:40:07.327Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/joestown_3d_overview.png?260126",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image contains a collage of various photos and graphics related to interior design and home decoration, but it does not depict a clear floor plan layout or architectural drawin"
+    },
+    {
+      "id": "log_5d7cf33c-b6dd-4132-b288-e84c1635df7e",
+      "createdAt": "2026-06-26T20:40:08.027Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/joestown_3d_overview.png?260126",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image contains a collage of various photos and graphics related to interior design and home decoration, but it does not depict a clear floor plan layout or architectural drawin"
+    },
+    {
+      "id": "log_96726262-c0d1-4280-9eb1-34c389b813af",
+      "createdAt": "2026-06-26T20:40:27.471Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-1.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, which includes various rooms and furniture, such as a living room, dining area, kitchen, bedrooms"
+    },
+    {
+      "id": "log_61606bb9-72c9-4385-ac3d-0ed7be4ada81",
+      "createdAt": "2026-06-26T20:40:54.810Z",
+      "siteName": "Ollama",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-2.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a Japanese residential floor plan, including various rooms and furniture, such as beds, sofas, and bathroom fixtures. It also shows "
     }
   ]
 }
