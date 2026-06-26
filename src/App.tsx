@@ -48,6 +48,12 @@ const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
 const AUTO_CRAWL_FEED_URL = `${import.meta.env.BASE_URL}crawler-output/latest-crawl.json`;
 const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at";
 
+function getInitialView(): ViewKey {
+  if (typeof window === "undefined") return "library";
+  const hashView = window.location.hash.replace("#", "") as ViewKey;
+  return navItems.some((item) => item.key === hashView) ? hashView : "library";
+}
+
 function includesText(value: string | undefined, keyword: string) {
   return (value ?? "").toLowerCase().includes(keyword.toLowerCase());
 }
@@ -172,7 +178,7 @@ function normalizeImportedCandidate(candidate: CrawlCandidate): CrawlCandidate {
 }
 
 export default function App() {
-  const [view, setView] = useState<ViewKey>("library");
+  const [view, setViewState] = useState<ViewKey>(getInitialView);
   const [properties, setProperties] = useState<FloorPlanProperty[]>([]);
   const [sites, setSites] = useState<CrawlSite[]>([]);
   const [candidates, setCandidates] = useState<CrawlCandidate[]>([]);
@@ -183,6 +189,13 @@ export default function App() {
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [autoSyncStatus, setAutoSyncStatus] = useState("巡回データ確認待ち");
   const [loading, setLoading] = useState(true);
+
+  function setView(nextView: ViewKey) {
+    setViewState(nextView);
+    if (typeof window !== "undefined") {
+      window.history.replaceState(null, "", `#${nextView}`);
+    }
+  }
 
   async function refreshData() {
     const [nextProperties, nextSites, nextCandidates, nextLogs] = await Promise.all([
@@ -200,6 +213,10 @@ export default function App() {
   useEffect(() => {
     let cancelled = false;
 
+    function handleHashChange() {
+      setViewState(getInitialView());
+    }
+
     async function boot() {
       await ensureDefaultSites();
       await addInitialLog();
@@ -209,9 +226,11 @@ export default function App() {
       }
     }
 
+    window.addEventListener("hashchange", handleHashChange);
     boot();
     return () => {
       cancelled = true;
+      window.removeEventListener("hashchange", handleHashChange);
     };
   }, []);
 
