@@ -55,6 +55,12 @@
     "北海道 新築 間取り図 3LDK",
     "沖縄 新築 間取り図 3LDK"
   ],
+  "brave": {
+    "apiKeyEnv": "BRAVE_SEARCH_API_KEY",
+    "country": "JP",
+    "searchLang": "ja",
+    "safesearch": "strict"
+  },
   "google": {
     "apiKeyEnv": "GOOGLE_CUSTOM_SEARCH_API_KEY",
     "cxEnv": "GOOGLE_CUSTOM_SEARCH_CX",
