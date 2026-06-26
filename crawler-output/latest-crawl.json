@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T08:14:31.549Z",
+  "generatedAt": "2026-06-26T10:25:02.702Z",
   "source": "local-crawler",
   "candidates": [
     {
@@ -916,6 +916,266 @@
       "fetchedAt": "2026-06-26T08:14:28.464Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_4594e67549fd20e0",
+      "title": "PLAN 02 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan02/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_376859d3b25ee8ac",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan02.jpg",
+          "alt": "PLAN 02",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan02/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:33.948Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_f39b901cf5a112d2",
+      "title": "PLAN 05 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan05/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan05.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_256d0fbc41a6f82a",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan05.jpg",
+          "alt": "PLAN 05",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan05/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:34.412Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_cf140796bb40d441",
+      "title": "PLAN 08 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan08/",
+      "company": "zerohome.jp",
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan08.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_71e585154bd6001c",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan08.jpg",
+          "alt": "PLAN 08",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan08/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:35.297Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_c9ae6f20182bdbc5",
+      "title": "PLAN 10 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan10/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan10.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_b43f9f581658109d",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan10.jpg",
+          "alt": "PLAN 10",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan10/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:35.667Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_49f03096af9e31b8",
+      "title": "PLAN 11 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan11/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan11.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_39ac0169981409eb",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan11.jpg",
+          "alt": "PLAN 11",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan11/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:36.046Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_e9e7b989fd4f60fb",
+      "title": "PLAN 12 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan12/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan12.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_506594b1998e0657",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan12.jpg",
+          "alt": "PLAN 12",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan12/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:36.707Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_5397106735413c9f",
+      "title": "PLAN 17 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan17/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan17.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_bf3eb12820005e3e",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan17.jpg",
+          "alt": "PLAN 17",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan17/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:37.059Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_6cb1d49f35587cee",
+      "title": "PLAN 19 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan19/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan19.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_12846afb9a726d57",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan19.jpg",
+          "alt": "PLAN 19",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan19/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:37.823Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_68ff4189d0451eba",
+      "title": "PLAN 21 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan21/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan21.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_cabf3e11ddc508ec",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan21.jpg",
+          "alt": "PLAN 21",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan21/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:38.217Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_fb38135e84348089",
+      "title": "PLAN 23 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ",
+      "listingSource": "zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/plan23/",
+      "company": "zerohome.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan23.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_573a4f254a0f8295",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan23.jpg",
+          "alt": "PLAN 23",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/plan23/"
+        }
+      ],
+      "fetchedAt": "2026-06-26T10:24:38.592Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: zerohome.jp/chumon/plan/*. Confirm the current source page before saving."
     }
   ],
   "logs": [
@@ -2148,6 +2408,146 @@
       "action": "停止",
       "result": "上限到達",
       "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_f3f62fbb-cc4b-46b3-8822-0fa74ac03a32",
+      "createdAt": "2026-06-26T10:24:08.175Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "success",
+      "message": "zerohome.jp/chumon/plan/*: 10 records"
+    },
+    {
+      "id": "log_8118f560-9c76-443d-9fbc-0d3cb2748d60",
+      "createdAt": "2026-06-26T10:24:15.493Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.zerohome.jp%2Fchumon%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.zerohome.jp/chumon/plan/*: 10 records"
+    },
+    {
+      "id": "log_785102cc-1bbd-4baa-b042-ade04072e33c",
+      "createdAt": "2026-06-26T10:24:25.516Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eyefulhome.jp%2Fconcept%2Ffavo%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eyefulhome.jp/concept/favo/*: This operation was aborted"
+    },
+    {
+      "id": "log_73dd133e-0fab-4dc9-b9b2-6bef5c313af6",
+      "createdAt": "2026-06-26T10:24:33.415Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=eyefulhome.jp%2Fconcept%2Ffavo%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "success",
+      "message": "eyefulhome.jp/concept/favo/*: 2 records"
+    },
+    {
+      "id": "log_a2d838fa-9877-4267-a176-35319fe4bdba",
+      "createdAt": "2026-06-26T10:24:33.942Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan02/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_f009e2e6-6a6f-4cf1-a401-77f9cc49057b",
+      "createdAt": "2026-06-26T10:24:34.411Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan05/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_03f840ff-fcf2-4692-98cb-8580f82fe30c",
+      "createdAt": "2026-06-26T10:24:35.295Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan08/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_4a4864cf-4d85-4f7b-9427-1a26f4745635",
+      "createdAt": "2026-06-26T10:24:35.666Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan10/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_f6b3b5a9-14da-40f0-a6f4-85bfbc9f3819",
+      "createdAt": "2026-06-26T10:24:36.043Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan11/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_d53f725a-c3eb-4527-b341-3af4b0ed4179",
+      "createdAt": "2026-06-26T10:24:36.706Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan12/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_c924530d-eea2-4805-90f6-c121dcce667b",
+      "createdAt": "2026-06-26T10:24:37.058Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan17/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_48a4fbfb-a689-4f6d-83ad-0585c7f5c5c3",
+      "createdAt": "2026-06-26T10:24:37.819Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan19/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_99dff5c8-cee3-438e-8b8d-b272726ab13e",
+      "createdAt": "2026-06-26T10:24:38.215Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan21/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_0dcd2a46-43f9-4cdf-b8f0-563c1737c064",
+      "createdAt": "2026-06-26T10:24:38.590Z",
+      "siteName": "Common Crawl",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan23/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
     }
   ]
 }
