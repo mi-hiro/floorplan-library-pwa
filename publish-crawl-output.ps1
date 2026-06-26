@@ -12,12 +12,12 @@ if ([string]::IsNullOrWhiteSpace($InputPath)) {
 }
 
 if (!(Test-Path -LiteralPath $InputPath)) {
-  throw "巡回結果JSONが見つかりません: $InputPath"
+  throw "Crawler output JSON was not found: $InputPath"
 }
 
 $GhCommand = Get-Command gh -ErrorAction SilentlyContinue
 if (!$GhCommand) {
-  Write-Warning "GitHub CLIが見つからないため、Webへの巡回結果反映をスキップしました。"
+  Write-Warning "GitHub CLI was not found. Skipping publish."
   exit 0
 }
 
@@ -44,9 +44,9 @@ try {
   [IO.File]::WriteAllText($TempPayload, ($Payload | ConvertTo-Json -Depth 5), $Utf8NoBom)
   & gh api "repos/$Repository/contents/$TargetPath" --method PUT --input $TempPayload --silent
   if ($LASTEXITCODE -ne 0) {
-    throw "GitHubへの更新に失敗しました。GitHub CLIのログイン状態を確認してください。"
+    throw "GitHub update failed. Check GitHub CLI login status."
   }
-  Write-Host "Webアプリ用の巡回結果を更新しました: https://$($Repository.Split('/')[0]).github.io/$($Repository.Split('/')[1])/$TargetPath"
+  Write-Host "Published crawler output: https://$($Repository.Split('/')[0]).github.io/$($Repository.Split('/')[1])/$TargetPath"
 } finally {
   if (Test-Path -LiteralPath $TempPayload) {
     Remove-Item -LiteralPath $TempPayload -Force
