@@ -44,21 +44,21 @@ function Set-ImageSearchEnvironmentValue {
   }
   [Environment]::SetEnvironmentVariable($Name, $Value, "User")
   [Environment]::SetEnvironmentVariable($Name, $Value, "Process")
-  Write-Host "設定しました: $Name"
+  Write-Host "Set: $Name"
 }
 
 function Clear-ImageSearchEnvironmentValue {
   param([string]$Name)
   [Environment]::SetEnvironmentVariable($Name, $null, "User")
   [Environment]::SetEnvironmentVariable($Name, $null, "Process")
-  Write-Host "削除しました: $Name"
+  Write-Host "Cleared: $Name"
 }
 
 if ($Clear) {
   foreach ($Name in $EnvNames) {
     Clear-ImageSearchEnvironmentValue $Name
   }
-  Write-Host "画像検索APIキーを削除しました。"
+  Write-Host "Image search API keys were cleared."
   exit 0
 }
 
@@ -69,9 +69,9 @@ $HasDirectValue =
   $PSBoundParameters.ContainsKey("BingImageSearchKey")
 
 if (!$HasDirectValue) {
-  Write-Host "間取り図の大量収集には、画像検索APIキーが必要です。"
-  Write-Host "今から使うなら Brave Search API の BRAVE_SEARCH_API_KEY が一番進めやすいです。"
-  Write-Host "使わない項目はEnterで空のまま進めてください。"
+  Write-Host "Image search API keys are needed for bulk floorplan collection."
+  Write-Host "Recommended now: Brave Search API key in BRAVE_SEARCH_API_KEY."
+  Write-Host "Press Enter to skip fields you do not use."
   $BraveSearchApiKey = Read-OptionalSecret "BRAVE_SEARCH_API_KEY"
   $GoogleCustomSearchApiKey = Read-OptionalSecret "GOOGLE_CUSTOM_SEARCH_API_KEY"
   $GoogleCustomSearchCx = Read-Host "GOOGLE_CUSTOM_SEARCH_CX"
@@ -89,7 +89,7 @@ $HasAnyKey =
   $env:BING_IMAGE_SEARCH_KEY
 
 if ($HasAnyKey) {
-  Write-Host "キー登録が完了しました。続けて .\run-image-search.ps1 -TargetCount 1000 を実行できます。"
+  Write-Host "Keys were saved. Next: .\run-image-search.ps1 -TargetCount 1000"
 } else {
-  Write-Host "キーは登録されませんでした。APIキーを取得してから再実行してください。"
+  Write-Host "No keys were saved. Get an API key and run this script again."
 }
