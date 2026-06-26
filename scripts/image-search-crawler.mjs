@@ -27,6 +27,7 @@ async function main() {
   const provider = resolveProvider(args.provider ?? config.provider ?? process.env.IMAGE_SEARCH_PROVIDER ?? "auto");
   const queries = config.queries?.length ? config.queries : DEFAULT_QUERIES;
   const perQuery = Number(args.perQuery ?? config.perQuery ?? 20);
+  const targetCount = Number(args.targetCount ?? config.targetCount ?? 1000);
   const mergeExisting = parseBool(args.mergeExisting ?? config.mergeExisting, false);
 
   let candidates = [];
@@ -42,13 +43,13 @@ async function main() {
     version: 1,
     generatedAt: new Date().toISOString(),
     source: "local-crawler",
-    candidates: dedupeCandidates(candidates),
+    candidates: dedupeCandidates(candidates).slice(0, targetCount),
     logs
   };
 
   if (mergeExisting) {
     const existing = await readOptionalJson(outPath);
-    result.candidates = dedupeCandidates([...(existing.candidates ?? []), ...result.candidates]);
+    result.candidates = dedupeCandidates([...(existing.candidates ?? []), ...result.candidates]).slice(0, targetCount);
     result.logs = dedupeLogs([...(existing.logs ?? []), ...result.logs]);
   }
 
