@@ -288,11 +288,14 @@ function extractCandidate(html, pageUrl, site, global) {
     getTagText(html, "title")
   ]);
   const text = normalizeWhitespace(stripHtml(html));
-  const images = extractImages(html, pageUrl, global.maxImagesPerCandidate, {
+  const extractedImages = extractImages(html, pageUrl, global.maxImagesPerCandidate, {
     title,
     text,
     allowContextualFirstImage: site.crawlMode === "manualOnly"
   });
+  const images = global.floorplanOnly
+    ? dedupeFloorplanImages(extractedImages.filter((image) => image.kind === "floorplan"))
+    : extractedImages;
   const layout = extractLayout(text);
   const areaSqm = extractArea(text);
   const priceManYen = extractPrice(text);
@@ -452,9 +455,11 @@ async function verifyCandidateImages(candidate, site, robots, global, waitBefore
       addLog(site, image.url, "画像候補検出", "停止中", `画像確認をスキップ: ${error.message}`);
     }
   }
-  candidate.imageCandidates = verified;
-  candidate.imageUrlCandidates = verified.map((image) => image.url);
-  candidate.hasFloorplanImage = verified.some((image) => image.kind === "floorplan");
+  candidate.imageCandidates = global.floorplanOnly
+    ? dedupeFloorplanImages(verified.filter((image) => image.kind === "floorplan"))
+    : verified;
+  candidate.imageUrlCandidates = candidate.imageCandidates.map((image) => image.url);
+  candidate.hasFloorplanImage = candidate.imageCandidates.some((image) => image.kind === "floorplan");
 }
 
 async function canReadImageUrl(url, global) {
@@ -644,6 +649,37 @@ function looksLikeArticleThumbnail(haystack) {
   );
   const explicitPlan = /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(haystack);
   return articleUrl && articleTitle && !explicitPlan;
+}
+
+function dedupeFloorplanImages(images) {
+  const seen = new Set();
+  return images.filter((image) => {
+    const key = floorplanDedupeKey(image);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function floorplanDedupeKey(image) {
+  const signal = imageSignalText(image.alt, image.url);
+  const url = normalizeImageUrlForDedupe(image.url);
+  const zeroHomePlan = signal.match(/plan[-_\s]?([0-9]+)/i)?.[1];
+  if (zeroHomePlan && /zerohome/i.test(url)) return `zerohome-plan-${zeroHomePlan}`;
+  const tanakenLayout = url.match(/tanaken\.co\.jp\/photo\/estate\/([0-9]+)\/([^/?#]+?)(?:_(?:layout|[0-9]+[bsz]))?\.(?:jpe?g|png|webp)/i);
+  if (tanakenLayout) return `tanaken-${tanakenLayout[1]}-${tanakenLayout[2]}`;
+  return url;
+}
+
+function normalizeImageUrlForDedupe(url) {
+  try {
+    const parsed = new URL(url);
+    parsed.search = "";
+    parsed.hash = "";
+    return decodeURIComponent(parsed.toString()).toLowerCase();
+  } catch {
+    return String(url || "").toLowerCase();
+  }
 }
 
 function isImageUrl(value) {

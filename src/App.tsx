@@ -47,7 +47,7 @@ const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
 ];
 
 const AUTO_CRAWL_FEED_URL = `${import.meta.env.BASE_URL}crawler-output/latest-crawl.json`;
-const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at";
+const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at:v2";
 
 type ImportCrawlOptions = {
   switchToCandidates?: boolean;
@@ -158,7 +158,7 @@ function candidateToProperty(candidate: CrawlCandidate): FloorPlanProperty {
 }
 
 function normalizeImportedCandidate(candidate: CrawlCandidate): CrawlCandidate {
-  const imageCandidates = candidate.imageCandidates ?? [];
+  const imageCandidates = sanitizeImageCandidates(candidate.imageCandidates ?? []);
   const imageUrlCandidates = [
     ...new Set([
       ...(candidate.imageUrlCandidates ?? []),
@@ -177,7 +177,7 @@ function normalizeImportedCandidate(candidate: CrawlCandidate): CrawlCandidate {
     layout: candidate.layout || "",
     floors: candidate.floors || "",
     entranceDirection: candidate.entranceDirection || "",
-    hasFloorplanImage: candidate.hasFloorplanImage || imageCandidates.some((image) => image.kind === "floorplan"),
+    hasFloorplanImage: imageCandidates.some((image) => image.kind === "floorplan"),
     imageUrlCandidates,
     imageCandidates,
     fetchedAt: candidate.fetchedAt || nowIso(),
@@ -187,22 +187,97 @@ function normalizeImportedCandidate(candidate: CrawlCandidate): CrawlCandidate {
 }
 
 function getCollectedFloorplans(candidates: CrawlCandidate[]) {
-  return candidates.flatMap((candidate) =>
-    (candidate.imageCandidates ?? [])
+  const floorplans = new Map<string, {
+    id: string;
+    title: string;
+    imageUrl: string;
+    imageLink: string;
+    sourceUrl: string;
+    listingSource: string;
+    layout: string;
+    areaSqm?: number;
+    fetchedAt: string;
+    candidate: CrawlCandidate;
+  }>();
+
+  candidates.forEach((candidate) => {
+    sanitizeImageCandidates(candidate.imageCandidates ?? [])
       .filter((image) => image.kind === "floorplan")
-      .map((image) => ({
-        id: `${candidate.id}:${image.id}`,
-        title: image.alt || candidate.title || "自動収集した間取り図",
-        imageUrl: image.dataUrl || image.thumbnailUrl || image.url,
-        imageLink: image.url,
-        sourceUrl: candidate.sourceUrl,
-        listingSource: candidate.listingSource,
-        layout: candidate.layout,
-        areaSqm: candidate.areaSqm,
-        fetchedAt: candidate.fetchedAt,
-        candidate
-      }))
-  );
+      .forEach((image) => {
+        const imageUrl = image.dataUrl || image.thumbnailUrl || image.url;
+        const key = floorplanDedupeKey(image);
+        if (!imageUrl || floorplans.has(key)) return;
+        floorplans.set(key, {
+          id: `${candidate.id}:${image.id}`,
+          title: image.alt || candidate.title || "自動収集した間取り図",
+          imageUrl,
+          imageLink: image.url,
+          sourceUrl: candidate.sourceUrl,
+          listingSource: candidate.listingSource,
+          layout: candidate.layout,
+          areaSqm: candidate.areaSqm,
+          fetchedAt: candidate.fetchedAt,
+          candidate
+        });
+      });
+  });
+
+  return [...floorplans.values()];
+}
+
+function sanitizeImageCandidates(images: NonNullable<CrawlCandidate["imageCandidates"]>) {
+  const floorplans = images.filter((image) => image.kind === "floorplan" && isDisplayFloorplanImage(image));
+  const hasLayoutImage = floorplans.some((image) => /layout|topview|top-view|間取り図|平面図|図面/i.test(imageSignalText(image)));
+  const filtered = hasLayoutImage
+    ? floorplans.filter((image) => {
+        const signal = imageSignalText(image);
+        if (/\/photo\/estate\/.+_[0-9]+[bsz]\.(?:jpe?g|png|webp)/i.test(signal) && /layout/i.test(floorplans.map(imageSignalText).join(" "))) {
+          return false;
+        }
+        return /layout|topview|top-view|間取り図|平面図|図面|madori|floor.?plan/i.test(signal);
+      })
+    : floorplans;
+
+  const seen = new Set<string>();
+  return filtered.filter((image) => {
+    const key = floorplanDedupeKey(image);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function isDisplayFloorplanImage(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  const signal = imageSignalText(image);
+  if (/logo|ロゴ|icon|avatar|profile|staff|banner|バナー|campaign|キャンペーン|gift|ギフト|外観|内観|施工事例|インテリア|リビング|寝室|キッチン|frontview|sideview|facade|exterior|interior/i.test(signal)) {
+    return false;
+  }
+  return /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view|[2-5]\s*LDK|[0-9]{2}\s*坪/i.test(signal);
+}
+
+function floorplanDedupeKey(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  const signal = imageSignalText(image);
+  const url = normalizeImageUrl(image.url);
+  const planNumber = signal.match(/plan[-_\s]?([0-9]+)/i)?.[1];
+  if (planNumber && /zerohome/i.test(url)) return `zerohome-plan-${planNumber}`;
+  const tanakenLayout = url.match(/tanaken\.co\.jp\/photo\/estate\/([0-9]+)\/([^/?#]+?)(?:_(?:layout|[0-9]+[bsz]))?\.(?:jpe?g|png|webp)/i);
+  if (tanakenLayout) return `tanaken-${tanakenLayout[1]}-${tanakenLayout[2]}`;
+  return url;
+}
+
+function normalizeImageUrl(url: string) {
+  try {
+    const parsed = new URL(url);
+    parsed.search = "";
+    parsed.hash = "";
+    return decodeURIComponent(parsed.toString()).toLowerCase();
+  } catch {
+    return url.toLowerCase();
+  }
+}
+
+function imageSignalText(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  return `${image.alt || ""} ${normalizeImageUrl(image.url)} ${normalizeImageUrl(image.thumbnailUrl || "")}`;
 }
 
 export default function App() {

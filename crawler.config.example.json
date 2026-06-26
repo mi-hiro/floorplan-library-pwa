@@ -3,7 +3,7 @@
     "userAgent": "FloorplanLibraryCrawler/0.1 (+personal low-frequency crawler; respects robots.txt)",
     "requestTimeoutSeconds": 30,
     "maxPagesPerRun": 25,
-    "maxImagesPerCandidate": 24,
+    "maxImagesPerCandidate": 80,
     "floorplanOnly": true,
     "imageFetchLimit": 6,
     "maxImageBytes": 3145728
@@ -164,7 +164,7 @@
       "domain": "zerohome.jp",
       "searchUrl": "",
       "manualUrls": [
-        "https://zerohome.jp/chumon/plan/one-story-house/"
+        "https://zerohome.jp/chumon/plan/"
       ],
       "enabled": true,
       "crawlMode": "manualOnly",
