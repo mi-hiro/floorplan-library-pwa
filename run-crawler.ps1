@@ -15,11 +15,16 @@ if (!(Test-Path $Config)) {
 
 Set-Location $ProjectRoot
 & $Node ".\scripts\crawler.mjs" "--config" $Config "--out" $Output @args
+$CrawlerExitCode = $LASTEXITCODE
+if ($CrawlerExitCode -ne 0) {
+  exit $CrawlerExitCode
+}
 
-if ($LASTEXITCODE -eq 0) {
+if ($CrawlerExitCode -eq 0) {
+  $HasBraveImageSearch = $env:BRAVE_SEARCH_API_KEY
   $HasGoogleImageSearch = $env:GOOGLE_CUSTOM_SEARCH_API_KEY -and $env:GOOGLE_CUSTOM_SEARCH_CX
   $HasBingImageSearch = $env:BING_IMAGE_SEARCH_KEY
-  if ($HasGoogleImageSearch -or $HasBingImageSearch) {
+  if ($HasBraveImageSearch -or $HasGoogleImageSearch -or $HasBingImageSearch) {
     $ImageSearchConfig = Join-Path $ProjectRoot "image-search.config.json"
     $ImageSearchExample = Join-Path $ProjectRoot "image-search.config.example.json"
     if (!(Test-Path -LiteralPath $ImageSearchConfig) -and (Test-Path -LiteralPath $ImageSearchExample)) {
