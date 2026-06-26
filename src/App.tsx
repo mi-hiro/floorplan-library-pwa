@@ -7,7 +7,8 @@ import {
   RotateCcw,
   Scale,
   Settings,
-  ShieldCheck
+  ShieldCheck,
+  SlidersHorizontal
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { CandidatesView, CrawlSettingsView, LogsView, SitesView } from "./components/AdminViews";
@@ -40,8 +41,16 @@ import {
 const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
   { key: "library", label: "ライブラリ", icon: LayoutGrid },
   { key: "compare", label: "比較", icon: Scale },
+  { key: "settings", label: "設定", icon: Settings }
+];
+
+type SettingsTabKey = "sites" | "crawlSettings" | "candidates" | "logs";
+type SortKey = "newest" | "oldest" | "source" | "layout";
+type PageSize = 20 | 40 | 60;
+
+const settingsTabs: { key: SettingsTabKey; label: string; icon: React.ElementType }[] = [
   { key: "sites", label: "サイト管理", icon: ShieldCheck },
-  { key: "crawlSettings", label: "巡回設定", icon: Settings },
+  { key: "crawlSettings", label: "巡回設定", icon: SlidersHorizontal },
   { key: "candidates", label: "取得候補", icon: ClipboardList },
   { key: "logs", label: "巡回ログ", icon: Database }
 ];
@@ -76,7 +85,14 @@ function getInitialView(): ViewKey {
   const rawHashView = window.location.hash.replace("#", "");
   const hashView = rawHashView as ViewKey;
   if (rawHashView === "floorplans") return "library";
+  if (settingsTabs.some((item) => item.key === rawHashView)) return "settings";
   return navItems.some((item) => item.key === hashView) ? hashView : "library";
+}
+
+function getInitialSettingsTab(): SettingsTabKey {
+  if (typeof window === "undefined") return "sites";
+  const rawHashView = window.location.hash.replace("#", "");
+  return settingsTabs.some((item) => item.key === rawHashView) ? (rawHashView as SettingsTabKey) : "sites";
 }
 
 function includesText(value: string | undefined, keyword: string) {
@@ -176,6 +192,26 @@ function filterCollectedFloorplans(items: CollectedFloorplanItem[], filters: Fil
 
     return true;
   });
+}
+
+function sortCollectedFloorplans(items: CollectedFloorplanItem[], sortKey: SortKey) {
+  return [...items].sort((a, b) => {
+    if (sortKey === "oldest") return a.fetchedAt.localeCompare(b.fetchedAt);
+    if (sortKey === "source") return `${a.listingSource}${a.title}`.localeCompare(`${b.listingSource}${b.title}`, "ja");
+    if (sortKey === "layout") return `${a.layout || "zzz"}${a.title}`.localeCompare(`${b.layout || "zzz"}${b.title}`, "ja");
+    return b.fetchedAt.localeCompare(a.fetchedAt);
+  });
+}
+
+function floorplanMetaLabels(item: CollectedFloorplanItem) {
+  return [
+    item.layout,
+    item.floors,
+    item.candidate.entranceDirection ? `玄関${item.candidate.entranceDirection}` : "",
+    item.areaSqm ? `${item.areaSqm}㎡` : "",
+    item.tsubo ? `${item.tsubo}坪` : "",
+    item.priceManYen ? `${item.priceManYen.toLocaleString("ja-JP")}万円` : ""
+  ].filter(Boolean);
 }
 
 function candidateToProperty(candidate: CrawlCandidate): FloorPlanProperty {
@@ -343,11 +379,15 @@ function imageSignalText(image: NonNullable<CrawlCandidate["imageCandidates"]>[n
 
 export default function App() {
   const [view, setViewState] = useState<ViewKey>(getInitialView);
+  const [settingsView, setSettingsViewState] = useState<SettingsTabKey>(getInitialSettingsTab);
   const [properties, setProperties] = useState<FloorPlanProperty[]>([]);
   const [sites, setSites] = useState<CrawlSite[]>([]);
   const [candidates, setCandidates] = useState<CrawlCandidate[]>([]);
   const [logs, setLogs] = useState<CrawlLog[]>([]);
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
+  const [floorplanPageSize, setFloorplanPageSize] = useState<PageSize>(20);
+  const [floorplanSort, setFloorplanSort] = useState<SortKey>("newest");
+  const [floorplanPage, setFloorplanPage] = useState(1);
   const [editingProperty, setEditingProperty] = useState<FloorPlanProperty | undefined>();
   const [isCreating, setIsCreating] = useState(false);
   const [compareIds, setCompareIds] = useState<string[]>([]);
@@ -356,6 +396,14 @@ export default function App() {
 
   function setView(nextView: ViewKey) {
     setViewState(nextView);
+    if (typeof window !== "undefined") {
+      window.history.replaceState(null, "", `#${nextView}`);
+    }
+  }
+
+  function setSettingsView(nextView: SettingsTabKey) {
+    setSettingsViewState(nextView);
+    setViewState("settings");
     if (typeof window !== "undefined") {
       window.history.replaceState(null, "", `#${nextView}`);
     }
@@ -379,6 +427,7 @@ export default function App() {
 
     function handleHashChange() {
       setViewState(getInitialView());
+      setSettingsViewState(getInitialSettingsTab());
     }
 
     async function boot() {
@@ -404,6 +453,15 @@ export default function App() {
     () => filterCollectedFloorplans(collectedFloorplans, filters),
     [collectedFloorplans, filters]
   );
+  const sortedCollectedFloorplans = useMemo(
+    () => sortCollectedFloorplans(filteredCollectedFloorplans, floorplanSort),
+    [filteredCollectedFloorplans, floorplanSort]
+  );
+  const totalFloorplanPages = Math.max(1, Math.ceil(sortedCollectedFloorplans.length / floorplanPageSize));
+  const pagedCollectedFloorplans = useMemo(() => {
+    const start = (floorplanPage - 1) * floorplanPageSize;
+    return sortedCollectedFloorplans.slice(start, start + floorplanPageSize);
+  }, [sortedCollectedFloorplans, floorplanPage, floorplanPageSize]);
   const availableTags = useMemo(() => [...new Set(properties.flatMap((property) => property.tags))].sort(), [properties]);
   const listingSources = useMemo(
     () => [
@@ -424,6 +482,14 @@ export default function App() {
     [properties, collectedFloorplans]
   );
   const floorplanCount = useMemo(() => properties.filter((property) => getPrimaryFloorplan(property)).length, [properties]);
+
+  useEffect(() => {
+    setFloorplanPage(1);
+  }, [filters, floorplanPageSize, floorplanSort]);
+
+  useEffect(() => {
+    setFloorplanPage((current) => Math.min(current, totalFloorplanPages));
+  }, [totalFloorplanPages]);
 
   async function addLog(log: Omit<CrawlLog, "id" | "createdAt">) {
     const next: CrawlLog = { ...log, id: makeId("log"), createdAt: nowIso() };
@@ -551,7 +617,7 @@ export default function App() {
       importedLogs.forEach((log) => merged.set(log.id, log));
       return [...merged.values()].sort((a, b) => b.createdAt.localeCompare(a.createdAt));
     });
-    if (options.switchToCandidates) setView("candidates");
+    if (options.switchToCandidates) setSettingsView("candidates");
     return {
       candidateCount: importedCandidates.length,
       logCount: importedLogs.length,
@@ -684,23 +750,58 @@ export default function App() {
                 <div className="section-heading compact">
                   <div>
                     <p className="eyebrow">自動収集</p>
-                    <h3>収集した間取り図</h3>
-                  </div>
-                  <span className="status-pill on">
-                    {filteredCollectedFloorplans.length} / {collectedFloorplans.length}件
-                  </span>
-                </div>
-                {filteredCollectedFloorplans.length > 0 ? (
-                  <div className="floorplan-gallery">
-                    {filteredCollectedFloorplans.map((item) => (
-                      <article className="floorplan-tile" key={item.id}>
-                        <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
-                          <img src={item.imageUrl} alt={item.title} loading="lazy" />
-                        </button>
-                        <div className="floorplan-tile-body">
-                          <h3>{item.title}</h3>
-                          <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
-                          <p className="muted-text">取得日時：{formatDate(item.fetchedAt)}</p>
+                <h3>収集した間取り図</h3>
+              </div>
+              <span className="status-pill on">
+                {filteredCollectedFloorplans.length} / {collectedFloorplans.length}件
+              </span>
+            </div>
+            <div className="list-toolbar">
+              <label className="field compact-field">
+                <span>並び替え</span>
+                <select value={floorplanSort} onChange={(event) => setFloorplanSort(event.target.value as SortKey)}>
+                  <option value="newest">新着順</option>
+                  <option value="oldest">古い順</option>
+                  <option value="source">掲載元順</option>
+                  <option value="layout">間取り順</option>
+                </select>
+              </label>
+              <label className="field compact-field">
+                <span>表示件数</span>
+                <select value={floorplanPageSize} onChange={(event) => setFloorplanPageSize(Number(event.target.value) as PageSize)}>
+                  <option value={20}>20件</option>
+                  <option value={40}>40件</option>
+                  <option value={60}>60件</option>
+                </select>
+              </label>
+              <div className="pager-controls">
+                <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => setFloorplanPage((page) => Math.max(1, page - 1))}>
+                  前へ
+                </button>
+                <span>{floorplanPage} / {totalFloorplanPages}ページ</span>
+                <button className="secondary-button" type="button" disabled={floorplanPage >= totalFloorplanPages} onClick={() => setFloorplanPage((page) => Math.min(totalFloorplanPages, page + 1))}>
+                  次へ
+                </button>
+              </div>
+            </div>
+            {filteredCollectedFloorplans.length > 0 ? (
+              <div className="floorplan-gallery">
+                {pagedCollectedFloorplans.map((item) => (
+                  <article className="floorplan-tile" key={item.id}>
+                    <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
+                      <img src={item.imageUrl} alt={item.title} loading="lazy" />
+                    </button>
+                    <div className="floorplan-tile-body">
+                      <h3>{item.title}</h3>
+                      {floorplanMetaLabels(item).length > 0 ? (
+                        <div className="floorplan-meta">
+                          {floorplanMetaLabels(item).map((label) => (
+                            <span key={label}>{label}</span>
+                          ))}
+                        </div>
+                      ) : null}
+                      <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
+                      <p className="muted-text">取得日時：{formatDate(item.fetchedAt)}</p>
                           <div className="card-actions">
                             <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || item.imageLink)}>
                               元ページ
@@ -769,36 +870,37 @@ export default function App() {
         </main>
       ) : null}
 
-      {view === "sites" ? (
-        <main className="single-main">
-          <SitesView sites={sites} onSaveSite={saveSite} onDeleteSite={deleteSite} />
-        </main>
-      ) : null}
-
-      {view === "crawlSettings" ? (
-        <main className="single-main">
-          <CrawlSettingsView sites={sites} onSaveSite={saveSite} />
-        </main>
-      ) : null}
-
-      {view === "candidates" ? (
-        <main className="single-main">
-          <CandidatesView
-            candidates={candidates}
-            sites={sites}
-            onSaveCandidate={saveCandidate}
-            onDeleteCandidate={deleteCandidate}
-            onPromoteCandidate={promoteCandidate}
-            onImportCrawlPackage={async (crawlPackage) => {
-              await importCrawlPackage(crawlPackage);
-            }}
-          />
-        </main>
-      ) : null}
-
-      {view === "logs" ? (
-        <main className="single-main">
-          <LogsView logs={logs} onClearLogs={clearLogs} />
+      {view === "settings" ? (
+        <main className="single-main settings-page">
+          <section className="section-heading">
+            <div>
+              <p className="eyebrow">管理</p>
+              <h2>設定</h2>
+            </div>
+          </section>
+          <nav className="settings-tabs" aria-label="設定メニュー">
+            {settingsTabs.map(({ key, label, icon: Icon }) => (
+              <button key={key} className={settingsView === key ? "is-current" : ""} type="button" onClick={() => setSettingsView(key)}>
+                <Icon size={17} />
+                {label}
+              </button>
+            ))}
+          </nav>
+          {settingsView === "sites" ? <SitesView sites={sites} onSaveSite={saveSite} onDeleteSite={deleteSite} /> : null}
+          {settingsView === "crawlSettings" ? <CrawlSettingsView sites={sites} onSaveSite={saveSite} /> : null}
+          {settingsView === "candidates" ? (
+            <CandidatesView
+              candidates={candidates}
+              sites={sites}
+              onSaveCandidate={saveCandidate}
+              onDeleteCandidate={deleteCandidate}
+              onPromoteCandidate={promoteCandidate}
+              onImportCrawlPackage={async (crawlPackage) => {
+                await importCrawlPackage(crawlPackage);
+              }}
+            />
+          ) : null}
+          {settingsView === "logs" ? <LogsView logs={logs} onClearLogs={clearLogs} /> : null}
         </main>
       ) : null}
 
