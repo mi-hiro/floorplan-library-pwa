@@ -54,6 +54,23 @@ type ImportCrawlOptions = {
   replaceCandidates?: boolean;
 };
 
+type CollectedFloorplanItem = {
+  id: string;
+  title: string;
+  imageUrl: string;
+  imageLink: string;
+  sourceUrl: string;
+  listingSource: string;
+  company: string;
+  layout: string;
+  floors: string;
+  areaSqm?: number;
+  tsubo?: number;
+  priceManYen?: number;
+  fetchedAt: string;
+  candidate: CrawlCandidate;
+};
+
 function getInitialView(): ViewKey {
   if (typeof window === "undefined") return "library";
   const rawHashView = window.location.hash.replace("#", "");
@@ -109,6 +126,41 @@ function filterProperties(properties: FloorPlanProperty[], filters: FilterState)
     if (filters.hasLaundry && !property.hasLaundry) return false;
     if (filters.hasPantry && !property.hasPantry) return false;
     if (filters.hasCircularFlow && !property.hasCircularFlow) return false;
+
+    return true;
+  });
+}
+
+function filterCollectedFloorplans(items: CollectedFloorplanItem[], filters: FilterState) {
+  return items.filter((item) => {
+    const keyword = filters.keyword.trim();
+    const candidate = item.candidate;
+
+    if (keyword) {
+      const matched =
+        includesText(item.title, keyword) ||
+        includesText(item.listingSource, keyword) ||
+        includesText(item.company, keyword) ||
+        includesText(item.sourceUrl, keyword) ||
+        includesText(item.imageLink, keyword) ||
+        includesText(candidate.memo, keyword);
+      if (!matched) return false;
+    }
+
+    if (filters.layout !== "all" && item.layout !== filters.layout) return false;
+    if (filters.floors !== "all" && item.floors !== filters.floors) return false;
+    if (filters.entranceDirection !== "all" && candidate.entranceDirection !== filters.entranceDirection) return false;
+    if (!inRange(item.areaSqm, filters.minArea, filters.maxArea)) return false;
+    if (!inRange(item.tsubo, filters.minTsubo, filters.maxTsubo)) return false;
+    if (!inRange(item.priceManYen, filters.minPrice, filters.maxPrice)) return false;
+    if (filters.floorplanStatus === "without") return false;
+    if (filters.exteriorStatus === "with") return false;
+    if (filters.listingSource && !includesText(item.listingSource, filters.listingSource)) return false;
+    if (filters.company && !includesText(item.company || item.listingSource, filters.company)) return false;
+    if (filters.favoriteOnly) return false;
+    if (filters.tag) return false;
+    if (!inRange(undefined, filters.minLdkTatami, "")) return false;
+    if (filters.hasFamilyCloset || filters.hasLaundry || filters.hasPantry || filters.hasCircularFlow) return false;
 
     return true;
   });
@@ -187,18 +239,7 @@ function normalizeImportedCandidate(candidate: CrawlCandidate): CrawlCandidate {
 }
 
 function getCollectedFloorplans(candidates: CrawlCandidate[]) {
-  const floorplans = new Map<string, {
-    id: string;
-    title: string;
-    imageUrl: string;
-    imageLink: string;
-    sourceUrl: string;
-    listingSource: string;
-    layout: string;
-    areaSqm?: number;
-    fetchedAt: string;
-    candidate: CrawlCandidate;
-  }>();
+  const floorplans = new Map<string, CollectedFloorplanItem>();
 
   candidates.forEach((candidate) => {
     sanitizeImageCandidates(candidate.imageCandidates ?? [])
@@ -214,8 +255,12 @@ function getCollectedFloorplans(candidates: CrawlCandidate[]) {
           imageLink: image.url,
           sourceUrl: candidate.sourceUrl,
           listingSource: candidate.listingSource,
+          company: candidate.company || candidate.listingSource,
           layout: candidate.layout,
+          floors: candidate.floors,
           areaSqm: candidate.areaSqm,
+          tsubo: candidate.tsubo,
+          priceManYen: candidate.priceManYen,
           fetchedAt: candidate.fetchedAt,
           candidate
         });
@@ -249,7 +294,7 @@ function sanitizeImageCandidates(images: NonNullable<CrawlCandidate["imageCandid
 
 function isDisplayFloorplanImage(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
   const signal = imageSignalText(image);
-  if (/logo|ロゴ|icon|avatar|profile|staff|banner|バナー|campaign|キャンペーン|gift|ギフト|外観|内観|施工事例|インテリア|リビング|寝室|キッチン|frontview|sideview|facade|exterior|interior/i.test(signal)) {
+  if (/logo|ロゴ|icon|avatar|profile|staff|banner|バナー|campaign|キャンペーン|gift|ギフト|外観|内観|施工事例|インテリア|リビング|寝室|キッチン|frontview|sideview|facade|exterior|interior|features?_img|feature_img|mainvisual|hero/i.test(signal)) {
     return false;
   }
   return /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view|[2-5]\s*LDK|[0-9]{2}\s*坪/i.test(signal);
@@ -260,6 +305,8 @@ function floorplanDedupeKey(image: NonNullable<CrawlCandidate["imageCandidates"]
   const url = normalizeImageUrl(image.url);
   const planNumber = signal.match(/plan[-_\s]?([0-9]+)/i)?.[1];
   if (planNumber && /zerohome/i.test(url)) return `zerohome-plan-${planNumber}`;
+  const eyefulPlan = url.match(/eyefulhome\.jp\/.+\/madori(?:_thm)?([0-9]+)/i)?.[1];
+  if (eyefulPlan) return `eyefulhome-madori-${eyefulPlan}`;
   const tanakenLayout = url.match(/tanaken\.co\.jp\/photo\/estate\/([0-9]+)\/([^/?#]+?)(?:_(?:layout|[0-9]+[bsz]))?\.(?:jpe?g|png|webp)/i);
   if (tanakenLayout) return `tanaken-${tanakenLayout[1]}-${tanakenLayout[2]}`;
   return url;
@@ -337,12 +384,32 @@ export default function App() {
     };
   }, []);
 
-  const filteredProperties = useMemo(() => filterProperties(properties, filters), [properties, filters]);
-  const availableTags = useMemo(() => [...new Set(properties.flatMap((property) => property.tags))].sort(), [properties]);
-  const listingSources = useMemo(() => [...new Set(properties.map((property) => property.listingSource).filter(Boolean))].sort(), [properties]);
-  const companies = useMemo(() => [...new Set(properties.map((property) => property.company).filter(Boolean))].sort(), [properties]);
-  const floorplanCount = useMemo(() => properties.filter((property) => getPrimaryFloorplan(property)).length, [properties]);
   const collectedFloorplans = useMemo(() => getCollectedFloorplans(candidates), [candidates]);
+  const filteredProperties = useMemo(() => filterProperties(properties, filters), [properties, filters]);
+  const filteredCollectedFloorplans = useMemo(
+    () => filterCollectedFloorplans(collectedFloorplans, filters),
+    [collectedFloorplans, filters]
+  );
+  const availableTags = useMemo(() => [...new Set(properties.flatMap((property) => property.tags))].sort(), [properties]);
+  const listingSources = useMemo(
+    () => [
+      ...new Set([
+        ...properties.map((property) => property.listingSource),
+        ...collectedFloorplans.map((item) => item.listingSource)
+      ].filter(Boolean))
+    ].sort(),
+    [properties, collectedFloorplans]
+  );
+  const companies = useMemo(
+    () => [
+      ...new Set([
+        ...properties.map((property) => property.company),
+        ...collectedFloorplans.map((item) => item.company || item.listingSource)
+      ].filter(Boolean))
+    ].sort(),
+    [properties, collectedFloorplans]
+  );
+  const floorplanCount = useMemo(() => properties.filter((property) => getPrimaryFloorplan(property)).length, [properties]);
 
   async function addLog(log: Omit<CrawlLog, "id" | "createdAt">) {
     const next: CrawlLog = { ...log, id: makeId("log"), createdAt: nowIso() };
@@ -605,30 +672,39 @@ export default function App() {
                     <p className="eyebrow">自動収集</p>
                     <h3>収集した間取り図</h3>
                   </div>
-                  <span className="status-pill on">{collectedFloorplans.length}件</span>
+                  <span className="status-pill on">
+                    {filteredCollectedFloorplans.length} / {collectedFloorplans.length}件
+                  </span>
                 </div>
-                <div className="floorplan-gallery">
-                  {collectedFloorplans.map((item) => (
-                    <article className="floorplan-tile" key={item.id}>
-                      <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
-                        <img src={item.imageUrl} alt={item.title} loading="lazy" />
-                      </button>
-                      <div className="floorplan-tile-body">
-                        <h3>{item.title}</h3>
-                        <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
-                        <p className="muted-text">取得日時：{formatDate(item.fetchedAt)}</p>
-                        <div className="card-actions">
-                          <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || item.imageLink)}>
-                            元ページ
-                          </button>
-                          <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
-                            正式登録
-                          </button>
+                {filteredCollectedFloorplans.length > 0 ? (
+                  <div className="floorplan-gallery">
+                    {filteredCollectedFloorplans.map((item) => (
+                      <article className="floorplan-tile" key={item.id}>
+                        <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
+                          <img src={item.imageUrl} alt={item.title} loading="lazy" />
+                        </button>
+                        <div className="floorplan-tile-body">
+                          <h3>{item.title}</h3>
+                          <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
+                          <p className="muted-text">取得日時：{formatDate(item.fetchedAt)}</p>
+                          <div className="card-actions">
+                            <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || item.imageLink)}>
+                              元ページ
+                            </button>
+                            <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
+                              正式登録
+                            </button>
+                          </div>
                         </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
+                      </article>
+                    ))}
+                  </div>
+                ) : (
+                  <section className="empty-state compact">
+                    <h2>条件に一致する自動収集の間取り図がありません</h2>
+                    <p>検索語や掲載元、間取りの条件を少し広げると見つかりやすくなります。</p>
+                  </section>
+                )}
               </section>
             ) : null}
 
