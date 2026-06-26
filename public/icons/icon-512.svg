@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="間取り図ライブラリアイコン">
+  <rect width="512" height="512" rx="96" fill="#f7fbff"/>
+  <rect x="83" y="88" width="346" height="330" rx="34" fill="#ffffff" stroke="#21445f" stroke-width="22"/>
+  <path d="M154 88v136h126V88M83 264h200m67-176v330M283 264h146M154 264v154" fill="none" stroke="#4488b5" stroke-width="19" stroke-linecap="round"/>
+  <circle cx="376" cy="344" r="35" fill="#f0a94f"/>
+</svg>
