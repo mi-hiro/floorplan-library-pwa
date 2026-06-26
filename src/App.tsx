@@ -45,6 +45,9 @@ const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
   { key: "logs", label: "巡回ログ", icon: Database }
 ];
 
+const AUTO_CRAWL_FEED_URL = `${import.meta.env.BASE_URL}crawler-output/latest-crawl.json`;
+const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at";
+
 function includesText(value: string | undefined, keyword: string) {
   return (value ?? "").toLowerCase().includes(keyword.toLowerCase());
 }
@@ -178,6 +181,7 @@ export default function App() {
   const [editingProperty, setEditingProperty] = useState<FloorPlanProperty | undefined>();
   const [isCreating, setIsCreating] = useState(false);
   const [compareIds, setCompareIds] = useState<string[]>([]);
+  const [autoSyncStatus, setAutoSyncStatus] = useState("巡回データ確認待ち");
   const [loading, setLoading] = useState(true);
 
   async function refreshData() {
@@ -307,7 +311,7 @@ export default function App() {
     setView("library");
   }
 
-  async function importCrawlPackage(crawlPackage: CrawlResultPackage) {
+  async function importCrawlPackage(crawlPackage: CrawlResultPackage, options = { switchToCandidates: true }) {
     if (!crawlPackage.candidates || !Array.isArray(crawlPackage.candidates)) {
       throw new Error("巡回結果JSONの形式が違います。");
     }
@@ -336,8 +340,46 @@ export default function App() {
       importedLogs.forEach((log) => merged.set(log.id, log));
       return [...merged.values()].sort((a, b) => b.createdAt.localeCompare(a.createdAt));
     });
-    setView("candidates");
+    if (options.switchToCandidates) setView("candidates");
+    return {
+      candidateCount: importedCandidates.length,
+      logCount: importedLogs.length,
+      generatedAt: crawlPackage.generatedAt
+    };
   }
+
+  async function syncHostedCrawlPackage(showNoUpdate = false) {
+    try {
+      const response = await fetch(`${AUTO_CRAWL_FEED_URL}?ts=${Date.now()}`, {
+        cache: "no-store"
+      });
+      if (response.status === 404) {
+        setAutoSyncStatus("巡回データ未公開");
+        return;
+      }
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const crawlPackage = (await response.json()) as CrawlResultPackage;
+      const lastGeneratedAt = localStorage.getItem(LAST_AUTO_CRAWL_KEY);
+      if (!crawlPackage.generatedAt || crawlPackage.generatedAt === lastGeneratedAt) {
+        if (showNoUpdate) setAutoSyncStatus("新しい巡回データなし");
+        return;
+      }
+
+      const result = await importCrawlPackage(crawlPackage, { switchToCandidates: false });
+      localStorage.setItem(LAST_AUTO_CRAWL_KEY, crawlPackage.generatedAt);
+      setAutoSyncStatus(`巡回候補 ${result.candidateCount}件を自動同期`);
+    } catch {
+      setAutoSyncStatus("巡回データ確認エラー");
+    }
+  }
+
+  useEffect(() => {
+    if (loading) return;
+    syncHostedCrawlPackage();
+    const timer = window.setInterval(() => syncHostedCrawlPackage(), 5 * 60 * 1000);
+    return () => window.clearInterval(timer);
+  }, [loading]);
 
   async function clearLogs() {
     if (!confirm("巡回ログをすべて削除しますか？")) return;
@@ -374,6 +416,7 @@ export default function App() {
         <div className="summary-strip">
           <span>{properties.length}件登録</span>
           <span>{floorplanCount}件の間取り図</span>
+          <span>{autoSyncStatus}</span>
           <span>最終更新 {formatDate(properties[0]?.updatedAt)}</span>
         </div>
         <button className="primary-button" type="button" onClick={() => setIsCreating(true)}>
@@ -486,7 +529,9 @@ export default function App() {
             onSaveCandidate={saveCandidate}
             onDeleteCandidate={deleteCandidate}
             onPromoteCandidate={promoteCandidate}
-            onImportCrawlPackage={importCrawlPackage}
+            onImportCrawlPackage={async (crawlPackage) => {
+              await importCrawlPackage(crawlPackage);
+            }}
           />
         </main>
       ) : null}
