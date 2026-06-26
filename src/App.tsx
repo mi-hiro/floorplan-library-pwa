@@ -46,6 +46,7 @@ const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
 type SettingsTabKey = "sites" | "crawlSettings" | "candidates" | "logs";
 type SortKey = "newest" | "oldest" | "source" | "layout";
 type PageSize = 20 | 40 | 60;
+type FloorplanDisplayMode = "cards" | "compact";
 
 const settingsTabs: { key: SettingsTabKey; label: string; icon: React.ElementType }[] = [
   { key: "sites", label: "サイト管理", icon: ShieldCheck },
@@ -404,6 +405,7 @@ export default function App() {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
   const [floorplanPageSize, setFloorplanPageSize] = useState<PageSize>(20);
   const [floorplanSort, setFloorplanSort] = useState<SortKey>("newest");
+  const [floorplanDisplay, setFloorplanDisplay] = useState<FloorplanDisplayMode>("compact");
   const [floorplanPage, setFloorplanPage] = useState(1);
   const [editingProperty, setEditingProperty] = useState<FloorPlanProperty | undefined>();
   const [isCreating, setIsCreating] = useState(false);
@@ -742,70 +744,67 @@ export default function App() {
             onAdd={() => setIsCreating(true)}
           />
           <section className="library-main">
-            <div className="section-heading">
-              <div>
-                <p className="eyebrow">一覧</p>
-                <h2>間取り図一覧</h2>
-              </div>
-            </div>
-
             {collectedFloorplans.length > 0 ? (
               <section className="auto-floorplan-section" id="floorplans">
-                <div className="section-heading compact">
-                  <div>
-                    <p className="eyebrow">自動収集</p>
-                <h3>収集した間取り図</h3>
-              </div>
-              <span className="status-pill on">
-                {filteredCollectedFloorplans.length} / {collectedFloorplans.length}件
-              </span>
-            </div>
-            <div className="list-toolbar">
-              <label className="field compact-field">
-                <span>並び替え</span>
-                <select value={floorplanSort} onChange={(event) => setFloorplanSort(event.target.value as SortKey)}>
-                  <option value="newest">新着順</option>
-                  <option value="oldest">古い順</option>
-                  <option value="source">掲載元順</option>
-                  <option value="layout">間取り順</option>
-                </select>
-              </label>
-              <label className="field compact-field">
-                <span>表示件数</span>
-                <select value={floorplanPageSize} onChange={(event) => setFloorplanPageSize(Number(event.target.value) as PageSize)}>
-                  <option value={20}>20件</option>
-                  <option value={40}>40件</option>
-                  <option value={60}>60件</option>
-                </select>
-              </label>
-              <div className="pager-controls">
-                <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => setFloorplanPage((page) => Math.max(1, page - 1))}>
-                  前へ
-                </button>
-                <span>{floorplanPage} / {totalFloorplanPages}ページ</span>
-                <button className="secondary-button" type="button" disabled={floorplanPage >= totalFloorplanPages} onClick={() => setFloorplanPage((page) => Math.min(totalFloorplanPages, page + 1))}>
-                  次へ
-                </button>
-              </div>
-            </div>
-            {filteredCollectedFloorplans.length > 0 ? (
-              <div className="floorplan-gallery">
-                {pagedCollectedFloorplans.map((item) => (
-                  <article className="floorplan-tile" key={item.id}>
-                    <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
-                      <img src={item.imageUrl} alt={item.title} loading="lazy" />
+                <div className="section-heading compact floorplan-list-heading">
+                  <h2>収集した間取り図</h2>
+                  <span className="status-pill on">
+                    {filteredCollectedFloorplans.length} / {collectedFloorplans.length}件
+                  </span>
+                </div>
+                <div className="list-toolbar">
+                  <label className="field compact-field">
+                    <span>並び替え</span>
+                    <select value={floorplanSort} onChange={(event) => setFloorplanSort(event.target.value as SortKey)}>
+                      <option value="newest">新着順</option>
+                      <option value="oldest">古い順</option>
+                      <option value="source">掲載元順</option>
+                      <option value="layout">間取り順</option>
+                    </select>
+                  </label>
+                  <label className="field compact-field">
+                    <span>表示件数</span>
+                    <select value={floorplanPageSize} onChange={(event) => setFloorplanPageSize(Number(event.target.value) as PageSize)}>
+                      <option value={20}>20件</option>
+                      <option value={40}>40件</option>
+                      <option value={60}>60件</option>
+                    </select>
+                  </label>
+                  <label className="field compact-field">
+                    <span>表示</span>
+                    <select value={floorplanDisplay} onChange={(event) => setFloorplanDisplay(event.target.value as FloorplanDisplayMode)}>
+                      <option value="cards">通常表示</option>
+                      <option value="compact">細い一覧</option>
+                    </select>
+                  </label>
+                  <div className="pager-controls">
+                    <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => setFloorplanPage((page) => Math.max(1, page - 1))}>
+                      前へ
                     </button>
-                    <div className="floorplan-tile-body">
-                      <h3>{item.title}</h3>
-                      {floorplanMetaLabels(item).length > 0 ? (
-                        <div className="floorplan-meta">
-                          {floorplanMetaLabels(item).map((label) => (
-                            <span key={label}>{label}</span>
-                          ))}
-                        </div>
-                      ) : null}
-                      <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
-                      <p className="muted-text">取得日時：{formatDate(item.fetchedAt)}</p>
+                    <span>{floorplanPage} / {totalFloorplanPages}</span>
+                    <button className="secondary-button" type="button" disabled={floorplanPage >= totalFloorplanPages} onClick={() => setFloorplanPage((page) => Math.min(totalFloorplanPages, page + 1))}>
+                      次へ
+                    </button>
+                  </div>
+                </div>
+                {filteredCollectedFloorplans.length > 0 ? (
+                  <div className={`floorplan-gallery ${floorplanDisplay === "compact" ? "is-compact-list" : ""}`}>
+                    {pagedCollectedFloorplans.map((item) => (
+                      <article className="floorplan-tile" key={item.id}>
+                        <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
+                          <img src={item.imageUrl} alt={item.title} loading="lazy" />
+                        </button>
+                        <div className="floorplan-tile-body">
+                          <h3>{item.title}</h3>
+                          {floorplanMetaLabels(item).length > 0 ? (
+                            <div className="floorplan-meta">
+                              {floorplanMetaLabels(item).map((label) => (
+                                <span key={label}>{label}</span>
+                              ))}
+                            </div>
+                          ) : null}
+                          <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
+                          <p className="muted-text floorplan-date">取得日時：{formatDate(item.fetchedAt)}</p>
                           <div className="card-actions">
                             <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || item.imageLink)}>
                               元ページ

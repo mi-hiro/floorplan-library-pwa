@@ -505,43 +505,71 @@ h3 {
 
 .auto-floorplan-section {
   display: grid;
-  gap: 12px;
-  margin-bottom: 18px;
+  gap: 8px;
+  margin-bottom: 14px;
 }
 
 .list-toolbar {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(112px, 170px)) minmax(210px, 1fr);
   align-items: end;
-  gap: 10px;
-  padding: 10px;
+  gap: 8px;
+  padding: 8px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface-soft);
 }
 
 .compact-field {
-  width: min(180px, 100%);
+  width: auto;
+  gap: 3px;
+  font-size: 0.74rem;
+}
+
+.compact-field select {
+  min-height: 36px;
+  padding: 7px 28px 7px 9px;
+  font-size: 0.88rem;
 }
 
 .pager-controls {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 8px;
-  margin-left: auto;
   color: var(--muted);
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   font-weight: 800;
+  white-space: nowrap;
+}
+
+.pager-controls .secondary-button {
+  min-width: 58px;
+  min-height: 36px;
+  padding: 7px 10px;
 }
 
 .section-heading.compact {
   margin-bottom: 0;
 }
 
+.floorplan-list-heading {
+  align-items: center;
+}
+
+.floorplan-list-heading h2 {
+  font-size: 1.05rem;
+}
+
 .floorplan-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 14px;
+}
+
+.floorplan-gallery.is-compact-list {
+  grid-template-columns: 1fr;
+  gap: 8px;
 }
 
 .floorplan-tile {
@@ -577,6 +605,64 @@ h3 {
 
 .floorplan-tile-body h3 {
   overflow-wrap: anywhere;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-tile {
+  grid-template-columns: 112px minmax(0, 1fr);
+  min-height: 108px;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-image-button {
+  height: 100%;
+  min-height: 108px;
+  aspect-ratio: auto;
+  border-right: 1px solid var(--line);
+}
+
+.floorplan-gallery.is-compact-list .floorplan-tile-body {
+  gap: 5px;
+  padding: 8px;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-tile-body h3 {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 0.9rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-meta {
+  max-height: 22px;
+  overflow: hidden;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-meta span {
+  padding: 2px 5px;
+  font-size: 0.68rem;
+}
+
+.floorplan-gallery.is-compact-list .muted-text {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 0.72rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-date {
+  display: none;
+}
+
+.floorplan-gallery.is-compact-list .card-actions {
+  gap: 5px;
+}
+
+.floorplan-gallery.is-compact-list .ghost-button,
+.floorplan-gallery.is-compact-list .primary-button {
+  min-height: 30px;
+  padding: 5px 8px;
+  font-size: 0.72rem;
 }
 
 .floorplan-meta {
@@ -1332,19 +1418,52 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .list-toolbar,
-  .pager-controls {
-    align-items: stretch;
-    flex-direction: column;
+  .section-heading.floorplan-list-heading {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .list-toolbar {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: end;
+    gap: 6px;
+    padding: 7px;
+  }
+
+  .compact-field {
+    min-width: 0;
+  }
+
+  .compact-field span {
+    font-size: 0.68rem;
+  }
+
+  .compact-field select {
+    min-height: 34px;
+    padding: 6px 24px 6px 7px;
+    font-size: 0.8rem;
   }
 
   .pager-controls {
+    grid-column: 1 / -1;
     width: 100%;
     margin-left: 0;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
   }
 
   .pager-controls .secondary-button {
-    width: 100%;
+    width: auto;
+    flex: 1 1 0;
+    min-height: 34px;
+    padding: 6px 8px;
+  }
+
+  .pager-controls span {
+    flex: 0 0 auto;
+    min-width: 62px;
+    text-align: center;
   }
 
   .card-grid {
@@ -1420,5 +1539,31 @@ h3 {
 
   .thumbnail-button {
     aspect-ratio: 1.12 / 1;
+  }
+
+  .floorplan-list-heading h2 {
+    font-size: 1rem;
+  }
+
+  .floorplan-gallery.is-compact-list .floorplan-tile {
+    grid-template-columns: 88px minmax(0, 1fr);
+    min-height: 92px;
+  }
+
+  .floorplan-gallery.is-compact-list .floorplan-image-button {
+    min-height: 92px;
+  }
+
+  .floorplan-gallery.is-compact-list .floorplan-tile-body {
+    padding: 7px;
+  }
+
+  .floorplan-gallery.is-compact-list .floorplan-meta span:nth-child(n + 3) {
+    display: none;
+  }
+
+  .floorplan-gallery.is-compact-list .card-actions .ghost-button,
+  .floorplan-gallery.is-compact-list .card-actions .primary-button {
+    flex: 1 1 42%;
   }
 }
