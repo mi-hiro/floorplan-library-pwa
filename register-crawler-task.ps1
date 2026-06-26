@@ -25,6 +25,6 @@ $settings = New-ScheduledTaskSettingsSet -MultipleInstances IgnoreNew -StartWhen
 
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger $trigger -Settings $settings -Description "Low-frequency local crawler for Floorplan Library PWA" -Force | Out-Null
 
-Write-Host "登録しました: $TaskName"
-Write-Host "スケジュール: $Schedule $At"
-Write-Host "実行内容: $RunScript"
+Write-Host "Registered: $TaskName"
+Write-Host "Schedule: $Schedule $At"
+Write-Host "Script: $RunScript"
