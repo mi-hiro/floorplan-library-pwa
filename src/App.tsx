@@ -56,7 +56,7 @@ const settingsTabs: { key: SettingsTabKey; label: string; icon: React.ElementTyp
 ];
 
 const AUTO_CRAWL_FEED_URL = `${import.meta.env.BASE_URL}crawler-output/latest-crawl.json`;
-const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at:v2";
+const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at:v3";
 
 type ImportCrawlOptions = {
   switchToCandidates?: boolean;
