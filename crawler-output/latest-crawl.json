@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T10:58:41.139Z",
+  "generatedAt": "2026-06-26T12:22:38.451Z",
   "source": "local-crawler",
   "candidates": [
     {
@@ -1618,6 +1618,165 @@
       "fetchedAt": "2026-06-26T10:54:33.803Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_bb5b879b58c4f27e",
+      "title": "ビルトインガレージとフリースペースのある三階建ての家 | IROHA.IE",
+      "listingSource": "discovered irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/1971/",
+      "siteId": "discovered_e907b5ff32",
+      "company": "",
+      "layout": "",
+      "areaSqm": 39.33,
+      "tsubo": 11.9,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971.png",
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-1.png",
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-2.png",
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-3.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_03ba180c1564afa7",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971.png",
+          "alt": "OG画像",
+          "sourceUrl": "https://irohaie.com/floor-plan/1971/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a detailed architectural floor plan drawing, showing multiple levels of a residential building with labeled rooms and dimensions. It is a technical drawing "
+          }
+        },
+        {
+          "id": "image_candidate_4fa4eb8c03ba9dc4",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-1.png",
+          "alt": "",
+          "sourceUrl": "https://irohaie.com/floor-plan/1971/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed floor plan of a Japanese residential space, with measurements and symbols indicating room functions and furniture placement. It is a technical drawing "
+          }
+        },
+        {
+          "id": "image_candidate_d363849ac2893cfc",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-2.png",
+          "alt": "",
+          "sourceUrl": "https://irohaie.com/floor-plan/1971/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a detailed architectural floor plan of a Japanese residential space. It includes measurements and symbols for fixtures and furniture layouts."
+          }
+        },
+        {
+          "id": "image_candidate_39bc76145c4c6083",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-3.png",
+          "alt": "",
+          "sourceUrl": "https://irohaie.com/floor-plan/1971/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a detailed architectural floor plan of a Japanese residential building. It includes measurements and symbols for doors, windows, and other features. The lay"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-26T12:09:22.553Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
+    },
+    {
+      "id": "candidate_3a5cdfde53f8e7a4",
+      "title": "無駄なく快適に暮らすためのコンパクトな平屋 | IROHA.IE",
+      "listingSource": "irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/2071/",
+      "company": "irohaie.com",
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_fbe8e142aad9c65e",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://irohaie.com/floor-plan/2071/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a detailed architectural floor plan of a Japanese residential space. It includes various rooms and spaces with measurements and symbols indicating fixtures "
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-26T12:20:42.102Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: irohaie.com/floor-plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
+    },
+    {
+      "id": "candidate_b9c45371b07a33d0",
+      "title": "ファミリークローゼットをおうちの中心に設えた収納上手な家 | IROHA.IE",
+      "listingSource": "irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/2073/",
+      "company": "irohaie.com",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_de649602277ee0c2",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://irohaie.com/floor-plan/2073/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a detailed floor plan of a Japanese residential house, with clear demarcation of rooms and spaces, including measurements in Japanese units. It is a technical dra"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-26T12:20:42.253Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: irohaie.com/floor-plan/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
     }
   ],
   "logs": [
@@ -4690,6 +4849,626 @@
       "action": "停止",
       "result": "上限到達",
       "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_daceb981-6f88-432b-948c-119fb3f06a59",
+      "createdAt": "2026-06-26T11:13:56.260Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "zerohome.jp/chumon/plan/plan04/*: fetch failed"
+    },
+    {
+      "id": "log_5a2a7652-1564-4bf2-b637-69c929f148b0",
+      "createdAt": "2026-06-26T11:14:06.751Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ichijo.co.jp/lp/madori/*: fetch failed"
+    },
+    {
+      "id": "log_d6b67ae0-1fb2-4174-8c4e-117dfe4e72b3",
+      "createdAt": "2026-06-26T11:14:17.244Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "irohaie.com/floor-plan/*: fetch failed"
+    },
+    {
+      "id": "log_4dca0329-b3e4-4507-b2a4-473446b4f802",
+      "createdAt": "2026-06-26T11:14:27.734Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.misawa.co.jp/kodate/guide/hiraya/madori.html/*: fetch failed"
+    },
+    {
+      "id": "log_1d476a99-8a9e-43eb-9f44-fe1fc2e5423b",
+      "createdAt": "2026-06-26T11:14:38.226Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.toyotahome.co.jp%2Fchumon%2Fhowto%2Fmadori%2Fdesign%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.toyotahome.co.jp/chumon/howto/madori/design/*: fetch failed"
+    },
+    {
+      "id": "log_44b03ca7-d103-45ce-a251-d1d4ac40ca58",
+      "createdAt": "2026-06-26T11:14:48.718Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.marusho-kensetsu.co.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.marusho-kensetsu.co.jp/works/*: fetch failed"
+    },
+    {
+      "id": "log_2b9aa12e-1f75-4011-9dc7-cddbaabf5995",
+      "createdAt": "2026-06-26T11:14:59.209Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.shichiro.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.shichiro.com/works/*: fetch failed"
+    },
+    {
+      "id": "log_07078cae-35f7-4198-afce-d6590f3c24d1",
+      "createdAt": "2026-06-26T11:15:09.700Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.mandai-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.mandai-home.com/works/*: fetch failed"
+    },
+    {
+      "id": "log_b6c5d967-0cc1-42b7-882e-7b94fa84df2d",
+      "createdAt": "2026-06-26T11:15:20.191Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuihouse.co.jp%2Fcrepre%2Fgreenfirstoffice%2Fworks01%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuihouse.co.jp/crepre/greenfirstoffice/works01/*: fetch failed"
+    },
+    {
+      "id": "log_eff858d0-4119-4206-8b6c-ee7e3f940d2c",
+      "createdAt": "2026-06-26T11:15:30.681Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuiheim.com%2Fcase%2Fc003%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuiheim.com/case/c003/*: fetch failed"
+    },
+    {
+      "id": "log_ac7d280d-f617-4f1c-869a-9aee80ced9b5",
+      "createdAt": "2026-06-26T11:15:41.172Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eyefulhome.jp%2Fconcept%2Ffavo%2Fcase01.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eyefulhome.jp/concept/favo/case01.html/*: fetch failed"
+    },
+    {
+      "id": "log_54638b4f-72fc-4889-a645-c89aae87beb1",
+      "createdAt": "2026-06-26T11:15:51.666Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=creatorhome.co.jp%2Fworks%2Frasie%2F64%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "creatorhome.co.jp/works/rasie/64/*: fetch failed"
+    },
+    {
+      "id": "log_72ab20cd-4817-4484-8078-530d69c9cdfc",
+      "createdAt": "2026-06-26T11:16:02.159Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=hirayakoubou.net%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "hirayakoubou.net/plan/*: fetch failed"
+    },
+    {
+      "id": "log_aa45619f-be72-44a4-916a-5329453eba28",
+      "createdAt": "2026-06-26T11:16:12.651Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.daiwahouse.co.jp%2Fbunjo%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.daiwahouse.co.jp/bunjo/*: fetch failed"
+    },
+    {
+      "id": "log_b9a41427-ccfb-4ad7-aa7c-566c7397c4ab",
+      "createdAt": "2026-06-26T11:16:23.142Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.tanaken.co.jp%2Festate%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.tanaken.co.jp/estate/*: fetch failed"
+    },
+    {
+      "id": "log_72e0f742-08f8-4124-bc19-9fdaf32faac7",
+      "createdAt": "2026-06-26T11:16:33.630Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.aqura.co.jp%2Fcolumn%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=10",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.aqura.co.jp/column/plan/*: fetch failed"
+    },
+    {
+      "id": "log_46d99fde-a351-4305-88c1-ef78e4f8a1cc",
+      "createdAt": "2026-06-26T12:09:16.855Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "2件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_7585e6ac-cd67-4ba7-a9b3-96008f44fdf7",
+      "createdAt": "2026-06-26T12:09:17.102Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1952/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_9078984e-5fad-43b6-8cc1-cf75f401c997",
+      "createdAt": "2026-06-26T12:09:18.610Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1968/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_bcf36826-f8dd-430c-81b3-0d62579072ce",
+      "createdAt": "2026-06-26T12:09:19.829Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1969/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_c7d28ac8-efc5-4158-9df9-18bfd79692e0",
+      "createdAt": "2026-06-26T12:09:21.027Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1970/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_8aee689c-a9ed-4162-be75-5c4c1203080c",
+      "createdAt": "2026-06-26T12:09:22.550Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1971/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_420f216f-f75e-4cbe-ba7f-0d899280df2c",
+      "createdAt": "2026-06-26T12:09:26.972Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1971/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "ビルトインガレージとフリースペースのある三階建ての家 | IROHA.IE を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_b0c01e9c-09fd-4153-9bb7-9478af7cca65",
+      "createdAt": "2026-06-26T12:09:26.972Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_8c1e5b3c-e89b-470e-a408-0ef25ff06039",
+      "createdAt": "2026-06-26T12:09:33.950Z",
+      "siteName": "Ollama",
+      "domain": "127.0.0.1",
+      "url": "http://127.0.0.1:11434",
+      "action": "model",
+      "result": "success",
+      "message": "Using llava:latest"
+    },
+    {
+      "id": "log_19703ee7-9c32-409c-b57c-f6764ee2293a",
+      "createdAt": "2026-06-26T12:09:57.128Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a detailed architectural floor plan drawing, showing multiple levels of a residential building with labeled rooms and dimensions. It is a technical drawing "
+    },
+    {
+      "id": "log_43f8da4b-c23a-47bf-b036-296a549df71b",
+      "createdAt": "2026-06-26T12:10:08.530Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-1.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed floor plan of a Japanese residential space, with measurements and symbols indicating room functions and furniture placement. It is a technical drawing "
+    },
+    {
+      "id": "log_1296b7f3-d2ff-419f-b21d-dd7f23796db2",
+      "createdAt": "2026-06-26T12:10:18.461Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-2.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a detailed architectural floor plan of a Japanese residential space. It includes measurements and symbols for fixtures and furniture layouts."
+    },
+    {
+      "id": "log_be549cbf-e9fb-49a0-a95f-7134475f4f89",
+      "createdAt": "2026-06-26T12:10:30.433Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971-3.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a detailed architectural floor plan of a Japanese residential building. It includes measurements and symbols for doors, windows, and other features. The lay"
+    },
+    {
+      "id": "log_a7add10c-ed9d-4596-8eee-729ec53954f9",
+      "createdAt": "2026-06-26T12:17:29.497Z",
+      "siteName": "discovered www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "1件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_37133a6a-5144-41d9-9100-29ebce12777a",
+      "createdAt": "2026-06-26T12:17:29.541Z",
+      "siteName": "discovered www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/case/c003/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_b9ecafcf-7f8a-437f-8a69-9aa26c72ef77",
+      "createdAt": "2026-06-26T12:17:30.592Z",
+      "siteName": "discovered www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/case/c012/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_cefe4a99-dba5-46b4-a57f-1c2a611f4d8d",
+      "createdAt": "2026-06-26T12:17:31.645Z",
+      "siteName": "discovered www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/case/c015/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_8ef117fc-c8c1-408a-be20-1c0bd994043b",
+      "createdAt": "2026-06-26T12:17:32.692Z",
+      "siteName": "discovered www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/case/c016/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_cf209f69-e064-4d00-aee5-35b00d4c0847",
+      "createdAt": "2026-06-26T12:17:33.732Z",
+      "siteName": "discovered www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/case/c018/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_d9e70531-2679-4b1d-9731-01baf764d5b7",
+      "createdAt": "2026-06-26T12:17:33.735Z",
+      "siteName": "discovered www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_4d45ce37-f0fe-47d9-803d-c8344a1ee5b0",
+      "createdAt": "2026-06-26T12:17:33.976Z",
+      "siteName": "discovered www.aqura.co.jp",
+      "domain": "www.aqura.co.jp",
+      "url": "https://www.aqura.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "5件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_0c35d858-8444-471a-8cf5-c1c33e9c7e2d",
+      "createdAt": "2026-06-26T12:17:34.013Z",
+      "siteName": "discovered www.aqura.co.jp",
+      "domain": "www.aqura.co.jp",
+      "url": "https://www.aqura.co.jp/column/plan/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_5393753d-7e28-4241-ba2d-7260b9e3970d",
+      "createdAt": "2026-06-26T12:17:34.014Z",
+      "siteName": "discovered www.aqura.co.jp",
+      "domain": "www.aqura.co.jp",
+      "url": "https://www.aqura.co.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_f4a15311-2d10-41d5-9063-0a77d083bc8e",
+      "createdAt": "2026-06-26T12:17:34.199Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "robots.txtが見つからないため、明示的な禁止なしとして扱います。"
+    },
+    {
+      "id": "log_7a1a5a1b-4f3f-4667-ab05-f5ba498c83fd",
+      "createdAt": "2026-06-26T12:17:34.347Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_6c6b1483-ab0f-4089-bf16-f33bdda418ac",
+      "createdAt": "2026-06-26T12:17:36.522Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 子育ても家事も暮らしももっと楽しくなる住まい｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_0469a0e4-3703-435e-b8ed-7378ae6ad5ea",
+      "createdAt": "2026-06-26T12:17:36.522Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_45eb0721-2ef2-4402-b36f-cd6d3fb0515a",
+      "createdAt": "2026-06-26T12:17:59.348Z",
+      "siteName": "Ollama",
+      "domain": "127.0.0.1",
+      "url": "http://127.0.0.1:11434",
+      "action": "model",
+      "result": "success",
+      "message": "Using llava:latest"
+    },
+    {
+      "id": "log_eff8f92c-91dd-4e74-afd5-b39a1bc504f3",
+      "createdAt": "2026-06-26T12:18:44.940Z",
+      "siteName": "Ollama",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/img/case01/madori01.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed floor plan of a Japanese residential house, with clear demarcations for rooms and spaces, including furniture placement and room functions. It is a tec"
+    },
+    {
+      "id": "log_06866590-8f43-4712-bdd9-9a54eb52a209",
+      "createdAt": "2026-06-26T12:19:09.410Z",
+      "siteName": "Ollama",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/img/case01/madori02.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed floor plan with measurements and labels for rooms, indicating it is a blueprint or architectural plan drawing."
+    },
+    {
+      "id": "log_27e8f3da-2826-40ad-b748-91e7a201e3d7",
+      "createdAt": "2026-06-26T12:20:36.122Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_599a1278-3855-43eb-ae6e-91664ebb1cb6",
+      "createdAt": "2026-06-26T12:20:36.971Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_2ef40c2d-7c91-42fa-ac87-697bb7f61c97",
+      "createdAt": "2026-06-26T12:20:37.483Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "success",
+      "message": "irohaie.com/floor-plan/*: 3 records"
+    },
+    {
+      "id": "log_019dac3d-12bb-4e55-91af-62f087e8e70f",
+      "createdAt": "2026-06-26T12:20:37.988Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_2dcb064b-63cd-4a2b-9358-23feb6285631",
+      "createdAt": "2026-06-26T12:20:38.365Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.toyotahome.co.jp%2Fchumon%2Fhowto%2Fmadori%2Fdesign%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_89314996-11d1-4ca3-acdf-2c15b6a467bd",
+      "createdAt": "2026-06-26T12:20:38.743Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.marusho-kensetsu.co.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.marusho-kensetsu.co.jp/works/*: 9 records"
+    },
+    {
+      "id": "log_ae72476a-9f12-43f1-8c87-9ffe1b341875",
+      "createdAt": "2026-06-26T12:20:39.158Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.shichiro.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.shichiro.com/works/*: 7 records"
+    },
+    {
+      "id": "log_f4f4fc48-4d4c-4105-a043-42cd9e6c15d7",
+      "createdAt": "2026-06-26T12:20:40.030Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.mandai-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.mandai-home.com/works/*: 2 records"
+    },
+    {
+      "id": "log_6f29c656-bf00-45d8-8197-68d532ef6242",
+      "createdAt": "2026-06-26T12:20:40.556Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuihouse.co.jp%2Fcrepre%2Fgreenfirstoffice%2Fworks01%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_ff1726d1-2e21-4dea-aedb-3e94b8de90a9",
+      "createdAt": "2026-06-26T12:20:41.064Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuiheim.com%2Fcase%2Fc003%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_c52adf71-b8b7-46bb-bff8-112f1e3ba832",
+      "createdAt": "2026-06-26T12:20:41.642Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1970/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_bc5624b6-048a-4a28-bff8-ae0ada9898f6",
+      "createdAt": "2026-06-26T12:20:42.099Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/2071/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_9c4107e9-2946-498c-9c56-79fe29c54668",
+      "createdAt": "2026-06-26T12:20:42.251Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/2073/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_1ec21961-d5e8-474a-a416-a6215de0495d",
+      "createdAt": "2026-06-26T12:21:05.362Z",
+      "siteName": "Ollama",
+      "domain": "127.0.0.1",
+      "url": "http://127.0.0.1:11434",
+      "action": "model",
+      "result": "success",
+      "message": "Using llava:latest"
+    },
+    {
+      "id": "log_f0e31db3-2a66-4d66-acbc-425dd16a4e61",
+      "createdAt": "2026-06-26T12:21:36.555Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a detailed architectural floor plan of a Japanese residential space. It includes various rooms and spaces with measurements and symbols indicating fixtures "
+    },
+    {
+      "id": "log_752c8505-023b-4210-8b3f-7627e42ff773",
+      "createdAt": "2026-06-26T12:22:05.274Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed floor plan of a Japanese residential house, with clear demarcation of rooms and spaces, including measurements in Japanese units. It is a technical dra"
     }
   ]
 }
