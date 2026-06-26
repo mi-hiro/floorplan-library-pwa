@@ -1,3 +1,13 @@
+param(
+  [ValidateSet("auto", "brave", "google", "bing")]
+  [string]$Provider = "auto",
+  [int]$TargetCount = 1000,
+  [int]$PerQuery = 0,
+  [switch]$NoPublish,
+  [Parameter(ValueFromRemainingArguments = $true)]
+  [string[]]$ExtraArgs
+)
+
 $ErrorActionPreference = "Stop"
 
 $ProjectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -11,17 +21,37 @@ if (!(Test-Path $Config)) {
   Write-Host "image-search.config.json を作成しました。検索語を調整できます。"
 }
 
-if (!$env:GOOGLE_CUSTOM_SEARCH_API_KEY -and !$env:BING_IMAGE_SEARCH_KEY) {
+if (!$env:BRAVE_SEARCH_API_KEY -and !$env:GOOGLE_CUSTOM_SEARCH_API_KEY -and !$env:BING_IMAGE_SEARCH_KEY) {
   Write-Host "公式画像検索APIのキーが未設定です。"
+  Write-Host "おすすめ: BRAVE_SEARCH_API_KEY を設定してください。"
   Write-Host "Googleの場合: GOOGLE_CUSTOM_SEARCH_API_KEY と GOOGLE_CUSTOM_SEARCH_CX を設定してください。"
   Write-Host "Bingの場合: BING_IMAGE_SEARCH_KEY を設定してください。"
+  Write-Host "キー登録補助: .\set-image-search-keys.ps1"
   exit 1
 }
 
 Set-Location $ProjectRoot
-& $Node ".\scripts\image-search-crawler.mjs" "--config" $Config "--out" $Output "--merge-existing" @args
+$CrawlerArgs = @(
+  "--config", $Config,
+  "--out", $Output,
+  "--merge-existing",
+  "--provider", $Provider,
+  "--target-count", [string]$TargetCount
+)
+if ($PerQuery -gt 0) {
+  $CrawlerArgs += @("--per-query", [string]$PerQuery)
+}
+if ($ExtraArgs) {
+  $CrawlerArgs += $ExtraArgs
+}
 
-if ($LASTEXITCODE -eq 0) {
+& $Node ".\scripts\image-search-crawler.mjs" @CrawlerArgs
+$ImageSearchExitCode = $LASTEXITCODE
+if ($ImageSearchExitCode -ne 0) {
+  exit $ImageSearchExitCode
+}
+
+if (!$NoPublish) {
   $PublishScript = Join-Path $ProjectRoot "publish-crawl-output.ps1"
   if (Test-Path -LiteralPath $PublishScript) {
     try {
