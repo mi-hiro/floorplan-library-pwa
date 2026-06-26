@@ -6,6 +6,12 @@
 
 ## 対応API
 
+今から新しく進める場合は `BRAVE_SEARCH_API_KEY` を使う方法が一番進めやすいです。Google Custom Search JSON APIは既存利用者向けになっているため、既に使えるキーがある場合の選択肢として残しています。
+
+- Brave Search API
+  - 画像検索エンドポイントを使います。
+  - 必要な環境変数: `BRAVE_SEARCH_API_KEY`
+  - 公式資料: https://api-dashboard.search.brave.com/app/documentation/image-search/get-started
 - Google Custom Search JSON API
   - `searchType=image` を使います。
   - 必要な環境変数: `GOOGLE_CUSTOM_SEARCH_API_KEY`, `GOOGLE_CUSTOM_SEARCH_CX`
@@ -19,10 +25,17 @@
 PowerShellでこのフォルダを開いて、APIキーを設定したうえで実行します。
 
 ```powershell
+.\set-image-search-keys.ps1
 .\run-image-search.ps1
 ```
 
 結果は `crawler-output/latest-crawl.json` に保存され、GitHub CLIにログイン済みであればWebアプリにも反映されます。
+
+1000件を目標に明示して実行する場合は次のように指定できます。
+
+```powershell
+.\run-image-search.ps1 -TargetCount 1000
+```
 
 ## 定期巡回との連動
 
