@@ -40,7 +40,8 @@ if (![string]::IsNullOrWhiteSpace($ExistingSha)) {
 
 $TempPayload = Join-Path ([IO.Path]::GetTempPath()) ("floorplan-crawl-publish-{0}.json" -f ([guid]::NewGuid()))
 try {
-  $Payload | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $TempPayload -Encoding UTF8
+  $Utf8NoBom = New-Object System.Text.UTF8Encoding -ArgumentList $false
+  [IO.File]::WriteAllText($TempPayload, ($Payload | ConvertTo-Json -Depth 5), $Utf8NoBom)
   & gh api "repos/$Repository/contents/$TargetPath" --method PUT --input $TempPayload --silent
   if ($LASTEXITCODE -ne 0) {
     throw "GitHubへの更新に失敗しました。GitHub CLIのログイン状態を確認してください。"
