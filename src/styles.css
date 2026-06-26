@@ -457,6 +457,57 @@ h3 {
   min-width: 0;
 }
 
+.auto-floorplan-section {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.section-heading.compact {
+  margin-bottom: 0;
+}
+
+.floorplan-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.floorplan-tile {
+  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 26px rgba(47, 71, 87, 0.12);
+}
+
+.floorplan-image-button {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  display: grid;
+  place-items: center;
+  border: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.floorplan-image-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.floorplan-tile-body {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+}
+
+.floorplan-tile-body h3 {
+  overflow-wrap: anywhere;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
