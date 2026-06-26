@@ -91,6 +91,18 @@ function inRange(value: number | undefined, minText: string, maxText: string) {
   return true;
 }
 
+function inferLayoutLabel(text: string) {
+  const match = text.match(/\b([2-5]\s*LDK)\b/i);
+  return match ? match[1].replace(/\s+/g, "").toUpperCase() : "";
+}
+
+function inferFloorLabel(text: string) {
+  if (/平屋/.test(text)) return "平屋";
+  if (/2階|二階|2F/i.test(text)) return "2階建";
+  if (/3階|三階|3F/i.test(text)) return "3階建";
+  return "";
+}
+
 function filterProperties(properties: FloorPlanProperty[], filters: FilterState) {
   return properties.filter((property) => {
     const keyword = filters.keyword.trim();
@@ -248,16 +260,18 @@ function getCollectedFloorplans(candidates: CrawlCandidate[]) {
         const imageUrl = image.dataUrl || image.thumbnailUrl || image.url;
         const key = floorplanDedupeKey(image);
         if (!imageUrl || floorplans.has(key)) return;
+        const title = image.alt || candidate.title || "自動収集した間取り図";
+        const signalText = `${title} ${candidate.title} ${candidate.layout} ${candidate.floors}`;
         floorplans.set(key, {
           id: `${candidate.id}:${image.id}`,
-          title: image.alt || candidate.title || "自動収集した間取り図",
+          title,
           imageUrl,
           imageLink: image.url,
           sourceUrl: candidate.sourceUrl,
           listingSource: candidate.listingSource,
           company: candidate.company || candidate.listingSource,
-          layout: candidate.layout,
-          floors: candidate.floors,
+          layout: inferLayoutLabel(signalText) || candidate.layout,
+          floors: inferFloorLabel(signalText) || candidate.floors,
           areaSqm: candidate.areaSqm,
           tsubo: candidate.tsubo,
           priceManYen: candidate.priceManYen,
