@@ -31,7 +31,9 @@ async function main() {
   const mergeExisting = parseBool(args.mergeExisting ?? config.mergeExisting, false);
 
   let candidates = [];
-  if (provider === "google") {
+  if (provider === "brave") {
+    candidates = await collectFromBrave(queries, perQuery, config.brave ?? {});
+  } else if (provider === "google") {
     candidates = await collectFromGoogle(queries, perQuery, config.google ?? {});
   } else if (provider === "bing") {
     candidates = await collectFromBing(queries, perQuery, config.bing ?? {});
@@ -57,6 +59,32 @@ async function main() {
   await writeFile(outPath, JSON.stringify(result, null, 2), "utf8");
   console.log(`画像検索完了: 間取り候補 ${result.candidates.length}件`);
   console.log(`出力: ${outPath}`);
+}
+
+async function collectFromBrave(queries, perQuery, settings) {
+  const apiKey = process.env[settings.apiKeyEnv ?? "BRAVE_SEARCH_API_KEY"];
+  if (!apiKey) throw new Error("Brave画像検索には BRAVE_SEARCH_API_KEY が必要です。");
+
+  const results = [];
+  for (const query of queries) {
+    const url = new URL(settings.endpoint ?? "https://api.search.brave.com/res/v1/images/search");
+    url.searchParams.set("q", query);
+    url.searchParams.set("count", String(Math.min(200, Math.max(1, perQuery))));
+    url.searchParams.set("country", settings.country ?? "JP");
+    url.searchParams.set("search_lang", settings.searchLang ?? "ja");
+    url.searchParams.set("safesearch", settings.safesearch ?? "strict");
+    if (settings.spellcheck !== undefined) url.searchParams.set("spellcheck", String(Boolean(settings.spellcheck)));
+
+    const payload = await fetchJson(url, "Brave画像検索", query, {
+      Accept: "application/json",
+      "X-Subscription-Token": apiKey
+    });
+    for (const item of payload.results ?? []) {
+      const candidate = braveItemToCandidate(item, query);
+      if (candidate) results.push(candidate);
+    }
+  }
+  return results;
 }
 
 async function collectFromGoogle(queries, perQuery, settings) {
@@ -129,6 +157,23 @@ async function fetchJson(url, siteName, query, headers = {}) {
   }
   addLog(siteName, url.toString().replace(/key=[^&]+/, "key=***"), "画像検索", "成功", query);
   return response.json();
+}
+
+function braveItemToCandidate(item, query) {
+  const imageUrl = item.properties?.url || item.thumbnail?.src;
+  const sourceUrl = item.url || imageUrl;
+  if (!imageUrl || !sourceUrl || !looksLikeFloorplan(item.title, `${sourceUrl} ${imageUrl}`, query)) return null;
+  return makeCandidate({
+    provider: "Brave画像検索",
+    query,
+    title: item.title,
+    imageUrl,
+    thumbnailUrl: item.thumbnail?.src || item.properties?.placeholder,
+    sourceUrl,
+    sourceName: item.source || item.meta_url?.hostname || safeHostname(sourceUrl),
+    width: item.properties?.width || item.thumbnail?.width,
+    height: item.properties?.height || item.thumbnail?.height
+  });
 }
 
 function googleItemToCandidate(item, query) {
@@ -306,10 +351,11 @@ function parseArgs(argv) {
 function resolveProvider(value) {
   const provider = String(value || "auto").toLowerCase();
   if (provider !== "auto") return provider;
+  if (process.env.BRAVE_SEARCH_API_KEY) return "brave";
   const hasGoogle = Boolean(process.env.GOOGLE_CUSTOM_SEARCH_API_KEY && process.env.GOOGLE_CUSTOM_SEARCH_CX);
   if (hasGoogle) return "google";
   if (process.env.BING_IMAGE_SEARCH_KEY) return "bing";
-  return "google";
+  return "brave";
 }
 
 function parseBool(value, fallback = false) {
