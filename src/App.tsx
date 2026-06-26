@@ -49,6 +49,11 @@ const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
 const AUTO_CRAWL_FEED_URL = `${import.meta.env.BASE_URL}crawler-output/latest-crawl.json`;
 const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at";
 
+type ImportCrawlOptions = {
+  switchToCandidates?: boolean;
+  replaceCandidates?: boolean;
+};
+
 function getInitialView(): ViewKey {
   if (typeof window === "undefined") return "library";
   const rawHashView = window.location.hash.replace("#", "");
@@ -157,8 +162,9 @@ function normalizeImportedCandidate(candidate: CrawlCandidate): CrawlCandidate {
   const imageUrlCandidates = [
     ...new Set([
       ...(candidate.imageUrlCandidates ?? []),
-      ...imageCandidates.map((image) => image.url)
-    ])
+      ...imageCandidates.map((image) => image.url),
+      ...imageCandidates.map((image) => image.thumbnailUrl ?? "")
+    ].filter(Boolean))
   ];
 
   return {
@@ -187,7 +193,7 @@ function getCollectedFloorplans(candidates: CrawlCandidate[]) {
       .map((image) => ({
         id: `${candidate.id}:${image.id}`,
         title: image.alt || candidate.title || "自動収集した間取り図",
-        imageUrl: image.dataUrl || image.url,
+        imageUrl: image.dataUrl || image.thumbnailUrl || image.url,
         imageLink: image.url,
         sourceUrl: candidate.sourceUrl,
         listingSource: candidate.listingSource,
@@ -353,13 +359,17 @@ export default function App() {
     setView("library");
   }
 
-  async function importCrawlPackage(crawlPackage: CrawlResultPackage, options = { switchToCandidates: true }) {
+  async function importCrawlPackage(crawlPackage: CrawlResultPackage, options: ImportCrawlOptions = { switchToCandidates: true }) {
     if (!crawlPackage.candidates || !Array.isArray(crawlPackage.candidates)) {
       throw new Error("巡回結果JSONの形式が違います。");
     }
 
     const importedCandidates = crawlPackage.candidates.map(normalizeImportedCandidate);
     const importedLogs = Array.isArray(crawlPackage.logs) ? crawlPackage.logs : [];
+
+    if (options.replaceCandidates) {
+      await clearStore("candidates");
+    }
 
     await Promise.all([
       ...importedCandidates.map((candidate) => putItem("candidates", candidate)),
@@ -373,6 +383,9 @@ export default function App() {
     ]);
 
     setCandidates((current) => {
+      if (options.replaceCandidates) {
+        return importedCandidates.sort((a, b) => b.fetchedAt.localeCompare(a.fetchedAt));
+      }
       const merged = new Map(current.map((candidate) => [candidate.id, candidate]));
       importedCandidates.forEach((candidate) => merged.set(candidate.id, candidate));
       return [...merged.values()].sort((a, b) => b.fetchedAt.localeCompare(a.fetchedAt));
@@ -408,9 +421,9 @@ export default function App() {
         return;
       }
 
-      const result = await importCrawlPackage(crawlPackage, { switchToCandidates: false });
+      const result = await importCrawlPackage(crawlPackage, { switchToCandidates: false, replaceCandidates: true });
       localStorage.setItem(LAST_AUTO_CRAWL_KEY, crawlPackage.generatedAt);
-      setAutoSyncStatus(`巡回候補 ${result.candidateCount}件を自動同期`);
+      setAutoSyncStatus(`巡回候補 ${result.candidateCount}件に更新`);
     } catch {
       setAutoSyncStatus("巡回データ確認エラー");
     }

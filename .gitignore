@@ -4,6 +4,7 @@ dist/
 .env.*
 *.log
 crawler.config.json
+image-search.config.json
 crawler-output/
 .DS_Store
 Thumbs.db

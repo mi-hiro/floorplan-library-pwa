@@ -60,6 +60,7 @@ export interface CrawlImageCandidate {
   id: string;
   kind: ImageKind;
   url: string;
+  thumbnailUrl?: string;
   dataUrl?: string;
   alt: string;
   sourceUrl: string;

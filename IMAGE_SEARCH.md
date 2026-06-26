@@ -1,0 +1,48 @@
+# 公式画像検索APIで間取り図を集める
+
+通常のサイト巡回だけでは、サイト構造、robots.txt、画像の外部表示制限に左右されるため、間取り図を大量に集める用途には限界があります。
+
+数を増やす場合は、Google画像検索画面を直接巡回するのではなく、公式APIを使います。画像URL、サムネイルURL、元ページURLをまとめて取得し、Webアプリの「収集した間取り図」に表示します。
+
+## 対応API
+
+- Google Custom Search JSON API
+  - `searchType=image` を使います。
+  - 必要な環境変数: `GOOGLE_CUSTOM_SEARCH_API_KEY`, `GOOGLE_CUSTOM_SEARCH_CX`
+  - 公式資料: https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list
+- Bing Image Search API
+  - 必要な環境変数: `BING_IMAGE_SEARCH_KEY`
+  - 公式資料: https://learn.microsoft.com/en-us/previous-versions/bing/search-apis/bing-image-search/reference/endpoints
+
+## 実行
+
+PowerShellでこのフォルダを開いて、APIキーを設定したうえで実行します。
+
+```powershell
+.\run-image-search.ps1
+```
+
+結果は `crawler-output/latest-crawl.json` に保存され、GitHub CLIにログイン済みであればWebアプリにも反映されます。
+
+## 定期巡回との連動
+
+`run-crawler.ps1` は、通常巡回のあとに公式画像検索APIキーが見つかった場合だけ、画像検索も自動で追加実行します。既存のWindowsタスクが `run-crawler.ps1` を呼んでいる場合、APIキーを環境変数に入れておけば次回巡回から同時に動きます。
+
+## 検索語の調整
+
+初回実行時に `image-search.config.json` が作成されます。検索語はこのファイルの `queries` で調整できます。
+
+```json
+[
+  "新築 間取り図 3LDK",
+  "新築 間取り図 4LDK",
+  "注文住宅 間取り図 3LDK",
+  "平屋 間取り図 3LDK"
+]
+```
+
+## 注意
+
+- Google画像検索の画面そのものは直接巡回対象にしません。
+- 取得した画像は確認待ち候補です。正式登録前に元ページと利用条件を確認してください。
+- APIキーが未設定の場合は、通常の低頻度サイト巡回だけが動きます。

@@ -22,6 +22,8 @@ Vercel、Netlify、GitHub Pages向けの設定を追加済みです。手順は 
 定期実行したい場合は `register-crawler-task.ps1` でWindowsタスクとして登録できます。
 巡回後のJSONはWebアプリ側へ自動反映され、アプリは約5分ごとに新しい取得候補を確認します。
 
+間取り図だけを効率よく増やしたい場合は、公式画像検索APIを使う [IMAGE_SEARCH.md](./IMAGE_SEARCH.md) の方法が向いています。APIキーが設定されていれば、通常巡回後に画像検索も自動で追加実行できます。
+
 ## 実装済み
 
 - React + Vite + TypeScript

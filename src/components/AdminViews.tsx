@@ -578,7 +578,7 @@ export function CandidatesView({
                         title={image.url}
                       >
                         <div className="image-candidate-preview">
-                          <img src={image.dataUrl || image.url} alt={image.alt || IMAGE_KIND_LABELS[image.kind]} loading="lazy" />
+                          <img src={image.dataUrl || image.thumbnailUrl || image.url} alt={image.alt || IMAGE_KIND_LABELS[image.kind]} loading="lazy" />
                         </div>
                         <span>{IMAGE_KIND_LABELS[image.kind]}</span>
                         <small>{image.alt || "画像候補"}</small>

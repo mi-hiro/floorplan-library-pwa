@@ -1,0 +1,25 @@
+{
+  "provider": "auto",
+  "perQuery": 20,
+  "queries": [
+    "新築 間取り図 3LDK",
+    "新築 間取り図 4LDK",
+    "注文住宅 間取り図 3LDK",
+    "平屋 間取り図 3LDK",
+    "建売住宅 間取り図 3LDK",
+    "施工事例 間取り図 3LDK"
+  ],
+  "google": {
+    "apiKeyEnv": "GOOGLE_CUSTOM_SEARCH_API_KEY",
+    "cxEnv": "GOOGLE_CUSTOM_SEARCH_CX",
+    "safe": "active",
+    "gl": "jp",
+    "lr": "lang_ja",
+    "imgSize": "large"
+  },
+  "bing": {
+    "apiKeyEnv": "BING_IMAGE_SEARCH_KEY",
+    "market": "ja-JP",
+    "safeSearch": "Moderate"
+  }
+}

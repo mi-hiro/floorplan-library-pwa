@@ -17,6 +17,22 @@ Set-Location $ProjectRoot
 & $Node ".\scripts\crawler.mjs" "--config" $Config "--out" $Output @args
 
 if ($LASTEXITCODE -eq 0) {
+  $HasGoogleImageSearch = $env:GOOGLE_CUSTOM_SEARCH_API_KEY -and $env:GOOGLE_CUSTOM_SEARCH_CX
+  $HasBingImageSearch = $env:BING_IMAGE_SEARCH_KEY
+  if ($HasGoogleImageSearch -or $HasBingImageSearch) {
+    $ImageSearchConfig = Join-Path $ProjectRoot "image-search.config.json"
+    $ImageSearchExample = Join-Path $ProjectRoot "image-search.config.example.json"
+    if (!(Test-Path -LiteralPath $ImageSearchConfig) -and (Test-Path -LiteralPath $ImageSearchExample)) {
+      Copy-Item -LiteralPath $ImageSearchExample -Destination $ImageSearchConfig
+    }
+    if (Test-Path -LiteralPath $ImageSearchConfig) {
+      & $Node ".\scripts\image-search-crawler.mjs" "--config" $ImageSearchConfig "--out" $Output "--merge-existing"
+      if ($LASTEXITCODE -ne 0) {
+        Write-Warning "公式画像検索APIの追加収集に失敗しました。通常巡回の結果だけを公開します。"
+      }
+    }
+  }
+
   $PublishScript = Join-Path $ProjectRoot "publish-crawl-output.ps1"
   if (Test-Path -LiteralPath $PublishScript) {
     try {

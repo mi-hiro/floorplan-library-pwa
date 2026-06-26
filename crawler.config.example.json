@@ -4,6 +4,7 @@
     "requestTimeoutSeconds": 30,
     "maxPagesPerRun": 25,
     "maxImagesPerCandidate": 24,
+    "floorplanOnly": true,
     "imageFetchLimit": 6,
     "maxImageBytes": 3145728
   },
@@ -134,6 +135,60 @@
       "perRunLimit": 10,
       "delaySeconds": 60,
       "recrawlIntervalDays": 7,
+      "sitemapUrl": "",
+      "imageAutoFetch": false,
+      "imageSaveMode": "urlOnly",
+      "majorPortal": false
+    },
+    {
+      "id": "site_hiyoriblog_floorplans",
+      "siteName": "咲くくらし 間取り実例",
+      "domain": "hiyoriblog.com",
+      "searchUrl": "",
+      "manualUrls": [
+        "https://hiyoriblog.com/1floorplan11/"
+      ],
+      "enabled": true,
+      "crawlMode": "manualOnly",
+      "perRunLimit": 1,
+      "delaySeconds": 60,
+      "recrawlIntervalDays": 30,
+      "sitemapUrl": "",
+      "imageAutoFetch": false,
+      "imageSaveMode": "urlOnly",
+      "majorPortal": false
+    },
+    {
+      "id": "site_zerohome_floorplans",
+      "siteName": "ゼロホーム 間取り実例",
+      "domain": "zerohome.jp",
+      "searchUrl": "",
+      "manualUrls": [
+        "https://zerohome.jp/chumon/plan/one-story-house/"
+      ],
+      "enabled": true,
+      "crawlMode": "manualOnly",
+      "perRunLimit": 1,
+      "delaySeconds": 60,
+      "recrawlIntervalDays": 30,
+      "sitemapUrl": "",
+      "imageAutoFetch": false,
+      "imageSaveMode": "urlOnly",
+      "majorPortal": false
+    },
+    {
+      "id": "site_tanaken_floorplans",
+      "siteName": "田中建設 間取り実例",
+      "domain": "tanaken.co.jp",
+      "searchUrl": "",
+      "manualUrls": [
+        "https://www.tanaken.co.jp/estate/details_342.html"
+      ],
+      "enabled": true,
+      "crawlMode": "manualOnly",
+      "perRunLimit": 1,
+      "delaySeconds": 60,
+      "recrawlIntervalDays": 30,
       "sitemapUrl": "",
       "imageAutoFetch": false,
       "imageSaveMode": "urlOnly",

@@ -54,10 +54,12 @@ async function main() {
     maxPagesPerRun: 25,
     maxImagesPerCandidate: 24,
     floorplanOnly: Boolean(args.floorplanOnly),
+    verifyImageUrls: parseBool(args.verifyImageUrls, true),
     imageFetchLimit: 6,
     maxImageBytes: 3 * 1024 * 1024,
     ...(config.global ?? {})
   };
+  global.verifyImageUrls = parseBool(global.verifyImageUrls, true);
 
   for (const site of config.sites ?? []) {
     await crawlSite(normalizeSite(site), global);
@@ -154,6 +156,13 @@ async function crawlSite(site, global) {
 
       const candidate = extractCandidate(html, url, site, global);
       if (candidate) {
+        if (global.verifyImageUrls) {
+          await verifyCandidateImages(candidate, site, robots, global, () => politeWait(site, requestCount++));
+          if (global.floorplanOnly && !candidate.imageCandidates.some((image) => image.kind === "floorplan")) {
+            addLog(site, url, "画像候補検出", "停止中", "読める間取り画像が残らなかったため候補保存をスキップしました。");
+            continue;
+          }
+        }
         if (shouldFetchImageBodies(site)) {
           await attachPermittedImageBodies(candidate, site, robots, global, () => politeWait(site, requestCount++));
         }
@@ -234,16 +243,18 @@ async function fetchText(url, site, global, action, options = {}) {
   return text;
 }
 
-async function fetchWithTimeout(url, global) {
+async function fetchWithTimeout(url, global, init = {}) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), global.requestTimeoutSeconds * 1000);
   try {
     return await fetch(url, {
+      ...init,
       redirect: "follow",
       signal: controller.signal,
       headers: {
         "user-agent": global.userAgent,
-        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        ...(init.headers ?? {})
       }
     });
   } finally {
@@ -277,7 +288,11 @@ function extractCandidate(html, pageUrl, site, global) {
     getTagText(html, "title")
   ]);
   const text = normalizeWhitespace(stripHtml(html));
-  const images = extractImages(html, pageUrl, global.maxImagesPerCandidate);
+  const images = extractImages(html, pageUrl, global.maxImagesPerCandidate, {
+    title,
+    text,
+    allowContextualFirstImage: site.crawlMode === "manualOnly"
+  });
   const layout = extractLayout(text);
   const areaSqm = extractArea(text);
   const priceManYen = extractPrice(text);
@@ -310,14 +325,25 @@ function extractCandidate(html, pageUrl, site, global) {
   };
 }
 
-function extractImages(html, pageUrl, limit) {
+function extractImages(html, pageUrl, limit, context = {}) {
   const images = [];
   const seen = new Set();
-  const addImage = (rawUrl, alt = "") => {
+  let contentImageCounter = 0;
+  const pageFloorplanContext = Boolean(context.allowContextualFirstImage) && looksLikeFloorplanPage(`${context.title || ""} ${context.text || ""}`);
+  const addImage = (rawUrl, alt = "", options = {}) => {
     const url = normalizeUrl(rawUrl, pageUrl);
     if (!url || seen.has(url) || url.startsWith("data:")) return;
     const decodedAlt = decodeHtml(alt);
-    const kind = classifyImage(decodedAlt, url);
+    let kind = classifyImage(decodedAlt, url);
+    if (
+      kind === "other" &&
+      pageFloorplanContext &&
+      options.contentImageIndex === 0 &&
+      isGenericImageAlt(decodedAlt) &&
+      looksLikeContentImage(url, options)
+    ) {
+      kind = "floorplan";
+    }
     if (isLikelyDecorativeImage(decodedAlt, url, kind)) return;
     seen.add(url);
     images.push({
@@ -338,6 +364,10 @@ function extractImages(html, pageUrl, limit) {
   for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
     const attrs = parseAttributes(match[0]);
     const alt = decodeHtml(attrs.alt || attrs.title || attrs["aria-label"] || attrs.class || attrs.id || "");
+    const width = Number(attrs.width || 0);
+    const height = Number(attrs.height || 0);
+    const hasContentShape = width >= 420 || height >= 260 || /wp-image|content|main|floor|plan|madori/i.test(alt);
+    const contentImageIndex = hasContentShape ? contentImageCounter++ : undefined;
     const rawUrls = [
       attrs.src,
       attrs["data-src"],
@@ -350,7 +380,7 @@ function extractImages(html, pageUrl, limit) {
       firstSrcsetUrl(attrs.srcset),
       firstSrcsetUrl(attrs["data-srcset"])
     ];
-    rawUrls.forEach((rawUrl) => addImage(rawUrl, alt));
+    rawUrls.forEach((rawUrl) => addImage(rawUrl, alt, { width, height, contentImageIndex }));
   }
 
   for (const match of html.matchAll(/<source\b[^>]*>/gi)) {
@@ -398,6 +428,55 @@ async function attachPermittedImageBodies(candidate, site, robots, global, waitB
       addLog(site, image.url, "画像候補検出", "停止中", `画像本体保存をスキップ: ${error.message}`);
     }
   }
+}
+
+async function verifyCandidateImages(candidate, site, robots, global, waitBeforeFetch) {
+  const verified = [];
+  for (const image of candidate.imageCandidates) {
+    if (image.kind !== "floorplan") {
+      verified.push(image);
+      continue;
+    }
+    if (!isAllowedByRobots(robots.rules, image.url)) {
+      addLog(site, image.url, "画像候補検出", "robots禁止", "画像URLがrobots.txtで禁止されているため候補から外します。");
+      continue;
+    }
+    try {
+      await waitBeforeFetch();
+      if (await canReadImageUrl(image.url, global)) {
+        verified.push(image);
+      } else {
+        addLog(site, image.url, "画像候補検出", "停止中", "画像として読めなかったため候補から外しました。");
+      }
+    } catch (error) {
+      addLog(site, image.url, "画像候補検出", "停止中", `画像確認をスキップ: ${error.message}`);
+    }
+  }
+  candidate.imageCandidates = verified;
+  candidate.imageUrlCandidates = verified.map((image) => image.url);
+  candidate.hasFloorplanImage = verified.some((image) => image.kind === "floorplan");
+}
+
+async function canReadImageUrl(url, global) {
+  const head = await fetchWithTimeout(url, global, {
+    method: "HEAD",
+    headers: { accept: "image/avif,image/webp,image/png,image/jpeg,image/*,*/*;q=0.8" }
+  }).catch(() => null);
+  if (head?.ok && isImageResponse(head, url)) return true;
+
+  const response = await fetchWithTimeout(url, global, {
+    headers: {
+      accept: "image/avif,image/webp,image/png,image/jpeg,image/*,*/*;q=0.8",
+      range: "bytes=0-2047"
+    }
+  }).catch(() => null);
+  if (!response || (!response.ok && response.status !== 206)) return false;
+  return isImageResponse(response, url);
+}
+
+function isImageResponse(response, url) {
+  const contentType = response.headers.get("content-type") || "";
+  return contentType.startsWith("image/") || isImageUrl(new URL(response.url || url).pathname);
 }
 
 function shouldFetchImageBodies(site) {
@@ -496,7 +575,10 @@ function extractCompany(text) {
 
 function classifyImage(alt, url) {
   const haystack = imageSignalText(alt, url);
-  for (const [kind, patterns] of Object.entries(IMAGE_KIND_KEYWORDS)) {
+  if (looksLikeArticleThumbnail(haystack)) return "other";
+  if (looksLikeNonFloorplanPlanImage(haystack)) return "exterior";
+  if (looksLikeFloorplanImageText(haystack)) return "floorplan";
+  for (const [kind, patterns] of Object.entries(IMAGE_KIND_KEYWORDS).filter(([kind]) => kind !== "floorplan")) {
     if (patterns.some((pattern) => pattern.test(haystack))) return kind;
   }
   return "other";
@@ -512,7 +594,7 @@ function scoreImageCandidate(alt, url, kind) {
   if (/間取り図|間取り|間取|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(haystack)) score += 90;
   if (/[2-5]\s*LDK|平屋|二階建|2階建|坪|㎡|m2|帖|畳/i.test(haystack)) score += 35;
   if (/施工事例|建売|新築|注文住宅|住宅|暮らし|家事動線|収納|LDK/i.test(haystack)) score += 12;
-  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|bnr|loading|spinner|dummy|placeholder|noimage|ogp|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete/i.test(haystack)) {
+  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|バナー|bnr|loading|spinner|dummy|placeholder|noimage|ogp|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete/i.test(haystack)) {
     score -= 130;
   }
   if (/\.svg(?:\?|$)/i.test(url)) score -= 80;
@@ -522,11 +604,46 @@ function scoreImageCandidate(alt, url, kind) {
 function isLikelyDecorativeImage(alt, url, kind) {
   const haystack = imageSignalText(alt, url);
   if (/\.svg(?:\?|$)/i.test(url)) return true;
-  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|bnr|loading|spinner|dummy|placeholder|noimage|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete/i.test(haystack)) {
+  if (looksLikeArticleThumbnail(haystack)) return true;
+  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|バナー|bnr|loading|spinner|dummy|placeholder|noimage|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete/i.test(haystack)) {
     return true;
   }
   if (kind === "floorplan") return false;
   return false;
+}
+
+function looksLikeFloorplanImageText(haystack) {
+  if (/間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(haystack)) return true;
+  return /(?:[2-5]\s*LDK|平屋|[0-9]{2}\s*坪|坪).{0,24}間取り|間取り.{0,24}(?:[2-5]\s*LDK|平屋|[0-9]{2}\s*坪|坪)/i.test(haystack);
+}
+
+function looksLikeNonFloorplanPlanImage(haystack) {
+  return /frontview|front-view|sideview|side-view|facade|exterior|appearance|外観|立面/i.test(haystack);
+}
+
+function looksLikeFloorplanPage(text) {
+  return /間取り図|平面図|図面|[2-5]\s*LDK|平屋|[0-9]{2}\s*坪/i.test(text || "");
+}
+
+function isGenericImageAlt(alt) {
+  return !normalizeWhitespace(alt) || /wp-image|attachment|size-|画像に alt|ファイル名|image-[0-9]/i.test(alt);
+}
+
+function looksLikeContentImage(url, options = {}) {
+  const width = Number(options.width || 0);
+  const height = Number(options.height || 0);
+  if (!isImageUrl(url)) return false;
+  if (/logo|icon|avatar|staff|profile|banner|バナー|button|theme|assets\/images\/top/i.test(url)) return false;
+  return /wp-content\/uploads|\/uploads\//i.test(url) || width >= 420 || height >= 260;
+}
+
+function looksLikeArticleThumbnail(haystack) {
+  const articleUrl = /top_column|column|blog|article|news|pickup|cover|thumbnail|ogp/i.test(haystack);
+  const articleTitle = /選|メリット|デメリット|解説|とは|コツ|相場|種類|目安|アイデア|おすすめ|ランキング|カタログ|施工事例/i.test(
+    haystack
+  );
+  const explicitPlan = /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(haystack);
+  return articleUrl && articleTitle && !explicitPlan;
 }
 
 function isImageUrl(value) {
@@ -536,7 +653,8 @@ function isImageUrl(value) {
 function imageSignalText(alt, url) {
   try {
     const parsed = new URL(url);
-    const segments = parsed.pathname.split("/").filter(Boolean);
+    const pathname = decodeURIComponent(parsed.pathname);
+    const segments = pathname.split("/").filter(Boolean);
     return `${alt} ${segments.slice(-3).join("/")}`;
   } catch {
     return `${alt} ${url}`;
@@ -692,4 +810,10 @@ function parseArgs(argv) {
     }
   }
   return result;
+}
+
+function parseBool(value, fallback = false) {
+  if (value === undefined || value === null || value === "") return fallback;
+  if (typeof value === "boolean") return value;
+  return !/^(false|0|no|off)$/i.test(String(value));
 }
