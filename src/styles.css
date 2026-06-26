@@ -312,8 +312,21 @@ h3 {
   display: grid;
   gap: 14px;
   max-height: calc(100vh - 92px);
-  overflow-y: auto;
+  overflow: hidden;
   padding: 15px;
+}
+
+.filter-body {
+  display: grid;
+  gap: 14px;
+  max-height: min(620px, calc(100vh - 178px));
+  overflow-y: auto;
+  padding-right: 3px;
+  overscroll-behavior: contain;
+}
+
+.filter-body[hidden] {
+  display: none;
 }
 
 .filter-actions {
@@ -329,6 +342,13 @@ h3 {
 .filter-actions .primary-button {
   width: 100%;
   justify-content: center;
+}
+
+.filter-header-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
 }
 
 .filter-header,
@@ -1191,7 +1211,11 @@ h3 {
   .filter-panel {
     position: static;
     max-height: none;
-    overflow: visible;
+    overflow: hidden;
+  }
+
+  .filter-body {
+    max-height: min(520px, 56vh);
   }
 
   .filter-grid {
@@ -1241,6 +1265,15 @@ h3 {
   .filter-header {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .filter-header {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .filter-header-actions {
+    margin-left: auto;
   }
 
   .section-actions,
