@@ -64,6 +64,15 @@ export interface CrawlImageCandidate {
   dataUrl?: string;
   alt: string;
   sourceUrl: string;
+  needsOllamaReview?: boolean;
+  reviewReason?: string;
+  ollamaReview?: {
+    status?: "checked" | "unchecked";
+    model?: string;
+    isFloorplan?: boolean;
+    confidence?: number;
+    reason?: string;
+  };
 }
 
 export interface CrawlSite {
