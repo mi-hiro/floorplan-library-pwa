@@ -21,6 +21,18 @@ if ($CrawlerExitCode -ne 0) {
 }
 
 if ($CrawlerExitCode -eq 0) {
+  $CommonCrawlConfig = Join-Path $ProjectRoot "common-crawl.config.json"
+  $CommonCrawlExample = Join-Path $ProjectRoot "common-crawl.config.example.json"
+  if (!(Test-Path -LiteralPath $CommonCrawlConfig) -and (Test-Path -LiteralPath $CommonCrawlExample)) {
+    Copy-Item -LiteralPath $CommonCrawlExample -Destination $CommonCrawlConfig
+  }
+  if (Test-Path -LiteralPath $CommonCrawlConfig) {
+    & $Node ".\scripts\common-crawl-candidates.mjs" "--config" $CommonCrawlConfig "--out" $Output "--merge-existing"
+    if ($LASTEXITCODE -ne 0) {
+      Write-Warning "Common Crawl candidate collection failed. Continuing with normal crawler output."
+    }
+  }
+
   $HasBraveImageSearch = $env:BRAVE_SEARCH_API_KEY
   $HasGoogleImageSearch = $env:GOOGLE_CUSTOM_SEARCH_API_KEY -and $env:GOOGLE_CUSTOM_SEARCH_CX
   $HasBingImageSearch = $env:BING_IMAGE_SEARCH_KEY

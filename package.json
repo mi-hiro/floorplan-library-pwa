@@ -9,7 +9,12 @@
     "preview": "vite preview --host 127.0.0.1",
     "serve:dist": "vite preview --host 127.0.0.1 --port 4173",
     "crawl": "node scripts/crawler.mjs --config crawler.config.json --out crawler-output/latest-crawl.json",
-    "crawl:image-search": "node scripts/image-search-crawler.mjs --config image-search.config.json --out crawler-output/latest-crawl.json --merge-existing"
+    "crawl:image-search": "node scripts/image-search-crawler.mjs --config image-search.config.json --out crawler-output/latest-crawl.json --merge-existing",
+    "crawl:common-crawl": "node scripts/common-crawl-candidates.mjs --config common-crawl.config.json --out crawler-output/latest-crawl.json --merge-existing",
+    "discover:duckduckgo": "node scripts/duckduckgo-source-discovery.mjs --config source-discovery.config.json --common-crawl-config common-crawl.config.json --out crawler-output/discovered-sources.json --update-common-crawl",
+    "discover:sitemaps": "node scripts/sitemap-seed-expander.mjs --common-crawl-config common-crawl.config.json --crawler-config crawler.config.json --discovery-file crawler-output/discovered-sources.json --out crawler-output/discovered-sources.json --write-config",
+    "crawl:discovered": "node scripts/build-discovered-crawler-config.mjs --discovery-file crawler-output/discovered-sources.json --base-config crawler.config.json --out crawler-output/discovered-crawler.config.json && node scripts/crawler.mjs --config crawler-output/discovered-crawler.config.json --out .tmp/discovered-live-crawl.json && node scripts/merge-crawl-output.mjs --base crawler-output/latest-crawl.json --incoming .tmp/discovered-live-crawl.json --out crawler-output/latest-crawl.json",
+    "filter:ollama": "node scripts/ollama-floorplan-filter.mjs --config ollama-filter.config.json --input crawler-output/latest-crawl.json --out crawler-output/latest-crawl.json"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",

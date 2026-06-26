@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "endpoint": "http://127.0.0.1:11434",
+  "model": "llava:latest",
+  "fallbackVisionModels": [
+    "llama3.2-vision",
+    "llava",
+    "minicpm-v",
+    "moondream",
+    "bakllava"
+  ],
+  "maxImages": 80,
+  "minConfidence": 0.65,
+  "keepUnchecked": true,
+  "removeRejected": true,
+  "requestDelayMs": 700,
+  "fetchTimeoutSeconds": 20,
+  "ollamaTimeoutSeconds": 60,
+  "maxImageBytes": 3000000
+}

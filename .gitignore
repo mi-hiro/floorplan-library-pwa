@@ -10,3 +10,4 @@ crawler-output/
 Thumbs.db
 *.tsbuildinfo
 node_modules/.tmp/
+.tmp/

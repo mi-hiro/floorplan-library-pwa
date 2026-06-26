@@ -1,0 +1,29 @@
+{
+  "duckduckgo": {
+    "enabled": true,
+    "timeoutSeconds": 15,
+    "maxResultsPerQuery": 20,
+    "queries": [
+      "注文住宅 間取り 実例 プラン集",
+      "平屋 間取り 実例 プラン集",
+      "3LDK 間取り 注文住宅 プラン集",
+      "4LDK 間取り 注文住宅 プラン集",
+      "工務店 間取り 実例",
+      "住宅会社 floorplan madori plan"
+    ]
+  },
+  "maxSeedUrlsToAdd": 80,
+  "maxSeedUrlsPerDomain": 6,
+  "blockedDomains": [
+    "google.com",
+    "google.co.jp",
+    "bing.com",
+    "yahoo.co.jp",
+    "pinterest.com",
+    "instagram.com",
+    "facebook.com",
+    "x.com",
+    "twitter.com",
+    "youtube.com"
+  ]
+}

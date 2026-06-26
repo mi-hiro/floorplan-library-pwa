@@ -22,7 +22,19 @@ Vercel、Netlify、GitHub Pages向けの設定を追加済みです。手順は 
 定期実行したい場合は `register-crawler-task.ps1` でWindowsタスクとして登録できます。
 巡回後のJSONはWebアプリ側へ自動反映され、アプリは約5分ごとに新しい取得候補を確認します。
 
-間取り図だけを効率よく増やしたい場合は、公式画像検索APIを使う [IMAGE_SEARCH.md](./IMAGE_SEARCH.md) の方法が向いています。APIキーが設定されていれば、通常巡回後に画像検索も自動で追加実行できます。
+有料APIなしで候補を増やしたい場合は、無料のCommon Crawl公開インデックスを使う [COMMON_CRAWL.md](./COMMON_CRAWL.md) の方法を使います。
+
+```powershell
+.\run-common-crawl.ps1 -TargetCount 1000
+```
+
+より多く増やしたい場合は、DuckDuckGoの公式APIで候補サイトを探し、サイトマップでURLを増やし、Common CrawlとOllama判定をまとめて実行します。
+
+```powershell
+.\run-floorplan-growth.ps1
+```
+
+間取り図だけを効率よく増やしたい場合は、公式画像検索APIを使う [IMAGE_SEARCH.md](./IMAGE_SEARCH.md) の方法も残しています。APIキーが設定されていれば、通常巡回後に画像検索も自動で追加実行できます。
 キー登録は `set-image-search-keys.ps1`、1000件目標の収集は `run-image-search.ps1 -TargetCount 1000` で実行できます。
 
 ## 実装済み
