@@ -672,7 +672,7 @@ function looksLikeContentImage(url, options = {}) {
 function looksLikeNonFloorplanPhotoSignal(signal) {
   const explicitPlan = /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view/i.test(signal);
   if (explicitPlan) return false;
-  return /外観|内観|室内|リビング|キッチン|寝室|浴室|洗面|トイレ|玄関|LDKのイメージ|施工写真|写真|photo|gallery|interior|living|kitchen|bedroom/i.test(signal);
+  return /外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|室内|リビング|キッチン|寝室|浴室|洗面|トイレ|玄関|LDKのイメージ|施工写真|写真のみ|写真|photo|gallery|interior|living|kitchen|bedroom|garden|parking|carport/i.test(signal);
 }
 
 function scoreImageCandidate(signal, looseReviewCandidate) {
@@ -680,7 +680,7 @@ function scoreImageCandidate(signal, looseReviewCandidate) {
   if (/間取り図|間取り|間取|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(signal)) score += 120;
   if (/[2-5]\s*LDK|平屋|hiraya|坪|帖|畳/i.test(signal)) score += 35;
   if (/施工事例|建築実例|works|case|注文住宅|建売|分譲住宅/i.test(signal)) score += 12;
-  if (/logo|icon|banner|mainvisual|hero|ogp|thumbnail|profile|staff|map|frontview|facade|exterior|外観|内観|キッチン|リビング|寝室/i.test(signal)) {
+  if (/logo|icon|banner|mainvisual|hero|ogp|thumbnail|profile|staff|map|frontview|front-view|sideview|side-view|facade|exterior|appearance|garden|parking|carport|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|キッチン|リビング|寝室/i.test(signal)) {
     score -= 80;
   }
   return score;
@@ -691,7 +691,7 @@ function looksLikeDecorativeOrNonFloorplan(signal) {
   if (/logo|icon|ico[-_]|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|bnr|loading|spinner|dummy|placeholder|noimage|ogp|ogimage|mainvisual|hero|avatar|profile|staff|map|point[-_]|txt[-_]|takusan|hajimete|prev[-_]image|next[-_]image/i.test(signal)) {
     return true;
   }
-  if (/frontview|front-view|sideview|side-view|facade|exterior|appearance|外観|内観|キッチン|リビング|寝室|施工写真/i.test(signal)) {
+  if (/frontview|front-view|sideview|side-view|facade|exterior|appearance|garden|parking|carport|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|キッチン|リビング|寝室|施工写真/i.test(signal)) {
     return !/間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(signal);
   }
   return false;

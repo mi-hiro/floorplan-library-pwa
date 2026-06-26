@@ -674,7 +674,7 @@ function looksLikeNonFloorplanPlanImage(haystack) {
   if (/features?_img|feature_img|point_img|mainvisual|mv[0-9]|hero/i.test(haystack) && !/間取り図|平面図|図面|madori|floor.?plan|layout/i.test(haystack)) {
     return true;
   }
-  return /frontview|front-view|sideview|side-view|facade|exterior|appearance|外観|立面/i.test(haystack);
+  return /frontview|front-view|sideview|side-view|facade|exterior|appearance|garden|parking|carport|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|立面/i.test(haystack);
 }
 
 function looksLikeFloorplanPage(text) {
@@ -700,7 +700,7 @@ function looksLikeContentImage(url, options = {}) {
 function looksLikeNonFloorplanPhotoSignal(signal) {
   const explicitPlan = /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view/i.test(signal);
   if (explicitPlan) return false;
-  return /外観|内観|室内|リビング|キッチン|寝室|浴室|洗面|トイレ|玄関|LDKのイメージ|施工写真|写真|photo|gallery|interior|living|kitchen|bedroom/i.test(signal);
+  return /外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|室内|リビング|キッチン|寝室|浴室|洗面|トイレ|玄関|LDKのイメージ|施工写真|写真のみ|写真|photo|gallery|interior|living|kitchen|bedroom|garden|parking|carport/i.test(signal);
 }
 
 function looksLikeArticleThumbnail(haystack) {

@@ -323,16 +323,17 @@ function getCollectedFloorplans(candidates: CrawlCandidate[]) {
 function sanitizeImageCandidates(images: NonNullable<CrawlCandidate["imageCandidates"]>) {
   const floorplans = images.filter((image) => image.kind === "floorplan" && isDisplayFloorplanImage(image));
   const hasLayoutImage = floorplans.some(
-    (image) => isOllamaAcceptedFloorplan(image) || /layout|topview|top-view|間取り図|平面図|図面/i.test(imageSignalText(image))
+    (image) => isOllamaAcceptedFloorplan(image) || hasStrongFloorplanSignal(image)
   );
   const filtered = hasLayoutImage
     ? floorplans.filter((image) => {
         const signal = imageSignalText(image);
+        if (hasHardNonFloorplanSignal(image)) return false;
         if (isOllamaAcceptedFloorplan(image)) return true;
         if (/\/photo\/estate\/.+_[0-9]+[bsz]\.(?:jpe?g|png|webp)/i.test(signal) && /layout/i.test(floorplans.map(imageSignalText).join(" "))) {
           return false;
         }
-        return /layout|topview|top-view|間取り図|平面図|図面|madori|floor.?plan/i.test(signal);
+        return hasStrongFloorplanSignal(image);
       })
     : floorplans;
 
@@ -346,18 +347,25 @@ function sanitizeImageCandidates(images: NonNullable<CrawlCandidate["imageCandid
 }
 
 function isDisplayFloorplanImage(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
-  if (isOllamaAcceptedFloorplan(image)) return true;
+  if (hasHardNonFloorplanSignal(image)) return false;
   if (image.ollamaReview?.status === "checked" && image.ollamaReview.isFloorplan === false) return false;
   if (image.needsOllamaReview) return false;
-  const signal = imageSignalText(image);
-  if (/logo|ロゴ|icon|avatar|profile|staff|banner|baner|バナー|campaign|キャンペーン|gift|ギフト|catalog|カタログ|og画像|ogimage|blogcard|thumb|外観|内観|施工事例|インテリア|リビング|寝室|キッチン|frontview|sideview|facade|exterior|interior|features?_img|feature_img|mainvisual|hero/i.test(signal)) {
-    return false;
-  }
-  return /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view|[2-5]\s*LDK|[0-9]{2}\s*坪/i.test(signal);
+  if (isOllamaAcceptedFloorplan(image)) return true;
+  return hasStrongFloorplanSignal(image);
 }
 
 function isOllamaAcceptedFloorplan(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
   return image.ollamaReview?.status === "checked" && image.ollamaReview.isFloorplan === true && Number(image.ollamaReview.confidence ?? 0) >= 0.65;
+}
+
+function hasStrongFloorplanSignal(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  return /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view|[2-5]\s*LDK|[0-9]{2}\s*坪/i.test(imageSignalText(image));
+}
+
+function hasHardNonFloorplanSignal(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  return /logo|ロゴ|icon|avatar|profile|staff|banner|baner|バナー|campaign|キャンペーン|gift|ギフト|catalog|カタログ|og画像|ogimage|blogcard|thumb|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工事例|施工写真|写真のみ|インテリア|リビング|寝室|キッチン|浴室|洗面|トイレ|frontview|front-view|sideview|side-view|facade|exterior|appearance|interior|garden|parking|carport|features?_img|feature_img|mainvisual|hero/i.test(
+    imageSignalText(image)
+  );
 }
 
 function floorplanDedupeKey(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {

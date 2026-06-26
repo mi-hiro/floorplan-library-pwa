@@ -49,7 +49,7 @@ function dedupeCandidates(items) {
 }
 
 function looksDecorative(image) {
-  return /logo|icon|ico[-_]|banner|baner|og画像|ogimage|ogp|catalog|カタログ|main_img|bn[-_]|blog[-_]?card|thumb|txt[-_]|takusan|hajimete|prev[-_]image|next[-_]image|point[-_]|childroom|laundryroom|genmai|rice/i.test(
+  return /logo|icon|ico[-_]|banner|baner|og画像|ogimage|ogp|catalog|カタログ|main_img|bn[-_]|blog[-_]?card|thumb|txt[-_]|takusan|hajimete|prev[-_]image|next[-_]image|point[-_]|childroom|laundryroom|genmai|rice|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工写真|写真のみ|リビング|キッチン|寝室|浴室|洗面|トイレ|frontview|front-view|sideview|side-view|facade|exterior|appearance|interior|garden|parking|carport|mainvisual|hero/i.test(
     `${image.url || ""} ${image.alt || ""}`
   );
 }
