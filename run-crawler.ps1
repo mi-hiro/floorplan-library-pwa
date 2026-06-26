@@ -15,3 +15,14 @@ if (!(Test-Path $Config)) {
 
 Set-Location $ProjectRoot
 & $Node ".\scripts\crawler.mjs" "--config" $Config "--out" $Output @args
+
+if ($LASTEXITCODE -eq 0) {
+  $PublishScript = Join-Path $ProjectRoot "publish-crawl-output.ps1"
+  if (Test-Path -LiteralPath $PublishScript) {
+    try {
+      & $PublishScript -InputPath $Output
+    } catch {
+      Write-Warning "巡回は完了しましたが、Webへの巡回結果反映に失敗しました: $($_.Exception.Message)"
+    }
+  }
+}
