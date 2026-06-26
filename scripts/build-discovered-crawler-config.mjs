@@ -21,7 +21,25 @@ async function main() {
   const maxDomains = Number(args.maxDomains ?? 4);
   const maxUrlsPerDomain = Number(args.maxUrlsPerDomain ?? 12);
   const delaySeconds = Number(args.delaySeconds ?? 10);
-  const blockedDomains = new Set(["google.com", "google.co.jp", "bing.com", "yahoo.co.jp", "pinterest.com", "instagram.com", "facebook.com", "x.com", "twitter.com", "youtube.com"]);
+  const blockedDomains = new Set([
+    "google.com",
+    "google.co.jp",
+    "bing.com",
+    "yahoo.co.jp",
+    "pinterest.com",
+    "instagram.com",
+    "facebook.com",
+    "x.com",
+    "twitter.com",
+    "youtube.com",
+    "suumo.jp",
+    "homes.co.jp",
+    "athome.co.jp",
+    "myhome.nifty.com",
+    "town-life.jp",
+    "ii-ie2.net",
+    "hugkumi-life.jp"
+  ]);
   const grouped = new Map();
 
   for (const item of discovery.discoveredUrls ?? []) {
@@ -42,22 +60,26 @@ async function main() {
       return scoreUrl(urlsB[0] || "") - scoreUrl(urlsA[0] || "");
     })
     .slice(0, maxDomains)
-    .map(([hostname, urls]) => ({
-    id: `discovered_${hashId(hostname)}`,
-    siteName: `discovered ${hostname}`,
-    domain: hostname,
-    searchUrl: "",
-    manualUrls: urls.sort((a, b) => scoreUrl(b) - scoreUrl(a)).slice(0, maxUrlsPerDomain),
-    enabled: true,
-    crawlMode: "manualOnly",
-    perRunLimit: urls.length,
-    delaySeconds,
-    recrawlIntervalDays: 30,
-    sitemapUrl: "",
-    imageAutoFetch: false,
-    imageSaveMode: "urlOnly",
-    majorPortal: false
-  }));
+    .map(([hostname, urls]) => {
+      const manualUrls = urls.sort((a, b) => scoreUrl(b) - scoreUrl(a)).slice(0, maxUrlsPerDomain);
+      const shouldFollowLinks = manualUrls.some(looksLikeListingUrl);
+      return {
+        id: `discovered_${hashId(hostname)}`,
+        siteName: `discovered ${hostname}`,
+        domain: hostname,
+        searchUrl: "",
+        manualUrls,
+        enabled: true,
+        crawlMode: shouldFollowLinks ? "lowFrequency" : "manualOnly",
+        perRunLimit: shouldFollowLinks ? Math.min(maxUrlsPerDomain, Math.max(manualUrls.length, 3)) : manualUrls.length,
+        delaySeconds,
+        recrawlIntervalDays: 30,
+        sitemapUrl: "",
+        imageAutoFetch: false,
+        imageSaveMode: "urlOnly",
+        majorPortal: false
+      };
+    });
 
   const result = {
     global: {
@@ -123,6 +145,10 @@ function scoreUrl(url) {
   if (/column|blog|news|english|financial|diversity|company/i.test(url)) score -= 60;
   if (/contact|privacy|recruit|login/i.test(url)) score -= 100;
   return score;
+}
+
+function looksLikeListingUrl(url) {
+  return /\/(?:works?|case|construction|gallery|photo|voice|example|jitsurei|sekou|owner|interview)(?:\/|$|\?)/i.test(url);
 }
 
 function normalizeUrl(rawUrl) {

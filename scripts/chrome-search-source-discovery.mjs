@@ -19,7 +19,11 @@ const DEFAULT_BLOCKED_DOMAINS = [
   "rakuten.co.jp",
   "suumo.jp",
   "homes.co.jp",
-  "athome.co.jp"
+  "athome.co.jp",
+  "myhome.nifty.com",
+  "town-life.jp",
+  "ii-ie2.net",
+  "hugkumi-life.jp"
 ];
 
 const args = parseArgs(process.argv.slice(2));
