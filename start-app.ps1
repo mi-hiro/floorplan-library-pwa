@@ -6,6 +6,6 @@ $Vite = Join-Path $ProjectRoot "node_modules\vite\bin\vite.js"
 
 Set-Location $ProjectRoot
 
-Write-Host "間取り図ライブラリを起動します..."
+Write-Host "Starting Floorplan Library..."
 Write-Host "URL: http://127.0.0.1:5173/"
 & $Node $Vite --host 127.0.0.1 --port 5173
