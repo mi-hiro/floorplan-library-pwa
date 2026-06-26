@@ -33,7 +33,8 @@ import {
   getPrimaryFloorplan,
   makeId,
   normalizeNumber,
-  nowIso
+  nowIso,
+  openExternalUrl
 } from "./utils/format";
 
 const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
@@ -50,7 +51,9 @@ const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at";
 
 function getInitialView(): ViewKey {
   if (typeof window === "undefined") return "library";
-  const hashView = window.location.hash.replace("#", "") as ViewKey;
+  const rawHashView = window.location.hash.replace("#", "");
+  const hashView = rawHashView as ViewKey;
+  if (rawHashView === "floorplans") return "library";
   return navItems.some((item) => item.key === hashView) ? hashView : "library";
 }
 
@@ -177,6 +180,25 @@ function normalizeImportedCandidate(candidate: CrawlCandidate): CrawlCandidate {
   };
 }
 
+function getCollectedFloorplans(candidates: CrawlCandidate[]) {
+  return candidates.flatMap((candidate) =>
+    (candidate.imageCandidates ?? [])
+      .filter((image) => image.kind === "floorplan")
+      .map((image) => ({
+        id: `${candidate.id}:${image.id}`,
+        title: image.alt || candidate.title || "自動収集した間取り図",
+        imageUrl: image.dataUrl || image.url,
+        imageLink: image.url,
+        sourceUrl: candidate.sourceUrl,
+        listingSource: candidate.listingSource,
+        layout: candidate.layout,
+        areaSqm: candidate.areaSqm,
+        fetchedAt: candidate.fetchedAt,
+        candidate
+      }))
+  );
+}
+
 export default function App() {
   const [view, setViewState] = useState<ViewKey>(getInitialView);
   const [properties, setProperties] = useState<FloorPlanProperty[]>([]);
@@ -239,6 +261,7 @@ export default function App() {
   const listingSources = useMemo(() => [...new Set(properties.map((property) => property.listingSource).filter(Boolean))].sort(), [properties]);
   const companies = useMemo(() => [...new Set(properties.map((property) => property.company).filter(Boolean))].sort(), [properties]);
   const floorplanCount = useMemo(() => properties.filter((property) => getPrimaryFloorplan(property)).length, [properties]);
+  const collectedFloorplans = useMemo(() => getCollectedFloorplans(candidates), [candidates]);
 
   async function addLog(log: Omit<CrawlLog, "id" | "createdAt">) {
     const next: CrawlLog = { ...log, id: makeId("log"), createdAt: nowIso() };
@@ -400,6 +423,11 @@ export default function App() {
     return () => window.clearInterval(timer);
   }, [loading]);
 
+  useEffect(() => {
+    if (loading || window.location.hash !== "#floorplans") return;
+    window.setTimeout(() => document.getElementById("floorplans")?.scrollIntoView({ block: "start" }), 0);
+  }, [loading, collectedFloorplans.length]);
+
   async function clearLogs() {
     if (!confirm("巡回ログをすべて削除しますか？")) return;
     await clearStore("logs");
@@ -435,6 +463,7 @@ export default function App() {
         <div className="summary-strip">
           <span>{properties.length}件登録</span>
           <span>{floorplanCount}件の間取り図</span>
+          <span>自動収集 {collectedFloorplans.length}件</span>
           <span>{autoSyncStatus}</span>
           <span>最終更新 {formatDate(properties[0]?.updatedAt)}</span>
         </div>
@@ -467,7 +496,7 @@ export default function App() {
             <div className="section-heading">
               <div>
                 <p className="eyebrow">一覧</p>
-                <h2>間取り図サムネイル</h2>
+                <h2>間取り図一覧</h2>
               </div>
               <div className="section-actions">
                 <button className="secondary-button" type="button" onClick={() => setFilters(defaultFilters)}>
@@ -481,7 +510,41 @@ export default function App() {
               </div>
             </div>
 
-            {properties.length === 0 ? (
+            {collectedFloorplans.length > 0 ? (
+              <section className="auto-floorplan-section" id="floorplans">
+                <div className="section-heading compact">
+                  <div>
+                    <p className="eyebrow">自動収集</p>
+                    <h3>収集した間取り図</h3>
+                  </div>
+                  <span className="status-pill on">{collectedFloorplans.length}件</span>
+                </div>
+                <div className="floorplan-gallery">
+                  {collectedFloorplans.map((item) => (
+                    <article className="floorplan-tile" key={item.id}>
+                      <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
+                        <img src={item.imageUrl} alt={item.title} loading="lazy" />
+                      </button>
+                      <div className="floorplan-tile-body">
+                        <h3>{item.title}</h3>
+                        <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
+                        <p className="muted-text">取得日時：{formatDate(item.fetchedAt)}</p>
+                        <div className="card-actions">
+                          <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || item.imageLink)}>
+                            元ページ
+                          </button>
+                          <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
+                            正式登録
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            ) : null}
+
+            {properties.length === 0 && collectedFloorplans.length === 0 ? (
               <section className="empty-state">
                 <h2>最初の間取り図を登録しましょう</h2>
                 <p>端末内の画像、スクリーンショット、画像URLを使ってローカル保存できます。</p>
@@ -495,7 +558,7 @@ export default function App() {
                   </button>
                 </div>
               </section>
-            ) : filteredProperties.length === 0 ? (
+            ) : properties.length > 0 && filteredProperties.length === 0 ? (
               <section className="empty-state">
                 <h2>条件に合う間取り図がありません</h2>
                 <p>検索条件を少しゆるめると見つかるかもしれません。</p>
@@ -503,7 +566,7 @@ export default function App() {
                   条件をクリア
                 </button>
               </section>
-            ) : (
+            ) : properties.length > 0 ? (
               <div className="card-grid">
                 {filteredProperties.map((property) => (
                   <PropertyCard
@@ -517,7 +580,7 @@ export default function App() {
                   />
                 ))}
               </div>
-            )}
+            ) : null}
           </section>
         </main>
       ) : null}
