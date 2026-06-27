@@ -8,17 +8,18 @@ This project separates collection from acceptance.
 - `data/review-queue.jsonl`: uncertain images that need review or a working vision model.
 - `public/data/floorplans.json`: accepted-only public feed consumed by the PWA.
 
-The accepted pipeline is intentionally conservative. URL text and page titles can create candidates, but they do not create accepted records by themselves. Accepted records require a checked floorplan classification with confidence at or above `0.85` and no hard reject signals.
+The accepted pipeline is intentionally conservative. URL text and page titles can create candidates, but they do not create accepted records by themselves. Accepted records require a checked floorplan classification with confidence at or above `0.85`, image-specific floorplan evidence, and no hard reject signals.
 
 ## Data Flow
 
 1. Collect many candidates from Common Crawl, sitemap/image sitemap, WordPress REST, PDF links, and domain adapters.
 2. Save every broad candidate to `data/candidate-images.jsonl`.
 3. Remove obvious noise such as exterior photos, interior photos, banners, logos, maps, charts, and YouTube thumbnails to `data/rejected-images.jsonl`.
-4. Send plausible images to Ollama Vision when available.
-5. Promote only images classified as top-down floorplans with room/wall boundaries and confidence `>= 0.85`.
-6. Keep uncertain or unchecked items in `data/review-queue.jsonl`.
-7. Build `public/data/floorplans.json` only from `data/accepted-floorplans.jsonl`.
+4. Run local byte-level checks for JPEG/PNG files to reject photo-like color/texture and banner-like aspect ratios before promotion.
+5. Send plausible images to Ollama Vision when available.
+6. Promote only images classified as top-down floorplans with room/wall boundaries and confidence `>= 0.85`.
+7. Keep uncertain or unchecked items in `data/review-queue.jsonl`.
+8. Build `public/data/floorplans.json` only from `data/accepted-floorplans.jsonl`.
 
 `crawler-output/latest-crawl.json` is no longer the permanent accepted database. It can still be imported as a candidate source, but the PWA's standard feed is generated from accepted records only.
 
@@ -52,7 +53,7 @@ Daily runs are intentionally small. They prefer domains with good past results, 
 
 When Ollama is unavailable, unchecked candidates stay in `candidate-images.jsonl` or `review-queue.jsonl`; they are not promoted to `accepted-floorplans.jsonl`.
 
-The default model is `llama3.2-vision:11b` with fallbacks. On this PC, `llava:latest` and `moondream:latest` may be available instead. `llava` can be accurate but slow; `moondream` is faster but may omit confidence. Missing confidence is not accepted automatically.
+The repository example keeps `llama3.2-vision:11b` as the preferred high-quality model. On this PC, the active config uses `moondream:latest` first because it is much faster than `llava:latest`. Missing confidence is not accepted automatically.
 
 ## PDF
 
