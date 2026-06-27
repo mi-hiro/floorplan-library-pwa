@@ -157,6 +157,7 @@ async function main() {
     if (imageUrlKey && acceptedImageUrls.has(imageUrlKey)) continue;
 
     const visual = classifyImageCandidate(candidate);
+    const explicitPlanEvidence = hasAcceptanceEvidence(candidate, visual);
     let ollama = normalizeOllama(candidate.ollamaReview || reviewExisting.get(id)?.ollamaReview);
 
     if (visual.hardRejectSignals.length) {
@@ -167,7 +168,7 @@ async function main() {
     if (
       needsFreshOllamaReview(ollama) &&
       ollamaRuntime.available &&
-      visual.visualScore >= thresholds.minVisualForOllama &&
+      (visual.visualScore >= thresholds.minVisualForOllama || explicitPlanEvidence) &&
       ollamaChecked < ollamaOptions.maxImages &&
       Number(domainOllamaErrors.get(candidate.sourceDomain || "") || 0) < maxOllamaErrorsPerDomain &&
       !isPdfCandidate(candidate)
@@ -207,7 +208,7 @@ async function main() {
       continue;
     }
 
-    if (finalConfidence >= thresholds.reviewMin || visual.visualScore >= thresholds.minVisualForOllama || ollama.status !== "unchecked") {
+    if (finalConfidence >= thresholds.reviewMin || visual.visualScore >= thresholds.minVisualForOllama || explicitPlanEvidence || ollama.status !== "unchecked") {
       review.push(makeReview(candidate, visual, ollama, finalConfidence, now));
     } else {
       rejected.push(makeRejected(candidate, visual, ollama, now, "low-confidence"));

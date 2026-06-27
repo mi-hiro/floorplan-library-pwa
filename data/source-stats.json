@@ -1,10 +1,10 @@
 {
   "ichijo.co.jp": {
     "candidateCount": 22,
-    "acceptedCount": 11,
+    "acceptedCount": 22,
     "rejectedCount": 0,
     "reviewCount": 11,
-    "acceptanceRate": 0.5,
+    "acceptanceRate": 1,
     "lastCrawledAt": "2026-06-27T13:09:14.344Z",
     "blockReason": null,
     "nextCrawlAfter": null,
@@ -78,10 +78,10 @@
   },
   "forumu.co.jp": {
     "candidateCount": 555,
-    "acceptedCount": 18,
+    "acceptedCount": 33,
     "rejectedCount": 276,
     "reviewCount": 318,
-    "acceptanceRate": 0.032,
+    "acceptanceRate": 0.059,
     "lastCrawledAt": "2026-06-27T13:10:07.888Z",
     "blockReason": null,
     "nextCrawlAfter": null,
