@@ -17,7 +17,11 @@ const FLOORPLAN_TOKENS = [
 
 export function classifyImageCandidate(candidate) {
   const signal = candidateSignal(candidate);
-  const hardRejectSignals = HARD_REJECT_PATTERNS.filter((pattern) => pattern.test(signal)).map((pattern) => pattern.source);
+  const imageSignal = imageSpecificSignal(candidate);
+  const floorplanEvidence = FLOORPLAN_TOKENS.some((pattern) => pattern.test(imageSignal));
+  const hardRejectSignals = HARD_REJECT_PATTERNS.filter((pattern) => pattern.test(imageSignal))
+    .filter((pattern) => !floorplanEvidence || !/外観|内観|リビング|キッチン|寝室|浴室|洗面|exterior|interior|living|kitchen|bedroom|bathroom/i.test(pattern.source))
+    .map((pattern) => pattern.source);
   const dimensions = dimensionsFromCandidate(candidate);
   const sizePenalty = dimensions.width && dimensions.height && (dimensions.width < 260 || dimensions.height < 180) ? 0.3 : 0;
   const bannerPenalty = dimensions.width && dimensions.height && isBannerRatio(dimensions.width, dimensions.height) ? 0.35 : 0;
@@ -63,6 +67,26 @@ function candidateSignal(candidate) {
       candidate.pageTitle,
       candidate.nearImageText,
       candidate.caption
+    ]
+      .filter(Boolean)
+      .map((value) => {
+        if (/^https?:/i.test(String(value))) return normalizeUrl(value);
+        return value;
+      })
+      .join(" ")
+  );
+}
+
+function imageSpecificSignal(candidate) {
+  return normalizeWhitespace(
+    [
+      candidate.imageUrl,
+      candidate.url,
+      candidate.thumbnailUrl,
+      candidate.alt,
+      candidate.title,
+      candidate.caption,
+      candidate.nearImageText
     ]
       .filter(Boolean)
       .map((value) => {

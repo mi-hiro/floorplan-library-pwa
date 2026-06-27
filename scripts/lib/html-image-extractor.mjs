@@ -4,10 +4,13 @@ export function extractImageCandidatesFromHtml(html, pageUrl, options = {}) {
   const candidates = [];
   const seen = new Set();
   const title = extractTitle(html);
-  const add = (rawUrl, attrs = {}) => {
+  const add = (rawUrl, attrs = {}, rawMatch = "") => {
     const imageUrl = normalizePossiblyRelativeUrl(rawUrl, pageUrl);
     if (!imageUrl || seen.has(imageUrl)) return;
     seen.add(imageUrl);
+    const nearImageText = normalizeWhitespace(
+      [attrs.nearImageText, attrs.caption, attrs.alt, textAround(html, rawMatch), title].filter(Boolean).join(" ")
+    );
     candidates.push({
       sourceType: options.sourceType || "html",
       pageUrl,
@@ -15,28 +18,30 @@ export function extractImageCandidatesFromHtml(html, pageUrl, options = {}) {
       pageTitle: title,
       alt: normalizeWhitespace(attrs.alt || ""),
       caption: normalizeWhitespace(attrs.caption || ""),
-      nearImageText: normalizeWhitespace(attrs.nearImageText || title),
+      nearImageText,
       discoveredFrom: attrs.discoveredFrom || "html"
     });
   };
 
   for (const match of html.matchAll(/<img\b([^>]+)>/gi)) {
     const attrs = parseAttrs(match[1]);
-    for (const key of ["src", "data-src", "data-original", "data-lazy-src", "data-srcset"]) {
-      if (attrs[key]) add(firstSrc(attrs[key]), { alt: attrs.alt, discoveredFrom: key });
+    const context = imageContext(html, match.index ?? 0, match[0]);
+    for (const key of ["src", "data-src", "data-original", "data-lazy-src", "data-srcset", "data-large_image", "data-bg", "data-background-image"]) {
+      if (attrs[key]) add(firstSrc(attrs[key]), { alt: attrs.alt, caption: context.caption, nearImageText: context.text, discoveredFrom: key }, match[0]);
     }
     if (attrs.srcset) {
-      for (const src of parseSrcset(attrs.srcset)) add(src, { alt: attrs.alt, discoveredFrom: "srcset" });
+      for (const src of parseSrcset(attrs.srcset)) add(src, { alt: attrs.alt, caption: context.caption, nearImageText: context.text, discoveredFrom: "srcset" }, match[0]);
     }
   }
 
   for (const match of html.matchAll(/<source\b([^>]+)>/gi)) {
     const attrs = parseAttrs(match[1]);
-    for (const src of parseSrcset(attrs.srcset || attrs["data-srcset"] || "")) add(src, { discoveredFrom: "picture-source" });
+    const context = imageContext(html, match.index ?? 0, match[0]);
+    for (const src of parseSrcset(attrs.srcset || attrs["data-srcset"] || "")) add(src, { caption: context.caption, nearImageText: context.text, discoveredFrom: "picture-source" }, match[0]);
   }
 
   for (const match of html.matchAll(/url\((['"]?)([^)'"]+)\1\)/gi)) {
-    add(match[2], { discoveredFrom: "css-background" });
+    add(match[2], { nearImageText: textAround(html, match[0]), discoveredFrom: "css-background" }, match[0]);
   }
 
   return candidates;
@@ -88,4 +93,41 @@ function extractTitle(html) {
 
 function stripTags(value) {
   return String(value || "").replace(/<[^>]+>/g, " ");
+}
+
+function imageContext(html, index, rawMatch) {
+  const figure = enclosingBlock(html, index, "figure");
+  const card =
+    figure ||
+    enclosingBlock(html, index, "article") ||
+    enclosingBlock(html, index, "li") ||
+    enclosingBlock(html, index, "section") ||
+    enclosingBlock(html, index, "div");
+  const caption = normalizeWhitespace((figure || "").match(/<figcaption[^>]*>([\s\S]*?)<\/figcaption>/i)?.[1] || "");
+  return {
+    caption: stripTags(caption),
+    text: normalizeWhitespace(stripTags(card || textAround(html, rawMatch)))
+  };
+}
+
+function textAround(html, rawMatch) {
+  const index = rawMatch ? html.indexOf(rawMatch) : -1;
+  const start = Math.max(0, index < 0 ? 0 : index - 1200);
+  const end = Math.min(html.length, index < 0 ? 1800 : index + rawMatch.length + 1200);
+  return stripTags(html.slice(start, end));
+}
+
+function enclosingBlock(html, index, tagName) {
+  const before = html.slice(0, index);
+  const openPattern = new RegExp(`<${tagName}\\b[^>]*>`, "gi");
+  let open = null;
+  for (const match of before.matchAll(openPattern)) open = match;
+  if (!open) return "";
+  const openIndex = open.index ?? -1;
+  const closePattern = new RegExp(`</${tagName}>`, "i");
+  const close = html.slice(index).match(closePattern);
+  if (!close || close.index == null) return "";
+  const closeIndex = index + close.index + close[0].length;
+  if (closeIndex - openIndex > 8000) return "";
+  return html.slice(openIndex, closeIndex);
 }

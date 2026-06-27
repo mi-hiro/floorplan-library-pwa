@@ -22,11 +22,14 @@ async function main() {
   add(stats, rejected, "rejectedCount");
   add(stats, review, "reviewCount");
   const existing = await readOptionalJson(out);
+  const state = await readOptionalJson(args.state ?? "data/crawl-state.json");
   for (const [domain, value] of Object.entries(stats)) {
     const acceptedCount = value.acceptedCount || 0;
     const candidateCount = value.candidateCount || 0;
     value.acceptanceRate = candidateCount ? Number((acceptedCount / candidateCount).toFixed(3)) : 0;
-    value.lastCrawledAt = existing[domain]?.lastCrawledAt || null;
+    value.lastCrawledAt = state.domains?.[domain]?.lastCrawledAt || existing[domain]?.lastCrawledAt || null;
+    value.blockReason = state.domains?.[domain]?.blockReason || null;
+    value.nextCrawlAfter = state.domains?.[domain]?.nextCrawlAfter || null;
     value.sourceQuality = value.acceptanceRate >= 0.3 && acceptedCount >= 5 ? "high" : value.acceptanceRate >= 0.1 ? "medium" : "low";
   }
   await mkdir(path.dirname(out), { recursive: true });

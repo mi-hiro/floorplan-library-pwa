@@ -1,11 +1,82 @@
 {
   "schemaVersion": 1,
-  "domains": {},
+  "domains": {
+    "zerohome.jp": {
+      "sitemapLastmod": null,
+      "lastSitemapCandidateCount": 0,
+      "lastCrawledAt": "2026-06-27T07:29:30.448Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null,
+      "nextCrawlAfter": null,
+      "wordpressModifiedAfter": null
+    },
+    "ichijo.co.jp": {
+      "sitemapLastmod": null,
+      "lastSitemapCandidateCount": 0,
+      "lastCrawledAt": "2026-06-27T07:29:49.607Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null,
+      "nextCrawlAfter": null,
+      "wordpressModifiedAfter": null
+    },
+    "irohaie.com": {
+      "sitemapLastmod": null,
+      "lastSitemapCandidateCount": 144,
+      "lastCrawledAt": "2026-06-27T07:29:33.129Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null,
+      "nextCrawlAfter": null,
+      "wordpressModifiedAfter": "2025-08-01T14:32:08"
+    },
+    "misawa.co.jp": {
+      "lastCrawledAt": "2026-06-27T07:29:33.176Z",
+      "lastStatus": "stopped",
+      "blockReason": "fetch failed",
+      "failures": 1,
+      "nextCrawlAfter": "2026-06-28T07:29:33.176Z"
+    },
+    "toyotahome.co.jp": {
+      "wordpressModifiedAfter": null,
+      "lastCrawledAt": "2026-06-27T07:29:34.682Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null,
+      "nextCrawlAfter": null
+    },
+    "forumu.co.jp": {
+      "lastCrawledAt": "2026-06-27T07:29:50.099Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null,
+      "nextCrawlAfter": null
+    },
+    "sfc.jp": {
+      "lastCrawledAt": "2026-06-27T07:29:50.649Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null,
+      "nextCrawlAfter": null
+    }
+  },
   "commonCrawl": {
     "processedIndexes": []
   },
   "pdf": {
-    "processedUrls": []
+    "processedUrls": [
+      "https://irohaie.com/catalog/",
+      "https://irohaie.com/floor/",
+      "https://irohaie.com/reservation/",
+      "https://irohaie.com/floor-plan/2073/",
+      "https://irohaie.com/floor-plan/2071/",
+      "https://irohaie.com/floor-plan/2070/",
+      "https://irohaie.com/floor-plan/2068/",
+      "https://irohaie.com/floor-plan/1974/",
+      "https://irohaie.com/floor-plan/1973/",
+      "https://irohaie.com/floor-plan/1972/"
+    ]
   },
-  "updatedAt": null
+  "updatedAt": "2026-06-27T07:29:59.716Z"
 }

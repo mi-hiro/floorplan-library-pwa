@@ -22,6 +22,8 @@
     "floorplans:backfill": "node scripts/run-backfill-floorplan-growth.mjs",
     "floorplans:daily": "node scripts/run-daily-floorplan-growth.mjs",
     "floorplans:promote": "node scripts/promote-floorplan-candidates.mjs",
+    "floorplans:sitemap": "node scripts/sitemap-floorplan-candidates.mjs",
+    "floorplans:wordpress": "node scripts/wordpress-rest-candidates.mjs",
     "floorplans:build-public": "node scripts/build-public-floorplans.mjs",
     "floorplans:stats": "node scripts/update-source-stats.mjs",
     "floorplans:validate": "node scripts/validate-floorplan-data.mjs"

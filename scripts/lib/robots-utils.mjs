@@ -5,7 +5,8 @@ export async function fetchRobotsRules(domain, { fetchImpl = fetch, timeoutMs = 
   try {
     const response = await fetchImpl(url, { signal: controller.signal });
     if (!response.ok) return { status: "error", rules: [], url };
-    return { status: "allowed", rules: parseRobots(await response.text()), url };
+    const text = await response.text();
+    return { status: "allowed", rules: parseRobots(text), sitemaps: extractSitemapUrls(text), url };
   } catch (error) {
     return { status: "error", rules: [], url, reason: error.message };
   } finally {
@@ -23,6 +24,19 @@ export function isAllowedByRobots(targetUrl, robotsRules) {
   return !matched || matched.type !== "disallow";
 }
 
+export function extractSitemapUrls(text) {
+  const urls = [];
+  for (const rawLine of String(text || "").split(/\r?\n/)) {
+    const line = rawLine.replace(/#.*/, "").trim();
+    if (!line) continue;
+    const [rawKey, ...rest] = line.split(":");
+    if (rawKey.trim().toLowerCase() !== "sitemap") continue;
+    const value = rest.join(":").trim();
+    if (/^https?:\/\//i.test(value)) urls.push(value);
+  }
+  return [...new Set(urls)];
+}
+
 function parseRobots(text) {
   const rules = [];
   let applies = false;
@@ -33,7 +47,7 @@ function parseRobots(text) {
     const key = rawKey.trim().toLowerCase();
     const value = rest.join(":").trim();
     if (key === "user-agent") applies = value === "*";
-    if (applies && (key === "allow" || key === "disallow") && value) rules.push({ type: key, path: value });
+    if (applies && (key === "allow" || key === "disallow") && value) rules.push({ type: key, path: normalizeRobotsPath(value) });
   }
   return rules;
 }
@@ -44,4 +58,8 @@ function safePath(value) {
   } catch {
     return "/";
   }
+}
+
+function normalizeRobotsPath(value) {
+  return String(value || "").replace(/\*.*$/, "") || "/";
 }

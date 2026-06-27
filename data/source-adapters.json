@@ -1,12 +1,40 @@
 {
   "ichijo.co.jp": {
-    "enabled": false,
+    "enabled": true,
     "quality": "high",
     "companyName": "一条工務店",
-    "seedUrls": [],
+    "seedUrls": [
+      "https://www.ichijo.co.jp/lp/madori/"
+    ],
     "pagePatterns": ["/madori/", "/plan/"],
     "floorplanSelectors": [".floor-map img", ".madori img", "figure.floorplan img"],
     "contextSelectors": [".property-summary", ".plan-detail", ".spec-table"],
     "rejectSelectors": [".gallery", ".staff", ".banner"]
+  },
+  "forumu.co.jp": {
+    "enabled": true,
+    "quality": "high",
+    "companyName": "フォルム",
+    "seedUrls": [
+      "https://www.forumu.co.jp/madori/madori.html",
+      "https://www.forumu.co.jp/madori/madori-02.html",
+      "https://www.forumu.co.jp/madori/madori-05.html"
+    ],
+    "pagePatterns": ["/madori/"],
+    "floorplanSelectors": [".madori img", "figure img"],
+    "contextSelectors": [".contents", ".main"],
+    "rejectSelectors": [".banner", ".nav", ".footer"]
+  },
+  "sfc.jp": {
+    "enabled": true,
+    "quality": "medium",
+    "companyName": "住友林業",
+    "seedUrls": [
+      "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/"
+    ],
+    "pagePatterns": ["/articles/", "/myhome/"],
+    "floorplanSelectors": ["figure img", ".article img"],
+    "contextSelectors": [".article", ".contents"],
+    "rejectSelectors": [".banner", ".sns", ".recommend"]
   }
 }

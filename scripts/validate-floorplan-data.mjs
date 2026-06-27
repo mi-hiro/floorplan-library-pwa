@@ -12,10 +12,11 @@ main().catch((error) => {
 async function main() {
   const sampleSize = Number(args.sample ?? 100);
   const accepted = (await readJsonl(args.accepted ?? "data/accepted-floorplans.jsonl")).filter((record) => record.status === "accepted");
-  const sample = accepted.slice(0, sampleSize);
+  const sample = randomSample(accepted, sampleSize);
   const problems = [];
-  for (const record of sample) {
+  for (const record of accepted) {
     const confidence = Number(record.classification?.finalConfidence ?? 0);
+    if (record.classification?.finalCategory !== "floorplan") problems.push({ id: record.id, reason: "final category is not floorplan" });
     const visual = classifyImageCandidate({
       imageUrl: record.source?.imageUrl,
       pageUrl: record.source?.pageUrl,
@@ -27,6 +28,10 @@ async function main() {
     if (visual.hardRejectSignals.length) problems.push({ id: record.id, reason: "hard reject signal", signals: visual.hardRejectSignals });
     if (record.status !== "accepted") problems.push({ id: record.id, reason: "status is not accepted" });
   }
+  for (const record of sample) {
+    if (!record.source?.imageUrl) problems.push({ id: record.id, reason: "missing image URL" });
+    if (!record.source?.pageUrl) problems.push({ id: record.id, reason: "missing source page URL" });
+  }
   const summary = {
     acceptedCount: accepted.length,
     sampled: sample.length,
@@ -36,6 +41,15 @@ async function main() {
   };
   console.log(JSON.stringify(summary, null, 2));
   if (problems.length) process.exit(1);
+}
+
+function randomSample(items, size) {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy.slice(0, size);
 }
 
 function parseArgs(argv) {

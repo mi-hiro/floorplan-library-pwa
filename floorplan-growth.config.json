@@ -36,7 +36,11 @@
     "requestDelayMs": 1000,
     "fetchTimeoutSeconds": 20,
     "ollamaTimeoutSeconds": 90,
-    "maxImageBytes": 3000000
+    "maxImageBytes": 3000000,
+    "maxImages": 1000
+  },
+  "sitemap": {
+    "domains": []
   },
   "wordpress": {
     "domains": []
