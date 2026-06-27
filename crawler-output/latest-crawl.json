@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-27T03:51:38.459Z",
+  "generatedAt": "2026-06-27T04:09:57.408Z",
   "source": "local-crawler",
   "candidates": [
     {
@@ -2507,6 +2507,236 @@
       "fetchedAt": "2026-06-27T00:10:45.909Z",
       "errorInfo": "",
       "memo": "Common Crawl archived HTML. Query: kh-house.jp/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_69c12352d0e66aae",
+      "title": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-1F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_7cc700fd78caa9f4",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/"
+        }
+      ],
+      "fetchedAt": "2026-06-27T04:05:28.402Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving. Ollama reviewed with llava:latest."
+    },
+    {
+      "id": "candidate_fdd69c57369a8b91",
+      "title": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
+      "company": "megasoft.co.jp",
+      "layout": "2LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_7a279455a882aedb",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/"
+        },
+        {
+          "id": "image_candidate_3ae3466ef6c8e151",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-2F.jpg",
+          "alt": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/"
+        }
+      ],
+      "fetchedAt": "2026-06-27T04:05:29.092Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_a20af46d2006ecb5",
+      "title": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+      "listingSource": "www.sekisuiheim.com",
+      "sourceUrl": "https://www.sekisuiheim.com/madori/column06/",
+      "company": "sekisuiheim.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list05.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list06.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list07.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list08.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list09.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list10.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list11.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list12.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list13.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list14.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list15.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list16.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list17.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list18.webp",
+        "https://www.sekisuiheim.com/madori/common/images/pic_clm_list19.webp",
+        "https://www.sekisuiheim.com/madori/column06/images/pic_body_p01_sp.webp",
+        "https://www.sekisuiheim.com/madori/column06/images/pic_body_p02_sp.webp",
+        "https://www.sekisuiheim.com/madori/column06/images/pic_body_p03_sp.webp",
+        "https://www.sekisuiheim.com/madori/column06/images/pic_body_p04_sp.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_9f26bde34625fbeb",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list05.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_a3f11d9764d37d94",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list06.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_68708a74c478ab34",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list07.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_7871865801bd5fb1",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list08.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_39622df87685f08d",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list09.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_a1b22fdfc15a9e08",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list10.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_d216117a50818cbc",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list11.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_fc249a2a4d1a05d8",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list12.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_b3957f222c6615b8",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list13.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_65e8756169e2e51b",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list14.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_ad6794dda0ec9a1c",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list15.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_af83600f60278a31",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list16.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_552a15bdac4f614b",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list17.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_3ee8f159fdc67504",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list18.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_c42705b44c2c2b44",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/common/images/pic_clm_list19.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_f4c2c9f49a52f779",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/column06/images/pic_body_p01_sp.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_cbe58c45c026a11a",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/column06/images/pic_body_p02_sp.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_75df8c169101d798",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/column06/images/pic_body_p03_sp.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        },
+        {
+          "id": "image_candidate_0925e8ef2d8e6840",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/madori/column06/images/pic_body_p04_sp.webp",
+          "alt": "書斎のある家づくり 間取り・広さ・設置場所の決め方を実例付きで解説｜セキスイハイム",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/column06/"
+        }
+      ],
+      "fetchedAt": "2026-06-27T04:05:38.490Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.sekisuiheim.com/madori/*. Confirm the current source page before saving."
     }
   ],
   "logs": [
@@ -12759,6 +12989,876 @@
       "action": "clean",
       "result": "success",
       "message": "Removed non-floorplan image candidates. candidates 66 -> 64, images 145 -> 141."
+    },
+    {
+      "id": "log_5a49c9ac-e0c5-4341-b1c3-c9eafdbe26c4",
+      "createdAt": "2026-06-27T03:59:22.002Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "2件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_6c7d2fa7-3ebf-4b7f-a125-74c2a1e98188",
+      "createdAt": "2026-06-27T03:59:22.265Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1952/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_cee5ecdb-e12b-4639-87bb-aa7883ea2fbe",
+      "createdAt": "2026-06-27T03:59:26.577Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1968/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_ad9266f3-c8b9-4eaf-9a39-b26fd9470c22",
+      "createdAt": "2026-06-27T03:59:30.881Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1969/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_8ef6bb65-572d-44ba-8a78-865d9aed82c8",
+      "createdAt": "2026-06-27T03:59:35.193Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1970/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_6a9e167a-7304-4eab-adcf-1c0358e8de6a",
+      "createdAt": "2026-06-27T03:59:35.200Z",
+      "siteName": "discovered irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_d087085e-82e8-4bd3-b66a-7ab70b4df673",
+      "createdAt": "2026-06-27T03:59:35.347Z",
+      "siteName": "discovered www.misawa.co.jp",
+      "domain": "www.misawa.co.jp",
+      "url": "https://www.misawa.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "停止中",
+      "message": "robots.txt確認でHTTP 403"
+    },
+    {
+      "id": "log_f8eeb242-4274-4694-98a2-c2d4810d16ab",
+      "createdAt": "2026-06-27T03:59:35.493Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "1件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_75fd6828-9bbf-47ea-ab71-4c43267e0a43",
+      "createdAt": "2026-06-27T03:59:35.837Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan04/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_b6b28b72-2983-4445-986c-5290c2abaf53",
+      "createdAt": "2026-06-27T03:59:44.220Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan04/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "PLAN 04 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_6e9fbbfa-2aa5-453c-84d4-cf07c07eed6c",
+      "createdAt": "2026-06-27T03:59:48.584Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan40/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_7c28d748-d7da-4d90-b731-387bfee7f8c1",
+      "createdAt": "2026-06-27T04:00:09.575Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan40/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "PLAN 40 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_cdf1361f-fcb0-4d2f-891d-b652ac7884a9",
+      "createdAt": "2026-06-27T04:00:13.947Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan39/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_01ad2608-46fa-47d5-b124-2709426d9c80",
+      "createdAt": "2026-06-27T04:00:34.918Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan39/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "PLAN 39 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_727a75f3-a07a-48d6-9e72-ea2a49fb2750",
+      "createdAt": "2026-06-27T04:00:39.338Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan38/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_451269ac-3558-46e7-b5a1-433937bc19e5",
+      "createdAt": "2026-06-27T04:01:00.359Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/chumon/plan/plan38/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "PLAN 38 | 新築一戸建て・注文住宅をご検討なら低価格で高品質のゼロホームへ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_ca5fbf20-018b-43b0-9a0b-b4b168278347",
+      "createdAt": "2026-06-27T04:01:00.360Z",
+      "siteName": "discovered zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_3e94bece-523d-4868-9ffc-1c65576db45e",
+      "createdAt": "2026-06-27T04:01:00.546Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "1件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_4875ee9b-f598-49d3-bd90-81498f5addad",
+      "createdAt": "2026-06-27T04:01:00.770Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/sitemap.xml",
+      "action": "sitemap確認",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_046af44d-0f9f-49f8-a94c-e8a11af9d147",
+      "createdAt": "2026-06-27T04:01:00.772Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/sitemap.xml",
+      "action": "sitemap確認",
+      "result": "成功",
+      "message": "1748件のURLを検出しました。"
+    },
+    {
+      "id": "log_e7c625e2-685e-43ca-8270-d5691592d737",
+      "createdAt": "2026-06-27T04:01:00.847Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_3ad54254-45bd-45b0-a536-a79038c7101e",
+      "createdAt": "2026-06-27T04:01:26.057Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/lp/madori/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "理想の間取りの考え方と人気の間取り例｜一条工務店 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_e5bf23b9-2e2a-45a7-b7a8-839bba0a88e5",
+      "createdAt": "2026-06-27T04:01:30.740Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/example/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_33464352-1c9d-41e7-b8a6-810d3029dd97",
+      "createdAt": "2026-06-27T04:01:56.043Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/example/fudo/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE%E4%BD%8F%E5%AE%85%E3%82%92%E5%86%8D%E7%8F%BE%E3%81%97%E3%81%9F%E3%80%81%E5%BF%AB%E9%81%A9%E3%81%AA%E5%A4%A7%E7%A9%BA%E9%96%93ldk%E3%81%AE%E3%81%82/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "建築実例｜性能を追求する住宅メーカー【一条工務店】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_428953e8-490a-4e54-ad25-96d193a58638",
+      "createdAt": "2026-06-27T04:02:00.750Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/iikoto/loan/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_b3407a5d-070e-4c67-91b0-5d265582c6c3",
+      "createdAt": "2026-06-27T04:02:13.409Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/knowledge/plan/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "フラット35と銀行の住宅ローンは何が違う？｜一条のライフスタイルマガジン iikoto（いいコト） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_dda68f4e-678a-4313-a2cc-fcf355c5f755",
+      "createdAt": "2026-06-27T04:02:17.912Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/iikoto/tax_benefits/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_5fefca42-2e62-46c6-8ac3-630e26320213",
+      "createdAt": "2026-06-27T04:02:39.026Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/knowledge/plan/chance/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "住宅購入時の税制優遇は4つ！高性能住宅がおトク！｜一条のライフスタイルマガジン iikoto（いいコト） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_e589f139-6670-429c-aa46-049d1bfdaa95",
+      "createdAt": "2026-06-27T04:02:43.235Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/voices/campaign/gallery/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_d25118a4-83f2-4202-b77b-b7c985147772",
+      "createdAt": "2026-06-27T04:02:47.464Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/voices/campaign/gallery/2021_2/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_780ab06d-0aff-4b3c-9a83-4028130f8537",
+      "createdAt": "2026-06-27T04:03:12.705Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/voices/campaign/gallery/2021_2/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "2021 AUTUMN｜一条工務店フォトコンテスト「i with i」ギャラリー｜性能を追求する住宅メーカー 【一条工務店】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_d1423cad-7834-44eb-9e86-21ae823d6141",
+      "createdAt": "2026-06-27T04:03:16.915Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/voices/campaign/gallery/2022_1/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_11b9fceb-11b9-42a5-bc1c-6206d66f6fef",
+      "createdAt": "2026-06-27T04:03:42.151Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/voices/campaign/gallery/2022_1/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "2022 SPRING｜一条工務店フォトコンテスト「i with i」ギャラリー｜性能を追求する住宅メーカー 【一条工務店】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_de5bc668-7bfc-4eae-a610-b15174141cef",
+      "createdAt": "2026-06-27T04:03:46.678Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/iikoto/loan_flat35/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_cc819091-0084-4ea4-be0f-baa787e98ed0",
+      "createdAt": "2026-06-27T04:04:03.552Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/knowledge/plan/flat35/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【フラット35】の特徴とは？金利上昇リスクを避けたい人にオススメ！｜一条のライフスタイルマガジン iikoto（いいコト） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_cb34f680-fef8-4e4d-a6fd-dc5703b3f408",
+      "createdAt": "2026-06-27T04:04:08.081Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/iikoto/loan_payment/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_85357472-e0b8-454d-b17d-f8cfe4f8c637",
+      "createdAt": "2026-06-27T04:04:20.671Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/knowledge/plan/ganri/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "「元利均等返済」と「元金均等返済」のメリットデメリットを紹介｜一条のライフスタイルマガジン iikoto（いいコト） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_0524597d-7455-4778-a293-3db3b89195fb",
+      "createdAt": "2026-06-27T04:04:25.193Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/iikoto/loan_limit/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_14a24536-26db-4d23-90bf-c06bd9b37b65",
+      "createdAt": "2026-06-27T04:04:46.260Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/knowledge/plan/kariire/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "いくらまで借りられる？住宅ローンは借入限度額を知ることが大事！｜一条のライフスタイルマガジン iikoto（いいコト） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_9f45371d-b3da-4c24-8c2e-db3e91709670",
+      "createdAt": "2026-06-27T04:04:50.772Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/iikoto/benefits_system/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_492238fe-53ea-4423-b757-7bcd187e4fb9",
+      "createdAt": "2026-06-27T04:04:59.177Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/knowledge/plan/long-term/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【2026年度版】 長期優良住宅3つの減税・優遇制度を解説｜一条のライフスタイルマガジン iikoto（いいコト） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_5bfbcee4-6022-4900-9d51-fd83eb2f5ccb",
+      "createdAt": "2026-06-27T04:05:03.742Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/iikoto/tax/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_bbe48bbb-eba2-4ffd-bcba-a77966d1afdc",
+      "createdAt": "2026-06-27T04:05:20.589Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/knowledge/plan/tax/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "消費税、不動産取得税など家を建てるときにかかる税金をわかりやすく解説｜一条のライフスタイルマガジン iikoto（いいコト） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_cf7b7cdd-2d18-4446-8743-8297a15b5854",
+      "createdAt": "2026-06-27T04:05:20.589Z",
+      "siteName": "discovered www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_216c60cf-b4b5-413a-b1cf-1004931a4834",
+      "createdAt": "2026-06-27T04:05:22.167Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_ff3585d8-6396-4c6d-b3b2-8f541cd80b28",
+      "createdAt": "2026-06-27T04:05:22.986Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_f84a50a9-883b-40d4-aba6-8eea9e4fe815",
+      "createdAt": "2026-06-27T04:05:23.895Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "success",
+      "message": "irohaie.com/floor-plan/*: 3 records"
+    },
+    {
+      "id": "log_7e51b2ed-cbc9-4c98-9313-a1cce3bd4558",
+      "createdAt": "2026-06-27T04:05:24.416Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_da7fec29-708e-4f87-ac74-5fc813b8f75d",
+      "createdAt": "2026-06-27T04:05:24.838Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.toyotahome.co.jp%2Fchumon%2Fhowto%2Fmadori%2Fdesign%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_5ab2ca13-ab65-4e34-921e-9c09ff634269",
+      "createdAt": "2026-06-27T04:05:25.334Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.aidagroup.co.jp%2Forder%2Fmadori_plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_b19524de-f52a-4288-835a-a1011a54d241",
+      "createdAt": "2026-06-27T04:05:25.955Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.megasoft.co.jp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.megasoft.co.jp/madori/*: 20 records"
+    },
+    {
+      "id": "log_a8a14551-5d82-4913-ae18-bf97de5edc11",
+      "createdAt": "2026-06-27T04:05:26.393Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuiheim.com%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=20",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.sekisuiheim.com/madori/*: 20 records"
+    },
+    {
+      "id": "log_75d8361f-b311-44b7-863f-6ba24dd0cbf2",
+      "createdAt": "2026-06-27T04:05:27.022Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1970/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_a1e54be4-b195-44db-b385-ed3b0c22bbfe",
+      "createdAt": "2026-06-27T04:05:27.586Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/2071/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_fdfca933-90e4-4dbb-92bb-0bdfa2852d7b",
+      "createdAt": "2026-06-27T04:05:27.780Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/2073/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_9cb9508d-f921-4716-8bec-741ebe8a07e3",
+      "createdAt": "2026-06-27T04:05:28.400Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/cn009/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_c976c127-3ac2-4f85-b68e-7380e331ceed",
+      "createdAt": "2026-06-27T04:05:29.090Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/cn011/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_08511dde-afef-4334-853a-816507ef6d58",
+      "createdAt": "2026-06-27T04:05:29.850Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e018/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_ae6b013f-511a-416c-962d-827da4469107",
+      "createdAt": "2026-06-27T04:05:30.069Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e037/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_0e185b5a-eb7a-40e2-905f-a7857a97000f",
+      "createdAt": "2026-06-27T04:05:30.238Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e039/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_7efb47a9-173d-4830-a0e7-525175026e66",
+      "createdAt": "2026-06-27T04:05:31.131Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e043/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_4065277d-4fa4-42a1-b874-4d097247ada0",
+      "createdAt": "2026-06-27T04:05:31.828Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e051/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_f308b672-c805-4982-a304-4a6dbcc086af",
+      "createdAt": "2026-06-27T04:05:32.354Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e053/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_1dfe9efc-3933-40cf-869f-5f792e406a39",
+      "createdAt": "2026-06-27T04:05:32.715Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e054/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_480182db-906d-47b6-919f-4a4bd4a14d63",
+      "createdAt": "2026-06-27T04:05:32.963Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e061/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_24c2d1c3-ca78-4d7d-b987-fe2b6a41b0da",
+      "createdAt": "2026-06-27T04:05:33.131Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e087/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_241a410f-1697-4461-bff8-844108ef8e13",
+      "createdAt": "2026-06-27T04:05:33.302Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e089/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_a47f44b4-56c6-469a-b98a-8ad6ce09dd93",
+      "createdAt": "2026-06-27T04:05:34.177Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e090/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_83059018-5335-4129-9b53-06212396df76",
+      "createdAt": "2026-06-27T04:05:34.608Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e096/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_ad069f75-3ccd-4663-a999-2553285a9743",
+      "createdAt": "2026-06-27T04:05:35.422Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e104/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_c3c5a7e3-0eae-4300-aefe-39650ea3964b",
+      "createdAt": "2026-06-27T04:05:36.291Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e111/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_815aa77c-58a6-4624-a8a7-b89e8ae3af37",
+      "createdAt": "2026-06-27T04:05:37.124Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e113/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_37faeb76-e490-4fdb-b674-261931a93b62",
+      "createdAt": "2026-06-27T04:05:37.314Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e115/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_f1f9f204-8c83-4c05-aeb0-7e34acc84c3b",
+      "createdAt": "2026-06-27T04:05:37.484Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e120/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_95a9acff-f637-4a1a-935e-2d88a536a5ef",
+      "createdAt": "2026-06-27T04:05:37.677Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e138/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_1e4b9a43-cd07-41d8-8399-52060971e65f",
+      "createdAt": "2026-06-27T04:05:38.482Z",
+      "siteName": "Common Crawl",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/madori/column06/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_fbe11997-d1e3-4906-b1a9-018a02f011a8",
+      "createdAt": "2026-06-27T04:05:38.703Z",
+      "siteName": "Ollama",
+      "domain": "127.0.0.1",
+      "url": "http://127.0.0.1:11434",
+      "action": "model",
+      "result": "success",
+      "message": "Using llava:latest"
+    },
+    {
+      "id": "log_5ee6d55d-bcf9-49bf-90f7-eed065e8b6b7",
+      "createdAt": "2026-06-27T04:06:07.903Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan04-1.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f25418af-cd6c-4f61-b365-9c45011ab4f2",
+      "createdAt": "2026-06-27T04:06:09.042Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan40.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_4164d202-f053-4951-a3de-93582f43409c",
+      "createdAt": "2026-06-27T04:06:09.883Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan39.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_25c6780d-d803-4233-b2a8-f43ccdd29c8c",
+      "createdAt": "2026-06-27T04:06:41.093Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/IMG_8793.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows a kitchen interior with modern appliances and fixtures. It is not a floor plan or architectural drawing."
+    },
+    {
+      "id": "log_a77f19a0-007d-49af-8c57-682b13694a26",
+      "createdAt": "2026-06-27T04:06:41.794Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/IMG_8793.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows a kitchen interior with modern appliances and fixtures. It is not a floor plan or architectural drawing."
+    },
+    {
+      "id": "log_26187c5a-867a-420e-982c-2312c6cc1746",
+      "createdAt": "2026-06-27T04:07:14.515Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+    },
+    {
+      "id": "log_1e28f4b3-56ab-45eb-8dbb-5507083dae3b",
+      "createdAt": "2026-06-27T04:07:45.640Z",
+      "siteName": "Ollama",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_628ba866-a36f-4398-9e58-d292b413faec",
+      "createdAt": "2026-06-27T04:08:24.867Z",
+      "siteName": "Ollama",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture placement. It is a clear architectural drawing with dimensions "
+    },
+    {
+      "id": "log_e2540798-1d1d-4daa-a134-7cfdaa4907ae",
+      "createdAt": "2026-06-27T04:08:25.569Z",
+      "siteName": "Ollama",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts a detailed top-view layout of a residential floor plan, which includes various rooms and furniture placement. It is a clear architectural drawing with dimensions "
+    },
+    {
+      "id": "log_clean_1782533397409",
+      "createdAt": "2026-06-27T04:09:57.409Z",
+      "siteName": "clean-crawl-output",
+      "domain": "-",
+      "url": ".\\work\\floorplan-strict-filter\\pages\\crawler-output\\latest-crawl.json",
+      "action": "clean",
+      "result": "success",
+      "message": "Removed non-floorplan image candidates. candidates 67 -> 67, images 163 -> 163."
     }
   ]
 }
