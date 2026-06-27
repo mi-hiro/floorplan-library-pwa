@@ -549,6 +549,12 @@ h3 {
   padding: 7px 10px;
 }
 
+.pager-controls-bottom {
+  justify-content: center;
+  margin-top: 10px;
+  padding: 4px 0 2px;
+}
+
 .section-heading.compact {
   margin-bottom: 0;
 }

@@ -834,35 +834,46 @@ export default function App() {
                   </div>
                 </div>
                 {filteredCollectedFloorplans.length > 0 ? (
-                  <div className={`floorplan-gallery ${floorplanDisplay === "compact" ? "is-compact-list" : ""}`}>
-                    {pagedCollectedFloorplans.map((item) => (
-                      <article className="floorplan-tile" key={item.id}>
-                        <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
-                          <img src={item.imageUrl} alt={item.title} loading="lazy" />
-                        </button>
-                        <div className="floorplan-tile-body">
-                          <h3>{item.title}</h3>
-                          {floorplanMetaLabels(item).length > 0 ? (
-                            <div className="floorplan-meta">
-                              {floorplanMetaLabels(item).map((label) => (
-                                <span key={label}>{label}</span>
-                              ))}
+                  <>
+                    <div className={`floorplan-gallery ${floorplanDisplay === "compact" ? "is-compact-list" : ""}`}>
+                      {pagedCollectedFloorplans.map((item) => (
+                        <article className="floorplan-tile" key={item.id}>
+                          <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
+                            <img src={item.imageUrl} alt={item.title} loading="lazy" />
+                          </button>
+                          <div className="floorplan-tile-body">
+                            <h3>{item.title}</h3>
+                            {floorplanMetaLabels(item).length > 0 ? (
+                              <div className="floorplan-meta">
+                                {floorplanMetaLabels(item).map((label) => (
+                                  <span key={label}>{label}</span>
+                                ))}
+                              </div>
+                            ) : null}
+                            <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
+                            <p className="muted-text floorplan-date">取得日時：{formatDate(item.fetchedAt)}</p>
+                            <div className="card-actions">
+                              <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || item.imageLink)}>
+                                元ページ
+                              </button>
+                              <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
+                                正式登録
+                              </button>
                             </div>
-                          ) : null}
-                          <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
-                          <p className="muted-text floorplan-date">取得日時：{formatDate(item.fetchedAt)}</p>
-                          <div className="card-actions">
-                            <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || item.imageLink)}>
-                              元ページ
-                            </button>
-                            <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
-                              正式登録
-                            </button>
                           </div>
-                        </div>
-                      </article>
-                    ))}
-                  </div>
+                        </article>
+                      ))}
+                    </div>
+                    <div className="pager-controls pager-controls-bottom">
+                      <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => setFloorplanPage((page) => Math.max(1, page - 1))}>
+                        前へ
+                      </button>
+                      <span>{floorplanPage} / {totalFloorplanPages}</span>
+                      <button className="secondary-button" type="button" disabled={floorplanPage >= totalFloorplanPages} onClick={() => setFloorplanPage((page) => Math.min(totalFloorplanPages, page + 1))}>
+                        次へ
+                      </button>
+                    </div>
+                  </>
                 ) : (
                   <section className="empty-state compact">
                     <h2>条件に一致する自動収集の間取り図がありません</h2>
