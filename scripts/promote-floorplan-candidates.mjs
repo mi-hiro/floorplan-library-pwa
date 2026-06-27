@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import { candidateImageId, pickBetterValue, stableId, weakDhashSource } from "./lib/hash-utils.mjs";
 import { readJsonl, upsertJsonlById } from "./lib/jsonl-store.mjs";
 import { classifyImageCandidate } from "./lib/image-features.mjs";
+import { analyzeImageBytes } from "./lib/image-byte-features.mjs";
 import { extractMetadata } from "./lib/metadata-extractor.mjs";
 
 const args = parseArgs(process.argv.slice(2));
@@ -50,6 +51,18 @@ Return:
   "confidence": 0.0,
   "reason": "short reason"
 }`;
+const OLLAMA_FAST_PROMPT = `Classify this real-estate image. Return strict JSON only.
+
+category must be exactly one of:
+floorplan, site_plan_only, exterior_photo, interior_photo, kitchen_photo, bathroom_photo, bedroom_photo, living_room_photo, 3d_render, map, chart, banner, logo, youtube_thumbnail, other.
+
+A valid floorplan is a top-down architectural house/apartment plan with rooms, walls, doors, stairs, labels, dimensions, or room names.
+Reject photos, perspective renders, maps, banners, logos, charts, thumbnails, and decorative images.
+If the image is clearly a top-down floorplan, set category="floorplan", isFloorplan=true, isTopDownPlan=true, hasWallsOrRoomBoundaries=true, confidence=0.95.
+If unsure, confidence must be below 0.85.
+
+Return exactly:
+{"category":"...","isFloorplan":true,"isTopDownPlan":true,"hasRoomLabels":true,"hasWallsOrRoomBoundaries":true,"visibleRooms":[],"confidence":0.0,"reason":"short reason"}`;
 const OLLAMA_FORMAT_SCHEMA = {
   type: "object",
   properties: {
@@ -108,34 +121,40 @@ async function main() {
     model: String(args.ollamaModel ?? config.ollama?.model ?? "llama3.2-vision:11b"),
     fallbackVisionModels: config.ollama?.fallbackVisionModels || ["llama3.2-vision", "llava", "minicpm-v", "moondream", "bakllava"],
     requestDelayMs: Number(args.ollamaDelayMs ?? config.ollama?.requestDelayMs ?? 1000),
-    fetchTimeoutSeconds: Number(config.ollama?.fetchTimeoutSeconds ?? 20),
-    ollamaTimeoutSeconds: Number(config.ollama?.ollamaTimeoutSeconds ?? 90),
-    maxImageBytes: Number(config.ollama?.maxImageBytes ?? 3000000),
+    fetchTimeoutSeconds: Number(args.fetchTimeoutSeconds ?? config.ollama?.fetchTimeoutSeconds ?? 20),
+    ollamaTimeoutSeconds: Number(args.ollamaTimeoutSeconds ?? config.ollama?.ollamaTimeoutSeconds ?? 90),
+    maxImageBytes: Number(args.maxImageBytes ?? config.ollama?.maxImageBytes ?? 3000000),
     maxImages: Number(args.maxImages ?? config.ollama?.maxImages ?? 1000)
   };
 
-  const candidates = await readJsonl(paths.candidates);
+  const rawCandidates = await readJsonl(paths.candidates);
   const rejectedExisting = new Set((await readJsonl(paths.rejected)).map((record) => record.id));
   const reviewExisting = new Map((await readJsonl(paths.review)).map((record) => [record.id, record]));
-  const acceptedExisting = new Set((await readJsonl(paths.accepted)).map((record) => record.id));
+  const acceptedRecords = await readJsonl(paths.accepted);
+  const acceptedExisting = new Set(acceptedRecords.map((record) => record.id));
+  const acceptedImageUrls = new Set(acceptedRecords.map((record) => normalizeImageUrlForDedupe(record.source?.imageUrl || "")).filter(Boolean));
   const accepted = [];
   const rejected = [];
   const review = [];
   const candidateUpdates = [];
   const now = new Date().toISOString();
   const ollamaRuntime = ollamaOptions.enabled ? await resolveOllamaRuntime(ollamaOptions) : { available: false, reason: "disabled" };
-  const domainOllamaErrors = countDomainOllamaErrors(candidates);
+  const domainOllamaErrors = countDomainOllamaErrors(rawCandidates);
   const maxOllamaErrorsPerDomain = Number(args.maxOllamaErrorsPerDomain ?? 3);
+  const candidates = orderCandidatesForPromotion(rawCandidates, domainOllamaErrors);
+  const reconsiderRejected = parseBool(args.reconsiderRejected, false);
   let ollamaChecked = 0;
 
   for (const candidate of candidates) {
     if (!candidate?.imageUrl) continue;
     const id = candidate.id || candidateImageId(candidate);
-    if (rejectedExisting.has(id)) continue;
+    if (rejectedExisting.has(id) && !reconsiderRejected) continue;
     if (acceptedExisting.has(id)) {
       accepted.push({ id, lastSeenAt: now });
       continue;
     }
+    const imageUrlKey = normalizeImageUrlForDedupe(candidate.imageUrl || "");
+    if (imageUrlKey && acceptedImageUrls.has(imageUrlKey)) continue;
 
     const visual = classifyImageCandidate(candidate);
     let ollama = normalizeOllama(candidate.ollamaReview || reviewExisting.get(id)?.ollamaReview);
@@ -182,8 +201,9 @@ async function main() {
       continue;
     }
 
-    if (isAccepted(visual, ollama, finalConfidence, thresholds.autoAccept)) {
+    if (isAccepted(candidate, visual, ollama, finalConfidence, thresholds.autoAccept)) {
       accepted.push(makeAccepted(candidate, visual, ollama, finalConfidence, now));
+      if (imageUrlKey) acceptedImageUrls.add(imageUrlKey);
       continue;
     }
 
@@ -206,7 +226,7 @@ async function main() {
   }
 }
 
-function isAccepted(visual, ollama, finalConfidence, minConfidence) {
+function isAccepted(candidate, visual, ollama, finalConfidence, minConfidence) {
   return (
     ollama.status === "checked" &&
     ollama.category === "floorplan" &&
@@ -214,8 +234,28 @@ function isAccepted(visual, ollama, finalConfidence, minConfidence) {
     ollama.isTopDownPlan === true &&
     ollama.hasWallsOrRoomBoundaries === true &&
     finalConfidence >= minConfidence &&
-    visual.hardRejectSignals.length === 0
+    visual.hardRejectSignals.length === 0 &&
+    hasAcceptanceEvidence(candidate, visual)
   );
+}
+
+function hasAcceptanceEvidence(candidate, visual) {
+  const { fileSignal, imageSignal, titleSignal, allSignal } = acceptanceSignals(candidate);
+  if (!isLikelyImageUrl(candidate.imageUrl || "")) return false;
+  if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|tr\?|og image|ogp|thumbnail|thumb|_thum|thum\.|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|[-_](?:120x68|160x90|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)|tit_|bt_cate|btn_|bt_|pagetop|page_top|txt[-_]|linenap|lineup_all|noimg|placeholder|dummy|spacer|img-nav|nav-identity|common\/tp\.gif|mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha/.test(allSignal)) {
+    return false;
+  }
+  if (/打ち合わせ|作成中|様子/.test(titleSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
+  if (/hamaguri\.co\.jp/.test(allSignal) && !/madori|floor|plan|間取り|図面|drawing/.test(fileSignal)) return false;
+  if (/yuyuhome\.co\.jp/.test(allSignal) && !/floor_plan|madori|plan|間取り|図面|drawing/.test(fileSignal)) return false;
+  if (/genmai-home\.com/.test(allSignal) && !/drawing|madori|floor|plan|間取り|図面/.test(fileSignal)) return false;
+  if (/cleverlyhome\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !isCleverlyPlanTitle(titleSignal)) return false;
+  if (/(chitose-home\.com|marusho-kensetsu\.co\.jp|irohaie\.com)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
+  if (/madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(imageSignal)) {
+    return true;
+  }
+  if (titleSignal.length <= 60 && /間取り図|平面図|図面|注文住宅の間取り|^平屋の間取り$/.test(titleSignal) && visual.visualScore >= 0.55 && !isGenericPhotoFile(fileSignal)) return true;
+  return false;
 }
 
 function countDomainOllamaErrors(candidates) {
@@ -226,6 +266,83 @@ function countDomainOllamaErrors(candidates) {
     result.set(domain, Number(result.get(domain) || 0) + 1);
   }
   return result;
+}
+
+function orderCandidatesForPromotion(candidates, domainOllamaErrors) {
+  const seenDomains = new Map();
+  return [...candidates]
+    .map((candidate, index) => {
+      const visual = classifyImageCandidate(candidate);
+      const domain = candidate.sourceDomain || "";
+      const domainSeen = Number(seenDomains.get(domain) || 0);
+      seenDomains.set(domain, domainSeen + 1);
+      const { imageSignal, titleSignal, allSignal } = acceptanceSignals(candidate);
+      const explicitPlanScore = /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[0-9]|collection_plan|madori_thm/i.test(imageSignal) ||
+        (titleSignal.length <= 60 && /間取り図|平面図|図面|注文住宅の間取り|^平屋の間取り$/.test(titleSignal))
+        ? 0.35
+        : 0;
+      const rejectPenalty = /facebook\.com|tr\.line\.me|tag\.gif|tracking|pixel|thumbnail|thumb|_thum|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|ogp|noimg|placeholder|dummy|mainvisual|hero|gallery|photo/i.test(allSignal)
+        ? 0.6
+        : 0;
+      const errorPenalty = Math.min(1, Number(domainOllamaErrors.get(domain) || 0) * 0.3);
+      const alreadyCheckedPenalty = candidate.ollamaReview?.status === "checked" ? 0.4 : 0;
+      const pdfPenalty = isPdfCandidate(candidate) ? 1 : 0;
+      const diversityPenalty = Math.min(0.35, domainSeen * 0.03);
+      const priority = visual.visualScore + explicitPlanScore - rejectPenalty - errorPenalty - alreadyCheckedPenalty - pdfPenalty - diversityPenalty;
+      return { candidate, index, priority };
+    })
+    .sort((a, b) => b.priority - a.priority || a.index - b.index)
+    .map((item) => item.candidate);
+}
+
+function acceptanceSignals(candidate) {
+  const rawUrl = String(candidate.imageUrl || candidate.url || candidate.thumbnailUrl || "");
+  const fileSignal = extractUrlFileName(rawUrl).toLowerCase();
+  const imageSignal = `${fileSignal} ${candidate.alt || ""} ${candidate.caption || ""}`.toLowerCase();
+  const titleSignal = String(candidate.title || candidate.pageTitle || "").toLowerCase();
+  const allSignal = `${rawUrl} ${imageSignal} ${titleSignal}`.toLowerCase();
+  return { fileSignal, imageSignal, titleSignal, allSignal };
+}
+
+function extractUrlFileName(rawUrl) {
+  try {
+    const parsed = new URL(rawUrl);
+    return decodeURIComponent(parsed.pathname.split("/").filter(Boolean).pop() || parsed.pathname || rawUrl);
+  } catch {
+    return rawUrl.split(/[/?#]/)[0] || rawUrl;
+  }
+}
+
+function isLikelyImageUrl(rawUrl) {
+  const value = String(rawUrl || "").toLowerCase();
+  if (!/^https?:\/\//.test(value)) return false;
+  if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|\/tr(?:\?|\/)/.test(value)) return false;
+  return /\.(?:jpe?g|png|webp|gif)(?:$|[?#])/.test(value) || /\/(?:image|img|photo|uploads|wp-content|madori|plan|floor|drawing)\//.test(value);
+}
+
+function isGenericPhotoFile(fileSignal) {
+  return /^(?:img|image|photo|pic|main|sub|detail|gallery)[-_]?[0-9]{1,4}\.(?:jpe?g|png|webp|gif)/i.test(fileSignal);
+}
+
+function isCleverlyPlanTitle(titleSignal) {
+  return /間取り図\s*(?:1f|2f|１f|２f|１階|２階|平屋)|(?:1f|2f|１f|２f|１階|２階)の?間取り図|平屋間取り図/i.test(titleSignal) &&
+    !/ldk|打ち合わせ|作成中|様子/.test(titleSignal);
+}
+
+function normalizeImageUrlForDedupe(value) {
+  return safeDecode(value)
+    .trim()
+    .toLowerCase()
+    .replace(/[?#].*$/, "")
+    .replace(/-\d+x\d+(?=\.(?:jpe?g|png|webp|gif)$)/i, "");
+}
+
+function safeDecode(value) {
+  try {
+    return decodeURIComponent(String(value || ""));
+  } catch {
+    return String(value || "");
+  }
 }
 
 function makeAccepted(candidate, visual, ollama, finalConfidence, now) {
@@ -327,24 +444,35 @@ function reviewReason(ollama) {
 
 function normalizeOllama(value) {
   if (!value) return { status: "unchecked", confidence: 0, raw: null };
-  const category = value.category || (value.isFloorplan ? "floorplan" : "other");
+  const legacyFloorplan = isStrongLegacyFloorplanReview(value);
+  const category = value.category || (legacyFloorplan ? "floorplan" : value.isFloorplan ? "floorplan" : "other");
   return {
     status: value.status || "checked",
     category,
     isFloorplan: value.isFloorplan === true,
-    isTopDownPlan: value.isTopDownPlan === true,
+    isTopDownPlan: value.isTopDownPlan === true || legacyFloorplan,
     hasRoomLabels: value.hasRoomLabels === true,
-    hasWallsOrRoomBoundaries: value.hasWallsOrRoomBoundaries === true,
+    hasWallsOrRoomBoundaries: value.hasWallsOrRoomBoundaries === true || legacyFloorplan,
     confidence: Number(value.confidence ?? 0),
     reason: value.reason || "",
     raw: value
   };
 }
 
+function isStrongLegacyFloorplanReview(value) {
+  if (!value || value.category) return false;
+  if (value.status && value.status !== "checked") return false;
+  if (value.isFloorplan !== true) return false;
+  if (Number(value.confidence ?? 0) < 0.9) return false;
+  const reason = String(value.reason || "");
+  return /top[- ]?view|top[- ]?down|floor plan|residential floor plan|architectural drawing|layout of a .*floor plan/i.test(reason);
+}
+
 function needsFreshOllamaReview(ollama) {
   if (ollama.status === "error") return parseBool(args.retryErrors, false);
   if (ollama.status !== "checked") return true;
   const raw = ollama.raw || {};
+  if (isStrongLegacyFloorplanReview(raw)) return false;
   if (ollama.isFloorplan && Number(raw.confidence ?? 0) < 0.6) return parseBool(args.retryLowConfidence, false);
   if (ollama.isFloorplan && (raw.category == null || raw.isTopDownPlan == null || raw.hasWallsOrRoomBoundaries == null)) return true;
   return false;
@@ -384,6 +512,31 @@ async function reviewWithOllama(candidate, runtime, options) {
       }
     };
   }
+  const byteFeatures = await analyzeImageBytes(image.bytes).catch((error) => ({
+    available: false,
+    hardReject: false,
+    reason: error.message || "byte feature analysis failed"
+  }));
+  if (byteFeatures.hardReject) {
+    return {
+      imageSha256: image.sha256,
+      width: image.width,
+      height: image.height,
+      byteFeatures,
+      ollamaReview: {
+        status: "checked",
+        model: "image-byte-features",
+        category: byteFeatures.category || "other",
+        isFloorplan: false,
+        isTopDownPlan: false,
+        hasRoomLabels: false,
+        hasWallsOrRoomBoundaries: false,
+        visibleRooms: [],
+        confidence: 0.95,
+        reason: byteFeatures.reason || "local visual features rejected image"
+      }
+    };
+  }
 
   try {
     let response = await callOllamaGenerate(runtime, image, options, OLLAMA_FORMAT_SCHEMA);
@@ -404,11 +557,22 @@ async function reviewWithOllama(candidate, runtime, options) {
       };
     }
     const payload = await response.json();
+    const ollamaReview = normalizeOllamaJson(payload.response, runtime.model);
+    if (ollamaReview.isFloorplan && byteFeatures.available && byteFeatures.photoLike && !byteFeatures.floorplanLike) {
+      ollamaReview.category = byteFeatures.category || "interior_photo";
+      ollamaReview.isFloorplan = false;
+      ollamaReview.isTopDownPlan = false;
+      ollamaReview.hasWallsOrRoomBoundaries = false;
+      ollamaReview.confidence = 0.95;
+      ollamaReview.reason = `Rejected by local visual features: ${byteFeatures.reason}`;
+    }
+    ollamaReview.byteFeatures = byteFeatures;
     return {
       imageSha256: image.sha256,
       width: image.width,
       height: image.height,
-      ollamaReview: normalizeOllamaJson(payload.response, runtime.model)
+      byteFeatures,
+      ollamaReview
     };
   } catch (error) {
     return {
@@ -431,15 +595,23 @@ function callOllamaGenerate(runtime, image, options, format) {
   return fetch(`${runtime.endpoint}/api/generate`, {
     method: "POST",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({
-      model: runtime.model,
-      prompt: OLLAMA_PROMPT,
+      body: JSON.stringify({
+        model: runtime.model,
+        prompt: promptForModel(runtime.model),
       images: [image.base64],
       stream: false,
-      format
+      format,
+      options: {
+        temperature: 0,
+        num_predict: 220
+      }
     }),
     signal: AbortSignal.timeout(options.ollamaTimeoutSeconds * 1000)
   });
+}
+
+function promptForModel(model) {
+  return /moondream|minicpm|bakllava|llava/i.test(model) ? OLLAMA_FAST_PROMPT : OLLAMA_PROMPT;
 }
 
 async function fetchImageBytes(imageUrl, options) {

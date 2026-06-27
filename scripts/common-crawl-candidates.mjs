@@ -39,11 +39,12 @@ async function main() {
   const maxQueriesPerDomain = Number(args.maxQueriesPerDomain ?? config.maxQueriesPerDomain ?? 2);
   const seedQueries = balancedSeedQueries(config.seedUrls ?? [], maxQueriesPerDomain);
   const broadQueries = config.queries?.length ? config.queries : DEFAULT_QUERIES;
-  const allQueries = seedQueries.length && !parseBool(config.includeBroadQueries, false) ? seedQueries : [...seedQueries, ...broadQueries];
+  const includeBroadQueries = parseBool(args.includeBroadQueries ?? config.includeBroadQueries, false);
+  const allQueries = seedQueries.length && !includeBroadQueries ? seedQueries : [...seedQueries, ...broadQueries];
   const maxQueries = Number(args.maxQueries ?? config.maxQueries ?? 16);
   const queries = allQueries.slice(0, Math.max(1, maxQueries));
   const perQuery = Number(args.perQuery ?? config.perQuery ?? 40);
-  const targetCount = Number(args.targetCount ?? config.targetCount ?? 1000);
+  const targetCount = Number(args.targetCount ?? args.targetCandidateCount ?? config.targetCandidateCount ?? config.targetCount ?? 1000);
   const mergeExisting = parseBool(args.mergeExisting ?? config.mergeExisting, true);
   const fetchArchivedPages = parseBool(args.fetchArchivedPages ?? config.fetchArchivedPages, true);
   const maxArchivedPages = Number(args.maxArchivedPages ?? config.maxArchivedPages ?? 40);

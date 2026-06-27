@@ -1,15 +1,39 @@
 {
-  "generatedAt": "2026-06-27T07:35:07.112Z",
-  "acceptedCount": 18,
+  "generatedAt": "2026-06-27T13:02:17.693Z",
+  "acceptedCount": 120,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 11
     },
     "forumu.co.jp": {
-      "acceptedCount": 4
+      "acceptedCount": 18
     },
     "sfc.jp": {
-      "acceptedCount": 3
+      "acceptedCount": 24
+    },
+    "yuyuhome.co.jp": {
+      "acceptedCount": 6
+    },
+    "genmai-home.com": {
+      "acceptedCount": 1
+    },
+    "suumo.jp": {
+      "acceptedCount": 1
+    },
+    "aidagroup.co.jp": {
+      "acceptedCount": 5
+    },
+    "zerohome.jp": {
+      "acceptedCount": 40
+    },
+    "creatorhome.co.jp": {
+      "acceptedCount": 1
+    },
+    "megasoft.co.jp": {
+      "acceptedCount": 9
+    },
+    "eyefulhome.jp": {
+      "acceptedCount": 4
     }
   }
 }

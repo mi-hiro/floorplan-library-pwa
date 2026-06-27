@@ -4,8 +4,11 @@ const HARD_REJECT_PATTERNS = [
   /logo|ロゴ|icon|avatar|profile|staff|スタッフ|banner|baner|バナー|campaign|キャンペーン/i,
   /ranking|ランキング|月間ランキング|chart|graph|グラフ|map|地図|youtube|ytimg|sddefault|hqdefault|mqdefault/i,
   /外観|内観|施工写真|写真のみ|リビング|キッチン|寝室|浴室|洗面|玄関写真|外構|モデルハウス写真|ルームツアー/i,
-  /exterior|interior|facade|appearance|living|kitchen|bedroom|bathroom|garden|parking|carport/i,
-  /ogp|ogimage|thumbnail|thumb|mainvisual|hero|subnavi|img_nav|bnr|selected|pbmce/i,
+  /(?:^|\s|\/|_)(リビング|ダイニング|キッチン|寝室|子ども部屋|子供部屋|洋室|和室|浴室|洗面|トイレ|玄関)(?:\s|$|\/|_|-)/i,
+  /exterior|interior|facade|appearance|entrance|corridor|toilet|window|curtain|television|slidingdoor|living|dining|kitchen|bedroom|childroom|bathroom|garden|parking|carport|specialgift|siteguard|captcha/i,
+  /ogp|ogimage|og image|thumbnail|thumb|_thum|thum\.|mainvisual|hero|subnavi|img_nav|img-nav|nav-identity|noimg|placeholder|dummy|spacer|common\/tp\.gif|tit_|bt_cate|txt[-_]|linenap|lineup_all|pc_linenap|sp_linenap|bnr|selected|pbmce/i,
+  /facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|btn_|bt_|gallery|photo/i,
+  /[-_](?:120x68|160x90|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)/i,
   /img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/]+p[0-9]+/i
 ];
 
@@ -20,7 +23,7 @@ export function classifyImageCandidate(candidate) {
   const imageSignal = imageSpecificSignal(candidate);
   const floorplanEvidence = FLOORPLAN_TOKENS.some((pattern) => pattern.test(imageSignal));
   const hardRejectSignals = HARD_REJECT_PATTERNS.filter((pattern) => pattern.test(imageSignal))
-    .filter((pattern) => !floorplanEvidence || !/外観|内観|リビング|キッチン|寝室|浴室|洗面|exterior|interior|living|kitchen|bedroom|bathroom/i.test(pattern.source))
+    .filter((pattern) => !floorplanEvidence || !/外観|内観|リビング|ダイニング|キッチン|寝室|子ども部屋|子供部屋|洋室|和室|浴室|洗面|トイレ|玄関|exterior|interior|living|dining|kitchen|bedroom|childroom|bathroom/i.test(pattern.source))
     .map((pattern) => pattern.source);
   const dimensions = dimensionsFromCandidate(candidate);
   const sizePenalty = dimensions.width && dimensions.height && (dimensions.width < 260 || dimensions.height < 180) ? 0.3 : 0;
@@ -85,8 +88,7 @@ function imageSpecificSignal(candidate) {
       candidate.thumbnailUrl,
       candidate.alt,
       candidate.title,
-      candidate.caption,
-      candidate.nearImageText
+      candidate.caption
     ]
       .filter(Boolean)
       .map((value) => {

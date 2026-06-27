@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-27T07:35:07.112Z",
+  "generatedAt": "2026-06-27T13:02:17.693Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -32,7 +32,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -65,7 +65,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -98,7 +98,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -131,7 +131,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -164,7 +164,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -197,7 +197,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -230,7 +230,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -263,7 +263,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -296,7 +296,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -329,7 +329,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -362,7 +362,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -395,7 +395,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -428,7 +428,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -461,7 +461,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -494,7 +494,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -527,7 +527,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -560,7 +560,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -593,21 +593,3485 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T07:30:10.854Z",
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5899090995755eace0d221dce8dab5274b615e8cd5e8b2534405cf6c2ad3c9ea",
+      "title": "パントリーが30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_of_less_than_30_tsubo_with_convenient_pantry.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5899090995755eace0d221dce8dab5274b615e8cd5e8b2534405cf6c2ad3c9ea:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_of_less_than_30_tsubo_with_convenient_pantry.jpg",
+          "alt": "パントリーが30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "0d83b291bf35f15245c2f5779b07eaaa64365e486ad96d0ef58ea6f350546204",
+      "title": "図面",
+      "listingSource": "accepted genmai-home.com",
+      "sourceUrl": "https://genmai-home.com/floorplan1/21/",
+      "company": "genmai-home.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://genmai-home.com/wp-content/uploads/2022/03/drawing.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0d83b291bf35f15245c2f5779b07eaaa64365e486ad96d0ef58ea6f350546204:image",
+          "kind": "floorplan",
+          "url": "https://genmai-home.com/wp-content/uploads/2022/03/drawing.jpg",
+          "alt": "図面",
+          "sourceUrl": "https://genmai-home.com/floorplan1/21/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "258c35c78a7401c21d3ab02d475f6bc909529997ae2d3241c58b3519fa4f6157",
+      "title": "Enable JavaScript in your browser. このウェブサイトはJavaScriptをオンにしてご覧下さい。",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_module/images/noscript.gif"
+      ],
+      "imageCandidates": [
+        {
+          "id": "258c35c78a7401c21d3ab02d475f6bc909529997ae2d3241c58b3519fa4f6157:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_module/images/noscript.gif",
+          "alt": "Enable JavaScript in your browser. このウェブサイトはJavaScriptをオンにしてご覧下さい。",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "941aca6a0ff3715b0b8190df09c88a1eb7102f1a5437bd7771fff508b3ebbce1",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/235/img20170927211521102103.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "941aca6a0ff3715b0b8190df09c88a1eb7102f1a5437bd7771fff508b3ebbce1:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/235/img20170927211521102103.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "26ec1791c69c67a01e1e7c6d34c7aaf137cf443cb708e1965a47b78cc32e0939",
+      "title": "平屋の間取り",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 79.49,
+      "tsubo": 24.05,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_05.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "26ec1791c69c67a01e1e7c6d34c7aaf137cf443cb708e1965a47b78cc32e0939:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_05.jpg",
+          "alt": "平屋の間取り",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6fda949373a85c569691601191f4e12037e4be5ce8a3703cd2fb0996c4628ef7",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 800,
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/15041/2310_plan1.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6fda949373a85c569691601191f4e12037e4be5ce8a3703cd2fb0996c4628ef7:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/15041/2310_plan1.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "125f76d31ccfb999b1714f92a5e67afe8a854ab676486b8f4afc048595d5f279",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 100,
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/15043/2310_plan2.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "125f76d31ccfb999b1714f92a5e67afe8a854ab676486b8f4afc048595d5f279:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/15043/2310_plan2.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "edc40f20ef227551d498965e81c4458131752dc70652b5c7ee6d2c1e4fd80ad9",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 50,
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/15045/2310_plan5.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "edc40f20ef227551d498965e81c4458131752dc70652b5c7ee6d2c1e4fd80ad9:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/15045/2310_plan5.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e4cf08305dbf4f69898a9845a4e78b7da881dcd50e716b5fab8c28aa82d3dbfc",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 950,
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/15047/2310_plan6.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e4cf08305dbf4f69898a9845a4e78b7da881dcd50e716b5fab8c28aa82d3dbfc:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/15047/2310_plan6.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "f513ed8af3d7dcff9b6f7652b5b39ddcf9305c051ad2ea4f6ee1e9e4ab748089",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 50,
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/15049/2310_plan7.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "f513ed8af3d7dcff9b6f7652b5b39ddcf9305c051ad2ea4f6ee1e9e4ab748089:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/15049/2310_plan7.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "534ba7db23de2ef23d31ec66e40e993ed27d96e78b018afaf77a7777d339708d",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 250,
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/15051/2310_plan8.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "534ba7db23de2ef23d31ec66e40e993ed27d96e78b018afaf77a7777d339708d:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/15051/2310_plan8.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1c4e6d4b2d388fb92c3fa24dcf09bbab8cd99df10255f71edc088ecf07b9738c",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 50,
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/15053/2310_plan9.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1c4e6d4b2d388fb92c3fa24dcf09bbab8cd99df10255f71edc088ecf07b9738c:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/15053/2310_plan9.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "94d490100266640f136f3b2fe823422dd0ac89a09ee9a8e072e9aae2c38a719d",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/15055/2310_plan11.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "94d490100266640f136f3b2fe823422dd0ac89a09ee9a8e072e9aae2c38a719d:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/15055/2310_plan11.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "0cc46f207c7e1502895c7ef48ac89eb9fb2f0cee10244546f163dfadae3b65ed",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 1830,
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/1842/sign.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0cc46f207c7e1502895c7ef48ac89eb9fb2f0cee10244546f163dfadae3b65ed:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/1842/sign.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bc7fcb5ad21be766f3c654d188d2305f81ad880e6bda6917773b3b368bf85994",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 90,
+      "layout": "3LDK",
+      "areaSqm": 90,
+      "tsubo": 27.23,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/1361/madori_01.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bc7fcb5ad21be766f3c654d188d2305f81ad880e6bda6917773b3b368bf85994:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/1361/madori_01.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "18d411b1b4c4b1664c175c32c7bed63ae2d79f3f2bdbad7e623b4b99c141133e",
+      "title": "1.5階建ての注文住宅の間取りの１階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 118,
+      "tsubo": 35.7,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_07.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "18d411b1b4c4b1664c175c32c7bed63ae2d79f3f2bdbad7e623b4b99c141133e:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_07.jpg",
+          "alt": "1.5階建ての注文住宅の間取りの１階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2fae9d21ced7908a893b7cbe79670a061c0cd110b18f902863f6fd87a647b58f",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 500,
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/1618/madori_02.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2fae9d21ced7908a893b7cbe79670a061c0cd110b18f902863f6fd87a647b58f:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/1618/madori_02.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3f3173697f150e600ef6a453250be7688f192b146b2a72d5ea00cad153880ed2",
+      "title": "1.5階建ての注文住宅の間取りの1.5階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 118,
+      "tsubo": 35.7,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_08.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3f3173697f150e600ef6a453250be7688f192b146b2a72d5ea00cad153880ed2:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_08.jpg",
+          "alt": "1.5階建ての注文住宅の間取りの1.5階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e593a04a0c39706e05c5d3e50ccf9560634452fdcc525f1480f79f745a1dea7c",
+      "title": "注文住宅の間取り集｜FORUMU",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+      "company": "forumu.co.jp",
+      "priceManYen": 700,
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/1620/madori_03.png?v=1737804779827"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e593a04a0c39706e05c5d3e50ccf9560634452fdcc525f1480f79f745a1dea7c:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/1620/madori_03.png?v=1737804779827",
+          "alt": "注文住宅の間取り集｜FORUMU",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "7e3b48a979b53bcf92baedbcc6a905be53529b7391bbc919a9b42d810cc7bf17",
+      "title": "1.5階建ての注文住宅の間取りの１階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 112.61,
+      "tsubo": 34.06,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_09.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "7e3b48a979b53bcf92baedbcc6a905be53529b7391bbc919a9b42d810cc7bf17:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_09.jpg",
+          "alt": "1.5階建ての注文住宅の間取りの１階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "dfa85111e873c37a97c1d8db11ccb8bf877e4734f01f4d0875eb3e3bbfc3545b",
+      "title": "アーキテックプランニング 【平屋/2500～2999万円代/3LDK/間取図有】愛猫と暮らす優雅な平屋、ホテルライクな内装と回遊動線の住まいの間取り図（3LDK）1階",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_architecnet/122989_0002_01/jitsurei/jc_0166/",
+      "company": "SUUMO 注文住宅間取り実例",
+      "priceManYen": 2999,
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/89/main/12298900020166m01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "dfa85111e873c37a97c1d8db11ccb8bf877e4734f01f4d0875eb3e3bbfc3545b:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/89/main/12298900020166m01.jpg",
+          "alt": "アーキテックプランニング 【平屋/2500～2999万円代/3LDK/間取図有】愛猫と暮らす優雅な平屋、ホテルライクな内装と回遊動線の住まいの間取り図（3LDK）1階",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_architecnet/122989_0002_01/jitsurei/jc_0166/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1f92e96fa04c701346fe0b0698db1935edcd0cfe53cc19c49113eeb7d36db7be",
+      "title": "1.5階建ての注文住宅の間取りの1.5階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 112.61,
+      "tsubo": 34.06,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_10.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1f92e96fa04c701346fe0b0698db1935edcd0cfe53cc19c49113eeb7d36db7be:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_10.jpg",
+          "alt": "1.5階建ての注文住宅の間取りの1.5階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "4272fc268bb600e680e3f93aa6df27694b0d303f00ac6248a238b470e3e3e02c",
+      "title": "1.5階建ての注文住宅の間取りの１階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "3LDK",
+      "areaSqm": 112.61,
+      "tsubo": 34.06,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_11.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4272fc268bb600e680e3f93aa6df27694b0d303f00ac6248a238b470e3e3e02c:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_11.jpg",
+          "alt": "1.5階建ての注文住宅の間取りの１階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "566ae00458f70ba74c06de6735937825e112263e29cf487056c5b1f7269ad690",
+      "title": "1.5階建ての注文住宅の間取りの1.5階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "3LDK",
+      "areaSqm": 112.61,
+      "tsubo": 34.06,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_12.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "566ae00458f70ba74c06de6735937825e112263e29cf487056c5b1f7269ad690:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_12.jpg",
+          "alt": "1.5階建ての注文住宅の間取りの1.5階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3f4a03bc880ff7232ec148104138e70f518cbcde37fd2eaa0c6758b8abc05e35",
+      "title": "2階建ての注文住宅の間取りの１階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "3LDK",
+      "areaSqm": 114.27,
+      "tsubo": 34.57,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_14.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3f4a03bc880ff7232ec148104138e70f518cbcde37fd2eaa0c6758b8abc05e35:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_14.jpg",
+          "alt": "2階建ての注文住宅の間取りの１階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6d9d563935cce47494c377eff5d7d8fb2bcff821b446c39f8b64de9086b71cf2",
+      "title": "2階建ての注文住宅の間取りの２階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "3LDK",
+      "areaSqm": 114.27,
+      "tsubo": 34.57,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_15.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6d9d563935cce47494c377eff5d7d8fb2bcff821b446c39f8b64de9086b71cf2:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_15.jpg",
+          "alt": "2階建ての注文住宅の間取りの２階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6415be21dff4c1fbfbf7d459ffa05dda66cb4ba8964756c141f454f233d7d993",
+      "title": "2階建ての注文住宅の間取りの１階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "4LDK",
+      "areaSqm": 128.76,
+      "tsubo": 38.95,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_16.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6415be21dff4c1fbfbf7d459ffa05dda66cb4ba8964756c141f454f233d7d993:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_16.jpg",
+          "alt": "2階建ての注文住宅の間取りの１階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "089623153157a1501e562d8065c1ada1d78c565f07498a4feef37e35a77a9706",
+      "title": "2階建ての注文住宅の間取りの２階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "4LDK",
+      "areaSqm": 128.76,
+      "tsubo": 38.95,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_17.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "089623153157a1501e562d8065c1ada1d78c565f07498a4feef37e35a77a9706:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_17.jpg",
+          "alt": "2階建ての注文住宅の間取りの２階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d8779ddf3fb57b2c46a4ed186ebd6cfd035caf0c4e1459a20249c4bf1cf73f13",
+      "title": "2階建ての注文住宅の間取りの１階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "4LDK",
+      "areaSqm": 119.23,
+      "tsubo": 36.07,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_18.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d8779ddf3fb57b2c46a4ed186ebd6cfd035caf0c4e1459a20249c4bf1cf73f13:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_18.jpg",
+          "alt": "2階建ての注文住宅の間取りの１階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "ec344ef3828b28bb9c84825f4adfe3cbd4da5ba67210017120f712443226882a",
+      "title": "2階建ての注文住宅の間取りの２階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 119.23,
+      "tsubo": 36.07,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_19.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "ec344ef3828b28bb9c84825f4adfe3cbd4da5ba67210017120f712443226882a:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_19.jpg",
+          "alt": "2階建ての注文住宅の間取りの２階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "41cb7649026db5da44da766d2d2a857e4119b8e360f02a036852a90bb88c128c",
+      "title": "二世帯住宅の間取りの１階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 131.45,
+      "tsubo": 39.76,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_20.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "41cb7649026db5da44da766d2d2a857e4119b8e360f02a036852a90bb88c128c:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_20.jpg",
+          "alt": "二世帯住宅の間取りの１階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "94dfd3a9665f1974f1d85550199a8ff102eee69dfe7849ee896ed9ebd86c07bc",
+      "title": "二世帯住宅の間取りの２階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 131.45,
+      "tsubo": 39.76,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_21.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "94dfd3a9665f1974f1d85550199a8ff102eee69dfe7849ee896ed9ebd86c07bc:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_21.jpg",
+          "alt": "二世帯住宅の間取りの２階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9c1cadb545fc5b168eedfae3068d6646151816e1c99d5c8ab3002e6ae76ea5ee",
+      "title": "都市型住宅の間取りの１階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 146.57,
+      "tsubo": 44.34,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_23.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9c1cadb545fc5b168eedfae3068d6646151816e1c99d5c8ab3002e6ae76ea5ee:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_23.jpg",
+          "alt": "都市型住宅の間取りの１階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "c05b342c76ddd95abbcc1a4b73ea9acdca9f4b48d861d93e52ecec2001d8dcaa",
+      "title": "都市型住宅の間取りの２階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 146.57,
+      "tsubo": 44.34,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_24.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "c05b342c76ddd95abbcc1a4b73ea9acdca9f4b48d861d93e52ecec2001d8dcaa:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_24.jpg",
+          "alt": "都市型住宅の間取りの２階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "32e7ef9419882e959e3acb9b2d02db4430931a8fcdb61a9d739d061d8f5650d7",
+      "title": "都市型住宅の間取りの３階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 75.77,
+      "tsubo": 22.92,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_25.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "32e7ef9419882e959e3acb9b2d02db4430931a8fcdb61a9d739d061d8f5650d7:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_25.jpg",
+          "alt": "都市型住宅の間取りの３階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "fce02af88e88135ba3262bc16311bb7bf1b97679240009f275ae0335948beb50",
+      "title": "二世帯住宅の間取りの1階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 245.23,
+      "tsubo": 74.18,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_26.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "fce02af88e88135ba3262bc16311bb7bf1b97679240009f275ae0335948beb50:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_26.jpg",
+          "alt": "二世帯住宅の間取りの1階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bdf6e9dfbda80d562095da8ac7b4879f1cf9df294a1ae3a07d8bb4ca624c661f",
+      "title": "二世帯住宅の間取りの２階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 114.4,
+      "tsubo": 34.61,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_27.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bdf6e9dfbda80d562095da8ac7b4879f1cf9df294a1ae3a07d8bb4ca624c661f:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_27.png",
+          "alt": "二世帯住宅の間取りの２階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d28bdee2b080d13cf6c33175c33edaecfd7f09e713c25bff41e4b7267b99515f",
+      "title": "二世帯住宅の間取りの３階部分",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "sfc.jp",
+      "layout": "",
+      "areaSqm": 92.73,
+      "tsubo": 28.05,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_28.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d28bdee2b080d13cf6c33175c33edaecfd7f09e713c25bff41e4b7267b99515f:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_28.png",
+          "alt": "二世帯住宅の間取りの３階部分",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "8f2b1cb60e8552514f98241ce0993019fb287594eb5f7bc37b735c22c09e90fb",
+      "title": "間取りプラン集 理想のくらしを実現するために、暮らしに合わせた【完全自由設計】平屋・2階・3階建てと豊富なプランをご用意。暮らし易さを追求した、設計事務所ならではのプランニングをご覧ください。",
+      "listingSource": "accepted aidagroup.co.jp",
+      "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "company": "aidagroup.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/main_img.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8f2b1cb60e8552514f98241ce0993019fb287594eb5f7bc37b735c22c09e90fb:image",
+          "kind": "floorplan",
+          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/main_img.jpg",
+          "alt": "間取りプラン集 理想のくらしを実現するために、暮らしに合わせた【完全自由設計】平屋・2階・3階建てと豊富なプランをご用意。暮らし易さを追求した、設計事務所ならではのプランニングをご覧ください。",
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "81ff0bab25c4fb96b34a4aa82e268d896366ea71ab17f42352ae12c39d849cf0",
+      "title": "平屋・2階建て・3階建て 各100プランを掲載した間取り集を無料プレゼント！！",
+      "listingSource": "accepted aidagroup.co.jp",
+      "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "company": "aidagroup.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/bn-catalog.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "81ff0bab25c4fb96b34a4aa82e268d896366ea71ab17f42352ae12c39d849cf0:image",
+          "kind": "floorplan",
+          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/bn-catalog.jpg",
+          "alt": "平屋・2階建て・3階建て 各100プランを掲載した間取り集を無料プレゼント！！",
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e847c8cbede771d87759d216a34918c8b6e3fdb37d05414fe1b259bf2baa5059",
+      "title": "平屋",
+      "listingSource": "accepted aidagroup.co.jp",
+      "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "company": "aidagroup.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e847c8cbede771d87759d216a34918c8b6e3fdb37d05414fe1b259bf2baa5059:image",
+          "kind": "floorplan",
+          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-01.jpg",
+          "alt": "平屋",
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "755bc5af8c899e355cff5a07b6a29be50410cb254e6ef8c04d2dc20dc99ed72d",
+      "title": "2階建",
+      "listingSource": "accepted aidagroup.co.jp",
+      "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "company": "aidagroup.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "755bc5af8c899e355cff5a07b6a29be50410cb254e6ef8c04d2dc20dc99ed72d:image",
+          "kind": "floorplan",
+          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-02.jpg",
+          "alt": "2階建",
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "68d75bfbc16d0e7c71c152f11863f9ddd032ee941ebb8a3f65a955499f837f32",
+      "title": "3階建",
+      "listingSource": "accepted aidagroup.co.jp",
+      "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "company": "aidagroup.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "68d75bfbc16d0e7c71c152f11863f9ddd032ee941ebb8a3f65a955499f837f32:image",
+          "kind": "floorplan",
+          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-03.jpg",
+          "alt": "3階建",
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bc1a5b3192bbfec3358d2102b0f68540dfc6e4b016897184334fa9f5d7b1e9e7",
+      "title": "３階建て狭小住宅の間取り図PLAN 01",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bc1a5b3192bbfec3358d2102b0f68540dfc6e4b016897184334fa9f5d7b1e9e7:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan01.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 01",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "c49c72b4d9f50e8d8692825cec5fc382a65f70e62a72ec735f1bbb6658932cad",
+      "title": "間取り図",
+      "listingSource": "accepted creatorhome.co.jp",
+      "sourceUrl": "https://creatorhome.co.jp/model-house/ienomori/",
+      "company": "creatorhome.co.jp",
+      "layout": "",
+      "areaSqm": 122.3,
+      "tsubo": 37,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://creatorhome.co.jp/wp01/wp-content/themes/c-eiwa/img/ienomoriMadorihiraya.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "c49c72b4d9f50e8d8692825cec5fc382a65f70e62a72ec735f1bbb6658932cad:image",
+          "kind": "floorplan",
+          "url": "https://creatorhome.co.jp/wp01/wp-content/themes/c-eiwa/img/ienomoriMadorihiraya.jpg",
+          "alt": "間取り図",
+          "sourceUrl": "https://creatorhome.co.jp/model-house/ienomori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.882,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "7a2aaaafd7ea3c76d3cb225da6eb80a67c9e73db80c6c22abdc6d80c242412f2",
+      "title": "３階建て狭小住宅の間取り図PLAN 02",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "7a2aaaafd7ea3c76d3cb225da6eb80a67c9e73db80c6c22abdc6d80c242412f2:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan02.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 02",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5990d7c9fb2231cf8e435faee48e66c4722f01b9bdae04009ce60045d69b27dd",
+      "title": "３階建て狭小住宅の間取り図PLAN 03",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5990d7c9fb2231cf8e435faee48e66c4722f01b9bdae04009ce60045d69b27dd:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan03.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 03",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "74498cd072e9c69536ccaf99c5d8b2ff1b95f13608bfb71a57fbb8bbf3705ca6",
+      "title": "３階建て狭小住宅の間取り図PLAN 04",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan04-1.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "74498cd072e9c69536ccaf99c5d8b2ff1b95f13608bfb71a57fbb8bbf3705ca6:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan04-1.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 04",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1d64733b9b238dde640479985f75468d51af9e5abc0897a5a8b666ae24dee61f",
+      "title": "３階建て狭小住宅の間取り図PLAN 05",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan05.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1d64733b9b238dde640479985f75468d51af9e5abc0897a5a8b666ae24dee61f:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan05.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 05",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "60f032d0bd5023397af48f56fef160a73edb1619698bf68e4cf7636d95102c3f",
+      "title": "３階建て狭小住宅の間取り図PLAN 06",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan06.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "60f032d0bd5023397af48f56fef160a73edb1619698bf68e4cf7636d95102c3f:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan06.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 06",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "250cb5ebfebcb9790876c192a5afbcc557091a379ce8395929cb3c383769b66d",
+      "title": "３階建て狭小住宅の間取り図PLAN 07",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan07.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "250cb5ebfebcb9790876c192a5afbcc557091a379ce8395929cb3c383769b66d:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan07.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 07",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9485300d2a30f86635738f39ba59bc55d80e099cc4632b21ef9e5cd63900c33b",
+      "title": "３階建て狭小住宅の間取り図PLAN 08",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan08.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9485300d2a30f86635738f39ba59bc55d80e099cc4632b21ef9e5cd63900c33b:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan08.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 08",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "0c6f88dc41a2a8e538d5eb6888152063c338defd4386416d552d863162779831",
+      "title": "３階建て狭小住宅の間取り図PLAN 09",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan09.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0c6f88dc41a2a8e538d5eb6888152063c338defd4386416d552d863162779831:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan09.jpg",
+          "alt": "３階建て狭小住宅の間取り図PLAN 09",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9ac54de4eaeac22fe15b35e282069940e4c85d6f0d46fc54b366f6998cb17a3b",
+      "title": "狭小住宅の間取り図PLAN 10",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan10.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9ac54de4eaeac22fe15b35e282069940e4c85d6f0d46fc54b366f6998cb17a3b:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan10.jpg",
+          "alt": "狭小住宅の間取り図PLAN 10",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6b0f864ff4821701b1053a1a9c7c0996d0d8b9f954bcae5e3f907d077cd4b8b0",
+      "title": "狭小住宅の間取り図PLAN 11",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan11.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6b0f864ff4821701b1053a1a9c7c0996d0d8b9f954bcae5e3f907d077cd4b8b0:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan11.jpg",
+          "alt": "狭小住宅の間取り図PLAN 11",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5da2211a1854b81746e1c0732ff86b82912599eb8c977f76e9a57096ce6315d5",
+      "title": "狭小住宅の間取り図PLAN 12",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan12.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5da2211a1854b81746e1c0732ff86b82912599eb8c977f76e9a57096ce6315d5:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan12.jpg",
+          "alt": "狭小住宅の間取り図PLAN 12",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "abc931780566f1ba7c2bcbda4c9da64292941993fd8bcf2334ab48a277919e3b",
+      "title": "狭小住宅の間取り図PLAN 13",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan13.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "abc931780566f1ba7c2bcbda4c9da64292941993fd8bcf2334ab48a277919e3b:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan13.jpg",
+          "alt": "狭小住宅の間取り図PLAN 13",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "53e2b289c961d702744ba40c03633ed59b456778ae2737ef5b1aad321bdef47a",
+      "title": "狭小住宅の間取り図PLAN 14",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan14.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "53e2b289c961d702744ba40c03633ed59b456778ae2737ef5b1aad321bdef47a:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan14.jpg",
+          "alt": "狭小住宅の間取り図PLAN 14",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "73826fecc843f946d096a021a77046f1a1dd32e51d021869fb45b5ff35e612da",
+      "title": "狭小住宅の間取り図PLAN 15",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan15.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "73826fecc843f946d096a021a77046f1a1dd32e51d021869fb45b5ff35e612da:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan15.jpg",
+          "alt": "狭小住宅の間取り図PLAN 15",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "fba7732a156815f8c0701f411d1d97d6a624f23bed038f2cfdae7847673e3eb3",
+      "title": "狭小住宅の間取り図PLAN 16",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan16.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "fba7732a156815f8c0701f411d1d97d6a624f23bed038f2cfdae7847673e3eb3:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan16.jpg",
+          "alt": "狭小住宅の間取り図PLAN 16",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "931ea08e4b7d56a773bbb4f17608e521f87a6c01421d405f7dcd23db52f2f2f2",
+      "title": "狭小住宅の間取り図PLAN 17",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan17.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "931ea08e4b7d56a773bbb4f17608e521f87a6c01421d405f7dcd23db52f2f2f2:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan17.jpg",
+          "alt": "狭小住宅の間取り図PLAN 17",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b04033712f91c369d9d2dfed02ae674c8cac3834123dd3c4062e8c54198db259",
+      "title": "2階建ての間取り図PLAN 18",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan18.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b04033712f91c369d9d2dfed02ae674c8cac3834123dd3c4062e8c54198db259:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan18.jpg",
+          "alt": "2階建ての間取り図PLAN 18",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "f57869cb84e78c362399e77b350251a1f98c9276fcb53d91c20834299d4d612c",
+      "title": "2階建ての間取り図PLAN 19",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan19.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "f57869cb84e78c362399e77b350251a1f98c9276fcb53d91c20834299d4d612c:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan19.jpg",
+          "alt": "2階建ての間取り図PLAN 19",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "129f3ec4e216bb49582c78c46dd49f3b44316150f9f2ae770cffe52b2bf6d3fa",
+      "title": "2階建ての間取り図PLAN 20",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan20.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "129f3ec4e216bb49582c78c46dd49f3b44316150f9f2ae770cffe52b2bf6d3fa:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan20.jpg",
+          "alt": "2階建ての間取り図PLAN 20",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "f49fc243ad90dca0bc96b82047f7a11c090b342892bba08d1a1e2f04cdeddb8f",
+      "title": "2階建ての間取り図PLAN 21",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan21.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "f49fc243ad90dca0bc96b82047f7a11c090b342892bba08d1a1e2f04cdeddb8f:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan21.jpg",
+          "alt": "2階建ての間取り図PLAN 21",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "84241aa93c74e758fb733e3e7fa3359ce6b10dca2d1334b4be545dd2ec7e4dbd",
+      "title": "2階建ての間取り図PLAN 22",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan22.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "84241aa93c74e758fb733e3e7fa3359ce6b10dca2d1334b4be545dd2ec7e4dbd:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan22.jpg",
+          "alt": "2階建ての間取り図PLAN 22",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2810b61c682671bda51074f1cfd52729df82e8c3f2d8070617bdf2ce5e78fe96",
+      "title": "2階建ての間取り図PLAN 23",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan23.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2810b61c682671bda51074f1cfd52729df82e8c3f2d8070617bdf2ce5e78fe96:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan23.jpg",
+          "alt": "2階建ての間取り図PLAN 23",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "695f903b5b90e6566cdca8384709af85da896463140cae9e6bd5454eddd19dda",
+      "title": "2階建ての間取り図PLAN 24",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan24.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "695f903b5b90e6566cdca8384709af85da896463140cae9e6bd5454eddd19dda:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan24.jpg",
+          "alt": "2階建ての間取り図PLAN 24",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6141ad2cf9b487fc7de2f5d8f7c68bc323ad880acb03347c30e9966370f04b6b",
+      "title": "2階建ての間取り図PLAN 25",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan25.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6141ad2cf9b487fc7de2f5d8f7c68bc323ad880acb03347c30e9966370f04b6b:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan25.jpg",
+          "alt": "2階建ての間取り図PLAN 25",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b7b3a95845bc0a24d6ba230aa1e9d5cd93d9511edbde8442f4db57958c44e993",
+      "title": "2階建ての間取り図PLAN 26",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan26.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b7b3a95845bc0a24d6ba230aa1e9d5cd93d9511edbde8442f4db57958c44e993:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan26.jpg",
+          "alt": "2階建ての間取り図PLAN 26",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "4836753eb68cf853fb85381f8b60f199bf00e339c0d182d9517fd24497ff7d82",
+      "title": "2階建ての間取り図PLAN 27",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan27.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4836753eb68cf853fb85381f8b60f199bf00e339c0d182d9517fd24497ff7d82:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan27.jpg",
+          "alt": "2階建ての間取り図PLAN 27",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3f32e70e11dba32c0f27eb3196e6c678a91de2967d779adc3eb6a137af58949f",
+      "title": "2階建ての間取り図PLAN 28",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan28.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3f32e70e11dba32c0f27eb3196e6c678a91de2967d779adc3eb6a137af58949f:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan28.jpg",
+          "alt": "2階建ての間取り図PLAN 28",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "557699d7c0cfa3b5f1af12e4d3d01354aa9f1c47ee91ef8663dd2eb6285b0c3c",
+      "title": "2階建ての間取り図PLAN 29",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan29.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "557699d7c0cfa3b5f1af12e4d3d01354aa9f1c47ee91ef8663dd2eb6285b0c3c:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan29.jpg",
+          "alt": "2階建ての間取り図PLAN 29",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5a5daf7b3863c2a9edf3bb6879ff172099be3a731c20ee50877d00f3a982eb3a",
+      "title": "2階建ての間取り図PLAN 30",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan30.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5a5daf7b3863c2a9edf3bb6879ff172099be3a731c20ee50877d00f3a982eb3a:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan30.jpg",
+          "alt": "2階建ての間取り図PLAN 30",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "0d4f1c835a1118ec5aca6875910196420ba5dbc6426c39bdaae5f2bd2b2a5000",
+      "title": "二世帯住宅の間取り図PLAN 31",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan31.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0d4f1c835a1118ec5aca6875910196420ba5dbc6426c39bdaae5f2bd2b2a5000:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan31.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 31",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d31d5046cc75feb8a75cbf86ffb00e670b245eb58bdd348bf69798890b89561a",
+      "title": "二世帯住宅の間取り図PLAN 32",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan32.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d31d5046cc75feb8a75cbf86ffb00e670b245eb58bdd348bf69798890b89561a:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan32.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 32",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6e144ec5b9b65d7745df5216934b010f970a1ea1c940b3016a060b1e07b44017",
+      "title": "二世帯住宅の間取り図PLAN 33",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan33.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6e144ec5b9b65d7745df5216934b010f970a1ea1c940b3016a060b1e07b44017:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan33.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 33",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "35ea3005a5bc36c16acd142fa77e5c7d263e8171e8b959e50ead2d3b8138c20c",
+      "title": "二世帯住宅の間取り図PLAN 34",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan34.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "35ea3005a5bc36c16acd142fa77e5c7d263e8171e8b959e50ead2d3b8138c20c:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan34.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 34",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b7d84c61f2ae11e98c705bc0e6e0bea8b74b75727f193bbb6e1e01032129aa27",
+      "title": "二世帯住宅の間取り図PLAN 35",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 2,
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan35.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b7d84c61f2ae11e98c705bc0e6e0bea8b74b75727f193bbb6e1e01032129aa27:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan35.jpg",
+          "alt": "二世帯住宅の間取り図PLAN 35",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "53804ff63c1627e1a8b8deec3eb79632a364fb258ccafcf61a2c6ceb5c931bad",
+      "title": "平屋の間取り図PLAN 36",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 3,
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan36.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "53804ff63c1627e1a8b8deec3eb79632a364fb258ccafcf61a2c6ceb5c931bad:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan36.jpg",
+          "alt": "平屋の間取り図PLAN 36",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "0075f9bc96e09d226c0a228c2998857afc66c288e18d36ec779544abfd26c016",
+      "title": "平屋の間取り図PLAN 37",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 3,
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan37.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0075f9bc96e09d226c0a228c2998857afc66c288e18d36ec779544abfd26c016:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan37.jpg",
+          "alt": "平屋の間取り図PLAN 37",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a08707e29bee85dc1679f723f4c16587fd50b00a2bd4fd2df9c79b03584728db",
+      "title": "平屋の間取り図PLAN 38",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 3,
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan38.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a08707e29bee85dc1679f723f4c16587fd50b00a2bd4fd2df9c79b03584728db:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan38.jpg",
+          "alt": "平屋の間取り図PLAN 38",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2e4e65730ed6c36216f002e470c4122b1d5335e8f53d65d82f02878b2cc6077c",
+      "title": "平屋の間取り図PLAN 39",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 3,
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan39.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2e4e65730ed6c36216f002e470c4122b1d5335e8f53d65d82f02878b2cc6077c:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan39.jpg",
+          "alt": "平屋の間取り図PLAN 39",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1c5a9cbd8d90dc895b8609ff9f44b2e45e310408304677b91751bbabd681eebe",
+      "title": "平屋の間取り図PLAN 40",
+      "listingSource": "accepted zerohome.jp",
+      "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+      "company": "ゼロホーム 間取り実例",
+      "priceManYen": 3,
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan40.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1c5a9cbd8d90dc895b8609ff9f44b2e45e310408304677b91751bbabd681eebe:image",
+          "kind": "floorplan",
+          "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan40.jpg",
+          "alt": "平屋の間取り図PLAN 40",
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6979225a65b1f3f605032d281bc2c1ee181bf603fc9479bd8132af54808c1faf",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N163-1F-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6979225a65b1f3f605032d281bc2c1ee181bf603fc9479bd8132af54808c1faf:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N163-1F-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9ad7a0c6e542106e0956f96b780a45ffdc5af2cbdc63498fc4c74f6d6cdc5aa1",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "2LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N162-1F-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9ad7a0c6e542106e0956f96b780a45ffdc5af2cbdc63498fc4c74f6d6cdc5aa1:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N162-1F-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a4a94570f849bfe37fb21317cbe641f3b7463e0426be5cca3716542e67454999",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "5LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N161-1F-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a4a94570f849bfe37fb21317cbe641f3b7463e0426be5cca3716542e67454999:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N161-1F-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "205f6e8f8b75059decbbd7647d85224ff970b0e651bc05ce942a5524a4eebf0f",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "5LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N160-1F-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "205f6e8f8b75059decbbd7647d85224ff970b0e651bc05ce942a5524a4eebf0f:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N160-1F-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "81727b15769808407c8ff9170fdebc1fa3323666ab2b45ee5c5cb1a3da8a9670",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/s008-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "81727b15769808407c8ff9170fdebc1fa3323666ab2b45ee5c5cb1a3da8a9670:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/s008-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "baebf02d3916111c4986283bac26a2c0dd8f1c77e64f215061fd6bd5f06300f6",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "5LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N159-1F-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "baebf02d3916111c4986283bac26a2c0dd8f1c77e64f215061fd6bd5f06300f6:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N159-1F-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9f4b5c42dfd6f775486bdb2a94c91dfbb811c8a0894adc316131e1c62cdfb0f5",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "5LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N158-1F-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9f4b5c42dfd6f775486bdb2a94c91dfbb811c8a0894adc316131e1c62cdfb0f5:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N158-1F-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b501424ba462c76d762c3414805f0baca94fc0ef600256b5b33a24b4cd4661be",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N157-1F-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b501424ba462c76d762c3414805f0baca94fc0ef600256b5b33a24b4cd4661be:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N157-1F-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "18d43f5f786872a560aad4ffcc2e1e2e4baeb41193b3a047250f85e64206a855",
+      "title": "間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/s002-520x520.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "18d43f5f786872a560aad4ffcc2e1e2e4baeb41193b3a047250f85e64206a855:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/s002-520x520.jpg",
+          "alt": "間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "8b6451686826848191c6a49686db65f093552c25093357c0c78bec7d2d46701f",
+      "title": "ランドリールームがある30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_under_30_tsubo_with_laundry_room.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8b6451686826848191c6a49686db65f093552c25093357c0c78bec7d2d46701f:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_under_30_tsubo_with_laundry_room.jpg",
+          "alt": "ランドリールームがある30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "66953149586c65ad749a3c74358bc1521eca81e3a9c70f2091f0c4b10771f5d6",
+      "title": "書斎が嬉しい30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_of_30_tsubo_or_less_where_the_study_is_nice.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "66953149586c65ad749a3c74358bc1521eca81e3a9c70f2091f0c4b10771f5d6:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_of_30_tsubo_or_less_where_the_study_is_nice.jpg",
+          "alt": "書斎が嬉しい30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "ddc3259af53341a5d609d1457b319ed5949ed21ddfc6785235e8a32943f41fe1",
+      "title": "LDKが開放的な30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/4LDK_floor_plan_of_less_than_30_tsubo_with_stylish_open_LDK.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "ddc3259af53341a5d609d1457b319ed5949ed21ddfc6785235e8a32943f41fe1:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/4LDK_floor_plan_of_less_than_30_tsubo_with_stylish_open_LDK.jpg",
+          "alt": "LDKが開放的な30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d8a5e0aa599c92cbc00cd86bde3cdbd7ed4947290bfbf467544b81a137783cb7",
+      "title": "主寝室が一階にある30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/4LDK_floor_plan_of_30_tsubo_or_less_with_the_master_bedroom_on_the_first_floor.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d8a5e0aa599c92cbc00cd86bde3cdbd7ed4947290bfbf467544b81a137783cb7:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/4LDK_floor_plan_of_30_tsubo_or_less_with_the_master_bedroom_on_the_first_floor.jpg",
+          "alt": "主寝室が一階にある30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d9ab5f02eb46eee77d105782b0138518feef36e2197350428a66afb02f7f3c92",
+      "title": "ウッドデッキがある30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/4LDK_floor_plan_of_30_tsubo_or_less_with_wood_deck.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d9ab5f02eb46eee77d105782b0138518feef36e2197350428a66afb02f7f3c92:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/4LDK_floor_plan_of_30_tsubo_or_less_with_wood_deck.jpg",
+          "alt": "ウッドデッキがある30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a58872b80645dcd37f60c256604e54730d051fa5c5aef8a0c1bbd7d486eb7b7e",
+      "title": "間取り図",
+      "listingSource": "accepted eyefulhome.jp",
+      "sourceUrl": "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "company": "eyefulhome.jp",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.eyefulhome.jp/concept/favo/img/case01/madori_thm01.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a58872b80645dcd37f60c256604e54730d051fa5c5aef8a0c1bbd7d486eb7b7e:image",
+          "kind": "floorplan",
+          "url": "https://www.eyefulhome.jp/concept/favo/img/case01/madori_thm01.png",
+          "alt": "間取り図",
+          "sourceUrl": "https://www.eyefulhome.jp/concept/favo/case01.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "77f6db29c1025cb15aba5603fabe4a9548f90439c63475a9a65a8ff9142f47f9",
+      "title": "間取り図",
+      "listingSource": "accepted eyefulhome.jp",
+      "sourceUrl": "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "company": "eyefulhome.jp",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.eyefulhome.jp/concept/favo/img/case01/madori_thm02.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "77f6db29c1025cb15aba5603fabe4a9548f90439c63475a9a65a8ff9142f47f9:image",
+          "kind": "floorplan",
+          "url": "https://www.eyefulhome.jp/concept/favo/img/case01/madori_thm02.png",
+          "alt": "間取り図",
+          "sourceUrl": "https://www.eyefulhome.jp/concept/favo/case01.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "4acb3b1191ccd2f8c7985c4e7c3fb56b71a7ae5a0090362dce7f97b19846aaea",
+      "title": " ",
+      "listingSource": "accepted eyefulhome.jp",
+      "sourceUrl": "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "company": "アイフルホーム 間取り実例",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.eyefulhome.jp/concept/favo/img/case01/madori01.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4acb3b1191ccd2f8c7985c4e7c3fb56b71a7ae5a0090362dce7f97b19846aaea:image",
+          "kind": "floorplan",
+          "url": "https://www.eyefulhome.jp/concept/favo/img/case01/madori01.png",
+          "alt": " ",
+          "sourceUrl": "https://www.eyefulhome.jp/concept/favo/case01.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "120b2540d811b7b190e4f06d488e921f5f870e37c4646432cabf75f5e661929e",
+      "title": " ",
+      "listingSource": "accepted eyefulhome.jp",
+      "sourceUrl": "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "company": "アイフルホーム 間取り実例",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.eyefulhome.jp/concept/favo/img/case01/madori02.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "120b2540d811b7b190e4f06d488e921f5f870e37c4646432cabf75f5e661929e:image",
+          "kind": "floorplan",
+          "url": "https://www.eyefulhome.jp/concept/favo/img/case01/madori02.png",
+          "alt": " ",
+          "sourceUrl": "https://www.eyefulhome.jp/concept/favo/case01.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T12:56:44.697Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782545707114",
-      "createdAt": "2026-06-27T07:35:07.112Z",
+      "id": "accepted_public_1782565337696",
+      "createdAt": "2026-06-27T13:02:17.693Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 18 records."
+      "message": "Accepted floorplans only: 120 records."
     }
   ]
 }

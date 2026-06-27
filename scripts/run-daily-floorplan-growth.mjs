@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { spawnSync } from "node:child_process";
-import { existsSync, readFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
 
 const config = readConfig();
 
@@ -36,8 +36,10 @@ run("scripts/wordpress-rest-candidates.mjs", [
 run("scripts/pdf-floorplan-candidates.mjs", ["--input", "data/candidate-images.jsonl", "--review", "data/review-queue.jsonl", "--max-pdf-files", String(config.daily?.maxPdfFiles ?? 5)]);
 run("scripts/domain-adapter-candidates.mjs", ["--out", "data/candidate-images.jsonl", "--max-pages", "10"]);
 run("scripts/promote-floorplan-candidates.mjs", ["--config", "floorplan-growth.config.json", "--max-images", String(Math.min(100, config.ollama?.maxImages ?? 100))]);
+run("scripts/clean-accepted-floorplans.mjs", []);
 run("scripts/update-source-stats.mjs", []);
 run("scripts/build-public-floorplans.mjs", []);
+syncLatestCrawl();
 
 function run(script, args) {
   const result = spawnSync(process.execPath, [script, ...args], { stdio: "inherit", shell: false });
@@ -50,4 +52,10 @@ function readConfig() {
   } catch {
     return {};
   }
+}
+
+function syncLatestCrawl() {
+  if (!existsSync("public/data/floorplans.json")) return;
+  mkdirSync("crawler-output", { recursive: true });
+  copyFileSync("public/data/floorplans.json", "crawler-output/latest-crawl.json");
 }

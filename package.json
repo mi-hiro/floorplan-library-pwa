@@ -26,7 +26,8 @@
     "floorplans:wordpress": "node scripts/wordpress-rest-candidates.mjs",
     "floorplans:build-public": "node scripts/build-public-floorplans.mjs",
     "floorplans:stats": "node scripts/update-source-stats.mjs",
-    "floorplans:validate": "node scripts/validate-floorplan-data.mjs"
+    "floorplans:validate": "node scripts/validate-floorplan-data.mjs",
+    "floorplans:clean-accepted": "node scripts/clean-accepted-floorplans.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",
