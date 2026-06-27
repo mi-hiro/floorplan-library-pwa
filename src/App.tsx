@@ -556,6 +556,17 @@ export default function App() {
     setFloorplanPage((current) => Math.min(current, totalFloorplanPages));
   }, [totalFloorplanPages]);
 
+  function moveFloorplanPage(nextPage: number) {
+    const targetPage = Math.min(totalFloorplanPages, Math.max(1, nextPage));
+    setFloorplanPage(targetPage);
+    if (typeof window === "undefined") return;
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        document.getElementById("floorplans")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
   async function addLog(log: Omit<CrawlLog, "id" | "createdAt">) {
     const next: CrawlLog = { ...log, id: makeId("log"), createdAt: nowIso() };
     await putItem("logs", next);
@@ -824,11 +835,11 @@ export default function App() {
                     </select>
                   </label>
                   <div className="pager-controls">
-                    <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => setFloorplanPage((page) => Math.max(1, page - 1))}>
+                    <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => moveFloorplanPage(floorplanPage - 1)}>
                       前へ
                     </button>
                     <span>{floorplanPage} / {totalFloorplanPages}</span>
-                    <button className="secondary-button" type="button" disabled={floorplanPage >= totalFloorplanPages} onClick={() => setFloorplanPage((page) => Math.min(totalFloorplanPages, page + 1))}>
+                    <button className="secondary-button" type="button" disabled={floorplanPage >= totalFloorplanPages} onClick={() => moveFloorplanPage(floorplanPage + 1)}>
                       次へ
                     </button>
                   </div>
@@ -865,11 +876,11 @@ export default function App() {
                       ))}
                     </div>
                     <div className="pager-controls pager-controls-bottom">
-                      <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => setFloorplanPage((page) => Math.max(1, page - 1))}>
+                      <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => moveFloorplanPage(floorplanPage - 1)}>
                         前へ
                       </button>
                       <span>{floorplanPage} / {totalFloorplanPages}</span>
-                      <button className="secondary-button" type="button" disabled={floorplanPage >= totalFloorplanPages} onClick={() => setFloorplanPage((page) => Math.min(totalFloorplanPages, page + 1))}>
+                      <button className="secondary-button" type="button" disabled={floorplanPage >= totalFloorplanPages} onClick={() => moveFloorplanPage(floorplanPage + 1)}>
                         次へ
                       </button>
                     </div>
