@@ -1,4 +1,4 @@
-const CACHE_NAME = "floorplan-library-v12";
+const CACHE_NAME = "floorplan-library-v13";
 const SCOPE_URL = new URL(self.registration.scope);
 const APP_SHELL = ["./", "manifest.webmanifest"].map((path) => new URL(path, SCOPE_URL).toString());
 
@@ -21,7 +21,7 @@ self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
 
   const requestUrl = new URL(event.request.url);
-  if (requestUrl.pathname.includes("/crawler-output/")) {
+  if (requestUrl.pathname.includes("/crawler-output/") || requestUrl.pathname.includes("/data/")) {
     event.respondWith(fetch(event.request));
     return;
   }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-27T06:22:04.587Z",
+  "generatedAt": "2026-06-27T07:35:07.112Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -32,7 +32,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -65,7 +65,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -98,7 +98,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -131,7 +131,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -164,7 +164,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -197,7 +197,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -230,7 +230,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -263,7 +263,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -296,7 +296,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -329,7 +329,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -362,7 +362,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -395,7 +395,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -428,7 +428,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -461,7 +461,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -494,7 +494,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -527,7 +527,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -560,7 +560,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -593,15 +593,15 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "fetchedAt": "2026-06-27T07:30:10.854Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782541324589",
-      "createdAt": "2026-06-27T06:22:04.587Z",
+      "id": "accepted_public_1782545707114",
+      "createdAt": "2026-06-27T07:35:07.112Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
