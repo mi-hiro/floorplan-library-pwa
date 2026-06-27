@@ -269,8 +269,11 @@ function looksLikeStrongPlanSignal(image) {
 }
 
 function isHardRejectedImageSignal(image) {
-  return /logo|icon|banner|baner|og画像|ogimage|ogp|catalog|カタログ|無料プレゼント|main_img|bn[-_]|blog[-_]?card|thumb|childroom|laundryroom|genmai|rice|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工写真|写真のみ|リビング|キッチン|寝室|浴室|洗面|トイレ|子ども部屋|ランドリールーム|interior|exterior|facade|appearance|frontview|front-view|sideview|side-view|garden|parking|carport|hero|mainvisual/i.test(
-    imageSignalText(image)
+  const signal = imageSignalText(image);
+  return (
+    /logo|icon|banner|baner|og画像|ogimage|ogp|catalog|カタログ|無料プレゼント|main_img|bn[-_]|blog[-_]?card|thumb|childroom|laundryroom|genmai|rice|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工写真|写真のみ|リビング|キッチン|寝室|浴室|洗面|トイレ|子ども部屋|ランドリールーム|interior|exterior|facade|appearance|frontview|front-view|sideview|side-view|garden|parking|carport|hero|mainvisual/i.test(
+      signal
+    ) || /[|｜]\s*(?:LDK|リビング|ダイニング|キッチン|寝室|洋室|和室|子ども部屋|洗面|浴室|トイレ|玄関|外観|内観|室内)(?:\s|$)/i.test(signal)
   );
 }
 

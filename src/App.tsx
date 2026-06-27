@@ -363,8 +363,17 @@ function hasStrongFloorplanSignal(image: NonNullable<CrawlCandidate["imageCandid
 }
 
 function hasHardNonFloorplanSignal(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
-  return /logo|ロゴ|icon|avatar|profile|staff|banner|baner|バナー|campaign|キャンペーン|gift|ギフト|catalog|カタログ|og画像|ogimage|blogcard|thumb|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工事例|施工写真|写真のみ|インテリア|リビング|寝室|キッチン|浴室|洗面|トイレ|frontview|front-view|sideview|side-view|facade|exterior|appearance|interior|garden|parking|carport|features?_img|feature_img|mainvisual|hero/i.test(
-    imageSignalText(image)
+  const signal = imageSignalText(image);
+  return (
+    /logo|ロゴ|icon|avatar|profile|staff|banner|baner|バナー|campaign|キャンペーン|gift|ギフト|catalog|カタログ|og画像|ogimage|blogcard|thumb|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工事例|施工写真|写真のみ|インテリア|リビング|寝室|キッチン|浴室|洗面|トイレ|frontview|front-view|sideview|side-view|facade|exterior|appearance|interior|garden|parking|carport|features?_img|feature_img|mainvisual|hero/i.test(
+      signal
+    ) || looksLikeRoomPhotoLabel(signal)
+  );
+}
+
+function looksLikeRoomPhotoLabel(signal: string) {
+  return /[|｜]\s*(?:LDK|リビング|ダイニング|キッチン|寝室|洋室|和室|子ども部屋|洗面|浴室|トイレ|玄関|外観|内観|室内)(?:\s|$)/i.test(
+    signal
   );
 }
 

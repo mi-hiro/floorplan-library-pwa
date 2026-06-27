@@ -357,6 +357,7 @@ function extractImages(html, pageUrl, limit, context = {}) {
     if (!url || seen.has(url) || url.startsWith("data:")) return;
     const decodedAlt = decodeHtml(alt);
     const signal = imageSignalText(decodedAlt, url);
+    if (looksLikeRoomOnlyImageLabel(signal)) return;
     let kind = classifyImage(decodedAlt, url);
     let needsOllamaReview = false;
     if (
@@ -657,6 +658,7 @@ function isLikelyDecorativeImage(alt, url, kind) {
   const haystack = imageSignalText(alt, url);
   if (/\.svg(?:\?|$)/i.test(url)) return true;
   if (looksLikeArticleThumbnail(haystack)) return true;
+  if (looksLikeRoomOnlyImageLabel(haystack)) return true;
   if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|バナー|bnr|loading|spinner|dummy|placeholder|noimage|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete|point[-_]|prev[-_]image|next[-_]image/i.test(haystack)) {
     return true;
   }
@@ -670,6 +672,7 @@ function looksLikeFloorplanImageText(haystack) {
 }
 
 function looksLikeNonFloorplanPlanImage(haystack) {
+  if (looksLikeRoomOnlyImageLabel(haystack)) return true;
   if (/img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/]+p[0-9]+\.(?:jpe?g|png|webp)/i.test(haystack)) return true;
   if (/features?_img|feature_img|point_img|mainvisual|mv[0-9]|hero/i.test(haystack) && !/間取り図|平面図|図面|madori|floor.?plan|layout/i.test(haystack)) {
     return true;
@@ -700,7 +703,11 @@ function looksLikeContentImage(url, options = {}) {
 function looksLikeNonFloorplanPhotoSignal(signal) {
   const explicitPlan = /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view/i.test(signal);
   if (explicitPlan) return false;
-  return /外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|室内|リビング|キッチン|寝室|浴室|洗面|トイレ|玄関|LDKのイメージ|施工写真|写真のみ|写真|photo|gallery|interior|living|kitchen|bedroom|garden|parking|carport/i.test(signal);
+  return looksLikeRoomOnlyImageLabel(signal) || /外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|室内|リビング|キッチン|寝室|浴室|洗面|トイレ|玄関|LDKのイメージ|施工写真|写真のみ|写真|photo|gallery|interior|living|kitchen|bedroom|garden|parking|carport/i.test(signal);
+}
+
+function looksLikeRoomOnlyImageLabel(signal) {
+  return /[|｜]\s*(?:LDK|リビング|ダイニング|キッチン|寝室|洋室|和室|子ども部屋|洗面|浴室|トイレ|玄関|外観|内観|室内)(?:\s|$)/i.test(signal);
 }
 
 function looksLikeArticleThumbnail(haystack) {

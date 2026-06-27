@@ -137,6 +137,14 @@ if ($LASTEXITCODE -ne 0) {
   Write-Warning "Ollama review failed. Keeping crawler output."
 }
 
+Write-Host "Cleaning room and exterior image candidates..."
+& $NodeCommand scripts/clean-crawl-output.mjs `
+  --input $LatestOutput `
+  --out $LatestOutput
+if ($LASTEXITCODE -ne 0) {
+  Write-Warning "Crawl output cleanup failed. Keeping crawler output."
+}
+
 Write-Host "Advancing prefecture rotation..."
 & $NodeCommand scripts/prefecture-rotation-discovery.mjs `
   --config prefecture-discovery.config.json `

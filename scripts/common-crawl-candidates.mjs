@@ -260,6 +260,7 @@ function extractImagesFromHtml(html, pageUrl, title = "", text = "", options = {
     if (!url || seen.has(url) || url.startsWith("data:")) return;
     if (!isImageUrl(url)) return;
     const signal = imageSignalText(alt, url);
+    if (looksLikeRoomOnlyImageLabel(signal)) return;
     const contextualFloorplan = pageFloorplanContext && looksLikePlanNamedImage(signal);
     const looseReviewCandidate =
       looseCandidateContext && looksLikeContentImage(url, imageOptions) && Number(imageOptions.contentImageIndex ?? 0) <= 10;
@@ -672,7 +673,7 @@ function looksLikeContentImage(url, options = {}) {
 function looksLikeNonFloorplanPhotoSignal(signal) {
   const explicitPlan = /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view/i.test(signal);
   if (explicitPlan) return false;
-  return /外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|室内|リビング|キッチン|寝室|浴室|洗面|トイレ|玄関|LDKのイメージ|施工写真|写真のみ|写真|photo|gallery|interior|living|kitchen|bedroom|garden|parking|carport/i.test(signal);
+  return looksLikeRoomOnlyImageLabel(signal) || /外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|室内|リビング|キッチン|寝室|浴室|洗面|トイレ|玄関|LDKのイメージ|施工写真|写真のみ|写真|photo|gallery|interior|living|kitchen|bedroom|garden|parking|carport/i.test(signal);
 }
 
 function scoreImageCandidate(signal, looseReviewCandidate) {
@@ -688,6 +689,7 @@ function scoreImageCandidate(signal, looseReviewCandidate) {
 
 function looksLikeDecorativeOrNonFloorplan(signal) {
   if (/\.svg(?:\?|$)/i.test(signal)) return true;
+  if (looksLikeRoomOnlyImageLabel(signal)) return true;
   if (/logo|icon|ico[-_]|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|bnr|loading|spinner|dummy|placeholder|noimage|ogp|ogimage|mainvisual|hero|avatar|profile|staff|map|point[-_]|txt[-_]|takusan|hajimete|prev[-_]image|next[-_]image/i.test(signal)) {
     return true;
   }
@@ -695,6 +697,10 @@ function looksLikeDecorativeOrNonFloorplan(signal) {
     return !/間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(signal);
   }
   return false;
+}
+
+function looksLikeRoomOnlyImageLabel(signal) {
+  return /[|｜]\s*(?:LDK|リビング|ダイニング|キッチン|寝室|洋室|和室|子ども部屋|洗面|浴室|トイレ|玄関|外観|内観|室内)(?:\s|$)/i.test(signal);
 }
 
 function addLog(siteName, url, action, result, message) {
