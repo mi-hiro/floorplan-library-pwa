@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-27T00:51:19.285Z",
+  "generatedAt": "2026-06-27T01:05:22.856Z",
   "source": "local-crawler",
   "candidates": [
     {
@@ -1946,75 +1946,6 @@
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
     {
-      "id": "candidate_c5b90fdbaea02b9e",
-      "title": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 ｜間取り実例｜BE ENOUGH",
-      "listingSource": "discovered be-enough.jp",
-      "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/",
-      "siteId": "discovered_49af1ed5d4",
-      "company": "",
-      "layout": "4LDK",
-      "areaSqm": 229.5,
-      "tsubo": 69.42,
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5.jpg",
-        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-1536x1152.jpg",
-        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-1170x878.jpg",
-        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-640x480.jpg",
-        "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-400x300.jpg",
-        "https://be-enough.jp/wp/wp-content/uploads/2023/02/1725117a13f7247162e2.jpg"
-      ],
-      "imageCandidates": [
-        {
-          "id": "image_candidate_c9b11222a03789bf",
-          "kind": "floorplan",
-          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5.jpg",
-          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
-          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
-        },
-        {
-          "id": "image_candidate_e38d66fd6ab18336",
-          "kind": "floorplan",
-          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-1536x1152.jpg",
-          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
-          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
-        },
-        {
-          "id": "image_candidate_ed39ce81b7dad6b5",
-          "kind": "floorplan",
-          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-1170x878.jpg",
-          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
-          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
-        },
-        {
-          "id": "image_candidate_424ae0388c0c3afc",
-          "kind": "floorplan",
-          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-640x480.jpg",
-          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
-          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
-        },
-        {
-          "id": "image_candidate_57f8c0b4089e5b8c",
-          "kind": "floorplan",
-          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/99d449c6f74eb70d1bc5-400x300.jpg",
-          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
-          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
-        },
-        {
-          "id": "image_candidate_224b2351b445306d",
-          "kind": "floorplan",
-          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/1725117a13f7247162e2.jpg",
-          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
-          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/"
-        }
-      ],
-      "fetchedAt": "2026-06-26T20:12:16.779Z",
-      "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
-    },
-    {
       "id": "candidate_93829112709213da",
       "title": "【公式】間取りプラン集｜アイダ設計（ハウスメーカー）",
       "listingSource": "discovered www.aidagroup.co.jp",
@@ -3815,57 +3746,6 @@
         }
       ],
       "fetchedAt": "2026-06-26T23:05:06.577Z",
-      "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
-    },
-    {
-      "id": "candidate_8688cbac5dc2c2ee",
-      "title": "施工事例 | デザインと素材と間取りの注文住宅｜宮崎工務店",
-      "listingSource": "discovered hamaguri.co.jp",
-      "sourceUrl": "https://hamaguri.co.jp/house/works/?taste=madori01",
-      "siteId": "discovered_d435145c9b",
-      "company": "",
-      "layout": "4LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": false,
-      "imageUrlCandidates": [],
-      "imageCandidates": [],
-      "fetchedAt": "2026-06-26T23:06:04.796Z",
-      "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
-    },
-    {
-      "id": "candidate_c0b67fa46ac5643c",
-      "title": "施工事例 | デザインと素材と間取りの注文住宅｜宮崎工務店",
-      "listingSource": "discovered hamaguri.co.jp",
-      "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat02",
-      "siteId": "discovered_d435145c9b",
-      "company": "",
-      "layout": "4LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": false,
-      "imageUrlCandidates": [],
-      "imageCandidates": [],
-      "fetchedAt": "2026-06-26T23:07:03.977Z",
-      "errorInfo": "",
-      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
-    },
-    {
-      "id": "candidate_e85a5684b88ddf0f",
-      "title": "施工事例 | デザインと素材と間取りの注文住宅｜宮崎工務店",
-      "listingSource": "discovered hamaguri.co.jp",
-      "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat01",
-      "siteId": "discovered_d435145c9b",
-      "company": "",
-      "layout": "4LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": false,
-      "imageUrlCandidates": [],
-      "imageCandidates": [],
-      "fetchedAt": "2026-06-26T23:08:03.207Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
@@ -5915,35 +5795,11 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_under_30_tsubo_with_laundry_room.jpg",
-        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_under_30_tsubo_with_laundry_room-768x576.jpg",
-        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_under_30_tsubo_with_laundry_room-300x225.jpg",
         "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_of_less_than_30_tsubo_with_convenient_pantry.jpg",
         "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_of_less_than_30_tsubo_with_convenient_pantry-768x576.jpg",
         "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_of_less_than_30_tsubo_with_convenient_pantry-300x225.jpg"
       ],
       "imageCandidates": [
-        {
-          "id": "image_candidate_29a34ee745997665",
-          "kind": "floorplan",
-          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_under_30_tsubo_with_laundry_room.jpg",
-          "alt": "ランドリールームがある30坪以下のコンパクトハウス間取り図",
-          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/"
-        },
-        {
-          "id": "image_candidate_8fec9012ececb535",
-          "kind": "floorplan",
-          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_under_30_tsubo_with_laundry_room-768x576.jpg",
-          "alt": "ランドリールームがある30坪以下のコンパクトハウス間取り図",
-          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/"
-        },
-        {
-          "id": "image_candidate_b80d4903ad3e50c1",
-          "kind": "floorplan",
-          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/3LDK_floor_plan_under_30_tsubo_with_laundry_room-300x225.jpg",
-          "alt": "ランドリールームがある30坪以下のコンパクトハウス間取り図",
-          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/"
-        },
         {
           "id": "image_candidate_92cd767a53e8494b",
           "kind": "floorplan",
@@ -7278,6 +7134,261 @@
       "fetchedAt": "2026-06-27T00:10:45.909Z",
       "errorInfo": "",
       "memo": "Common Crawl archived HTML. Query: kh-house.jp/plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_9af68cbeb76df015",
+      "title": "カウンター併設の寝室｜注文住宅の間取り（プラン）写真集｜セキスイハイム",
+      "listingSource": "discovered www.sekisuiheim.com",
+      "sourceUrl": "https://www.sekisuiheim.com/madori/imagehint/bedroom/workspace/",
+      "siteId": "discovered_78f399feaa",
+      "company": "",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.sekisuiheim.com/common/images/pic_recom_box09.jpg",
+        "https://www.sekisuiheim.com/common/images/pic_global_mega01_04.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_9b85e1dd092e4e0e",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/common/images/pic_recom_box09.jpg",
+          "alt": "セキスイハイムの規格型・セミオーダー住宅 MY CUSTOM HEIM 厳選プランとカスタマイズ例を見る",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/imagehint/bedroom/workspace/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_9a07754af8be78c0",
+          "kind": "floorplan",
+          "url": "https://www.sekisuiheim.com/common/images/pic_global_mega01_04.webp",
+          "alt": "高強度なユニットに守られて生活する家族の様子",
+          "sourceUrl": "https://www.sekisuiheim.com/madori/imagehint/bedroom/workspace/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-26T22:51:52.656Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_8688cbac5dc2c2ee",
+      "title": "施工事例 | デザインと素材と間取りの注文住宅｜宮崎工務店",
+      "listingSource": "discovered hamaguri.co.jp",
+      "sourceUrl": "https://hamaguri.co.jp/house/works/?taste=madori01",
+      "siteId": "discovered_d435145c9b",
+      "company": "",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://hamaguri.co.jp/house/wp-content/uploads/2022/05/DSC0190-1-1024x683.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_52f6222efbf3a064",
+          "kind": "floorplan",
+          "url": "https://hamaguri.co.jp/house/wp-content/uploads/2022/05/DSC0190-1-1024x683.jpg",
+          "alt": "attachment-large size-large wp-post-image",
+          "sourceUrl": "https://hamaguri.co.jp/house/works/?taste=madori01",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-26T23:06:04.796Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_c0b67fa46ac5643c",
+      "title": "施工事例 | デザインと素材と間取りの注文住宅｜宮崎工務店",
+      "listingSource": "discovered hamaguri.co.jp",
+      "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat02",
+      "siteId": "discovered_d435145c9b",
+      "company": "",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://hamaguri.co.jp/house/wp-content/uploads/2022/05/%E3%82%A6%E3%83%83%E3%83%89%E3%83%87%E3%83%83%E3%82%AD%E2%91%A0-1024x683.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_d8bd1ee9cc4e2ad8",
+          "kind": "floorplan",
+          "url": "https://hamaguri.co.jp/house/wp-content/uploads/2022/05/%E3%82%A6%E3%83%83%E3%83%89%E3%83%87%E3%83%83%E3%82%AD%E2%91%A0-1024x683.jpg",
+          "alt": "attachment-large size-large wp-post-image",
+          "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat02",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-26T23:07:03.977Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_e85a5684b88ddf0f",
+      "title": "施工事例 | デザインと素材と間取りの注文住宅｜宮崎工務店",
+      "listingSource": "discovered hamaguri.co.jp",
+      "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat01",
+      "siteId": "discovered_d435145c9b",
+      "company": "",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://hamaguri.co.jp/house/wp-content/uploads/2024/07/27422127_s.jpg",
+        "https://hamaguri.co.jp/house/wp-content/uploads/2024/07/27422127_s-300x224.jpg",
+        "https://hamaguri.co.jp/house/wp-content/uploads/2024/02/1200x628_%E9%AB%98%E6%80%A7%E8%83%BD%E7%9C%81%E3%82%A8%E3%83%8D%E7%9B%B8%E8%AB%87%E4%BC%9A-1024x536.jpg",
+        "https://hamaguri.co.jp/house/wp-content/uploads/2024/02/1200x628_%E9%AB%98%E6%80%A7%E8%83%BD%E7%9C%81%E3%82%A8%E3%83%8D%E7%9B%B8%E8%AB%87%E4%BC%9A.jpg",
+        "https://hamaguri.co.jp/house/wp-content/uploads/2024/02/1200x628_%E9%AB%98%E6%80%A7%E8%83%BD%E7%9C%81%E3%82%A8%E3%83%8D%E7%9B%B8%E8%AB%87%E4%BC%9A-768x402.jpg",
+        "https://hamaguri.co.jp/house/wp-content/uploads/2024/02/1200x628_%E9%AB%98%E6%80%A7%E8%83%BD%E7%9C%81%E3%82%A8%E3%83%8D%E7%9B%B8%E8%AB%87%E4%BC%9A-300x157.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_0d342321a160c8a1",
+          "kind": "floorplan",
+          "url": "https://hamaguri.co.jp/house/wp-content/uploads/2024/07/27422127_s.jpg",
+          "alt": "attachment-large size-large wp-post-image",
+          "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat01",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_ec1b3b81afef6a1a",
+          "kind": "floorplan",
+          "url": "https://hamaguri.co.jp/house/wp-content/uploads/2024/07/27422127_s-300x224.jpg",
+          "alt": "attachment-large size-large wp-post-image",
+          "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat01",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_38733960267ce048",
+          "kind": "floorplan",
+          "url": "https://hamaguri.co.jp/house/wp-content/uploads/2024/02/1200x628_%E9%AB%98%E6%80%A7%E8%83%BD%E7%9C%81%E3%82%A8%E3%83%8D%E7%9B%B8%E8%AB%87%E4%BC%9A-1024x536.jpg",
+          "alt": "attachment-large size-large wp-post-image",
+          "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat01",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_14eaf91b10e738d4",
+          "kind": "floorplan",
+          "url": "https://hamaguri.co.jp/house/wp-content/uploads/2024/02/1200x628_%E9%AB%98%E6%80%A7%E8%83%BD%E7%9C%81%E3%82%A8%E3%83%8D%E7%9B%B8%E8%AB%87%E4%BC%9A.jpg",
+          "alt": "attachment-large size-large wp-post-image",
+          "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat01",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_59f4193c4ce5fb9a",
+          "kind": "floorplan",
+          "url": "https://hamaguri.co.jp/house/wp-content/uploads/2024/02/1200x628_%E9%AB%98%E6%80%A7%E8%83%BD%E7%9C%81%E3%82%A8%E3%83%8D%E7%9B%B8%E8%AB%87%E4%BC%9A-768x402.jpg",
+          "alt": "attachment-large size-large wp-post-image",
+          "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat01",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_43cc3efd2ddb2874",
+          "kind": "floorplan",
+          "url": "https://hamaguri.co.jp/house/wp-content/uploads/2024/02/1200x628_%E9%AB%98%E6%80%A7%E8%83%BD%E7%9C%81%E3%82%A8%E3%83%8D%E7%9B%B8%E8%AB%87%E4%BC%9A-300x157.jpg",
+          "alt": "attachment-large size-large wp-post-image",
+          "sourceUrl": "https://hamaguri.co.jp/house/works/?plan=cat01",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-26T23:08:03.207Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
+    },
+    {
+      "id": "candidate_5a77d991ffe45029",
+      "title": "株式会社 宮崎工務店 - 施工事例 住宅新築",
+      "listingSource": "discovered miyazaki1960.com",
+      "sourceUrl": "https://miyazaki1960.com/works1/",
+      "siteId": "discovered_a6955b6636",
+      "company": "",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://miyazaki1960.com/assets/img/works1/ec.jpg",
+        "https://miyazaki1960.com/assets/img/base/lg-miyazaki.png",
+        "https://miyazaki1960.com/assets/img/base/mk-fax.png",
+        "https://miyazaki1960.com/assets/img/base/bt-menu.png",
+        "https://miyazaki1960.com/assets/img/base/bt-close.png",
+        "https://miyazaki1960.com/assets/img/works1/14/tm.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_da2ffe435457fe42",
+          "kind": "floorplan",
+          "url": "https://miyazaki1960.com/assets/img/works1/ec.jpg",
+          "alt": "施工事例 住宅新築",
+          "sourceUrl": "https://miyazaki1960.com/works1/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_c6624456d3bd471d",
+          "kind": "floorplan",
+          "url": "https://miyazaki1960.com/assets/img/base/lg-miyazaki.png",
+          "alt": "株式会社 宮崎工務店 - 一棟一棟思いを込めて",
+          "sourceUrl": "https://miyazaki1960.com/works1/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_394c41fb6ab5cc9b",
+          "kind": "floorplan",
+          "url": "https://miyazaki1960.com/assets/img/base/mk-fax.png",
+          "alt": "FAX",
+          "sourceUrl": "https://miyazaki1960.com/works1/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_fdac42477229926e",
+          "kind": "floorplan",
+          "url": "https://miyazaki1960.com/assets/img/base/bt-menu.png",
+          "alt": "MENU",
+          "sourceUrl": "https://miyazaki1960.com/works1/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_d65095cbd5193781",
+          "kind": "floorplan",
+          "url": "https://miyazaki1960.com/assets/img/base/bt-close.png",
+          "alt": "close",
+          "sourceUrl": "https://miyazaki1960.com/works1/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_099641b6843ac47c",
+          "kind": "floorplan",
+          "url": "https://miyazaki1960.com/assets/img/works1/14/tm.jpg",
+          "alt": "",
+          "sourceUrl": "https://miyazaki1960.com/works1/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-26T23:27:05.156Z",
+      "errorInfo": "",
+      "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。"
     }
   ],
   "logs": [
@@ -16760,6 +16871,756 @@
       "action": "image-review",
       "result": "rejected",
       "message": "The image shows an exterior view of a house with architectural features such as a flat roof and modern design elements. It is not a floor plan or blueprint, but rather a photograph"
+    },
+    {
+      "id": "log_clean_1782521505862",
+      "createdAt": "2026-06-27T00:51:45.862Z",
+      "siteName": "clean-crawl-output",
+      "domain": "-",
+      "url": "crawler-output\\latest-crawl.json",
+      "action": "clean",
+      "result": "success",
+      "message": "Removed room/exterior image candidates. candidates 142 -> 138, images 444 -> 435."
+    },
+    {
+      "id": "log_b884a7d0-ca46-4dfa-8c02-744740ecee54",
+      "createdAt": "2026-06-27T00:52:10.255Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "zerohome.jp/chumon/plan/plan04/*: This operation was aborted"
+    },
+    {
+      "id": "log_acfbff2e-0077-4b58-9b12-8e9456d1a118",
+      "createdAt": "2026-06-27T00:52:20.259Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ichijo.co.jp/lp/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_4b00cb33-105c-418c-930f-103c2b874992",
+      "createdAt": "2026-06-27T00:52:30.261Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "irohaie.com/floor-plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_7dd9679b-6250-456b-a571-fd40e067673e",
+      "createdAt": "2026-06-27T00:52:40.263Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.misawa.co.jp/kodate/guide/hiraya/madori.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_bf5ef955-7867-45a8-9137-be429bd0f2ca",
+      "createdAt": "2026-06-27T00:52:50.263Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.toyotahome.co.jp%2Fchumon%2Fhowto%2Fmadori%2Fdesign%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.toyotahome.co.jp/chumon/howto/madori/design/*: This operation was aborted"
+    },
+    {
+      "id": "log_98d54bb6-8c17-49bf-8a38-b4b490af641f",
+      "createdAt": "2026-06-27T00:53:00.264Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.aidagroup.co.jp%2Forder%2Fmadori_plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.aidagroup.co.jp/order/madori_plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_5ac61894-e41d-4bb2-a321-f11953eacb25",
+      "createdAt": "2026-06-27T00:53:10.265Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.megasoft.co.jp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.megasoft.co.jp/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_82841f7e-f964-4a07-a66d-da3f4cbb4e2a",
+      "createdAt": "2026-06-27T00:53:20.267Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuiheim.com%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuiheim.com/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_b38ec971-b733-4fb2-bbcd-a965ba685fef",
+      "createdAt": "2026-06-27T00:53:30.268Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=genmai-home.com%2Ffloorplan1%2F21%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "genmai-home.com/floorplan1/21/*: This operation was aborted"
+    },
+    {
+      "id": "log_bde016bc-0bd3-4d7f-8dda-85000de7110d",
+      "createdAt": "2026-06-27T00:53:40.269Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.forumu.co.jp%2Fmadori%2Fmadori-02.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.forumu.co.jp/madori/madori-02.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_661486a2-c9d8-43af-92f9-42f39925290b",
+      "createdAt": "2026-06-27T00:53:50.270Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ibaraki-heim.co.jp%2Finterview%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ibaraki-heim.co.jp/interview/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_f1a3eb8c-c24b-418e-8a1d-dc15c6754d1d",
+      "createdAt": "2026-06-27T00:54:00.272Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=be-enough.jp%2Flayout-example%2F30%25E5%259D%25AA%25EF%25BD%259E%2Fp10009%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/*: This operation was aborted"
+    },
+    {
+      "id": "log_2cc48935-dde4-4908-814c-e162df173c04",
+      "createdAt": "2026-06-27T00:54:10.272Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sfc.jp%2Fie%2Fmyhome%2Farticles%2Fchumon-madori20250930%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "sfc.jp/ie/myhome/articles/chumon-madori20250930/*: This operation was aborted"
+    },
+    {
+      "id": "log_69ef4031-b652-4473-8ae7-4f62f67b3527",
+      "createdAt": "2026-06-27T00:54:20.273Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.marusho-kensetsu.co.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.marusho-kensetsu.co.jp/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_7b0a1541-884f-4d3b-8722-457762bd1b71",
+      "createdAt": "2026-06-27T00:54:30.274Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.shichiro.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.shichiro.com/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_21896359-ce09-4540-8bc7-e8e63274f408",
+      "createdAt": "2026-06-27T00:54:40.275Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.mandai-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.mandai-home.com/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_f6ecdf77-8fb0-471d-84ae-df5658345122",
+      "createdAt": "2026-06-27T00:54:50.276Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuihouse.co.jp%2Fcrepre%2Fgreenfirstoffice%2Fworks01%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuihouse.co.jp/crepre/greenfirstoffice/works01/*: This operation was aborted"
+    },
+    {
+      "id": "log_0796e31b-e495-4a0b-a63e-5fdacac83f91",
+      "createdAt": "2026-06-27T00:55:00.277Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eyefulhome.jp%2Fconcept%2Ffavo%2Fcase01.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eyefulhome.jp/concept/favo/case01.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_892ce554-4bd4-4829-bc46-6275de80f3fb",
+      "createdAt": "2026-06-27T00:55:10.277Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=creatorhome.co.jp%2Fworks%2Frasie%2F64%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "creatorhome.co.jp/works/rasie/64/*: This operation was aborted"
+    },
+    {
+      "id": "log_ddb65e00-75fc-4bf2-ae0b-3ac33a3ee99d",
+      "createdAt": "2026-06-27T00:55:20.279Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sumaiida.com%2Fcustomhome%2Fuser_data%2Fcase_twostory%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "sumaiida.com/customhome/user_data/case_twostory/*: This operation was aborted"
+    },
+    {
+      "id": "log_5fa6cc50-724c-4ae1-b725-9ad419e8068f",
+      "createdAt": "2026-06-27T00:55:30.281Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=hamaguri.co.jp%2Fhouse%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "hamaguri.co.jp/house/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_0bf750f3-1c9d-4d33-b080-3c79f11eebe2",
+      "createdAt": "2026-06-27T00:55:40.281Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eco-works.jp%2Fworkscat%2Fone-story%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eco-works.jp/workscat/one-story/*: This operation was aborted"
+    },
+    {
+      "id": "log_12382a33-db57-465c-a49f-fb257e6f495a",
+      "createdAt": "2026-06-27T00:55:50.282Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=bell-h.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "bell-h.jp/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_24a443e1-c215-4afc-8317-22dd6f2f41fc",
+      "createdAt": "2026-06-27T00:56:00.284Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=miyazaki1960.com%2Fworks1%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "miyazaki1960.com/works1/*: This operation was aborted"
+    },
+    {
+      "id": "log_fddd0739-bbb6-4971-9911-9a4bbce19ff2",
+      "createdAt": "2026-06-27T00:56:10.284Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.chitose-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.chitose-home.com/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_67397e12-a6db-4ee3-abbb-b91820c689e9",
+      "createdAt": "2026-06-27T00:56:20.284Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.peacehome.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.peacehome.jp/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_b01d176b-eeb7-41b1-b070-622094916404",
+      "createdAt": "2026-06-27T00:56:30.285Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=yamasahouse.co.jp%2Fcase%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "yamasahouse.co.jp/case/*: This operation was aborted"
+    },
+    {
+      "id": "log_287215ff-eb9a-49ca-b7ce-1233d6d8ac83",
+      "createdAt": "2026-06-27T00:56:40.286Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.yuyuhome.co.jp%2Fcolumn%2Fconpact-house-floor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=80",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.yuyuhome.co.jp/column/conpact-house-floor-plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_clean_1782521821277",
+      "createdAt": "2026-06-27T00:57:01.277Z",
+      "siteName": "clean-crawl-output",
+      "domain": "-",
+      "url": "crawler-output\\latest-crawl.json",
+      "action": "clean",
+      "result": "success",
+      "message": "Removed room/exterior image candidates. candidates 144 -> 144, images 457 -> 454."
+    },
+    {
+      "id": "log_6c8ac45d-f620-403e-9ae2-f956fb40723a",
+      "createdAt": "2026-06-27T00:57:34.690Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "zerohome.jp/chumon/plan/plan04/*: fetch failed"
+    },
+    {
+      "id": "log_eddceb90-018c-4a70-8875-e46816003964",
+      "createdAt": "2026-06-27T00:57:45.183Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ichijo.co.jp/lp/madori/*: fetch failed"
+    },
+    {
+      "id": "log_9824d7d4-3f36-4ec3-b081-c44900b89daa",
+      "createdAt": "2026-06-27T00:57:55.679Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "irohaie.com/floor-plan/*: fetch failed"
+    },
+    {
+      "id": "log_77fd407a-8bbc-4017-aa74-f81800b2086e",
+      "createdAt": "2026-06-27T00:58:06.169Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.misawa.co.jp/kodate/guide/hiraya/madori.html/*: fetch failed"
+    },
+    {
+      "id": "log_316e8a3f-8113-4cd7-abc5-fef4b8e2e129",
+      "createdAt": "2026-06-27T00:58:16.661Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.toyotahome.co.jp%2Fchumon%2Fhowto%2Fmadori%2Fdesign%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.toyotahome.co.jp/chumon/howto/madori/design/*: fetch failed"
+    },
+    {
+      "id": "log_887e7878-f030-4583-9e97-9c8838c281c0",
+      "createdAt": "2026-06-27T00:58:27.155Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.aidagroup.co.jp%2Forder%2Fmadori_plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.aidagroup.co.jp/order/madori_plan/*: fetch failed"
+    },
+    {
+      "id": "log_8346af58-8ee0-4378-a306-c80c26ea1157",
+      "createdAt": "2026-06-27T00:58:37.657Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.megasoft.co.jp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.megasoft.co.jp/madori/*: fetch failed"
+    },
+    {
+      "id": "log_f1797246-2ffa-4126-a077-ded50854e679",
+      "createdAt": "2026-06-27T00:58:48.152Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuiheim.com%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuiheim.com/madori/*: fetch failed"
+    },
+    {
+      "id": "log_4624e8cf-c23f-4fc0-86cd-1bf7f7cae001",
+      "createdAt": "2026-06-27T00:58:58.647Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=genmai-home.com%2Ffloorplan1%2F21%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "genmai-home.com/floorplan1/21/*: fetch failed"
+    },
+    {
+      "id": "log_7dde4300-a925-47b4-9391-98c88104cfbd",
+      "createdAt": "2026-06-27T00:59:09.137Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.forumu.co.jp%2Fmadori%2Fmadori-02.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.forumu.co.jp/madori/madori-02.html/*: fetch failed"
+    },
+    {
+      "id": "log_6ad00bda-2573-4fff-9d77-fdcf426fb2cd",
+      "createdAt": "2026-06-27T00:59:19.629Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ibaraki-heim.co.jp%2Finterview%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ibaraki-heim.co.jp/interview/madori/*: fetch failed"
+    },
+    {
+      "id": "log_eafd0e54-72b6-4455-9a79-d481354cef5c",
+      "createdAt": "2026-06-27T00:59:30.125Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=be-enough.jp%2Flayout-example%2F30%25E5%259D%25AA%25EF%25BD%259E%2Fp10009%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/*: fetch failed"
+    },
+    {
+      "id": "log_7b759db4-1653-4bc7-825e-51b10a224630",
+      "createdAt": "2026-06-27T00:59:40.616Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sfc.jp%2Fie%2Fmyhome%2Farticles%2Fchumon-madori20250930%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "sfc.jp/ie/myhome/articles/chumon-madori20250930/*: fetch failed"
+    },
+    {
+      "id": "log_4e32c887-5e09-424f-8fa8-75804b590d4c",
+      "createdAt": "2026-06-27T00:59:51.106Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.marusho-kensetsu.co.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.marusho-kensetsu.co.jp/works/*: fetch failed"
+    },
+    {
+      "id": "log_f831c9df-a086-4507-83ad-70f9fc65b59f",
+      "createdAt": "2026-06-27T01:00:01.597Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.shichiro.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.shichiro.com/works/*: fetch failed"
+    },
+    {
+      "id": "log_79cc68e9-f8bc-4d2f-b59d-75721bf2f256",
+      "createdAt": "2026-06-27T01:00:12.090Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.mandai-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.mandai-home.com/works/*: fetch failed"
+    },
+    {
+      "id": "log_014f9025-4a86-4125-88a7-30e34f60a7e4",
+      "createdAt": "2026-06-27T01:00:22.577Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuihouse.co.jp%2Fcrepre%2Fgreenfirstoffice%2Fworks01%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuihouse.co.jp/crepre/greenfirstoffice/works01/*: fetch failed"
+    },
+    {
+      "id": "log_f78b685c-fbab-41f9-8cd7-bf798b2c8a6c",
+      "createdAt": "2026-06-27T01:00:33.069Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eyefulhome.jp%2Fconcept%2Ffavo%2Fcase01.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eyefulhome.jp/concept/favo/case01.html/*: fetch failed"
+    },
+    {
+      "id": "log_a1ced6e8-0644-4f00-943a-058492f42eaa",
+      "createdAt": "2026-06-27T01:00:43.560Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=creatorhome.co.jp%2Fworks%2Frasie%2F64%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "creatorhome.co.jp/works/rasie/64/*: fetch failed"
+    },
+    {
+      "id": "log_9c13f161-3bb2-4755-8827-ec18f4743843",
+      "createdAt": "2026-06-27T01:00:54.049Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sumaiida.com%2Fcustomhome%2Fuser_data%2Fcase_twostory%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "sumaiida.com/customhome/user_data/case_twostory/*: fetch failed"
+    },
+    {
+      "id": "log_e041fccf-2c8e-46b1-9a81-07f03e9f57cc",
+      "createdAt": "2026-06-27T01:01:04.540Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=hamaguri.co.jp%2Fhouse%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "hamaguri.co.jp/house/works/*: fetch failed"
+    },
+    {
+      "id": "log_e028f81a-cb61-4d8a-a950-729044e72c76",
+      "createdAt": "2026-06-27T01:01:15.035Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eco-works.jp%2Fworkscat%2Fone-story%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eco-works.jp/workscat/one-story/*: fetch failed"
+    },
+    {
+      "id": "log_693b4f44-e71b-4472-b87d-147e271b43ef",
+      "createdAt": "2026-06-27T01:01:25.527Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=bell-h.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "bell-h.jp/works/*: fetch failed"
+    },
+    {
+      "id": "log_66bb2bb6-eccb-49fe-a36d-ea48d7186ea8",
+      "createdAt": "2026-06-27T01:01:36.020Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=miyazaki1960.com%2Fworks1%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "miyazaki1960.com/works1/*: fetch failed"
+    },
+    {
+      "id": "log_2e22dff2-77a8-429a-84ab-20f8465440d9",
+      "createdAt": "2026-06-27T01:01:46.513Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.chitose-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.chitose-home.com/works/*: fetch failed"
+    },
+    {
+      "id": "log_dcdbc52e-6d10-4995-84ab-cffa6aa186ad",
+      "createdAt": "2026-06-27T01:01:57.005Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.peacehome.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.peacehome.jp/works/*: fetch failed"
+    },
+    {
+      "id": "log_ea9435b9-6150-4d2b-87da-5c44e70d208a",
+      "createdAt": "2026-06-27T01:02:07.495Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=yamasahouse.co.jp%2Fcase%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "yamasahouse.co.jp/case/*: fetch failed"
+    },
+    {
+      "id": "log_afefd144-2f27-432e-8a58-d01a3e8bd2ec",
+      "createdAt": "2026-06-27T01:02:17.989Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.yuyuhome.co.jp%2Fcolumn%2Fconpact-house-floor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.yuyuhome.co.jp/column/conpact-house-floor-plan/*: fetch failed"
+    },
+    {
+      "id": "log_e53ee5b7-c363-4a3b-b724-2bfdb66ab2bc",
+      "createdAt": "2026-06-27T01:02:28.479Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=hirayakoubou.net%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "hirayakoubou.net/plan/*: fetch failed"
+    },
+    {
+      "id": "log_17c32e04-6a2c-4959-aeb6-618123d3a21c",
+      "createdAt": "2026-06-27T01:02:38.969Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.cleverlyhome.com%2Fkurashi%2Fplan%2F9993%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.cleverlyhome.com/kurashi/plan/9993/*: fetch failed"
+    },
+    {
+      "id": "log_05c38bd6-a1ee-4a28-94b2-62a3000fdbbc",
+      "createdAt": "2026-06-27T01:02:49.462Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=with-e-home.com%2Fplans%2Ftag%2F17%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "with-e-home.com/plans/tag/17/*: fetch failed"
+    },
+    {
+      "id": "log_d8572ba5-8599-4ba7-a9d2-957463904927",
+      "createdAt": "2026-06-27T01:02:59.954Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=kh-house.jp%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "kh-house.jp/plan/*: fetch failed"
+    },
+    {
+      "id": "log_d099af1e-246a-4f1d-989f-6777cf50ae61",
+      "createdAt": "2026-06-27T01:03:10.448Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=searshome.co.jp%2Fplan%2Fhiraya%2Fhiraya0006%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "searshome.co.jp/plan/hiraya/hiraya0006/*: fetch failed"
+    },
+    {
+      "id": "log_fc82e987-85b2-47da-96ba-3499605f6be9",
+      "createdAt": "2026-06-27T01:03:20.942Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.aqura.co.jp%2Fcolumn%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.aqura.co.jp/column/plan/*: fetch failed"
+    },
+    {
+      "id": "log_23310386-f60c-4dc9-890c-45ed7fa9908e",
+      "createdAt": "2026-06-27T01:03:31.434Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=aerahome.com%2Fcolumn%2Fplannig%2F250709131%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "aerahome.com/column/plannig/250709131/*: fetch failed"
+    },
+    {
+      "id": "log_b977e2f3-4d7e-4720-bf5c-c1c04221ca7b",
+      "createdAt": "2026-06-27T01:03:41.930Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*: fetch failed"
+    },
+    {
+      "id": "log_c867dedb-5aae-41aa-b60c-2e9876807afb",
+      "createdAt": "2026-06-27T01:03:52.422Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*%E9%96%93%E5%8F%96%E3%82%8A*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*間取り*: fetch failed"
+    },
+    {
+      "id": "log_90ddc573-002d-444e-97ab-c66b3cc76639",
+      "createdAt": "2026-06-27T01:04:02.916Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floorplan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*floorplan*: fetch failed"
+    },
+    {
+      "id": "log_51076e79-661c-4a41-bdf1-b4a9ab1cb92f",
+      "createdAt": "2026-06-27T01:04:13.407Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor-plan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*floor-plan*: fetch failed"
+    },
+    {
+      "id": "log_04bfa8dd-b498-4490-93d3-50e51835303e",
+      "createdAt": "2026-06-27T01:04:23.896Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor_plan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*floor_plan*: fetch failed"
+    },
+    {
+      "id": "log_51393436-1d67-414d-949d-5fe07bde9ccc",
+      "createdAt": "2026-06-27T01:04:34.388Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.jpg: fetch failed"
+    },
+    {
+      "id": "log_a271aa0d-b433-4364-aa9a-554c8d762575",
+      "createdAt": "2026-06-27T01:04:44.878Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.png: fetch failed"
+    },
+    {
+      "id": "log_e4d3b9ad-6ba7-469c-810e-d902d8eee8e3",
+      "createdAt": "2026-06-27T01:04:55.374Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.webp&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.webp: fetch failed"
+    },
+    {
+      "id": "log_caf8dd86-a604-41ab-a4df-1f7af63ab5f9",
+      "createdAt": "2026-06-27T01:05:05.868Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floorplan*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=100",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "*.jp/*floorplan*.jpg: fetch failed"
+    },
+    {
+      "id": "log_clean_1782522322857",
+      "createdAt": "2026-06-27T01:05:22.857Z",
+      "siteName": "clean-crawl-output",
+      "domain": "-",
+      "url": "crawler-output\\latest-crawl.json",
+      "action": "clean",
+      "result": "success",
+      "message": "Removed room/exterior image candidates. candidates 143 -> 143, images 451 -> 451."
     }
   ]
 }
