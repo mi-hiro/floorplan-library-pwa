@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-27T15:08:05.959Z",
-  "acceptedCount": 147,
+  "generatedAt": "2026-06-27T23:05:00.862Z",
+  "acceptedCount": 160,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 22
     },
     "forumu.co.jp": {
-      "acceptedCount": 33
+      "acceptedCount": 41
     },
     "sfc.jp": {
       "acceptedCount": 24
@@ -33,10 +33,13 @@
       "acceptedCount": 9
     },
     "eyefulhome.jp": {
-      "acceptedCount": 4
+      "acceptedCount": 5
     },
     "toyotahome.co.jp": {
       "acceptedCount": 1
+    },
+    "sekisuiheim.com": {
+      "acceptedCount": 4
     }
   }
 }

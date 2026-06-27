@@ -1,14 +1,18 @@
 #!/usr/bin/env node
 import crypto from "node:crypto";
 import { readFile } from "node:fs/promises";
+import { createRequire } from "node:module";
 import { candidateImageId, pickBetterValue, stableId, weakDhashSource } from "./lib/hash-utils.mjs";
 import { readJsonl, upsertJsonlById } from "./lib/jsonl-store.mjs";
 import { classifyImageCandidate } from "./lib/image-features.mjs";
 import { analyzeImageBytes } from "./lib/image-byte-features.mjs";
 import { extractMetadata } from "./lib/metadata-extractor.mjs";
 
+const require = createRequire(import.meta.url);
+const BUNDLED_NODE_MODULES = "C:/Users/fujis/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules";
 const args = parseArgs(process.argv.slice(2));
 const CLASSIFIER_VERSION = "2026-06-27";
+let sharpModule = null;
 const OLLAMA_PROMPT = `You are classifying real-estate images.
 
 Return strict JSON only. Do not include markdown.
@@ -256,13 +260,13 @@ function hasAcceptanceEvidence(candidate, visual) {
   if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|tr\?|og image|ogp|thumbnail|thumb|_thum|thum\.|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|[-_](?:120x68|160x90|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)|tit_|bt_cate|btn_|bt_|bn-footer|globalnav|sidebutton|pagetop|page_top|phone\.png|footer|header|recruit|request|contact|company|showroom|modelhouse|event|txt[-_]|linenap|lineup_all|noimg|placeholder|dummy|spacer|img-nav|nav-identity|common\/tp\.gif|mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha/.test(allSignal)) {
     return false;
   }
-  if (/打ち合わせ|作成中|様子/.test(titleSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
+  if (/打ち合わせ|作成中|様子/.test(titleSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
   if (/hamaguri\.co\.jp/.test(allSignal) && !/madori|floor|plan|間取り|図面|drawing/.test(fileSignal)) return false;
   if (/yuyuhome\.co\.jp/.test(allSignal) && !/floor_plan|madori|plan|間取り|図面|drawing/.test(fileSignal)) return false;
   if (/genmai-home\.com/.test(allSignal) && !/drawing|madori|floor|plan|間取り|図面/.test(fileSignal)) return false;
-  if (/cleverlyhome\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !isCleverlyPlanTitle(titleSignal)) return false;
-  if (/(chitose-home\.com|marusho-kensetsu\.co\.jp|irohaie\.com)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
-  if (/madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(imageSignal)) {
+  if (/cleverlyhome\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !isCleverlyPlanTitle(titleSignal)) return false;
+  if (/(chitose-home\.com|marusho-kensetsu\.co\.jp|irohaie\.com)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
+  if (/madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(imageSignal)) {
     return true;
   }
   if (titleSignal.length <= 60 && /間取り図|平面図|図面|注文住宅の間取り|^平屋の間取り$/.test(titleSignal) && visual.visualScore >= 0.55 && !isGenericPhotoFile(fileSignal)) return true;
@@ -288,7 +292,7 @@ function orderCandidatesForPromotion(candidates, domainOllamaErrors) {
       const domainSeen = Number(seenDomains.get(domain) || 0);
       seenDomains.set(domain, domainSeen + 1);
       const { imageSignal, titleSignal, allSignal } = acceptanceSignals(candidate);
-      const explicitPlanScore = /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|collection_plan|madori_thm/i.test(imageSignal) ||
+      const explicitPlanScore = /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm/i.test(imageSignal) ||
         (titleSignal.length <= 60 && /間取り図|平面図|図面|注文住宅の間取り|^平屋の間取り$/.test(titleSignal))
         ? 0.35
         : 0;
@@ -637,18 +641,51 @@ async function fetchImageBytes(imageUrl, options) {
     if (contentLength && contentLength > options.maxImageBytes) return { ok: false, reason: `image too large: ${contentLength}` };
     const bytes = Buffer.from(await response.arrayBuffer());
     if (bytes.length > options.maxImageBytes) return { ok: false, reason: `image too large: ${bytes.length}` };
-    const dimensions = detectImageDimensions(bytes);
+    const sourceSha256 = crypto.createHash("sha256").update(bytes).digest("hex");
+    const prepared = await prepareImageForVision(bytes, options);
+    if (!prepared.ok) return prepared;
+    const dimensions = detectImageDimensions(prepared.bytes);
     return {
       ok: true,
-      bytes,
-      base64: bytes.toString("base64"),
-      sha256: crypto.createHash("sha256").update(bytes).digest("hex"),
+      bytes: prepared.bytes,
+      base64: prepared.bytes.toString("base64"),
+      sha256: sourceSha256,
       width: dimensions.width,
-      height: dimensions.height
+      height: dimensions.height,
+      convertedFrom: prepared.convertedFrom || null
     };
   } catch (error) {
     return { ok: false, reason: error.message || "image fetch failed" };
   }
+}
+
+async function prepareImageForVision(bytes, options) {
+  if (!isWebp(bytes)) return { ok: true, bytes };
+  const sharp = loadOptionalSharp();
+  if (!sharp) return { ok: false, reason: "webp conversion unavailable; install sharp or run inside Codex bundled runtime" };
+  try {
+    const converted = await sharp(bytes, { limitInputPixels: 25000000 })
+      .resize({ width: 1600, height: 1600, fit: "inside", withoutEnlargement: true })
+      .png({ compressionLevel: 9 })
+      .toBuffer();
+    if (converted.length > options.maxImageBytes) return { ok: false, reason: `converted webp too large: ${converted.length}` };
+    return { ok: true, bytes: converted, convertedFrom: "webp" };
+  } catch (error) {
+    return { ok: false, reason: `webp conversion failed: ${error.message}` };
+  }
+}
+
+function loadOptionalSharp() {
+  if (sharpModule) return sharpModule;
+  for (const request of ["sharp", `${BUNDLED_NODE_MODULES}/sharp`]) {
+    try {
+      sharpModule = require(request);
+      return sharpModule;
+    } catch {
+      // optional dependency; callers keep WebP candidates out of accepted data when unavailable
+    }
+  }
+  return null;
 }
 
 function normalizeOllamaJson(text, model) {
@@ -710,6 +747,10 @@ function detectImageDimensions(bytes) {
     return detectJpegDimensions(bytes);
   }
   return { width: null, height: null };
+}
+
+function isWebp(bytes) {
+  return bytes.length >= 12 && bytes.slice(0, 4).toString("ascii") === "RIFF" && bytes.slice(8, 12).toString("ascii") === "WEBP";
 }
 
 function detectJpegDimensions(bytes) {

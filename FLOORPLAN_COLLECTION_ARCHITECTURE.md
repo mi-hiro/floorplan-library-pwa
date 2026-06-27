@@ -15,7 +15,7 @@ The accepted pipeline is intentionally conservative. URL text and page titles ca
 1. Collect many candidates from Common Crawl, sitemap/image sitemap, WordPress REST, PDF links, and domain adapters.
 2. Save every broad candidate to `data/candidate-images.jsonl`.
 3. Remove obvious noise such as exterior photos, interior photos, banners, logos, maps, charts, and YouTube thumbnails to `data/rejected-images.jsonl`.
-4. Run local byte-level checks for JPEG/PNG files to reject photo-like color/texture and banner-like aspect ratios before promotion.
+4. Run local byte-level checks for JPEG/PNG files to reject photo-like color/texture and banner-like aspect ratios before promotion. WebP files are converted to PNG with `sharp` before byte checks and Ollama review.
 5. Send plausible images to Ollama Vision when available.
 6. Promote only images classified as top-down floorplans with room/wall boundaries and confidence `>= 0.85`.
 7. Keep uncertain or unchecked items in `data/review-queue.jsonl`.
@@ -54,6 +54,8 @@ Daily runs are intentionally small. They prefer domains with good past results, 
 When Ollama is unavailable, unchecked candidates stay in `candidate-images.jsonl` or `review-queue.jsonl`; they are not promoted to `accepted-floorplans.jsonl`.
 
 The repository example keeps `llama3.2-vision:11b` as the preferred high-quality model. On this PC, the active config uses `moondream:latest` first because it is much faster than `llava:latest`. Missing confidence is not accepted automatically.
+
+WebP images are common on builder sites. `sharp` is used only to convert WebP to PNG before sending images to Ollama, because some local vision models reject WebP input. If `sharp` is unavailable, WebP candidates remain in review/candidate data and are not accepted.
 
 ## PDF
 
