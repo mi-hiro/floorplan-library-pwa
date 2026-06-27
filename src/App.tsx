@@ -773,8 +773,8 @@ export default function App() {
                   <label className="field compact-field">
                     <span>表示</span>
                     <select value={floorplanDisplay} onChange={(event) => setFloorplanDisplay(event.target.value as FloorplanDisplayMode)}>
-                      <option value="cards">通常表示</option>
-                      <option value="compact">細い一覧</option>
+                      <option value="cards">カード表示</option>
+                      <option value="compact">リスト表示</option>
                     </select>
                   </label>
                   <div className="pager-controls">
