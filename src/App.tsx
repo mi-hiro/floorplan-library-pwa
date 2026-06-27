@@ -359,13 +359,21 @@ function isOllamaAcceptedFloorplan(image: NonNullable<CrawlCandidate["imageCandi
 }
 
 function hasStrongFloorplanSignal(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
-  return /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view|[2-5]\s*LDK|[0-9]{2}\s*坪/i.test(imageSignalText(image));
+  const altSignal = image.alt || "";
+  const fileSignal = imageFileSignal(image);
+  const tailSignal = imageTailSignal(image);
+
+  if (/間取り図|平面図|図面|プラン[0-9０-９]+.*間取り|間取り.*[12１２]階|floor\s*plan|floorplan/i.test(altSignal)) return true;
+  if (/間取り/i.test(altSignal) && /[2-5]\s*LDK|[0-9]{2}\s*坪|平屋|二階建|2階建|プラン|家/i.test(altSignal)) return true;
+  if (/madori|floor[-_]?plan|floor_plan|floorplan|layout|topview|top-view|zumen|drawing|heimen|hemen/i.test(fileSignal)) return true;
+  if (/(?:^|[_-])plan[-_]?[0-9]+|collection_plan|madori_thm|N[0-9]+-[12]F/i.test(fileSignal)) return true;
+  return /floor[-_]?plan/i.test(tailSignal) && /map[0-9]|plan|layout/i.test(fileSignal);
 }
 
 function hasHardNonFloorplanSignal(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
-  const signal = imageSignalText(image);
+  const signal = `${imageSignalText(image)} ${imagePathSignal(image)}`;
   return (
-    /logo|ロゴ|icon|avatar|profile|staff|banner|baner|バナー|campaign|キャンペーン|gift|ギフト|catalog|カタログ|og画像|ogimage|blogcard|thumb|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工事例|施工写真|写真のみ|インテリア|リビング|寝室|キッチン|浴室|洗面|トイレ|frontview|front-view|sideview|side-view|facade|exterior|appearance|interior|garden|parking|carport|features?_img|feature_img|mainvisual|hero/i.test(
+    /logo|ロゴ|icon|avatar|profile|staff|banner|baner|バナー|campaign|キャンペーン|gift|ギフト|catalog|カタログ|og画像|ogimage|ogp|blogcard|thumb|thumbnail|ranking|ランキング|月間ランキング|no[0-9]+__title|selected|pbmce|chart|graph|subnavi|nav[-_]|img_nav|bnr|youtube|ytimg|sddefault|hqdefault|mqdefault|img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/]+p[0-9]+|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工写真|写真のみ|インテリア|リビング|寝室|キッチン|浴室|洗面|トイレ|frontview|front-view|sideview|side-view|facade|exterior|appearance|interior|garden|parking|carport|features?_img|feature_img|point_img|mainvisual|hero/i.test(
       signal
     ) || looksLikeRoomPhotoLabel(signal)
   );
@@ -402,6 +410,35 @@ function normalizeImageUrl(url: string) {
 
 function imageSignalText(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
   return `${image.alt || ""} ${normalizeImageUrl(image.url)} ${normalizeImageUrl(image.thumbnailUrl || "")}`;
+}
+
+function imageFileSignal(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  const primary = getUrlSignalParts(image.url);
+  const thumbnail = getUrlSignalParts(image.thumbnailUrl || "");
+  return `${image.alt || ""} ${primary.fileName} ${thumbnail.fileName}`.toLowerCase();
+}
+
+function imageTailSignal(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  const primary = getUrlSignalParts(image.url);
+  const thumbnail = getUrlSignalParts(image.thumbnailUrl || "");
+  return `${primary.parentName}/${primary.fileName} ${thumbnail.parentName}/${thumbnail.fileName}`.toLowerCase();
+}
+
+function imagePathSignal(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  return `${getUrlSignalParts(image.url).pathName} ${getUrlSignalParts(image.thumbnailUrl || "").pathName}`.toLowerCase();
+}
+
+function getUrlSignalParts(url: string) {
+  try {
+    const parsed = new URL(url);
+    const pathName = decodeURIComponent(parsed.pathname);
+    const segments = pathName.split("/").filter(Boolean);
+    const fileName = segments[segments.length - 1] || "";
+    const parentName = segments[segments.length - 2] || "";
+    return { pathName, fileName, parentName };
+  } catch {
+    return { pathName: url || "", fileName: url || "", parentName: "" };
+  }
 }
 
 export default function App() {

@@ -261,11 +261,11 @@ function extractImagesFromHtml(html, pageUrl, title = "", text = "", options = {
     if (!isImageUrl(url)) return;
     const signal = imageSignalText(alt, url);
     if (looksLikeRoomOnlyImageLabel(signal)) return;
-    const contextualFloorplan = pageFloorplanContext && looksLikePlanNamedImage(signal);
+    const contextualFloorplan = pageFloorplanContext && looksLikePlanNamedImage(alt, url);
     const looseReviewCandidate =
       looseCandidateContext && looksLikeContentImage(url, imageOptions) && Number(imageOptions.contentImageIndex ?? 0) <= 10;
-    if (!looksLikeFloorplanImage(signal) && !contextualFloorplan && !looseReviewCandidate) return;
-    if (looseReviewCandidate && !contextualFloorplan && !looksLikeFloorplanImage(signal) && looksLikeNonFloorplanPhotoSignal(signal)) return;
+    if (!looksLikePlanNamedImage(alt, url) && !contextualFloorplan && !looseReviewCandidate) return;
+    if (looseReviewCandidate && !contextualFloorplan && !looksLikePlanNamedImage(alt, url) && looksLikeNonFloorplanPhotoSignal(signal)) return;
     if (looksLikeDecorativeOrNonFloorplan(signal)) return;
     seen.add(url);
     images.push({
@@ -658,8 +658,16 @@ function looksLikeExplicitFloorplanPage(signal) {
   return /間取り図|間取り|間取|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view/i.test(signal);
 }
 
-function looksLikePlanNamedImage(signal) {
-  return /madori|floor.?plan|floor_plan|layout|zumen|drawing|間取り|平面図|図面|(?:^|[/_-])plan[-_]?[0-9]+/i.test(signal);
+function looksLikePlanNamedImage(alt, url) {
+  const altSignal = alt || "";
+  const fileSignal = imageFileSignal(alt, url);
+  const tailSignal = imageTailSignal(url);
+
+  if (/間取り図|平面図|図面|プラン[0-9０-９]+.*間取り|間取り.*[12１２]階|floor\s*plan|floorplan/i.test(altSignal)) return true;
+  if (/間取り/i.test(altSignal) && /[2-5]\s*LDK|[0-9]{2}\s*坪|平屋|二階建|2階建|プラン|家/i.test(altSignal)) return true;
+  if (/madori|floor[-_]?plan|floor_plan|floorplan|layout|topview|top-view|zumen|drawing|heimen|hemen/i.test(fileSignal)) return true;
+  if (/(?:^|[_-])plan[-_]?[0-9]+|collection_plan|madori_thm|N[0-9]+-[12]F/i.test(fileSignal)) return true;
+  return /floor[-_]?plan/i.test(tailSignal) && /map[0-9]|plan|layout/i.test(fileSignal);
 }
 
 function looksLikeContentImage(url, options = {}) {
@@ -690,13 +698,36 @@ function scoreImageCandidate(signal, looseReviewCandidate) {
 function looksLikeDecorativeOrNonFloorplan(signal) {
   if (/\.svg(?:\?|$)/i.test(signal)) return true;
   if (looksLikeRoomOnlyImageLabel(signal)) return true;
-  if (/logo|icon|ico[-_]|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|bnr|loading|spinner|dummy|placeholder|noimage|ogp|ogimage|mainvisual|hero|avatar|profile|staff|map|point[-_]|txt[-_]|takusan|hajimete|prev[-_]image|next[-_]image/i.test(signal)) {
+  if (/logo|icon|ico[-_]|phone|tel|sns|facebook|instagram|line|youtube|ytimg|sddefault|hqdefault|mqdefault|header|footer|banner|bnr|loading|spinner|dummy|placeholder|noimage|ogp|ogimage|mainvisual|hero|avatar|profile|staff|map|point[-_]|txt[-_]|takusan|hajimete|prev[-_]image|next[-_]image|ranking|ランキング|月間ランキング|no[0-9]+__title|selected|pbmce|chart|graph|subnavi|nav[-_]|img_nav|img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/]+p[0-9]+/i.test(signal)) {
     return true;
   }
   if (/frontview|front-view|sideview|side-view|facade|exterior|appearance|garden|parking|carport|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|キッチン|リビング|寝室|施工写真/i.test(signal)) {
     return !/間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout/i.test(signal);
   }
   return false;
+}
+
+function imageFileSignal(alt, url) {
+  const parts = getUrlSignalParts(url);
+  return `${alt || ""} ${parts.fileName}`.toLowerCase();
+}
+
+function imageTailSignal(url) {
+  const parts = getUrlSignalParts(url);
+  return `${parts.parentName}/${parts.fileName}`.toLowerCase();
+}
+
+function getUrlSignalParts(url) {
+  try {
+    const parsed = new URL(url);
+    const pathName = decodeURIComponent(parsed.pathname);
+    const segments = pathName.split("/").filter(Boolean);
+    const fileName = segments[segments.length - 1] || "";
+    const parentName = segments[segments.length - 2] || "";
+    return { pathName, fileName, parentName };
+  } catch {
+    return { pathName: url || "", fileName: url || "", parentName: "" };
+  }
 }
 
 function looksLikeRoomOnlyImageLabel(signal) {

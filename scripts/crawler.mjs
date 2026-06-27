@@ -365,7 +365,8 @@ function extractImages(html, pageUrl, limit, context = {}) {
       pageFloorplanContext &&
       options.contentImageIndex === 0 &&
       isGenericImageAlt(decodedAlt) &&
-      looksLikeContentImage(url, options)
+      looksLikeContentImage(url, options) &&
+      looksLikeStrongFloorplanImage(decodedAlt, url)
     ) {
       kind = "floorplan";
     }
@@ -630,7 +631,7 @@ function classifyImage(alt, url) {
   const haystack = imageSignalText(alt, url);
   if (looksLikeArticleThumbnail(haystack)) return "other";
   if (looksLikeNonFloorplanPlanImage(haystack)) return "exterior";
-  if (looksLikeFloorplanImageText(haystack)) return "floorplan";
+  if (looksLikeStrongFloorplanImage(alt, url)) return "floorplan";
   for (const [kind, patterns] of Object.entries(IMAGE_KIND_KEYWORDS).filter(([kind]) => kind !== "floorplan")) {
     if (patterns.some((pattern) => pattern.test(haystack))) return kind;
   }
@@ -647,7 +648,7 @@ function scoreImageCandidate(alt, url, kind) {
   if (/間取り図|間取り|間取|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view/i.test(haystack)) score += 90;
   if (/[2-5]\s*LDK|平屋|二階建|2階建|坪|㎡|m2|帖|畳/i.test(haystack)) score += 35;
   if (/施工事例|建売|新築|注文住宅|住宅|暮らし|家事動線|収納|LDK/i.test(haystack)) score += 12;
-  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|バナー|bnr|loading|spinner|dummy|placeholder|noimage|ogp|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete|point[-_]|prev[-_]image|next[-_]image/i.test(haystack)) {
+  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|ytimg|sddefault|hqdefault|mqdefault|header|footer|banner|バナー|bnr|loading|spinner|dummy|placeholder|noimage|ogp|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete|point[-_]|prev[-_]image|next[-_]image|ranking|ランキング|月間ランキング|no[0-9]+__title|selected|pbmce|chart|graph|subnavi|nav[-_]|img_nav|img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/]+p[0-9]+/i.test(haystack)) {
     score -= 130;
   }
   if (/\.svg(?:\?|$)/i.test(url)) score -= 80;
@@ -659,7 +660,7 @@ function isLikelyDecorativeImage(alt, url, kind) {
   if (/\.svg(?:\?|$)/i.test(url)) return true;
   if (looksLikeArticleThumbnail(haystack)) return true;
   if (looksLikeRoomOnlyImageLabel(haystack)) return true;
-  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|header|footer|banner|バナー|bnr|loading|spinner|dummy|placeholder|noimage|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete|point[-_]|prev[-_]image|next[-_]image/i.test(haystack)) {
+  if (/logo|icon|phone|tel|sns|facebook|instagram|line|youtube|ytimg|sddefault|hqdefault|mqdefault|header|footer|banner|バナー|bnr|loading|spinner|dummy|placeholder|noimage|mainvisual|mv|hero|tab\d|cta|txt[-_]|pic_circ|button|takusan|hajimete|point[-_]image|point[-_]|prev[-_]image|next[-_]image|ranking|ランキング|月間ランキング|no[0-9]+__title|selected|pbmce|chart|graph|subnavi|nav[-_]|img_nav|img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/]+p[0-9]+/i.test(haystack)) {
     return true;
   }
   if (kind === "floorplan") return false;
@@ -669,6 +670,18 @@ function isLikelyDecorativeImage(alt, url, kind) {
 function looksLikeFloorplanImageText(haystack) {
   if (/間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|topview|top-view/i.test(haystack)) return true;
   return /(?:[2-5]\s*LDK|平屋|[0-9]{2}\s*坪|坪).{0,24}間取り|間取り.{0,24}(?:[2-5]\s*LDK|平屋|[0-9]{2}\s*坪|坪)/i.test(haystack);
+}
+
+function looksLikeStrongFloorplanImage(alt, url) {
+  const altSignal = alt || "";
+  const fileSignal = imageFileSignal(alt, url);
+  const tailSignal = imageTailSignal(url);
+
+  if (/間取り図|平面図|図面|プラン[0-9０-９]+.*間取り|間取り.*[12１２]階|floor\s*plan|floorplan/i.test(altSignal)) return true;
+  if (/間取り/i.test(altSignal) && /[2-5]\s*LDK|[0-9]{2}\s*坪|平屋|二階建|2階建|プラン|家/i.test(altSignal)) return true;
+  if (/madori|floor[-_]?plan|floor_plan|floorplan|layout|topview|top-view|zumen|drawing|heimen|hemen/i.test(fileSignal)) return true;
+  if (/(?:^|[_-])plan[-_]?[0-9]+|collection_plan|madori_thm|N[0-9]+-[12]F/i.test(fileSignal)) return true;
+  return /floor[-_]?plan/i.test(tailSignal) && /map[0-9]|plan|layout/i.test(fileSignal);
 }
 
 function looksLikeNonFloorplanPlanImage(haystack) {
@@ -798,6 +811,29 @@ function imageSignalText(alt, url) {
     return `${alt} ${segments.slice(-3).join("/")}`;
   } catch {
     return `${alt} ${url}`;
+  }
+}
+
+function imageFileSignal(alt, url) {
+  const parts = getUrlSignalParts(url);
+  return `${alt || ""} ${parts.fileName}`.toLowerCase();
+}
+
+function imageTailSignal(url) {
+  const parts = getUrlSignalParts(url);
+  return `${parts.parentName}/${parts.fileName}`.toLowerCase();
+}
+
+function getUrlSignalParts(url) {
+  try {
+    const parsed = new URL(url);
+    const pathName = decodeURIComponent(parsed.pathname);
+    const segments = pathName.split("/").filter(Boolean);
+    const fileName = segments[segments.length - 1] || "";
+    const parentName = segments[segments.length - 2] || "";
+    return { pathName, fileName, parentName };
+  } catch {
+    return { pathName: url || "", fileName: url || "", parentName: "" };
   }
 }
 

@@ -265,13 +265,21 @@ function imageReviewPriority(image) {
 }
 
 function looksLikeStrongPlanSignal(image) {
-  return /間取り図|平面図|図面|madori|floor.?plan|floor_plan|layout|drawing|\/plan[^/]*[-_]?img|N[0-9]+-[12]F/i.test(imageSignalText(image));
+  const altSignal = `${image.alt || ""} ${image.title || ""}`;
+  const fileSignal = imageFileSignal(image);
+  const tailSignal = imageTailSignal(image);
+
+  if (/間取り図|平面図|図面|プラン[0-9０-９]+.*間取り|間取り.*[12１２]階|floor\s*plan|floorplan/i.test(altSignal)) return true;
+  if (/間取り/i.test(altSignal) && /[2-5]\s*LDK|[0-9]{2}\s*坪|平屋|二階建|2階建|プラン|家/i.test(altSignal)) return true;
+  if (/madori|floor[-_]?plan|floor_plan|floorplan|layout|topview|top-view|zumen|drawing|heimen|hemen/i.test(fileSignal)) return true;
+  if (/(?:^|[_-])plan[-_]?[0-9]+|collection_plan|madori_thm|N[0-9]+-[12]F/i.test(fileSignal)) return true;
+  return /floor[-_]?plan/i.test(tailSignal) && /map[0-9]|plan|layout/i.test(fileSignal);
 }
 
 function isHardRejectedImageSignal(image) {
-  const signal = imageSignalText(image);
+  const signal = `${imageSignalText(image)} ${imagePathSignal(image)}`;
   return (
-    /logo|icon|banner|baner|og画像|ogimage|ogp|catalog|カタログ|無料プレゼント|main_img|bn[-_]|blog[-_]?card|thumb|childroom|laundryroom|genmai|rice|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工写真|写真のみ|リビング|キッチン|寝室|浴室|洗面|トイレ|子ども部屋|ランドリールーム|interior|exterior|facade|appearance|frontview|front-view|sideview|side-view|garden|parking|carport|hero|mainvisual/i.test(
+    /logo|ロゴ|icon|avatar|profile|staff|banner|baner|バナー|campaign|キャンペーン|gift|ギフト|catalog|カタログ|無料プレゼント|og画像|ogimage|ogp|blog[-_]?card|thumb|thumbnail|ranking|ランキング|月間ランキング|no[0-9]+__title|selected|pbmce|chart|graph|subnavi|nav[-_]|img_nav|main_img|bn[-_]|bnr|youtube|ytimg|sddefault|hqdefault|mqdefault|img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/]+p[0-9]+|childroom|laundryroom|genmai|rice|外観|外回り|外構|外装|外部|庭|駐車場|カーポート|アプローチ|エクステリア|内観|施工写真|写真のみ|リビング|キッチン|寝室|浴室|洗面|トイレ|子ども部屋|ランドリールーム|interior|exterior|facade|appearance|frontview|front-view|sideview|side-view|garden|parking|carport|hero|mainvisual|features?_img|feature_img|point_img/i.test(
       signal
     ) || /[|｜]\s*(?:LDK|リビング|ダイニング|キッチン|寝室|洋室|和室|子ども部屋|洗面|浴室|トイレ|玄関|外観|内観|室内)(?:\s|$)/i.test(signal)
   );
@@ -279,6 +287,35 @@ function isHardRejectedImageSignal(image) {
 
 function imageSignalText(image) {
   return `${image.url || ""} ${image.alt || ""} ${image.title || ""}`;
+}
+
+function imageFileSignal(image) {
+  const primary = getUrlSignalParts(image.url);
+  const thumbnail = getUrlSignalParts(image.thumbnailUrl || "");
+  return `${image.alt || ""} ${image.title || ""} ${primary.fileName} ${thumbnail.fileName}`.toLowerCase();
+}
+
+function imageTailSignal(image) {
+  const primary = getUrlSignalParts(image.url);
+  const thumbnail = getUrlSignalParts(image.thumbnailUrl || "");
+  return `${primary.parentName}/${primary.fileName} ${thumbnail.parentName}/${thumbnail.fileName}`.toLowerCase();
+}
+
+function imagePathSignal(image) {
+  return `${getUrlSignalParts(image.url).pathName} ${getUrlSignalParts(image.thumbnailUrl || "").pathName}`.toLowerCase();
+}
+
+function getUrlSignalParts(url) {
+  try {
+    const parsed = new URL(url);
+    const pathName = decodeURIComponent(parsed.pathname);
+    const segments = pathName.split("/").filter(Boolean);
+    const fileName = segments[segments.length - 1] || "";
+    const parentName = segments[segments.length - 2] || "";
+    return { pathName, fileName, parentName };
+  } catch {
+    return { pathName: url || "", fileName: url || "", parentName: "" };
+  }
 }
 
 function imageKey(image) {
