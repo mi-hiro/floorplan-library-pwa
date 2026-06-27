@@ -7,7 +7,7 @@ const HARD_REJECT_PATTERNS = [
   /(?:^|\s|\/|_)(リビング|ダイニング|キッチン|寝室|子ども部屋|子供部屋|洋室|和室|浴室|洗面|トイレ|玄関)(?:\s|$|\/|_|-)/i,
   /exterior|interior|facade|appearance|entrance|corridor|toilet|window|curtain|television|slidingdoor|living|dining|kitchen|bedroom|childroom|bathroom|garden|parking|carport|specialgift|siteguard|captcha/i,
   /ogp|ogimage|og image|thumbnail|thumb|_thum|thum\.|mainvisual|hero|subnavi|img_nav|img-nav|nav-identity|noimg|placeholder|dummy|spacer|common\/tp\.gif|tit_|bt_cate|txt[-_]|linenap|lineup_all|pc_linenap|sp_linenap|bnr|selected|pbmce/i,
-  /facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|btn_|bt_|gallery|photo/i,
+  /facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|btn_|bt_|bn-footer|globalnav|sidebutton|pagetop|page_top|phone\.png|footer|header|recruit|request|contact|company|showroom|modelhouse|event|gallery|photo/i,
   /[-_](?:120x68|160x90|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)/i,
   /img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/]+p[0-9]+/i
 ];

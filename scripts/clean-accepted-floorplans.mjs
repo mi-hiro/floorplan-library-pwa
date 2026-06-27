@@ -88,7 +88,7 @@ function hasStrongPlanEvidence(record) {
   const title = String(record.title || "").toLowerCase();
   if (title.length <= 70 && /^平屋の間取り$/.test(title)) return true;
   if (title.length <= 90 && /間取りの(?:１|1|２|2|３|3|一|二|三)?階部分|注文住宅の間取り|間取り図plan|平面図|図面/i.test(title)) return true;
-  if (/floor_plan|topview_plan|madori|drawing/i.test(url)) return true;
+  if (/floor_plan|topview_plan|madori|drawing|plan[_-]?[0-9]/i.test(url)) return true;
   return false;
 }
 
@@ -96,14 +96,14 @@ function hasStrongImagePlanEvidence(record) {
   const url = safeDecode(record.source?.imageUrl || "").toLowerCase();
   const fileName = url.split(/[/?#]/)[0].split("/").filter(Boolean).pop() || url;
   const alt = String(record.context?.alt || "").toLowerCase();
-  return /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|collection_plan|madori_thm|zu[0-9]/i.test(`${fileName} ${alt}`);
+  return /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(`${fileName} ${alt}`);
 }
 
 function hasStrongFilePlanEvidence(record) {
   const url = safeDecode(record.source?.imageUrl || "").toLowerCase();
   const path = url.replace(/^https?:\/\/[^/]+/i, "").split(/[?#]/)[0];
   const fileName = path.split("/").filter(Boolean).pop() || path;
-  return /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|collection_plan|madori_thm|zu[0-9]/i.test(fileName);
+  return /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileName);
 }
 
 function isCleverlyPlanTitle(record) {

@@ -13,7 +13,7 @@
   "eyefulhome.jp": {
     "candidateCount": 136,
     "acceptedCount": 4,
-    "rejectedCount": 78,
+    "rejectedCount": 79,
     "reviewCount": 67,
     "acceptanceRate": 0.029,
     "lastCrawledAt": "2026-06-27T08:35:49.707Z",
@@ -101,7 +101,7 @@
   "sekisuiheim.com": {
     "candidateCount": 850,
     "acceptedCount": 0,
-    "rejectedCount": 191,
+    "rejectedCount": 252,
     "reviewCount": 725,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-06-27T13:09:52.665Z",
@@ -112,7 +112,7 @@
   "yuyuhome.co.jp": {
     "candidateCount": 1269,
     "acceptedCount": 6,
-    "rejectedCount": 1091,
+    "rejectedCount": 1092,
     "reviewCount": 842,
     "acceptanceRate": 0.005,
     "lastCrawledAt": "2026-06-27T08:37:22.769Z",
@@ -123,7 +123,7 @@
   "cleverlyhome.com": {
     "candidateCount": 1995,
     "acceptedCount": 0,
-    "rejectedCount": 987,
+    "rejectedCount": 988,
     "reviewCount": 1137,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-06-27T08:38:03.636Z",
@@ -156,7 +156,7 @@
   "irohaie.com": {
     "candidateCount": 617,
     "acceptedCount": 0,
-    "rejectedCount": 443,
+    "rejectedCount": 456,
     "reviewCount": 337,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-06-27T13:09:27.635Z",
@@ -166,7 +166,7 @@
   },
   "toyotahome.co.jp": {
     "candidateCount": 2007,
-    "acceptedCount": 0,
+    "acceptedCount": 1,
     "rejectedCount": 799,
     "reviewCount": 1234,
     "acceptanceRate": 0,
@@ -178,7 +178,7 @@
   "aidagroup.co.jp": {
     "candidateCount": 43,
     "acceptedCount": 5,
-    "rejectedCount": 34,
+    "rejectedCount": 38,
     "reviewCount": 38,
     "acceptanceRate": 0.116,
     "lastCrawledAt": "2026-06-27T13:09:42.829Z",
@@ -211,7 +211,7 @@
   "marusho-kensetsu.co.jp": {
     "candidateCount": 249,
     "acceptedCount": 0,
-    "rejectedCount": 110,
+    "rejectedCount": 125,
     "reviewCount": 189,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-06-27T08:34:52.528Z",
@@ -222,7 +222,7 @@
   "shichiro.com": {
     "candidateCount": 696,
     "acceptedCount": 0,
-    "rejectedCount": 273,
+    "rejectedCount": 588,
     "reviewCount": 471,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-06-27T08:35:16.266Z",
@@ -255,7 +255,7 @@
   "hamaguri.co.jp": {
     "candidateCount": 66,
     "acceptedCount": 0,
-    "rejectedCount": 61,
+    "rejectedCount": 62,
     "reviewCount": 51,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-06-27T08:36:20.565Z",
@@ -299,7 +299,7 @@
   "chitose-home.com": {
     "candidateCount": 911,
     "acceptedCount": 0,
-    "rejectedCount": 171,
+    "rejectedCount": 173,
     "reviewCount": 810,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-06-27T08:36:58.474Z",
@@ -310,7 +310,7 @@
   "yamasahouse.co.jp": {
     "candidateCount": 55,
     "acceptedCount": 0,
-    "rejectedCount": 36,
+    "rejectedCount": 38,
     "reviewCount": 27,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-06-27T08:37:04.849Z",
