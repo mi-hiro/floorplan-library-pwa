@@ -1,0 +1,49 @@
+{
+  "safety": {
+    "respectRobotsTxt": true,
+    "concurrencyPerDomain": 1,
+    "globalConcurrency": 1,
+    "delayMsPerDomain": 10000,
+    "stopOn403": true,
+    "stopOn429": true,
+    "stopOnCaptcha": true,
+    "doNotBypassBlocks": true
+  },
+  "backfill": {
+    "targetCandidateCount": 5000,
+    "maxCommonCrawlIndexes": 4,
+    "maxArchivedPages": 300,
+    "maxPdfFiles": 100,
+    "maxPagesPerDomain": 50
+  },
+  "daily": {
+    "maxDomainsPerRun": 10,
+    "maxPagesPerDomain": 5,
+    "maxPdfFiles": 5,
+    "preferHighQualitySources": true
+  },
+  "classification": {
+    "minVisualScoreForOllama": 0.45,
+    "autoAcceptMinConfidence": 0.85,
+    "reviewMinConfidence": 0.6,
+    "keepUncheckedInAccepted": false
+  },
+  "ollama": {
+    "enabled": true,
+    "endpoint": "http://127.0.0.1:11434",
+    "model": "llama3.2-vision:11b",
+    "fallbackVisionModels": ["llama3.2-vision", "llava", "minicpm-v", "moondream", "bakllava"],
+    "requestDelayMs": 1000,
+    "fetchTimeoutSeconds": 20,
+    "ollamaTimeoutSeconds": 90,
+    "maxImageBytes": 3000000
+  },
+  "wordpress": {
+    "domains": []
+  },
+  "publicOutput": {
+    "acceptedOnly": true,
+    "out": "public/data/floorplans.json",
+    "statsOut": "public/data/floorplan-stats.json"
+  }
+}

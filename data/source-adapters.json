@@ -1,0 +1,12 @@
+{
+  "ichijo.co.jp": {
+    "enabled": false,
+    "quality": "high",
+    "companyName": "一条工務店",
+    "seedUrls": [],
+    "pagePatterns": ["/madori/", "/plan/"],
+    "floorplanSelectors": [".floor-map img", ".madori img", "figure.floorplan img"],
+    "contextSelectors": [".property-summary", ".plan-detail", ".spec-table"],
+    "rejectSelectors": [".gallery", ".staff", ".banner"]
+  }
+}

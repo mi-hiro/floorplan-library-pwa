@@ -1,0 +1,128 @@
+{
+  "ichijo.co.jp": {
+    "candidateCount": 22,
+    "acceptedCount": 11,
+    "rejectedCount": 0,
+    "reviewCount": 11,
+    "acceptanceRate": 0.5,
+    "lastCrawledAt": null,
+    "sourceQuality": "high"
+  },
+  "eyefulhome.jp": {
+    "candidateCount": 2,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 2,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "creatorhome.co.jp": {
+    "candidateCount": 1,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 1,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "suumo.jp": {
+    "candidateCount": 1,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 1,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "hiyoriblog.com": {
+    "candidateCount": 1,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 1,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "zerohome.jp": {
+    "candidateCount": 65,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 65,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "tanaken.co.jp": {
+    "candidateCount": 1,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 1,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "forumu.co.jp": {
+    "candidateCount": 4,
+    "acceptedCount": 4,
+    "rejectedCount": 0,
+    "reviewCount": 0,
+    "acceptanceRate": 1,
+    "lastCrawledAt": null,
+    "sourceQuality": "medium"
+  },
+  "sfc.jp": {
+    "candidateCount": 3,
+    "acceptedCount": 3,
+    "rejectedCount": 0,
+    "reviewCount": 0,
+    "acceptanceRate": 1,
+    "lastCrawledAt": null,
+    "sourceQuality": "medium"
+  },
+  "sekisuiheim.com": {
+    "candidateCount": 23,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 23,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "yuyuhome.co.jp": {
+    "candidateCount": 3,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 3,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "cleverlyhome.com": {
+    "candidateCount": 12,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 12,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "kh-house.jp": {
+    "candidateCount": 22,
+    "acceptedCount": 0,
+    "rejectedCount": 0,
+    "reviewCount": 22,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  },
+  "megasoft.co.jp": {
+    "candidateCount": 3,
+    "acceptedCount": 0,
+    "rejectedCount": 1,
+    "reviewCount": 2,
+    "acceptanceRate": 0,
+    "lastCrawledAt": null,
+    "sourceQuality": "low"
+  }
+}

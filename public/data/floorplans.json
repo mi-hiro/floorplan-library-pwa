@@ -1,0 +1,613 @@
+{
+  "version": 2,
+  "generatedAt": "2026-06-27T06:22:04.587Z",
+  "source": "accepted-floorplans",
+  "candidates": [
+    {
+      "id": "38f97979e3e5da8bd0addf2996d703bf1fab023e36bc5cee203bdfcc9b409a1a",
+      "title": "プラン1間取り図1階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-1.png?241205"
+      ],
+      "imageCandidates": [
+        {
+          "id": "38f97979e3e5da8bd0addf2996d703bf1fab023e36bc5cee203bdfcc9b409a1a:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-1.png?241205",
+          "alt": "プラン1間取り図1階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "ec421c535df3b3d8a2dfd11c6225e40a7ff002e325fdc1a31dce1e86b3b075b7",
+      "title": "プラン1間取り図2階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-2.png?241205"
+      ],
+      "imageCandidates": [
+        {
+          "id": "ec421c535df3b3d8a2dfd11c6225e40a7ff002e325fdc1a31dce1e86b3b075b7:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-2.png?241205",
+          "alt": "プラン1間取り図2階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "24076945c0d595d6c0424d417e0bb6e58ee630302dce3e1147a40a6cde66265d",
+      "title": "プラン2間取り図1階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02-1.png?241206"
+      ],
+      "imageCandidates": [
+        {
+          "id": "24076945c0d595d6c0424d417e0bb6e58ee630302dce3e1147a40a6cde66265d:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02-1.png?241206",
+          "alt": "プラン2間取り図1階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "0a13567d12b5ca20e3e18d13fea89d469338c1d748724662cdd831e85eed3d08",
+      "title": "プラン3間取り図1階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0a13567d12b5ca20e3e18d13fea89d469338c1d748724662cdd831e85eed3d08:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-1.png",
+          "alt": "プラン3間取り図1階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2063a892a41f9733f6cc6ed7f2c6be123edef0b0ed528ac6808068b3a2432416",
+      "title": "プラン3間取り図2階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2063a892a41f9733f6cc6ed7f2c6be123edef0b0ed528ac6808068b3a2432416:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-2.png",
+          "alt": "プラン3間取り図2階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b5ed88c9fbaa7a49702a061f6e9491c913b37310edc634e5800f8ffebba1792e",
+      "title": "プラン4間取り図1階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04-1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b5ed88c9fbaa7a49702a061f6e9491c913b37310edc634e5800f8ffebba1792e:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04-1.png",
+          "alt": "プラン4間取り図1階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "993059e5bf7c8a1d57ebd847191f32d1d8f69c33712710f9f70347542d743cb2",
+      "title": "プラン5間取り図1階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "993059e5bf7c8a1d57ebd847191f32d1d8f69c33712710f9f70347542d743cb2:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-1.png",
+          "alt": "プラン5間取り図1階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "c8d2697b5ecf4612eb19b642f5470ecc3a1b3c94f5ff19d402d7cbe60df8c6dd",
+      "title": "プラン5間取り図2階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "c8d2697b5ecf4612eb19b642f5470ecc3a1b3c94f5ff19d402d7cbe60df8c6dd:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-2.png",
+          "alt": "プラン5間取り図2階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e4dba76623c6c18cad2d8023a51aa1466b66a09330f166d7d53bf6c4a602d134",
+      "title": "プラン5間取り図3階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-3.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e4dba76623c6c18cad2d8023a51aa1466b66a09330f166d7d53bf6c4a602d134:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-3.png",
+          "alt": "プラン5間取り図3階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e8e38aba9c9148816db318293a68a7cdd2f0e5035c602a77745eb3087ae3f1aa",
+      "title": "プラン6間取り図1階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e8e38aba9c9148816db318293a68a7cdd2f0e5035c602a77745eb3087ae3f1aa:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-1.png",
+          "alt": "プラン6間取り図1階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "519987dc559778c466542c756bfa6b4a059ee1b53e2313e1832bea8b49a1a379",
+      "title": "プラン7間取り図1階",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店 間取りLP",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "519987dc559778c466542c756bfa6b4a059ee1b53e2313e1832bea8b49a1a379:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-1.png",
+          "alt": "プラン7間取り図1階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "007e88b212d9e97f03a814961e198cadbb93d62c4e8d7d0588c9678deccd9989",
+      "title": "imgsrc1677_1",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
+      "company": "discovered www.forumu.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/1677/madori_02.png?v=1735437185353"
+      ],
+      "imageCandidates": [
+        {
+          "id": "007e88b212d9e97f03a814961e198cadbb93d62c4e8d7d0588c9678deccd9989:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/1677/madori_02.png?v=1735437185353",
+          "alt": "imgsrc1677_1",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "7825c58f9f4a7716fdd05ea3872ea77c3d03d4f385ef4cc356b78af1a67fcee3",
+      "title": " \n                  \n                   \n                   \n                 ",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
+      "company": "discovered www.forumu.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/1678/madori_02.png?v=1735437185353"
+      ],
+      "imageCandidates": [
+        {
+          "id": "7825c58f9f4a7716fdd05ea3872ea77c3d03d4f385ef4cc356b78af1a67fcee3:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/1678/madori_02.png?v=1735437185353",
+          "alt": " \n                  \n                   \n                   \n                 ",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2ce86fef2b626d4e3558a45d3b6bdbfbd6c1b7fd40cf0ea4b4becdf6eddaad0c",
+      "title": "imgsrc1698_1",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
+      "company": "discovered www.forumu.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/1698/madori_05.png?v=1735437185353"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2ce86fef2b626d4e3558a45d3b6bdbfbd6c1b7fd40cf0ea4b4becdf6eddaad0c:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/1698/madori_05.png?v=1735437185353",
+          "alt": "imgsrc1698_1",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d73a7fe8a563fa5a8ec6b019f41bb763eabff0c4fcabfe5007b2eb9879c8cf95",
+      "title": " \n                  \n                   \n                   \n                 ",
+      "listingSource": "accepted forumu.co.jp",
+      "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
+      "company": "discovered www.forumu.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.forumu.co.jp/_src/1699/madori_05.png?v=1735437185353"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d73a7fe8a563fa5a8ec6b019f41bb763eabff0c4fcabfe5007b2eb9879c8cf95:image",
+          "kind": "floorplan",
+          "url": "https://www.forumu.co.jp/_src/1699/madori_05.png?v=1735437185353",
+          "alt": " \n                  \n                   \n                   \n                 ",
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "4525629f16d78b78cf8fb5e1651ae733697e2c6dad9412612600b736a5ac336d",
+      "title": "平屋の間取り",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "、建築家などの情報をピックアップしていきます。住宅展示場のモデルハウスを訪ね、実",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4525629f16d78b78cf8fb5e1651ae733697e2c6dad9412612600b736a5ac336d:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_02.jpg",
+          "alt": "平屋の間取り",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1916beceb55cab122270c56794bf8199890bc22f41b1dca52c49978798cf300a",
+      "title": "平屋の間取り",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "、建築家などの情報をピックアップしていきます。住宅展示場のモデルハウスを訪ね、実",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_03.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1916beceb55cab122270c56794bf8199890bc22f41b1dca52c49978798cf300a:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_03.png",
+          "alt": "平屋の間取り",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bd60fb50e9df4cf9377fd72090898c0bb0fca19131be9230da734d1798018068",
+      "title": "平屋の間取り",
+      "listingSource": "accepted sfc.jp",
+      "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "company": "、建築家などの情報をピックアップしていきます。住宅展示場のモデルハウスを訪ね、実",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://sfc.jp/ie/myhome/img/292_04.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bd60fb50e9df4cf9377fd72090898c0bb0fca19131be9230da734d1798018068:image",
+          "kind": "floorplan",
+          "url": "https://sfc.jp/ie/myhome/img/292_04.jpg",
+          "alt": "平屋の間取り",
+          "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-27T06:22:04.144Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    }
+  ],
+  "logs": [
+    {
+      "id": "accepted_public_1782541324589",
+      "createdAt": "2026-06-27T06:22:04.587Z",
+      "siteName": "accepted-floorplans",
+      "domain": "-",
+      "url": "data/accepted-floorplans.jsonl",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "Accepted floorplans only: 18 records."
+    }
+  ]
+}

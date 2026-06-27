@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "endpoint": "http://127.0.0.1:11434",
-  "model": "llava:latest",
+  "model": "llama3.2-vision:11b",
   "fallbackVisionModels": [
     "llama3.2-vision",
     "llava",
@@ -9,12 +9,12 @@
     "moondream",
     "bakllava"
   ],
-  "maxImages": 80,
-  "minConfidence": 0.65,
-  "keepUnchecked": true,
+  "maxImages": 1000,
+  "minConfidence": 0.85,
+  "keepUnchecked": false,
   "removeRejected": true,
-  "requestDelayMs": 700,
+  "requestDelayMs": 1000,
   "fetchTimeoutSeconds": 20,
-  "ollamaTimeoutSeconds": 60,
+  "ollamaTimeoutSeconds": 90,
   "maxImageBytes": 3000000
 }

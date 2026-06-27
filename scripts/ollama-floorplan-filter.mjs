@@ -156,12 +156,16 @@ async function reviewImage(endpoint, model, image, settings) {
   try {
     const base64 = await fetchImageBase64(imageUrl, settings.fetchTimeoutMs, settings.maxImageBytes);
     const prompt = [
-      "You are filtering images for a private Japanese residential floor-plan library.",
-      "Decide whether the image is primarily a house floor plan, blueprint, top-view layout, or architectural plan drawing.",
-      "Reject exterior photos, interior photos, icons, logos, maps, charts, banners, lifestyle photos, and generic illustrations.",
-      "Reject single-room illustrations, isometric room scenes, catalog covers, and 3D interior renderings unless they are clearly a whole-house top-view plan drawing.",
-      "Return only compact JSON with keys: isFloorplan, confidence, reason.",
-      "Use confidence from 0 to 1."
+      "You are classifying real-estate images.",
+      "Return strict JSON only. Do not include markdown.",
+      "Classify the image into exactly one category: floorplan, site_plan_only, exterior_photo, interior_photo, kitchen_photo, bathroom_photo, bedroom_photo, living_room_photo, 3d_render, map, chart, banner, logo, youtube_thumbnail, other.",
+      "A valid floorplan must be a top-down architectural plan of a house or apartment.",
+      "It usually contains rooms, walls, doors, stairs, labels, dimensions, or room names.",
+      "Reject exterior photos, interior photos, perspective renderings, maps, banners, thumbnails, logos, charts, decorative images, and photographs.",
+      "Important: If the image is only an exterior or interior photo, isFloorplan must be false.",
+      "Important: If the page context says floor plan but the image itself is a photo, isFloorplan must be false.",
+      "Important: If unsure, use confidence below 0.85.",
+      "Return: {\"category\":\"...\",\"isFloorplan\":true,\"isTopDownPlan\":true,\"hasRoomLabels\":true,\"hasWallsOrRoomBoundaries\":true,\"visibleRooms\":[\"LDK\"],\"confidence\":0.0,\"reason\":\"short reason\"}"
     ].join(" ");
     const response = await fetchWithTimeout(
       `${endpoint}/api/generate`,
@@ -213,7 +217,12 @@ function parseReview(text) {
     try {
       const parsed = JSON.parse(jsonMatch[0]);
       return {
+        category: String(parsed.category ?? (parsed.isFloorplan ? "floorplan" : "other")),
         isFloorplan: Boolean(parsed.isFloorplan),
+        isTopDownPlan: parsed.isTopDownPlan === true,
+        hasRoomLabels: parsed.hasRoomLabels === true,
+        hasWallsOrRoomBoundaries: parsed.hasWallsOrRoomBoundaries === true,
+        visibleRooms: Array.isArray(parsed.visibleRooms) ? parsed.visibleRooms.slice(0, 12).map(String) : [],
         confidence: clampConfidence(parsed.confidence),
         reason: String(parsed.reason ?? "").slice(0, 180)
       };
@@ -223,7 +232,12 @@ function parseReview(text) {
   }
   const isFloorplan = /\btrue\b|yes|floor plan|blueprint|layout|間取り|平面図/i.test(text) && !/\bfalse\b|not a|photo|logo|icon/i.test(text);
   return {
+    category: isFloorplan ? "floorplan" : "other",
     isFloorplan,
+    isTopDownPlan: isFloorplan,
+    hasRoomLabels: false,
+    hasWallsOrRoomBoundaries: isFloorplan,
+    visibleRooms: [],
     confidence: isFloorplan ? 0.7 : 0.3,
     reason: text.replace(/\s+/g, " ").trim().slice(0, 180)
   };

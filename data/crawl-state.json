@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "domains": {},
+  "commonCrawl": {
+    "processedIndexes": []
+  },
+  "pdf": {
+    "processedUrls": []
+  },
+  "updatedAt": null
+}

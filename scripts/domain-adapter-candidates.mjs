@@ -1,0 +1,78 @@
+#!/usr/bin/env node
+import { readFile } from "node:fs/promises";
+import { candidateImageId, getDomain, normalizeWhitespace } from "./lib/hash-utils.mjs";
+import { extractImageCandidatesFromHtml } from "./lib/html-image-extractor.mjs";
+import { extractMetadata, sourceSnippet } from "./lib/metadata-extractor.mjs";
+import { upsertJsonlById } from "./lib/jsonl-store.mjs";
+
+const args = parseArgs(process.argv.slice(2));
+
+main().catch((error) => {
+  console.error(error instanceof Error ? error.message : error);
+  process.exit(1);
+});
+
+async function main() {
+  const adapters = await readOptionalJson(args.adapters ?? "data/source-adapters.json");
+  const out = args.out ?? "data/candidate-images.jsonl";
+  const maxPages = Number(args.maxPages ?? 20);
+  const records = [];
+  for (const [domain, adapter] of Object.entries(adapters)) {
+    if (!adapter.enabled) continue;
+    const pageUrls = (adapter.seedUrls || []).slice(0, maxPages);
+    for (const pageUrl of pageUrls) {
+      let html = "";
+      try {
+        const response = await fetch(pageUrl);
+        if (!response.ok) continue;
+        html = await response.text();
+      } catch {
+        continue;
+      }
+      for (const image of extractImageCandidatesFromHtml(html, pageUrl, { sourceType: "adapter" })) {
+        const text = normalizeWhitespace(`${image.nearImageText} ${adapter.contextSelectors?.join(" ") || ""}`);
+        records.push({
+          ...image,
+          id: candidateImageId(image),
+          status: "candidate",
+          firstSeenAt: new Date().toISOString(),
+          lastSeenAt: new Date().toISOString(),
+          sourceType: "adapter",
+          sourceDomain: getDomain(pageUrl) || domain,
+          companyName: adapter.companyName || domain,
+          discoveredFrom: "domain-adapter",
+          title: image.alt || image.pageTitle || `${domain} adapter candidate`,
+          nearImageText: text,
+          sourceSnippet: sourceSnippet(text),
+          metadata: extractMetadata({ title: image.pageTitle, nearImageText: text, alt: image.alt })
+        });
+      }
+    }
+  }
+  const result = await upsertJsonlById(out, records);
+  console.log(`Domain adapter candidates: ${records.length}. ${out}: ${result.before} -> ${result.after}`);
+}
+
+async function readOptionalJson(filePath) {
+  try {
+    return JSON.parse(await readFile(filePath, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+function parseArgs(argv) {
+  const result = {};
+  for (let i = 0; i < argv.length; i += 1) {
+    const item = argv[i];
+    if (!item.startsWith("--")) continue;
+    const key = item.slice(2).replace(/-([a-z])/g, (_, char) => char.toUpperCase());
+    const next = argv[i + 1];
+    if (!next || next.startsWith("--")) result[key] = true;
+    else {
+      result[key] = next;
+      i += 1;
+    }
+  }
+  return result;
+}
