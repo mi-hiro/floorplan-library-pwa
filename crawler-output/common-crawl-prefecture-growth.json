@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-28T12:03:31.479Z",
+  "source": "local-crawler",
+  "candidates": [],
+  "logs": [
+    {
+      "id": "log_38bfe4d9-d4a8-416e-aab8-6e16ee46927e",
+      "createdAt": "2026-06-28T11:59:41.440Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "zerohome.jp/chumon/plan/plan04/*: This operation was aborted"
+    },
+    {
+      "id": "log_11c25fba-f5e4-4cd4-ba5e-4236f2b8769e",
+      "createdAt": "2026-06-28T11:59:51.453Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ichijo.co.jp/lp/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_6197c6d0-5c2e-46fe-a6b1-975867cb5e31",
+      "createdAt": "2026-06-28T12:00:01.456Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "irohaie.com/floor-plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_765ba1e3-2806-46d4-8665-6fedc4f1884c",
+      "createdAt": "2026-06-28T12:00:11.457Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.misawa.co.jp/kodate/guide/hiraya/madori.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_6186ddaf-84b8-48c3-a2fb-20829e1721b3",
+      "createdAt": "2026-06-28T12:00:21.459Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.toyotahome.co.jp%2Fchumon%2Fhowto%2Fmadori%2Fdesign%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.toyotahome.co.jp/chumon/howto/madori/design/*: This operation was aborted"
+    },
+    {
+      "id": "log_40fbd551-5fd2-4c0d-9ccf-af9c094d27c5",
+      "createdAt": "2026-06-28T12:00:31.461Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.aidagroup.co.jp%2Forder%2Fmadori_plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.aidagroup.co.jp/order/madori_plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_6e771968-642b-4898-b123-36b77a32d0fe",
+      "createdAt": "2026-06-28T12:00:41.462Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.megasoft.co.jp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.megasoft.co.jp/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_b40388ad-6860-4cf5-928f-903b9d4bbd98",
+      "createdAt": "2026-06-28T12:00:51.463Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuiheim.com%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuiheim.com/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_054203f6-cbc8-4be2-b678-e50aa732e832",
+      "createdAt": "2026-06-28T12:01:01.464Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=genmai-home.com%2Ffloorplan1%2F21%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "genmai-home.com/floorplan1/21/*: This operation was aborted"
+    },
+    {
+      "id": "log_79a39183-7bcb-44f2-a24f-b90d9c82f8c4",
+      "createdAt": "2026-06-28T12:01:11.465Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.forumu.co.jp%2Fmadori%2Fmadori-02.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.forumu.co.jp/madori/madori-02.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_88364f87-54d0-4bdb-8a14-2f9abee179da",
+      "createdAt": "2026-06-28T12:01:21.467Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ibaraki-heim.co.jp%2Finterview%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ibaraki-heim.co.jp/interview/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_367326bb-4574-4c17-9a25-30b1e7ddae74",
+      "createdAt": "2026-06-28T12:01:31.467Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=be-enough.jp%2Flayout-example%2F30%25E5%259D%25AA%25EF%25BD%259E%2Fp10009%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/*: This operation was aborted"
+    },
+    {
+      "id": "log_a2ea72fc-4e0b-474a-98f5-c0f528971a0a",
+      "createdAt": "2026-06-28T12:01:41.469Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sfc.jp%2Fie%2Fmyhome%2Farticles%2Fchumon-madori20250930%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "sfc.jp/ie/myhome/articles/chumon-madori20250930/*: This operation was aborted"
+    },
+    {
+      "id": "log_a9e13843-3e7b-4ea5-b041-0aabbfd77b65",
+      "createdAt": "2026-06-28T12:01:51.469Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.marusho-kensetsu.co.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.marusho-kensetsu.co.jp/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_60098baa-222e-479d-abe5-23f6abe42d45",
+      "createdAt": "2026-06-28T12:02:01.470Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.shichiro.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.shichiro.com/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_c538e485-2c01-454f-93d8-f4f21569fbcb",
+      "createdAt": "2026-06-28T12:02:11.471Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.mandai-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.mandai-home.com/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_5a39eccd-4dd0-4b1f-b804-68c26268c3b9",
+      "createdAt": "2026-06-28T12:02:21.471Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuihouse.co.jp%2Fcrepre%2Fgreenfirstoffice%2Fworks01%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuihouse.co.jp/crepre/greenfirstoffice/works01/*: This operation was aborted"
+    },
+    {
+      "id": "log_af448f6a-6c40-4a71-b87c-e25582f442e4",
+      "createdAt": "2026-06-28T12:02:31.472Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eyefulhome.jp%2Fconcept%2Ffavo%2Fcase01.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eyefulhome.jp/concept/favo/case01.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_944734e6-b190-421f-94bb-31235023a9a9",
+      "createdAt": "2026-06-28T12:02:41.473Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=creatorhome.co.jp%2Fworks%2Frasie%2F64%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "creatorhome.co.jp/works/rasie/64/*: This operation was aborted"
+    },
+    {
+      "id": "log_6c5670dd-c8b4-4f11-9b8c-1ee61c8d91cd",
+      "createdAt": "2026-06-28T12:02:51.474Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sumaiida.com%2Fcustomhome%2Fuser_data%2Fcase_twostory%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "sumaiida.com/customhome/user_data/case_twostory/*: This operation was aborted"
+    },
+    {
+      "id": "log_26c066f1-7c6e-436b-bae0-39b0a51a7df5",
+      "createdAt": "2026-06-28T12:03:01.475Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=hamaguri.co.jp%2Fhouse%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "hamaguri.co.jp/house/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_347be307-6c50-4006-a372-4518176a7a46",
+      "createdAt": "2026-06-28T12:03:11.476Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eco-works.jp%2Fworkscat%2Fone-story%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eco-works.jp/workscat/one-story/*: This operation was aborted"
+    },
+    {
+      "id": "log_263899a9-f339-41b8-ad20-986f88836cd1",
+      "createdAt": "2026-06-28T12:03:21.478Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=bell-h.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "bell-h.jp/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_03074a78-3a45-48a3-8066-209e4aa4bcaf",
+      "createdAt": "2026-06-28T12:03:31.478Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=miyazaki1960.com%2Fworks1%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=35",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "miyazaki1960.com/works1/*: This operation was aborted"
+    }
+  ]
+}

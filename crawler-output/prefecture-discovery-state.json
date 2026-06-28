@@ -1,69 +1,69 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-28T09:21:08.352Z",
-  "nextIndex": 1,
+  "updatedAt": "2026-06-28T11:56:21.542Z",
+  "nextIndex": 4,
   "completedRounds": 1,
   "pendingPrefectures": [],
   "pendingQueries": [],
-  "lastPreparedAt": "2026-06-28T09:21:08.352Z",
+  "lastPreparedAt": "2026-06-28T11:56:21.542Z",
   "lastPrefectures": [
-    "青森",
-    "北海道",
-    "宮崎"
+    "福岡",
+    "鹿児島",
+    "熊本"
   ],
   "lastQueries": [
     {
-      "prefecture": "青森",
-      "query": "青森 注文住宅 間取り 工務店"
+      "prefecture": "福岡",
+      "query": "福岡 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "青森",
-      "query": "青森 新築 平屋 間取り"
+      "prefecture": "福岡",
+      "query": "福岡 新築 平屋 間取り"
     },
     {
-      "prefecture": "青森",
-      "query": "青森 工務店 施工事例 間取り"
+      "prefecture": "福岡",
+      "query": "福岡 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "青森",
-      "query": "青森 住宅会社 建築実例 間取り"
+      "prefecture": "福岡",
+      "query": "福岡 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "北海道",
-      "query": "北海道 注文住宅 間取り 工務店"
+      "prefecture": "鹿児島",
+      "query": "鹿児島 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "北海道",
-      "query": "北海道 新築 平屋 間取り"
+      "prefecture": "鹿児島",
+      "query": "鹿児島 新築 平屋 間取り"
     },
     {
-      "prefecture": "北海道",
-      "query": "北海道 工務店 施工事例 間取り"
+      "prefecture": "鹿児島",
+      "query": "鹿児島 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "北海道",
-      "query": "北海道 住宅会社 建築実例 間取り"
+      "prefecture": "鹿児島",
+      "query": "鹿児島 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "宮崎",
-      "query": "宮崎 注文住宅 間取り 工務店"
+      "prefecture": "熊本",
+      "query": "熊本 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "宮崎",
-      "query": "宮崎 新築 平屋 間取り"
+      "prefecture": "熊本",
+      "query": "熊本 新築 平屋 間取り"
     },
     {
-      "prefecture": "宮崎",
-      "query": "宮崎 工務店 施工事例 間取り"
+      "prefecture": "熊本",
+      "query": "熊本 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "宮崎",
-      "query": "宮崎 住宅会社 建築実例 間取り"
+      "prefecture": "熊本",
+      "query": "熊本 住宅会社 建築実例 間取り"
     }
   ],
   "totals": {
     "prefectures": 47,
-    "runs": 16
+    "runs": 17
   },
   "runs": [
     {
@@ -241,6 +241,17 @@
       "queryCount": 12,
       "startIndex": 45,
       "nextIndex": 1
+    },
+    {
+      "createdAt": "2026-06-28T11:56:21.541Z",
+      "prefectures": [
+        "福岡",
+        "鹿児島",
+        "熊本"
+      ],
+      "queryCount": 12,
+      "startIndex": 1,
+      "nextIndex": 4
     }
   ]
 }
