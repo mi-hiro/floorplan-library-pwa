@@ -78,14 +78,14 @@
   },
   "forumu.co.jp": {
     "candidateCount": 555,
-    "acceptedCount": 51,
+    "acceptedCount": 61,
     "rejectedCount": 276,
     "reviewCount": 318,
-    "acceptanceRate": 0.092,
+    "acceptanceRate": 0.11,
     "lastCrawledAt": "2026-06-27T18:35:53.815Z",
     "blockReason": null,
     "nextCrawlAfter": null,
-    "sourceQuality": "low"
+    "sourceQuality": "medium"
   },
   "sfc.jp": {
     "candidateCount": 89,
@@ -166,10 +166,10 @@
   },
   "toyotahome.co.jp": {
     "candidateCount": 2007,
-    "acceptedCount": 16,
+    "acceptedCount": 31,
     "rejectedCount": 799,
     "reviewCount": 1234,
-    "acceptanceRate": 0.008,
+    "acceptanceRate": 0.015,
     "lastCrawledAt": "2026-06-27T18:35:45.313Z",
     "blockReason": null,
     "nextCrawlAfter": null,
