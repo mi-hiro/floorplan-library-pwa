@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T09:06:36.542Z",
+  "generatedAt": "2026-06-28T11:37:35.389Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -3496,7 +3496,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3529,7 +3529,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3562,7 +3562,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3595,7 +3595,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3661,7 +3661,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3694,7 +3694,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3727,7 +3727,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7505,18 +7505,513 @@
       "fetchedAt": "2026-06-28T09:05:35.078Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "7283c43e1e0fb6eb6989429e74e2ab7b47e93cf6190b79feb2d73bd41a42da5c",
+      "title": "平屋のリビングイメージ：広く明るいリビングには勾配天井を採用",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori_fv.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "7283c43e1e0fb6eb6989429e74e2ab7b47e93cf6190b79feb2d73bd41a42da5c:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori_fv.png",
+          "alt": "平屋のリビングイメージ：広く明るいリビングには勾配天井を採用",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e3af081202829f74d3b91583e1798a7e90051e61b8c850f5c460de262597c767",
+      "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e3af081202829f74d3b91583e1798a7e90051e61b8c850f5c460de262597c767:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.png",
+          "alt": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1c31b8f5742481e4077ade42cd52fe691b0f86549483eab9b3deca439ce06396",
+      "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1.5階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1c31b8f5742481e4077ade42cd52fe691b0f86549483eab9b3deca439ce06396:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.png",
+          "alt": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1.5階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e707ba94c28d08a5a7d88e42d81f579482cce996ce8685982baf6dd1c41a1e52",
+      "title": "SMART STYLE Roomie 29-1SE(SW)-2 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e707ba94c28d08a5a7d88e42d81f579482cce996ce8685982baf6dd1c41a1e52:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.png",
+          "alt": "SMART STYLE Roomie 29-1SE(SW)-2 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "58acdc8fd6557507f69ca3c2e07cfbd9d608ee9ecb1b24eaff725206a54c2664",
+      "title": "SMART STYLE Roomie 29-1SE(SW)-2 1.5階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "58acdc8fd6557507f69ca3c2e07cfbd9d608ee9ecb1b24eaff725206a54c2664:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.png",
+          "alt": "SMART STYLE Roomie 29-1SE(SW)-2 1.5階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bd2d750d0cdf5b76cdd0193e6aa61733493b7bc25448723c73945af303b118a1",
+      "title": "SMART STYLE 25-1W(E)-1 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bd2d750d0cdf5b76cdd0193e6aa61733493b7bc25448723c73945af303b118a1:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.png",
+          "alt": "SMART STYLE 25-1W(E)-1 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "60d050954e283851647fae0798ff45439a561a524f71b7a8d3bb06b5f88055aa",
+      "title": "SMART STYLE 25-1W(E)-1 1.5階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "60d050954e283851647fae0798ff45439a561a524f71b7a8d3bb06b5f88055aa:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.png",
+          "alt": "SMART STYLE 25-1W(E)-1 1.5階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b0408fc7b3684be42d070ff9d94d864654f71cf786e08d3a52bad33df00705dd",
+      "title": "SMART STYLE Roomie 27-1SE-1 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b0408fc7b3684be42d070ff9d94d864654f71cf786e08d3a52bad33df00705dd:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.png",
+          "alt": "SMART STYLE Roomie 27-1SE-1 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "f94fd9fe661d10b0de33ce660431cb826f31b71e64510838dc6df31810f75242",
+      "title": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "f94fd9fe661d10b0de33ce660431cb826f31b71e64510838dc6df31810f75242:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.png",
+          "alt": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b7a8e36177c0bcd2d7f283f32af080d26d0fb278af455c7627e8f1311f6d0e15",
+      "title": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1.5階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b7a8e36177c0bcd2d7f283f32af080d26d0fb278af455c7627e8f1311f6d0e15:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.png",
+          "alt": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1.5階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e26a9ae788524f0492b1c44e4f47c2a3437c3e75e5bbe0a024a89c49de18ab9f",
+      "title": "25坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-02.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e26a9ae788524f0492b1c44e4f47c2a3437c3e75e5bbe0a024a89c49de18ab9f:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-02.png",
+          "alt": "25坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e019c92ac257bd1f69a4dab2fb66a5d9249472cedadd64f4dd7b6fa9e238a044",
+      "title": "25坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-03.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e019c92ac257bd1f69a4dab2fb66a5d9249472cedadd64f4dd7b6fa9e238a044:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-03.png",
+          "alt": "25坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "26fe58816dce085e04bdd0c61a22b7996bd85d095fab7ffaf9409b6047d0f820",
+      "title": "ゆとりある30坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-04.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "26fe58816dce085e04bdd0c61a22b7996bd85d095fab7ffaf9409b6047d0f820:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-04.png",
+          "alt": "ゆとりある30坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a41ad10817259e6a6cf89ec176fbf7b73a9e31a34e6db01d56c42608dd4a4807",
+      "title": "趣味や客間も備えた平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-05.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a41ad10817259e6a6cf89ec176fbf7b73a9e31a34e6db01d56c42608dd4a4807:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-05.jpg",
+          "alt": "趣味や客間も備えた平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3d989ce92ea5783146f63301a5543dc5b86570f4765d1c4c906395b3c5f1ca21",
+      "title": "こだわりを実現する平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-06.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3d989ce92ea5783146f63301a5543dc5b86570f4765d1c4c906395b3c5f1ca21:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-06.png",
+          "alt": "こだわりを実現する平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782637596544",
-      "createdAt": "2026-06-28T09:06:36.542Z",
+      "id": "accepted_public_1782646655391",
+      "createdAt": "2026-06-28T11:37:35.389Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 222 records."
+      "message": "Accepted floorplans only: 237 records."
     }
   ]
 }

@@ -143,15 +143,15 @@
     "sourceQuality": "low"
   },
   "megasoft.co.jp": {
-    "candidateCount": 77,
+    "candidateCount": 120,
     "acceptedCount": 9,
-    "rejectedCount": 47,
-    "reviewCount": 32,
-    "acceptanceRate": 0.117,
+    "rejectedCount": 67,
+    "reviewCount": 55,
+    "acceptanceRate": 0.075,
     "lastCrawledAt": "2026-06-28T09:22:50.056Z",
     "blockReason": "Failed to parse URL from <![CDATA[https://www.megasoft.co.jp/post-sitemap.xml]]>",
     "nextCrawlAfter": "2026-06-29T09:22:50.056Z",
-    "sourceQuality": "medium"
+    "sourceQuality": "low"
   },
   "irohaie.com": {
     "candidateCount": 617,
@@ -364,10 +364,10 @@
   },
   "aerahome.com": {
     "candidateCount": 151,
-    "acceptedCount": 0,
+    "acceptedCount": 5,
     "rejectedCount": 29,
     "reviewCount": 1,
-    "acceptanceRate": 0,
+    "acceptanceRate": 0.033,
     "lastCrawledAt": "2026-06-28T09:24:56.983Z",
     "blockReason": null,
     "nextCrawlAfter": null,

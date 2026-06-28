@@ -269,8 +269,13 @@ function hasAcceptanceEvidence(candidate, visual) {
   if (/madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(imageSignal)) {
     return true;
   }
+  if (hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.55 && !isGenericPhotoFile(fileSignal)) return true;
   if (titleSignal.length <= 60 && /間取り図|平面図|図面|注文住宅の間取り|^平屋の間取り$/.test(titleSignal) && visual.visualScore >= 0.55 && !isGenericPhotoFile(fileSignal)) return true;
   return false;
+}
+
+function hasTitlePlanEvidence(titleSignal) {
+  return titleSignal.length <= 80 && /間取り図|平面図|図面|注文住宅の間取り|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)|^平屋の間取り$/.test(titleSignal);
 }
 
 function countDomainOllamaErrors(candidates) {
@@ -292,6 +297,7 @@ function orderCandidatesForPromotion(candidates, domainOllamaErrors) {
       const domainSeen = Number(seenDomains.get(domain) || 0);
       seenDomains.set(domain, domainSeen + 1);
       const { imageSignal, titleSignal, allSignal } = acceptanceSignals(candidate);
+      const titlePlanEvidence = hasTitlePlanEvidence(titleSignal);
       const explicitPlanScore = /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm/i.test(imageSignal) ||
         (titleSignal.length <= 60 && /間取り図|平面図|図面|注文住宅の間取り|^平屋の間取り$/.test(titleSignal))
         ? 0.35
@@ -303,7 +309,7 @@ function orderCandidatesForPromotion(candidates, domainOllamaErrors) {
       const alreadyCheckedPenalty = candidate.ollamaReview?.status === "checked" ? 0.4 : 0;
       const pdfPenalty = isPdfCandidate(candidate) ? 1 : 0;
       const diversityPenalty = Math.min(0.35, domainSeen * 0.03);
-      const priority = visual.visualScore + explicitPlanScore - rejectPenalty - errorPenalty - alreadyCheckedPenalty - pdfPenalty - diversityPenalty;
+      const priority = visual.visualScore + Math.max(explicitPlanScore, titlePlanEvidence ? 0.35 : 0) - rejectPenalty - errorPenalty - alreadyCheckedPenalty - pdfPenalty - diversityPenalty;
       return { candidate, index, priority };
     })
     .sort((a, b) => b.priority - a.priority || a.index - b.index)

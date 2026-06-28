@@ -87,7 +87,7 @@ function hasStrongPlanEvidence(record) {
   const fileName = url.split(/[/?#]/)[0].split("/").filter(Boolean).pop() || url;
   const title = String(record.title || "").toLowerCase();
   if (title.length <= 70 && /^平屋の間取り$/.test(title)) return true;
-  if (title.length <= 90 && /間取りの(?:１|1|２|2|３|3|一|二|三)?階部分|注文住宅の間取り|間取り図plan|平面図|図面/i.test(title)) return true;
+  if (title.length <= 90 && /間取りの(?:１|1|２|2|３|3|一|二|三)?階部分|注文住宅の間取り|間取り図plan|平面図|図面|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)/i.test(title)) return true;
   if (/floor_plan|topview_plan|madori|drawing|plan[_-]?[0-9]|pic_small_pl_p[0-9]/i.test(url)) return true;
   return false;
 }

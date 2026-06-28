@@ -143,5 +143,18 @@
     "rejectUrlPatterns": ["_1b|_3b|_4b|_6s|_9s|around|icon|logo"],
     "contextSelectors": [".estate", ".contents", ".main"],
     "rejectSelectors": [".banner", ".footer"]
+  },
+  "aerahome.com": {
+    "enabled": true,
+    "quality": "medium",
+    "companyName": "アエラホーム",
+    "seedUrls": [
+      "https://aerahome.com/column/plannig/250709131/"
+    ],
+    "pagePatterns": ["/column/plannig/"],
+    "acceptUrlPatterns": ["column131-0[2-6]\\.(png|jpg)"],
+    "rejectUrlPatterns": ["logo|menu|icon|column131-01|column131-07|column131-08|column131-09|column131-10|column131-11|column131-12|150x150|300x200|768x512|1024x683|1536x1024|pic-|fv/"],
+    "contextSelectors": [".column", ".contents", ".main"],
+    "rejectSelectors": [".banner", ".footer"]
   }
 }

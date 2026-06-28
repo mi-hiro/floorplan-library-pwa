@@ -1,0 +1,1371 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-28T11:19:13.121Z",
+  "source": "local-crawler",
+  "candidates": [
+    {
+      "id": "candidate_f9534d457c4e290d",
+      "title": "間取りテスト04 | IROHA.IE",
+      "listingSource": "irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/1970/",
+      "company": "irohaie.com",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/IMG_8793.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_d52791d144316591",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/IMG_8793.jpg",
+          "alt": "<img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.o",
+          "sourceUrl": "https://irohaie.com/floor-plan/1970/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:06.250Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: irohaie.com/floor-plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_3a5cdfde53f8e7a4",
+      "title": "無駄なく快適に暮らすためのコンパクトな平屋 | IROHA.IE",
+      "listingSource": "irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/2071/",
+      "company": "irohaie.com",
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_fbe8e142aad9c65e",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://irohaie.com/floor-plan/2071/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:07.366Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: irohaie.com/floor-plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_b9c45371b07a33d0",
+      "title": "ファミリークローゼットをおうちの中心に設えた収納上手な家 | IROHA.IE",
+      "listingSource": "irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/2073/",
+      "company": "irohaie.com",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_de649602277ee0c2",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://irohaie.com/floor-plan/2073/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:07.520Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: irohaie.com/floor-plan/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_69c12352d0e66aae",
+      "title": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-2F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_7cc700fd78caa9f4",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/"
+        },
+        {
+          "id": "image_candidate_c1008dd8a2d31937",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-2F.jpg",
+          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/"
+        },
+        {
+          "id": "image_candidate_973227860a9eb5b2",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg",
+          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:07.673Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_fdd69c57369a8b91",
+      "title": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
+      "company": "megasoft.co.jp",
+      "layout": "2LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-2F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-3F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_7a279455a882aedb",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/"
+        },
+        {
+          "id": "image_candidate_3ae3466ef6c8e151",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-2F.jpg",
+          "alt": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/"
+        },
+        {
+          "id": "image_candidate_6bacf915f507d03d",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-3F.jpg",
+          "alt": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:07.816Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_856ed9f388bf9b47",
+      "title": "【間取り・注文住宅プラン】間口が3.0間（5460㎜）とれる敷地に建てられる標準的な3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e018/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-1F-1.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_169ebb5eb7a5f847",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-1F-1.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e018/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_4ba4c8e5a508674f",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】間口が3.0間（5460㎜）とれる敷地に建てられる標準的な3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e018/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:08.030Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_521d8c27ba7442ef",
+      "title": "【間取り・注文住宅プラン】キッチンの近くに和室を配置した、4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e037/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_4d601b291703e452",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e037/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_074019edc0d51600",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】キッチンの近くに和室を配置した、4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e037/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:08.185Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_aa48f51de22a96fe",
+      "title": "【間取り・注文住宅プラン】間口3.5間(6370㎜)に建てる、標準的な3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e039/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_434e24fb43c7be36",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e039/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_6c6a16e32e0e84b9",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】間口3.5間(6370㎜)に建てる、標準的な3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e039/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:08.333Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_a8a2066a60b506d2",
+      "title": "【間取り・注文住宅プラン】コンパクトな敷地に建つ3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e043/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_c4206de5c45627b1",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e043/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_69dfb5a5569b42e3",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】コンパクトな敷地に建つ3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e043/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:08.478Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_75ef5fb565585f1d",
+      "title": "【間取り・注文住宅プラン】浴室と洗面所を二階に配置した4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_419354ddca2afac9",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_084c1c434ede8818",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】浴室と洗面所を二階に配置した4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:08.624Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_8f211ec337331e35",
+      "title": "【間取り・注文住宅プラン】広めのデッキがある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e053/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_9eb52777e00545a1",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e053/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_3d8326f1e7e5f4c0",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広めのデッキがある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e053/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:09.205Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_d190f0b4cc1a319d",
+      "title": "【間取り・注文住宅プラン】二階に浴室と洗面所がある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_5dda217eecfe5f93",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_9c7e9339c193206f",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階に浴室と洗面所がある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:09.351Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_31b33e9b2684abfd",
+      "title": "【間取り・注文住宅プラン】二階ホールに書斎として使えるカウンターを備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_c1f6fe416c54fdc7",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_2feeb115e1135784",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階ホールに書斎として使えるカウンターを備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:09.496Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_1e2e52efd232e766",
+      "title": "【間取り・注文住宅プラン】リビングの横にリモートコーナーを配した、広いリビングのある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e087/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_3c05ccae502854a5",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e087/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_4871cbb970c2f8b6",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングの横にリモートコーナーを配した、広いリビングのある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e087/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:09.642Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_dd38bbebb3577376",
+      "title": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e089/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_92cd2e5785960273",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e089/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_a46327101468bf3d",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e089/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:09.786Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_6651b347794e575f",
+      "title": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e090/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_bc8ec44b03060039",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e090/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_04aa761f22c2cd97",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e090/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:09.933Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_a3379c636d958eef",
+      "title": "【間取り・注文住宅プラン】カーポートと大きなデッキのある3LDKのプラン – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e096/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_5e84c649e9acc765",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e096/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_748fcf22a41f8fb3",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】カーポートと大きなデッキのある3LDKのプラン – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e096/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:10.079Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_0ba305802ab1fe6f",
+      "title": "【間取り・注文住宅プラン】リビングに隣り合う和室のある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e104/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_db5040cf81a04b78",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e104/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_e11e957e499f4ea2",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングに隣り合う和室のある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e104/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:10.224Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_ccaee857099517f3",
+      "title": "【間取り・注文住宅プラン】リビングとつながった和室のある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e111/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_358787b84c594c99",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e111/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_9649a9dd4371995f",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングとつながった和室のある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e111/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:10.378Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_0b563a507ad68729",
+      "title": "【間取り・注文住宅プラン】カーポートのある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e113/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_da69c49af6c0c7cb",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e113/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_ff8c864a93c1b837",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】カーポートのある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e113/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:10.524Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_0fb1beb000ddc920",
+      "title": "【間取り・注文住宅プラン】充実した収納量が魅力的な4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e115/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_51f80d11cc6ec45c",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e115/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_428fab8696d36649",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】充実した収納量が魅力的な4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e115/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:11.241Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_56c86cc7a0118bea",
+      "title": "【間取り・注文住宅プラン】リビング続きの和室と、設備の充実した主寝室がある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e120/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_54af76a40b2736c5",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e120/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_9824205f5c9a79ba",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング続きの和室と、設備の充実した主寝室がある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e120/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:11.387Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_2b9b9815f74a14a0",
+      "title": "【間取り・注文住宅プラン】二階リビングの4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_3b04083b6b8a5fac",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_0a943a58ea820ce2",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階リビングの4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:11.758Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_19d90302bd9a9f3d",
+      "title": "【間取り・注文住宅プラン】リビング前の広いデッキとセカンドリビングが楽しい4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e148/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_4765570be0a42af7",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e148/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_246eaece19733004",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング前の広いデッキとセカンドリビングが楽しい4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e148/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:12.630Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    },
+    {
+      "id": "candidate_9de67bc34d61c30e",
+      "title": "【間取り・注文住宅プラン】リビング中央から家族を見渡せるリモートコーナーのある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "www.megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e162/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-1F.jpg",
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "image_candidate_315cfa0de1387abc",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-1F.jpg",
+          "alt": "OG image",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e162/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        },
+        {
+          "id": "image_candidate_ee5ddc372fe9a093",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング中央から家族を見渡せるリモートコーナーのある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e162/",
+          "needsOllamaReview": true,
+          "reviewReason": "page-context"
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:19:13.120Z",
+      "errorInfo": "",
+      "memo": "Common Crawl archived HTML. Query: www.megasoft.co.jp/madori/*. Confirm the current source page before saving."
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_88cc4e53-95e3-4b0e-808b-1586e5d0f574",
+      "createdAt": "2026-06-28T11:18:39.308Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_1284613b-6732-42c2-8843-74c8e4a2989c",
+      "createdAt": "2026-06-28T11:18:40.139Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_ed16ce41-e8cf-4abd-8f7d-807acc176ec8",
+      "createdAt": "2026-06-28T11:18:41.059Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "success",
+      "message": "irohaie.com/floor-plan/*: 3 records"
+    },
+    {
+      "id": "log_ead5d82e-03a5-4261-b9ae-29a39fe4be71",
+      "createdAt": "2026-06-28T11:18:41.420Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_2f382226-fb86-4e81-8f93-c8f3bdd47f81",
+      "createdAt": "2026-06-28T11:18:41.753Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.toyotahome.co.jp%2Fchumon%2Fhowto%2Fmadori%2Fdesign%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_75641491-6e22-4525-a78d-699cd092d9c4",
+      "createdAt": "2026-06-28T11:18:42.116Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.aidagroup.co.jp%2Forder%2Fmadori_plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_cdacbe0d-14bf-4899-af24-070e4e77ac3d",
+      "createdAt": "2026-06-28T11:18:42.468Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.megasoft.co.jp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.megasoft.co.jp/madori/*: 30 records"
+    },
+    {
+      "id": "log_66b7b371-475e-436b-9a79-cc0e5dd33d12",
+      "createdAt": "2026-06-28T11:18:42.855Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuiheim.com%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.sekisuiheim.com/madori/*: 21 records"
+    },
+    {
+      "id": "log_7ac7a4a8-9021-438c-ac79-3eda849af597",
+      "createdAt": "2026-06-28T11:18:43.243Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=genmai-home.com%2Ffloorplan1%2F21%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_c73d4a2e-8394-4db6-a4c8-fb57db78bff2",
+      "createdAt": "2026-06-28T11:18:43.590Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.forumu.co.jp%2Fmadori%2Fmadori-02.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_d4c4eae7-6471-47d9-81a5-b0549b33ac15",
+      "createdAt": "2026-06-28T11:18:43.968Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ibaraki-heim.co.jp%2Finterview%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_3a85065a-c9e2-4a22-b84c-5511910be66c",
+      "createdAt": "2026-06-28T11:18:44.312Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=be-enough.jp%2Flayout-example%2F30%25E5%259D%25AA%25EF%25BD%259E%2Fp10009%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_a1803081-ce4d-45b8-b0e5-cc899875b292",
+      "createdAt": "2026-06-28T11:18:44.675Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sfc.jp%2Fie%2Fmyhome%2Farticles%2Fchumon-madori20250930%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "CC-MAIN-2026-25 not available"
+    },
+    {
+      "id": "log_d3567cd9-2a4a-4c9a-a14a-14e118f6bbb7",
+      "createdAt": "2026-06-28T11:18:45.028Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.marusho-kensetsu.co.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.marusho-kensetsu.co.jp/works/*: 9 records"
+    },
+    {
+      "id": "log_c74d224f-41fd-41fc-93dd-2f0796ef4de8",
+      "createdAt": "2026-06-28T11:18:45.247Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.shichiro.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.shichiro.com/works/*: HTTP 503"
+    },
+    {
+      "id": "log_45faf859-ba86-4779-8f65-3c0794987767",
+      "createdAt": "2026-06-28T11:18:45.564Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.mandai-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "success",
+      "message": "www.mandai-home.com/works/*: 2 records"
+    },
+    {
+      "id": "log_a18ed045-37c3-4132-90d3-af97f8e8284e",
+      "createdAt": "2026-06-28T11:18:55.568Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuihouse.co.jp%2Fcrepre%2Fgreenfirstoffice%2Fworks01%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuihouse.co.jp/crepre/greenfirstoffice/works01/*: This operation was aborted"
+    },
+    {
+      "id": "log_3105517d-5c94-478e-8465-53ffeb4f986c",
+      "createdAt": "2026-06-28T11:19:05.569Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eyefulhome.jp%2Fconcept%2Ffavo%2Fcase01.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=30",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eyefulhome.jp/concept/favo/case01.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_683a1bf6-c3ab-438e-8fcd-a2c296ffdeef",
+      "createdAt": "2026-06-28T11:19:06.236Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/1970/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_996b4bcb-7c9e-46f7-8529-a2eaec5ef80b",
+      "createdAt": "2026-06-28T11:19:07.361Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/2071/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_fd0ad731-6100-45e8-8933-21fc59c84bfb",
+      "createdAt": "2026-06-28T11:19:07.514Z",
+      "siteName": "Common Crawl",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/floor-plan/2073/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_4950fe43-94e6-43e1-9b39-e17706ff1b0e",
+      "createdAt": "2026-06-28T11:19:07.672Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/cn009/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_a715ad6e-4338-4301-b1cb-3a7ca33a6ffb",
+      "createdAt": "2026-06-28T11:19:07.815Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/cn011/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_73623f1e-88c4-4726-9e16-df116935a2b0",
+      "createdAt": "2026-06-28T11:19:08.026Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e018/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_ec710824-a178-440b-9848-37d8a8c1a378",
+      "createdAt": "2026-06-28T11:19:08.184Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e037/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_95d7154c-8da0-46d1-9274-e3a4c0f95761",
+      "createdAt": "2026-06-28T11:19:08.331Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e039/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_515e473c-300f-4c15-9ba3-07d6679c879d",
+      "createdAt": "2026-06-28T11:19:08.477Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e043/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_9620ba55-f091-4a37-9caf-e1cc1fa92468",
+      "createdAt": "2026-06-28T11:19:08.623Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e051/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_161007dd-b1eb-4ffa-9868-c0ce398c71a2",
+      "createdAt": "2026-06-28T11:19:09.204Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e053/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_aa94592f-27ff-438e-9330-dd68ba27ef47",
+      "createdAt": "2026-06-28T11:19:09.349Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e054/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_74877b14-f56b-4810-98b8-1f1e408b291a",
+      "createdAt": "2026-06-28T11:19:09.494Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e061/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_4a25b01c-7748-43a1-b25b-cf28c05ca214",
+      "createdAt": "2026-06-28T11:19:09.641Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e087/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_54844200-2e85-4eee-8186-5ffc54dd0682",
+      "createdAt": "2026-06-28T11:19:09.785Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e089/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_2047f449-97cf-49c2-9ab0-be5eb482a045",
+      "createdAt": "2026-06-28T11:19:09.932Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e090/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_4bfc1ac4-aa66-406b-994f-d61f9ed55eae",
+      "createdAt": "2026-06-28T11:19:10.077Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e096/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_3a58ea25-dc59-4734-8791-10910936a430",
+      "createdAt": "2026-06-28T11:19:10.223Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e104/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_2cf53418-9ee1-4a05-b931-b8180db1f733",
+      "createdAt": "2026-06-28T11:19:10.376Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e111/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_39903e00-3c14-48d6-88f3-bb577a1e4828",
+      "createdAt": "2026-06-28T11:19:10.523Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e113/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_b9207f6b-728e-4115-b0fb-6022b8d72fdd",
+      "createdAt": "2026-06-28T11:19:11.239Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e115/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_eedd49cf-eff9-4610-9e01-e89c4c360529",
+      "createdAt": "2026-06-28T11:19:11.386Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e120/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_095e42d1-9fea-48c8-812e-d39b83af0fc6",
+      "createdAt": "2026-06-28T11:19:11.757Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e138/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_e0ab0c58-0e23-4805-abca-46603d1dc277",
+      "createdAt": "2026-06-28T11:19:12.629Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e148/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    },
+    {
+      "id": "log_d6a80c73-ae52-4a8f-afb7-5c7cd6ed6403",
+      "createdAt": "2026-06-28T11:19:13.119Z",
+      "siteName": "Common Crawl",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/madori/plan/e162/",
+      "action": "archive-html",
+      "result": "success",
+      "message": "Fetched archived HTML from CC-MAIN-2026-25"
+    }
+  ]
+}

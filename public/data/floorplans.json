@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T09:32:19.654Z",
+  "generatedAt": "2026-06-28T11:37:35.389Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -3496,7 +3496,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3529,7 +3529,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3562,7 +3562,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3595,7 +3595,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3661,7 +3661,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3694,7 +3694,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3727,7 +3727,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T11:20:27.536Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7835,18 +7835,183 @@
       "fetchedAt": "2026-06-28T09:26:47.200Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e26a9ae788524f0492b1c44e4f47c2a3437c3e75e5bbe0a024a89c49de18ab9f",
+      "title": "25坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-02.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e26a9ae788524f0492b1c44e4f47c2a3437c3e75e5bbe0a024a89c49de18ab9f:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-02.png",
+          "alt": "25坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e019c92ac257bd1f69a4dab2fb66a5d9249472cedadd64f4dd7b6fa9e238a044",
+      "title": "25坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-03.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e019c92ac257bd1f69a4dab2fb66a5d9249472cedadd64f4dd7b6fa9e238a044:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-03.png",
+          "alt": "25坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "26fe58816dce085e04bdd0c61a22b7996bd85d095fab7ffaf9409b6047d0f820",
+      "title": "ゆとりある30坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-04.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "26fe58816dce085e04bdd0c61a22b7996bd85d095fab7ffaf9409b6047d0f820:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-04.png",
+          "alt": "ゆとりある30坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a41ad10817259e6a6cf89ec176fbf7b73a9e31a34e6db01d56c42608dd4a4807",
+      "title": "趣味や客間も備えた平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-05.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a41ad10817259e6a6cf89ec176fbf7b73a9e31a34e6db01d56c42608dd4a4807:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-05.jpg",
+          "alt": "趣味や客間も備えた平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3d989ce92ea5783146f63301a5543dc5b86570f4765d1c4c906395b3c5f1ca21",
+      "title": "こだわりを実現する平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-06.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3d989ce92ea5783146f63301a5543dc5b86570f4765d1c4c906395b3c5f1ca21:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-06.png",
+          "alt": "こだわりを実現する平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782639139655",
-      "createdAt": "2026-06-28T09:32:19.654Z",
+      "id": "accepted_public_1782646655391",
+      "createdAt": "2026-06-28T11:37:35.389Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 232 records."
+      "message": "Accepted floorplans only: 237 records."
     }
   ]
 }
