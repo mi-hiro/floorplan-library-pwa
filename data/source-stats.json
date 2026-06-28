@@ -133,10 +133,10 @@
   },
   "kh-house.jp": {
     "candidateCount": 281,
-    "acceptedCount": 3,
+    "acceptedCount": 4,
     "rejectedCount": 25,
     "reviewCount": 89,
-    "acceptanceRate": 0.011,
+    "acceptanceRate": 0.014,
     "lastCrawledAt": "2026-06-28T11:46:00.107Z",
     "blockReason": null,
     "nextCrawlAfter": null,
@@ -144,14 +144,14 @@
   },
   "megasoft.co.jp": {
     "candidateCount": 120,
-    "acceptedCount": 9,
+    "acceptedCount": 32,
     "rejectedCount": 67,
     "reviewCount": 55,
-    "acceptanceRate": 0.075,
+    "acceptanceRate": 0.267,
     "lastCrawledAt": "2026-06-28T09:22:50.056Z",
     "blockReason": "Failed to parse URL from <![CDATA[https://www.megasoft.co.jp/post-sitemap.xml]]>",
     "nextCrawlAfter": "2026-06-29T09:22:50.056Z",
-    "sourceQuality": "low"
+    "sourceQuality": "medium"
   },
   "irohaie.com": {
     "candidateCount": 617,

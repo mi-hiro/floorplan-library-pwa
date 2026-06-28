@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T13:29:17.174Z",
+  "generatedAt": "2026-06-28T13:44:15.282Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -3496,7 +3496,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-28T11:20:27.536Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3529,7 +3529,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-28T11:20:27.536Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3562,7 +3562,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-28T11:20:27.536Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3595,7 +3595,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-28T11:20:27.536Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3661,7 +3661,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-28T11:20:27.536Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3694,7 +3694,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-28T11:20:27.536Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3727,7 +3727,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-28T11:20:27.536Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8660,18 +8660,810 @@
       "fetchedAt": "2026-06-28T12:18:53.931Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a45703c9db84c1b182b8ac9f9f61db7f653833968267073fd4b39f0ab8a6dbe9",
+      "title": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a45703c9db84c1b182b8ac9f9f61db7f653833968267073fd4b39f0ab8a6dbe9:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-2F.jpg",
+          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "61b9fd271142a75b41da4337ff9f35b243c26a3b52aa11e3189c4efb3c04ee7e",
+      "title": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "61b9fd271142a75b41da4337ff9f35b243c26a3b52aa11e3189c4efb3c04ee7e:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg",
+          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "638fde00aad6f6bd8cf1cc9757abd5aa14ba5e30f349994207f1e9bc51cbf471",
+      "title": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
+      "company": "megasoft.co.jp",
+      "layout": "2LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-3F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "638fde00aad6f6bd8cf1cc9757abd5aa14ba5e30f349994207f1e9bc51cbf471:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-3F.jpg",
+          "alt": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "432efa69470f1915302619c036052bfbb7835155d520becff056513b046d3a45",
+      "title": "【間取り・注文住宅プラン】間口が3.0間（5460㎜）とれる敷地に建てられる標準的な3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e018/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "432efa69470f1915302619c036052bfbb7835155d520becff056513b046d3a45:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】間口が3.0間（5460㎜）とれる敷地に建てられる標準的な3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e018/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "97d4d64e83b9b60959c246e55a9033bf4f651e9352a713608b5f7379bd09f0a6",
+      "title": "【間取り・注文住宅プラン】キッチンの近くに和室を配置した、4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e037/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "97d4d64e83b9b60959c246e55a9033bf4f651e9352a713608b5f7379bd09f0a6:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】キッチンの近くに和室を配置した、4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e037/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b988ab1aa8fbff80c23957e1f15e7e572053097af26c0c1bc84a580d4621a00a",
+      "title": "【間取り・注文住宅プラン】間口3.5間(6370㎜)に建てる、標準的な3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e039/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b988ab1aa8fbff80c23957e1f15e7e572053097af26c0c1bc84a580d4621a00a:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】間口3.5間(6370㎜)に建てる、標準的な3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e039/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d4883b484d87ec9cfa8e7e3e50a442966c251e12f2bdbbb2b78156281c5ecb1c",
+      "title": "【間取り・注文住宅プラン】コンパクトな敷地に建つ3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e043/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d4883b484d87ec9cfa8e7e3e50a442966c251e12f2bdbbb2b78156281c5ecb1c:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】コンパクトな敷地に建つ3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e043/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "c88baed0c7705dd8538d096cd68ede604c59746733384661e2e00f13facb1bbc",
+      "title": "【間取り・注文住宅プラン】浴室と洗面所を二階に配置した4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "c88baed0c7705dd8538d096cd68ede604c59746733384661e2e00f13facb1bbc:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】浴室と洗面所を二階に配置した4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3c94094957ea866d421c5220311ef9f09329a6b744df4941c3feacf7dc72141c",
+      "title": "【間取り・注文住宅プラン】広めのデッキがある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e053/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3c94094957ea866d421c5220311ef9f09329a6b744df4941c3feacf7dc72141c:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広めのデッキがある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e053/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "428c554670d6a0f9b2b59db543f920ab2ffaea2db6bb24a2bf934d1efe50edcb",
+      "title": "【間取り・注文住宅プラン】二階に浴室と洗面所がある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "428c554670d6a0f9b2b59db543f920ab2ffaea2db6bb24a2bf934d1efe50edcb:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階に浴室と洗面所がある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2ba3f462a562bb70a3f13978f95c2959c8776243516c1c2c7e4ab9d0da61721c",
+      "title": "【間取り・注文住宅プラン】二階ホールに書斎として使えるカウンターを備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2ba3f462a562bb70a3f13978f95c2959c8776243516c1c2c7e4ab9d0da61721c:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階ホールに書斎として使えるカウンターを備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "26224de19d70741fade015de30982706f0959fdf719d5ff5f829a181ebf6541c",
+      "title": "【間取り・注文住宅プラン】リビングの横にリモートコーナーを配した、広いリビングのある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e087/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "26224de19d70741fade015de30982706f0959fdf719d5ff5f829a181ebf6541c:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングの横にリモートコーナーを配した、広いリビングのある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e087/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d23b767457bae4ffed516694ccfa278a3055830036584c36f1c435e752edb903",
+      "title": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e089/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d23b767457bae4ffed516694ccfa278a3055830036584c36f1c435e752edb903:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e089/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e2271b61093daf958b3fd5daf33e0f07a7a5be68fe7de7c1dd017633f2d48966",
+      "title": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e090/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e2271b61093daf958b3fd5daf33e0f07a7a5be68fe7de7c1dd017633f2d48966:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e090/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "56c9048002df0eaf953e1b2f1341cb096bfc8d2f8705605928f0e03395569fb4",
+      "title": "【間取り・注文住宅プラン】カーポートと大きなデッキのある3LDKのプラン – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e096/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "56c9048002df0eaf953e1b2f1341cb096bfc8d2f8705605928f0e03395569fb4:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】カーポートと大きなデッキのある3LDKのプラン – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e096/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "f248b253c656a27611071c9722c3e422af2b135bddf2f4f6eb1f8fe1efc879dd",
+      "title": "【間取り・注文住宅プラン】リビングに隣り合う和室のある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e104/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "f248b253c656a27611071c9722c3e422af2b135bddf2f4f6eb1f8fe1efc879dd:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングに隣り合う和室のある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e104/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "059bf02111f3624b74736fb019b9e335522a3ebc90193f8ad01b22450121702f",
+      "title": "【間取り・注文住宅プラン】リビングとつながった和室のある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e111/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "059bf02111f3624b74736fb019b9e335522a3ebc90193f8ad01b22450121702f:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングとつながった和室のある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e111/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "19ffd81bbdd64c91c5f7eb66727a026fd7c4bf3787d5c220dc769da1522ddc21",
+      "title": "【間取り・注文住宅プラン】カーポートのある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e113/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "19ffd81bbdd64c91c5f7eb66727a026fd7c4bf3787d5c220dc769da1522ddc21:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】カーポートのある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e113/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b33d9fcb8de6c36a3b8e6ecdfa820a93b003f36d2350c10254a198a808208b30",
+      "title": "【間取り・注文住宅プラン】充実した収納量が魅力的な4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e115/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b33d9fcb8de6c36a3b8e6ecdfa820a93b003f36d2350c10254a198a808208b30:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】充実した収納量が魅力的な4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e115/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "50e2d23c4b3c1921f7c95d604b1d452ef11aaae402063269241b332dbb304623",
+      "title": "【間取り・注文住宅プラン】リビング続きの和室と、設備の充実した主寝室がある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e120/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "50e2d23c4b3c1921f7c95d604b1d452ef11aaae402063269241b332dbb304623:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング続きの和室と、設備の充実した主寝室がある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e120/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "884a4e15b9484b57217304084d6883e4e7789ee2b36707f34d6d62ddb025fe12",
+      "title": "【間取り・注文住宅プラン】二階リビングの4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "884a4e15b9484b57217304084d6883e4e7789ee2b36707f34d6d62ddb025fe12:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階リビングの4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "75ae49f27ddc0ca03933a2a1e050e77616ec09bdc2923fadd40f0e5b58dd7bb1",
+      "title": "【間取り・注文住宅プラン】リビング前の広いデッキとセカンドリビングが楽しい4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e148/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "75ae49f27ddc0ca03933a2a1e050e77616ec09bdc2923fadd40f0e5b58dd7bb1:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング前の広いデッキとセカンドリビングが楽しい4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e148/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b201accf89264594add39a2b199c9a4cbc13ea91b3b534c4ab32c4dfbd4d6437",
+      "title": "【間取り・注文住宅プラン】リビング中央から家族を見渡せるリモートコーナーのある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e162/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b201accf89264594add39a2b199c9a4cbc13ea91b3b534c4ab32c4dfbd4d6437:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング中央から家族を見渡せるリモートコーナーのある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e162/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e74e9c296152833a4a48776dc930cd09a3806974e4514a834730a35079c4d21b",
+      "title": "２階建てプラン2 | 厳選プラン集｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+      "listingSource": "accepted kh-house.jp",
+      "sourceUrl": "https://kh-house.jp/plan/plan2f2/",
+      "company": "kh-house.jp",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://kh-house.jp/wp-content/uploads/2022/03/g02%E9%96%93%E5%8F%96%E3%82%8A.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e74e9c296152833a4a48776dc930cd09a3806974e4514a834730a35079c4d21b:image",
+          "kind": "floorplan",
+          "url": "https://kh-house.jp/wp-content/uploads/2022/03/g02%E9%96%93%E5%8F%96%E3%82%8A.jpg",
+          "alt": "２階建てプラン2 | 厳選プラン集｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "sourceUrl": "https://kh-house.jp/plan/plan2f2/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:43:59.792Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782653357175",
-      "createdAt": "2026-06-28T13:29:17.174Z",
+      "id": "accepted_public_1782654255283",
+      "createdAt": "2026-06-28T13:44:15.282Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 257 records."
+      "message": "Accepted floorplans only: 281 records."
     }
   ]
 }

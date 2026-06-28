@@ -1,69 +1,69 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-28T13:29:32.122Z",
-  "nextIndex": 7,
+  "updatedAt": "2026-06-28T13:44:34.926Z",
+  "nextIndex": 10,
   "completedRounds": 1,
   "pendingPrefectures": [],
   "pendingQueries": [],
-  "lastPreparedAt": "2026-06-28T13:29:32.122Z",
+  "lastPreparedAt": "2026-06-28T13:44:34.926Z",
   "lastPrefectures": [
-    "大分",
-    "佐賀",
-    "長崎"
+    "沖縄",
+    "山口",
+    "広島"
   ],
   "lastQueries": [
     {
-      "prefecture": "大分",
-      "query": "大分 注文住宅 間取り 工務店"
+      "prefecture": "沖縄",
+      "query": "沖縄 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "大分",
-      "query": "大分 新築 平屋 間取り"
+      "prefecture": "沖縄",
+      "query": "沖縄 新築 平屋 間取り"
     },
     {
-      "prefecture": "大分",
-      "query": "大分 工務店 施工事例 間取り"
+      "prefecture": "沖縄",
+      "query": "沖縄 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "大分",
-      "query": "大分 住宅会社 建築実例 間取り"
+      "prefecture": "沖縄",
+      "query": "沖縄 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "佐賀",
-      "query": "佐賀 注文住宅 間取り 工務店"
+      "prefecture": "山口",
+      "query": "山口 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "佐賀",
-      "query": "佐賀 新築 平屋 間取り"
+      "prefecture": "山口",
+      "query": "山口 新築 平屋 間取り"
     },
     {
-      "prefecture": "佐賀",
-      "query": "佐賀 工務店 施工事例 間取り"
+      "prefecture": "山口",
+      "query": "山口 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "佐賀",
-      "query": "佐賀 住宅会社 建築実例 間取り"
+      "prefecture": "山口",
+      "query": "山口 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "長崎",
-      "query": "長崎 注文住宅 間取り 工務店"
+      "prefecture": "広島",
+      "query": "広島 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "長崎",
-      "query": "長崎 新築 平屋 間取り"
+      "prefecture": "広島",
+      "query": "広島 新築 平屋 間取り"
     },
     {
-      "prefecture": "長崎",
-      "query": "長崎 工務店 施工事例 間取り"
+      "prefecture": "広島",
+      "query": "広島 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "長崎",
-      "query": "長崎 住宅会社 建築実例 間取り"
+      "prefecture": "広島",
+      "query": "広島 住宅会社 建築実例 間取り"
     }
   ],
   "totals": {
     "prefectures": 47,
-    "runs": 18
+    "runs": 19
   },
   "runs": [
     {
@@ -263,6 +263,17 @@
       "queryCount": 12,
       "startIndex": 4,
       "nextIndex": 7
+    },
+    {
+      "createdAt": "2026-06-28T13:44:34.924Z",
+      "prefectures": [
+        "沖縄",
+        "山口",
+        "広島"
+      ],
+      "queryCount": 12,
+      "startIndex": 7,
+      "nextIndex": 10
     }
   ]
 }

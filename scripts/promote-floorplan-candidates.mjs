@@ -260,14 +260,14 @@ function hasAcceptanceEvidence(candidate, visual) {
   if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|tr\?|og image|ogp|thumbnail|thumb|_thum|thum\.|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|[-_](?:120x68|160x90|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)|tit_|bt_cate|btn_|bt_|bn-footer|globalnav|sidebutton|pagetop|page_top|phone\.png|footer|header|recruit|request|contact|company|showroom|modelhouse|event|txt[-_]|linenap|lineup_all|noimg|placeholder|dummy|spacer|img-nav|nav-identity|common\/tp\.gif|mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha/.test(allSignal)) {
     return false;
   }
-  if (/打ち合わせ|作成中|様子/.test(titleSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
+  if (/打ち合わせ|作成中|様子/.test(titleSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
   if (/hamaguri\.co\.jp/.test(allSignal) && !/madori|floor|plan|間取り|図面|drawing/.test(fileSignal)) return false;
   if (/yuyuhome\.co\.jp/.test(allSignal) && !/floor_plan|madori|plan|間取り|図面|drawing/.test(fileSignal)) return false;
   if (/genmai-home\.com/.test(allSignal) && !/drawing|madori|floor|plan|間取り|図面/.test(fileSignal)) return false;
-  if (/cleverlyhome\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !isCleverlyPlanTitle(titleSignal)) return false;
-  if (/(chitose-home\.com|marusho-kensetsu\.co\.jp)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
-  if (/irohaie\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !(hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.7)) return false;
-  if (/madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(imageSignal)) {
+  if (/cleverlyhome\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !isCleverlyPlanTitle(titleSignal)) return false;
+  if (/(chitose-home\.com|marusho-kensetsu\.co\.jp)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
+  if (/irohaie\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !(hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.7)) return false;
+  if (/madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(imageSignal)) {
     return true;
   }
   if (hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.55 && !isGenericPhotoFile(fileSignal)) return true;
@@ -276,7 +276,7 @@ function hasAcceptanceEvidence(candidate, visual) {
 }
 
 function hasTitlePlanEvidence(titleSignal) {
-  return titleSignal.length <= 90 && /間取り図|平面図|図面|注文住宅の間取り|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)|間取り\s*(?:例|一覧|アーカイブ)|plan gallery|floor[-_ ]?plan archive|^平屋の間取り$/.test(titleSignal);
+  return titleSignal.length <= 110 && /間取り図|平面図|図面|注文住宅の間取り|注文住宅.*プラン|間取り.*プラン|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)|間取り\s*(?:例|一覧|アーカイブ)|plan gallery|floor[-_ ]?plan archive|^平屋の間取り$/.test(titleSignal);
 }
 
 function countDomainOllamaErrors(candidates) {
@@ -299,7 +299,7 @@ function orderCandidatesForPromotion(candidates, domainOllamaErrors) {
       seenDomains.set(domain, domainSeen + 1);
       const { imageSignal, titleSignal, allSignal } = acceptanceSignals(candidate);
       const titlePlanEvidence = hasTitlePlanEvidence(titleSignal);
-      const explicitPlanScore = /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り図|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm/i.test(imageSignal) ||
+      const explicitPlanScore = /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm/i.test(imageSignal) ||
         (titleSignal.length <= 60 && /間取り図|平面図|図面|注文住宅の間取り|^平屋の間取り$/.test(titleSignal))
         ? 0.35
         : 0;
