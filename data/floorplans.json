@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T08:19:15.664Z",
+  "generatedAt": "2026-06-28T09:06:36.542Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -7084,18 +7084,439 @@
       "fetchedAt": "2026-06-28T08:16:04.036Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "4e5f4913073717fc237f24d5cda86c1d396f68602c32f7abae752b214406c360",
+      "title": "平屋住宅 29坪 4LDK 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/hiraya/hiraya0006/",
+      "company": "searshome.co.jp",
+      "layout": "",
+      "areaSqm": 95.23,
+      "tsubo": 28.81,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/h0003_madori.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4e5f4913073717fc237f24d5cda86c1d396f68602c32f7abae752b214406c360:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/h0003_madori.jpg",
+          "alt": "平屋住宅 29坪 4LDK 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/hiraya/hiraya0006/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "0b0b5023bd239cd4a49708ddc2618eaf2900c5c2691e017f8183f0cf26b47f4d",
+      "title": "平屋住宅 26坪 3LDK 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/lineup/iroha0001/",
+      "company": "シアーズホーム",
+      "priceManYen": 1590,
+      "layout": "",
+      "areaSqm": 87.36,
+      "tsubo": 26.43,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/img_madori-54.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0b0b5023bd239cd4a49708ddc2618eaf2900c5c2691e017f8183f0cf26b47f4d:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/img_madori-54.png",
+          "alt": "平屋住宅 26坪 3LDK 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/lineup/iroha0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6f3eb8d0cccc0ded3a980c448056c17ecf375e5191a14a536a6a121d9d4320ff",
+      "title": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 89.43,
+      "tsubo": 27.05,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_bunri_madori_1f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6f3eb8d0cccc0ded3a980c448056c17ecf375e5191a14a536a6a121d9d4320ff:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_bunri_madori_1f.png",
+          "alt": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "054bf93a391358e9d06c6e349c1f20e8df619498672e135dc072968c8bfde1dd",
+      "title": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 89.43,
+      "tsubo": 27.05,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_bunri_madori_2f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "054bf93a391358e9d06c6e349c1f20e8df619498672e135dc072968c8bfde1dd:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_bunri_madori_2f.png",
+          "alt": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a13e7228e98a7baea8e7e4e7a518f07ff705e88b5ed078c406a21dcb65c6d59c",
+      "title": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 81.56,
+      "tsubo": 24.67,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_1f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a13e7228e98a7baea8e7e4e7a518f07ff705e88b5ed078c406a21dcb65c6d59c:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_1f.png",
+          "alt": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "26d19910d812e756e57219a23125a19ad08360d93374a0f1a85dea3de7bf0eb3",
+      "title": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 81.56,
+      "tsubo": 24.67,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_2f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "26d19910d812e756e57219a23125a19ad08360d93374a0f1a85dea3de7bf0eb3:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_2f.png",
+          "alt": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b73a70e427fdc08dbcb34c98d8133701a3c590b6df52b695aea1e8f160dfd694",
+      "title": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
+      "company": "シアーズホーム",
+      "layout": "3LDK",
+      "areaSqm": 67.07,
+      "tsubo": 20.29,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_doukyo_madori_1f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b73a70e427fdc08dbcb34c98d8133701a3c590b6df52b695aea1e8f160dfd694:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_doukyo_madori_1f.png",
+          "alt": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d0c1d82b903c86dbd7be5bf6ec379386fd01b290f91fc3aeacbc9ff26c9acb9c",
+      "title": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
+      "company": "シアーズホーム",
+      "layout": "3LDK",
+      "areaSqm": 67.07,
+      "tsubo": 20.29,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_doukyo_madori_2f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d0c1d82b903c86dbd7be5bf6ec379386fd01b290f91fc3aeacbc9ff26c9acb9c:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_doukyo_madori_2f.png",
+          "alt": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e7e7c4fd883300da7251051387db12d66bb356198f45eac0edf67cb10185cac8",
+      "title": "二階建て 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/kodate/kodate0004/",
+      "company": "シアーズホーム",
+      "layout": "3LDK",
+      "areaSqm": 44.71,
+      "tsubo": 13.52,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/kodate01_madorik.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e7e7c4fd883300da7251051387db12d66bb356198f45eac0edf67cb10185cac8:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/kodate01_madorik.png",
+          "alt": "二階建て 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/kodate/kodate0004/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e2f6ae95eec475906fd5ae9734dce76ed30e6a0f9c3186cff3559136aa2f1c27",
+      "title": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 76.18,
+      "tsubo": 23.04,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/garagehous01_madori_1f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e2f6ae95eec475906fd5ae9734dce76ed30e6a0f9c3186cff3559136aa2f1c27:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/garagehous01_madori_1f.png",
+          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "82e531cbdc24c3d60e179a60b44f434f96207ebdccbe639140a6f55b817c4373",
+      "title": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 76.18,
+      "tsubo": 23.04,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/garagehous01_madori_2f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "82e531cbdc24c3d60e179a60b44f434f96207ebdccbe639140a6f55b817c4373:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/garagehous01_madori_2f.png",
+          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a299cdbd9916c0dd441125863ca5cfd2e600a058a8875fd0ca02d761a2a3df88",
+      "title": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 76.18,
+      "tsubo": 23.04,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/garagehous01_madori_koyaura.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a299cdbd9916c0dd441125863ca5cfd2e600a058a8875fd0ca02d761a2a3df88:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/garagehous01_madori_koyaura.png",
+          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:05:35.078Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782634755674",
-      "createdAt": "2026-06-28T08:19:15.664Z",
+      "id": "accepted_public_1782637596544",
+      "createdAt": "2026-06-28T09:06:36.542Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 210 records."
+      "message": "Accepted floorplans only: 222 records."
     }
   ]
 }

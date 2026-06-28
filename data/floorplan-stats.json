@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-28T08:19:15.664Z",
-  "acceptedCount": 210,
+  "generatedAt": "2026-06-28T09:06:36.542Z",
+  "acceptedCount": 222,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 22
@@ -40,6 +40,9 @@
     },
     "sekisuiheim.com": {
       "acceptedCount": 4
+    },
+    "searshome.co.jp": {
+      "acceptedCount": 12
     }
   }
 }
