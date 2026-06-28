@@ -1,69 +1,69 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-28T13:44:34.926Z",
-  "nextIndex": 10,
+  "updatedAt": "2026-06-28T16:32:26.874Z",
+  "nextIndex": 13,
   "completedRounds": 1,
   "pendingPrefectures": [],
   "pendingQueries": [],
-  "lastPreparedAt": "2026-06-28T13:44:34.926Z",
+  "lastPreparedAt": "2026-06-28T16:32:26.874Z",
   "lastPrefectures": [
-    "沖縄",
-    "山口",
-    "広島"
+    "岡山",
+    "島根",
+    "鳥取"
   ],
   "lastQueries": [
     {
-      "prefecture": "沖縄",
-      "query": "沖縄 注文住宅 間取り 工務店"
+      "prefecture": "岡山",
+      "query": "岡山 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "沖縄",
-      "query": "沖縄 新築 平屋 間取り"
+      "prefecture": "岡山",
+      "query": "岡山 新築 平屋 間取り"
     },
     {
-      "prefecture": "沖縄",
-      "query": "沖縄 工務店 施工事例 間取り"
+      "prefecture": "岡山",
+      "query": "岡山 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "沖縄",
-      "query": "沖縄 住宅会社 建築実例 間取り"
+      "prefecture": "岡山",
+      "query": "岡山 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "山口",
-      "query": "山口 注文住宅 間取り 工務店"
+      "prefecture": "島根",
+      "query": "島根 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "山口",
-      "query": "山口 新築 平屋 間取り"
+      "prefecture": "島根",
+      "query": "島根 新築 平屋 間取り"
     },
     {
-      "prefecture": "山口",
-      "query": "山口 工務店 施工事例 間取り"
+      "prefecture": "島根",
+      "query": "島根 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "山口",
-      "query": "山口 住宅会社 建築実例 間取り"
+      "prefecture": "島根",
+      "query": "島根 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "広島",
-      "query": "広島 注文住宅 間取り 工務店"
+      "prefecture": "鳥取",
+      "query": "鳥取 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "広島",
-      "query": "広島 新築 平屋 間取り"
+      "prefecture": "鳥取",
+      "query": "鳥取 新築 平屋 間取り"
     },
     {
-      "prefecture": "広島",
-      "query": "広島 工務店 施工事例 間取り"
+      "prefecture": "鳥取",
+      "query": "鳥取 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "広島",
-      "query": "広島 住宅会社 建築実例 間取り"
+      "prefecture": "鳥取",
+      "query": "鳥取 住宅会社 建築実例 間取り"
     }
   ],
   "totals": {
     "prefectures": 47,
-    "runs": 19
+    "runs": 20
   },
   "runs": [
     {
@@ -274,6 +274,17 @@
       "queryCount": 12,
       "startIndex": 7,
       "nextIndex": 10
+    },
+    {
+      "createdAt": "2026-06-28T16:32:26.873Z",
+      "prefectures": [
+        "岡山",
+        "島根",
+        "鳥取"
+      ],
+      "queryCount": 12,
+      "startIndex": 10,
+      "nextIndex": 13
     }
   ]
 }

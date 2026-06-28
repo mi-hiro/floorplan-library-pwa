@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T13:44:15.282Z",
+  "generatedAt": "2026-06-28T16:31:17.559Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -9452,18 +9452,193 @@
       "fetchedAt": "2026-06-28T13:43:59.792Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "300b61f1ab37dd9ca5a402dee5ee78189f3477fd344b48a80be2306aece940c3",
+      "title": "S39",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 109.3,
+      "tsubo": 33.06,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640162279-18435507.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "300b61f1ab37dd9ca5a402dee5ee78189f3477fd344b48a80be2306aece940c3:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640162279-18435507.png?1640713016",
+          "alt": "S39",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3a3085561e556f3dba6967907b53cf03564547e9f8d6b9e9c44a2817bf453cbd",
+      "title": "S34",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 115.75,
+      "tsubo": 35.01,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640162119-fa194da8.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3a3085561e556f3dba6967907b53cf03564547e9f8d6b9e9c44a2817bf453cbd:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640162119-fa194da8.png?1640713016",
+          "alt": "S34",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2b0aeb3f776858bc0329ab8763389fa7f75d95c3af33de44edc9c3df16955987",
+      "title": "N35",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 129.17,
+      "tsubo": 39.07,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640161890-eff9bdba.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2b0aeb3f776858bc0329ab8763389fa7f75d95c3af33de44edc9c3df16955987:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640161890-eff9bdba.png?1640713016",
+          "alt": "N35",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9e799a6f275b56b2b05b782562640fe7ca7f9634692169b061ea39c3264fa241",
+      "title": "EW36",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 113.44,
+      "tsubo": 34.32,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640154290-e42c1d3a.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9e799a6f275b56b2b05b782562640fe7ca7f9634692169b061ea39c3264fa241:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640154290-e42c1d3a.png?1640713016",
+          "alt": "EW36",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "aa9897666d12830cbe50819aeb85a4b02677830f2d12bfea78f1e27a71609444",
+      "title": "EW32",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 118.41,
+      "tsubo": 35.82,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640153671-be942edd.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "aa9897666d12830cbe50819aeb85a4b02677830f2d12bfea78f1e27a71609444:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640153671-be942edd.png?1640713016",
+          "alt": "EW32",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782654255283",
-      "createdAt": "2026-06-28T13:44:15.282Z",
+      "id": "accepted_public_1782664277561",
+      "createdAt": "2026-06-28T16:31:17.559Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 281 records."
+      "message": "Accepted floorplans only: 286 records."
     }
   ]
 }
