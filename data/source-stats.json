@@ -5,7 +5,7 @@
     "rejectedCount": 0,
     "reviewCount": 11,
     "acceptanceRate": 1,
-    "lastCrawledAt": "2026-06-28T09:22:27.899Z",
+    "lastCrawledAt": "2026-06-28T11:57:27.271Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -60,7 +60,7 @@
     "rejectedCount": 25,
     "reviewCount": 65,
     "acceptanceRate": 0.615,
-    "lastCrawledAt": "2026-06-28T09:22:27.549Z",
+    "lastCrawledAt": "2026-06-28T11:57:27.026Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -82,7 +82,7 @@
     "rejectedCount": 276,
     "reviewCount": 318,
     "acceptanceRate": 0.11,
-    "lastCrawledAt": "2026-06-28T09:23:03.311Z",
+    "lastCrawledAt": "2026-06-28T11:58:40.626Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -104,7 +104,7 @@
     "rejectedCount": 252,
     "reviewCount": 725,
     "acceptanceRate": 0.005,
-    "lastCrawledAt": "2026-06-28T09:22:53.963Z",
+    "lastCrawledAt": "2026-06-28T11:58:19.836Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -155,11 +155,11 @@
   },
   "irohaie.com": {
     "candidateCount": 617,
-    "acceptedCount": 0,
-    "rejectedCount": 456,
+    "acceptedCount": 8,
+    "rejectedCount": 448,
     "reviewCount": 337,
-    "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-28T09:22:33.343Z",
+    "acceptanceRate": 0.013,
+    "lastCrawledAt": "2026-06-28T11:57:40.540Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -170,7 +170,7 @@
     "rejectedCount": 799,
     "reviewCount": 1234,
     "acceptanceRate": 0.015,
-    "lastCrawledAt": "2026-06-28T09:22:43.081Z",
+    "lastCrawledAt": "2026-06-28T11:58:04.711Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -181,18 +181,18 @@
     "rejectedCount": 38,
     "reviewCount": 38,
     "acceptanceRate": 0.116,
-    "lastCrawledAt": "2026-06-28T09:22:46.113Z",
+    "lastCrawledAt": "2026-06-28T11:58:08.920Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
   },
   "genmai-home.com": {
-    "candidateCount": 323,
+    "candidateCount": 335,
     "acceptedCount": 1,
     "rejectedCount": 287,
     "reviewCount": 202,
     "acceptanceRate": 0.003,
-    "lastCrawledAt": "2026-06-28T09:22:59.745Z",
+    "lastCrawledAt": "2026-06-28T11:58:30.141Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -352,15 +352,15 @@
     "sourceQuality": "medium"
   },
   "misawa.co.jp": {
-    "candidateCount": 160,
+    "candidateCount": 224,
     "acceptedCount": 19,
     "rejectedCount": 0,
     "reviewCount": 0,
-    "acceptanceRate": 0.119,
-    "lastCrawledAt": "2026-06-28T11:46:59.705Z",
+    "acceptanceRate": 0.085,
+    "lastCrawledAt": "2026-06-28T11:57:52.165Z",
     "blockReason": null,
     "nextCrawlAfter": null,
-    "sourceQuality": "medium"
+    "sourceQuality": "low"
   },
   "aerahome.com": {
     "candidateCount": 151,

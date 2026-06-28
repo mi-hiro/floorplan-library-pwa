@@ -1,69 +1,69 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-28T11:56:21.542Z",
-  "nextIndex": 4,
+  "updatedAt": "2026-06-28T13:29:32.122Z",
+  "nextIndex": 7,
   "completedRounds": 1,
   "pendingPrefectures": [],
   "pendingQueries": [],
-  "lastPreparedAt": "2026-06-28T11:56:21.542Z",
+  "lastPreparedAt": "2026-06-28T13:29:32.122Z",
   "lastPrefectures": [
-    "福岡",
-    "鹿児島",
-    "熊本"
+    "大分",
+    "佐賀",
+    "長崎"
   ],
   "lastQueries": [
     {
-      "prefecture": "福岡",
-      "query": "福岡 注文住宅 間取り 工務店"
+      "prefecture": "大分",
+      "query": "大分 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "福岡",
-      "query": "福岡 新築 平屋 間取り"
+      "prefecture": "大分",
+      "query": "大分 新築 平屋 間取り"
     },
     {
-      "prefecture": "福岡",
-      "query": "福岡 工務店 施工事例 間取り"
+      "prefecture": "大分",
+      "query": "大分 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "福岡",
-      "query": "福岡 住宅会社 建築実例 間取り"
+      "prefecture": "大分",
+      "query": "大分 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "鹿児島",
-      "query": "鹿児島 注文住宅 間取り 工務店"
+      "prefecture": "佐賀",
+      "query": "佐賀 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "鹿児島",
-      "query": "鹿児島 新築 平屋 間取り"
+      "prefecture": "佐賀",
+      "query": "佐賀 新築 平屋 間取り"
     },
     {
-      "prefecture": "鹿児島",
-      "query": "鹿児島 工務店 施工事例 間取り"
+      "prefecture": "佐賀",
+      "query": "佐賀 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "鹿児島",
-      "query": "鹿児島 住宅会社 建築実例 間取り"
+      "prefecture": "佐賀",
+      "query": "佐賀 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "熊本",
-      "query": "熊本 注文住宅 間取り 工務店"
+      "prefecture": "長崎",
+      "query": "長崎 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "熊本",
-      "query": "熊本 新築 平屋 間取り"
+      "prefecture": "長崎",
+      "query": "長崎 新築 平屋 間取り"
     },
     {
-      "prefecture": "熊本",
-      "query": "熊本 工務店 施工事例 間取り"
+      "prefecture": "長崎",
+      "query": "長崎 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "熊本",
-      "query": "熊本 住宅会社 建築実例 間取り"
+      "prefecture": "長崎",
+      "query": "長崎 住宅会社 建築実例 間取り"
     }
   ],
   "totals": {
     "prefectures": 47,
-    "runs": 17
+    "runs": 18
   },
   "runs": [
     {
@@ -252,6 +252,17 @@
       "queryCount": 12,
       "startIndex": 1,
       "nextIndex": 4
+    },
+    {
+      "createdAt": "2026-06-28T13:29:32.121Z",
+      "prefectures": [
+        "大分",
+        "佐賀",
+        "長崎"
+      ],
+      "queryCount": 12,
+      "startIndex": 4,
+      "nextIndex": 7
     }
   ]
 }

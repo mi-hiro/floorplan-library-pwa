@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T11:57:13.864Z",
+  "generatedAt": "2026-06-28T12:10:19.036Z",
   "source": "source-discovery",
   "discoveredUrls": [
     {
@@ -6912,6 +6912,426 @@
       "action": "update-common-crawl",
       "result": "success",
       "message": "seedUrls=73"
+    },
+    {
+      "id": "log_b593f7fd-e738-4f3a-a641-4ce84f75a977",
+      "createdAt": "2026-06-28T12:06:22.921Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_6cc58e0b-d309-484e-9232-1c3855cd2635",
+      "createdAt": "2026-06-28T12:06:23.057Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 新築 平屋 間取り"
+    },
+    {
+      "id": "log_7630cf6a-2a09-4fa7-8acc-2530ea16d7c4",
+      "createdAt": "2026-06-28T12:06:23.190Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_77f7126b-f39c-469d-b946-06fb84f0522f",
+      "createdAt": "2026-06-28T12:06:23.318Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_ec3037e5-e3d2-4f35-aa1b-43616d04c9d6",
+      "createdAt": "2026-06-28T12:06:23.447Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_be16683a-bcce-443a-8fb6-45361a2a1195",
+      "createdAt": "2026-06-28T12:06:23.574Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 新築 平屋 間取り"
+    },
+    {
+      "id": "log_03db93e4-cca7-48e2-80ff-fa0ff16f92de",
+      "createdAt": "2026-06-28T12:06:23.704Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_d721ebe3-3d42-4090-889a-93a02417f15c",
+      "createdAt": "2026-06-28T12:06:23.835Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_f860b0ce-1a35-4803-bc46-a697fb82e8b1",
+      "createdAt": "2026-06-28T12:06:23.959Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_f38e7a9e-73e1-444d-b840-168db8237b97",
+      "createdAt": "2026-06-28T12:06:24.085Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 新築 平屋 間取り"
+    },
+    {
+      "id": "log_8bbcec9a-6ea7-41bb-9db5-e4b1212b194a",
+      "createdAt": "2026-06-28T12:06:24.209Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_02fba866-e805-4a51-a6d9-4fa094d00f42",
+      "createdAt": "2026-06-28T12:06:24.338Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_dbb7845f-4145-4e31-ad6d-d90dca9ae430",
+      "createdAt": "2026-06-28T12:06:24.469Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_d858fe2a-d73d-44c7-935c-cf2c2cf6b8c2",
+      "createdAt": "2026-06-28T12:06:24.603Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_1d5c7388-53b4-4350-9ab0-aa6c71f69336",
+      "createdAt": "2026-06-28T12:06:24.728Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_a95afe42-02cb-4ffd-9d60-8563fd540947",
+      "createdAt": "2026-06-28T12:06:24.861Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_5c211f83-1ecb-4696-9ff1-abfb070626d3",
+      "createdAt": "2026-06-28T12:06:24.985Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_6325dd7a-70cf-44b9-9774-bd283f664a9f",
+      "createdAt": "2026-06-28T12:06:25.109Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_4d98251d-7519-41a6-ae51-7120e72793f0",
+      "createdAt": "2026-06-28T12:06:25.238Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_928cdb8d-718c-46fb-878f-cd73f04e5d23",
+      "createdAt": "2026-06-28T12:06:25.365Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_e963ca9b-9fd2-49c4-aeea-967eb29e1ed3",
+      "createdAt": "2026-06-28T12:06:25.494Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_33d16a89-7dac-4097-b824-1814622345a7",
+      "createdAt": "2026-06-28T12:06:25.617Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_325e984d-58c1-4fc5-90cf-8b2747b150d5",
+      "createdAt": "2026-06-28T12:06:25.742Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_17a81e60-54e6-4a6c-9db5-6efc24c9fd71",
+      "createdAt": "2026-06-28T12:06:25.869Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_2a871e3f-d360-4fdd-806d-067286f4f135",
+      "createdAt": "2026-06-28T12:07:20.670Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*: fetch failed"
+    },
+    {
+      "id": "log_28f05dca-e007-4974-b97a-2bc6fe291f38",
+      "createdAt": "2026-06-28T12:07:31.165Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*%E9%96%93%E5%8F%96%E3%82%8A*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*間取り*: fetch failed"
+    },
+    {
+      "id": "log_c64c9bfc-362d-41d7-b720-cfeafbb3438d",
+      "createdAt": "2026-06-28T12:07:41.658Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floorplan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floorplan*: fetch failed"
+    },
+    {
+      "id": "log_04812bc6-0e9b-4cfc-993c-5f28655ab8de",
+      "createdAt": "2026-06-28T12:07:52.154Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor-plan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floor-plan*: fetch failed"
+    },
+    {
+      "id": "log_d2e732bb-9341-4e53-ac08-ccab7ecfd3a1",
+      "createdAt": "2026-06-28T12:08:02.646Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor_plan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floor_plan*: fetch failed"
+    },
+    {
+      "id": "log_010246ac-dd70-4e51-aab6-2e2c25490892",
+      "createdAt": "2026-06-28T12:08:13.138Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.jpg: fetch failed"
+    },
+    {
+      "id": "log_cfe08235-7e15-4739-9a57-ea3a2c3fac51",
+      "createdAt": "2026-06-28T12:08:23.632Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.png: fetch failed"
+    },
+    {
+      "id": "log_1a8d1a24-80c5-4509-b981-2aa710c27c73",
+      "createdAt": "2026-06-28T12:08:34.123Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.webp&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.webp: fetch failed"
+    },
+    {
+      "id": "log_9e8166b7-dc9b-4a9b-a9e8-b6c7e56e568c",
+      "createdAt": "2026-06-28T12:08:44.613Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floorplan*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floorplan*.jpg: fetch failed"
+    },
+    {
+      "id": "log_4afe609d-5650-4571-9833-2f7aab22fa6a",
+      "createdAt": "2026-06-28T12:08:55.103Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floorplan*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floorplan*.png: fetch failed"
+    },
+    {
+      "id": "log_c0269f4b-4054-433a-b559-e118de4429d4",
+      "createdAt": "2026-06-28T12:09:05.594Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor_plan*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floor_plan*.jpg: fetch failed"
+    },
+    {
+      "id": "log_850e13de-14f7-4a03-a80a-acc91fbeebc1",
+      "createdAt": "2026-06-28T12:09:16.085Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor_plan*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floor_plan*.png: fetch failed"
+    },
+    {
+      "id": "log_e1d0b934-c4b5-4acc-8f73-53505d0033e2",
+      "createdAt": "2026-06-28T12:09:26.577Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*layout*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*layout*.jpg: fetch failed"
+    },
+    {
+      "id": "log_36dcd4a9-bd41-488a-9839-434a9fdbfff2",
+      "createdAt": "2026-06-28T12:09:37.068Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*layout*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*layout*.png: fetch failed"
+    },
+    {
+      "id": "log_930bcc5a-a29c-47e9-bef4-5703b338daed",
+      "createdAt": "2026-06-28T12:09:47.558Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*%E9%96%93%E5%8F%96%E3%82%8A*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*間取り*.jpg: fetch failed"
+    },
+    {
+      "id": "log_603e7777-b600-4f29-8cff-713af58a7f0f",
+      "createdAt": "2026-06-28T12:09:58.053Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*%E9%96%93%E5%8F%96%E3%82%8A*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*間取り*.png: fetch failed"
+    },
+    {
+      "id": "log_5dfa99a3-35b9-4686-9eec-e80e2112bb1d",
+      "createdAt": "2026-06-28T12:10:08.544Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*plan*3ldk*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*plan*3ldk*: fetch failed"
+    },
+    {
+      "id": "log_64049a4b-8b0e-4735-b1b5-c6d9484941f3",
+      "createdAt": "2026-06-28T12:10:19.036Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*plan*4ldk*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*plan*4ldk*: fetch failed"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-28T11:52:00.649Z",
-  "acceptedCount": 249,
+  "generatedAt": "2026-06-28T13:29:17.174Z",
+  "acceptedCount": 257,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 22
@@ -52,6 +52,9 @@
     },
     "kh-house.jp": {
       "acceptedCount": 3
+    },
+    "irohaie.com": {
+      "acceptedCount": 8
     }
   }
 }

@@ -69,7 +69,8 @@ function extraRejectReason(record) {
   if (/hamaguri\.co\.jp/.test(text) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/yuyuhome\.co\.jp/.test(text) && !/floor_plan|madori|plan|間取り|図面|drawing/.test(decodedUrl.toLowerCase())) return "accepted-cleanup-domain-photo-gallery";
   if (/cleverlyhome\.com/.test(text) && !hasStrongFilePlanEvidence(record) && !isCleverlyPlanTitle(record)) return "accepted-cleanup-domain-photo-gallery";
-  if (/(chitose-home\.com|marusho-kensetsu\.co\.jp|irohaie\.com)/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
+  if (/(chitose-home\.com|marusho-kensetsu\.co\.jp)/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
+  if (/irohaie\.com/.test(text) && !hasStrongFilePlanEvidence(record) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/打ち合わせ|作成中|様子/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-process-photo";
   if (/sfc\.jp/.test(text) && /イメージ|ウッドデッキ|パントリー|ウォークイン|クローゼット|和室|ランドリー|土間|ガレージ|吹き抜け|勾配天井|ワークスペース/.test(text) && !/間取りの(?:１|1|２|2|３|3|一|二|三)?階部分/.test(text)) return "accepted-cleanup-sfc-photo-section";
   if (/genmai-home\.com/.test(text) && !/drawing|madori|floor|plan|間取り|図面/.test(record.source?.imageUrl || "")) return "accepted-cleanup-blog-non-plan-image";
@@ -87,7 +88,7 @@ function hasStrongPlanEvidence(record) {
   const fileName = url.split(/[/?#]/)[0].split("/").filter(Boolean).pop() || url;
   const title = String(record.title || "").toLowerCase();
   if (title.length <= 70 && /^平屋の間取り$/.test(title)) return true;
-  if (title.length <= 90 && /間取りの(?:１|1|２|2|３|3|一|二|三)?階部分|注文住宅の間取り|間取り図plan|平面図|図面|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)/i.test(title)) return true;
+  if (title.length <= 90 && /間取りの(?:１|1|２|2|３|3|一|二|三)?階部分|注文住宅の間取り|間取り図plan|平面図|図面|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)|間取り\s*(?:例|一覧|アーカイブ)|plan gallery|floor[-_ ]?plan archive/i.test(title)) return true;
   if (/floor_plan|topview_plan|madori|drawing|plan[_-]?[0-9]|pic_small_pl_p[0-9]/i.test(url)) return true;
   return false;
 }

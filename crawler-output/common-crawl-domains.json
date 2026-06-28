@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-28T12:10:19.037Z",
+  "source": "common-crawl-domain-discovery",
+  "domains": [],
+  "logs": [
+    {
+      "id": "log_2a871e3f-d360-4fdd-806d-067286f4f135",
+      "createdAt": "2026-06-28T12:07:20.670Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*: fetch failed"
+    },
+    {
+      "id": "log_28f05dca-e007-4974-b97a-2bc6fe291f38",
+      "createdAt": "2026-06-28T12:07:31.165Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*%E9%96%93%E5%8F%96%E3%82%8A*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*間取り*: fetch failed"
+    },
+    {
+      "id": "log_c64c9bfc-362d-41d7-b720-cfeafbb3438d",
+      "createdAt": "2026-06-28T12:07:41.658Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floorplan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floorplan*: fetch failed"
+    },
+    {
+      "id": "log_04812bc6-0e9b-4cfc-993c-5f28655ab8de",
+      "createdAt": "2026-06-28T12:07:52.154Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor-plan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floor-plan*: fetch failed"
+    },
+    {
+      "id": "log_d2e732bb-9341-4e53-ac08-ccab7ecfd3a1",
+      "createdAt": "2026-06-28T12:08:02.646Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor_plan*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floor_plan*: fetch failed"
+    },
+    {
+      "id": "log_010246ac-dd70-4e51-aab6-2e2c25490892",
+      "createdAt": "2026-06-28T12:08:13.138Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.jpg: fetch failed"
+    },
+    {
+      "id": "log_cfe08235-7e15-4739-9a57-ea3a2c3fac51",
+      "createdAt": "2026-06-28T12:08:23.632Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.png: fetch failed"
+    },
+    {
+      "id": "log_1a8d1a24-80c5-4509-b981-2aa710c27c73",
+      "createdAt": "2026-06-28T12:08:34.123Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*madori*.webp&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*madori*.webp: fetch failed"
+    },
+    {
+      "id": "log_9e8166b7-dc9b-4a9b-a9e8-b6c7e56e568c",
+      "createdAt": "2026-06-28T12:08:44.613Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floorplan*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floorplan*.jpg: fetch failed"
+    },
+    {
+      "id": "log_4afe609d-5650-4571-9833-2f7aab22fa6a",
+      "createdAt": "2026-06-28T12:08:55.103Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floorplan*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floorplan*.png: fetch failed"
+    },
+    {
+      "id": "log_c0269f4b-4054-433a-b559-e118de4429d4",
+      "createdAt": "2026-06-28T12:09:05.594Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor_plan*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floor_plan*.jpg: fetch failed"
+    },
+    {
+      "id": "log_850e13de-14f7-4a03-a80a-acc91fbeebc1",
+      "createdAt": "2026-06-28T12:09:16.085Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*floor_plan*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*floor_plan*.png: fetch failed"
+    },
+    {
+      "id": "log_e1d0b934-c4b5-4acc-8f73-53505d0033e2",
+      "createdAt": "2026-06-28T12:09:26.577Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*layout*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*layout*.jpg: fetch failed"
+    },
+    {
+      "id": "log_36dcd4a9-bd41-488a-9839-434a9fdbfff2",
+      "createdAt": "2026-06-28T12:09:37.068Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*layout*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*layout*.png: fetch failed"
+    },
+    {
+      "id": "log_930bcc5a-a29c-47e9-bef4-5703b338daed",
+      "createdAt": "2026-06-28T12:09:47.558Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*%E9%96%93%E5%8F%96%E3%82%8A*.jpg&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*間取り*.jpg: fetch failed"
+    },
+    {
+      "id": "log_603e7777-b600-4f29-8cff-713af58a7f0f",
+      "createdAt": "2026-06-28T12:09:58.053Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*%E9%96%93%E5%8F%96%E3%82%8A*.png&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*間取り*.png: fetch failed"
+    },
+    {
+      "id": "log_5dfa99a3-35b9-4686-9eec-e80e2112bb1d",
+      "createdAt": "2026-06-28T12:10:08.544Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*plan*3ldk*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*plan*3ldk*: fetch failed"
+    },
+    {
+      "id": "log_64049a4b-8b0e-4735-b1b5-c6d9484941f3",
+      "createdAt": "2026-06-28T12:10:19.036Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=*.jp%2F*plan*4ldk*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp&filter=status%3A200&collapse=urlkey&limit=50",
+      "action": "domain-query",
+      "result": "skipped",
+      "message": "*.jp/*plan*4ldk*: fetch failed"
+    }
+  ]
+}
