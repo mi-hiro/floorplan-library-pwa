@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T11:52:00.649Z",
+  "generatedAt": "2026-06-28T13:29:17.174Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -8396,18 +8396,282 @@
       "fetchedAt": "2026-06-28T11:49:10.945Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5a84179362a6422c39323f2395713984d2b70b14ae63a7fa7e887376ba0bbd47",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5a84179362a6422c39323f2395713984d2b70b14ae63a7fa7e887376ba0bbd47:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1848082ff8afdd506046c0dec3f618885e08a65ed5361f44aa008918ad321297",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1848082ff8afdd506046c0dec3f618885e08a65ed5361f44aa008918ad321297:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a38768a8279f7182b5eff65572111a6f857fac4709a46dd7ceddd807aa9447c0",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/35171fc94963fdc1dc7218d94d91d0c2.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a38768a8279f7182b5eff65572111a6f857fac4709a46dd7ceddd807aa9447c0:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/35171fc94963fdc1dc7218d94d91d0c2.jpg",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "93acccc3f51253f74136402accbb5be3bbcde3d8cdd8c7fc41fc4765501c8a19",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/Like1.5_30-01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "93acccc3f51253f74136402accbb5be3bbcde3d8cdd8c7fc41fc4765501c8a19:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/Like1.5_30-01.jpg",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bfc375abc63fe3af410ad5dcd5310130273943f3cb2cc4e0f9e5d5e755c71470",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1974.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bfc375abc63fe3af410ad5dcd5310130273943f3cb2cc4e0f9e5d5e755c71470:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1974.png",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "78466f6fa9fe785caecf2f312707a413db949ac96de9f4bfa7ed4bc3f25e0b11",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1973.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "78466f6fa9fe785caecf2f312707a413db949ac96de9f4bfa7ed4bc3f25e0b11:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1973.png",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "99df8e2c63c4c0b614e5f726a2464d311148548f1790997442fad11299dc1c3d",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1972.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "99df8e2c63c4c0b614e5f726a2464d311148548f1790997442fad11299dc1c3d:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1972.png",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9c9810059091a0b29599f620d49dd649dc42e2efcb0ddef6ef32d968b30b2d9b",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9c9810059091a0b29599f620d49dd649dc42e2efcb0ddef6ef32d968b30b2d9b:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971.png",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782647520650",
-      "createdAt": "2026-06-28T11:52:00.649Z",
+      "id": "accepted_public_1782653357175",
+      "createdAt": "2026-06-28T13:29:17.174Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 249 records."
+      "message": "Accepted floorplans only: 257 records."
     }
   ]
 }
