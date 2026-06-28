@@ -126,7 +126,7 @@
       "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html"
     ],
     "pagePatterns": ["/madori/", "/guide/hiraya/"],
-    "acceptUrlPatterns": ["images/madori/madori[0-9]+_img[12]\\.(png|jpg)"],
+    "acceptUrlPatterns": ["images/madori/madori[0-9]+_img[12]\\.(png|jpg|webp)"],
     "rejectUrlPatterns": ["logo|icon|estimate|bnr|banner|img3|img4|catalog|present|footer|pixel|cookie"],
     "contextSelectors": [".madori", ".contents", ".main"],
     "rejectSelectors": [".banner", ".footer", ".catalog"]

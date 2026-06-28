@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-28T11:37:35.389Z",
-  "acceptedCount": 237,
+  "generatedAt": "2026-06-28T11:52:00.649Z",
+  "acceptedCount": 249,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 22
@@ -45,10 +45,13 @@
       "acceptedCount": 12
     },
     "misawa.co.jp": {
-      "acceptedCount": 10
+      "acceptedCount": 19
     },
     "aerahome.com": {
       "acceptedCount": 5
+    },
+    "kh-house.jp": {
+      "acceptedCount": 3
     }
   }
 }
