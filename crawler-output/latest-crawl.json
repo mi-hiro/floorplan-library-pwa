@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T08:19:15.664Z",
+  "generatedAt": "2026-06-28T16:31:17.559Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -3496,7 +3496,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3529,7 +3529,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3562,7 +3562,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3595,7 +3595,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3661,7 +3661,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3694,7 +3694,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3727,7 +3727,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-27T18:35:54.947Z",
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7084,18 +7084,2561 @@
       "fetchedAt": "2026-06-28T08:16:04.036Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "4e5f4913073717fc237f24d5cda86c1d396f68602c32f7abae752b214406c360",
+      "title": "平屋住宅 29坪 4LDK 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/hiraya/hiraya0006/",
+      "company": "searshome.co.jp",
+      "layout": "",
+      "areaSqm": 95.23,
+      "tsubo": 28.81,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/h0003_madori.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4e5f4913073717fc237f24d5cda86c1d396f68602c32f7abae752b214406c360:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/h0003_madori.jpg",
+          "alt": "平屋住宅 29坪 4LDK 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/hiraya/hiraya0006/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "0b0b5023bd239cd4a49708ddc2618eaf2900c5c2691e017f8183f0cf26b47f4d",
+      "title": "平屋住宅 26坪 3LDK 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/lineup/iroha0001/",
+      "company": "シアーズホーム",
+      "priceManYen": 1590,
+      "layout": "",
+      "areaSqm": 87.36,
+      "tsubo": 26.43,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/img_madori-54.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0b0b5023bd239cd4a49708ddc2618eaf2900c5c2691e017f8183f0cf26b47f4d:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/img_madori-54.png",
+          "alt": "平屋住宅 26坪 3LDK 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/lineup/iroha0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6f3eb8d0cccc0ded3a980c448056c17ecf375e5191a14a536a6a121d9d4320ff",
+      "title": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 89.43,
+      "tsubo": 27.05,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_bunri_madori_1f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6f3eb8d0cccc0ded3a980c448056c17ecf375e5191a14a536a6a121d9d4320ff:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_bunri_madori_1f.png",
+          "alt": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "054bf93a391358e9d06c6e349c1f20e8df619498672e135dc072968c8bfde1dd",
+      "title": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 89.43,
+      "tsubo": 27.05,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_bunri_madori_2f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "054bf93a391358e9d06c6e349c1f20e8df619498672e135dc072968c8bfde1dd:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_bunri_madori_2f.png",
+          "alt": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a13e7228e98a7baea8e7e4e7a518f07ff705e88b5ed078c406a21dcb65c6d59c",
+      "title": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 81.56,
+      "tsubo": 24.67,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_1f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a13e7228e98a7baea8e7e4e7a518f07ff705e88b5ed078c406a21dcb65c6d59c:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_1f.png",
+          "alt": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "26d19910d812e756e57219a23125a19ad08360d93374a0f1a85dea3de7bf0eb3",
+      "title": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 81.56,
+      "tsubo": 24.67,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_2f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "26d19910d812e756e57219a23125a19ad08360d93374a0f1a85dea3de7bf0eb3:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_2f.png",
+          "alt": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b73a70e427fdc08dbcb34c98d8133701a3c590b6df52b695aea1e8f160dfd694",
+      "title": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
+      "company": "シアーズホーム",
+      "layout": "3LDK",
+      "areaSqm": 67.07,
+      "tsubo": 20.29,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_doukyo_madori_1f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b73a70e427fdc08dbcb34c98d8133701a3c590b6df52b695aea1e8f160dfd694:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_doukyo_madori_1f.png",
+          "alt": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d0c1d82b903c86dbd7be5bf6ec379386fd01b290f91fc3aeacbc9ff26c9acb9c",
+      "title": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
+      "company": "シアーズホーム",
+      "layout": "3LDK",
+      "areaSqm": 67.07,
+      "tsubo": 20.29,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/nisetai_doukyo_madori_2f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d0c1d82b903c86dbd7be5bf6ec379386fd01b290f91fc3aeacbc9ff26c9acb9c:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/nisetai_doukyo_madori_2f.png",
+          "alt": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e7e7c4fd883300da7251051387db12d66bb356198f45eac0edf67cb10185cac8",
+      "title": "二階建て 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/kodate/kodate0004/",
+      "company": "シアーズホーム",
+      "layout": "3LDK",
+      "areaSqm": 44.71,
+      "tsubo": 13.52,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/kodate01_madorik.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e7e7c4fd883300da7251051387db12d66bb356198f45eac0edf67cb10185cac8:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/kodate01_madorik.png",
+          "alt": "二階建て 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/kodate/kodate0004/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e2f6ae95eec475906fd5ae9734dce76ed30e6a0f9c3186cff3559136aa2f1c27",
+      "title": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 76.18,
+      "tsubo": 23.04,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/garagehous01_madori_1f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e2f6ae95eec475906fd5ae9734dce76ed30e6a0f9c3186cff3559136aa2f1c27:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/garagehous01_madori_1f.png",
+          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "82e531cbdc24c3d60e179a60b44f434f96207ebdccbe639140a6f55b817c4373",
+      "title": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 76.18,
+      "tsubo": 23.04,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/garagehous01_madori_2f.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "82e531cbdc24c3d60e179a60b44f434f96207ebdccbe639140a6f55b817c4373:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/garagehous01_madori_2f.png",
+          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a299cdbd9916c0dd441125863ca5cfd2e600a058a8875fd0ca02d761a2a3df88",
+      "title": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+      "listingSource": "accepted searshome.co.jp",
+      "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+      "company": "シアーズホーム",
+      "layout": "4LDK",
+      "areaSqm": 76.18,
+      "tsubo": 23.04,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://searshome.co.jp/images/media/garagehous01_madori_koyaura.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a299cdbd9916c0dd441125863ca5cfd2e600a058a8875fd0ca02d761a2a3df88:image",
+          "kind": "floorplan",
+          "url": "https://searshome.co.jp/images/media/garagehous01_madori_koyaura.png",
+          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+          "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:47:18.711Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "7283c43e1e0fb6eb6989429e74e2ab7b47e93cf6190b79feb2d73bd41a42da5c",
+      "title": "平屋のリビングイメージ：広く明るいリビングには勾配天井を採用",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori_fv.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "7283c43e1e0fb6eb6989429e74e2ab7b47e93cf6190b79feb2d73bd41a42da5c:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori_fv.png",
+          "alt": "平屋のリビングイメージ：広く明るいリビングには勾配天井を採用",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T09:26:47.200Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e3af081202829f74d3b91583e1798a7e90051e61b8c850f5c460de262597c767",
+      "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e3af081202829f74d3b91583e1798a7e90051e61b8c850f5c460de262597c767:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.png",
+          "alt": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1c31b8f5742481e4077ade42cd52fe691b0f86549483eab9b3deca439ce06396",
+      "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1.5階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1c31b8f5742481e4077ade42cd52fe691b0f86549483eab9b3deca439ce06396:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.png",
+          "alt": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1.5階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e707ba94c28d08a5a7d88e42d81f579482cce996ce8685982baf6dd1c41a1e52",
+      "title": "SMART STYLE Roomie 29-1SE(SW)-2 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e707ba94c28d08a5a7d88e42d81f579482cce996ce8685982baf6dd1c41a1e52:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.png",
+          "alt": "SMART STYLE Roomie 29-1SE(SW)-2 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "58acdc8fd6557507f69ca3c2e07cfbd9d608ee9ecb1b24eaff725206a54c2664",
+      "title": "SMART STYLE Roomie 29-1SE(SW)-2 1.5階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "58acdc8fd6557507f69ca3c2e07cfbd9d608ee9ecb1b24eaff725206a54c2664:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.png",
+          "alt": "SMART STYLE Roomie 29-1SE(SW)-2 1.5階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bd2d750d0cdf5b76cdd0193e6aa61733493b7bc25448723c73945af303b118a1",
+      "title": "SMART STYLE 25-1W(E)-1 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bd2d750d0cdf5b76cdd0193e6aa61733493b7bc25448723c73945af303b118a1:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.png",
+          "alt": "SMART STYLE 25-1W(E)-1 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "60d050954e283851647fae0798ff45439a561a524f71b7a8d3bb06b5f88055aa",
+      "title": "SMART STYLE 25-1W(E)-1 1.5階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "60d050954e283851647fae0798ff45439a561a524f71b7a8d3bb06b5f88055aa:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.png",
+          "alt": "SMART STYLE 25-1W(E)-1 1.5階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b0408fc7b3684be42d070ff9d94d864654f71cf786e08d3a52bad33df00705dd",
+      "title": "SMART STYLE Roomie 27-1SE-1 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b0408fc7b3684be42d070ff9d94d864654f71cf786e08d3a52bad33df00705dd:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.png",
+          "alt": "SMART STYLE Roomie 27-1SE-1 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "f94fd9fe661d10b0de33ce660431cb826f31b71e64510838dc6df31810f75242",
+      "title": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "f94fd9fe661d10b0de33ce660431cb826f31b71e64510838dc6df31810f75242:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.png",
+          "alt": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b7a8e36177c0bcd2d7f283f32af080d26d0fb278af455c7627e8f1311f6d0e15",
+      "title": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1.5階 間取り図",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b7a8e36177c0bcd2d7f283f32af080d26d0fb278af455c7627e8f1311f6d0e15:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.png",
+          "alt": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1.5階 間取り図",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e26a9ae788524f0492b1c44e4f47c2a3437c3e75e5bbe0a024a89c49de18ab9f",
+      "title": "25坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-02.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e26a9ae788524f0492b1c44e4f47c2a3437c3e75e5bbe0a024a89c49de18ab9f:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-02.png",
+          "alt": "25坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e019c92ac257bd1f69a4dab2fb66a5d9249472cedadd64f4dd7b6fa9e238a044",
+      "title": "25坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-03.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e019c92ac257bd1f69a4dab2fb66a5d9249472cedadd64f4dd7b6fa9e238a044:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-03.png",
+          "alt": "25坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "26fe58816dce085e04bdd0c61a22b7996bd85d095fab7ffaf9409b6047d0f820",
+      "title": "ゆとりある30坪前後の平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-04.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "26fe58816dce085e04bdd0c61a22b7996bd85d095fab7ffaf9409b6047d0f820:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-04.png",
+          "alt": "ゆとりある30坪前後の平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a41ad10817259e6a6cf89ec176fbf7b73a9e31a34e6db01d56c42608dd4a4807",
+      "title": "趣味や客間も備えた平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-05.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a41ad10817259e6a6cf89ec176fbf7b73a9e31a34e6db01d56c42608dd4a4807:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-05.jpg",
+          "alt": "趣味や客間も備えた平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3d989ce92ea5783146f63301a5543dc5b86570f4765d1c4c906395b3c5f1ca21",
+      "title": "こだわりを実現する平屋3LDK間取り事例",
+      "listingSource": "accepted aerahome.com",
+      "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+      "company": "aerahome.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-06.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3d989ce92ea5783146f63301a5543dc5b86570f4765d1c4c906395b3c5f1ca21:image",
+          "kind": "floorplan",
+          "url": "https://aerahome.com/column/wp/wp-content/uploads/2025/07/column131-06.png",
+          "alt": "こだわりを実現する平屋3LDK間取り事例",
+          "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:37:18.072Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "10e6ece56dcc8783fe15bb97d0bbc27db5653349a648360ce72f30ff7bf1538c",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "10e6ece56dcc8783fe15bb97d0bbc27db5653349a648360ce72f30ff7bf1538c:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "dc439a9776fc5f14b44888f876114f267a4b6f9fbd79c22365f57c51ca57f73e",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "dc439a9776fc5f14b44888f876114f267a4b6f9fbd79c22365f57c51ca57f73e:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "8c3bb1dbff82d8aaf57c460c48a4e12546ecc6b7942d609273b583092eae5f95",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8c3bb1dbff82d8aaf57c460c48a4e12546ecc6b7942d609273b583092eae5f95:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6c289aba77a23d6cfc68aeb580b57a68135321cadd5be4471bd62f299d96da74",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6c289aba77a23d6cfc68aeb580b57a68135321cadd5be4471bd62f299d96da74:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "ec055b61c80e2182bda95ed455126694b7273a2ab59e7e9301b9816c7e860f43",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "ec055b61c80e2182bda95ed455126694b7273a2ab59e7e9301b9816c7e860f43:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "4c7d578e9e39c45809702882cd3d99e6ecd648ca19ecfa913ca37bfd6a9cb378",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4c7d578e9e39c45809702882cd3d99e6ecd648ca19ecfa913ca37bfd6a9cb378:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5b174f3d2421a5a9a5a1f983d9a7daa460e85a39f0cfbd38d2bd1548dadf1f10",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5b174f3d2421a5a9a5a1f983d9a7daa460e85a39f0cfbd38d2bd1548dadf1f10:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a4fedea51d55a31eb88261192cedac1aa8eaced79a926f576d76802acc1b2bce",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a4fedea51d55a31eb88261192cedac1aa8eaced79a926f576d76802acc1b2bce:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bdd735d126438718ee96540136fa32c7cfb5e79b627a1c72fc8cdb737cf95784",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bdd735d126438718ee96540136fa32c7cfb5e79b627a1c72fc8cdb737cf95784:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:42:27.808Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "03d20974792d0ad9795be187e31c3e99d65d2b33e670d8146dcd37123a5ba444",
+      "title": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+      "listingSource": "accepted kh-house.jp",
+      "sourceUrl": "https://kh-house.jp/hiraya/",
+      "company": "kh-house.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://kh-house.jp/wp-content/uploads/2022/03/madori-1.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "03d20974792d0ad9795be187e31c3e99d65d2b33e670d8146dcd37123a5ba444:image",
+          "kind": "floorplan",
+          "url": "https://kh-house.jp/wp-content/uploads/2022/03/madori-1.jpg",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "sourceUrl": "https://kh-house.jp/hiraya/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:49:10.945Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a83f0c4e02b67d1e6ec3a019e4b0d3a18fcb7ae162f7732a2a96574e979f2407",
+      "title": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+      "listingSource": "accepted kh-house.jp",
+      "sourceUrl": "https://kh-house.jp/hiraya/",
+      "company": "kh-house.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://kh-house.jp/wp-content/uploads/2022/03/madori.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a83f0c4e02b67d1e6ec3a019e4b0d3a18fcb7ae162f7732a2a96574e979f2407:image",
+          "kind": "floorplan",
+          "url": "https://kh-house.jp/wp-content/uploads/2022/03/madori.jpg",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "sourceUrl": "https://kh-house.jp/hiraya/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:49:10.945Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3ae9d54116ae78a24a1eadebb4458c5f6c0c63c14b3e55f352441da0aff56d67",
+      "title": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+      "listingSource": "accepted kh-house.jp",
+      "sourceUrl": "https://kh-house.jp/hiraya/",
+      "company": "kh-house.jp",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://kh-house.jp/wp-content/uploads/2022/03/%E5%9B%B3%E9%9D%A2.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3ae9d54116ae78a24a1eadebb4458c5f6c0c63c14b3e55f352441da0aff56d67:image",
+          "kind": "floorplan",
+          "url": "https://kh-house.jp/wp-content/uploads/2022/03/%E5%9B%B3%E9%9D%A2.jpg",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "sourceUrl": "https://kh-house.jp/hiraya/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T11:49:10.945Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5a84179362a6422c39323f2395713984d2b70b14ae63a7fa7e887376ba0bbd47",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5a84179362a6422c39323f2395713984d2b70b14ae63a7fa7e887376ba0bbd47:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/d959a97574dcceed98ef2fdbb9364ee7.jpg",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "1848082ff8afdd506046c0dec3f618885e08a65ed5361f44aa008918ad321297",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1848082ff8afdd506046c0dec3f618885e08a65ed5361f44aa008918ad321297:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/a1595c20cde8537622eca857e3d93ad7.jpg",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a38768a8279f7182b5eff65572111a6f857fac4709a46dd7ceddd807aa9447c0",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/35171fc94963fdc1dc7218d94d91d0c2.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a38768a8279f7182b5eff65572111a6f857fac4709a46dd7ceddd807aa9447c0:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/35171fc94963fdc1dc7218d94d91d0c2.jpg",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "93acccc3f51253f74136402accbb5be3bbcde3d8cdd8c7fc41fc4765501c8a19",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/03/Like1.5_30-01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "93acccc3f51253f74136402accbb5be3bbcde3d8cdd8c7fc41fc4765501c8a19:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/03/Like1.5_30-01.jpg",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "bfc375abc63fe3af410ad5dcd5310130273943f3cb2cc4e0f9e5d5e755c71470",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1974.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bfc375abc63fe3af410ad5dcd5310130273943f3cb2cc4e0f9e5d5e755c71470:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1974.png",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "78466f6fa9fe785caecf2f312707a413db949ac96de9f4bfa7ed4bc3f25e0b11",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1973.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "78466f6fa9fe785caecf2f312707a413db949ac96de9f4bfa7ed4bc3f25e0b11:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1973.png",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "99df8e2c63c4c0b614e5f726a2464d311148548f1790997442fad11299dc1c3d",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1972.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "99df8e2c63c4c0b614e5f726a2464d311148548f1790997442fad11299dc1c3d:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1972.png",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9c9810059091a0b29599f620d49dd649dc42e2efcb0ddef6ef32d968b30b2d9b",
+      "title": "間取り アーカイブ | IROHA.IE",
+      "listingSource": "accepted irohaie.com",
+      "sourceUrl": "https://irohaie.com/floor-plan/",
+      "company": "irohaie.com",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971.png"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9c9810059091a0b29599f620d49dd649dc42e2efcb0ddef6ef32d968b30b2d9b:image",
+          "kind": "floorplan",
+          "url": "https://irohaie.com/wpcms/wp-content/uploads/2024/02/1971.png",
+          "alt": "間取り アーカイブ | IROHA.IE",
+          "sourceUrl": "https://irohaie.com/floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T12:18:53.931Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a45703c9db84c1b182b8ac9f9f61db7f653833968267073fd4b39f0ab8a6dbe9",
+      "title": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a45703c9db84c1b182b8ac9f9f61db7f653833968267073fd4b39f0ab8a6dbe9:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-2F.jpg",
+          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "61b9fd271142a75b41da4337ff9f35b243c26a3b52aa11e3189c4efb3c04ee7e",
+      "title": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "61b9fd271142a75b41da4337ff9f35b243c26a3b52aa11e3189c4efb3c04ee7e:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg",
+          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "638fde00aad6f6bd8cf1cc9757abd5aa14ba5e30f349994207f1e9bc51cbf471",
+      "title": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
+      "company": "megasoft.co.jp",
+      "layout": "2LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-3F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "638fde00aad6f6bd8cf1cc9757abd5aa14ba5e30f349994207f1e9bc51cbf471:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-3F.jpg",
+          "alt": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "432efa69470f1915302619c036052bfbb7835155d520becff056513b046d3a45",
+      "title": "【間取り・注文住宅プラン】間口が3.0間（5460㎜）とれる敷地に建てられる標準的な3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e018/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "432efa69470f1915302619c036052bfbb7835155d520becff056513b046d3a45:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】間口が3.0間（5460㎜）とれる敷地に建てられる標準的な3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e018/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "97d4d64e83b9b60959c246e55a9033bf4f651e9352a713608b5f7379bd09f0a6",
+      "title": "【間取り・注文住宅プラン】キッチンの近くに和室を配置した、4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e037/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "97d4d64e83b9b60959c246e55a9033bf4f651e9352a713608b5f7379bd09f0a6:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】キッチンの近くに和室を配置した、4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e037/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b988ab1aa8fbff80c23957e1f15e7e572053097af26c0c1bc84a580d4621a00a",
+      "title": "【間取り・注文住宅プラン】間口3.5間(6370㎜)に建てる、標準的な3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e039/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b988ab1aa8fbff80c23957e1f15e7e572053097af26c0c1bc84a580d4621a00a:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】間口3.5間(6370㎜)に建てる、標準的な3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e039/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d4883b484d87ec9cfa8e7e3e50a442966c251e12f2bdbbb2b78156281c5ecb1c",
+      "title": "【間取り・注文住宅プラン】コンパクトな敷地に建つ3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e043/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d4883b484d87ec9cfa8e7e3e50a442966c251e12f2bdbbb2b78156281c5ecb1c:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】コンパクトな敷地に建つ3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e043/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "c88baed0c7705dd8538d096cd68ede604c59746733384661e2e00f13facb1bbc",
+      "title": "【間取り・注文住宅プラン】浴室と洗面所を二階に配置した4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "c88baed0c7705dd8538d096cd68ede604c59746733384661e2e00f13facb1bbc:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】浴室と洗面所を二階に配置した4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3c94094957ea866d421c5220311ef9f09329a6b744df4941c3feacf7dc72141c",
+      "title": "【間取り・注文住宅プラン】広めのデッキがある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e053/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3c94094957ea866d421c5220311ef9f09329a6b744df4941c3feacf7dc72141c:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広めのデッキがある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e053/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "428c554670d6a0f9b2b59db543f920ab2ffaea2db6bb24a2bf934d1efe50edcb",
+      "title": "【間取り・注文住宅プラン】二階に浴室と洗面所がある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "428c554670d6a0f9b2b59db543f920ab2ffaea2db6bb24a2bf934d1efe50edcb:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階に浴室と洗面所がある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2ba3f462a562bb70a3f13978f95c2959c8776243516c1c2c7e4ab9d0da61721c",
+      "title": "【間取り・注文住宅プラン】二階ホールに書斎として使えるカウンターを備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2ba3f462a562bb70a3f13978f95c2959c8776243516c1c2c7e4ab9d0da61721c:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階ホールに書斎として使えるカウンターを備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "26224de19d70741fade015de30982706f0959fdf719d5ff5f829a181ebf6541c",
+      "title": "【間取り・注文住宅プラン】リビングの横にリモートコーナーを配した、広いリビングのある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e087/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "26224de19d70741fade015de30982706f0959fdf719d5ff5f829a181ebf6541c:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングの横にリモートコーナーを配した、広いリビングのある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e087/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d23b767457bae4ffed516694ccfa278a3055830036584c36f1c435e752edb903",
+      "title": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e089/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d23b767457bae4ffed516694ccfa278a3055830036584c36f1c435e752edb903:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e089/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e2271b61093daf958b3fd5daf33e0f07a7a5be68fe7de7c1dd017633f2d48966",
+      "title": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e090/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e2271b61093daf958b3fd5daf33e0f07a7a5be68fe7de7c1dd017633f2d48966:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e090/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "56c9048002df0eaf953e1b2f1341cb096bfc8d2f8705605928f0e03395569fb4",
+      "title": "【間取り・注文住宅プラン】カーポートと大きなデッキのある3LDKのプラン – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e096/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "56c9048002df0eaf953e1b2f1341cb096bfc8d2f8705605928f0e03395569fb4:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】カーポートと大きなデッキのある3LDKのプラン – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e096/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "f248b253c656a27611071c9722c3e422af2b135bddf2f4f6eb1f8fe1efc879dd",
+      "title": "【間取り・注文住宅プラン】リビングに隣り合う和室のある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e104/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "f248b253c656a27611071c9722c3e422af2b135bddf2f4f6eb1f8fe1efc879dd:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングに隣り合う和室のある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e104/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "059bf02111f3624b74736fb019b9e335522a3ebc90193f8ad01b22450121702f",
+      "title": "【間取り・注文住宅プラン】リビングとつながった和室のある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e111/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "059bf02111f3624b74736fb019b9e335522a3ebc90193f8ad01b22450121702f:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビングとつながった和室のある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e111/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "19ffd81bbdd64c91c5f7eb66727a026fd7c4bf3787d5c220dc769da1522ddc21",
+      "title": "【間取り・注文住宅プラン】カーポートのある3LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e113/",
+      "company": "megasoft.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "19ffd81bbdd64c91c5f7eb66727a026fd7c4bf3787d5c220dc769da1522ddc21:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】カーポートのある3LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e113/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b33d9fcb8de6c36a3b8e6ecdfa820a93b003f36d2350c10254a198a808208b30",
+      "title": "【間取り・注文住宅プラン】充実した収納量が魅力的な4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e115/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b33d9fcb8de6c36a3b8e6ecdfa820a93b003f36d2350c10254a198a808208b30:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】充実した収納量が魅力的な4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e115/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "50e2d23c4b3c1921f7c95d604b1d452ef11aaae402063269241b332dbb304623",
+      "title": "【間取り・注文住宅プラン】リビング続きの和室と、設備の充実した主寝室がある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e120/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "50e2d23c4b3c1921f7c95d604b1d452ef11aaae402063269241b332dbb304623:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング続きの和室と、設備の充実した主寝室がある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e120/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "884a4e15b9484b57217304084d6883e4e7789ee2b36707f34d6d62ddb025fe12",
+      "title": "【間取り・注文住宅プラン】二階リビングの4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "884a4e15b9484b57217304084d6883e4e7789ee2b36707f34d6d62ddb025fe12:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】二階リビングの4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "75ae49f27ddc0ca03933a2a1e050e77616ec09bdc2923fadd40f0e5b58dd7bb1",
+      "title": "【間取り・注文住宅プラン】リビング前の広いデッキとセカンドリビングが楽しい4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e148/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "75ae49f27ddc0ca03933a2a1e050e77616ec09bdc2923fadd40f0e5b58dd7bb1:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング前の広いデッキとセカンドリビングが楽しい4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e148/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b201accf89264594add39a2b199c9a4cbc13ea91b3b534c4ab32c4dfbd4d6437",
+      "title": "【間取り・注文住宅プラン】リビング中央から家族を見渡せるリモートコーナーのある4LDKの間取り – メガソフト株式会社",
+      "listingSource": "accepted megasoft.co.jp",
+      "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e162/",
+      "company": "megasoft.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-2F.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b201accf89264594add39a2b199c9a4cbc13ea91b3b534c4ab32c4dfbd4d6437:image",
+          "kind": "floorplan",
+          "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-2F.jpg",
+          "alt": "【間取り・注文住宅プラン】リビング中央から家族を見渡せるリモートコーナーのある4LDKの間取り – メガソフト株式会社",
+          "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e162/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:40:43.532Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e74e9c296152833a4a48776dc930cd09a3806974e4514a834730a35079c4d21b",
+      "title": "２階建てプラン2 | 厳選プラン集｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+      "listingSource": "accepted kh-house.jp",
+      "sourceUrl": "https://kh-house.jp/plan/plan2f2/",
+      "company": "kh-house.jp",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://kh-house.jp/wp-content/uploads/2022/03/g02%E9%96%93%E5%8F%96%E3%82%8A.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e74e9c296152833a4a48776dc930cd09a3806974e4514a834730a35079c4d21b:image",
+          "kind": "floorplan",
+          "url": "https://kh-house.jp/wp-content/uploads/2022/03/g02%E9%96%93%E5%8F%96%E3%82%8A.jpg",
+          "alt": "２階建てプラン2 | 厳選プラン集｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "sourceUrl": "https://kh-house.jp/plan/plan2f2/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T13:43:59.792Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "300b61f1ab37dd9ca5a402dee5ee78189f3477fd344b48a80be2306aece940c3",
+      "title": "S39",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 109.3,
+      "tsubo": 33.06,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640162279-18435507.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "300b61f1ab37dd9ca5a402dee5ee78189f3477fd344b48a80be2306aece940c3:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640162279-18435507.png?1640713016",
+          "alt": "S39",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "3a3085561e556f3dba6967907b53cf03564547e9f8d6b9e9c44a2817bf453cbd",
+      "title": "S34",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 115.75,
+      "tsubo": 35.01,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640162119-fa194da8.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3a3085561e556f3dba6967907b53cf03564547e9f8d6b9e9c44a2817bf453cbd:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640162119-fa194da8.png?1640713016",
+          "alt": "S34",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2b0aeb3f776858bc0329ab8763389fa7f75d95c3af33de44edc9c3df16955987",
+      "title": "N35",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 129.17,
+      "tsubo": 39.07,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640161890-eff9bdba.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2b0aeb3f776858bc0329ab8763389fa7f75d95c3af33de44edc9c3df16955987:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640161890-eff9bdba.png?1640713016",
+          "alt": "N35",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "9e799a6f275b56b2b05b782562640fe7ca7f9634692169b061ea39c3264fa241",
+      "title": "EW36",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 113.44,
+      "tsubo": 34.32,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640154290-e42c1d3a.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9e799a6f275b56b2b05b782562640fe7ca7f9634692169b061ea39c3264fa241:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640154290-e42c1d3a.png?1640713016",
+          "alt": "EW36",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "aa9897666d12830cbe50819aeb85a4b02677830f2d12bfea78f1e27a71609444",
+      "title": "EW32",
+      "listingSource": "accepted with-e-home.com",
+      "sourceUrl": "https://with-e-home.com/plans/tag/17",
+      "company": "ウィザースホーム",
+      "layout": "4LDK",
+      "areaSqm": 118.41,
+      "tsubo": 35.82,
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://with-e-home.com/img/uploads/plans/2021-12-22/1640153671-be942edd.png?1640713016"
+      ],
+      "imageCandidates": [
+        {
+          "id": "aa9897666d12830cbe50819aeb85a4b02677830f2d12bfea78f1e27a71609444:image",
+          "kind": "floorplan",
+          "url": "https://with-e-home.com/img/uploads/plans/2021-12-22/1640153671-be942edd.png?1640713016",
+          "alt": "EW32",
+          "sourceUrl": "https://with-e-home.com/plans/tag/17",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-28T16:30:52.606Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782634755674",
-      "createdAt": "2026-06-28T08:19:15.664Z",
+      "id": "accepted_public_1782664277561",
+      "createdAt": "2026-06-28T16:31:17.559Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 210 records."
+      "message": "Accepted floorplans only: 286 records."
     }
   ]
 }
