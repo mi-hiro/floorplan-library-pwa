@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-28T16:31:17.559Z",
-  "acceptedCount": 286,
+  "generatedAt": "2026-06-28T21:00:00.054Z",
+  "acceptedCount": 359,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 22
     },
     "forumu.co.jp": {
-      "acceptedCount": 61
+      "acceptedCount": 103
     },
     "sfc.jp": {
       "acceptedCount": 24
@@ -45,19 +45,22 @@
       "acceptedCount": 12
     },
     "misawa.co.jp": {
-      "acceptedCount": 19
+      "acceptedCount": 34
     },
     "aerahome.com": {
-      "acceptedCount": 5
+      "acceptedCount": 8
     },
     "kh-house.jp": {
-      "acceptedCount": 4
+      "acceptedCount": 16
     },
     "irohaie.com": {
       "acceptedCount": 8
     },
     "with-e-home.com": {
       "acceptedCount": 5
+    },
+    "hiyoriblog.com": {
+      "acceptedCount": 1
     }
   }
 }
