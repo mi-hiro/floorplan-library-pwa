@@ -166,10 +166,10 @@
   },
   "toyotahome.co.jp": {
     "candidateCount": 2062,
-    "acceptedCount": 31,
+    "acceptedCount": 111,
     "rejectedCount": 854,
     "reviewCount": 1234,
-    "acceptanceRate": 0.015,
+    "acceptanceRate": 0.054,
     "lastCrawledAt": "2026-06-28T18:35:39.177Z",
     "blockReason": null,
     "nextCrawlAfter": null,
