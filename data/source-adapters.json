@@ -117,5 +117,31 @@
     "rejectUrlPatterns": ["logo|icon|bana|banner|gaikan|main|footer|facebook|instagram|line"],
     "contextSelectors": [".plan", ".lineup", ".contents", ".main"],
     "rejectSelectors": [".banner", ".sns", ".footer"]
+  },
+  "misawa.co.jp": {
+    "enabled": true,
+    "quality": "high",
+    "companyName": "ミサワホーム",
+    "seedUrls": [
+      "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html"
+    ],
+    "pagePatterns": ["/madori/", "/guide/hiraya/"],
+    "acceptUrlPatterns": ["images/madori/madori[0-9]+_img[12]\\.(png|jpg)"],
+    "rejectUrlPatterns": ["logo|icon|estimate|bnr|banner|img3|img4|catalog|present|footer|pixel|cookie"],
+    "contextSelectors": [".madori", ".contents", ".main"],
+    "rejectSelectors": [".banner", ".footer", ".catalog"]
+  },
+  "tanaken.co.jp": {
+    "enabled": true,
+    "quality": "medium",
+    "companyName": "タナカホームズ",
+    "seedUrls": [
+      "https://www.tanaken.co.jp/estate/details_342.html"
+    ],
+    "pagePatterns": ["/estate/"],
+    "acceptUrlPatterns": ["photo/estate/.+_2[bs]\\.jpg"],
+    "rejectUrlPatterns": ["_1b|_3b|_4b|_6s|_9s|around|icon|logo"],
+    "contextSelectors": [".estate", ".contents", ".main"],
+    "rejectSelectors": [".banner", ".footer"]
   }
 }

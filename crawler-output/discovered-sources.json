@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T08:26:37.807Z",
+  "generatedAt": "2026-06-28T09:21:12.461Z",
   "source": "source-discovery",
   "discoveredUrls": [
     {
@@ -2492,6 +2492,3606 @@
       "action": "instant-answer",
       "result": "success",
       "message": "鹿児島 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_d912d2fb-b8de-4370-b930-2fbacca1ead6",
+      "createdAt": "2026-06-28T09:20:12.017Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_d3b85125-b2e2-4cfc-8b4d-d11f3b0b790b",
+      "createdAt": "2026-06-28T09:20:12.149Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 新築 平屋 間取り"
+    },
+    {
+      "id": "log_a36553f8-7d8c-42b0-b315-5dbfab774225",
+      "createdAt": "2026-06-28T09:20:12.279Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_78889b9a-085a-48e5-8202-4b08caf1510c",
+      "createdAt": "2026-06-28T09:20:12.414Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_542a7b92-26ce-404e-8446-1183e49ff837",
+      "createdAt": "2026-06-28T09:20:12.543Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_728cf732-395f-4912-8e2d-3a55acfb07b3",
+      "createdAt": "2026-06-28T09:20:12.672Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 新築 平屋 間取り"
+    },
+    {
+      "id": "log_d461343f-0aef-471f-bc61-da0416f100f9",
+      "createdAt": "2026-06-28T09:20:12.801Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_f3fee163-9204-4b2f-8c4c-77c8cfa9e6b9",
+      "createdAt": "2026-06-28T09:20:12.925Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_a47138f0-586b-4ba5-b844-7ccaf1dd73d8",
+      "createdAt": "2026-06-28T09:20:13.059Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_a24a396c-b491-4f9f-85c9-ccd71881ecdb",
+      "createdAt": "2026-06-28T09:20:13.199Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 新築 平屋 間取り"
+    },
+    {
+      "id": "log_24dfe7bf-06a7-482e-bf9b-fdc49b306b73",
+      "createdAt": "2026-06-28T09:20:13.329Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_7f12eff8-4c35-475a-a0cf-012987250133",
+      "createdAt": "2026-06-28T09:20:13.457Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_5541071b-7551-478f-8728-09b4bb774029",
+      "createdAt": "2026-06-28T09:20:13.597Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_a9a6ca17-ae29-4467-9efb-e19246f4cae6",
+      "createdAt": "2026-06-28T09:20:13.739Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_d4b87c86-c882-401b-8a1f-49378b398c5b",
+      "createdAt": "2026-06-28T09:20:13.892Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_381140b4-6d88-4fc7-afa1-05407be3838e",
+      "createdAt": "2026-06-28T09:20:14.025Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_f65de311-7574-45ec-8f05-e28406142de7",
+      "createdAt": "2026-06-28T09:20:14.149Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_d61d1603-632e-49ea-9d00-bdf7ec29637c",
+      "createdAt": "2026-06-28T09:20:14.276Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_b5d46260-85fe-4c93-bf69-9f94845abd2e",
+      "createdAt": "2026-06-28T09:20:14.401Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_c401f9ff-341b-41e6-b3da-12aff7fa7231",
+      "createdAt": "2026-06-28T09:20:14.535Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E5%88%86+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大分 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_56b84a14-f192-41f7-a50c-13d47d570ae4",
+      "createdAt": "2026-06-28T09:20:14.670Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_381ab850-a4f2-47d0-b01d-209503f93f73",
+      "createdAt": "2026-06-28T09:20:14.800Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_37c181c1-72a7-4018-800f-e45f01d18637",
+      "createdAt": "2026-06-28T09:20:14.925Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_3bd84f84-cbcf-4292-97e7-d41925b6a9f7",
+      "createdAt": "2026-06-28T09:20:15.061Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BD%90%E8%B3%80+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "佐賀 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_37ce7329-089e-48c5-9c7f-fbe78ef41d6f",
+      "createdAt": "2026-06-28T09:20:15.855Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_e1cff665-cf6f-4929-b5a3-b0198b5bad09",
+      "createdAt": "2026-06-28T09:20:15.984Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 新築 平屋 間取り"
+    },
+    {
+      "id": "log_69d64488-e57e-4ced-a117-6e7fe2bfaaef",
+      "createdAt": "2026-06-28T09:20:16.137Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_a995d7b3-694c-4a84-baad-ec0cc311607e",
+      "createdAt": "2026-06-28T09:20:16.271Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_7946555c-4d2e-4ddf-9372-ea697e540e2c",
+      "createdAt": "2026-06-28T09:20:16.412Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%B2%96%E7%B8%84+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "沖縄 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_7bba39c0-b394-4bdf-9e83-a473070593f1",
+      "createdAt": "2026-06-28T09:20:16.541Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%B2%96%E7%B8%84+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "沖縄 新築 平屋 間取り"
+    },
+    {
+      "id": "log_0067e0b5-6cc8-41c7-8447-aa9c66d7e6ba",
+      "createdAt": "2026-06-28T09:20:16.665Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%B2%96%E7%B8%84+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "沖縄 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_1d29c29d-3df4-46bf-beb8-94b7fbf3d9f2",
+      "createdAt": "2026-06-28T09:20:16.795Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%B2%96%E7%B8%84+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "沖縄 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_fff44149-6456-4432-9bff-cd0e8d72a030",
+      "createdAt": "2026-06-28T09:20:16.928Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%8F%A3+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山口 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_977433ae-9663-42a2-aa49-8e1785af7cf8",
+      "createdAt": "2026-06-28T09:20:17.061Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%8F%A3+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山口 新築 平屋 間取り"
+    },
+    {
+      "id": "log_0cf814db-276b-4efd-9ea9-041f61fcf879",
+      "createdAt": "2026-06-28T09:20:17.192Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%8F%A3+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山口 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_ccaf4285-45ff-4c7e-8f31-4ca3249c367d",
+      "createdAt": "2026-06-28T09:20:17.322Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%8F%A3+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山口 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_d632fb6a-d3d3-40e5-b554-9f76e4bf5804",
+      "createdAt": "2026-06-28T09:20:17.450Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_b8468132-536a-4c18-ae24-611588736df4",
+      "createdAt": "2026-06-28T09:20:17.573Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_21c959b0-47d3-464e-89a3-88c2ccda19ba",
+      "createdAt": "2026-06-28T09:20:17.702Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_38f1b3ed-4c6d-4ebf-87fe-a6c86835eda1",
+      "createdAt": "2026-06-28T09:20:17.825Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E5%B4%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長崎 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_7aad98ac-a1ec-4fea-826a-4e0c0ea11155",
+      "createdAt": "2026-06-28T09:20:17.956Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%B2%96%E7%B8%84+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "沖縄 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_23baea8d-453c-486c-9bac-a61dd18d598f",
+      "createdAt": "2026-06-28T09:20:18.083Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%B2%96%E7%B8%84+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "沖縄 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_1be25012-32c1-4c9c-9031-1977cbcb7504",
+      "createdAt": "2026-06-28T09:20:18.206Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%B2%96%E7%B8%84+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "沖縄 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_690cc485-c773-4607-9f53-1d35316a7045",
+      "createdAt": "2026-06-28T09:20:18.331Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%B2%96%E7%B8%84+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "沖縄 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_27aa3ec0-40cc-4323-9484-5c6ff2608db0",
+      "createdAt": "2026-06-28T09:20:18.455Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%8F%A3+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山口 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_1bfcc0ac-c5ab-48e8-8408-448b8927c3c4",
+      "createdAt": "2026-06-28T09:20:18.582Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%8F%A3+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山口 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_95dd3685-e475-4acc-bae4-8a911e3d6f57",
+      "createdAt": "2026-06-28T09:20:18.714Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%8F%A3+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山口 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_fe5c0e86-36d3-4732-b808-b1b814670ce7",
+      "createdAt": "2026-06-28T09:20:18.836Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%8F%A3+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山口 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_8c0f5fa1-63b6-4a94-bb1a-a8db63ad179c",
+      "createdAt": "2026-06-28T09:20:20.022Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BA%83%E5%B3%B6+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "広島 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_ea8c7388-76f9-4a86-b589-653bb606e43b",
+      "createdAt": "2026-06-28T09:20:20.174Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BA%83%E5%B3%B6+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "広島 新築 平屋 間取り"
+    },
+    {
+      "id": "log_0f17d152-5434-47c5-b05c-561c576fb56d",
+      "createdAt": "2026-06-28T09:20:20.298Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BA%83%E5%B3%B6+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "広島 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_8d331ac0-310d-4421-8008-15ef725dfef7",
+      "createdAt": "2026-06-28T09:20:20.433Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BA%83%E5%B3%B6+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "広島 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_44a3728f-1031-48de-9871-c46e064ba466",
+      "createdAt": "2026-06-28T09:20:20.562Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A1%E5%B1%B1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岡山 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_b2701441-b557-4aff-8400-96fd83095f77",
+      "createdAt": "2026-06-28T09:20:20.689Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A1%E5%B1%B1+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岡山 新築 平屋 間取り"
+    },
+    {
+      "id": "log_d9722a1e-b764-40b2-a3d5-f46f61ad7cbf",
+      "createdAt": "2026-06-28T09:20:20.817Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A1%E5%B1%B1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岡山 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_ba55d375-7345-4cf9-aef1-4a944fa9bf20",
+      "createdAt": "2026-06-28T09:20:20.946Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A1%E5%B1%B1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岡山 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_d4b847b4-cfc8-4886-ae4b-de0a4caa1526",
+      "createdAt": "2026-06-28T09:20:21.081Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B3%B6%E6%A0%B9+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "島根 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_52b10d02-b190-4f4d-87ab-ab97f225657d",
+      "createdAt": "2026-06-28T09:20:21.219Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B3%B6%E6%A0%B9+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "島根 新築 平屋 間取り"
+    },
+    {
+      "id": "log_567948ae-b538-4c46-b440-b3ad66571809",
+      "createdAt": "2026-06-28T09:20:21.354Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B3%B6%E6%A0%B9+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "島根 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_b2b2b7d5-1b42-4d4f-8f3a-6956ae0fa54f",
+      "createdAt": "2026-06-28T09:20:21.487Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B3%B6%E6%A0%B9+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "島根 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_051b5d45-51de-40ad-85f3-4ce2e512ffcc",
+      "createdAt": "2026-06-28T09:20:21.612Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BA%83%E5%B3%B6+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "広島 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_d6ce5c31-b163-4655-889e-8a0b857f3dc1",
+      "createdAt": "2026-06-28T09:20:21.753Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BA%83%E5%B3%B6+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "広島 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_3a057517-4ca7-466b-831e-c747cb30f554",
+      "createdAt": "2026-06-28T09:20:21.887Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BA%83%E5%B3%B6+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "広島 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_5e7f38ac-41e7-4b71-9d1e-b8296be211fd",
+      "createdAt": "2026-06-28T09:20:22.028Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BA%83%E5%B3%B6+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "広島 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_9df319d7-fd57-450a-9031-b68b791760d9",
+      "createdAt": "2026-06-28T09:20:22.165Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A1%E5%B1%B1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岡山 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_28f61682-c19e-455c-a522-a683e4683608",
+      "createdAt": "2026-06-28T09:20:22.306Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A1%E5%B1%B1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岡山 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_d6fef88f-770e-4b38-b068-d852ea8a978a",
+      "createdAt": "2026-06-28T09:20:22.428Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A1%E5%B1%B1+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岡山 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_34a2ee0a-bcbc-4b86-9958-f972cc7d9d49",
+      "createdAt": "2026-06-28T09:20:22.566Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A1%E5%B1%B1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岡山 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_1c9bd246-7340-4607-940b-3c7a158dc677",
+      "createdAt": "2026-06-28T09:20:22.703Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B3%B6%E6%A0%B9+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "島根 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_6aeee5d5-5bb5-4d3a-a243-253c80763f06",
+      "createdAt": "2026-06-28T09:20:22.837Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B3%B6%E6%A0%B9+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "島根 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_7716729c-e91e-4849-abe7-b10e2e8581d1",
+      "createdAt": "2026-06-28T09:20:22.987Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B3%B6%E6%A0%B9+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "島根 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_b1c4b437-c8da-4cc8-841e-9ff777edd4bd",
+      "createdAt": "2026-06-28T09:20:23.124Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B3%B6%E6%A0%B9+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "島根 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_4c40d4a8-3499-4b8c-8ff4-c938b8a9ad4e",
+      "createdAt": "2026-06-28T09:20:23.883Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B3%A5%E5%8F%96+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鳥取 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_d9b2faf5-7e78-4d2d-a4e2-c8475db54a09",
+      "createdAt": "2026-06-28T09:20:24.019Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B3%A5%E5%8F%96+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鳥取 新築 平屋 間取り"
+    },
+    {
+      "id": "log_3ed8d2a2-b1ca-4394-9f42-c1a9720b9306",
+      "createdAt": "2026-06-28T09:20:24.164Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B3%A5%E5%8F%96+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鳥取 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_0b4b9b50-bec3-4893-b7dc-f9f20ad7bd0b",
+      "createdAt": "2026-06-28T09:20:24.296Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B3%A5%E5%8F%96+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鳥取 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_1bc7e9e0-a6e2-40fe-be42-e65fb69c16b0",
+      "createdAt": "2026-06-28T09:20:24.421Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E5%AA%9B+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛媛 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_33055856-39e7-4278-92c3-2cd3996d0cef",
+      "createdAt": "2026-06-28T09:20:24.543Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E5%AA%9B+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛媛 新築 平屋 間取り"
+    },
+    {
+      "id": "log_ab8c3079-eb80-4637-a233-76d59cc5d65f",
+      "createdAt": "2026-06-28T09:20:24.676Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E5%AA%9B+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛媛 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_90aea8e6-424a-4559-82ba-48c13e7034c4",
+      "createdAt": "2026-06-28T09:20:24.801Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E5%AA%9B+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛媛 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_8134c73c-2a74-4dfa-9524-eaaf070da31b",
+      "createdAt": "2026-06-28T09:20:24.927Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%A6%99%E5%B7%9D+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "香川 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_81e52e93-94ef-4aed-ba1c-f91adb7e981e",
+      "createdAt": "2026-06-28T09:20:25.047Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%A6%99%E5%B7%9D+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "香川 新築 平屋 間取り"
+    },
+    {
+      "id": "log_5c84f8f2-cf6e-4f04-b639-2f355a2ec648",
+      "createdAt": "2026-06-28T09:20:25.170Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%A6%99%E5%B7%9D+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "香川 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_ef202678-8a7b-4e2a-b718-1d3846328181",
+      "createdAt": "2026-06-28T09:20:25.297Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%A6%99%E5%B7%9D+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "香川 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_b231bdc3-8b51-4698-b4e2-3ed066eb6bc6",
+      "createdAt": "2026-06-28T09:20:25.427Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B3%A5%E5%8F%96+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鳥取 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_968575ae-d6a9-4720-a8fc-5d28472f43c0",
+      "createdAt": "2026-06-28T09:20:25.548Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B3%A5%E5%8F%96+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鳥取 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_dcc71e7c-a979-451d-ad2a-641c698063f7",
+      "createdAt": "2026-06-28T09:20:25.677Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B3%A5%E5%8F%96+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鳥取 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_9e19d00d-eef5-4b23-ba60-8dec0e7a2aaf",
+      "createdAt": "2026-06-28T09:20:25.806Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B3%A5%E5%8F%96+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鳥取 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_bbce0c66-6d23-443d-b7fe-3727d19fc04c",
+      "createdAt": "2026-06-28T09:20:25.936Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E5%AA%9B+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛媛 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_d421b6f4-add4-49a5-b3a8-37ee3644ef57",
+      "createdAt": "2026-06-28T09:20:26.060Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E5%AA%9B+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛媛 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_8e14f032-e0b4-428f-bc67-fe6e4d911b93",
+      "createdAt": "2026-06-28T09:20:26.193Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E5%AA%9B+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛媛 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_6b5de079-bb51-4648-ba56-31752bb25eb0",
+      "createdAt": "2026-06-28T09:20:26.326Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E5%AA%9B+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛媛 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_c08fd84a-78ee-46dd-bc88-0e019f8379e9",
+      "createdAt": "2026-06-28T09:20:26.446Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%A6%99%E5%B7%9D+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "香川 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_debb04ab-0304-4cda-b7b8-2e0fe100a56b",
+      "createdAt": "2026-06-28T09:20:26.582Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%A6%99%E5%B7%9D+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "香川 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_0c91b0e1-441a-45e5-a86f-43a61c7749be",
+      "createdAt": "2026-06-28T09:20:26.702Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%A6%99%E5%B7%9D+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "香川 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_14f51b3e-35e0-4c1c-94e6-75cee84052b8",
+      "createdAt": "2026-06-28T09:20:26.831Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%A6%99%E5%B7%9D+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "香川 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_cd4481f5-7a5b-4f2d-9c19-21519854a3a4",
+      "createdAt": "2026-06-28T09:20:27.597Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BE%B3%E5%B3%B6+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "徳島 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_e8f685bc-e19c-4395-8ea3-1661cec1cbfa",
+      "createdAt": "2026-06-28T09:20:27.729Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BE%B3%E5%B3%B6+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "徳島 新築 平屋 間取り"
+    },
+    {
+      "id": "log_64552b7a-ff65-4d0d-af0d-06fea8e6198a",
+      "createdAt": "2026-06-28T09:20:27.854Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BE%B3%E5%B3%B6+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "徳島 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_d0b789b9-209f-4206-a77b-43c9dbbe746b",
+      "createdAt": "2026-06-28T09:20:27.994Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BE%B3%E5%B3%B6+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "徳島 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_4f176ba1-999d-4a8e-b553-dd9bdb822303",
+      "createdAt": "2026-06-28T09:20:28.118Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%AB%98%E7%9F%A5+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "高知 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_58e53f8e-1dfe-4e72-b45d-b0a3b0d0ac83",
+      "createdAt": "2026-06-28T09:20:28.243Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%AB%98%E7%9F%A5+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "高知 新築 平屋 間取り"
+    },
+    {
+      "id": "log_c899abb8-80ef-4584-9e83-04b225de02bf",
+      "createdAt": "2026-06-28T09:20:28.370Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%AB%98%E7%9F%A5+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "高知 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_15590e50-ae0f-4c26-b40d-5e4fe19308dc",
+      "createdAt": "2026-06-28T09:20:28.494Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%AB%98%E7%9F%A5+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "高知 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_6daa4b83-f5a1-418c-bb54-ac7dd86471ea",
+      "createdAt": "2026-06-28T09:20:28.619Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%85%B5%E5%BA%AB+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "兵庫 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_529b3399-bbb4-4d76-9ae6-ac36b7ec75c8",
+      "createdAt": "2026-06-28T09:20:28.742Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%85%B5%E5%BA%AB+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "兵庫 新築 平屋 間取り"
+    },
+    {
+      "id": "log_d598d8a1-7d02-495c-afae-b18191c7b85c",
+      "createdAt": "2026-06-28T09:20:28.864Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%85%B5%E5%BA%AB+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "兵庫 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_0fe1c27f-43b4-4fed-9d1a-88ac4d4cf16d",
+      "createdAt": "2026-06-28T09:20:28.983Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%85%B5%E5%BA%AB+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "兵庫 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_8673161a-faa9-4bd2-8128-1d3071416baa",
+      "createdAt": "2026-06-28T09:20:29.115Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BE%B3%E5%B3%B6+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "徳島 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_ec16a792-5dbb-409b-8a6c-0d489b07093c",
+      "createdAt": "2026-06-28T09:20:29.247Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BE%B3%E5%B3%B6+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "徳島 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_69d5b000-70e4-47d9-8d3a-5ac58565c8da",
+      "createdAt": "2026-06-28T09:20:29.375Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BE%B3%E5%B3%B6+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "徳島 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_92740be3-c642-43ef-8d7c-2ca93fce82ed",
+      "createdAt": "2026-06-28T09:20:29.500Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%BE%B3%E5%B3%B6+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "徳島 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_5e2a2d21-636f-405f-94a0-9115909446b0",
+      "createdAt": "2026-06-28T09:20:29.624Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%AB%98%E7%9F%A5+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "高知 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_ab49187b-35a0-43b2-ae91-d7ec4f1dd7a4",
+      "createdAt": "2026-06-28T09:20:29.752Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%AB%98%E7%9F%A5+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "高知 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_60a1c1c1-8857-4c45-8cfe-81ecdc68f0d7",
+      "createdAt": "2026-06-28T09:20:29.878Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%AB%98%E7%9F%A5+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "高知 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_aeb887bc-29a6-4751-9e72-f56f64aca164",
+      "createdAt": "2026-06-28T09:20:29.999Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%AB%98%E7%9F%A5+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "高知 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_61ca807c-ee69-4d3d-89eb-3b27669fb574",
+      "createdAt": "2026-06-28T09:20:30.121Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%85%B5%E5%BA%AB+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "兵庫 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_cfe8d706-cb6e-40c9-98ec-c07f94a89099",
+      "createdAt": "2026-06-28T09:20:30.252Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%85%B5%E5%BA%AB+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "兵庫 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_2cf2b714-5c71-4fb9-bda1-7a699e9e05a6",
+      "createdAt": "2026-06-28T09:20:30.640Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%85%B5%E5%BA%AB+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "兵庫 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_c12b6cd3-3462-4a3c-8995-21684e86eaa3",
+      "createdAt": "2026-06-28T09:20:30.771Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%85%B5%E5%BA%AB+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "兵庫 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_6e4a01c8-f7e4-4804-99a9-542735104de2",
+      "createdAt": "2026-06-28T09:20:31.603Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E9%98%AA+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大阪 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_678a5ea2-c1e4-474c-87fe-1776698437a4",
+      "createdAt": "2026-06-28T09:20:31.954Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E9%98%AA+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大阪 新築 平屋 間取り"
+    },
+    {
+      "id": "log_3717dd40-f305-4279-a70a-b99ede6c704a",
+      "createdAt": "2026-06-28T09:20:32.079Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E9%98%AA+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大阪 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_f750f45e-081f-403a-be9c-e807e29067b2",
+      "createdAt": "2026-06-28T09:20:32.214Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E9%98%AA+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大阪 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_8961f29b-8de8-4d85-b8f9-8e2f7ba26b7a",
+      "createdAt": "2026-06-28T09:20:32.338Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BA%AC%E9%83%BD+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "京都 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_25be9c30-b89a-42f2-beff-ac529fee1a50",
+      "createdAt": "2026-06-28T09:20:32.472Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BA%AC%E9%83%BD+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "京都 新築 平屋 間取り"
+    },
+    {
+      "id": "log_8ae73aed-0f9d-40d0-810e-bbcbc05bf364",
+      "createdAt": "2026-06-28T09:20:32.602Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BA%AC%E9%83%BD+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "京都 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_c8ae72b7-606e-4cff-aec2-fc00d6cd04ae",
+      "createdAt": "2026-06-28T09:20:32.743Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BA%AC%E9%83%BD+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "京都 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_6d59d9f6-3784-4927-a90c-bf47fc81090d",
+      "createdAt": "2026-06-28T09:20:32.885Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%BB%8B%E8%B3%80+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "滋賀 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_93b4443c-ec2f-4937-9e4a-25469a4ce4fc",
+      "createdAt": "2026-06-28T09:20:33.024Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%BB%8B%E8%B3%80+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "滋賀 新築 平屋 間取り"
+    },
+    {
+      "id": "log_415cc7e3-d01a-45bd-9327-8e78c09cb710",
+      "createdAt": "2026-06-28T09:20:33.163Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%BB%8B%E8%B3%80+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "滋賀 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_60448c36-fff2-4a0f-a6b0-bba12f22ed87",
+      "createdAt": "2026-06-28T09:20:33.295Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%BB%8B%E8%B3%80+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "滋賀 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_2c12bd96-ef8c-4556-b857-1f34cd7837a7",
+      "createdAt": "2026-06-28T09:20:33.426Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E9%98%AA+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大阪 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_cc234ea0-7c18-4358-8284-a288a6263e65",
+      "createdAt": "2026-06-28T09:20:33.576Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E9%98%AA+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大阪 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_60e4fe7e-e5de-481b-aea2-3efe0900492f",
+      "createdAt": "2026-06-28T09:20:33.698Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E9%98%AA+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大阪 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_70f9dfb8-08bb-4641-8793-81dae5eba2a5",
+      "createdAt": "2026-06-28T09:20:33.835Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A4%A7%E9%98%AA+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "大阪 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_8ee5ebb0-3fa4-4c43-bdb3-1f16ce95feca",
+      "createdAt": "2026-06-28T09:20:33.964Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BA%AC%E9%83%BD+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "京都 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_95480c66-69ae-41a7-aa75-fda8713bdd95",
+      "createdAt": "2026-06-28T09:20:34.094Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BA%AC%E9%83%BD+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "京都 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_9d20b0f9-27b7-437a-ab65-f0f12fe06f86",
+      "createdAt": "2026-06-28T09:20:34.229Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BA%AC%E9%83%BD+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "京都 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_3a07f561-bcd2-43d9-9f18-9996495b8cca",
+      "createdAt": "2026-06-28T09:20:34.351Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%BA%AC%E9%83%BD+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "京都 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_c7e96e64-f882-4550-8f18-b77fc41a0f25",
+      "createdAt": "2026-06-28T09:20:34.484Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%BB%8B%E8%B3%80+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "滋賀 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_89fa12e3-3a2c-4e36-9781-18a3f31308b7",
+      "createdAt": "2026-06-28T09:20:34.606Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%BB%8B%E8%B3%80+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "滋賀 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_5c385374-0df4-4e79-8e81-5f7af463f094",
+      "createdAt": "2026-06-28T09:20:34.735Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%BB%8B%E8%B3%80+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "滋賀 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_1adf5db4-e9c9-4e6f-967e-d55dda6eba22",
+      "createdAt": "2026-06-28T09:20:34.867Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%BB%8B%E8%B3%80+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "滋賀 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_ab7317a5-ca68-4867-8ce4-a3d1fa912f10",
+      "createdAt": "2026-06-28T09:20:35.752Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A5%88%E8%89%AF+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "奈良 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_25b1ba85-8aee-4988-b43b-b807bf3c0410",
+      "createdAt": "2026-06-28T09:20:36.091Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A5%88%E8%89%AF+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "奈良 新築 平屋 間取り"
+    },
+    {
+      "id": "log_fc3bb476-c526-4aa6-af24-862d244712b2",
+      "createdAt": "2026-06-28T09:20:36.236Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A5%88%E8%89%AF+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "奈良 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_5533b55a-72b3-4c01-b4ba-a67eb4ee39ad",
+      "createdAt": "2026-06-28T09:20:36.378Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A5%88%E8%89%AF+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "奈良 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_09d1b700-25b1-4746-9248-deeb6504dce3",
+      "createdAt": "2026-06-28T09:20:36.508Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%92%8C%E6%AD%8C%E5%B1%B1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "和歌山 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_ff4a2a89-803f-4d84-bb7e-c7496f723435",
+      "createdAt": "2026-06-28T09:20:36.641Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%92%8C%E6%AD%8C%E5%B1%B1+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "和歌山 新築 平屋 間取り"
+    },
+    {
+      "id": "log_dc100e08-27cb-43cd-a76b-e7b462f55a0d",
+      "createdAt": "2026-06-28T09:20:36.764Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%92%8C%E6%AD%8C%E5%B1%B1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "和歌山 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_2ea52889-613c-46c0-86cd-7c692fdb2920",
+      "createdAt": "2026-06-28T09:20:36.900Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%92%8C%E6%AD%8C%E5%B1%B1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "和歌山 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_26c3dc4d-6e7e-49f5-bd16-147b01535718",
+      "createdAt": "2026-06-28T09:20:37.024Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%B8%89%E9%87%8D+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "三重 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_5b5d3e4d-42cf-4189-85dc-049d1ecca377",
+      "createdAt": "2026-06-28T09:20:37.168Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%B8%89%E9%87%8D+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "三重 新築 平屋 間取り"
+    },
+    {
+      "id": "log_d2856f6e-3679-4aed-a77f-faf9fec7cb22",
+      "createdAt": "2026-06-28T09:20:37.297Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%B8%89%E9%87%8D+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "三重 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_eb0559eb-75ea-4a02-85b1-b8db2847a214",
+      "createdAt": "2026-06-28T09:20:37.436Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%B8%89%E9%87%8D+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "三重 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_12c6f9a4-17f1-48ac-8551-277bf91aad50",
+      "createdAt": "2026-06-28T09:20:37.570Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A5%88%E8%89%AF+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "奈良 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_0d1a3aaf-92aa-40ed-9dde-8644f930547c",
+      "createdAt": "2026-06-28T09:20:37.706Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A5%88%E8%89%AF+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "奈良 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_4bbb9763-9e9e-4f5a-a6d6-5a5ccc9177bc",
+      "createdAt": "2026-06-28T09:20:37.839Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A5%88%E8%89%AF+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "奈良 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_f29daf7c-3d9b-437a-9584-5e25414e38a8",
+      "createdAt": "2026-06-28T09:20:37.967Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%A5%88%E8%89%AF+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "奈良 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_63fd4705-724e-4190-a7cb-5eaea4f7cf6b",
+      "createdAt": "2026-06-28T09:20:38.094Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%92%8C%E6%AD%8C%E5%B1%B1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "和歌山 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_e3c7dfd9-7c5b-4485-91ba-ab224531c1a7",
+      "createdAt": "2026-06-28T09:20:38.235Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%92%8C%E6%AD%8C%E5%B1%B1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "和歌山 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_7d7395df-433e-4b77-804c-f188c75d4698",
+      "createdAt": "2026-06-28T09:20:38.374Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%92%8C%E6%AD%8C%E5%B1%B1+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "和歌山 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_31f859f3-19a5-4cd0-8b95-5e2083cb7c18",
+      "createdAt": "2026-06-28T09:20:38.503Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%92%8C%E6%AD%8C%E5%B1%B1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "和歌山 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_3824419a-a2f7-4278-a858-0f6f40fab8a2",
+      "createdAt": "2026-06-28T09:20:38.631Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%B8%89%E9%87%8D+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "三重 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_31270a99-9391-4143-bf8c-4db02a10f56d",
+      "createdAt": "2026-06-28T09:20:38.769Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%B8%89%E9%87%8D+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "三重 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_9ad0750c-5e35-4562-b9da-7760fda3e2ee",
+      "createdAt": "2026-06-28T09:20:38.894Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%B8%89%E9%87%8D+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "三重 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_6ff5dc76-e7b0-4d10-bf2f-761488e90c29",
+      "createdAt": "2026-06-28T09:20:39.020Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E4%B8%89%E9%87%8D+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "三重 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_61b91af5-c252-49cd-bfb1-02e6be5c8e4c",
+      "createdAt": "2026-06-28T09:20:39.771Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E7%9F%A5+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛知 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_49b91de7-1818-4466-87c4-a47ae9a8816c",
+      "createdAt": "2026-06-28T09:20:40.111Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E7%9F%A5+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛知 新築 平屋 間取り"
+    },
+    {
+      "id": "log_71226aa8-1263-41d6-b252-ddd061e8dcb1",
+      "createdAt": "2026-06-28T09:20:40.245Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E7%9F%A5+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛知 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_430b2c6c-2924-4b40-bd0b-dbb478d23f65",
+      "createdAt": "2026-06-28T09:20:40.365Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E7%9F%A5+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛知 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_8f13473c-3105-4d01-9bb0-ab34726a05ac",
+      "createdAt": "2026-06-28T09:20:40.498Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%90%E9%98%9C+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岐阜 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_f3f6856b-d817-4542-a40d-d5d62e6bbb6e",
+      "createdAt": "2026-06-28T09:20:40.625Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%90%E9%98%9C+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岐阜 新築 平屋 間取り"
+    },
+    {
+      "id": "log_55a172f8-9545-4794-ac3d-28701a73a93b",
+      "createdAt": "2026-06-28T09:20:40.751Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%90%E9%98%9C+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岐阜 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_467eea28-b94e-44f2-97b2-ba747862c0b6",
+      "createdAt": "2026-06-28T09:20:40.887Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%90%E9%98%9C+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岐阜 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_7a5447c4-37b1-4dac-be7d-b0953a092741",
+      "createdAt": "2026-06-28T09:20:41.018Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%99%E5%B2%A1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "静岡 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_15bd7091-6d29-4c80-bcf6-5b89811ee164",
+      "createdAt": "2026-06-28T09:20:41.146Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%99%E5%B2%A1+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "静岡 新築 平屋 間取り"
+    },
+    {
+      "id": "log_c4598cfc-3b96-41ce-821f-95d632b20359",
+      "createdAt": "2026-06-28T09:20:41.276Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%99%E5%B2%A1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "静岡 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_05e82cc0-97b0-4ba7-8424-ff8bbc74f6a8",
+      "createdAt": "2026-06-28T09:20:41.414Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%99%E5%B2%A1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "静岡 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_9deced99-68cf-46b7-80c7-1cb36fc59097",
+      "createdAt": "2026-06-28T09:20:41.549Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E7%9F%A5+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛知 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_8f540c93-678b-4fc4-8dca-5566dcd40a20",
+      "createdAt": "2026-06-28T09:20:41.678Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E7%9F%A5+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛知 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_59f85952-0e3f-45d9-91b6-9f5378c45eb2",
+      "createdAt": "2026-06-28T09:20:41.806Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E7%9F%A5+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛知 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_7a9d933d-cd91-4a89-b169-9a7c83a544b2",
+      "createdAt": "2026-06-28T09:20:41.935Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%84%9B%E7%9F%A5+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "愛知 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_993f7ccc-f005-4a6f-bebe-6ad80d303ac9",
+      "createdAt": "2026-06-28T09:20:42.068Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%90%E9%98%9C+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岐阜 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_238bda15-1edd-4b02-97ce-e43788c47cf9",
+      "createdAt": "2026-06-28T09:20:42.197Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%90%E9%98%9C+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岐阜 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_37d31e87-1683-40d1-920d-76b798e06169",
+      "createdAt": "2026-06-28T09:20:42.323Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%90%E9%98%9C+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岐阜 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_05a72cd7-4037-42dc-9859-d8454b07cff9",
+      "createdAt": "2026-06-28T09:20:42.455Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%90%E9%98%9C+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岐阜 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_93d131f8-9d5e-4787-8d1b-cb4b7d20cc26",
+      "createdAt": "2026-06-28T09:20:42.580Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%99%E5%B2%A1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "静岡 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_65b5239e-5788-45a2-a1ec-56bdbc748526",
+      "createdAt": "2026-06-28T09:20:42.715Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%99%E5%B2%A1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "静岡 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_4c98d12f-6d96-4372-a85b-87efd8b637e8",
+      "createdAt": "2026-06-28T09:20:42.846Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%99%E5%B2%A1+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "静岡 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_d2652ab9-831f-4ea6-9c6a-9e10110dde60",
+      "createdAt": "2026-06-28T09:20:42.975Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%99%E5%B2%A1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "静岡 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_1d543eb6-4106-466d-b219-ccd7996cc467",
+      "createdAt": "2026-06-28T09:20:44.010Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E6%A2%A8+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山梨 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_bc61ec19-ae6f-4364-91f3-ae03bbd6f2eb",
+      "createdAt": "2026-06-28T09:20:44.347Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E6%A2%A8+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山梨 新築 平屋 間取り"
+    },
+    {
+      "id": "log_63b3b080-fb0e-4e02-81d9-6d786a5d0a1d",
+      "createdAt": "2026-06-28T09:20:44.481Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E6%A2%A8+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山梨 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_8bc4c46c-d250-4251-b6cf-f16fce4353ce",
+      "createdAt": "2026-06-28T09:20:44.614Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E6%A2%A8+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山梨 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_bfda8a78-eafb-4087-8d50-b059067effc7",
+      "createdAt": "2026-06-28T09:20:44.757Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E9%87%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長野 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_29d1913a-e30e-4f13-bbf6-a39d8d5ab479",
+      "createdAt": "2026-06-28T09:20:44.900Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E9%87%8E+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長野 新築 平屋 間取り"
+    },
+    {
+      "id": "log_11c03f36-b0c1-4c0e-98c6-f147be26dc1c",
+      "createdAt": "2026-06-28T09:20:45.047Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E9%87%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長野 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_6ed2efac-37e8-4ebc-8d7d-2b4f7da3855d",
+      "createdAt": "2026-06-28T09:20:45.186Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E9%87%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長野 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_60fa755d-eda9-4be8-8d00-3b072d8353d8",
+      "createdAt": "2026-06-28T09:20:45.316Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%96%B0%E6%BD%9F+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "新潟 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_c71259f2-32f3-4b18-a2a4-0db163905a08",
+      "createdAt": "2026-06-28T09:20:45.448Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%96%B0%E6%BD%9F+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "新潟 新築 平屋 間取り"
+    },
+    {
+      "id": "log_05da2185-a5d5-472c-8917-b471acf77a69",
+      "createdAt": "2026-06-28T09:20:45.577Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%96%B0%E6%BD%9F+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "新潟 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_c239f028-d045-44ac-9149-63ec8ead9ef1",
+      "createdAt": "2026-06-28T09:20:45.710Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%96%B0%E6%BD%9F+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "新潟 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_0cf44b1a-f719-4218-a793-e1504345264b",
+      "createdAt": "2026-06-28T09:20:45.845Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E6%A2%A8+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山梨 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_40f23a80-120d-4509-a560-dae79b5b0332",
+      "createdAt": "2026-06-28T09:20:45.965Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E6%A2%A8+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山梨 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_d9d4feef-c726-49f4-bdce-4f5201f1a926",
+      "createdAt": "2026-06-28T09:20:46.106Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E6%A2%A8+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山梨 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_c8a6a17e-d3fa-4df2-8d69-15f0bb5650c6",
+      "createdAt": "2026-06-28T09:20:46.231Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E6%A2%A8+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山梨 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_a9fab94c-bbeb-4a56-8d10-80c47d3c9e21",
+      "createdAt": "2026-06-28T09:20:46.365Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E9%87%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長野 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_1ac5660e-1b8a-4362-ada0-f0cae57f79eb",
+      "createdAt": "2026-06-28T09:20:46.498Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E9%87%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長野 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_71c840c4-bf82-4de0-adbb-b1f7bf90f6fa",
+      "createdAt": "2026-06-28T09:20:46.634Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E9%87%8E+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長野 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_d0d08a7f-d4b7-4842-94d3-a97ce6149c70",
+      "createdAt": "2026-06-28T09:20:46.765Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%95%B7%E9%87%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "長野 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_be8162a3-8727-4246-94d2-d7d149986891",
+      "createdAt": "2026-06-28T09:20:46.890Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%96%B0%E6%BD%9F+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "新潟 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_7240f1bd-874c-4120-ba0d-9e40463de2c3",
+      "createdAt": "2026-06-28T09:20:47.033Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%96%B0%E6%BD%9F+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "新潟 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_7b71c8fd-5e27-4832-aac9-586291beeb9e",
+      "createdAt": "2026-06-28T09:20:47.175Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%96%B0%E6%BD%9F+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "新潟 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_ecab8939-9c1d-4c9c-af33-0a0fb74d950d",
+      "createdAt": "2026-06-28T09:20:47.300Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%96%B0%E6%BD%9F+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "新潟 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_3198ba64-0bca-401f-ba28-a5ca4008400d",
+      "createdAt": "2026-06-28T09:20:48.072Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AF%8C%E5%B1%B1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "富山 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_16bdd609-5870-4406-b865-30543d370649",
+      "createdAt": "2026-06-28T09:20:48.424Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AF%8C%E5%B1%B1+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "富山 新築 平屋 間取り"
+    },
+    {
+      "id": "log_49e0098d-5a4c-4916-a40c-bdb8a6f2ebc7",
+      "createdAt": "2026-06-28T09:20:48.561Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AF%8C%E5%B1%B1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "富山 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_d0cf3ea4-5ce2-4282-a13d-bcc1ab8b40b1",
+      "createdAt": "2026-06-28T09:20:48.707Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AF%8C%E5%B1%B1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "富山 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_78b809a3-7147-4dde-9078-f539c9c10fbd",
+      "createdAt": "2026-06-28T09:20:48.833Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%9F%B3%E5%B7%9D+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "石川 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_df1b34d9-9f4e-46c7-baed-d8a14e57e51d",
+      "createdAt": "2026-06-28T09:20:48.959Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%9F%B3%E5%B7%9D+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "石川 新築 平屋 間取り"
+    },
+    {
+      "id": "log_af6d5f56-9068-46d8-9501-953d76ee883d",
+      "createdAt": "2026-06-28T09:20:49.086Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%9F%B3%E5%B7%9D+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "石川 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_aa4f1de4-4dfc-49cd-bf7b-6f084a89d90b",
+      "createdAt": "2026-06-28T09:20:49.218Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%9F%B3%E5%B7%9D+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "石川 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_9210b93e-691e-4631-ae9a-596deeacfe96",
+      "createdAt": "2026-06-28T09:20:49.350Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E4%BA%95+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福井 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_43a8dfa2-4665-4179-b0a2-76f2dd0485cd",
+      "createdAt": "2026-06-28T09:20:49.483Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E4%BA%95+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福井 新築 平屋 間取り"
+    },
+    {
+      "id": "log_45ff978a-0e0a-4c0e-a0c4-1e2a88a8f995",
+      "createdAt": "2026-06-28T09:20:49.605Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E4%BA%95+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福井 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_3071a7a1-db3f-4dcf-87c6-8a178ce9f88d",
+      "createdAt": "2026-06-28T09:20:49.739Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E4%BA%95+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福井 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_f19cf1ab-0662-4907-8289-85017ace0569",
+      "createdAt": "2026-06-28T09:20:49.865Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AF%8C%E5%B1%B1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "富山 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_9f46cf2c-872c-42a9-bacf-84fa5dc7d4d7",
+      "createdAt": "2026-06-28T09:20:50.000Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AF%8C%E5%B1%B1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "富山 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_2720cb0c-1437-400b-a955-4857ab92d4c1",
+      "createdAt": "2026-06-28T09:20:50.126Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AF%8C%E5%B1%B1+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "富山 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_8992ae6c-e07b-4e5d-a6d3-460c4a62d7f8",
+      "createdAt": "2026-06-28T09:20:50.248Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AF%8C%E5%B1%B1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "富山 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_d57a9bd7-91c3-49c8-b92d-0b1b52013c63",
+      "createdAt": "2026-06-28T09:20:50.372Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%9F%B3%E5%B7%9D+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "石川 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_51039035-be4d-43b8-8209-a130fecafcb2",
+      "createdAt": "2026-06-28T09:20:50.504Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%9F%B3%E5%B7%9D+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "石川 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_e7791458-63e3-43a3-9df4-bd4c025f86cc",
+      "createdAt": "2026-06-28T09:20:50.637Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%9F%B3%E5%B7%9D+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "石川 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_0a536dd7-821c-4e1a-a8a8-f8cf4157d3ff",
+      "createdAt": "2026-06-28T09:20:50.763Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%9F%B3%E5%B7%9D+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "石川 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_e9fc0724-89b2-43d6-89a1-7b55b9d2c15d",
+      "createdAt": "2026-06-28T09:20:50.894Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E4%BA%95+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福井 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_0084c7d7-7b19-4836-ac40-8a8eee94ef97",
+      "createdAt": "2026-06-28T09:20:51.024Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E4%BA%95+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福井 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_573cc816-728f-4d38-81a8-90fbfba9df1c",
+      "createdAt": "2026-06-28T09:20:51.157Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E4%BA%95+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福井 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_eec54fcc-20e4-43ce-9cb3-5574a37b9c13",
+      "createdAt": "2026-06-28T09:20:51.290Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E4%BA%95+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福井 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_602090bb-436d-42c9-8f8a-6e50cca1cca7",
+      "createdAt": "2026-06-28T09:20:52.065Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%9D%B1%E4%BA%AC+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "東京 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_34c7d4c3-4594-4104-8c26-2cf2af57a9f7",
+      "createdAt": "2026-06-28T09:20:52.389Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%9D%B1%E4%BA%AC+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "東京 新築 平屋 間取り"
+    },
+    {
+      "id": "log_3b75c50a-e36f-4711-8d48-0ab973c5d10b",
+      "createdAt": "2026-06-28T09:20:52.517Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%9D%B1%E4%BA%AC+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "東京 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_605584c8-28c0-44d4-89c0-3e8ab737ff9c",
+      "createdAt": "2026-06-28T09:20:52.654Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%9D%B1%E4%BA%AC+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "東京 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_62b7033e-e5d9-4e09-82a6-3f743f60e0eb",
+      "createdAt": "2026-06-28T09:20:52.787Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A5%9E%E5%A5%88%E5%B7%9D+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "神奈川 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_648a1616-5aba-4687-8b08-df4695712d81",
+      "createdAt": "2026-06-28T09:20:52.910Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A5%9E%E5%A5%88%E5%B7%9D+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "神奈川 新築 平屋 間取り"
+    },
+    {
+      "id": "log_1baabb22-6696-4008-9c97-3b1ed22f1def",
+      "createdAt": "2026-06-28T09:20:53.042Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A5%9E%E5%A5%88%E5%B7%9D+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "神奈川 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_03b453a1-eae5-40a5-b824-c68620a3adce",
+      "createdAt": "2026-06-28T09:20:53.179Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A5%9E%E5%A5%88%E5%B7%9D+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "神奈川 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_6341793b-404e-4fe3-ac96-a9925dfa52c7",
+      "createdAt": "2026-06-28T09:20:53.300Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8D%83%E8%91%89+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "千葉 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_69bb1cd3-0deb-410f-b8f2-f4366e01da8d",
+      "createdAt": "2026-06-28T09:20:53.436Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8D%83%E8%91%89+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "千葉 新築 平屋 間取り"
+    },
+    {
+      "id": "log_80b9d726-209a-4dee-809e-60735c3c0b60",
+      "createdAt": "2026-06-28T09:20:53.570Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8D%83%E8%91%89+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "千葉 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_cc1b8a37-b508-457b-b67b-fa9c504462b7",
+      "createdAt": "2026-06-28T09:20:53.704Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8D%83%E8%91%89+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "千葉 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_8f559754-2876-40bd-adf8-97ee68044a70",
+      "createdAt": "2026-06-28T09:20:53.842Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%9D%B1%E4%BA%AC+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "東京 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_3fd98ecb-97a2-4ed8-a585-d34d8bcda2bb",
+      "createdAt": "2026-06-28T09:20:53.980Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%9D%B1%E4%BA%AC+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "東京 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_8d7457c6-1251-4a71-bb06-5450cf94c290",
+      "createdAt": "2026-06-28T09:20:54.112Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%9D%B1%E4%BA%AC+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "東京 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_34a3b4ac-29c7-492b-ada3-2356a30a1ab8",
+      "createdAt": "2026-06-28T09:20:54.249Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%9D%B1%E4%BA%AC+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "東京 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_499bf36a-3938-49d6-8b06-42afeca4e05b",
+      "createdAt": "2026-06-28T09:20:54.375Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A5%9E%E5%A5%88%E5%B7%9D+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "神奈川 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_14667d40-df00-4a60-b3f2-faaf934e50a3",
+      "createdAt": "2026-06-28T09:20:54.507Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A5%9E%E5%A5%88%E5%B7%9D+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "神奈川 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_1ed812c0-183d-477e-bb30-8aa62814dc78",
+      "createdAt": "2026-06-28T09:20:54.631Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A5%9E%E5%A5%88%E5%B7%9D+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "神奈川 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_1a147386-248e-4f31-ac8e-698bae9bc417",
+      "createdAt": "2026-06-28T09:20:54.759Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A5%9E%E5%A5%88%E5%B7%9D+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "神奈川 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_dc950103-9adc-4d57-a242-4fe0b1c78341",
+      "createdAt": "2026-06-28T09:20:54.888Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8D%83%E8%91%89+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "千葉 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_0e2eb363-39e8-4ff7-98b7-a43e3f0cbbfb",
+      "createdAt": "2026-06-28T09:20:55.015Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8D%83%E8%91%89+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "千葉 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_f3f17e60-b4d5-430f-981d-2646663429ee",
+      "createdAt": "2026-06-28T09:20:55.144Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8D%83%E8%91%89+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "千葉 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_2a822ef3-574b-49e6-b5ec-df83c7a3aa9e",
+      "createdAt": "2026-06-28T09:20:55.266Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8D%83%E8%91%89+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "千葉 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_e8aafa4f-cfff-4bd9-a57c-3cd5c44fdacf",
+      "createdAt": "2026-06-28T09:20:56.282Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%9F%BC%E7%8E%89+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "埼玉 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_f2fc442d-2276-4c9f-82c2-f0c4ec30eb30",
+      "createdAt": "2026-06-28T09:20:56.616Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%9F%BC%E7%8E%89+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "埼玉 新築 平屋 間取り"
+    },
+    {
+      "id": "log_ef16cee3-ef9a-4148-8414-1b5b0b797861",
+      "createdAt": "2026-06-28T09:20:56.752Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%9F%BC%E7%8E%89+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "埼玉 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_fe192409-ff33-452b-a80f-6f1a21b7d06f",
+      "createdAt": "2026-06-28T09:20:56.880Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%9F%BC%E7%8E%89+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "埼玉 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_d7083ad1-4d3e-4d24-a4c2-cb4c68fb4235",
+      "createdAt": "2026-06-28T09:20:57.010Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E8%8C%A8%E5%9F%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "茨城 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_d9fe2532-b881-4f55-8941-6bc83c10f191",
+      "createdAt": "2026-06-28T09:20:57.154Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E8%8C%A8%E5%9F%8E+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "茨城 新築 平屋 間取り"
+    },
+    {
+      "id": "log_03ccefd1-ab14-49fe-a012-269897aa0ed3",
+      "createdAt": "2026-06-28T09:20:57.279Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E8%8C%A8%E5%9F%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "茨城 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_d6ceb09c-d1f9-406b-b7f2-81a30b4642db",
+      "createdAt": "2026-06-28T09:20:57.406Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E8%8C%A8%E5%9F%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "茨城 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_c374eec8-e3c2-45b2-85f0-6e26009ed46a",
+      "createdAt": "2026-06-28T09:20:57.538Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%A0%83%E6%9C%A8+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "栃木 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_524b1b15-2101-4890-acc2-13bddd4d06be",
+      "createdAt": "2026-06-28T09:20:57.668Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%A0%83%E6%9C%A8+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "栃木 新築 平屋 間取り"
+    },
+    {
+      "id": "log_eb296f88-0a9f-4642-bcf1-ab6fdf5e36fd",
+      "createdAt": "2026-06-28T09:20:57.801Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%A0%83%E6%9C%A8+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "栃木 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_fab1b5f8-1775-46ed-b2bf-a18e55e41e59",
+      "createdAt": "2026-06-28T09:20:57.922Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%A0%83%E6%9C%A8+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "栃木 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_134d2e26-aabd-426d-bc8e-1d0eee1bf731",
+      "createdAt": "2026-06-28T09:20:58.053Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%9F%BC%E7%8E%89+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "埼玉 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_15931704-36e4-411a-99d6-10dde47a1b63",
+      "createdAt": "2026-06-28T09:20:58.178Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%9F%BC%E7%8E%89+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "埼玉 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_68094fbf-b3da-4c42-9c04-8cc3a026237c",
+      "createdAt": "2026-06-28T09:20:58.299Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%9F%BC%E7%8E%89+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "埼玉 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_e6d5053e-b118-48d6-b0c9-bf7bb6bdc8c1",
+      "createdAt": "2026-06-28T09:20:58.628Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%9F%BC%E7%8E%89+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "埼玉 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_17a016ac-532f-4b71-868f-881fd105711c",
+      "createdAt": "2026-06-28T09:20:58.763Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E8%8C%A8%E5%9F%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "茨城 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_9641c40a-5673-4d50-a3f3-dd4d8fbea030",
+      "createdAt": "2026-06-28T09:20:58.890Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E8%8C%A8%E5%9F%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "茨城 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_a91c229f-6a6a-435b-a925-8de2f39a0bca",
+      "createdAt": "2026-06-28T09:20:59.014Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E8%8C%A8%E5%9F%8E+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "茨城 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_d005eee1-93ff-49a0-8c09-ec89e32842bc",
+      "createdAt": "2026-06-28T09:20:59.141Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E8%8C%A8%E5%9F%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "茨城 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_9bdedd0a-2f32-4750-b9df-9dad0c226889",
+      "createdAt": "2026-06-28T09:20:59.268Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%A0%83%E6%9C%A8+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "栃木 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_ca30b327-7799-4e7c-ba83-ac856b0ee2e5",
+      "createdAt": "2026-06-28T09:20:59.406Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%A0%83%E6%9C%A8+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "栃木 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_a92221af-9de8-487f-b450-3fe2e7b0e7d8",
+      "createdAt": "2026-06-28T09:20:59.531Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%A0%83%E6%9C%A8+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "栃木 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_0fb1ef6d-0194-4f6e-ad9d-d54806f30b5d",
+      "createdAt": "2026-06-28T09:20:59.689Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E6%A0%83%E6%9C%A8+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "栃木 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_ba725210-468f-439b-b63b-554902dac09f",
+      "createdAt": "2026-06-28T09:21:00.525Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%BE%A4%E9%A6%AC+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "群馬 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_6f87ac77-96fa-48ff-874b-2bd78e5c5b5f",
+      "createdAt": "2026-06-28T09:21:00.871Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%BE%A4%E9%A6%AC+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "群馬 新築 平屋 間取り"
+    },
+    {
+      "id": "log_f977739d-a6bb-44f2-92ab-5b7e7d2f056d",
+      "createdAt": "2026-06-28T09:21:01.006Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%BE%A4%E9%A6%AC+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "群馬 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_e866b95f-eb69-4eac-b16e-b6192f0e9da4",
+      "createdAt": "2026-06-28T09:21:01.136Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%BE%A4%E9%A6%AC+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "群馬 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_a2793b2a-1cd2-44d4-9455-cea972261fed",
+      "createdAt": "2026-06-28T09:21:01.280Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B3%B6+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福島 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_2f4a91bf-c691-4268-b230-31b6638cc226",
+      "createdAt": "2026-06-28T09:21:01.412Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B3%B6+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福島 新築 平屋 間取り"
+    },
+    {
+      "id": "log_6b09616b-e3b7-4ffc-85d2-a32ee124f35c",
+      "createdAt": "2026-06-28T09:21:01.544Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B3%B6+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福島 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_60c8da4c-6574-4dba-b11c-0fbd2a646224",
+      "createdAt": "2026-06-28T09:21:01.675Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B3%B6+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福島 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_60018433-72b4-4d77-b546-207496396f3b",
+      "createdAt": "2026-06-28T09:21:01.809Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%BD%A2+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山形 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_e0c4e903-4933-4261-b8b4-d4c7ae398d30",
+      "createdAt": "2026-06-28T09:21:01.949Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%BD%A2+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山形 新築 平屋 間取り"
+    },
+    {
+      "id": "log_69c89f2a-5ed7-49a5-8636-6f6993e9087b",
+      "createdAt": "2026-06-28T09:21:02.075Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%BD%A2+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山形 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_7c6aaf2e-bf98-4aa2-9346-f93a720f2cf4",
+      "createdAt": "2026-06-28T09:21:02.215Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%BD%A2+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山形 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_0c1c88f5-8d12-42c0-9a59-e64e8e9e1d4e",
+      "createdAt": "2026-06-28T09:21:02.345Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%BE%A4%E9%A6%AC+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "群馬 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_1f8462f7-dbaa-4687-ad57-f200dd8fddb9",
+      "createdAt": "2026-06-28T09:21:02.480Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%BE%A4%E9%A6%AC+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "群馬 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_29412165-5a4a-45ac-8f00-ad6bd83a15ae",
+      "createdAt": "2026-06-28T09:21:02.615Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%BE%A4%E9%A6%AC+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "群馬 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_5b08a934-a7a7-4ea9-9b22-0fc178f4571b",
+      "createdAt": "2026-06-28T09:21:02.752Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%BE%A4%E9%A6%AC+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "群馬 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_e741516a-1f00-4b74-ab42-abdfb31a2417",
+      "createdAt": "2026-06-28T09:21:02.889Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B3%B6+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福島 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_a170b53f-6538-4762-91e5-dfc55271dcfb",
+      "createdAt": "2026-06-28T09:21:03.021Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B3%B6+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福島 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_02cee3c4-66a8-40bc-bf4a-7b65f9b067d5",
+      "createdAt": "2026-06-28T09:21:03.146Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B3%B6+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福島 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_2f8cd508-9eb2-43af-a749-792cd6240bf5",
+      "createdAt": "2026-06-28T09:21:03.277Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B3%B6+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福島 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_7f9b3d6f-6263-4990-b09c-5eac804b5b32",
+      "createdAt": "2026-06-28T09:21:03.401Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%BD%A2+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山形 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_752a9737-33ac-46b3-af58-abeb26538cf0",
+      "createdAt": "2026-06-28T09:21:03.533Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%BD%A2+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山形 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_85369b2d-4a2e-4a71-8a35-be06ea6254fc",
+      "createdAt": "2026-06-28T09:21:03.665Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%BD%A2+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山形 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_4443d581-ec88-48b4-a0b5-6cab10b78c10",
+      "createdAt": "2026-06-28T09:21:03.798Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B1%B1%E5%BD%A2+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "山形 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_f54ffb2b-9bbc-433e-9131-b8da237925fe",
+      "createdAt": "2026-06-28T09:21:04.750Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A7%8B%E7%94%B0+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "秋田 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_0cf24bd8-4731-48c7-a20e-14d035f7e692",
+      "createdAt": "2026-06-28T09:21:05.262Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A7%8B%E7%94%B0+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "秋田 新築 平屋 間取り"
+    },
+    {
+      "id": "log_f0c417c8-5eba-4a3a-b47a-6f18e20d7046",
+      "createdAt": "2026-06-28T09:21:05.395Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A7%8B%E7%94%B0+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "秋田 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_7fc3286f-f396-4b30-868a-7dbe4dff9690",
+      "createdAt": "2026-06-28T09:21:05.521Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A7%8B%E7%94%B0+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "秋田 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_c2ba1071-9e53-4caa-b085-b15e2571a083",
+      "createdAt": "2026-06-28T09:21:05.665Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%9F%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮城 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_d762b014-de27-4b8a-8df2-f15c88eecb71",
+      "createdAt": "2026-06-28T09:21:05.786Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%9F%8E+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮城 新築 平屋 間取り"
+    },
+    {
+      "id": "log_c8ce34cf-836e-4ce9-9799-9a72e0bdc8d7",
+      "createdAt": "2026-06-28T09:21:05.919Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%9F%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮城 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_392ce00f-e3f5-4b89-860f-34e76d2b3a4d",
+      "createdAt": "2026-06-28T09:21:06.050Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%9F%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮城 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_d660439f-1851-4005-9180-969f65f4fe52",
+      "createdAt": "2026-06-28T09:21:06.196Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A9%E6%89%8B+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岩手 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_cf3040d7-ffb5-4cec-ad8e-70429fff3bee",
+      "createdAt": "2026-06-28T09:21:06.325Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A9%E6%89%8B+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岩手 新築 平屋 間取り"
+    },
+    {
+      "id": "log_a763b7d9-ea30-42db-a2d9-29c60ac96c9c",
+      "createdAt": "2026-06-28T09:21:06.461Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A9%E6%89%8B+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岩手 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_0cdf1faf-7b42-43de-9f2e-258cb1060feb",
+      "createdAt": "2026-06-28T09:21:06.586Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A9%E6%89%8B+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岩手 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_16841de5-5729-4cfd-a62e-83375ee0b9b7",
+      "createdAt": "2026-06-28T09:21:06.714Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A7%8B%E7%94%B0+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "秋田 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_bd257bf3-90dc-41aa-84be-1ced3b7c5a5e",
+      "createdAt": "2026-06-28T09:21:06.849Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A7%8B%E7%94%B0+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "秋田 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_795040dc-1bb1-4c28-8659-60b7ff087290",
+      "createdAt": "2026-06-28T09:21:06.974Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A7%8B%E7%94%B0+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "秋田 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_106f511e-45ae-44f1-b546-5c2206138300",
+      "createdAt": "2026-06-28T09:21:07.105Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A7%8B%E7%94%B0+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "秋田 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_88741027-1862-4d07-b356-aa6585b8df64",
+      "createdAt": "2026-06-28T09:21:07.236Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%9F%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮城 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_deab6f50-01cb-4230-8522-ed9a14b4fe46",
+      "createdAt": "2026-06-28T09:21:07.377Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%9F%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮城 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_7c28fed9-c6d0-4010-a794-98f1993624c2",
+      "createdAt": "2026-06-28T09:21:07.504Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%9F%8E+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮城 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_5578b21e-25c1-46c0-b2a9-7acdf70ed8d6",
+      "createdAt": "2026-06-28T09:21:07.636Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%9F%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮城 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_db991008-dd69-4d73-9576-fae791442864",
+      "createdAt": "2026-06-28T09:21:07.764Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A9%E6%89%8B+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岩手 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_c088ab3b-c495-408c-b6c2-f9a40f635162",
+      "createdAt": "2026-06-28T09:21:07.896Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A9%E6%89%8B+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岩手 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_984b09ca-ae5f-4460-8e51-e38112bbb38d",
+      "createdAt": "2026-06-28T09:21:08.025Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A9%E6%89%8B+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岩手 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_c0337f1b-1337-4632-90ed-23f04ed38fff",
+      "createdAt": "2026-06-28T09:21:08.155Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%B2%A9%E6%89%8B+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "岩手 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_1418d6ac-791b-4d27-822b-6d8e094e1667",
+      "createdAt": "2026-06-28T09:21:09.043Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%92%E6%A3%AE+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "青森 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_697a079b-077b-49c8-b720-df666e38f768",
+      "createdAt": "2026-06-28T09:21:09.398Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%92%E6%A3%AE+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "青森 新築 平屋 間取り"
+    },
+    {
+      "id": "log_b6b081aa-f499-44fb-98f0-4aaaffd27581",
+      "createdAt": "2026-06-28T09:21:09.517Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%92%E6%A3%AE+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "青森 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_fd74cb1a-d054-489c-b962-756b2671dcb0",
+      "createdAt": "2026-06-28T09:21:09.662Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%92%E6%A3%AE+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "青森 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_47869819-3801-4b72-9071-105facb6758d",
+      "createdAt": "2026-06-28T09:21:09.791Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8C%97%E6%B5%B7%E9%81%93+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "北海道 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_92fd2956-b304-4886-b02e-f1a3e5e52f7b",
+      "createdAt": "2026-06-28T09:21:09.918Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8C%97%E6%B5%B7%E9%81%93+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "北海道 新築 平屋 間取り"
+    },
+    {
+      "id": "log_12e2e670-33fd-4a25-a87c-132b4858ef57",
+      "createdAt": "2026-06-28T09:21:10.049Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8C%97%E6%B5%B7%E9%81%93+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "北海道 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_742be3be-e8f0-4b22-9586-7d8301e81d74",
+      "createdAt": "2026-06-28T09:21:10.193Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8C%97%E6%B5%B7%E9%81%93+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "北海道 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_399f969b-c1ca-4c6e-95ef-2af6cafd494f",
+      "createdAt": "2026-06-28T09:21:10.316Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_91e64794-9151-4de9-b4e5-06d4a3e856f6",
+      "createdAt": "2026-06-28T09:21:10.465Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 新築 平屋 間取り"
+    },
+    {
+      "id": "log_5c844602-dd8c-4bd4-ba3a-455a806e1bdd",
+      "createdAt": "2026-06-28T09:21:10.597Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_eeead997-4944-46e0-bfff-ace1f9f53edc",
+      "createdAt": "2026-06-28T09:21:10.728Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_81bd195e-d01a-4f40-a01b-04dcaec5eae0",
+      "createdAt": "2026-06-28T09:21:10.863Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%92%E6%A3%AE+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "青森 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_c5144e5d-eb30-4a70-9f23-dfce3d9cce7e",
+      "createdAt": "2026-06-28T09:21:11.149Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%92%E6%A3%AE+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "青森 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_63e2527e-e0d3-4382-8361-c996b16e14fc",
+      "createdAt": "2026-06-28T09:21:11.275Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%92%E6%A3%AE+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "青森 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_52d57093-f35d-42de-be4c-0f834349d2b5",
+      "createdAt": "2026-06-28T09:21:11.411Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%9D%92%E6%A3%AE+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "青森 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_47bf58da-2f54-406e-945c-051f15ef6623",
+      "createdAt": "2026-06-28T09:21:11.537Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8C%97%E6%B5%B7%E9%81%93+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "北海道 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_2db89ea4-a66c-463a-93ea-f3b90351f037",
+      "createdAt": "2026-06-28T09:21:11.670Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8C%97%E6%B5%B7%E9%81%93+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "北海道 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_68889d29-5a39-442c-a98c-471f20e898b5",
+      "createdAt": "2026-06-28T09:21:11.804Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8C%97%E6%B5%B7%E9%81%93+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "北海道 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_26afd30c-8235-4b7f-b6dc-4fa749f78085",
+      "createdAt": "2026-06-28T09:21:11.945Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%8C%97%E6%B5%B7%E9%81%93+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "北海道 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_e9ece6ff-cfed-4a02-8389-09775d000671",
+      "createdAt": "2026-06-28T09:21:12.076Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_50f60d86-661b-47e0-800c-44b37c0aa8d5",
+      "createdAt": "2026-06-28T09:21:12.204Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_df6671a0-c2a8-40b4-8e2f-8240b75531b9",
+      "createdAt": "2026-06-28T09:21:12.328Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_12a3ce18-c747-4329-ab25-cc117d0c5841",
+      "createdAt": "2026-06-28T09:21:12.459Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 注文住宅 建築実例 平面図"
     }
   ]
 }
