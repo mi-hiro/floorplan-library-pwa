@@ -16,7 +16,8 @@ async function main() {
   const statsOut = args.statsOut ?? "public/data/floorplan-stats.json";
   const accepted = (await readJsonl(input)).filter((record) => record.status === "accepted");
   const now = new Date().toISOString();
-  const candidates = accepted.map(toCrawlCandidate);
+  const groupedAccepted = groupAcceptedRecords(accepted);
+  const candidates = groupedAccepted.map(toCrawlCandidate);
   const payload = {
     version: 2,
     generatedAt: now,
@@ -31,22 +32,71 @@ async function main() {
         url: input,
         action: "候補保存",
         result: "成功",
-        message: `Accepted floorplans only: ${accepted.length} records.`
+        message: `Accepted floorplan images: ${accepted.length}. Public plan groups: ${candidates.length}.`
       }
     ]
   };
-  const stats = buildStats(accepted, now);
+  const stats = buildStats(accepted, groupedAccepted, now);
   await mkdir(path.dirname(out), { recursive: true });
   await mkdir(path.dirname(statsOut), { recursive: true });
   await writeFile(out, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
   await writeFile(statsOut, `${JSON.stringify(stats, null, 2)}\n`, "utf8");
-  console.log(`Built public floorplans: ${accepted.length} -> ${out}`);
+  console.log(`Built public floorplans: ${accepted.length} images -> ${candidates.length} groups -> ${out}`);
 }
 
-function toCrawlCandidate(record) {
+function groupAcceptedRecords(records) {
+  const groups = new Map();
+  for (const record of records) {
+    const key = acceptedGroupKey(record);
+    const group = groups.get(key) ?? [];
+    group.push(record);
+    groups.set(key, group);
+  }
+  return [...groups.values()].map((group) => group.sort(compareFloorRecords));
+}
+
+function acceptedGroupKey(record) {
+  const imageUrl = record.source?.imageUrl || "";
+  const splitImageKey = floorSplitImageGroupKey(imageUrl);
+  if (splitImageKey) return `image:${record.source?.sourceDomain || ""}:${splitImageKey}`;
+
+  return `record:${record.id}`;
+}
+
+function floorSplitImageGroupKey(rawUrl) {
+  const normalized = normalizeUrl(rawUrl);
+  if (!normalized) return "";
+  const extensionPattern = /\.(?:jpe?g|png|webp|gif)$/i;
+  let grouped = normalized
+    .replace(/-\d+x\d+(?=\.(?:jpe?g|png|webp|gif)$)/i, "")
+    .replace(/(_heimen)[0-9]+(?=\.(?:jpe?g|png|webp|gif)$)/i, "$1")
+    .replace(/([_-])(?:[1-3]|[1-3]f|[1-3]F|[１２３]|[１２３]f|[１２３]F|[一二三]階|[1-3]階)(?=\.(?:jpe?g|png|webp|gif)$)/i, "");
+
+  if (grouped === normalized) return "";
+  if (!extensionPattern.test(grouped)) return "";
+  if (!/madori|floor[-_]?plan|floorplan|floor_plan|heimen|zumen|drawing|collection_plan|topview|plan|間取り|間取|平面|図面/i.test(grouped)) return "";
+  return grouped;
+}
+
+function compareFloorRecords(a, b) {
+  return floorOrder(a) - floorOrder(b) || String(a.source?.imageUrl || "").localeCompare(String(b.source?.imageUrl || ""));
+}
+
+function floorOrder(record) {
+  const signal = `${record.title || ""} ${record.context?.alt || ""} ${record.source?.imageUrl || ""}`;
+  if (/1\.5階|１\.５階/.test(signal)) return 1.5;
+  if (/(?:^|[_-])1f|(?:^|[_-])1F|1階|１階|一階|_heimen1|-[1１](?=\.)/.test(signal)) return 1;
+  if (/(?:^|[_-])2f|(?:^|[_-])2F|2階|２階|二階|_heimen2|-[2２](?=\.)/.test(signal)) return 2;
+  if (/(?:^|[_-])3f|(?:^|[_-])3F|3階|３階|三階|_heimen3|-[3３](?=\.)/.test(signal)) return 3;
+  return 9;
+}
+
+function toCrawlCandidate(group) {
+  const record = group[0];
+  const imageCandidates = group.map((item, index) => toImageCandidate(item, index));
   return {
-    id: record.id,
-    title: record.title || "間取り図",
+    id: group.length > 1 ? `group:${acceptedGroupKey(record)}` : record.id,
+    title: displayTitle(group),
     listingSource: `accepted ${record.source?.sourceDomain || ""}`.trim(),
     sourceUrl: record.source?.pageUrl || "",
     company: record.source?.companyName || record.source?.sourceDomain || "",
@@ -57,30 +107,52 @@ function toCrawlCandidate(record) {
     floors: record.metadata?.floors?.value || "",
     entranceDirection: record.metadata?.entranceDirection?.value || "",
     hasFloorplanImage: true,
-    imageUrlCandidates: [record.source?.imageUrl].filter(Boolean),
-    imageCandidates: [
-      {
-        id: `${record.id}:image`,
-        kind: "floorplan",
-        url: record.source?.imageUrl || "",
-        alt: record.context?.alt || record.title || "間取り図",
-        sourceUrl: record.source?.pageUrl || "",
-        ollamaReview: {
-          status: "checked",
-          model: "accepted-pipeline",
-          isFloorplan: true,
-          confidence: record.classification?.finalConfidence ?? 0.85,
-          reason: "accepted-floorplans only"
-        }
-      }
-    ],
-    fetchedAt: record.lastSeenAt || record.firstSeenAt,
+    imageUrlCandidates: imageCandidates.map((image) => image.url).filter(Boolean),
+    imageCandidates,
+    fetchedAt: maxDate(group.map((item) => item.lastSeenAt || item.firstSeenAt)),
     errorInfo: "",
-    memo: "accepted-floorplans.jsonl から生成"
+    memo: group.length > 1
+      ? `accepted-floorplans.jsonl から生成。${group.length}枚の階別画像を同じプランにまとめています。`
+      : "accepted-floorplans.jsonl から生成"
   };
 }
 
-function buildStats(records, generatedAt) {
+function toImageCandidate(record, index) {
+  return {
+    id: `${record.id}:image`,
+    kind: "floorplan",
+    url: record.source?.imageUrl || "",
+    alt: imageAlt(record, index),
+    sourceUrl: record.source?.pageUrl || "",
+    ollamaReview: {
+      status: "checked",
+      model: "accepted-pipeline",
+      isFloorplan: true,
+      confidence: record.classification?.finalConfidence ?? 0.85,
+      reason: "accepted-floorplans only"
+    }
+  };
+}
+
+function imageAlt(record, index) {
+  const floor = floorOrder(record);
+  const floorLabel = floor === 1 ? "1階" : floor === 1.5 ? "1.5階" : floor === 2 ? "2階" : floor === 3 ? "3階" : "";
+  const title = record.context?.alt || record.title || "間取り図";
+  if (!floorLabel) return title;
+  return title.includes(floorLabel) ? title : `${title} ${floorLabel}`;
+}
+
+function displayTitle(group) {
+  const first = group[0];
+  if (group.length === 1) return first.title || "間取り図";
+  const base = normalizeWhitespace(first.title || "間取り図")
+    .replace(/\s*[1-3１２３一二三](?:\.5)?\s*(?:階|F|f)(?:部分)?\s*/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return base || first.title || "間取り図";
+}
+
+function buildStats(records, groups, generatedAt) {
   const byDomain = {};
   for (const record of records) {
     const domain = record.source?.sourceDomain || "unknown";
@@ -90,8 +162,29 @@ function buildStats(records, generatedAt) {
   return {
     generatedAt,
     acceptedCount: records.length,
+    publicCandidateCount: groups.length,
+    multiImageCandidateCount: groups.filter((group) => group.length > 1).length,
     domains: byDomain
   };
+}
+
+function normalizeUrl(value) {
+  try {
+    const parsed = new URL(String(value || ""));
+    parsed.search = "";
+    parsed.hash = "";
+    return parsed.toString().toLowerCase();
+  } catch {
+    return String(value || "").split(/[?#]/)[0].toLowerCase();
+  }
+}
+
+function normalizeWhitespace(value) {
+  return String(value ?? "").replace(/\s+/g, " ").trim();
+}
+
+function maxDate(values) {
+  return values.filter(Boolean).sort().at(-1) || new Date().toISOString();
 }
 
 function parseArgs(argv) {

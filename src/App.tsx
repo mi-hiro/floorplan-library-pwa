@@ -68,6 +68,7 @@ type CollectedFloorplanItem = {
   title: string;
   imageUrl: string;
   imageLink: string;
+  images: CollectedFloorplanImage[];
   sourceUrl: string;
   listingSource: string;
   company: string;
@@ -78,6 +79,13 @@ type CollectedFloorplanItem = {
   priceManYen?: number;
   fetchedAt: string;
   candidate: CrawlCandidate;
+};
+
+type CollectedFloorplanImage = {
+  id: string;
+  title: string;
+  imageUrl: string;
+  imageLink: string;
 };
 
 function getInitialView(): ViewKey {
@@ -207,6 +215,7 @@ function floorplanMetaLabels(item: CollectedFloorplanItem) {
   return [
     item.layout,
     item.floors,
+    item.images.length > 1 ? `${item.images.length}枚` : "",
     item.candidate.entranceDirection ? `玄関${item.candidate.entranceDirection}` : "",
     item.areaSqm ? `${item.areaSqm}㎡` : "",
     item.tsubo ? `${item.tsubo}坪` : "",
@@ -290,34 +299,62 @@ function getCollectedFloorplans(candidates: CrawlCandidate[]) {
   const floorplans = new Map<string, CollectedFloorplanItem>();
 
   candidates.forEach((candidate) => {
-    sanitizeImageCandidates(candidate.imageCandidates ?? [])
+    const images = sanitizeImageCandidates(candidate.imageCandidates ?? [])
       .filter((image) => image.kind === "floorplan")
-      .forEach((image) => {
-        const imageUrl = image.dataUrl || image.thumbnailUrl || image.url;
-        const key = floorplanDedupeKey(image);
-        if (!imageUrl || floorplans.has(key)) return;
-        const title = image.alt || candidate.title || "自動収集した間取り図";
-        const signalText = `${title} ${candidate.title} ${candidate.layout} ${candidate.floors}`;
-        floorplans.set(key, {
-          id: `${candidate.id}:${image.id}`,
-          title,
-          imageUrl,
-          imageLink: image.url,
-          sourceUrl: candidate.sourceUrl,
-          listingSource: candidate.listingSource,
-          company: candidate.company || candidate.listingSource,
-          layout: inferLayoutLabel(signalText) || candidate.layout,
-          floors: inferFloorLabel(signalText) || candidate.floors,
-          areaSqm: candidate.areaSqm,
-          tsubo: candidate.tsubo,
-          priceManYen: candidate.priceManYen,
-          fetchedAt: candidate.fetchedAt,
-          candidate
-        });
+      .map((image) => ({
+        source: image,
+        imageUrl: image.dataUrl || image.thumbnailUrl || image.url,
+        key: floorplanDedupeKey(image)
+      }))
+      .filter((image) => image.imageUrl);
+
+    const seen = new Set<string>();
+    const uniqueImages = images
+      .filter((image) => {
+        if (seen.has(image.key)) return false;
+        seen.add(image.key);
+        return true;
+      })
+      .map(({ source, imageUrl }) => ({
+        id: source.id,
+        title: source.alt || candidate.title || "自動収集した間取り図",
+        imageUrl,
+        imageLink: source.url
+      }));
+
+    if (!uniqueImages.length) return;
+    const primary = uniqueImages[0];
+    const title = candidate.title || primary.title || "自動収集した間取り図";
+    const signalText = `${title} ${uniqueImages.map((image) => image.title).join(" ")} ${candidate.layout} ${candidate.floors}`;
+    floorplans.set(candidate.id, {
+      id: candidate.id,
+      title,
+      imageUrl: primary.imageUrl,
+      imageLink: primary.imageLink,
+      images: uniqueImages,
+      sourceUrl: candidate.sourceUrl,
+      listingSource: candidate.listingSource,
+      company: candidate.company || candidate.listingSource,
+      layout: inferLayoutLabel(signalText) || candidate.layout,
+      floors: inferFloorLabel(signalText) || candidate.floors,
+      areaSqm: candidate.areaSqm,
+      tsubo: candidate.tsubo,
+      priceManYen: candidate.priceManYen,
+      fetchedAt: candidate.fetchedAt,
+      candidate
       });
   });
 
   return [...floorplans.values()];
+}
+
+function floorplanImageBadge(image: CollectedFloorplanImage, index: number) {
+  const signal = `${image.title} ${image.imageLink}`;
+  if (/1\.5階|１\.５階/.test(signal)) return "1.5F";
+  if (/(?:^|[_-])1f|(?:^|[_-])1F|1階|１階|一階|_heimen1|-[1１](?=\.)/.test(signal)) return "1F";
+  if (/(?:^|[_-])2f|(?:^|[_-])2F|2階|２階|二階|_heimen2|-[2２](?=\.)/.test(signal)) return "2F";
+  if (/(?:^|[_-])3f|(?:^|[_-])3F|3階|３階|三階|_heimen3|-[3３](?=\.)/.test(signal)) return "3F";
+  return `${index + 1}`;
 }
 
 function sanitizeImageCandidates(images: NonNullable<CrawlCandidate["imageCandidates"]>) {
@@ -852,6 +889,22 @@ export default function App() {
                           <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
                             <img src={item.imageUrl} alt={item.title} loading="lazy" />
                           </button>
+                          {item.images.length > 1 ? (
+                            <div className="floorplan-image-strip" aria-label="階別の間取り図">
+                              {item.images.slice(0, 6).map((image, imageIndex) => (
+                                <button
+                                  className="floorplan-image-chip"
+                                  key={image.id}
+                                  type="button"
+                                  onClick={() => openExternalUrl(image.imageLink)}
+                                  title={image.title}
+                                >
+                                  <img src={image.imageUrl} alt={image.title} loading="lazy" />
+                                  <span>{floorplanImageBadge(image, imageIndex)}</span>
+                                </button>
+                              ))}
+                            </div>
+                          ) : null}
                           <div className="floorplan-tile-body">
                             <h3>{item.title}</h3>
                             {floorplanMetaLabels(item).length > 0 ? (
