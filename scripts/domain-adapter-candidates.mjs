@@ -20,9 +20,12 @@ async function main() {
   const statePath = args.state ?? "data/crawl-state.json";
   const state = await readCrawlState(statePath);
   const maxPages = Number(args.maxPages ?? 20);
+  const delayMs = Number(args.delayMs ?? 3000);
+  const requestedDomains = new Set(parseDomains(args.domains));
   const records = [];
   for (const [domain, adapter] of Object.entries(adapters)) {
     if (!adapter.enabled) continue;
+    if (requestedDomains.size && !requestedDomains.has(domain.replace(/^www\./, "").toLowerCase())) continue;
     if (!canCrawlDomain(state, domain)) continue;
     const robots = await fetchRobotsRules(domain);
     const pageUrls = (adapter.seedUrls || []).slice(0, maxPages);
@@ -36,6 +39,7 @@ async function main() {
         html = await response.text();
         if (/captcha|recaptcha|hcaptcha|ロボットではありません/i.test(html.slice(0, 20000))) throw new Error("captcha detected");
         for (const image of extractImageCandidatesFromHtml(html, pageUrl, { sourceType: "adapter" })) {
+          if (!passesAdapterPatterns(image, adapter)) continue;
           const text = normalizeWhitespace(`${image.nearImageText} ${adapter.contextSelectors?.join(" ") || ""}`);
           records.push({
             ...image,
@@ -53,6 +57,7 @@ async function main() {
             metadata: extractMetadata({ title: image.pageTitle, nearImageText: text, alt: image.alt })
           });
         }
+        if (delayMs > 0) await sleep(delayMs);
       }
       markDomainSuccess(state, domain);
     } catch (error) {
@@ -62,6 +67,28 @@ async function main() {
   const result = await upsertJsonlById(out, records);
   await writeCrawlState(state, statePath);
   console.log(`Domain adapter candidates: ${records.length}. ${out}: ${result.before} -> ${result.after}`);
+}
+
+function passesAdapterPatterns(image, adapter) {
+  const signal = [image.imageUrl, image.alt, image.caption, image.nearImageText, image.pageTitle].filter(Boolean).join(" ");
+  if (matchesAny(signal, adapter.rejectUrlPatterns || adapter.rejectPatterns || [])) return false;
+  const acceptPatterns = adapter.acceptUrlPatterns || adapter.acceptPatterns || [];
+  if (!acceptPatterns.length) return true;
+  return matchesAny(signal, acceptPatterns);
+}
+
+function matchesAny(value, patterns) {
+  return patterns.some((pattern) => {
+    try {
+      return new RegExp(pattern, "i").test(value);
+    } catch {
+      return String(value).toLowerCase().includes(String(pattern).toLowerCase());
+    }
+  });
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function readOptionalJson(filePath) {
@@ -86,4 +113,11 @@ function parseArgs(argv) {
     }
   }
   return result;
+}
+
+function parseDomains(value) {
+  return String(value || "")
+    .split(",")
+    .map((item) => item.trim().replace(/^www\./, "").toLowerCase())
+    .filter(Boolean);
 }

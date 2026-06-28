@@ -27,7 +27,7 @@
     "rejectedCount": 251,
     "reviewCount": 51,
     "acceptanceRate": 0.003,
-    "lastCrawledAt": "2026-06-27T08:36:08.588Z",
+    "lastCrawledAt": "2026-06-28T08:35:01.399Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -132,12 +132,12 @@
     "sourceQuality": "low"
   },
   "kh-house.jp": {
-    "candidateCount": 22,
+    "candidateCount": 281,
     "acceptedCount": 0,
-    "rejectedCount": 22,
-    "reviewCount": 22,
+    "rejectedCount": 24,
+    "reviewCount": 88,
     "acceptanceRate": 0,
-    "lastCrawledAt": null,
+    "lastCrawledAt": "2026-06-28T08:45:54.657Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -269,7 +269,7 @@
     "rejectedCount": 15,
     "reviewCount": 14,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-27T08:36:26.926Z",
+    "lastCrawledAt": "2026-06-28T08:35:06.532Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -291,7 +291,7 @@
     "rejectedCount": 16,
     "reviewCount": 21,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-27T08:36:33.892Z",
+    "lastCrawledAt": "2026-06-28T08:33:58.269Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -302,7 +302,7 @@
     "rejectedCount": 173,
     "reviewCount": 810,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-27T08:36:58.474Z",
+    "lastCrawledAt": "2026-06-28T08:34:12.670Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -324,9 +324,31 @@
     "rejectedCount": 48,
     "reviewCount": 92,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-27T08:37:39.647Z",
+    "lastCrawledAt": "2026-06-28T08:34:21.586Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
+  },
+  "with-e-home.com": {
+    "candidateCount": 107,
+    "acceptedCount": 0,
+    "rejectedCount": 5,
+    "reviewCount": 13,
+    "acceptanceRate": 0,
+    "lastCrawledAt": "2026-06-28T08:44:51.697Z",
+    "blockReason": null,
+    "nextCrawlAfter": null,
+    "sourceQuality": "low"
+  },
+  "searshome.co.jp": {
+    "candidateCount": 108,
+    "acceptedCount": 12,
+    "rejectedCount": 6,
+    "reviewCount": 0,
+    "acceptanceRate": 0.111,
+    "lastCrawledAt": "2026-06-28T09:05:24.972Z",
+    "blockReason": null,
+    "nextCrawlAfter": null,
+    "sourceQuality": "medium"
   }
 }

@@ -53,7 +53,8 @@ export function extractPdfLinksFromHtml(html, pageUrl) {
     const attrs = parseAttrs(match[1]);
     const href = normalizePossiblyRelativeUrl(attrs.href, pageUrl);
     const label = normalizeWhitespace(stripTags(match[2]));
-    if (!href || !/\.pdf(?:$|[?#])|間取り|madori|plan|floorplan|catalog|catalogue|カタログ|プラン|商品|lineup/i.test(`${href} ${label}`)) continue;
+    if (!href || !/\.pdf(?:$|[?#])/i.test(href)) continue;
+    if (!/間取り|madori|plan|floorplan|catalog|catalogue|カタログ|プラン|商品|lineup/i.test(`${href} ${label}`)) continue;
     links.push({ pageUrl, pdfUrl: href, label });
   }
   return links;
