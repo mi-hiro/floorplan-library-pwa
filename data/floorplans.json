@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T23:11:27.277Z",
+  "generatedAt": "2026-06-28T23:39:44.799Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
-      "id": "38f97979e3e5da8bd0addf2996d703bf1fab023e36bc5cee203bdfcc9b409a1a",
-      "title": "プラン1間取り図1階",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01.png",
+      "title": "プラン1間取り図",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -14,7 +14,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-1.png?241205"
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-1.png?241205",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-2.png?241205"
       ],
       "imageCandidates": [
         {
@@ -30,26 +31,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "ec421c535df3b3d8a2dfd11c6225e40a7ff002e325fdc1a31dce1e86b3b075b7",
-      "title": "プラン1間取り図2階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-2.png?241205"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "ec421c535df3b3d8a2dfd11c6225e40a7ff002e325fdc1a31dce1e86b3b075b7:image",
           "kind": "floorplan",
@@ -67,7 +49,7 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "24076945c0d595d6c0424d417e0bb6e58ee630302dce3e1147a40a6cde66265d",
@@ -103,8 +85,8 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "0a13567d12b5ca20e3e18d13fea89d469338c1d748724662cdd831e85eed3d08",
-      "title": "プラン3間取り図1階",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03.png",
+      "title": "プラン3間取り図",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -113,7 +95,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-1.png"
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-1.png",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-2.png"
       ],
       "imageCandidates": [
         {
@@ -129,26 +112,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "2063a892a41f9733f6cc6ed7f2c6be123edef0b0ed528ac6808068b3a2432416",
-      "title": "プラン3間取り図2階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-2.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "2063a892a41f9733f6cc6ed7f2c6be123edef0b0ed528ac6808068b3a2432416:image",
           "kind": "floorplan",
@@ -166,7 +130,7 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "b5ed88c9fbaa7a49702a061f6e9491c913b37310edc634e5800f8ffebba1792e",
@@ -202,8 +166,8 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "993059e5bf7c8a1d57ebd847191f32d1d8f69c33712710f9f70347542d743cb2",
-      "title": "プラン5間取り図1階",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05.png",
+      "title": "プラン5間取り図",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -212,7 +176,9 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-1.png"
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-1.png",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-2.png",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-3.png"
       ],
       "imageCandidates": [
         {
@@ -228,26 +194,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "c8d2697b5ecf4612eb19b642f5470ecc3a1b3c94f5ff19d402d7cbe60df8c6dd",
-      "title": "プラン5間取り図2階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-2.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "c8d2697b5ecf4612eb19b642f5470ecc3a1b3c94f5ff19d402d7cbe60df8c6dd:image",
           "kind": "floorplan",
@@ -261,26 +208,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "e4dba76623c6c18cad2d8023a51aa1466b66a09330f166d7d53bf6c4a602d134",
-      "title": "プラン5間取り図3階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-3.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "e4dba76623c6c18cad2d8023a51aa1466b66a09330f166d7d53bf6c4a602d134:image",
           "kind": "floorplan",
@@ -298,7 +226,7 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "e8e38aba9c9148816db318293a68a7cdd2f0e5035c602a77745eb3087ae3f1aa",
@@ -1437,7 +1365,7 @@
           "id": "3f4a03bc880ff7232ec148104138e70f518cbcde37fd2eaa0c6758b8abc05e35:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_14.jpg",
-          "alt": "2階建ての注文住宅の間取りの１階部分",
+          "alt": "2階建ての注文住宅の間取りの１階部分 1階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1507,7 +1435,7 @@
           "id": "6415be21dff4c1fbfbf7d459ffa05dda66cb4ba8964756c141f454f233d7d993:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_16.jpg",
-          "alt": "2階建ての注文住宅の間取りの１階部分",
+          "alt": "2階建ての注文住宅の間取りの１階部分 1階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1577,7 +1505,7 @@
           "id": "d8779ddf3fb57b2c46a4ed186ebd6cfd035caf0c4e1459a20249c4bf1cf73f13:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_18.jpg",
-          "alt": "2階建ての注文住宅の間取りの１階部分",
+          "alt": "2階建ての注文住宅の間取りの１階部分 1階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1647,7 +1575,7 @@
           "id": "41cb7649026db5da44da766d2d2a857e4119b8e360f02a036852a90bb88c128c:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_20.jpg",
-          "alt": "二世帯住宅の間取りの１階部分",
+          "alt": "二世帯住宅の間取りの１階部分 1階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1682,7 +1610,7 @@
           "id": "94dfd3a9665f1974f1d85550199a8ff102eee69dfe7849ee896ed9ebd86c07bc:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_21.jpg",
-          "alt": "二世帯住宅の間取りの２階部分",
+          "alt": "二世帯住宅の間取りの２階部分 2階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1717,7 +1645,7 @@
           "id": "9c1cadb545fc5b168eedfae3068d6646151816e1c99d5c8ab3002e6ae76ea5ee:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_23.jpg",
-          "alt": "都市型住宅の間取りの１階部分",
+          "alt": "都市型住宅の間取りの１階部分 1階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1752,7 +1680,7 @@
           "id": "c05b342c76ddd95abbcc1a4b73ea9acdca9f4b48d861d93e52ecec2001d8dcaa:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_24.jpg",
-          "alt": "都市型住宅の間取りの２階部分",
+          "alt": "都市型住宅の間取りの２階部分 2階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1787,7 +1715,7 @@
           "id": "32e7ef9419882e959e3acb9b2d02db4430931a8fcdb61a9d739d061d8f5650d7:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_25.jpg",
-          "alt": "都市型住宅の間取りの３階部分",
+          "alt": "都市型住宅の間取りの３階部分 3階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1857,7 +1785,7 @@
           "id": "bdf6e9dfbda80d562095da8ac7b4879f1cf9df294a1ae3a07d8bb4ca624c661f:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_27.png",
-          "alt": "二世帯住宅の間取りの２階部分",
+          "alt": "二世帯住宅の間取りの２階部分 2階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -1892,7 +1820,7 @@
           "id": "d28bdee2b080d13cf6c33175c33edaecfd7f09e713c25bff41e4b7267b99515f:image",
           "kind": "floorplan",
           "url": "https://sfc.jp/ie/myhome/img/292_28.png",
-          "alt": "二世帯住宅の間取りの３階部分",
+          "alt": "二世帯住宅の間取りの３階部分 3階",
           "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
           "ollamaReview": {
             "status": "checked",
@@ -2091,7 +2019,7 @@
           "id": "bc1a5b3192bbfec3358d2102b0f68540dfc6e4b016897184334fa9f5d7b1e9e7:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan01.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 01",
+          "alt": "３階建て狭小住宅の間取り図PLAN 01 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -2160,7 +2088,7 @@
           "id": "7a2aaaafd7ea3c76d3cb225da6eb80a67c9e73db80c6c22abdc6d80c242412f2:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan02.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 02",
+          "alt": "３階建て狭小住宅の間取り図PLAN 02 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -2194,7 +2122,7 @@
           "id": "5990d7c9fb2231cf8e435faee48e66c4722f01b9bdae04009ce60045d69b27dd:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan03.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 03",
+          "alt": "３階建て狭小住宅の間取り図PLAN 03 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -2228,7 +2156,7 @@
           "id": "74498cd072e9c69536ccaf99c5d8b2ff1b95f13608bfb71a57fbb8bbf3705ca6:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan04-1.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 04",
+          "alt": "３階建て狭小住宅の間取り図PLAN 04 1階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -2262,7 +2190,7 @@
           "id": "1d64733b9b238dde640479985f75468d51af9e5abc0897a5a8b666ae24dee61f:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan05.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 05",
+          "alt": "３階建て狭小住宅の間取り図PLAN 05 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -2296,7 +2224,7 @@
           "id": "60f032d0bd5023397af48f56fef160a73edb1619698bf68e4cf7636d95102c3f:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan06.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 06",
+          "alt": "３階建て狭小住宅の間取り図PLAN 06 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -2330,7 +2258,7 @@
           "id": "250cb5ebfebcb9790876c192a5afbcc557091a379ce8395929cb3c383769b66d:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan07.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 07",
+          "alt": "３階建て狭小住宅の間取り図PLAN 07 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -2364,7 +2292,7 @@
           "id": "9485300d2a30f86635738f39ba59bc55d80e099cc4632b21ef9e5cd63900c33b:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan08.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 08",
+          "alt": "３階建て狭小住宅の間取り図PLAN 08 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -2398,7 +2326,7 @@
           "id": "0c6f88dc41a2a8e538d5eb6888152063c338defd4386416d552d863162779831:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan09.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 09",
+          "alt": "３階建て狭小住宅の間取り図PLAN 09 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -3485,7 +3413,7 @@
           "id": "6979225a65b1f3f605032d281bc2c1ee181bf603fc9479bd8132af54808c1faf:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N163-1F-520x520.jpg",
-          "alt": "間取り – メガソフト株式会社",
+          "alt": "間取り – メガソフト株式会社 1階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3518,7 +3446,7 @@
           "id": "9ad7a0c6e542106e0956f96b780a45ffdc5af2cbdc63498fc4c74f6d6cdc5aa1:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N162-1F-520x520.jpg",
-          "alt": "間取り – メガソフト株式会社",
+          "alt": "間取り – メガソフト株式会社 1階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3551,7 +3479,7 @@
           "id": "a4a94570f849bfe37fb21317cbe641f3b7463e0426be5cca3716542e67454999:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N161-1F-520x520.jpg",
-          "alt": "間取り – メガソフト株式会社",
+          "alt": "間取り – メガソフト株式会社 1階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3584,7 +3512,7 @@
           "id": "205f6e8f8b75059decbbd7647d85224ff970b0e651bc05ce942a5524a4eebf0f:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N160-1F-520x520.jpg",
-          "alt": "間取り – メガソフト株式会社",
+          "alt": "間取り – メガソフト株式会社 1階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3650,7 +3578,7 @@
           "id": "baebf02d3916111c4986283bac26a2c0dd8f1c77e64f215061fd6bd5f06300f6:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N159-1F-520x520.jpg",
-          "alt": "間取り – メガソフト株式会社",
+          "alt": "間取り – メガソフト株式会社 1階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3683,7 +3611,7 @@
           "id": "9f4b5c42dfd6f775486bdb2a94c91dfbb811c8a0894adc316131e1c62cdfb0f5:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N158-1F-520x520.jpg",
-          "alt": "間取り – メガソフト株式会社",
+          "alt": "間取り – メガソフト株式会社 1階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3716,7 +3644,7 @@
           "id": "b501424ba462c76d762c3414805f0baca94fc0ef600256b5b33a24b4cd4661be:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/11/N157-1F-520x520.jpg",
-          "alt": "間取り – メガソフト株式会社",
+          "alt": "間取り – メガソフト株式会社 1階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3881,7 +3809,7 @@
           "id": "d8a5e0aa599c92cbc00cd86bde3cdbd7ed4947290bfbf467544b81a137783cb7:image",
           "kind": "floorplan",
           "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/4LDK_floor_plan_of_30_tsubo_or_less_with_the_master_bedroom_on_the_first_floor.jpg",
-          "alt": "主寝室が一階にある30坪以下のコンパクトハウス間取り図",
+          "alt": "主寝室が一階にある30坪以下のコンパクトハウス間取り図 1階",
           "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
           "ollamaReview": {
             "status": "checked",
@@ -4097,8 +4025,8 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "1360fb45b95fbb0489c48c966d1bf9aa3458071abe7b0a9f5a76e1985dca4fb7",
-      "title": "プラン8間取り図2階",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08.png",
+      "title": "プラン8間取り図",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -4107,9 +4035,24 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08-1.png",
         "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08-2.png"
       ],
       "imageCandidates": [
+        {
+          "id": "dc0c527eea8c0f53f030c3563447c021b52054e979426e3979a34c99995574df:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08-1.png",
+          "alt": "プラン8間取り図1階",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        },
         {
           "id": "1360fb45b95fbb0489c48c966d1bf9aa3458071abe7b0a9f5a76e1985dca4fb7:image",
           "kind": "floorplan",
@@ -4127,11 +4070,11 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "496ba2fb48aa1ef4164566d5a20fdb8952c5f4dbac3ffa085d759f4e54e88754",
-      "title": "プラン9間取り図1階",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09.jpg",
+      "title": "プラン9間取り図",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -4140,7 +4083,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09-1.jpg"
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09-1.jpg",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09-2.jpg"
       ],
       "imageCandidates": [
         {
@@ -4156,26 +4100,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "4a5ab98e73b9b0b33634c975394fe035c683ac3535b77a1996a0bd8241ddf431",
-      "title": "プラン9間取り図2階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09-2.jpg"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "4a5ab98e73b9b0b33634c975394fe035c683ac3535b77a1996a0bd8241ddf431:image",
           "kind": "floorplan",
@@ -4193,11 +4118,11 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "b26c90568716e6a15aa7c85c9010cb8c6901d1bfedb5e81c7c5e74120fb5934f",
-      "title": "プラン10間取り図1階",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10.jpg",
+      "title": "プラン10間取り図",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -4206,7 +4131,9 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10-1.jpg"
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10-1.jpg",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10-2.jpg",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10-3.jpg"
       ],
       "imageCandidates": [
         {
@@ -4222,26 +4149,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "f2f00810381ed18ac026432ffd0d276f1502c8d97d8db589cc404e27f999d949",
-      "title": "プラン9間取り図2階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10-2.jpg"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "f2f00810381ed18ac026432ffd0d276f1502c8d97d8db589cc404e27f999d949:image",
           "kind": "floorplan",
@@ -4255,26 +4163,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "bf0f2e41279414819b75be90314694a3769834feab8ac56b7363779a09588054",
-      "title": "プラン9間取り図3階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10-3.jpg"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "bf0f2e41279414819b75be90314694a3769834feab8ac56b7363779a09588054:image",
           "kind": "floorplan",
@@ -4292,11 +4181,11 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "0aaf7ba19c8bf5321c56fb09ffad230e227f72af37d23f22d04c15f5ec0ace73",
-      "title": "プラン11間取り図1階",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11.jpg",
+      "title": "プラン11間取り図",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -4305,7 +4194,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11-1.jpg"
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11-1.jpg",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11-2.jpg"
       ],
       "imageCandidates": [
         {
@@ -4321,26 +4211,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "809848883271e40236414a67a414c4258d92e9ec5918787c7bb5bd5e556ef59e",
-      "title": "プラン9間取り図2階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11-2.jpg"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "809848883271e40236414a67a414c4258d92e9ec5918787c7bb5bd5e556ef59e:image",
           "kind": "floorplan",
@@ -4358,11 +4229,11 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "3b6b1bdde80cfa99e1c7269de738e300e1fc9551b13b8e380d2e2adadf543d58",
-      "title": "プラン12間取り図1階",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12.jpg",
+      "title": "プラン12間取り図",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -4371,7 +4242,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12-1.jpg"
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12-1.jpg",
+        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12-2.jpg"
       ],
       "imageCandidates": [
         {
@@ -4387,26 +4259,7 @@
             "confidence": 0.942,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "950ea7e4d6dde5f770ac305498eb580cd087624e8a79c0c2cb6872d961d99f05",
-      "title": "プラン9間取り図2階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12-2.jpg"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "950ea7e4d6dde5f770ac305498eb580cd087624e8a79c0c2cb6872d961d99f05:image",
           "kind": "floorplan",
@@ -4424,40 +4277,7 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "dc0c527eea8c0f53f030c3563447c021b52054e979426e3979a34c99995574df",
-      "title": "プラン8間取り図1階",
-      "listingSource": "accepted ichijo.co.jp",
-      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-      "company": "一条工務店 間取りLP",
-      "layout": "3LDK",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08-1.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "dc0c527eea8c0f53f030c3563447c021b52054e979426e3979a34c99995574df:image",
-          "kind": "floorplan",
-          "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08-1.png",
-          "alt": "プラン8間取り図1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.942,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "6de34a3436cbde9a9f49b6930a7a97e98fdec437c8d7ef63f30b80e6c83c4904",
@@ -5414,24 +5234,39 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "d2ab7def45156dbf277b0f463eb281c00f22933cba65dbf32916d044adb6fec4",
+      "id": "group:image:toyotahome.co.jp:https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12098_heimen.webp",
       "title": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
       "listingSource": "accepted toyotahome.co.jp",
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
       "floors": "",
-      "entranceDirection": "北",
+      "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12098_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12098_heimen2.webp"
       ],
       "imageCandidates": [
         {
+          "id": "cde5cddd8af6afa0aaa9aacace383e2d683de5afaf1e902c313fa940565ec23f:image",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12098_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.87,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
           "id": "d2ab7def45156dbf277b0f463eb281c00f22933cba65dbf32916d044adb6fec4:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12098_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5444,7 +5279,7 @@
       ],
       "fetchedAt": "2026-06-28T22:55:57.475Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "c75e71986cb4d3b33ee2927fcb78cceb530a6727bc7157c354a47625c1e26a61",
@@ -5464,7 +5299,7 @@
           "id": "c75e71986cb4d3b33ee2927fcb78cceb530a6727bc7157c354a47625c1e26a61:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11018_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5497,46 +5332,13 @@
           "id": "77cb04716e647330b817249110a96b8cf96b5eb9f512ca91d7d0d84076dc9920:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11001_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
             "model": "accepted-pipeline",
             "isFloorplan": true,
             "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-28T22:55:57.475Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "cde5cddd8af6afa0aaa9aacace383e2d683de5afaf1e902c313fa940565ec23f",
-      "title": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
-      "listingSource": "accepted toyotahome.co.jp",
-      "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
-      "company": "toyotahome.co.jp",
-      "layout": "",
-      "floors": "",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12098_heimen1.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "cde5cddd8af6afa0aaa9aacace383e2d683de5afaf1e902c313fa940565ec23f:image",
-          "kind": "floorplan",
-          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12098_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
-          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.87,
             "reason": "accepted-floorplans only"
           }
         }
@@ -5563,7 +5365,7 @@
           "id": "1284ca1e2f064a1eaa337466f5c2ff5ef3c1efce0f4a7beae99b7aa9a96c181f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12020_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5596,7 +5398,7 @@
           "id": "40466362a9dd09d06ab2af973d7f76e610c999d36dcba84d962b91dfd9ff5263:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11021_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5629,7 +5431,7 @@
           "id": "03209eaa228df693390f5c26a7451a4d076dbcf88ac5079c5f08cdcb2cd5886a:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11006_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5662,7 +5464,7 @@
           "id": "8c772ea28116ecb858185eaae96c3e6668bab6be66acc0fdcb27d7523781974b:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12116_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5695,7 +5497,7 @@
           "id": "6b6ecc238e46e3a2c6c8842028e32bafa5609790fa5df496c00ca51e771b1f7e:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12115_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5728,7 +5530,7 @@
           "id": "7e14425ff79316b8af570494309b3bd0796b4c9af0ddb81d2e4f4e17e5bd050b:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12114_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5761,7 +5563,7 @@
           "id": "cea64d4c83f66c9bb2da127cf373356766bd3293674c651fd0dc95800372b8bc:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12113_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5794,7 +5596,7 @@
           "id": "f0cd44bc1512c22196f5a14132f7ae9119d506202ebaa6fe930779b36c66be85:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12112_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5827,7 +5629,7 @@
           "id": "6fe440938964ccd7fcc88526d86aa54a09ad0533ee11ee7c8c7e4526a6f99bc7:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12111_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5860,7 +5662,7 @@
           "id": "e7206ff051d6905ae130292424fff0eb421fda49b64b8c8c35f147fda61cbf3d:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12110_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -5893,7 +5695,7 @@
           "id": "7db11dac296cb6e95c2be3a7be4386ee0c855bc3d058f8926ca975863ee52d53:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12109_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6266,7 +6068,7 @@
           "id": "35212a8ef916bc368522c41b0305fa03e4c04deb1d548a1aafcb4463bca9cd15:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12108_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6299,7 +6101,7 @@
           "id": "b9923bde585166f8afc9c3fd054fcd8b5d05631348eff5853a6ddfe124d5086d:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12107_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6332,7 +6134,7 @@
           "id": "f00337bdc90f0b4062895dcf97f5adcdb25a3d667f51464751a1f337ee062bcd:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12106_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6365,7 +6167,7 @@
           "id": "fd22f92b8064e72503d7f942b710c8c44904e584165f1f3137a5b4426533569c:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12105_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6398,7 +6200,7 @@
           "id": "39b56858f5b529c581d0e24e222c6ff421e38614dd30387c2fe5ee64efd6bcb3:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12104_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6431,7 +6233,7 @@
           "id": "f6c10d41e63ec3e141869f8ab1876994e563e1064927feaa60252696885df9ac:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12103_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6464,7 +6266,7 @@
           "id": "94cfae01ac5a54bef5e1d6669d5cfab3c66498718aefe2a9f9146092c40eb961:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12102_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6497,7 +6299,7 @@
           "id": "da62bc278fa2e58a23b63cbe2fb805c5637d6e7a7489a8eecd59f953fe9ffc9b:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12101_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6530,7 +6332,7 @@
           "id": "7b57483705c4b255312407df4b02224f9f79a55b3af30a9716f56319bf303d3f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12100_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6563,7 +6365,7 @@
           "id": "94205970f8efcae38af68e46f41abfc4047499d434f4a914ea529dd4088f58cf:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12099_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6596,7 +6398,7 @@
           "id": "35876d30f518404259d25cbfe4837b9abe81d8c11381984016a9eb8da8e23efa:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12097_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6629,7 +6431,7 @@
           "id": "14664a005af79c96a3afe88fac4b27471d75db08e042eb1582a8fb77a905c6b1:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12096_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6662,7 +6464,7 @@
           "id": "9c4a8ce8e11a381a3119ac8aa65e76c460d2bb772a1c2afa8141921a020069ce:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12095_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6695,7 +6497,7 @@
           "id": "60569003b6d9ad38cfdecd7c087b4ce17d32cf9e41d1d2f881eb0f4bacefdda1:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12094_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -6728,7 +6530,7 @@
           "id": "e86c9ba4f93167b0be663293e6dddc8fe2e110c343ef835c466e1f66eaa97ab7:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12093_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -7157,7 +6959,7 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "6f3eb8d0cccc0ded3a980c448056c17ecf375e5191a14a536a6a121d9d4320ff",
+      "id": "group:image:searshome.co.jp:https://searshome.co.jp/images/media/nisetai_bunri_madori.png",
       "title": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
       "listingSource": "accepted searshome.co.jp",
       "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
@@ -7169,14 +6971,15 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://searshome.co.jp/images/media/nisetai_bunri_madori_1f.png"
+        "https://searshome.co.jp/images/media/nisetai_bunri_madori_1f.png",
+        "https://searshome.co.jp/images/media/nisetai_bunri_madori_2f.png"
       ],
       "imageCandidates": [
         {
           "id": "6f3eb8d0cccc0ded3a980c448056c17ecf375e5191a14a536a6a121d9d4320ff:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/nisetai_bunri_madori_1f.png",
-          "alt": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家 1階",
           "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
           "ollamaReview": {
             "status": "checked",
@@ -7185,33 +6988,12 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "054bf93a391358e9d06c6e349c1f20e8df619498672e135dc072968c8bfde1dd",
-      "title": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
-      "listingSource": "accepted searshome.co.jp",
-      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
-      "company": "シアーズホーム",
-      "layout": "4LDK",
-      "areaSqm": 89.43,
-      "tsubo": 27.05,
-      "floors": "",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://searshome.co.jp/images/media/nisetai_bunri_madori_2f.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "054bf93a391358e9d06c6e349c1f20e8df619498672e135dc072968c8bfde1dd:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/nisetai_bunri_madori_2f.png",
-          "alt": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "完全分離・独立型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家 2階",
           "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-bunri01/",
           "ollamaReview": {
             "status": "checked",
@@ -7224,10 +7006,10 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "a13e7228e98a7baea8e7e4e7a518f07ff705e88b5ed078c406a21dcb65c6d59c",
+      "id": "group:image:searshome.co.jp:https://searshome.co.jp/images/media/nisetai_handoukyo_madori.png",
       "title": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
       "listingSource": "accepted searshome.co.jp",
       "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
@@ -7239,14 +7021,15 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_1f.png"
+        "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_1f.png",
+        "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_2f.png"
       ],
       "imageCandidates": [
         {
           "id": "a13e7228e98a7baea8e7e4e7a518f07ff705e88b5ed078c406a21dcb65c6d59c:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_1f.png",
-          "alt": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家 1階",
           "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
           "ollamaReview": {
             "status": "checked",
@@ -7255,33 +7038,12 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "26d19910d812e756e57219a23125a19ad08360d93374a0f1a85dea3de7bf0eb3",
-      "title": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
-      "listingSource": "accepted searshome.co.jp",
-      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
-      "company": "シアーズホーム",
-      "layout": "4LDK",
-      "areaSqm": 81.56,
-      "tsubo": 24.67,
-      "floors": "",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_2f.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "26d19910d812e756e57219a23125a19ad08360d93374a0f1a85dea3de7bf0eb3:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/nisetai_handoukyo_madori_2f.png",
-          "alt": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "一部同居・半同居型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家 2階",
           "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-handoukyo01/",
           "ollamaReview": {
             "status": "checked",
@@ -7294,10 +7056,10 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "b73a70e427fdc08dbcb34c98d8133701a3c590b6df52b695aea1e8f160dfd694",
+      "id": "group:image:searshome.co.jp:https://searshome.co.jp/images/media/nisetai_doukyo_madori.png",
       "title": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
       "listingSource": "accepted searshome.co.jp",
       "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
@@ -7309,14 +7071,15 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://searshome.co.jp/images/media/nisetai_doukyo_madori_1f.png"
+        "https://searshome.co.jp/images/media/nisetai_doukyo_madori_1f.png",
+        "https://searshome.co.jp/images/media/nisetai_doukyo_madori_2f.png"
       ],
       "imageCandidates": [
         {
           "id": "b73a70e427fdc08dbcb34c98d8133701a3c590b6df52b695aea1e8f160dfd694:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/nisetai_doukyo_madori_1f.png",
-          "alt": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家 1階",
           "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
           "ollamaReview": {
             "status": "checked",
@@ -7325,33 +7088,12 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "d0c1d82b903c86dbd7be5bf6ec379386fd01b290f91fc3aeacbc9ff26c9acb9c",
-      "title": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
-      "listingSource": "accepted searshome.co.jp",
-      "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
-      "company": "シアーズホーム",
-      "layout": "3LDK",
-      "areaSqm": 67.07,
-      "tsubo": 20.29,
-      "floors": "",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://searshome.co.jp/images/media/nisetai_doukyo_madori_2f.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "d0c1d82b903c86dbd7be5bf6ec379386fd01b290f91fc3aeacbc9ff26c9acb9c:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/nisetai_doukyo_madori_2f.png",
-          "alt": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "完全同居・共有型 二世帯住宅 間取りプラン | シアーズホーム 注文住宅で建てる一軒家 2階",
           "sourceUrl": "https://searshome.co.jp/lineup/cocostyle/nisetai-doukyo01/",
           "ollamaReview": {
             "status": "checked",
@@ -7364,7 +7106,7 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "e7e7c4fd883300da7251051387db12d66bb356198f45eac0edf67cb10185cac8",
@@ -7386,7 +7128,7 @@
           "id": "e7e7c4fd883300da7251051387db12d66bb356198f45eac0edf67cb10185cac8:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/kodate01_madorik.png",
-          "alt": "二階建て 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "二階建て 新築プラン 価格と間取り | シアーズホーム 注文住宅で建てる一軒家 2階",
           "sourceUrl": "https://searshome.co.jp/plan/kodate/kodate0004/",
           "ollamaReview": {
             "status": "checked",
@@ -7402,7 +7144,7 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "e2f6ae95eec475906fd5ae9734dce76ed30e6a0f9c3186cff3559136aa2f1c27",
+      "id": "group:image:searshome.co.jp:https://searshome.co.jp/images/media/garagehous01_madori.png",
       "title": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
       "listingSource": "accepted searshome.co.jp",
       "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
@@ -7414,14 +7156,15 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://searshome.co.jp/images/media/garagehous01_madori_1f.png"
+        "https://searshome.co.jp/images/media/garagehous01_madori_1f.png",
+        "https://searshome.co.jp/images/media/garagehous01_madori_2f.png"
       ],
       "imageCandidates": [
         {
           "id": "e2f6ae95eec475906fd5ae9734dce76ed30e6a0f9c3186cff3559136aa2f1c27:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/garagehous01_madori_1f.png",
-          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家 1階",
           "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
           "ollamaReview": {
             "status": "checked",
@@ -7430,33 +7173,12 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-06-28T18:37:21.350Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "82e531cbdc24c3d60e179a60b44f434f96207ebdccbe639140a6f55b817c4373",
-      "title": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
-      "listingSource": "accepted searshome.co.jp",
-      "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
-      "company": "シアーズホーム",
-      "layout": "4LDK",
-      "areaSqm": 76.18,
-      "tsubo": 23.04,
-      "floors": "",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://searshome.co.jp/images/media/garagehous01_madori_2f.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "82e531cbdc24c3d60e179a60b44f434f96207ebdccbe639140a6f55b817c4373:image",
           "kind": "floorplan",
           "url": "https://searshome.co.jp/images/media/garagehous01_madori_2f.png",
-          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家",
+          "alt": "ガレージハウス 45坪 4LDK 新築プラン | シアーズホーム 注文住宅で建てる一軒家 2階",
           "sourceUrl": "https://searshome.co.jp/plan/garagehouse/garagehouse0001/",
           "ollamaReview": {
             "status": "checked",
@@ -7469,7 +7191,7 @@
       ],
       "fetchedAt": "2026-06-28T18:37:21.350Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "a299cdbd9916c0dd441125863ca5cfd2e600a058a8875fd0ca02d761a2a3df88",
@@ -8316,7 +8038,7 @@
           "id": "03d20974792d0ad9795be187e31c3e99d65d2b33e670d8146dcd37123a5ba444:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/madori-1.jpg",
-          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 1階",
           "sourceUrl": "https://kh-house.jp/hiraya/",
           "ollamaReview": {
             "status": "checked",
@@ -8679,7 +8401,7 @@
           "id": "a45703c9db84c1b182b8ac9f9f61db7f653833968267073fd4b39f0ab8a6dbe9:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-2F.jpg",
-          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
           "ollamaReview": {
             "status": "checked",
@@ -8712,7 +8434,7 @@
           "id": "61b9fd271142a75b41da4337ff9f35b243c26a3b52aa11e3189c4efb3c04ee7e:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN009-3F.jpg",
-          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社",
+          "alt": "【間取り・注文住宅のプラン】寝室にリモートコーナーを充実させた北道路３階建て4LDKのプラン① – メガソフト株式会社 3階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
           "ollamaReview": {
             "status": "checked",
@@ -8745,7 +8467,7 @@
           "id": "638fde00aad6f6bd8cf1cc9757abd5aa14ba5e30f349994207f1e9bc51cbf471:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/cN011-3F.jpg",
-          "alt": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社",
+          "alt": "【間取り・注文住宅のプラン】コンパクトな敷地でもLDKを充実させた北道路３階建て2LDKのプランの間取図をダウンロード – メガソフト株式会社 3階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
           "ollamaReview": {
             "status": "checked",
@@ -8778,7 +8500,7 @@
           "id": "432efa69470f1915302619c036052bfbb7835155d520becff056513b046d3a45:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/07/E018-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】間口が3.0間（5460㎜）とれる敷地に建てられる標準的な3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】間口が3.0間（5460㎜）とれる敷地に建てられる標準的な3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e018/",
           "ollamaReview": {
             "status": "checked",
@@ -8811,7 +8533,7 @@
           "id": "97d4d64e83b9b60959c246e55a9033bf4f651e9352a713608b5f7379bd09f0a6:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E037-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】キッチンの近くに和室を配置した、4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】キッチンの近くに和室を配置した、4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e037/",
           "ollamaReview": {
             "status": "checked",
@@ -8844,7 +8566,7 @@
           "id": "b988ab1aa8fbff80c23957e1f15e7e572053097af26c0c1bc84a580d4621a00a:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E039-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】間口3.5間(6370㎜)に建てる、標準的な3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】間口3.5間(6370㎜)に建てる、標準的な3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e039/",
           "ollamaReview": {
             "status": "checked",
@@ -8877,7 +8599,7 @@
           "id": "d4883b484d87ec9cfa8e7e3e50a442966c251e12f2bdbbb2b78156281c5ecb1c:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E043-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】コンパクトな敷地に建つ3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】コンパクトな敷地に建つ3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e043/",
           "ollamaReview": {
             "status": "checked",
@@ -8910,7 +8632,7 @@
           "id": "c88baed0c7705dd8538d096cd68ede604c59746733384661e2e00f13facb1bbc:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E051-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】浴室と洗面所を二階に配置した4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】浴室と洗面所を二階に配置した4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
           "ollamaReview": {
             "status": "checked",
@@ -8943,7 +8665,7 @@
           "id": "3c94094957ea866d421c5220311ef9f09329a6b744df4941c3feacf7dc72141c:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E053-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】広めのデッキがある3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】広めのデッキがある3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e053/",
           "ollamaReview": {
             "status": "checked",
@@ -8976,7 +8698,7 @@
           "id": "428c554670d6a0f9b2b59db543f920ab2ffaea2db6bb24a2bf934d1efe50edcb:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E054-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】二階に浴室と洗面所がある4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】二階に浴室と洗面所がある4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
           "ollamaReview": {
             "status": "checked",
@@ -9009,7 +8731,7 @@
           "id": "2ba3f462a562bb70a3f13978f95c2959c8776243516c1c2c7e4ab9d0da61721c:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E061-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】二階ホールに書斎として使えるカウンターを備えた3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】二階ホールに書斎として使えるカウンターを備えた3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
           "ollamaReview": {
             "status": "checked",
@@ -9042,7 +8764,7 @@
           "id": "26224de19d70741fade015de30982706f0959fdf719d5ff5f829a181ebf6541c:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E087-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】リビングの横にリモートコーナーを配した、広いリビングのある3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】リビングの横にリモートコーナーを配した、広いリビングのある3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e087/",
           "ollamaReview": {
             "status": "checked",
@@ -9075,7 +8797,7 @@
           "id": "d23b767457bae4ffed516694ccfa278a3055830036584c36f1c435e752edb903:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E089-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e089/",
           "ollamaReview": {
             "status": "checked",
@@ -9108,7 +8830,7 @@
           "id": "e2271b61093daf958b3fd5daf33e0f07a7a5be68fe7de7c1dd017633f2d48966:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E090-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】広さと使いやすさを兼ね備えた3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e090/",
           "ollamaReview": {
             "status": "checked",
@@ -9141,7 +8863,7 @@
           "id": "56c9048002df0eaf953e1b2f1341cb096bfc8d2f8705605928f0e03395569fb4:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E096-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】カーポートと大きなデッキのある3LDKのプラン – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】カーポートと大きなデッキのある3LDKのプラン – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e096/",
           "ollamaReview": {
             "status": "checked",
@@ -9174,7 +8896,7 @@
           "id": "f248b253c656a27611071c9722c3e422af2b135bddf2f4f6eb1f8fe1efc879dd:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E104-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】リビングに隣り合う和室のある4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】リビングに隣り合う和室のある4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e104/",
           "ollamaReview": {
             "status": "checked",
@@ -9207,7 +8929,7 @@
           "id": "059bf02111f3624b74736fb019b9e335522a3ebc90193f8ad01b22450121702f:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E111-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】リビングとつながった和室のある4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】リビングとつながった和室のある4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e111/",
           "ollamaReview": {
             "status": "checked",
@@ -9240,7 +8962,7 @@
           "id": "19ffd81bbdd64c91c5f7eb66727a026fd7c4bf3787d5c220dc769da1522ddc21:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E113-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】カーポートのある3LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】カーポートのある3LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e113/",
           "ollamaReview": {
             "status": "checked",
@@ -9273,7 +8995,7 @@
           "id": "b33d9fcb8de6c36a3b8e6ecdfa820a93b003f36d2350c10254a198a808208b30:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E115-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】充実した収納量が魅力的な4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】充実した収納量が魅力的な4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e115/",
           "ollamaReview": {
             "status": "checked",
@@ -9306,7 +9028,7 @@
           "id": "50e2d23c4b3c1921f7c95d604b1d452ef11aaae402063269241b332dbb304623:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E120-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】リビング続きの和室と、設備の充実した主寝室がある4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】リビング続きの和室と、設備の充実した主寝室がある4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e120/",
           "ollamaReview": {
             "status": "checked",
@@ -9339,7 +9061,7 @@
           "id": "884a4e15b9484b57217304084d6883e4e7789ee2b36707f34d6d62ddb025fe12:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E138-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】二階リビングの4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】二階リビングの4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
           "ollamaReview": {
             "status": "checked",
@@ -9372,7 +9094,7 @@
           "id": "75ae49f27ddc0ca03933a2a1e050e77616ec09bdc2923fadd40f0e5b58dd7bb1:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/10/E148-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】リビング前の広いデッキとセカンドリビングが楽しい4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】リビング前の広いデッキとセカンドリビングが楽しい4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e148/",
           "ollamaReview": {
             "status": "checked",
@@ -9405,7 +9127,7 @@
           "id": "b201accf89264594add39a2b199c9a4cbc13ea91b3b534c4ab32c4dfbd4d6437:image",
           "kind": "floorplan",
           "url": "https://www.megasoft.co.jp/wp/wp-content/uploads/2023/09/E162-2F.jpg",
-          "alt": "【間取り・注文住宅プラン】リビング中央から家族を見渡せるリモートコーナーのある4LDKの間取り – メガソフト株式会社",
+          "alt": "【間取り・注文住宅プラン】リビング中央から家族を見渡せるリモートコーナーのある4LDKの間取り – メガソフト株式会社 2階",
           "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e162/",
           "ollamaReview": {
             "status": "checked",
@@ -9438,7 +9160,7 @@
           "id": "e74e9c296152833a4a48776dc930cd09a3806974e4514a834730a35079c4d21b:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/g02%E9%96%93%E5%8F%96%E3%82%8A.jpg",
-          "alt": "２階建てプラン2 | 厳選プラン集｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "alt": "２階建てプラン2 | 厳選プラン集｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 2階",
           "sourceUrl": "https://kh-house.jp/plan/plan2f2/",
           "ollamaReview": {
             "status": "checked",
@@ -11424,7 +11146,7 @@
           "id": "e8d8c767a897e22f33727be59347a5b369f5efb9bb9d4f80aa5af1ca73fb420c:image",
           "kind": "floorplan",
           "url": "https://www.misawa.co.jp/madori/plan_img/122_1f.gif",
-          "alt": "あたりまえの間取り集500プラン！ミサワホーム",
+          "alt": "あたりまえの間取り集500プラン！ミサワホーム 1階",
           "sourceUrl": "https://www.misawa.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -11459,7 +11181,7 @@
           "id": "894e6f5f70e6bea4206955cb9fa54fd63b3eede510d4ffeb78d2574dd4dfe58a:image",
           "kind": "floorplan",
           "url": "https://www.misawa.co.jp/madori/plan_img/226_1f.gif",
-          "alt": "あたりまえの間取り集500プラン！ミサワホーム",
+          "alt": "あたりまえの間取り集500プラン！ミサワホーム 1階",
           "sourceUrl": "https://www.misawa.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -11494,7 +11216,7 @@
           "id": "d9b5306ee37e92ea630b5a0283a3c1a0276f86f4aebd803dd11aace89bcc9ca5:image",
           "kind": "floorplan",
           "url": "https://www.misawa.co.jp/madori/plan_img/203_1f.gif",
-          "alt": "あたりまえの間取り集500プラン！ミサワホーム",
+          "alt": "あたりまえの間取り集500プラン！ミサワホーム 1階",
           "sourceUrl": "https://www.misawa.co.jp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -11961,7 +11683,7 @@
           "id": "cde17f527008eabee8e7eec38b1021ef965c310bee975810df5f1fe8ee30233f:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/%E9%96%93%E5%8F%96%E3%82%8A-3.jpg",
-          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 3階",
           "sourceUrl": "https://kh-house.jp/hiraya/",
           "ollamaReview": {
             "status": "checked",
@@ -11994,7 +11716,7 @@
           "id": "b030ddb525780145b643e30f1a1813c9c81818008ade27a6f280b99ed3020dc9:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/%E9%96%93%E5%8F%96%E3%82%8A-2.jpg",
-          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 2階",
           "sourceUrl": "https://kh-house.jp/hiraya/",
           "ollamaReview": {
             "status": "checked",
@@ -12126,7 +11848,7 @@
           "id": "d82076c1e2644602db256e28e5a523e2d584e2cb0429c1bb6b132e3c8b189be3:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12092_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12159,7 +11881,7 @@
           "id": "8880f5508c1c3477037b136958353338113093218be968fc3259723be8d09565:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12091_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12192,7 +11914,7 @@
           "id": "1c5fecf4d8b4d563d22c0342c6e8147ecf6cef6d85fc473c2718396dc73724b5:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12090_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12225,7 +11947,7 @@
           "id": "1db688952bf873580bc1fd7774025a3fda00d235da48ba45c3d883a3f7e593bb:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12089_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12258,7 +11980,7 @@
           "id": "c0d8afddb3a5318a19b2b27bd4fd528826198c91e19951ff4cc098d6d9ba99dd:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12088_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12291,7 +12013,7 @@
           "id": "3fbb7609ed723a9491418d7994714ff0e8913ace3b6fff2f0718733ad123cead:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12087_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12324,7 +12046,7 @@
           "id": "c3e4978cde0fee5291b65ef977e6267ed31bf608e0e5c0a51aed1bde206a622f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12086_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12357,7 +12079,7 @@
           "id": "e01bd892626939dc33cf03bfa1a4b8c367cc0ee2764d88106cad4dbd1fabb3f9:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12085_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12390,7 +12112,7 @@
           "id": "e4d17757d34a2d3e56cf7c9e1930861a5c86277fe38195d2755aedea0c3aeb46:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12084_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12423,7 +12145,7 @@
           "id": "b241839f9549817ca37f34a79a43aee8a4237c69a75203f5a2c1ae5686848ee6:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12083_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12456,7 +12178,7 @@
           "id": "4853e9b4c804748207d5b0b046535939e3068e0c2ff0632b15d9ec50afb201a1:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12082_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12489,7 +12211,7 @@
           "id": "47dd6c23671a0222886af09c4c3c0b910ddabc92111b24c627236724bbac53d4:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12081_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12522,7 +12244,7 @@
           "id": "8043e7359d0024113452b9773397601823784b44a8fe483ff5db23245daefe98:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12080_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12555,7 +12277,7 @@
           "id": "ba5f392fb99488783f8b1d0173f52b9c79f98319e532477fe543722538a7236d:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12079_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12588,7 +12310,7 @@
           "id": "bf9254f6f28b7112314849944b4d9705f8b7648e0a29b0c68672df352ad44bc9:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12078_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12621,7 +12343,7 @@
           "id": "e7867bba7a562628424c6a57a2460889601ed4e29f98c5763c4618aede5600e9:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12077_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12654,7 +12376,7 @@
           "id": "ae37def39c7837c50b5b49d8ba1af1b8226acea3411a31fc7a8cbd9e7fc6be2f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12076_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12687,7 +12409,7 @@
           "id": "30ed5901e5ea4a5ed6f6b90371bb0640d326bc0f18c52cf77dc66547ff1ea9f0:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12075_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12720,7 +12442,7 @@
           "id": "8e8cd859084b494cf187ae82d0d8bf623ec650e1068412996111cb98329512cc:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12074_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12753,7 +12475,7 @@
           "id": "0c80318aff02db4b83a53aa439e00ab3d0728bae6cfa1fb2a858a5c9fef30187:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12073_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12786,7 +12508,7 @@
           "id": "7601f1f8a09efd7ccc6ff17a68449ffb5c1f1bfea0218e93b5662c26f4d2fd05:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12072_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12819,7 +12541,7 @@
           "id": "02d1846283648f572558bb26626a359ff241dd5ae5af4ad6900782b9f85bda6f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12071_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12852,7 +12574,7 @@
           "id": "bf544dc83ccaef15dbde54bb4cc1a81bd1459dd3c1f09950baaf6c07e0f386d8:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12070_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12885,7 +12607,7 @@
           "id": "21ff24d99807f562270f3e5c3d13131a0f9bde3dbf3a1fd61c4e8360674492a5:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12069_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12918,7 +12640,7 @@
           "id": "c74751ebeffcaa1652f01ce53e7027a88a9ca0b58da39de3f91699b89b60bb13:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12068_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12951,7 +12673,7 @@
           "id": "da04f18230d519d76c166a2b3d22ec473cf82feebb74a9472663c1d9be789dca:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12067_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -12984,7 +12706,7 @@
           "id": "892098f5de275e7ad83eb0bfc308c4e649794be6bafac82bdc4e57ef93303f2d:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12066_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13017,7 +12739,7 @@
           "id": "e326fcccf245a934bd7ac5f0c5104424c9bf5b42dbb7f0e2837c524297cbe09e:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12065_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13050,7 +12772,7 @@
           "id": "a962533c2f7e7cde3ab9ce521ee5822d43563ca3e5fc538a6a57ad143331d4cd:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12064_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13083,7 +12805,7 @@
           "id": "900dac056c28ea39b99a4d815f1118d189b97a4cbc6076a992b6fc4a2ff676c6:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12063_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13116,7 +12838,7 @@
           "id": "352afa4d454e6838223a30f693250f185e7891ea525993a07a57a84e1a9d2ed7:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12062_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13149,7 +12871,7 @@
           "id": "2a1c3e09e2a5a4c5bb09c1bd7fce2364575ba6b40ed986509ae099fa6f950bb9:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12061_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13182,7 +12904,7 @@
           "id": "b4b5182dff29b003cdb5836c6d5dc2b18361e266f1275b5c67907ed236ccb10a:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12060_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13215,7 +12937,7 @@
           "id": "e404b7845020e92f28e3be6d04349aff3ae0d1a1bfab1b2a5ce45d555962b447:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12059_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13248,7 +12970,7 @@
           "id": "fed0a058bd6adfd23807a38978f552ba5db11789f1ef813d240e34e146a8d67b:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12058_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13281,7 +13003,7 @@
           "id": "693119cd6c0daf5bb1d82fa53799e0b2a4ade3206492dec8732edce934b63579:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12057_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13314,7 +13036,7 @@
           "id": "d1b472de07a12f2bb297e7ca0f507651230d817d5f0be87243388a4bbbd62fba:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12056_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13347,7 +13069,7 @@
           "id": "3565d418c9aeca407bfb37884b1193db47a64347dc11d334bd9a5b31e70f005f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12055_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13380,7 +13102,7 @@
           "id": "a46341b8c0b8d4c077ae94a1851180c716cbad0ba20b4613bd4a54130e87ec1a:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12054_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13413,7 +13135,7 @@
           "id": "7c6588c624e26f9f4dd1e8cb5b81dbfec89ca04ed69a8b971452d71c3d972734:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12053_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13446,7 +13168,7 @@
           "id": "32a88c61d3aac1b5e770720d915633fe2a3612a00d23042b7a324c93bec8903f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12052_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13479,7 +13201,7 @@
           "id": "32deaa120d3cc33be7db11b82d27434ba4890d137359aed8de414aad73195e61:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12051_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13512,7 +13234,7 @@
           "id": "44c646d0a021f50f0ac5839783c32e1d4285abcef032ed0dd6bfdfec77622ff0:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12050_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13545,7 +13267,7 @@
           "id": "5ca69b94ec8c93d569319ad1f423330b80d48f247a94ee640bce6fa9f75fa94c:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12049_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13578,7 +13300,7 @@
           "id": "7333cc668f955f7f0c58eec1ca003b3ee29295fabe0618df05dd4bb20460a1c7:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12048_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13611,7 +13333,7 @@
           "id": "5e9a6af29ddc0e2272785f8eefb6c4a46a07a97528a09803bc2cf9b31a55acdf:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12047_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13644,7 +13366,7 @@
           "id": "f97cfe04d7b119c435fd138d2e07bd3f6ed6c56e576eada1a27bb3db0ec48056:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12046_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13677,7 +13399,7 @@
           "id": "ed612a9372d193ba3bf4dd1d267ec028c8eca7d24d0e98b9be8d2a7c84c39251:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12045_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13710,7 +13432,7 @@
           "id": "43bae3bce5db56219ece40e21509c0aba5092b7ae4e3856c97441a87670403ea:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12044_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13743,7 +13465,7 @@
           "id": "3c8db603c4818a58e028ff834fb3a08c240af6816eb3dbf3ef5cfa4740bb3f1a:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12043_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13776,7 +13498,7 @@
           "id": "49a99bcd48e44909c902891a4c9929b16b2f24d8b0ef694648e9107d12b5320a:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12042_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13809,7 +13531,7 @@
           "id": "72bccccfb85756f3e241a812f6ca78f975246a4ba097d326d7f7714a0ed868d8:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12041_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13842,7 +13564,7 @@
           "id": "b0d1438aad8a86965096db2d4f37d1a7bdabcefc96dfb958729a1c7ab5f9856c:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12040_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13875,7 +13597,7 @@
           "id": "f685d1110c647ac80042ce6c728a70ddc48f15105006311bccc217603facc6ba:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12039_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13908,7 +13630,7 @@
           "id": "42c68ce490929342a73c2fb7577aa08145fee432e749dff1cb6ad0f019ee6c70:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12038_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13941,7 +13663,7 @@
           "id": "d0d8956d8e50dee3b40b79bffc763aefac9bbe1c6ccc7d63b263d0144979cb4f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12037_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -13974,7 +13696,7 @@
           "id": "1d389da056c1e5e2646ac356e2f0795cf6e689e4f9ee017423c9a35e80b5094f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12036_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14007,7 +13729,7 @@
           "id": "72576b50a819a80fa8c73323762750f49902dd86311904301db23faa88b6dada:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12035_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14040,7 +13762,7 @@
           "id": "a2bf365000f36a2585f0f2d765c65ae376d214d286fca33cb12fa53030efa994:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12034_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14073,7 +13795,7 @@
           "id": "2be6febfadd867ea860feb9e647d9570f4469234620a43bada477bc30a0ef3b4:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12033_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14106,7 +13828,7 @@
           "id": "8ea0110a2e45846e419586b329f88dc6d104b88f9733d1a451e11686527f04b9:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12032_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14139,7 +13861,7 @@
           "id": "155835f0eda0401fe5dd7ef5d15d84986062168e0ef44fae743a7fb67be77106:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12031_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14172,7 +13894,7 @@
           "id": "07f371e1884aa9048cfc4aec4c080836ddc76604cd4bce9e59f2dc59c6a609bd:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12030_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14205,7 +13927,7 @@
           "id": "ba9e370c48dbfff73d5033739ea77c82ee0297a252eebf2d940946b36d427594:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12029_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14238,7 +13960,7 @@
           "id": "b6dbe8e82f6112dea765ec4c1fed3fa6b8b36e9c8e27542519a1d904bc921b07:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12028_heimen1.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14271,7 +13993,7 @@
           "id": "7596aa6f6231208e2151753698552cb27bc400ffceace075bc642c79cf17e026:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12027_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14304,7 +14026,7 @@
           "id": "5394301d46aaa6d875d72ea0346686b33c1f25b08df2c26627bdb287618f95cd:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12026_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14337,7 +14059,7 @@
           "id": "366e49501438874fd533614124c8eeebaacde7ea8a8fae7bcc76cceb33a66931:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12025_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14370,7 +14092,7 @@
           "id": "2bb08979e51fe96741e10d195fddf1636f0ba6705f735e70896e0d8c8e307c3d:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12024_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14403,7 +14125,7 @@
           "id": "fdd9256f5325c377e5c6a255444c328eaedcaccd850ea20fa2e579a5c17d1d37:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12023_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14436,7 +14158,7 @@
           "id": "27038d086a81abcf316dd68438c6ff465b69a41e83c1b3427f1edc69f1eec1e6:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12022_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14469,7 +14191,7 @@
           "id": "14c165efd7cb54b3618e5a15ef51826f088f4393605e395fb780d082d36f6f7f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12021_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14502,7 +14224,7 @@
           "id": "c965abdd44594ee99ad833990faeec9b5a9b22016d8e47de55d43f4f9e39772e:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12019_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14535,7 +14257,7 @@
           "id": "7460b5049e2e199dbf9dd80660a3028d8330205a8ce53865a99c146ce288aa5e:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12018_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14568,7 +14290,7 @@
           "id": "59d7659d7b8e95ba4d3897fe3d758df3e0798a5786ee13b8f351d4ef3c33b656:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12017_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14601,7 +14323,7 @@
           "id": "ffb171d987451acb44354413b3ed62e4000a85abb966fffd1e9bcec911951e72:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12016_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14634,7 +14356,7 @@
           "id": "ec566b3dbb181226c12eda009a7bab2cb01b0e97ad2957d4bad1c2bfbfcbb301:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12015_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14667,7 +14389,7 @@
           "id": "79f5b68f3bfafd809c4c1c0e1164bd87c4f76f0f4f8bb86314dae829bbe4721f:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12014_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14700,7 +14422,7 @@
           "id": "a8d71b89b918dc9133bd62f501310bc054b0bf38c28d61b440a62cf3b6c681b3:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12013_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14733,7 +14455,7 @@
           "id": "a4662fdfb375b0a8536e296c340b0d1e633a4c9c7da3be94298691728e5c120c:image",
           "kind": "floorplan",
           "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12012_heimen2.webp",
-          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 2階",
           "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
           "ollamaReview": {
             "status": "checked",
@@ -14751,14 +14473,14 @@
   ],
   "logs": [
     {
-      "id": "accepted_public_1782688287294",
-      "createdAt": "2026-06-28T23:11:27.277Z",
+      "id": "accepted_public_1782689984818",
+      "createdAt": "2026-06-28T23:39:44.799Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplans only: 439 records."
+      "message": "Accepted floorplan images: 439. Public plan groups: 424."
     }
   ]
 }
