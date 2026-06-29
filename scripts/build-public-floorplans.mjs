@@ -102,6 +102,8 @@ function floorOrderFromSignal(signal) {
 function toCrawlCandidate(group) {
   const record = group[0];
   const imageCandidates = addCompanionImages(group.map((item, index) => toImageCandidate(item, index)));
+  const layout = record.metadata?.layout?.value || inferLayoutFromGroup(group);
+  const floors = record.metadata?.floors?.value || inferFloorsFromImages(imageCandidates, group);
   return {
     id: group.length > 1 ? `group:${acceptedGroupKey(record)}` : record.id,
     title: displayTitle(group),
@@ -109,10 +111,10 @@ function toCrawlCandidate(group) {
     sourceUrl: record.source?.pageUrl || "",
     company: record.source?.companyName || record.source?.sourceDomain || "",
     priceManYen: record.metadata?.price?.value || undefined,
-    layout: record.metadata?.layout?.value || "",
+    layout,
     areaSqm: record.metadata?.totalFloorAreaSqm?.value || undefined,
     tsubo: record.metadata?.totalFloorAreaSqm?.value ? Number((record.metadata.totalFloorAreaSqm.value / 3.305785).toFixed(2)) : undefined,
-    floors: record.metadata?.floors?.value || "",
+    floors,
     entranceDirection: record.metadata?.entranceDirection?.value || "",
     hasFloorplanImage: true,
     imageUrlCandidates: imageCandidates.map((image) => image.url).filter(Boolean),
@@ -123,6 +125,35 @@ function toCrawlCandidate(group) {
       ? `accepted-floorplans.jsonl から生成。${group.length}枚の階別画像を同じプランにまとめています。`
       : "accepted-floorplans.jsonl から生成"
   };
+}
+
+function inferLayoutFromGroup(group) {
+  const text = group
+    .map((record) => [
+      record.title,
+      record.context?.alt,
+      record.context?.caption,
+      record.context?.nearImageText,
+      record.context?.sourceSnippet
+    ].filter(Boolean).join(" "))
+    .join(" ");
+  const match = text.match(/[1-7]\s*S?\s*LDK|[1-7]\s*DK/i);
+  return match ? match[0].replace(/\s+/g, "").toUpperCase() : "";
+}
+
+function inferFloorsFromImages(images, group) {
+  const text = group
+    .map((record) => `${record.title || ""} ${record.context?.alt || ""} ${record.context?.nearImageText || ""}`)
+    .join(" ");
+  if (/平屋/.test(text)) return "平屋";
+
+  const orders = new Set(images.map(floorOrderFromImage).filter((value) => value < 9));
+  if (orders.has(3)) return "3階建て";
+  if (orders.has(1.5)) return "1.5階建て";
+  if (orders.has(1) && orders.has(2)) return "2階建";
+  if (/3階|三階|3F/i.test(text)) return "3階建て";
+  if (/2階|二階|2F/i.test(text)) return "2階建";
+  return "";
 }
 
 function addCompanionImages(images) {

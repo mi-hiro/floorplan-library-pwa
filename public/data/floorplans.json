@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-29T00:37:27.445Z",
+  "generatedAt": "2026-06-29T01:24:20.202Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -301,7 +301,7 @@
       "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
       "company": "discovered www.forumu.co.jp",
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -334,7 +334,7 @@
       "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
       "company": "discovered www.forumu.co.jp",
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -367,7 +367,7 @@
       "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
       "company": "discovered www.forumu.co.jp",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -400,7 +400,7 @@
       "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
       "company": "discovered www.forumu.co.jp",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -432,7 +432,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "、建築家などの情報をピックアップしていきます。住宅展示場のモデルハウスを訪ね、実",
-      "layout": "",
+      "layout": "2LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -465,7 +465,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "、建築家などの情報をピックアップしていきます。住宅展示場のモデルハウスを訪ね、実",
-      "layout": "",
+      "layout": "2LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -498,7 +498,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "、建築家などの情報をピックアップしていきます。住宅展示場のモデルハウスを訪ね、実",
-      "layout": "",
+      "layout": "2LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -564,7 +564,7 @@
       "listingSource": "accepted genmai-home.com",
       "sourceUrl": "https://genmai-home.com/floorplan1/21/",
       "company": "genmai-home.com",
-      "layout": "",
+      "layout": "4LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -663,7 +663,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "sfc.jp",
-      "layout": "",
+      "layout": "2LDK",
       "areaSqm": 79.49,
       "tsubo": 24.05,
       "floors": "平屋",
@@ -700,7 +700,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 800,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -734,7 +734,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 100,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -768,7 +768,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 50,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -802,7 +802,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 950,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -836,7 +836,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 50,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -870,7 +870,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 250,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -904,7 +904,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 50,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -937,7 +937,7 @@
       "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
       "company": "forumu.co.jp",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1007,7 +1007,7 @@
       "layout": "3LDK",
       "areaSqm": 90,
       "tsubo": 27.23,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1039,7 +1039,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "sfc.jp",
-      "layout": "",
+      "layout": "4LDK",
       "areaSqm": 118,
       "tsubo": 35.7,
       "floors": "平屋",
@@ -1076,7 +1076,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1108,7 +1108,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "sfc.jp",
-      "layout": "",
+      "layout": "4LDK",
       "areaSqm": 118,
       "tsubo": 35.7,
       "floors": "平屋",
@@ -1145,7 +1145,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 700,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1177,7 +1177,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "sfc.jp",
-      "layout": "",
+      "layout": "3LDK",
       "areaSqm": 112.61,
       "tsubo": 34.06,
       "floors": "平屋",
@@ -1213,7 +1213,7 @@
       "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_architecnet/122989_0002_01/jitsurei/jc_0166/",
       "company": "SUUMO 注文住宅間取り実例",
       "priceManYen": 2999,
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -1246,7 +1246,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "sfc.jp",
-      "layout": "",
+      "layout": "3LDK",
       "areaSqm": 112.61,
       "tsubo": 34.06,
       "floors": "平屋",
@@ -1526,7 +1526,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "sfc.jp",
-      "layout": "",
+      "layout": "4LDK",
       "areaSqm": 119.23,
       "tsubo": 36.07,
       "floors": "2階建て",
@@ -1561,7 +1561,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "sfc.jp",
-      "layout": "",
+      "layout": "4LDK",
       "areaSqm": 131.45,
       "tsubo": 39.76,
       "floors": "2階建て",
@@ -1596,7 +1596,7 @@
       "listingSource": "accepted sfc.jp",
       "sourceUrl": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
       "company": "sfc.jp",
-      "layout": "",
+      "layout": "4LDK",
       "areaSqm": 131.45,
       "tsubo": 39.76,
       "floors": "2階建て",
@@ -3232,7 +3232,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 3,
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -3266,7 +3266,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 3,
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -3300,7 +3300,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 3,
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -3334,7 +3334,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 3,
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -3368,7 +3368,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 3,
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -3699,7 +3699,7 @@
       "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
       "company": "yuyuhome.co.jp",
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -3732,7 +3732,7 @@
       "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
       "company": "yuyuhome.co.jp",
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -3831,7 +3831,7 @@
       "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
       "company": "yuyuhome.co.jp",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4287,7 +4287,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 700,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4321,7 +4321,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4355,7 +4355,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4389,7 +4389,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4423,7 +4423,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4457,7 +4457,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 700,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4491,7 +4491,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 700,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4525,7 +4525,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4559,7 +4559,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 500,
       "layout": "2LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4593,7 +4593,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4627,7 +4627,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 500,
       "layout": "2LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4661,7 +4661,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4695,7 +4695,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4729,7 +4729,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4763,7 +4763,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4865,7 +4865,7 @@
       "company": "フォルム",
       "priceManYen": 800,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4899,7 +4899,7 @@
       "company": "フォルム",
       "priceManYen": 100,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4933,7 +4933,7 @@
       "company": "フォルム",
       "priceManYen": 50,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4967,7 +4967,7 @@
       "company": "フォルム",
       "priceManYen": 950,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5001,7 +5001,7 @@
       "company": "フォルム",
       "priceManYen": 50,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5035,7 +5035,7 @@
       "company": "フォルム",
       "priceManYen": 250,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5069,7 +5069,7 @@
       "company": "フォルム",
       "priceManYen": 50,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5102,7 +5102,7 @@
       "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
       "company": "フォルム",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5240,7 +5240,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5288,7 +5288,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5369,7 +5369,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5417,7 +5417,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5531,7 +5531,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5579,7 +5579,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5627,7 +5627,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5675,7 +5675,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5789,7 +5789,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5838,7 +5838,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5872,7 +5872,7 @@
       "company": "フォルム",
       "priceManYen": 400,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5906,7 +5906,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5940,7 +5940,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -5974,7 +5974,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6008,7 +6008,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6042,7 +6042,7 @@
       "company": "フォルム",
       "priceManYen": 800,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6076,7 +6076,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6110,7 +6110,7 @@
       "company": "フォルム",
       "priceManYen": 800,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6144,7 +6144,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "5LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6177,7 +6177,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6258,7 +6258,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6372,7 +6372,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6420,7 +6420,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6468,7 +6468,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6516,7 +6516,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6564,7 +6564,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6612,7 +6612,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6693,7 +6693,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6741,7 +6741,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6789,7 +6789,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6838,7 +6838,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6872,7 +6872,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6906,7 +6906,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6940,7 +6940,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6974,7 +6974,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7008,7 +7008,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7042,7 +7042,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7078,7 +7078,7 @@
       "layout": "3LDK",
       "areaSqm": 90,
       "tsubo": 27.23,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7112,7 +7112,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7146,7 +7146,7 @@
       "company": "フォルム",
       "priceManYen": 700,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7178,7 +7178,7 @@
       "listingSource": "accepted searshome.co.jp",
       "sourceUrl": "https://searshome.co.jp/plan/hiraya/hiraya0006/",
       "company": "searshome.co.jp",
-      "layout": "",
+      "layout": "4LDK",
       "areaSqm": 95.23,
       "tsubo": 28.81,
       "floors": "平屋",
@@ -7214,7 +7214,7 @@
       "sourceUrl": "https://searshome.co.jp/lineup/lineup/iroha0001/",
       "company": "シアーズホーム",
       "priceManYen": 1590,
-      "layout": "",
+      "layout": "3LDK",
       "areaSqm": 87.36,
       "tsubo": 26.43,
       "floors": "2階建て",
@@ -7252,7 +7252,7 @@
       "layout": "4LDK",
       "areaSqm": 89.43,
       "tsubo": 27.05,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7302,7 +7302,7 @@
       "layout": "4LDK",
       "areaSqm": 81.56,
       "tsubo": 24.67,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7352,7 +7352,7 @@
       "layout": "3LDK",
       "areaSqm": 67.07,
       "tsubo": 20.29,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7437,7 +7437,7 @@
       "layout": "4LDK",
       "areaSqm": 76.18,
       "tsubo": 23.04,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7487,7 +7487,7 @@
       "layout": "4LDK",
       "areaSqm": 76.18,
       "tsubo": 23.04,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7849,7 +7849,7 @@
       "listingSource": "accepted aerahome.com",
       "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
       "company": "aerahome.com",
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -7882,7 +7882,7 @@
       "listingSource": "accepted aerahome.com",
       "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
       "company": "aerahome.com",
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -7915,7 +7915,7 @@
       "listingSource": "accepted aerahome.com",
       "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
       "company": "aerahome.com",
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -7948,7 +7948,7 @@
       "listingSource": "accepted aerahome.com",
       "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
       "company": "aerahome.com",
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -7981,7 +7981,7 @@
       "listingSource": "accepted aerahome.com",
       "sourceUrl": "https://aerahome.com/column/plannig/250709131/",
       "company": "aerahome.com",
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -8708,7 +8708,7 @@
       "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn009/",
       "company": "megasoft.co.jp",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -8741,7 +8741,7 @@
       "sourceUrl": "https://www.megasoft.co.jp/madori/plan/cn011/",
       "company": "megasoft.co.jp",
       "layout": "2LDK",
-      "floors": "",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -8906,7 +8906,7 @@
       "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e051/",
       "company": "megasoft.co.jp",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -8972,7 +8972,7 @@
       "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e054/",
       "company": "megasoft.co.jp",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9005,7 +9005,7 @@
       "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e061/",
       "company": "megasoft.co.jp",
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9335,7 +9335,7 @@
       "sourceUrl": "https://www.megasoft.co.jp/madori/plan/e138/",
       "company": "megasoft.co.jp",
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9434,7 +9434,7 @@
       "sourceUrl": "https://kh-house.jp/plan/plan2f2/",
       "company": "kh-house.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9641,7 +9641,7 @@
       "listingSource": "accepted hiyoriblog.com",
       "sourceUrl": "https://hiyoriblog.com/1floorplan11/",
       "company": "hiyoriblog.com",
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -9676,7 +9676,7 @@
       "company": "フォルム",
       "priceManYen": 700,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9710,7 +9710,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9744,7 +9744,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9778,7 +9778,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9812,7 +9812,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9846,7 +9846,7 @@
       "company": "フォルム",
       "priceManYen": 700,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9880,7 +9880,7 @@
       "company": "フォルム",
       "priceManYen": 700,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9914,7 +9914,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9948,7 +9948,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "2LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -9982,7 +9982,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10016,7 +10016,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "2LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10050,7 +10050,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10084,7 +10084,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10118,7 +10118,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10152,7 +10152,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10186,7 +10186,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10220,7 +10220,7 @@
       "company": "フォルム",
       "priceManYen": 400,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10254,7 +10254,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10288,7 +10288,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10322,7 +10322,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10356,7 +10356,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10390,7 +10390,7 @@
       "company": "フォルム",
       "priceManYen": 800,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10424,7 +10424,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10458,7 +10458,7 @@
       "company": "フォルム",
       "priceManYen": 800,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10492,7 +10492,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "5LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10526,7 +10526,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10560,7 +10560,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10594,7 +10594,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10628,7 +10628,7 @@
       "company": "フォルム",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10662,7 +10662,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10696,7 +10696,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10730,7 +10730,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10764,7 +10764,7 @@
       "company": "フォルム",
       "priceManYen": 700,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10798,7 +10798,7 @@
       "company": "フォルム",
       "priceManYen": 600,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10832,7 +10832,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10866,7 +10866,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 500,
       "layout": "3LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10900,7 +10900,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 700,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10934,7 +10934,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 700,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -10968,7 +10968,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 700,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -11002,7 +11002,7 @@
       "company": "forumu.co.jp",
       "priceManYen": 700,
       "layout": "4LDK",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -11420,7 +11420,7 @@
       "layout": "",
       "areaSqm": 70,
       "tsubo": 21.18,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -11455,7 +11455,7 @@
       "layout": "",
       "areaSqm": 70,
       "tsubo": 21.18,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -11490,7 +11490,7 @@
       "layout": "",
       "areaSqm": 70,
       "tsubo": 21.18,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -11525,7 +11525,7 @@
       "layout": "",
       "areaSqm": 70,
       "tsubo": 21.18,
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12155,7 +12155,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12203,7 +12203,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12251,7 +12251,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12299,7 +12299,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12347,7 +12347,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12395,7 +12395,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12443,7 +12443,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12491,7 +12491,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12539,7 +12539,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12587,7 +12587,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12635,7 +12635,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12683,7 +12683,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12731,7 +12731,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12812,7 +12812,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -12926,7 +12926,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13040,7 +13040,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13121,7 +13121,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13169,7 +13169,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13217,7 +13217,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13265,7 +13265,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13313,7 +13313,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13361,7 +13361,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13409,7 +13409,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13457,7 +13457,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13505,7 +13505,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13553,7 +13553,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13601,7 +13601,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13649,7 +13649,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13697,7 +13697,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13745,7 +13745,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13793,7 +13793,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13841,7 +13841,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13889,7 +13889,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13937,7 +13937,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -13985,7 +13985,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14033,7 +14033,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14081,7 +14081,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14129,7 +14129,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14177,7 +14177,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14225,7 +14225,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14273,7 +14273,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14321,7 +14321,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14369,7 +14369,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14417,7 +14417,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14465,7 +14465,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14513,7 +14513,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14561,7 +14561,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14609,7 +14609,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14657,7 +14657,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14705,7 +14705,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14753,7 +14753,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14801,7 +14801,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14849,7 +14849,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14897,7 +14897,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -14945,7 +14945,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15092,7 +15092,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15140,7 +15140,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15188,7 +15188,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15236,7 +15236,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15284,7 +15284,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15332,7 +15332,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15380,7 +15380,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15428,7 +15428,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15476,7 +15476,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15524,7 +15524,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15572,7 +15572,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15620,7 +15620,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15668,7 +15668,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15716,7 +15716,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15764,7 +15764,7 @@
       "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
       "company": "toyotahome.co.jp",
       "layout": "",
-      "floors": "",
+      "floors": "2階建",
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15808,8 +15808,8 @@
   ],
   "logs": [
     {
-      "id": "accepted_public_1782693447463",
-      "createdAt": "2026-06-29T00:37:27.445Z",
+      "id": "accepted_public_1782696260221",
+      "createdAt": "2026-06-29T01:24:20.202Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
