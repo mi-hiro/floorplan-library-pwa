@@ -741,6 +741,167 @@ h3 {
   font-weight: 800;
 }
 
+.floorplan-detail-page {
+  display: grid;
+  gap: 12px;
+}
+
+.floorplan-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.floorplan-detail-header h2 {
+  font-size: 1.15rem;
+}
+
+.floorplan-detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.55fr);
+  align-items: start;
+  gap: 12px;
+}
+
+.floorplan-detail-viewer,
+.floorplan-detail-panel,
+.floorplan-detail-images {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 26px rgba(47, 71, 87, 0.08);
+}
+
+.floorplan-detail-main-image {
+  width: 100%;
+  min-height: min(72vh, 620px);
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  padding: 10px;
+  background: #fff;
+}
+
+.floorplan-detail-main-image img {
+  max-width: 100%;
+  max-height: min(70vh, 600px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.floorplan-detail-thumbs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px;
+  background: #f7fbff;
+}
+
+.floorplan-detail-thumb,
+.floorplan-detail-image-card {
+  display: grid;
+  gap: 5px;
+  border: 1px solid #c9deed;
+  border-radius: 7px;
+  color: var(--primary-dark);
+  background: #fff;
+  font-weight: 800;
+}
+
+.floorplan-detail-thumb {
+  width: 86px;
+  min-width: 86px;
+  padding: 5px;
+  font-size: 0.82rem;
+}
+
+.floorplan-detail-thumb.is-selected,
+.floorplan-detail-image-card:focus-visible {
+  border-color: var(--primary);
+  background: #eaf6ff;
+  box-shadow: 0 0 0 2px rgba(47, 122, 168, 0.18);
+}
+
+.floorplan-detail-thumb img {
+  width: 100%;
+  height: 62px;
+  object-fit: contain;
+}
+
+.floorplan-detail-panel {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+
+.detail-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.detail-actions button:disabled {
+  opacity: 0.48;
+  cursor: default;
+}
+
+.detail-info-list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+
+.detail-info-list div {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.detail-info-list dt {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.detail-info-list dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  font-size: 0.82rem;
+}
+
+.floorplan-detail-images {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+
+.floorplan-detail-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.floorplan-detail-image-card {
+  padding: 7px;
+  font-size: 0.84rem;
+}
+
+.floorplan-detail-image-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+}
+
+.floorplan-detail-button {
+  width: 100%;
+}
+
 .settings-page {
   display: grid;
   gap: 14px;
@@ -1359,7 +1520,8 @@ h3 {
   }
 
   .library-layout,
-  .admin-grid {
+  .admin-grid,
+  .floorplan-detail-layout {
     grid-template-columns: 1fr;
   }
 
@@ -1474,8 +1636,22 @@ h3 {
   .toggle-grid.compact,
   .settings-row,
   .settings-tabs,
+  .detail-actions,
   .compare-grid {
     grid-template-columns: 1fr;
+  }
+
+  .floorplan-detail-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .floorplan-detail-main-image {
+    min-height: min(62vh, 520px);
+  }
+
+  .floorplan-detail-main-image img {
+    max-height: min(60vh, 500px);
   }
 
   .section-heading.floorplan-list-heading {
@@ -1564,7 +1740,8 @@ h3 {
   }
 
   .spec-grid,
-  .detail-list {
+  .detail-list,
+  .detail-info-list div {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1593,8 +1770,27 @@ h3 {
   }
 
   .spec-grid,
-  .detail-list {
+  .detail-list,
+  .detail-info-list div {
     grid-template-columns: 1fr;
+  }
+
+  .floorplan-detail-main-image {
+    min-height: min(56vh, 420px);
+    padding: 8px;
+  }
+
+  .floorplan-detail-thumb {
+    width: 74px;
+    min-width: 74px;
+  }
+
+  .floorplan-detail-thumb img {
+    height: 52px;
+  }
+
+  .floorplan-detail-image-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .thumbnail-button {

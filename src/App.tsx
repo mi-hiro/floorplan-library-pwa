@@ -223,6 +223,23 @@ function floorplanMetaLabels(item: CollectedFloorplanItem) {
   ].filter(Boolean);
 }
 
+function floorplanDetailRows(item: CollectedFloorplanItem) {
+  return [
+    ["掲載元", item.listingSource || "未入力"],
+    ["会社・メーカー", item.company || "未入力"],
+    ["間取り", item.layout || "未抽出"],
+    ["階数", item.floors || "未抽出"],
+    ["玄関向き", item.candidate.entranceDirection || "未抽出"],
+    ["延床面積", item.areaSqm ? `${item.areaSqm}㎡` : "未抽出"],
+    ["坪数", item.tsubo ? `${item.tsubo}坪` : "未抽出"],
+    ["価格", item.priceManYen ? `${item.priceManYen.toLocaleString("ja-JP")}万円` : "未抽出"],
+    ["画像枚数", `${item.images.length}枚`],
+    ["取得日時", formatDate(item.fetchedAt)],
+    ["元ページURL", item.sourceUrl || "未入力"],
+    ["画像URL", item.images.map((image) => image.imageLink).join("\n")]
+  ];
+}
+
 function candidateToProperty(candidate: CrawlCandidate): FloorPlanProperty {
   const createdAt = nowIso();
   const imageCandidates = candidate.imageCandidates ?? [];
@@ -491,6 +508,7 @@ export default function App() {
   const [floorplanDisplay, setFloorplanDisplay] = useState<FloorplanDisplayMode>("compact");
   const [floorplanPage, setFloorplanPage] = useState(1);
   const [selectedFloorplanImages, setSelectedFloorplanImages] = useState<Record<string, string>>({});
+  const [selectedFloorplanDetailId, setSelectedFloorplanDetailId] = useState<string | undefined>();
   const [editingProperty, setEditingProperty] = useState<FloorPlanProperty | undefined>();
   const [isCreating, setIsCreating] = useState(false);
   const [compareIds, setCompareIds] = useState<string[]>([]);
@@ -498,6 +516,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   function setView(nextView: ViewKey) {
+    if (nextView !== "library") setSelectedFloorplanDetailId(undefined);
     setViewState(nextView);
     if (typeof window !== "undefined") {
       window.history.replaceState(null, "", `#${nextView}`);
@@ -551,6 +570,10 @@ export default function App() {
   }, []);
 
   const collectedFloorplans = useMemo(() => getCollectedFloorplans(candidates), [candidates]);
+  const selectedFloorplanDetail = useMemo(
+    () => collectedFloorplans.find((item) => item.id === selectedFloorplanDetailId),
+    [collectedFloorplans, selectedFloorplanDetailId]
+  );
   const filteredProperties = useMemo(() => filterProperties(properties, filters), [properties, filters]);
   const filteredCollectedFloorplans = useMemo(
     () => filterCollectedFloorplans(collectedFloorplans, filters),
@@ -594,6 +617,12 @@ export default function App() {
     setFloorplanPage((current) => Math.min(current, totalFloorplanPages));
   }, [totalFloorplanPages]);
 
+  useEffect(() => {
+    if (selectedFloorplanDetailId && !selectedFloorplanDetail) {
+      setSelectedFloorplanDetailId(undefined);
+    }
+  }, [selectedFloorplanDetail, selectedFloorplanDetailId]);
+
   function moveFloorplanPage(nextPage: number) {
     const targetPage = Math.min(totalFloorplanPages, Math.max(1, nextPage));
     setFloorplanPage(targetPage);
@@ -603,6 +632,12 @@ export default function App() {
         document.getElementById("floorplans")?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     });
+  }
+
+  function openFloorplanDetail(itemId: string) {
+    setSelectedFloorplanDetailId(itemId);
+    if (typeof window === "undefined") return;
+    window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "smooth" }));
   }
 
   function getSelectedFloorplanImage(item: CollectedFloorplanItem) {
@@ -836,7 +871,15 @@ export default function App() {
 
       <nav className="app-nav" aria-label="画面切り替え">
         {navItems.map(({ key, label, icon: Icon }) => (
-          <button key={key} className={view === key ? "is-current" : ""} type="button" onClick={() => setView(key)}>
+          <button
+            key={key}
+            className={view === key ? "is-current" : ""}
+            type="button"
+            onClick={() => {
+              if (key === "library") setSelectedFloorplanDetailId(undefined);
+              setView(key);
+            }}
+          >
             <Icon size={18} />
             {label}
             {key === "compare" && compareIds.length > 0 ? <span className="nav-badge">{compareIds.length}</span> : null}
@@ -844,7 +887,101 @@ export default function App() {
         ))}
       </nav>
 
-      {view === "library" ? (
+      {view === "library" && selectedFloorplanDetail ? (() => {
+        const item = selectedFloorplanDetail;
+        const selectedImage = getSelectedFloorplanImage(item);
+        return (
+          <main className="single-main floorplan-detail-page">
+            <section className="floorplan-detail-header">
+              <button className="secondary-button" type="button" onClick={() => setSelectedFloorplanDetailId(undefined)}>
+                一覧へ戻る
+              </button>
+              <div>
+                <p className="eyebrow">詳細</p>
+                <h2>{item.title}</h2>
+              </div>
+            </section>
+
+            <section className="floorplan-detail-layout">
+              <div className="floorplan-detail-viewer">
+                <button className="floorplan-detail-main-image" type="button" onClick={() => openExternalUrl(selectedImage.imageLink)}>
+                  <img src={selectedImage.imageUrl} alt={selectedImage.title || item.title} />
+                </button>
+                {item.images.length > 1 ? (
+                  <div className="floorplan-detail-thumbs" aria-label="階別の間取り図">
+                    {item.images.map((image, imageIndex) => {
+                      const isSelected = selectedImage.id === image.id;
+                      return (
+                        <button
+                          className={`floorplan-detail-thumb ${isSelected ? "is-selected" : ""}`}
+                          key={image.id}
+                          type="button"
+                          onClick={() => selectFloorplanImage(item.id, image.id)}
+                          aria-pressed={isSelected}
+                        >
+                          <img src={image.imageUrl} alt={image.title} loading="lazy" />
+                          <span>{floorplanImageBadge(image, imageIndex)}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                ) : null}
+              </div>
+
+              <aside className="floorplan-detail-panel">
+                {floorplanMetaLabels(item).length > 0 ? (
+                  <div className="floorplan-meta">
+                    {floorplanMetaLabels(item).map((label) => (
+                      <span key={label}>{label}</span>
+                    ))}
+                  </div>
+                ) : null}
+                <div className="detail-actions">
+                  <button className="ghost-button" type="button" disabled={!item.sourceUrl} onClick={() => openExternalUrl(item.sourceUrl)}>
+                    元ページ
+                  </button>
+                  <button className="ghost-button" type="button" onClick={() => openExternalUrl(selectedImage.imageLink)}>
+                    画像を開く
+                  </button>
+                  <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
+                    正式登録
+                  </button>
+                </div>
+                <dl className="detail-info-list">
+                  {floorplanDetailRows(item).map(([label, value]) => (
+                    <div key={label}>
+                      <dt>{label}</dt>
+                      <dd>{value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </aside>
+            </section>
+
+            <section className="floorplan-detail-images">
+              <div className="section-heading compact floorplan-list-heading">
+                <h2>間取り図画像</h2>
+                <span className="status-pill on">{item.images.length}枚</span>
+              </div>
+              <div className="floorplan-detail-image-grid">
+                {item.images.map((image, imageIndex) => (
+                  <button
+                    className="floorplan-detail-image-card"
+                    key={image.id}
+                    type="button"
+                    onClick={() => selectFloorplanImage(item.id, image.id)}
+                  >
+                    <img src={image.imageUrl} alt={image.title} loading="lazy" />
+                    <span>{floorplanImageBadge(image, imageIndex)}</span>
+                  </button>
+                ))}
+              </div>
+            </section>
+          </main>
+        );
+      })() : null}
+
+      {view === "library" && !selectedFloorplanDetail ? (
         <main className="library-layout">
           <FilterPanel
             filters={filters}
@@ -940,11 +1077,8 @@ export default function App() {
                               <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
                               <p className="muted-text floorplan-date">取得日時：{formatDate(item.fetchedAt)}</p>
                               <div className="card-actions">
-                                <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || selectedImage.imageLink)}>
-                                  元ページ
-                                </button>
-                                <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
-                                  正式登録
+                                <button className="primary-button floorplan-detail-button" type="button" onClick={() => openFloorplanDetail(item.id)}>
+                                  詳細
                                 </button>
                               </div>
                             </div>
