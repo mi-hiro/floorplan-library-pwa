@@ -227,7 +227,7 @@ function floorplanDetailRows(item: CollectedFloorplanItem) {
   return [
     ["掲載元", item.listingSource || "未入力"],
     ["会社・メーカー", item.company || "未入力"],
-    ["間取り", item.layout || "未抽出"],
+    ["間取り", item.layout || "情報なし"],
     ["階数", item.floors || "未抽出"],
     ["玄関向き", item.candidate.entranceDirection || "未抽出"],
     ["延床面積", item.areaSqm ? `${item.areaSqm}㎡` : "未抽出"],
@@ -1070,7 +1070,7 @@ export default function App() {
                                   ))}
                                 </div>
                               ) : null}
-                              <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
+                              <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り情報なし"}</p>
                               <p className="muted-text floorplan-date">取得日時：{formatDate(item.fetchedAt)}</p>
                               <div className="card-actions">
                                 <button className="primary-button floorplan-detail-button" type="button" onClick={() => openFloorplanDetail(item.id)}>

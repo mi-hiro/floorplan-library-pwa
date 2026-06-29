@@ -592,7 +592,7 @@ h3 {
   position: relative;
   display: flex;
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: visible;
   border-bottom: 1px solid var(--line);
   background: #fff;
   scroll-snap-type: x mandatory;
@@ -603,12 +603,13 @@ h3 {
   position: relative;
   width: 100%;
   min-width: 100%;
-  height: clamp(180px, 42vw, 340px);
+  height: auto;
+  min-height: 0;
   display: grid;
   flex: 0 0 100%;
   place-items: center;
   border: 0;
-  padding: 0;
+  padding: 8px;
   background: #fff;
   scroll-snap-align: start;
 }
@@ -625,7 +626,8 @@ h3 {
 
 .floorplan-card-image-frame img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: none;
   object-fit: contain;
 }
 
@@ -683,9 +685,9 @@ h3 {
 
 .floorplan-gallery:not(.is-compact-list) .floorplan-card-image-frame {
   height: auto;
-  min-height: 300px;
-  aspect-ratio: 1 / 1;
-  padding: 10px;
+  min-height: 0;
+  aspect-ratio: auto;
+  padding: 8px;
 }
 
 .floorplan-image-strip {
@@ -877,7 +879,7 @@ h3 {
 
 .floorplan-detail-main-image {
   width: 100%;
-  min-height: min(72vh, 620px);
+  min-height: 0;
   display: grid;
   place-items: center;
   border: 0;
@@ -887,10 +889,9 @@ h3 {
 }
 
 .floorplan-detail-main-image img {
-  max-width: 100%;
-  max-height: min(70vh, 600px);
-  width: auto;
+  width: 100%;
   height: auto;
+  max-height: none;
   object-fit: contain;
 }
 
@@ -1749,14 +1750,6 @@ h3 {
     flex-direction: column;
   }
 
-  .floorplan-detail-main-image {
-    min-height: min(62vh, 520px);
-  }
-
-  .floorplan-detail-main-image img {
-    max-height: min(60vh, 500px);
-  }
-
   .section-heading.floorplan-list-heading {
     align-items: center;
     flex-direction: row;
@@ -1879,7 +1872,6 @@ h3 {
   }
 
   .floorplan-detail-main-image {
-    min-height: min(56vh, 420px);
     padding: 8px;
   }
 
