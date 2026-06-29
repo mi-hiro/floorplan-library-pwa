@@ -1,6 +1,7 @@
 import {
   ClipboardList,
   Database,
+  Heart,
   Home,
   LayoutGrid,
   Plus,
@@ -39,6 +40,7 @@ import {
 
 const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
   { key: "library", label: "ライブラリ", icon: LayoutGrid },
+  { key: "favorites", label: "お気に入り", icon: Heart },
   { key: "compare", label: "比較", icon: Scale },
   { key: "settings", label: "設定", icon: Settings }
 ];
@@ -240,6 +242,21 @@ function floorplanDetailRows(item: CollectedFloorplanItem) {
   ];
 }
 
+function isSameCandidateProperty(property: FloorPlanProperty, candidate: CrawlCandidate) {
+  const candidateUrls = new Set(
+    (candidate.imageCandidates ?? [])
+      .map((image) => normalizeFavoriteUrl(image.url))
+      .filter(Boolean)
+  );
+  const hasSameImage = property.images.some((image) => image.url && candidateUrls.has(normalizeFavoriteUrl(image.url)));
+  if (hasSameImage) return true;
+  return Boolean(candidate.sourceUrl && property.sourceUrl === candidate.sourceUrl && property.title === candidate.title);
+}
+
+function normalizeFavoriteUrl(value: string) {
+  return value.trim().toLowerCase().replace(/[?#].*$/, "");
+}
+
 function candidateToProperty(candidate: CrawlCandidate): FloorPlanProperty {
   const createdAt = nowIso();
   const imageCandidates = candidate.imageCandidates ?? [];
@@ -272,11 +289,11 @@ function candidateToProperty(candidate: CrawlCandidate): FloorPlanProperty {
     hasPantry: false,
     hasCircularFlow: false,
     images,
-    favorite: false,
-    tags: ["確認済み候補"],
+    favorite: true,
+    tags: ["お気に入り"],
     memo:
       candidate.memo ||
-      "取得候補から正式登録。画像はURL参照として登録しています。権利や利用条件を確認してから利用してください。",
+      "自動収集した間取り図をお気に入りに保存。画像はURL参照として登録しています。権利や利用条件を確認してから利用してください。",
     createdAt,
     updatedAt: createdAt,
     lastCheckedAt: candidate.fetchedAt
@@ -608,6 +625,7 @@ export default function App() {
     [properties, collectedFloorplans]
   );
   const floorplanCount = useMemo(() => properties.filter((property) => getPrimaryFloorplan(property)).length, [properties]);
+  const favoriteProperties = useMemo(() => properties.filter((property) => property.favorite), [properties]);
 
   useEffect(() => {
     setFloorplanPage(1);
@@ -740,10 +758,13 @@ export default function App() {
   }
 
   async function promoteCandidate(candidate: CrawlCandidate) {
-    const property = candidateToProperty(candidate);
-    await saveProperty(property);
-    await deleteCandidate(candidate.id);
-    setView("library");
+    const existing = properties.find((property) => isSameCandidateProperty(property, candidate));
+    if (existing) {
+      await saveProperty({ ...existing, favorite: true, updatedAt: nowIso() });
+    } else {
+      await saveProperty(candidateToProperty(candidate));
+    }
+    setView("favorites");
   }
 
   async function importCrawlPackage(crawlPackage: CrawlResultPackage, options: ImportCrawlOptions = { switchToCandidates: true }) {
@@ -944,7 +965,7 @@ export default function App() {
                     画像を開く
                   </button>
                   <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
-                    正式登録
+                    お気に入り
                   </button>
                 </div>
                 <dl className="detail-info-list">
@@ -1139,6 +1160,41 @@ export default function App() {
               </div>
             ) : null}
           </section>
+        </main>
+      ) : null}
+
+      {view === "favorites" ? (
+        <main className="single-main favorites-page">
+          <section className="section-heading">
+            <div>
+              <p className="eyebrow">保存済み</p>
+              <h2>お気に入り</h2>
+            </div>
+            <span className="status-pill on">{favoriteProperties.length}件</span>
+          </section>
+          {favoriteProperties.length > 0 ? (
+            <div className="card-grid">
+              {favoriteProperties.map((property) => (
+                <PropertyCard
+                  key={property.id}
+                  property={property}
+                  selectedForCompare={compareIds.includes(property.id)}
+                  onOpen={() => setEditingProperty(property)}
+                  onEdit={() => setEditingProperty(property)}
+                  onToggleFavorite={() => toggleFavorite(property)}
+                  onToggleCompare={() => toggleCompare(property.id)}
+                />
+              ))}
+            </div>
+          ) : (
+            <section className="empty-state">
+              <h2>お気に入りはまだありません</h2>
+              <p>自動収集した間取り図の詳細画面で「お気に入り」を押すと、ここに保存されます。</p>
+              <button className="primary-button" type="button" onClick={() => setView("library")}>
+                ライブラリへ戻る
+              </button>
+            </section>
+          )}
         </main>
       ) : null}
 

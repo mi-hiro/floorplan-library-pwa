@@ -185,7 +185,7 @@ export interface FilterState {
   hasCircularFlow: boolean;
 }
 
-export type ViewKey = "library" | "compare" | "settings";
+export type ViewKey = "library" | "favorites" | "compare" | "settings";
 
 export const IMAGE_KIND_LABELS: Record<ImageKind, string> = {
   floorplan: "間取り図",

@@ -414,8 +414,8 @@ export function CandidatesView({
       <div className="notice">
         <ClipboardList size={19} />
         <div>
-          <strong>正式登録前の置き場</strong>
-          <p>将来の巡回で見つけた情報はここに入り、内容確認後に物件として保存する想定です。今はURL候補を手動登録できます。</p>
+          <strong>確認待ちの置き場</strong>
+          <p>将来の巡回で見つけた情報はここに入り、内容確認後にお気に入りとして保存できます。今はURL候補を手動登録できます。</p>
         </div>
       </div>
       <div className="import-panel">
@@ -597,7 +597,7 @@ export function CandidatesView({
                   ) : null}
                   <button className="primary-button" type="button" onClick={() => onPromoteCandidate(candidate)}>
                     <Check size={17} />
-                    正式登録
+                    お気に入り
                   </button>
                   <button className="icon-button danger" type="button" title="候補削除" onClick={() => onDeleteCandidate(candidate.id)}>
                     <Trash2 size={17} />
