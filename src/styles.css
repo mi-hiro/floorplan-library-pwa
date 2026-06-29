@@ -614,8 +614,8 @@ h3 {
 }
 
 .floorplan-card-images.has-multiple .floorplan-card-image-frame {
-  min-width: 88%;
-  flex-basis: 88%;
+  min-width: 100%;
+  flex-basis: 100%;
   border-right: 1px solid var(--line);
 }
 
@@ -685,9 +685,9 @@ h3 {
 
 .floorplan-gallery:not(.is-compact-list) .floorplan-card-image-frame {
   height: auto;
-  min-height: 180px;
+  min-height: 220px;
   aspect-ratio: 4 / 3;
-  padding: 6px;
+  padding: 10px;
 }
 
 .floorplan-image-strip {
@@ -1913,11 +1913,6 @@ h3 {
 
   .floorplan-gallery.is-compact-list .floorplan-image-button {
     min-height: 92px;
-  }
-
-  .floorplan-gallery:not(.is-compact-list) .floorplan-card-images.has-multiple .floorplan-card-image-frame {
-    min-width: 86%;
-    flex-basis: 86%;
   }
 
   .floorplan-gallery.is-compact-list .floorplan-card-images,

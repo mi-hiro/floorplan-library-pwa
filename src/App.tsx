@@ -1059,7 +1059,7 @@ export default function App() {
                                   </button>
                                 );
                               })}
-                              {item.images.length > 1 ? <span className="floorplan-multi-badge">{item.images.length}枚・横へ</span> : null}
+                              {item.images.length > 1 ? <span className="floorplan-multi-badge">{item.images.length}枚</span> : null}
                             </div>
                             <div className="floorplan-tile-body">
                               <h3>{item.title}</h3>
