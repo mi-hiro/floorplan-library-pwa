@@ -5,7 +5,7 @@
     "rejectedCount": 0,
     "reviewCount": 11,
     "acceptanceRate": 1,
-    "lastCrawledAt": "2026-06-29T18:35:36.508Z",
+    "lastCrawledAt": "2026-06-29T21:23:31.085Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -60,7 +60,7 @@
     "rejectedCount": 25,
     "reviewCount": 65,
     "acceptanceRate": 0.615,
-    "lastCrawledAt": "2026-06-29T18:34:22.295Z",
+    "lastCrawledAt": "2026-06-29T21:22:17.341Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -71,7 +71,7 @@
     "rejectedCount": 67,
     "reviewCount": 40,
     "acceptanceRate": 0.013,
-    "lastCrawledAt": "2026-06-29T18:37:07.064Z",
+    "lastCrawledAt": "2026-06-29T21:25:01.992Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -82,7 +82,7 @@
     "rejectedCount": 394,
     "reviewCount": 318,
     "acceptanceRate": 0.166,
-    "lastCrawledAt": "2026-06-29T18:35:45.873Z",
+    "lastCrawledAt": "2026-06-29T21:23:40.422Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -93,18 +93,18 @@
     "rejectedCount": 50,
     "reviewCount": 76,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-06-29T18:35:49.249Z",
+    "lastCrawledAt": "2026-06-29T21:23:43.918Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
   },
   "sekisuiheim.com": {
     "candidateCount": 850,
-    "acceptedCount": 10,
-    "rejectedCount": 265,
+    "acceptedCount": 21,
+    "rejectedCount": 288,
     "reviewCount": 725,
-    "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-06-29T18:35:32.045Z",
+    "acceptanceRate": 0.025,
+    "lastCrawledAt": "2026-06-29T21:23:27.688Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -134,10 +134,10 @@
   "kh-house.jp": {
     "candidateCount": 281,
     "acceptedCount": 16,
-    "rejectedCount": 130,
+    "rejectedCount": 132,
     "reviewCount": 170,
     "acceptanceRate": 0.057,
-    "lastCrawledAt": "2026-06-29T18:36:24.913Z",
+    "lastCrawledAt": "2026-06-29T21:24:19.705Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -145,7 +145,7 @@
   "megasoft.co.jp": {
     "candidateCount": 120,
     "acceptedCount": 32,
-    "rejectedCount": 67,
+    "rejectedCount": 70,
     "reviewCount": 55,
     "acceptanceRate": 0.267,
     "lastCrawledAt": "2026-06-29T18:30:21.409Z",
@@ -159,7 +159,7 @@
     "rejectedCount": 474,
     "reviewCount": 352,
     "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-06-29T18:35:29.638Z",
+    "lastCrawledAt": "2026-06-29T21:23:24.223Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -170,7 +170,7 @@
     "rejectedCount": 854,
     "reviewCount": 1234,
     "acceptanceRate": 0.054,
-    "lastCrawledAt": "2026-06-29T18:35:30.804Z",
+    "lastCrawledAt": "2026-06-29T21:23:26.063Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -181,7 +181,7 @@
     "rejectedCount": 39,
     "reviewCount": 38,
     "acceptanceRate": 0.093,
-    "lastCrawledAt": "2026-06-29T18:35:31.358Z",
+    "lastCrawledAt": "2026-06-29T21:23:26.535Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -209,12 +209,12 @@
     "sourceQuality": "low"
   },
   "marusho-kensetsu.co.jp": {
-    "candidateCount": 255,
+    "candidateCount": 257,
     "acceptedCount": 0,
     "rejectedCount": 138,
-    "reviewCount": 195,
+    "reviewCount": 197,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-28T09:23:12.394Z",
+    "lastCrawledAt": "2026-06-29T21:36:41.884Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -225,7 +225,7 @@
     "rejectedCount": 588,
     "reviewCount": 471,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-28T09:23:21.633Z",
+    "lastCrawledAt": "2026-06-29T21:36:20.938Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -236,7 +236,7 @@
     "rejectedCount": 190,
     "reviewCount": 112,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-28T09:23:25.631Z",
+    "lastCrawledAt": "2026-06-29T21:35:55.254Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -335,7 +335,7 @@
     "rejectedCount": 93,
     "reviewCount": 16,
     "acceptanceRate": 0.047,
-    "lastCrawledAt": "2026-06-29T18:35:53.006Z",
+    "lastCrawledAt": "2026-06-29T21:23:47.907Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -346,7 +346,7 @@
     "rejectedCount": 78,
     "reviewCount": 44,
     "acceptanceRate": 0.09,
-    "lastCrawledAt": "2026-06-29T18:37:03.007Z",
+    "lastCrawledAt": "2026-06-29T21:24:58.027Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -368,7 +368,7 @@
     "rejectedCount": 123,
     "reviewCount": 92,
     "acceptanceRate": 0.053,
-    "lastCrawledAt": "2026-06-29T18:37:11.376Z",
+    "lastCrawledAt": "2026-06-29T21:25:05.894Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"

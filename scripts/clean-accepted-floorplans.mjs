@@ -78,6 +78,7 @@ function extraRejectReason(record) {
   if (/irohaie\.com/.test(text) && !hasStrongFilePlanEvidence(record) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/打ち合わせ|作成中|様子/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-process-photo";
   if (/sfc\.jp/.test(text) && /イメージ|ウッドデッキ|パントリー|ウォークイン|クローゼット|和室|ランドリー|土間|ガレージ|吹き抜け|勾配天井|ワークスペース/.test(text) && !/間取りの(?:１|1|２|2|３|3|一|二|三)?階部分/.test(text)) return "accepted-cleanup-sfc-photo-section";
+  if (/sekisuiheim\.com\/madori\//.test(text) && /pic_(?:kv|idea|small_pw|mdr_cta)/.test(text)) return "accepted-cleanup-sekisuiheim-madori-explainer-image";
   if (/genmai-home\.com/.test(text) && !/drawing|madori|floor|plan|間取り|図面/.test(record.source?.imageUrl || "")) return "accepted-cleanup-blog-non-plan-image";
   if (/bedroom|childroom|kitchen|living|bathroom|toilet|pantry|closet|wood[_-]?deck|寝室|子ども部屋|子供部屋|キッチン|リビング|浴室|洗面|トイレ|パントリー|ウォークイン|クローゼット|和室|ランドリー|土間|ガレージ|吹き抜け|勾配天井|ワークスペース/.test(text) && !hasStrongPlanEvidence(record)) {
     return "accepted-cleanup-room-photo";
