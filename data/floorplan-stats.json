@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-29T14:07:35.064Z",
-  "acceptedCount": 438,
-  "publicCandidateCount": 423,
+  "generatedAt": "2026-06-29T21:14:15.981Z",
+  "acceptedCount": 444,
+  "publicCandidateCount": 429,
   "multiImageCandidateCount": 102,
   "domains": {
     "ichijo.co.jp": {
@@ -41,7 +41,7 @@
       "acceptedCount": 111
     },
     "sekisuiheim.com": {
-      "acceptedCount": 4
+      "acceptedCount": 10
     },
     "searshome.co.jp": {
       "acceptedCount": 12
