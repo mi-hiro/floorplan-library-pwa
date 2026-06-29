@@ -17,6 +17,7 @@ async function main() {
   const reject = [];
   const now = new Date().toISOString();
   const seenImageUrls = new Set();
+  const preferredHashIds = buildPreferredHashIds(accepted);
 
   for (const record of accepted) {
     const visual = classifyImageCandidate({
@@ -29,7 +30,8 @@ async function main() {
     });
     const imageUrlKey = normalizeAcceptedImageUrl(record.source?.imageUrl || "");
     const duplicateReason = imageUrlKey && seenImageUrls.has(imageUrlKey) ? "accepted-cleanup-duplicate-image-url" : "";
-    const extraReason = duplicateReason || extraRejectReason(record);
+    const duplicateHashReason = getDuplicateHashReason(record, preferredHashIds);
+    const extraReason = duplicateReason || duplicateHashReason || extraRejectReason(record);
     if (visual.hardRejectSignals.length || extraReason) {
       reject.push({
         id: record.id,
@@ -62,6 +64,7 @@ async function main() {
 function extraRejectReason(record) {
   const decodedUrl = safeDecode(record.source?.imageUrl || "");
   const text = `${record.title || ""} ${decodedUrl} ${record.source?.imageUrl || ""} ${record.context?.alt || ""}`.toLowerCase();
+  if (isSmallAcceptedImage(record)) return "accepted-cleanup-small-or-banner-image";
   if (/\/common\/|noimg|placeholder|dummy|spacer|img-nav|nav-identity|pagetop|page_top|common\/tp\.gif/.test(text)) return "accepted-cleanup-common-ui-image";
   if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|og image|ogp|thumbnail|thumb|_thum|thum\.|tit_|bt_cate|btn_|bt_|txt[-_]|linenap|lineup_all|pc_linenap|sp_linenap/.test(text)) return "accepted-cleanup-text-or-thumbnail-image";
   if (/aerahome\.com\/column\/wp\/wp-content\/uploads\/.+\/column[0-9]+-01(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-aerahome-column-photo";
@@ -84,6 +87,45 @@ function extraRejectReason(record) {
   return "";
 }
 
+function buildPreferredHashIds(records) {
+  const best = new Map();
+  for (const record of records) {
+    const hash = record.image?.sha256;
+    if (!hash) continue;
+    const current = best.get(hash);
+    if (!current || acceptedRecordScore(record) > acceptedRecordScore(current)) {
+      best.set(hash, record);
+    }
+  }
+  return new Map([...best].map(([hash, record]) => [hash, record.id]));
+}
+
+function getDuplicateHashReason(record, preferredHashIds) {
+  const hash = record.image?.sha256;
+  if (!hash) return "";
+  const preferredId = preferredHashIds.get(hash);
+  return preferredId && preferredId !== record.id ? "accepted-cleanup-duplicate-image-hash" : "";
+}
+
+function acceptedRecordScore(record) {
+  const url = safeDecode(record.source?.imageUrl || "").toLowerCase();
+  const width = Number(record.image?.width || 0);
+  const height = Number(record.image?.height || 0);
+  let score = Math.min(30, (width * height) / 50000);
+  if (/layout|madori|floor[-_]?plan|floorplan|drawing|間取り|平面図|図面/i.test(url)) score += 50;
+  if (/_s\.(?:jpe?g|png|webp)(?:$|[?#])/i.test(url)) score -= 40;
+  if (isSmallAcceptedImage(record)) score -= 60;
+  return score;
+}
+
+function isSmallAcceptedImage(record) {
+  const width = Number(record.image?.width || 0);
+  const height = Number(record.image?.height || 0);
+  if (!width || !height) return false;
+  const ratio = width / Math.max(1, height);
+  return width < 260 || height < 180 || ratio > 3.5 || ratio < 0.22;
+}
+
 function hasStrongPlanEvidence(record) {
   if (hasStrongImagePlanEvidence(record)) return true;
   const url = safeDecode(record.source?.imageUrl || "").toLowerCase();
@@ -92,7 +134,7 @@ function hasStrongPlanEvidence(record) {
   if (/with-e-home\.com\/img\/uploads\/plans\/\d{4}-\d{2}-\d{2}\/[^?#\s]+\.png/i.test(url)) return true;
   if (title.length <= 70 && /^平屋の間取り$/.test(title)) return true;
   if (title.length <= 110 && /間取りの(?:１|1|２|2|３|3|一|二|三)?階部分|注文住宅の間取り|注文住宅.*プラン|間取り.*プラン|間取り図plan|平面図|図面|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)|間取り\s*(?:例|一覧|アーカイブ)|plan gallery|floor[-_ ]?plan archive/i.test(title)) return true;
-  if (/floor_plan|topview_plan|madori|drawing|plan[_-]?[0-9]|pic_small_pl_p[0-9]/i.test(url)) return true;
+  if (/floor_plan|floorplan|topview_plan|madori|drawing|layout|plan[_-]?[0-9]|pic_small_pl_p[0-9]/i.test(url)) return true;
   return false;
 }
 
@@ -100,20 +142,20 @@ function hasStrongImagePlanEvidence(record) {
   const url = safeDecode(record.source?.imageUrl || "").toLowerCase();
   const fileName = url.split(/[/?#]/)[0].split("/").filter(Boolean).pop() || url;
   const alt = String(record.context?.alt || "").toLowerCase();
-  return /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(`${fileName} ${alt}`);
+  return /madori|floor[-_ ]?plan|floorplan|layout|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(`${fileName} ${alt}`);
 }
 
 function hasStrongFilePlanEvidence(record) {
   const url = safeDecode(record.source?.imageUrl || "").toLowerCase();
   const path = url.replace(/^https?:\/\/[^/]+/i, "").split(/[?#]/)[0];
   const fileName = path.split("/").filter(Boolean).pop() || path;
-  return /madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileName);
+  return /madori|floor[-_ ]?plan|floorplan|layout|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileName);
 }
 
 function isCleverlyPlanTitle(record) {
   const title = String(record.title || "").toLowerCase();
   return /間取り図\s*(?:1f|2f|１f|２f|１階|２階|平屋)|(?:1f|2f|１f|２f|１階|２階)の?間取り図|平屋間取り図/i.test(title) &&
-    !/ldk|打ち合わせ|作成中|様子/.test(title);
+    !/打ち合わせ|作成中|様子/.test(title);
 }
 
 function hasPhotoOnlyTitle(record) {

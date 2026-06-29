@@ -1,64 +1,265 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-28T23:12:06.318Z",
+  "updatedAt": "2026-06-29T03:02:17.381Z",
   "nextIndex": 19,
   "completedRounds": 1,
-  "pendingPrefectures": [],
-  "pendingQueries": [],
-  "lastPreparedAt": "2026-06-28T23:12:06.318Z",
+  "pendingPrefectures": [
+    "京都",
+    "滋賀",
+    "奈良",
+    "和歌山",
+    "三重"
+  ],
+  "pendingQueries": [
+    {
+      "prefecture": "京都",
+      "query": "京都 注文住宅 間取り 工務店"
+    },
+    {
+      "prefecture": "京都",
+      "query": "京都 新築 平屋 間取り"
+    },
+    {
+      "prefecture": "京都",
+      "query": "京都 工務店 施工事例 間取り"
+    },
+    {
+      "prefecture": "京都",
+      "query": "京都 住宅会社 建築実例 間取り"
+    },
+    {
+      "prefecture": "京都",
+      "query": "京都 ハウスメーカー プラン集 間取り"
+    },
+    {
+      "prefecture": "京都",
+      "query": "京都 新築 3LDK 間取り 工務店"
+    },
+    {
+      "prefecture": "滋賀",
+      "query": "滋賀 注文住宅 間取り 工務店"
+    },
+    {
+      "prefecture": "滋賀",
+      "query": "滋賀 新築 平屋 間取り"
+    },
+    {
+      "prefecture": "滋賀",
+      "query": "滋賀 工務店 施工事例 間取り"
+    },
+    {
+      "prefecture": "滋賀",
+      "query": "滋賀 住宅会社 建築実例 間取り"
+    },
+    {
+      "prefecture": "滋賀",
+      "query": "滋賀 ハウスメーカー プラン集 間取り"
+    },
+    {
+      "prefecture": "滋賀",
+      "query": "滋賀 新築 3LDK 間取り 工務店"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 注文住宅 間取り 工務店"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 新築 平屋 間取り"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 工務店 施工事例 間取り"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 住宅会社 建築実例 間取り"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 ハウスメーカー プラン集 間取り"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 新築 3LDK 間取り 工務店"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 注文住宅 間取り 工務店"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 新築 平屋 間取り"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 工務店 施工事例 間取り"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 住宅会社 建築実例 間取り"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 ハウスメーカー プラン集 間取り"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 新築 3LDK 間取り 工務店"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 注文住宅 間取り 工務店"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 新築 平屋 間取り"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 工務店 施工事例 間取り"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 住宅会社 建築実例 間取り"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 ハウスメーカー プラン集 間取り"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 新築 3LDK 間取り 工務店"
+    }
+  ],
+  "lastPreparedAt": "2026-06-29T03:02:17.392Z",
   "lastPrefectures": [
-    "高知",
-    "兵庫",
-    "大阪"
+    "京都",
+    "滋賀",
+    "奈良",
+    "和歌山",
+    "三重"
   ],
   "lastQueries": [
     {
-      "prefecture": "高知",
-      "query": "高知 注文住宅 間取り 工務店"
+      "prefecture": "京都",
+      "query": "京都 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "高知",
-      "query": "高知 新築 平屋 間取り"
+      "prefecture": "京都",
+      "query": "京都 新築 平屋 間取り"
     },
     {
-      "prefecture": "高知",
-      "query": "高知 工務店 施工事例 間取り"
+      "prefecture": "京都",
+      "query": "京都 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "高知",
-      "query": "高知 住宅会社 建築実例 間取り"
+      "prefecture": "京都",
+      "query": "京都 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "兵庫",
-      "query": "兵庫 注文住宅 間取り 工務店"
+      "prefecture": "京都",
+      "query": "京都 ハウスメーカー プラン集 間取り"
     },
     {
-      "prefecture": "兵庫",
-      "query": "兵庫 新築 平屋 間取り"
+      "prefecture": "京都",
+      "query": "京都 新築 3LDK 間取り 工務店"
     },
     {
-      "prefecture": "兵庫",
-      "query": "兵庫 工務店 施工事例 間取り"
+      "prefecture": "滋賀",
+      "query": "滋賀 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "兵庫",
-      "query": "兵庫 住宅会社 建築実例 間取り"
+      "prefecture": "滋賀",
+      "query": "滋賀 新築 平屋 間取り"
     },
     {
-      "prefecture": "大阪",
-      "query": "大阪 注文住宅 間取り 工務店"
+      "prefecture": "滋賀",
+      "query": "滋賀 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "大阪",
-      "query": "大阪 新築 平屋 間取り"
+      "prefecture": "滋賀",
+      "query": "滋賀 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "大阪",
-      "query": "大阪 工務店 施工事例 間取り"
+      "prefecture": "滋賀",
+      "query": "滋賀 ハウスメーカー プラン集 間取り"
     },
     {
-      "prefecture": "大阪",
-      "query": "大阪 住宅会社 建築実例 間取り"
+      "prefecture": "滋賀",
+      "query": "滋賀 新築 3LDK 間取り 工務店"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 注文住宅 間取り 工務店"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 新築 平屋 間取り"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 工務店 施工事例 間取り"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 住宅会社 建築実例 間取り"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 ハウスメーカー プラン集 間取り"
+    },
+    {
+      "prefecture": "奈良",
+      "query": "奈良 新築 3LDK 間取り 工務店"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 注文住宅 間取り 工務店"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 新築 平屋 間取り"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 工務店 施工事例 間取り"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 住宅会社 建築実例 間取り"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 ハウスメーカー プラン集 間取り"
+    },
+    {
+      "prefecture": "和歌山",
+      "query": "和歌山 新築 3LDK 間取り 工務店"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 注文住宅 間取り 工務店"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 新築 平屋 間取り"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 工務店 施工事例 間取り"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 住宅会社 建築実例 間取り"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 ハウスメーカー プラン集 間取り"
+    },
+    {
+      "prefecture": "三重",
+      "query": "三重 新築 3LDK 間取り 工務店"
     }
   ],
   "totals": {

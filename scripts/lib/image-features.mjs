@@ -23,7 +23,7 @@ export function classifyImageCandidate(candidate) {
   const imageSignal = imageSpecificSignal(candidate);
   const floorplanEvidence = FLOORPLAN_TOKENS.some((pattern) => pattern.test(imageSignal));
   const hardRejectSignals = HARD_REJECT_PATTERNS.filter((pattern) => pattern.test(imageSignal))
-    .filter((pattern) => !floorplanEvidence || !/外観|内観|リビング|ダイニング|キッチン|寝室|子ども部屋|子供部屋|洋室|和室|浴室|洗面|トイレ|玄関|exterior|interior|living|dining|kitchen|bedroom|childroom|bathroom/i.test(pattern.source))
+    .filter((pattern) => !floorplanEvidence || !/外観|内観|リビング|ダイニング|キッチン|寝室|子ども部屋|子供部屋|洋室|和室|浴室|洗面|トイレ|玄関|exterior|interior|living|dining|kitchen|bedroom|childroom|bathroom|gallery|photo/i.test(pattern.source))
     .map((pattern) => pattern.source);
   const dimensions = dimensionsFromCandidate(candidate);
   const sizePenalty = dimensions.width && dimensions.height && (dimensions.width < 260 || dimensions.height < 180) ? 0.3 : 0;
