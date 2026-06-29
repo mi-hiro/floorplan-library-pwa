@@ -53,6 +53,11 @@ export function FilterPanel({ filters, onChange, availableTags, listingSources, 
     onChange(defaultFilters);
   }
 
+  function applyFilters() {
+    onChange(draftFilters);
+    setIsOpen(false);
+  }
+
   return (
     <aside className={`filter-panel ${isOpen ? "is-open" : "is-collapsed"}`} aria-label="絞り込み検索">
       <div className="filter-header">
@@ -231,7 +236,7 @@ export function FilterPanel({ filters, onChange, availableTags, listingSources, 
             <Plus size={16} />
             追加
           </button>
-          <button className="primary-button" type="button" onClick={() => onChange(draftFilters)}>
+          <button className="primary-button" type="button" onClick={applyFilters}>
             <Search size={17} />
             探す
           </button>
