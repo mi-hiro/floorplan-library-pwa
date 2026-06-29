@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-29T22:13:57.824Z",
+  "generatedAt": "2026-06-29T23:13:12.608Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
       "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01.png",
-      "title": "プラン1間取り図",
+      "title": "プラン1間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -86,7 +86,7 @@
     },
     {
       "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03.png",
-      "title": "プラン3間取り図",
+      "title": "プラン3間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -167,7 +167,7 @@
     },
     {
       "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05.png",
-      "title": "プラン5間取り図",
+      "title": "プラン5間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -3893,7 +3893,7 @@
     },
     {
       "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08.png",
-      "title": "プラン8間取り図",
+      "title": "プラン8間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -3941,7 +3941,7 @@
     },
     {
       "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09.jpg",
-      "title": "プラン9間取り図",
+      "title": "プラン9間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -3989,7 +3989,7 @@
     },
     {
       "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10.jpg",
-      "title": "プラン10間取り図",
+      "title": "プラン10間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -4052,7 +4052,7 @@
     },
     {
       "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11.jpg",
-      "title": "プラン11間取り図",
+      "title": "プラン11間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -4100,7 +4100,7 @@
     },
     {
       "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12.jpg",
-      "title": "プラン12間取り図",
+      "title": "プラン12間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
@@ -16367,18 +16367,2831 @@
       "fetchedAt": "2026-06-29T22:09:01.338Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d48c08d8a95bd4b101b2082b2141a0380ac3b112699a772a96b2801dc3c20e3c",
+      "title": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/",
+      "company": "BE ENOUGH",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan06-img02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d48c08d8a95bd4b101b2082b2141a0380ac3b112699a772a96b2801dc3c20e3c:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan06-img02.jpg",
+          "alt": "【せやまどりNo.6】動線完璧な平屋のおてほん間取り！4LDK30坪の家 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/09/plan78-img.jpg",
+      "title": "【せやまどりNo.78】「一階完結型（延床30坪・3LDK・2階建て）お手本の家を再現したい人必見」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p25067/",
+      "company": "BE ENOUGH",
+      "layout": "3LDK",
+      "areaSqm": 99.17,
+      "tsubo": 30,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/09/plan78-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/09/plan78-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "47e6c000dea03b6c2b4f799e6d3d417f5dfa381dbf1ce72ed030ebb660b79371:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/09/plan78-img02.jpg",
+          "alt": "【せやまどりNo.78】「一階完結型（延床30坪・3LDK・2階建て）お手本の家を再現したい人必見」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p25067/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "81a5df1e37abd37c4c436e081ed9b17e860336e770f4c379146dae74018bb103:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/09/plan78-img03.jpg",
+          "alt": "【せやまどりNo.78】「一階完結型（延床30坪・3LDK・2階建て）お手本の家を再現したい人必見」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p25067/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2025/02/plan85-img.jpg",
+      "title": "【せやまどりNo.85】「書斎は2部屋！趣味と仕事を両立したお手本のような家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27601/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2025/02/plan85-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2025/02/plan85-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4faebe436e002c20c2778ce51c7558e44aafc2a45625435bf423959073e2fce6:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/02/plan85-img02.jpg",
+          "alt": "【せやまどりNo.85】「書斎は2部屋！趣味と仕事を両立したお手本のような家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27601/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "6d98ae356f36ee159926a42dd8c1d22a7d7b39270eb6bf62f917a56c5970a326:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/02/plan85-img03.jpg",
+          "alt": "【せやまどりNo.85】「書斎は2部屋！趣味と仕事を両立したお手本のような家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27601/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2025/01/plan84-img.jpg",
+      "title": "【せやまどりNo.84】「賢くコストを抑えて快適さを実現した1階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27412/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2025/01/plan84-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2025/01/plan84-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "718a077ff9b712cc60dae0c0ad1a39d828ef88f1fd1f83b241dd162d3033d580:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/01/plan84-img02.jpg",
+          "alt": "【せやまどりNo.84】「賢くコストを抑えて快適さを実現した1階完結型の家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27412/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "7be98fbb09445751f3fc2c1617aba85a0c96d83db9b4edfac932e1be8eb47f31:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/01/plan84-img03.jpg",
+          "alt": "【せやまどりNo.84】「賢くコストを抑えて快適さを実現した1階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27412/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/12/plan83-img.jpg",
+      "title": "【せやまどりNo.83】「夫婦別室・延床35坪の贅沢の極みせやまどりの家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p27195/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 115.7,
+      "tsubo": 35,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/12/plan83-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/12/plan83-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8ce4ed11ca4e41a3b8cfdd42508699ffe116b184c279772a078e2ac2f2835a5b:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/12/plan83-img02.jpg",
+          "alt": "【せやまどりNo.83】「夫婦別室・延床35坪の贅沢の極みせやまどりの家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p27195/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "02f789a4b36a423e19a84c7ea75e11a44b3c1d86a04b446aa44599b00e2d290b:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/12/plan83-img03.jpg",
+          "alt": "【せやまどりNo.83】「夫婦別室・延床35坪の贅沢の極みせやまどりの家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p27195/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/12/plan82-img.jpg",
+      "title": "【せやまどりNo.82】「延床30坪のお手本！間取りで贅沢するべき＆削るべきポイントを反映したちょうどいい塩梅の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p26916/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 99.17,
+      "tsubo": 30,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/12/plan82-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/12/plan82-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8c0b901de852225c14de4557d23bcd4704ca838c61c450e7cf5828782562cb2a:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/12/plan82-img02.jpg",
+          "alt": "【せやまどりNo.82】「延床30坪のお手本！間取りで贅沢するべき＆削るべきポイントを反映したちょうどいい塩梅の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p26916/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "f367565dc99c9cec606f7971ba66c534bd268e9a45e6ef22bcd6643ee24f8d81:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/12/plan82-img03.jpg",
+          "alt": "【せやまどりNo.82】「延床30坪のお手本！間取りで贅沢するべき＆削るべきポイントを反映したちょうどいい塩梅の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p26916/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/11/plan81-img.jpg",
+      "title": "【せやまどりNo.81】「狭小住宅でも収納充実、明るく開放的な家にするテクニック満載の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p26439/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/11/plan81-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/11/plan81-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4e61ddebaf7f5eed2eb416dcfd7d669bd94ce2b570834f6b471357c9ff3ccfa2:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/11/plan81-img02.jpg",
+          "alt": "【せやまどりNo.81】「狭小住宅でも収納充実、明るく開放的な家にするテクニック満載の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p26439/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "a72cbc5284681e6ada403ea3a080aeff067ff7f6d668518da4b340b5ef991aab:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/11/plan81-img03.jpg",
+          "alt": "【せやまどりNo.81】「狭小住宅でも収納充実、明るく開放的な家にするテクニック満載の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p26439/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/10/plan80-img.jpg",
+      "title": "【せやまどりNo.80】「土地30坪に誰もが憧れる仕様や設備など33選を実現した家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p26083/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/10/plan80-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/10/plan80-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bb7e317ec3855aa6c16fff821e00c2d7f65a5d4497bc6154fc8d9071a5d91928:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/10/plan80-img02.jpg",
+          "alt": "【せやまどりNo.80】「土地30坪に誰もが憧れる仕様や設備など33選を実現した家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p26083/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "5549a12de014cd8a19ae1472590cb9ad595e765566fe84081d0ef89e8f41fc96:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/10/plan80-img03.jpg",
+          "alt": "【せやまどりNo.80】「土地30坪に誰もが憧れる仕様や設備など33選を実現した家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p26083/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/10/plan79-img.jpg",
+      "title": "【せやまどりNo.79】「土地27坪に開放感抜群のリビングと1階の充実収納を両立させた家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p25829/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/10/plan79-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/10/plan79-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "535a8b55e5e2d403469801f602c8355ff3d01433d701b2c33d855c26f8b4dfd1:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/10/plan79-img02.jpg",
+          "alt": "【せやまどりNo.79】「土地27坪に開放感抜群のリビングと1階の充実収納を両立させた家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p25829/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "dc2a96ba708b70a0b5b05fb5bf647172178f3dd607069ad701c0c3a2e61b5c50:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/10/plan79-img03.jpg",
+          "alt": "【せやまどりNo.79】「土地27坪に開放感抜群のリビングと1階の充実収納を両立させた家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p25829/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/09/plan77-img.jpg",
+      "title": "【せやまどりNo.77】「正方形（田の字型）間取りを成功させる9つの秘訣を抑えた家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p25562/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/09/plan77-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/09/plan77-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bab809e08ea21dc592dc7da79c94efadd717100c1abdee1ca88db1400b6c96a3:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/09/plan77-img02.jpg",
+          "alt": "【せやまどりNo.77】「正方形（田の字型）間取りを成功させる9つの秘訣を抑えた家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p25562/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "4018b12c9a5533fdc507f527dfaad6d30423556e7e1c4cd631bdb5edc6d076bc:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/09/plan77-img03.jpg",
+          "alt": "【せやまどりNo.77】「正方形（田の字型）間取りを成功させる9つの秘訣を抑えた家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p25562/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/10/plan53-img.jpg",
+      "title": "【せやまどりNo.53】「車いすや杖（つえ）歩行で暮らせるほぼ平屋のバリアフリーせやまどり」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p16661/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/10/plan53-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/10/plan53-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8e729278131a65b1ef183377835c06d4fefe38e69afb6db2a979e596f271ebd8:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/10/plan53-img02.jpg",
+          "alt": "【せやまどりNo.53】「車いすや杖（つえ）歩行で暮らせるほぼ平屋のバリアフリーせやまどり」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p16661/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "4ceb3a9e927ee3a0ba6a086d7282f4485b43703d881266836ab72e5fd8bc214f:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/10/plan53-img03.jpg",
+          "alt": "【せやまどりNo.53】「車いすや杖（つえ）歩行で暮らせるほぼ平屋のバリアフリーせやまどり」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p16661/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "64e6fbf278f659e539b6ea981416b22970da0dd34bafc33a56d7963767c2cdb8",
+      "title": "【せやまどりNo.48】「長く快適に住み続けられる夫婦2人暮らしのコンパクトな平屋」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p11892/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan48-img02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "64e6fbf278f659e539b6ea981416b22970da0dd34bafc33a56d7963767c2cdb8:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan48-img02.jpg",
+          "alt": "【せやまどりNo.48】「長く快適に住み続けられる夫婦2人暮らしのコンパクトな平屋」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p11892/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/05/plan44-img.jpg",
+      "title": "【せやまどりNo.44】「1階だけで2LDKほぼ平屋！要望は盛り沢山でも30坪に抑えたい方必見の1階完結型」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p11685/",
+      "company": "BE ENOUGH",
+      "layout": "2LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/05/plan44-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/05/plan44-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9e2bba9eb6258249f475972b061a77d741c23ab0ed176738b8386cfaf4318ff7:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/05/plan44-img02.jpg",
+          "alt": "【せやまどりNo.44】「1階だけで2LDKほぼ平屋！要望は盛り沢山でも30坪に抑えたい方必見の1階完結型」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p11685/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "6201058962a004b0cc222288349decd1f463244e6934ced39388cf913302e158:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/05/plan44-img03.jpg",
+          "alt": "【せやまどりNo.44】「1階だけで2LDKほぼ平屋！要望は盛り沢山でも30坪に抑えたい方必見の1階完結型」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p11685/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/04/plan42-img.jpg",
+      "title": "【せやまどりNo.42】土地25坪・角地に建つ4LDKの1階完結型間取り／駐車場付き | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11262/",
+      "company": "BE ENOUGH",
+      "layout": "4LDK",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/04/plan42-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/04/plan42-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "164f6c08a0098e9640dded6c798ae5dd170d1fcfd931d46e0eb3e3aa45347731:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/04/plan42-img02.jpg",
+          "alt": "【せやまどりNo.42】土地25坪・角地に建つ4LDKの1階完結型間取り／駐車場付き | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11262/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "2663443f8afbe62cc0f747bcb61eac801afe6013a88d7b581963c5d60a7862cf:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/04/plan42-img03.jpg",
+          "alt": "【せやまどりNo.42】土地25坪・角地に建つ4LDKの1階完結型間取り／駐車場付き | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11262/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/03/plan40-img.jpg",
+      "title": "【せやまどりNo.40】玄関直通の和室！30坪4LDK+書斎の家 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10467/",
+      "company": "BE ENOUGH",
+      "layout": "4LDK",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan40-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan40-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a895629465571a95da4a2da1b64f3272f488364f0cf592739076f355bbcf3558:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan40-img02.jpg",
+          "alt": "【せやまどりNo.40】玄関直通の和室！30坪4LDK+書斎の家 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10467/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "1a08a6e657802bd223ea1d91ff8b9af9df5d701ab3786491f6e8e85ade4e7c30:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan40-img03.jpg",
+          "alt": "【せやまどりNo.40】玄関直通の和室！30坪4LDK+書斎の家 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10467/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/03/plan39-img.jpg",
+      "title": "【せやまどりNo.39】狭小土地！書斎付き4LDK30坪の家 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10310/",
+      "company": "BE ENOUGH",
+      "layout": "4LDK",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan39-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan39-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "66e16451e4db3b55d61a3a9d0e67df8e0ff048361fc6230363628d7b3e45ff8b:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan39-img02.jpg",
+          "alt": "【せやまどりNo.39】狭小土地！書斎付き4LDK30坪の家 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10310/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "d93cc20678e033a4833806920f491a1cce7985a37ef71556525aceda814eebad:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan39-img03.jpg",
+          "alt": "【せやまどりNo.39】狭小土地！書斎付き4LDK30坪の家 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10310/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "2f7012d017537dec7c2dffd75e8f6717245bbd1e1330afc03ca54cf4dac8a8f0",
+      "title": "【せやまどりNo.38】3畳ランドリールーム付き平屋！28坪4LDKの家 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p10306/",
+      "company": "BE ENOUGH",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan38-img02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2f7012d017537dec7c2dffd75e8f6717245bbd1e1330afc03ca54cf4dac8a8f0:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan38-img02.jpg",
+          "alt": "【せやまどりNo.38】3畳ランドリールーム付き平屋！28坪4LDKの家 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p10306/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/03/plan37-img.jpg",
+      "title": "【せやまどりNo.37】リビング併設の書斎がオシャレ！超回遊動線35坪5LDKの家 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p10302/",
+      "company": "BE ENOUGH",
+      "layout": "5LDK",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan37-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan37-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "dd70a9c55ac7f72f7ca299fbcafc516b870efc9cb6f29672bed514e451129025:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan37-img02.jpg",
+          "alt": "【せやまどりNo.37】リビング併設の書斎がオシャレ！超回遊動線35坪5LDKの家 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p10302/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "390807a6b3b919fdb30f31d0ee37c11fdcfd7d2109429da719191f729212a6a1:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan37-img03.jpg",
+          "alt": "【せやまどりNo.37】リビング併設の書斎がオシャレ！超回遊動線35坪5LDKの家 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p10302/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/02/plan35-img.jpg",
+      "title": "【せやまどりNo.35】ほぼ平屋の1階完結型！4人家族に最適な31坪3LDKの家 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10293/",
+      "company": "BE ENOUGH",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan35-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan35-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "02906342fe7174d126e24a7bf375d7f0e16bfdb64c3273fd240964f6519032c9:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan35-img02.jpg",
+          "alt": "【せやまどりNo.35】ほぼ平屋の1階完結型！4人家族に最適な31坪3LDKの家 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10293/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "0a68159a11150c6ab2093e1511748ac7b568d1f7ee93b09b84a66a1a9d59596d:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan35-img03.jpg",
+          "alt": "【せやまどりNo.35】ほぼ平屋の1階完結型！4人家族に最適な31坪3LDKの家 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10293/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/02/plan14-img.jpg",
+      "title": "【せやまどりNo.14】ほぼ平屋！勾配天井で大空間リビングの4LDK32坪の家 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p10069/",
+      "company": "BE ENOUGH",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan14-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan14-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d15fe6c4a26d4b3492c4be18293bab9be1f82f491d01dabdb93180dbaa849610:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan14-img02.jpg",
+          "alt": "【せやまどりNo.14】ほぼ平屋！勾配天井で大空間リビングの4LDK32坪の家 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p10069/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "693925193fd8c0de68aab7720dd7445aed3c4be0c0faf959cfd2676cde260309:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan14-img03.jpg",
+          "alt": "【せやまどりNo.14】ほぼ平屋！勾配天井で大空間リビングの4LDK32坪の家 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p10069/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/01/plan60-img.jpg",
+      "title": "【せやまどりNo.60】「5LDKに使いやすい大容量収納・開放感抜群のLDK・最高の家事動線すべて実現した家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p19174/",
+      "company": "BE ENOUGH",
+      "layout": "5LDK",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/01/plan60-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/01/plan60-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "69b9af8b9a8c73be8d05c22b3decf380ec76ad2063dd73f1735575cdd79ad894:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/01/plan60-img02.jpg",
+          "alt": "【せやまどりNo.60】「5LDKに使いやすい大容量収納・開放感抜群のLDK・最高の家事動線すべて実現した家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p19174/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "d59c4b4c8402eaf6072d56710c4c7583196de767f35fa3daf578dfed99d6dae3:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/01/plan60-img03.jpg",
+          "alt": "【せやまどりNo.60】「5LDKに使いやすい大容量収納・開放感抜群のLDK・最高の家事動線すべて実現した家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p19174/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.967,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/08/plan76-img.jpg",
+      "title": "【せやまどりNo.76】「超合理的！人生を楽にする間取りアイデア満載の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p24436/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan76-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan76-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "9c637fc43306ab8cb99c466f76020a09c2f0d9077e09663157c8cd5ecd1a1ad3:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan76-img02.jpg",
+          "alt": "【せやまどりNo.76】「超合理的！人生を楽にする間取りアイデア満載の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p24436/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "e90520e7c0df6ec3997469018f4b72611e9e9e2ad3a98f95d4c05af87408caf4:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan76-img03.jpg",
+          "alt": "【せやまどりNo.76】「超合理的！人生を楽にする間取りアイデア満載の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p24436/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/08/plan75-img.jpg",
+      "title": "【せやまどりNo.75】「片付く家には秘密がある！7つの収納裏技テクニックを使った家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p24313/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan75-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan75-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "ff2205a559c788ae38e4918e4e15debbe77d49bed27f8d07ed16d1334d22632e:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan75-img02.jpg",
+          "alt": "【せやまどりNo.75】「片付く家には秘密がある！7つの収納裏技テクニックを使った家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p24313/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "9d69ed049679aa03a65e13ed7e15e8cfa54fa3bd8a035e66d1cce78211e1319b:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan75-img03.jpg",
+          "alt": "【せやまどりNo.75】「片付く家には秘密がある！7つの収納裏技テクニックを使った家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p24313/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/08/plan74-img.jpg",
+      "title": "【せやまどりNo.74】「無駄ゼロ！究極の帰宅動線と回遊動線の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p24163/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan74-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan74-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "55991e4f7a9e785e502b204fb7562c959b65c312a4f70138ac80784bc3f828fd:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan74-img02.jpg",
+          "alt": "【せやまどりNo.74】「無駄ゼロ！究極の帰宅動線と回遊動線の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p24163/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "3b4840b710b72fee040468b2b24095552e4f473ec00ac6502266012101690d8f:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/08/plan74-img03.jpg",
+          "alt": "【せやまどりNo.74】「無駄ゼロ！究極の帰宅動線と回遊動線の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p24163/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/07/plan73-img.jpg",
+      "title": "【せやまどりNo.73】「変形三角形の土地を最大限に活かした1階完結型の家」の間取り図 | 和室・書斎・趣味",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p23846/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/07/plan73-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/07/plan73-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "59a449b15043c2393ba7df6043d3ba82db3fdf6ff72b81e7d7fa859b30487fc0:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/07/plan73-img02.jpg",
+          "alt": "【せやまどりNo.73】「変形三角形の土地を最大限に活かした1階完結型の家」の間取り図 | 和室・書斎・趣味",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p23846/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "ff962270b0ca1054f504ace836c8a7250c74e9d1c7e296955e7e7231e455017a:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/07/plan73-img03.jpg",
+          "alt": "【せやまどりNo.73】「変形三角形の土地を最大限に活かした1階完結型の家」の間取り図 | 和室・書斎・趣味 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p23846/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/07/plan72-img.jpg",
+      "title": "【せやまどりNo.72】「間口の狭い住宅地のデメリットを無効化した1階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p23323/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/07/plan72-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/07/plan72-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "02d659fdadda9b87b203b22523fb0e9c2d0f8c0689dbaebfd4b12cf3bc6e90c0:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/07/plan72-img02.jpg",
+          "alt": "【せやまどりNo.72】「間口の狭い住宅地のデメリットを無効化した1階完結型の家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p23323/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "d98be329726f4e20127e4290ec17344599bb52a8f700cc00041a54b90ec1e1e8:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/07/plan72-img03.jpg",
+          "alt": "【せやまどりNo.72】「間口の狭い住宅地のデメリットを無効化した1階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p23323/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/06/plan71-img.jpg",
+      "title": "【せやまどりNo.71】「家族全員個室！老後も安心して暮らせる贅沢1階完結型」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p23184/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/06/plan71-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/06/plan71-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "40a62ac78498a38aa60bd065216258563424c27eb1d3ee1ee73eb7f5ca054c60:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/06/plan71-img02.jpg",
+          "alt": "【せやまどりNo.71】「家族全員個室！老後も安心して暮らせる贅沢1階完結型」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p23184/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "9bd6d687c00fa408cc942fcb1b6655a392b5e01b25caeac592d78b7f9c35b67a:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/06/plan71-img03.jpg",
+          "alt": "【せやまどりNo.71】「家族全員個室！老後も安心して暮らせる贅沢1階完結型」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p23184/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/06/plan70-img.jpg",
+      "title": "【せやまどりNo.70】「家族全員個室！適度な距離感で仲良く暮らせる家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22551/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/06/plan70-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/06/plan70-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e90c726875235e770913af2c90115a720ced7f0b3ef7c8d6c24ba7f7c718c284:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/06/plan70-img02.jpg",
+          "alt": "【せやまどりNo.70】「家族全員個室！適度な距離感で仲良く暮らせる家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22551/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "7cb476a3d6b7e15d88e2440ab79f499f4fdb107f7c0464eb006ac712b600026e:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/06/plan70-img03.jpg",
+          "alt": "【せやまどりNo.70】「家族全員個室！適度な距離感で仲良く暮らせる家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22551/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/05/plan69-img.jpg",
+      "title": "【せやまどりNo.69】「間口が狭い変形土地でもLDKをとても明るく開放的にする6つのテクニックを使った家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22174/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan69-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan69-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "36f1d77f4f15c9e51c7491a6cd0945a2cd69fce2a728eab106ccfb421f96d68a:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan69-img02.jpg",
+          "alt": "【せやまどりNo.69】「間口が狭い変形土地でもLDKをとても明るく開放的にする6つのテクニックを使った家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22174/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "922463fe8fb7649367e7a16e352de2fab05ed5f686563cd81cff88a174a9c50b:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan69-img03.jpg",
+          "alt": "【せやまどりNo.69】「間口が狭い変形土地でもLDKをとても明るく開放的にする6つのテクニックを使った家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22174/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/05/plan68-img.jpg",
+      "title": "【せやまどりNo.68】「1階完結型間取りの超基本ルール9選を実践した家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22068/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan68-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan68-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6db9730860d66d7917df5aa69877234a4d91cec261ddaab1d7a73f130fc80920:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan68-img02.jpg",
+          "alt": "【せやまどりNo.68】「1階完結型間取りの超基本ルール9選を実践した家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22068/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "a33b53ecc8bde08cea1a29c115b500c19252e6560ffca44d40adb067baa5b6a2:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan68-img03.jpg",
+          "alt": "【せやまどりNo.68】「1階完結型間取りの超基本ルール9選を実践した家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p22068/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/05/plan67-img.jpg",
+      "title": "【せやまどりNo.67】「11種の間取り上級テクニックで狭小土地を最高にした家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p21890/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan67-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan67-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "56ef297baef290de290e06f6dfec8af0f5a7e4420552b3710ec589c7855edf70:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan67-img02.jpg",
+          "alt": "【せやまどりNo.67】「11種の間取り上級テクニックで狭小土地を最高にした家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p21890/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "d66e9fd7c4291c184102c8fb619dad6b5e40233f844a8450e6564df33a29fb1b:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/05/plan67-img03.jpg",
+          "alt": "【せやまどりNo.67】「11種の間取り上級テクニックで狭小土地を最高にした家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p21890/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/04/plan66-img.jpg",
+      "title": "【せやまどりNo.66】「間口7m・北道路でも明るい延床面積30坪せやまどり決定版の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p21798/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 99.17,
+      "tsubo": 30,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/04/plan66-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/04/plan66-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "58c2c4c7fcd6dbecdb45a4932575791f0c38e6cfa403288bd5880182a7ea28ed:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/04/plan66-img02.jpg",
+          "alt": "【せやまどりNo.66】「間口7m・北道路でも明るい延床面積30坪せやまどり決定版の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p21798/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "706f785030dea137747e77032756ef0e482efd889852abd39b56d14188d8a7c5:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/04/plan66-img03.jpg",
+          "alt": "【せやまどりNo.66】「間口7m・北道路でも明るい延床面積30坪せやまどり決定版の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p21798/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/04/plan65-img.jpg",
+      "title": "【せやまどりNo.65】「延床31坪に回遊動線3箇所と隙あらば収納も充実の1階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p21429/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 102.48,
+      "tsubo": 31,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/04/plan65-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/04/plan65-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b7d8d1f77fb11ed6e63cc8e8b3b3b394e0409a65e9eaa587da65df0c291059fd:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/04/plan65-img02.jpg",
+          "alt": "【せやまどりNo.65】「延床31坪に回遊動線3箇所と隙あらば収納も充実の1階完結型の家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p21429/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "e28035906e2b3313631d1ef1230921836ed739004f030aa0dd5b16f5a3bc0671:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/04/plan65-img03.jpg",
+          "alt": "【せやまどりNo.65】「延床31坪に回遊動線3箇所と隙あらば収納も充実の1階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p21429/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/03/plan64-img.jpg",
+      "title": "【せやまどりNo.64】「リニューアルしたせやまどりルール53項目をクリアしたコスパ最強の1階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p20806/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/03/plan64-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/03/plan64-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e3a029b49be308436bbb568297762da2becc587c5a1e9ffce74902b94170534d:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/03/plan64-img02.jpg",
+          "alt": "【せやまどりNo.64】「リニューアルしたせやまどりルール53項目をクリアしたコスパ最強の1階完結型の家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p20806/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "e19389620da61523d799d31e0e24e627d19ced37bf41c978842722af40fec720:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/03/plan64-img03.jpg",
+          "alt": "【せやまどりNo.64】「リニューアルしたせやまどりルール53項目をクリアしたコスパ最強の1階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p20806/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/03/plan63-img.jpg",
+      "title": "【せやまどりNo.63】「正しく間取りを削って延床33坪にLDK22畳・WIC3箇所・執務スペース2箇所・最高の家事動線を実現した家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p20382/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 109.09,
+      "tsubo": 33,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/03/plan63-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/03/plan63-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "cb4ce0525404654c3767041733804c9bbadb74cea36f526972ea10c04b6003b4:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/03/plan63-img02.jpg",
+          "alt": "【せやまどりNo.63】「正しく間取りを削って延床33坪にLDK22畳・WIC3箇所・執務スペース2箇所・最高の家事動線を実現した家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p20382/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "cf9710c3fb26f7069a97a468e129ed332fe08151de5d218cd60f50e972d11c10:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/03/plan63-img03.jpg",
+          "alt": "【せやまどりNo.63】「正しく間取りを削って延床33坪にLDK22畳・WIC3箇所・執務スペース2箇所・最高の家事動線を実現した家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p20382/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/11/plan56-img.jpg",
+      "title": "【せやまどりNo.56】「せやまどり史上最大級！超贅沢リビングのある家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p17587/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan56-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan56-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "983b44945a3540cd5d825ee172e9a38012013c6e8de1d47d10bd21dfbd804c51:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan56-img02.jpg",
+          "alt": "【せやまどりNo.56】「せやまどり史上最大級！超贅沢リビングのある家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p17587/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "7176dc79370abea395828dfaa72c6aeea81a7da9b1590d4332c742c50bdcc787:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan56-img03.jpg",
+          "alt": "【せやまどりNo.56】「せやまどり史上最大級！超贅沢リビングのある家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p17587/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/10/plan55-img.jpg",
+      "title": "【せやまどりNo.55】「狭小地でも開放的で収納も充実！7つのテクニックを使って溢れる要望を収めた家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p16720/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/10/plan55-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/10/plan55-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "59fba734bda0a121851f4f336ce1a20725614c5be9c760c4a0241ef641a89492:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/10/plan55-img02.jpg",
+          "alt": "【せやまどりNo.55】「狭小地でも開放的で収納も充実！7つのテクニックを使って溢れる要望を収めた家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p16720/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "a32020918405041fa00face4e821aa353964308e605037d935e34c5cc50e9130:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/10/plan55-img03.jpg",
+          "alt": "【せやまどりNo.55】「狭小地でも開放的で収納も充実！7つのテクニックを使って溢れる要望を収めた家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p16720/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/11/plan54-img.jpg",
+      "title": "【せやまどりNo.54】「5つのテクニックを用い延床面積30坪に溢れる要望を収めた家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p16908/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 99.17,
+      "tsubo": 30,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan54-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan54-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "4550f09b9d762a379ba856900941f4d441a41dba740ee1c22a606c5be5eb5d16:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan54-img02.jpg",
+          "alt": "【せやまどりNo.54】「5つのテクニックを用い延床面積30坪に溢れる要望を収めた家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p16908/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "3f4e512b8890c95863bb79cf28a54fb3aaf8a0d07bf363f5ad9078bb6850ea1d:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan54-img03.jpg",
+          "alt": "【せやまどりNo.54】「5つのテクニックを用い延床面積30坪に溢れる要望を収めた家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p16908/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/09/plan52-img.jpg",
+      "title": "【せやまどりNo.52】「1階21坪・2階わずか10坪に予算を抑えて7つの贅沢を詰め込んだ家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p14987/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/09/plan52-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/09/plan52-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0a8d0c93cfe35062d79c764407236eec63020205c18a87767f626bcf88018478:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/09/plan52-img02.jpg",
+          "alt": "【せやまどりNo.52】「1階21坪・2階わずか10坪に予算を抑えて7つの贅沢を詰め込んだ家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p14987/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "4d87527ce2a19a4bb8cfccdbca7f69431d75b3adcddea07782110fc1edef2f52:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/09/plan52-img03.jpg",
+          "alt": "【せやまどりNo.52】「1階21坪・2階わずか10坪に予算を抑えて7つの贅沢を詰め込んだ家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p14987/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/09/plan51-img.jpg",
+      "title": "【せやまどりNo.51】「狭小地に親と快適に暮らせる最高の1階完結型」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p14692/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/09/plan51-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/09/plan51-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "3347483d45fc23d5ba9765200e646f2cdf3777c6daae4ed23f9a1b27b77f8440:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/09/plan51-img02.jpg",
+          "alt": "【せやまどりNo.51】「狭小地に親と快適に暮らせる最高の1階完結型」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p14692/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "b1fa6eaabf6e7cc2249037e72278229d2bf51e8f80c4af022f7ba0099d22b69f:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/09/plan51-img03.jpg",
+          "alt": "【せやまどりNo.51】「狭小地に親と快適に暮らせる最高の1階完結型」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p14692/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/08/plan50-img.jpg",
+      "title": "【せやまどりNo.50】「要望のすべてをコンパクトな間取りに組み上げても収納充実・開放的な家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p12902/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/08/plan50-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/08/plan50-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "54e8747415b054189fba2e75278d8be4e324e49f2aa90553fd9f8c1c39f99e5e:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/08/plan50-img02.jpg",
+          "alt": "【せやまどりNo.50】「要望のすべてをコンパクトな間取りに組み上げても収納充実・開放的な家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p12902/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "f195e81f0db7cde07691307d1956dc74ac971f0265a96458cf7844143bfd4d3c:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/08/plan50-img03.jpg",
+          "alt": "【せやまどりNo.50】「要望のすべてをコンパクトな間取りに組み上げても収納充実・開放的な家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p12902/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/08/plan49-img.jpg",
+      "title": "【せやまどりNo.49】「あふれる要望のすべてを出来るだけお金をかけずに実現したモデルハウスのような1階完結型」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p13286/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/08/plan49-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/08/plan49-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "449d067e0ca1439cce6b759b88c786059b47c26a38a946c50fe0374321ca8815:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/08/plan49-img02.jpg",
+          "alt": "【せやまどりNo.49】「あふれる要望のすべてを出来るだけお金をかけずに実現したモデルハウスのような1階完結型」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p13286/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "ddd8a20700231eeccb1abd71d989a0d770d27391cf1053aa61afb55a220798b4:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/08/plan49-img03.jpg",
+          "alt": "【せやまどりNo.49】「あふれる要望のすべてを出来るだけお金をかけずに実現したモデルハウスのような1階完結型」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p13286/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/07/plan47-img.jpg",
+      "title": "【せやまどりNo.47】広めのカップボード・パントリー等あふれる要望の全てを叶えた1階完結型」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11994/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan47-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan47-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1b41b366872e7c75a02602d2ca5edf1a037ee99efe5a3e2dc6c266867d7bb2ba:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan47-img02.jpg",
+          "alt": "【せやまどりNo.47】広めのカップボード・パントリー等あふれる要望の全てを叶えた1階完結型」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11994/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "33ec10ee718f936a413c8dc4d973160babe46ff9d2df128eb5c250524f65a45a:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan47-img03.jpg",
+          "alt": "【せやまどりNo.47】広めのカップボード・パントリー等あふれる要望の全てを叶えた1階完結型」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11994/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/06/plan46-img.jpg",
+      "title": "【せやまどりNo.46】「狭小土地でも最高の一階完結型」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p11823/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/06/plan46-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/06/plan46-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "98651ceb6e68019f1ec5d29c429b9ce57c85f7b0d69ee0c853faa2c954c3807b:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/06/plan46-img02.jpg",
+          "alt": "【せやまどりNo.46】「狭小土地でも最高の一階完結型」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p11823/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "074f244bffbf715751b17f7a7e9afe1abe08d44ebed9ad94db14211f28e70414:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/06/plan46-img03.jpg",
+          "alt": "【せやまどりNo.46】「狭小土地でも最高の一階完結型」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p11823/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/07/plan45-img.jpg",
+      "title": "【せやまどりNo.45】「土地間口7m未満でも超開放的なLDKの1階完結型」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p12237/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan45-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan45-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "49aebafaa4c97eb24ed8f54f50ef9ba2d60772606a7a5477c441afb2058bb1ce:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan45-img02.jpg",
+          "alt": "【せやまどりNo.45】「土地間口7m未満でも超開放的なLDKの1階完結型」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p12237/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "6d5ac7616b24bdf28b885edbc01683236817cd47838ea0571cb565a71dc43e94:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/07/plan45-img03.jpg",
+          "alt": "【せやまどりNo.45】「土地間口7m未満でも超開放的なLDKの1階完結型」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p12237/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/04/plan43-img.jpg",
+      "title": "【せやまどりNo.43】延床32坪と思えない！モデルハウスのような1階完結型間取り | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11179/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 105.79,
+      "tsubo": 32,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/04/plan43-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/04/plan43-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "dc2f88569369b4efa237b1877809d5c4a14bb5da0354091c097e02bc2e51a9db:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/04/plan43-img02.jpg",
+          "alt": "【せやまどりNo.43】延床32坪と思えない！モデルハウスのような1階完結型間取り | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11179/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "6c9ae980f49b966dd82e5141dea9d45936c20e2dc887a05a7054614e12ee2d54:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/04/plan43-img03.jpg",
+          "alt": "【せやまどりNo.43】延床32坪と思えない！モデルハウスのような1階完結型間取り | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p11179/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/03/plan41-img.jpg",
+      "title": "【せやまどりNo.41】収納の数が予測不能！ 変形地に建つ延床30坪の家 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p10806/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 99.17,
+      "tsubo": 30,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan41-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan41-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e5d2b1e4a9f7729ef93fb8eba170a6bd1681a2f2bde11164801b88f756e7343f:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan41-img02.jpg",
+          "alt": "【せやまどりNo.41】収納の数が予測不能！ 変形地に建つ延床30坪の家 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p10806/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "193ca65243217e29d4397ca87248e57f76f4254f5553e4b516334b0dce6aa37b:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/03/plan41-img03.jpg",
+          "alt": "【せやまどりNo.41】収納の数が予測不能！ 変形地に建つ延床30坪の家 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p10806/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/02/plan36-img.jpg",
+      "title": "【せやまどりNo.36】完全分離型！二世帯住宅48坪の家！ | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/40%e5%9d%aa%ef%bd%9e/p10297/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan36-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan36-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "1221cc3a49ee780511cf31305db2bf4a944f25a04058da68efb93cc3d942d12e:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan36-img02.jpg",
+          "alt": "【せやまどりNo.36】完全分離型！二世帯住宅48坪の家！ | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/40%e5%9d%aa%ef%bd%9e/p10297/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "6b8748d39193f33429e3afeb2d8ebf67fba31baa5bef004a2f365d272f07f494:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/02/plan36-img03.jpg",
+          "alt": "【せやまどりNo.36】完全分離型！二世帯住宅48坪の家！ | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/40%e5%9d%aa%ef%bd%9e/p10297/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/02/plan61-img.jpg",
+      "title": "【せやまどりNo.61】「最高の間取りの共通点10選すべて実現した延床面積28.8坪の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p19438/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 95.21,
+      "tsubo": 28.8,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/02/plan61-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/02/plan61-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5c70ca41d65919304a4242beedcb59478898daa2d3bdd85ea5ed8ef7b535fa25:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/02/plan61-img02.jpg",
+          "alt": "【せやまどりNo.61】「最高の間取りの共通点10選すべて実現した延床面積28.8坪の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p19438/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "d06ba961271768e0cea1fd51d41dbd2d374e1e9576d93d13133d0eb1d0e8a6f7:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/02/plan61-img03.jpg",
+          "alt": "【せやまどりNo.61】「最高の間取りの共通点10選すべて実現した延床面積28.8坪の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p19438/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/01/plan59-img.jpg",
+      "title": "【せやまどりNo.59】「隙あらば収納も8箇所！コストを抑えて誕生した遊び心ある贅沢リビングの家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p18835/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/01/plan59-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/01/plan59-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a0a16a867f8d1b971cf05292a5b71e20c88066fd5fd336181b06828e46828181:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/01/plan59-img02.jpg",
+          "alt": "【せやまどりNo.59】「隙あらば収納も8箇所！コストを抑えて誕生した遊び心ある贅沢リビングの家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p18835/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "c7cc4c1c7974495ebeada7d218374f2919ed889220baad309953907427d6959c:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/01/plan59-img03.jpg",
+          "alt": "【せやまどりNo.59】「隙あらば収納も8箇所！コストを抑えて誕生した遊び心ある贅沢リビングの家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p18835/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2024/02/plan62-img.jpg",
+      "title": "【せやまどりNo.62】「収納の基本16選を実現し、コストも削減した延床面積33坪の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p19628/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 109.09,
+      "tsubo": 33,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2024/02/plan62-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2024/02/plan62-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "aaeae4e3010fc2de935a1dae628c3a5c0f04ac0e452978b1c43e45ef32327a3c:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/02/plan62-img02.jpg",
+          "alt": "【せやまどりNo.62】「収納の基本16選を実現し、コストも削減した延床面積33坪の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p19628/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "8ae7a0f421dc09ff09dbb96246cdf3d685cb7400f498fb02e653e957880e9809:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2024/02/plan62-img03.jpg",
+          "alt": "【せやまどりNo.62】「収納の基本16選を実現し、コストも削減した延床面積33坪の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p19628/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/12/plan58-img.jpg",
+      "title": "【せやまどりNo.58】「2階リビングの欠点を解消して、メリットを最大化した家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p18117/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/12/plan58-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/12/plan58-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "0babd51fffa7d9a04cb8cec2d5feb1d16e4dd3ad0fb29ddf3f79d30406a34c28:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/12/plan58-img02.jpg",
+          "alt": "【せやまどりNo.58】「2階リビングの欠点を解消して、メリットを最大化した家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p18117/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "20da972a1018cd5228ef7d71f4bbfe4d2e2d5e19c05ea76d1a187bd4f561d767:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/12/plan58-img03.jpg",
+          "alt": "【せやまどりNo.58】「2階リビングの欠点を解消して、メリットを最大化した家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p18117/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2023/11/plan57-img.jpg",
+      "title": "【せやまどりNo.57】「5つのテクニックを使い予算を抑えて開放的なLDKと1階の充実収納を両立した家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p17050/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan57-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan57-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "ab5afd3462ead9bb47345ce65d88b8d7595139968878996450fa4fb014043b2c:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan57-img02.jpg",
+          "alt": "【せやまどりNo.57】「5つのテクニックを使い予算を抑えて開放的なLDKと1階の充実収納を両立した家」の間取り図 | LDK",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p17050/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "94dc805518cb352695b4252603fb92b9aa654611662b51673cfa6089a26999f8:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2023/11/plan57-img03.jpg",
+          "alt": "【せやまどりNo.57】「5つのテクニックを使い予算を抑えて開放的なLDKと1階の充実収納を両立した家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p17050/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2025/03/plan88-img.jpg",
+      "title": "【せやまどりNo.88】「延床30.7坪に妻の9つの夢をすべて叶えた一階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p29698/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 101.49,
+      "tsubo": 30.7,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2025/03/plan88-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2025/03/plan88-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "96897762b140131f452a22178f68ce245f2e00009442bd925d83032f57ede723:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/03/plan88-img02.jpg",
+          "alt": "【せやまどりNo.88】「延床30.7坪に妻の9つの夢をすべて叶えた一階完結型の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p29698/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "b00c0cdd4c3bb66f3762905baa92e1155c61b46ca7d532af2e821b366d258cde:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/03/plan88-img03.jpg",
+          "alt": "【せやまどりNo.88】「延床30.7坪に妻の9つの夢をすべて叶えた一階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p29698/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2025/03/plan87-img.jpg",
+      "title": "【せやまどりNo.87】「土地28坪にせやまどり史上最大の無駄ゼロを実現した一階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p28555/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2025/03/plan87-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2025/03/plan87-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "cb80efdd5984bfbf79b20cb66e1f17a8f4f269fbd9084f38eb17b2b6a330fd6f:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/03/plan87-img02.jpg",
+          "alt": "【せやまどりNo.87】「土地28坪にせやまどり史上最大の無駄ゼロを実現した一階完結型の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p28555/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "0d6b17a657a807187116e34347af096e3a1ab7cd27341b9d08d045ca93544472:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/03/plan87-img03.jpg",
+          "alt": "【せやまどりNo.87】「土地28坪にせやまどり史上最大の無駄ゼロを実現した一階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/%ef%bd%9e28%e5%9d%aa/p28555/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2025/02/plan86-img.jpg",
+      "title": "【せやまどりNo.86】「L字型31坪の変形地に建つ一階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27949/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2025/02/plan86-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2025/02/plan86-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5997b117c89c922a6999c7962b9b4b1a83c3363706950a84e9c75bb729212b5d:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/02/plan86-img02.jpg",
+          "alt": "【せやまどりNo.86】「L字型31坪の変形地に建つ一階完結型の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27949/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "e8f89d1d6de7544e45602c73363786d3b885b52e6322eebf65cac78768744f2d:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/02/plan86-img03.jpg",
+          "alt": "【せやまどりNo.86】「L字型31坪の変形地に建つ一階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p27949/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2025/04/plan89-img.jpg",
+      "title": "【せやまどりNo.89】「広さ・部屋数・充実収納を全て叶えた贅沢なのに実用的な一階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/36%e5%9d%aa%ef%bd%9e/p30043/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan89-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan89-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2fbbb84103daf9635b5c7260bfc70feb214380625f7c3dbf5f163c04e90f2e1c:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan89-img02.jpg",
+          "alt": "【せやまどりNo.89】「広さ・部屋数・充実収納を全て叶えた贅沢なのに実用的な一階完結型の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/36%e5%9d%aa%ef%bd%9e/p30043/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "8e5904784eec52b40fdc1b8022375301d6fe6eb5eae782becee8e137226ca6a1:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan89-img03.jpg",
+          "alt": "【せやまどりNo.89】「広さ・部屋数・充実収納を全て叶えた贅沢なのに実用的な一階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/36%e5%9d%aa%ef%bd%9e/p30043/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2025/04/plan90-img.jpg",
+      "title": "【せやまどりNo.90】「延床29.7坪で予算も死守！狭さを感じさせない11の工夫が光る一階完結型の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p30118/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "areaSqm": 98.18,
+      "tsubo": 29.7,
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan90-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan90-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "bea376ce06b0a3fccb959af489140d2f780427e2e44dccc25be7ad61838398c4:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan90-img02.jpg",
+          "alt": "【せやまどりNo.90】「延床29.7坪で予算も死守！狭さを感じさせない11の工夫が光る一階完結型の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p30118/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "3779ab1d5f4d9810a20bacd56b62b30022dd690541c2a59f093fbe293f382c47:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan90-img03.jpg",
+          "alt": "【せやまどりNo.90】「延床29.7坪で予算も死守！狭さを感じさせない11の工夫が光る一階完結型の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p30118/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:be-enough.jp:https://be-enough.jp/wp/wp-content/uploads/2025/04/plan91-img.jpg",
+      "title": "【せやまどりNo.91】「結局こんな家がリアルに暮らしやすい！ 一階完結型のお手本の家」の間取り図 | LDK",
+      "listingSource": "accepted be-enough.jp",
+      "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p30329/",
+      "company": "BE ENOUGH",
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan91-img02.jpg",
+        "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan91-img03.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "023fbe23f9374d46b31d2241c0f6c2311db9a8985f770feb64418179521471c9:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan91-img02.jpg",
+          "alt": "【せやまどりNo.91】「結局こんな家がリアルに暮らしやすい！ 一階完結型のお手本の家」の間取り図 | LDK 1階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p30329/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "a999f80bcc9487672196baab0d547920130c7fdf3886c98da0c07023e4bf91b7:image",
+          "kind": "floorplan",
+          "url": "https://be-enough.jp/wp/wp-content/uploads/2025/04/plan91-img03.jpg",
+          "alt": "【せやまどりNo.91】「結局こんな家がリアルに暮らしやすい！ 一階完結型のお手本の家」の間取り図 | LDK 2階",
+          "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p30329/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.957,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T22:48:39.214Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782771237844",
-      "createdAt": "2026-06-29T22:13:57.824Z",
+      "id": "accepted_public_1782774792623",
+      "createdAt": "2026-06-29T23:13:12.608Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplan images: 544. Public plan groups: 440."
+      "message": "Accepted floorplan images: 659. Public plan groups: 499."
     }
   ]
 }
