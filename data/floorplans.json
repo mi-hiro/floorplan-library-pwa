@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-29T04:21:18.177Z",
+  "generatedAt": "2026-06-29T14:07:35.064Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -554,7 +554,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T02:46:37.034Z",
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3588,7 +3588,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T02:46:37.034Z",
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3621,7 +3621,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T02:46:37.034Z",
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3654,7 +3654,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T02:46:37.034Z",
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3687,7 +3687,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T02:46:37.034Z",
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3720,7 +3720,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T02:46:37.034Z",
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15644,18 +15644,150 @@
       "fetchedAt": "2026-06-29T04:11:28.907Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d23e5645dca039f990c649b96e38e0cf043011a81d84a9cc1cdbff1ee4c60eee",
+      "title": "選択がスムーズな30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "3LDK",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/there_is_a_closet_in_the_living_room_and_clothes_are_put_away.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d23e5645dca039f990c649b96e38e0cf043011a81d84a9cc1cdbff1ee4c60eee:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/there_is_a_closet_in_the_living_room_and_clothes_are_put_away.jpg",
+          "alt": "選択がスムーズな30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "729ed60ad102bf4b37c2daa4a41b65ceaa0265bad2c311ade1dcb8314d529f5e",
+      "title": "収納便利な30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "3LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/small_room_type_pantry_has_excellent_storage_capacity.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "729ed60ad102bf4b37c2daa4a41b65ceaa0265bad2c311ade1dcb8314d529f5e:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/small_room_type_pantry_has_excellent_storage_capacity.jpg",
+          "alt": "収納便利な30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "6dea897f6bccba2b1f372150401023669919396e5bd71ad50dab9a4bff1f7c6e",
+      "title": "吹抜けのある30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/sense_of_openness_flat_Japanese_style_room_with_sloping_ceiling.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "6dea897f6bccba2b1f372150401023669919396e5bd71ad50dab9a4bff1f7c6e:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/sense_of_openness_flat_Japanese_style_room_with_sloping_ceiling.jpg",
+          "alt": "吹抜けのある30坪以下のコンパクトハウス間取り図",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "7e904b4da10ed4d77faccb69913866a51707d2707fdbd1ed096c9e408e2516ed",
+      "title": "子供部屋を2階に、主寝室が一階にある30坪以下のコンパクトハウス間取り図",
+      "listingSource": "accepted yuyuhome.co.jp",
+      "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "company": "yuyuhome.co.jp",
+      "layout": "4LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/comfortable_living_during_child-rearing_and_after_retirement.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "7e904b4da10ed4d77faccb69913866a51707d2707fdbd1ed096c9e408e2516ed:image",
+          "kind": "floorplan",
+          "url": "https://www.yuyuhome.co.jp/column/wp-content/uploads/2023/02/comfortable_living_during_child-rearing_and_after_retirement.jpg",
+          "alt": "子供部屋を2階に、主寝室が一階にある30坪以下のコンパクトハウス間取り図 1階",
+          "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T14:06:47.104Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782706878193",
-      "createdAt": "2026-06-29T04:21:18.177Z",
+      "id": "accepted_public_1782742055078",
+      "createdAt": "2026-06-29T14:07:35.064Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplan images: 434. Public plan groups: 419."
+      "message": "Accepted floorplan images: 438. Public plan groups: 423."
     }
   ]
 }
