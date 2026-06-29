@@ -22,13 +22,15 @@ async function main() {
   const maxPages = Number(args.maxPages ?? 20);
   const delayMs = Number(args.delayMs ?? 3000);
   const requestedDomains = new Set(parseDomains(args.domains));
+  const candidatePageSeeds = await readCandidatePageSeeds(args.seedCandidates ?? out, adapters);
   const records = [];
   for (const [domain, adapter] of Object.entries(adapters)) {
     if (!adapter.enabled) continue;
-    if (requestedDomains.size && !requestedDomains.has(domain.replace(/^www\./, "").toLowerCase())) continue;
+    const domainKey = normalizeDomain(domain);
+    if (requestedDomains.size && !requestedDomains.has(domainKey)) continue;
     if (!canCrawlDomain(state, domain)) continue;
     const robots = await fetchRobotsRules(domain);
-    const pageUrls = (adapter.seedUrls || []).slice(0, maxPages);
+    const pageUrls = unique([...(adapter.seedUrls || []), ...(candidatePageSeeds.get(domainKey) || [])]).slice(0, maxPages);
     try {
       for (const pageUrl of pageUrls) {
         if (!isAllowedByRobots(pageUrl, robots.rules)) continue;
@@ -99,6 +101,33 @@ async function readOptionalJson(filePath) {
   }
 }
 
+async function readCandidatePageSeeds(filePath, adapters) {
+  if (!filePath || String(filePath).toLowerCase() === "false") return new Map();
+  const result = new Map();
+  try {
+    const lines = (await readFile(filePath, "utf8")).split(/\r?\n/).filter(Boolean);
+    for (const line of lines) {
+      let record = null;
+      try {
+        record = JSON.parse(line);
+      } catch {
+        continue;
+      }
+      const pageUrl = record?.pageUrl;
+      if (!pageUrl) continue;
+      const domain = normalizeDomain(getDomain(pageUrl));
+      const adapter = adapters[domain];
+      if (!adapter) continue;
+      if (adapter.pagePatterns?.length && !matchesAny(pageUrl, adapter.pagePatterns)) continue;
+      result.set(domain, [...(result.get(domain) || []), pageUrl]);
+    }
+  } catch {
+    return result;
+  }
+  for (const [domain, urls] of result) result.set(domain, unique(urls));
+  return result;
+}
+
 function parseArgs(argv) {
   const result = {};
   for (let i = 0; i < argv.length; i += 1) {
@@ -118,6 +147,14 @@ function parseArgs(argv) {
 function parseDomains(value) {
   return String(value || "")
     .split(",")
-    .map((item) => item.trim().replace(/^www\./, "").toLowerCase())
+    .map((item) => normalizeDomain(item.trim()))
     .filter(Boolean);
+}
+
+function normalizeDomain(value) {
+  return String(value || "").replace(/^https?:\/\//, "").replace(/\/.*$/, "").replace(/^www\./, "").toLowerCase();
+}
+
+function unique(values) {
+  return [...new Set(values.filter(Boolean))];
 }

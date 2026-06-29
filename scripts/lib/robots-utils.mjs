@@ -18,8 +18,8 @@ export function isAllowedByRobots(targetUrl, robotsRules) {
   const path = safePath(targetUrl);
   let matched = null;
   for (const rule of robotsRules || []) {
-    if (!path.startsWith(rule.path)) continue;
-    if (!matched || rule.path.length > matched.path.length) matched = rule;
+    if (!robotsPathMatches(path, rule.path)) continue;
+    if (!matched || robotsSpecificity(rule.path) > robotsSpecificity(matched.path)) matched = rule;
   }
   return !matched || matched.type !== "disallow";
 }
@@ -61,5 +61,26 @@ function safePath(value) {
 }
 
 function normalizeRobotsPath(value) {
-  return String(value || "").replace(/\*.*$/, "") || "/";
+  return String(value || "").trim() || "/";
+}
+
+function robotsPathMatches(path, pattern) {
+  const value = String(pattern || "");
+  if (value === "/") return true;
+  const anchoredEnd = value.endsWith("$");
+  const source = value
+    .replace(/\$$/, "")
+    .split("*")
+    .map(escapeRegex)
+    .join(".*");
+  const regex = new RegExp(`^${source}${anchoredEnd ? "$" : ""}`);
+  return regex.test(path);
+}
+
+function robotsSpecificity(pattern) {
+  return String(pattern || "").replace(/[*$]/g, "").length;
+}
+
+function escapeRegex(value) {
+  return String(value).replace(/[|\\{}()[\]^$+?.]/g, "\\$&");
 }

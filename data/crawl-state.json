@@ -4,7 +4,7 @@
     "zerohome.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 0,
-      "lastCrawledAt": "2026-06-28T11:57:27.026Z",
+      "lastCrawledAt": "2026-06-29T21:22:17.341Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -14,7 +14,7 @@
     "ichijo.co.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 0,
-      "lastCrawledAt": "2026-06-28T11:57:27.271Z",
+      "lastCrawledAt": "2026-06-29T21:23:31.085Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -23,8 +23,8 @@
     },
     "irohaie.com": {
       "sitemapLastmod": "2024-03-25T14:37:56+09:00",
-      "lastSitemapCandidateCount": 213,
-      "lastCrawledAt": "2026-06-28T11:57:40.540Z",
+      "lastSitemapCandidateCount": 246,
+      "lastCrawledAt": "2026-06-29T21:23:24.223Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -32,36 +32,36 @@
       "wordpressModifiedAfter": "2025-08-01T14:32:08"
     },
     "misawa.co.jp": {
-      "lastCrawledAt": "2026-06-28T11:57:52.165Z",
-      "lastStatus": "ok",
-      "blockReason": null,
-      "failures": 0,
-      "nextCrawlAfter": null,
+      "lastCrawledAt": "2026-06-29T18:34:22.583Z",
+      "lastStatus": "stopped",
+      "blockReason": "fetch failed",
+      "failures": 2,
+      "nextCrawlAfter": "2026-06-30T18:34:22.583Z",
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 222
     },
     "toyotahome.co.jp": {
       "wordpressModifiedAfter": null,
-      "lastCrawledAt": "2026-06-28T11:58:04.711Z",
+      "lastCrawledAt": "2026-06-29T21:23:26.063Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
       "nextCrawlAfter": null,
       "sitemapLastmod": null,
-      "lastSitemapCandidateCount": 884
+      "lastSitemapCandidateCount": 939
     },
     "forumu.co.jp": {
-      "lastCrawledAt": "2026-06-28T11:58:40.626Z",
+      "lastCrawledAt": "2026-06-29T21:23:40.422Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
       "nextCrawlAfter": null,
       "sitemapLastmod": "2026-04-30",
-      "lastSitemapCandidateCount": 176,
+      "lastSitemapCandidateCount": 199,
       "wordpressModifiedAfter": null
     },
     "sfc.jp": {
-      "lastCrawledAt": "2026-06-28T09:23:08.330Z",
+      "lastCrawledAt": "2026-06-29T21:23:43.918Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -73,7 +73,7 @@
     "aidagroup.co.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 38,
-      "lastCrawledAt": "2026-06-28T11:58:08.920Z",
+      "lastCrawledAt": "2026-06-29T21:23:26.535Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -81,16 +81,16 @@
       "wordpressModifiedAfter": null
     },
     "megasoft.co.jp": {
-      "lastCrawledAt": "2026-06-28T09:22:50.056Z",
+      "lastCrawledAt": "2026-06-29T18:30:21.409Z",
       "lastStatus": "stopped",
       "blockReason": "Failed to parse URL from <![CDATA[https://www.megasoft.co.jp/post-sitemap.xml]]>",
-      "failures": 2,
-      "nextCrawlAfter": "2026-06-29T09:22:50.056Z"
+      "failures": 3,
+      "nextCrawlAfter": "2026-06-30T18:30:21.409Z"
     },
     "sekisuiheim.com": {
       "sitemapLastmod": "2025-09-30",
-      "lastSitemapCandidateCount": 269,
-      "lastCrawledAt": "2026-06-28T11:58:19.836Z",
+      "lastSitemapCandidateCount": 921,
+      "lastCrawledAt": "2026-06-29T21:54:23.355Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -117,9 +117,9 @@
       "nextCrawlAfter": null
     },
     "be-enough.jp": {
-      "sitemapLastmod": null,
-      "lastSitemapCandidateCount": 0,
-      "lastCrawledAt": "2026-06-28T09:23:06.011Z",
+      "sitemapLastmod": "2026-06-20T11:52:43+00:00",
+      "lastSitemapCandidateCount": 10723,
+      "lastCrawledAt": "2026-06-29T22:48:21.254Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -128,7 +128,7 @@
     "marusho-kensetsu.co.jp": {
       "sitemapLastmod": "2026-05-26T01:57:32+00:00",
       "lastSitemapCandidateCount": 47,
-      "lastCrawledAt": "2026-06-28T09:23:12.394Z",
+      "lastCrawledAt": "2026-06-29T21:36:41.884Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -137,7 +137,7 @@
     "shichiro.com": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 87,
-      "lastCrawledAt": "2026-06-28T09:23:21.633Z",
+      "lastCrawledAt": "2026-06-29T21:36:20.938Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -153,7 +153,7 @@
     "sekisuihouse.co.jp": {
       "sitemapLastmod": "2026-06-17T16:07:01+09:00",
       "lastSitemapCandidateCount": 39,
-      "lastCrawledAt": "2026-06-28T09:23:25.631Z",
+      "lastCrawledAt": "2026-06-29T21:35:55.254Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -230,7 +230,7 @@
     "peacehome.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 0,
-      "lastCrawledAt": "2026-06-28T09:24:03.446Z",
+      "lastCrawledAt": "2026-06-29T22:16:44.041Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -273,7 +273,7 @@
     "with-e-home.com": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 48,
-      "lastCrawledAt": "2026-06-28T11:45:27.002Z",
+      "lastCrawledAt": "2026-06-29T21:23:47.907Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -282,7 +282,7 @@
     "kh-house.jp": {
       "sitemapLastmod": "2026-06-28",
       "lastSitemapCandidateCount": 58,
-      "lastCrawledAt": "2026-06-28T11:46:00.107Z",
+      "lastCrawledAt": "2026-06-29T21:24:19.705Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -291,16 +291,17 @@
     "searshome.co.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 35,
-      "lastCrawledAt": "2026-06-28T11:46:57.727Z",
+      "lastCrawledAt": "2026-06-29T21:24:58.027Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
-      "nextCrawlAfter": null
+      "nextCrawlAfter": null,
+      "wordpressModifiedAfter": "2026-06-26T12:11:05"
     },
     "aqura.co.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 0,
-      "lastCrawledAt": "2026-06-28T09:24:53.003Z",
+      "lastCrawledAt": "2026-06-29T22:16:42.266Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -309,7 +310,7 @@
     "aerahome.com": {
       "sitemapLastmod": "2025-05-26",
       "lastSitemapCandidateCount": 151,
-      "lastCrawledAt": "2026-06-28T09:24:56.983Z",
+      "lastCrawledAt": "2026-06-29T21:25:05.894Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -327,7 +328,7 @@
     "tanaken.co.jp": {
       "sitemapLastmod": "2026-06-28",
       "lastSitemapCandidateCount": 77,
-      "lastCrawledAt": "2026-06-28T09:25:07.540Z",
+      "lastCrawledAt": "2026-06-29T21:25:01.992Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -366,8 +367,33 @@
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12098&amp;ad_cd=hp_housing_top_madori",
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=11018&amp;ad_cd=hp_housing_top_madori",
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=11001&amp;ad_cd=hp_housing_top_madori",
-      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12020&amp;ad_cd=hp_housing_top_madori"
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12020&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=11021&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=11006&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12116&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12115&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12114&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12113&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12112&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12111&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12110&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12109&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12108&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12107&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12106&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12105&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12104&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12103&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12102&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12101&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12100&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12099&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12097&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12096&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12095&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12094&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12093&amp;ad_cd=hp_housing_top_madori"
     ]
   },
-  "updatedAt": "2026-06-28T11:58:41.051Z"
+  "updatedAt": "2026-06-29T22:48:21.808Z"
 }

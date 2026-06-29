@@ -275,6 +275,11 @@ function hasAcceptanceEvidence(candidate, visual) {
   if (/cleverlyhome\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !isCleverlyPlanTitle(titleSignal)) return false;
   if (/(chitose-home\.com|marusho-kensetsu\.co\.jp)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
   if (/irohaie\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !(hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.7)) return false;
+  if (/be-enough\.jp/.test(allSignal)) {
+    if (/^(?:snapshot|plan[0-9]+-img0[14](?:-\d+x\d+)?)\.(?:jpe?g|png|webp)$/i.test(fileSignal)) return false;
+    if (/^plan[0-9]+-img0[23](?:-\d+x\d+)?\.(?:jpe?g|png|webp)$/i.test(fileSignal) && visual.visualScore >= 0.45) return true;
+    return false;
+  }
   if (/with-e-home\.com\/img\/uploads\/plans\/\d{4}-\d{2}-\d{2}\/[^?#\s]+\.png/i.test(allSignal) && visual.visualScore >= 0.5) return true;
   if (hasStrongImageEvidence) {
     return true;

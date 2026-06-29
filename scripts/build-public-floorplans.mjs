@@ -70,6 +70,7 @@ function floorSplitImageGroupKey(rawUrl) {
   let grouped = normalized
     .replace(/-\d+x\d+(?=\.(?:jpe?g|png|webp|gif)$)/i, "")
     .replace(/(_heimen)[0-9]+(?=\.(?:jpe?g|png|webp|gif)$)/i, "$1")
+    .replace(/(plan[0-9]+)-img0[23](?=\.(?:jpe?g|png|webp|gif)$)/i, "$1-img")
     .replace(/([_-])(?:[1-3]|[1-3]f|[1-3]F|[１２３]|[１２３]f|[１２３]F|[一二三]階|[1-3]階)(?=\.(?:jpe?g|png|webp|gif)$)/i, "");
 
   if (grouped === normalized) return "";
@@ -92,6 +93,8 @@ function floorOrderFromImage(image) {
 }
 
 function floorOrderFromSignal(signal) {
+  if (/be-enough\.jp\/.+\/plan[0-9]+-img02(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/i.test(signal)) return 1;
+  if (/be-enough\.jp\/.+\/plan[0-9]+-img03(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/i.test(signal)) return 2;
   if (/1\.5階|１\.５階/.test(signal)) return 1.5;
   if (/(?:^|[_-])1f|(?:^|[_-])1F|1階|１階|一階|_heimen1|-[1１](?=\.)/.test(signal)) return 1;
   if (/(?:^|[_-])2f|(?:^|[_-])2F|2階|２階|二階|_heimen2|-[2２](?=\.)/.test(signal)) return 2;
@@ -218,7 +221,8 @@ function displayTitle(group) {
   const first = group[0];
   if (group.length === 1) return first.title || "間取り図";
   const base = normalizeWhitespace(first.title || "間取り図")
-    .replace(/\s*[1-3１２３一二三](?:\.5)?\s*(?:階|F|f)(?:部分)?\s*/g, " ")
+    .replace(/[（(【\[]\s*(?:1\.5階|１\.５階|[1-3１２３]\s*(?:階|F|f)|[一二三]階)(?:部分)?\s*[）)】\]]/g, " ")
+    .replace(/\s+(?:1\.5階|１\.５階|[1-3１２３]\s*(?:階|F|f)|[一二三]階)(?:部分)?$/g, "")
     .replace(/\s+/g, " ")
     .trim();
   return base || first.title || "間取り図";

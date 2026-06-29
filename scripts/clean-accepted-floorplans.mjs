@@ -76,6 +76,7 @@ function extraRejectReason(record) {
   if (/cleverlyhome\.com/.test(text) && !hasStrongFilePlanEvidence(record) && !isCleverlyPlanTitle(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/(chitose-home\.com|marusho-kensetsu\.co\.jp)/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/irohaie\.com/.test(text) && !hasStrongFilePlanEvidence(record) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
+  if (/be-enough\.jp/.test(text) && isBeEnoughNonFloorplanFile(decodedUrl)) return "accepted-cleanup-be-enough-site-plan-or-elevation";
   if (/打ち合わせ|作成中|様子/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-process-photo";
   if (/sfc\.jp/.test(text) && /イメージ|ウッドデッキ|パントリー|ウォークイン|クローゼット|和室|ランドリー|土間|ガレージ|吹き抜け|勾配天井|ワークスペース/.test(text) && !/間取りの(?:１|1|２|2|３|3|一|二|三)?階部分/.test(text)) return "accepted-cleanup-sfc-photo-section";
   if (/sekisuiheim\.com\/madori\//.test(text) && /pic_(?:kv|idea|small_pw|mdr_cta)/.test(text)) return "accepted-cleanup-sekisuiheim-madori-explainer-image";
@@ -171,6 +172,17 @@ function hasPhotoOnlyTitle(record) {
 function isGenericUploadedPhoto(decodedUrl) {
   const fileName = decodedUrl.toLowerCase().split(/[/?#]/)[0].split("/").filter(Boolean).pop() || "";
   return /^(?:dsc|mg_|img_|image_|photo_|pic_|main|sub|[0-9]{1,3}(?:-[0-9])?)|(?:1200x628|1920x1080|27422127_s|more|re_(?:forte|item|works|voices))/.test(fileName);
+}
+
+function isBeEnoughNonFloorplanFile(decodedUrl) {
+  const fileName = decodedUrl
+    .toLowerCase()
+    .replace(/^https?:\/\/[^/]+/i, "")
+    .split(/[?#]/)[0]
+    .split("/")
+    .filter(Boolean)
+    .pop() || "";
+  return /^(?:snapshot|plan[0-9]+-img0[14](?:-\d+x\d+)?)\.(?:jpe?g|png|webp)$/.test(fileName);
 }
 
 function isLikelyAcceptedImageUrl(rawUrl) {

@@ -372,5 +372,16 @@
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
+  },
+  "be-enough.jp": {
+    "candidateCount": 5098,
+    "acceptedCount": 115,
+    "rejectedCount": 41,
+    "reviewCount": 417,
+    "acceptanceRate": 0.023,
+    "lastCrawledAt": "2026-06-29T22:48:21.254Z",
+    "blockReason": null,
+    "nextCrawlAfter": null,
+    "sourceQuality": "low"
   }
 }
