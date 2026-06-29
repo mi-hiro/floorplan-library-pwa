@@ -1042,29 +1042,25 @@ export default function App() {
                         const selectedImage = getSelectedFloorplanImage(item);
                         return (
                           <article className="floorplan-tile" key={item.id}>
-                            <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(selectedImage.imageLink)}>
-                              <img src={selectedImage.imageUrl} alt={selectedImage.title || item.title} loading="lazy" />
-                            </button>
-                            {item.images.length > 1 ? (
-                              <div className="floorplan-image-strip" aria-label="階別の間取り図">
-                                {item.images.slice(0, 6).map((image, imageIndex) => {
-                                  const isSelected = selectedImage.id === image.id;
-                                  return (
-                                    <button
-                                      className={`floorplan-image-chip ${isSelected ? "is-selected" : ""}`}
-                                      key={image.id}
-                                      type="button"
-                                      onClick={() => selectFloorplanImage(item.id, image.id)}
-                                      aria-pressed={isSelected}
-                                      title={`${floorplanImageBadge(image, imageIndex)}を大きく表示`}
-                                    >
-                                      <img src={image.imageUrl} alt={image.title} loading="lazy" />
-                                      <span>{floorplanImageBadge(image, imageIndex)}</span>
-                                    </button>
-                                  );
-                                })}
-                              </div>
-                            ) : null}
+                            <div className={`floorplan-card-images ${item.images.length > 1 ? "has-multiple" : ""}`} aria-label="間取り図画像">
+                              {item.images.map((image, imageIndex) => {
+                                const isSelected = selectedImage.id === image.id;
+                                return (
+                                  <button
+                                    className={`floorplan-card-image-frame ${isSelected ? "is-selected" : ""}`}
+                                    key={image.id}
+                                    type="button"
+                                    onClick={() => selectFloorplanImage(item.id, image.id)}
+                                    aria-pressed={isSelected}
+                                    title={`${floorplanImageBadge(image, imageIndex)}を表示`}
+                                  >
+                                    <img src={image.imageUrl} alt={image.title || item.title} loading="lazy" />
+                                    {item.images.length > 1 ? <span className="floorplan-card-image-label">{floorplanImageBadge(image, imageIndex)}</span> : null}
+                                  </button>
+                                );
+                              })}
+                              {item.images.length > 1 ? <span className="floorplan-multi-badge">{item.images.length}枚・横へ</span> : null}
+                            </div>
                             <div className="floorplan-tile-body">
                               <h3>{item.title}</h3>
                               {floorplanMetaLabels(item).length > 0 ? (

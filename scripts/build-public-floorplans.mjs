@@ -36,7 +36,7 @@ async function main() {
       }
     ]
   };
-  const stats = buildStats(accepted, groupedAccepted, now);
+  const stats = buildStats(accepted, candidates, now);
   await mkdir(path.dirname(out), { recursive: true });
   await mkdir(path.dirname(statsOut), { recursive: true });
   await writeFile(out, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
@@ -84,6 +84,14 @@ function compareFloorRecords(a, b) {
 
 function floorOrder(record) {
   const signal = `${record.title || ""} ${record.context?.alt || ""} ${record.source?.imageUrl || ""}`;
+  return floorOrderFromSignal(signal);
+}
+
+function floorOrderFromImage(image) {
+  return floorOrderFromSignal(`${image.alt || ""} ${image.url || ""}`);
+}
+
+function floorOrderFromSignal(signal) {
   if (/1\.5階|１\.５階/.test(signal)) return 1.5;
   if (/(?:^|[_-])1f|(?:^|[_-])1F|1階|１階|一階|_heimen1|-[1１](?=\.)/.test(signal)) return 1;
   if (/(?:^|[_-])2f|(?:^|[_-])2F|2階|２階|二階|_heimen2|-[2２](?=\.)/.test(signal)) return 2;
@@ -93,7 +101,7 @@ function floorOrder(record) {
 
 function toCrawlCandidate(group) {
   const record = group[0];
-  const imageCandidates = group.map((item, index) => toImageCandidate(item, index));
+  const imageCandidates = addCompanionImages(group.map((item, index) => toImageCandidate(item, index)));
   return {
     id: group.length > 1 ? `group:${acceptedGroupKey(record)}` : record.id,
     title: displayTitle(group),
@@ -115,6 +123,39 @@ function toCrawlCandidate(group) {
       ? `accepted-floorplans.jsonl から生成。${group.length}枚の階別画像を同じプランにまとめています。`
       : "accepted-floorplans.jsonl から生成"
   };
+}
+
+function addCompanionImages(images) {
+  const byUrl = new Set(images.map((image) => normalizeUrl(image.url)));
+  const next = [];
+
+  for (const image of images) {
+    const toyotaSecondFloor = String(image.url || "").match(
+      /^(https:\/\/www\.toyotahome\.co\.jp\/housing\/howto\/madori\/design\/assets\/img\/floorplan\/)([0-9]+)_heimen2(\.webp)$/i
+    );
+    if (toyotaSecondFloor) {
+      const firstFloorUrl = `${toyotaSecondFloor[1]}${toyotaSecondFloor[2]}_heimen1${toyotaSecondFloor[3]}`;
+      const firstFloorKey = normalizeUrl(firstFloorUrl);
+      if (!byUrl.has(firstFloorKey)) {
+        next.push({
+          ...image,
+          id: `${image.id}:companion-1f`,
+          url: firstFloorUrl,
+          alt: image.alt.replace(/2階/g, "1階") || "1階の間取り図",
+          ollamaReview: {
+            ...image.ollamaReview,
+            model: "accepted-pipeline-companion",
+            confidence: Math.max(0.85, Number(image.ollamaReview?.confidence ?? 0.85)),
+            reason: "ToyotaHome same plan companion floor image"
+          }
+        });
+        byUrl.add(firstFloorKey);
+      }
+    }
+    next.push(image);
+  }
+
+  return next.sort((a, b) => floorOrderFromImage(a) - floorOrderFromImage(b) || String(a.url || "").localeCompare(String(b.url || "")));
 }
 
 function toImageCandidate(record, index) {
@@ -152,7 +193,7 @@ function displayTitle(group) {
   return base || first.title || "間取り図";
 }
 
-function buildStats(records, groups, generatedAt) {
+function buildStats(records, candidates, generatedAt) {
   const byDomain = {};
   for (const record of records) {
     const domain = record.source?.sourceDomain || "unknown";
@@ -162,8 +203,8 @@ function buildStats(records, groups, generatedAt) {
   return {
     generatedAt,
     acceptedCount: records.length,
-    publicCandidateCount: groups.length,
-    multiImageCandidateCount: groups.filter((group) => group.length > 1).length,
+    publicCandidateCount: candidates.length,
+    multiImageCandidateCount: candidates.filter((candidate) => (candidate.imageCandidates || []).length > 1).length,
     domains: byDomain
   };
 }

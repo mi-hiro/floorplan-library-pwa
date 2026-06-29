@@ -588,6 +588,75 @@ h3 {
   box-shadow: 0 10px 26px rgba(47, 71, 87, 0.12);
 }
 
+.floorplan-card-images {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: #9eb8ca #edf5fa;
+}
+
+.floorplan-card-image-frame {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  height: clamp(132px, 17vw, 178px);
+  display: grid;
+  flex: 0 0 100%;
+  place-items: center;
+  border: 0;
+  padding: 0;
+  background: #fff;
+  scroll-snap-align: start;
+}
+
+.floorplan-card-images.has-multiple .floorplan-card-image-frame {
+  min-width: 88%;
+  flex-basis: 88%;
+  border-right: 1px solid var(--line);
+}
+
+.floorplan-card-image-frame.is-selected {
+  background: #f8fcff;
+}
+
+.floorplan-card-image-frame img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.floorplan-card-image-label,
+.floorplan-multi-badge {
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #b5d1e4;
+  border-radius: 999px;
+  color: var(--primary-dark);
+  background: rgb(255 255 255 / 94%);
+  font-weight: 900;
+  box-shadow: 0 5px 14px rgba(47, 71, 87, 0.12);
+}
+
+.floorplan-card-image-label {
+  right: 8px;
+  bottom: 8px;
+  padding: 3px 8px;
+  font-size: 0.76rem;
+}
+
+.floorplan-multi-badge {
+  top: 8px;
+  left: 8px;
+  padding: 4px 9px;
+  font-size: 0.74rem;
+}
+
 .floorplan-image-button {
   width: 100%;
   height: clamp(132px, 17vw, 178px);
@@ -608,6 +677,13 @@ h3 {
 }
 
 .floorplan-gallery:not(.is-compact-list) .floorplan-image-button {
+  height: auto;
+  min-height: 180px;
+  aspect-ratio: 4 / 3;
+  padding: 6px;
+}
+
+.floorplan-gallery:not(.is-compact-list) .floorplan-card-image-frame {
   height: auto;
   min-height: 180px;
   aspect-ratio: 4 / 3;
@@ -673,6 +749,35 @@ h3 {
   height: 100%;
   min-height: 94px;
   border-right: 1px solid var(--line);
+}
+
+.floorplan-gallery.is-compact-list .floorplan-card-images {
+  height: 100%;
+  min-height: 94px;
+  border-right: 1px solid var(--line);
+  border-bottom: 0;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-card-image-frame,
+.floorplan-gallery.is-compact-list .floorplan-card-images.has-multiple .floorplan-card-image-frame {
+  min-width: 100%;
+  height: 100%;
+  min-height: 94px;
+  flex-basis: 100%;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-card-image-label {
+  right: 4px;
+  bottom: 4px;
+  padding: 2px 5px;
+  font-size: 0.62rem;
+}
+
+.floorplan-gallery.is-compact-list .floorplan-multi-badge {
+  top: 4px;
+  left: 4px;
+  padding: 2px 5px;
+  font-size: 0.58rem;
 }
 
 .floorplan-gallery.is-compact-list .floorplan-image-strip {
@@ -1807,6 +1912,17 @@ h3 {
   }
 
   .floorplan-gallery.is-compact-list .floorplan-image-button {
+    min-height: 92px;
+  }
+
+  .floorplan-gallery:not(.is-compact-list) .floorplan-card-images.has-multiple .floorplan-card-image-frame {
+    min-width: 86%;
+    flex-basis: 86%;
+  }
+
+  .floorplan-gallery.is-compact-list .floorplan-card-images,
+  .floorplan-gallery.is-compact-list .floorplan-card-image-frame,
+  .floorplan-gallery.is-compact-list .floorplan-card-images.has-multiple .floorplan-card-image-frame {
     min-height: 92px;
   }
 

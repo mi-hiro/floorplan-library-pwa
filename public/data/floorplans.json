@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-28T23:39:44.799Z",
+  "generatedAt": "2026-06-29T00:37:27.445Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -5292,9 +5292,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11018_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11018_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "c75e71986cb4d3b33ee2927fcb78cceb530a6727bc7157c354a47625c1e26a61:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11018_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "c75e71986cb4d3b33ee2927fcb78cceb530a6727bc7157c354a47625c1e26a61:image",
           "kind": "floorplan",
@@ -5358,9 +5373,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12020_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12020_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "1284ca1e2f064a1eaa337466f5c2ff5ef3c1efce0f4a7beae99b7aa9a96c181f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12020_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "1284ca1e2f064a1eaa337466f5c2ff5ef3c1efce0f4a7beae99b7aa9a96c181f:image",
           "kind": "floorplan",
@@ -5391,9 +5421,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11021_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11021_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "40466362a9dd09d06ab2af973d7f76e610c999d36dcba84d962b91dfd9ff5263:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/11021_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "40466362a9dd09d06ab2af973d7f76e610c999d36dcba84d962b91dfd9ff5263:image",
           "kind": "floorplan",
@@ -5490,9 +5535,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12115_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12115_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "6b6ecc238e46e3a2c6c8842028e32bafa5609790fa5df496c00ca51e771b1f7e:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12115_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "6b6ecc238e46e3a2c6c8842028e32bafa5609790fa5df496c00ca51e771b1f7e:image",
           "kind": "floorplan",
@@ -5523,9 +5583,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12114_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12114_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "7e14425ff79316b8af570494309b3bd0796b4c9af0ddb81d2e4f4e17e5bd050b:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12114_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "7e14425ff79316b8af570494309b3bd0796b4c9af0ddb81d2e4f4e17e5bd050b:image",
           "kind": "floorplan",
@@ -5556,9 +5631,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12113_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12113_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "cea64d4c83f66c9bb2da127cf373356766bd3293674c651fd0dc95800372b8bc:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12113_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "cea64d4c83f66c9bb2da127cf373356766bd3293674c651fd0dc95800372b8bc:image",
           "kind": "floorplan",
@@ -5589,9 +5679,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12112_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12112_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "f0cd44bc1512c22196f5a14132f7ae9119d506202ebaa6fe930779b36c66be85:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12112_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "f0cd44bc1512c22196f5a14132f7ae9119d506202ebaa6fe930779b36c66be85:image",
           "kind": "floorplan",
@@ -5688,9 +5793,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12109_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12109_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "7db11dac296cb6e95c2be3a7be4386ee0c855bc3d058f8926ca975863ee52d53:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12109_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "7db11dac296cb6e95c2be3a7be4386ee0c855bc3d058f8926ca975863ee52d53:image",
           "kind": "floorplan",
@@ -6061,9 +6181,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12108_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12108_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "35212a8ef916bc368522c41b0305fa03e4c04deb1d548a1aafcb4463bca9cd15:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12108_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "35212a8ef916bc368522c41b0305fa03e4c04deb1d548a1aafcb4463bca9cd15:image",
           "kind": "floorplan",
@@ -6127,9 +6262,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12106_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12106_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "f00337bdc90f0b4062895dcf97f5adcdb25a3d667f51464751a1f337ee062bcd:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12106_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "f00337bdc90f0b4062895dcf97f5adcdb25a3d667f51464751a1f337ee062bcd:image",
           "kind": "floorplan",
@@ -6226,9 +6376,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12103_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12103_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "f6c10d41e63ec3e141869f8ab1876994e563e1064927feaa60252696885df9ac:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12103_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "f6c10d41e63ec3e141869f8ab1876994e563e1064927feaa60252696885df9ac:image",
           "kind": "floorplan",
@@ -6259,9 +6424,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12102_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12102_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "94cfae01ac5a54bef5e1d6669d5cfab3c66498718aefe2a9f9146092c40eb961:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12102_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "94cfae01ac5a54bef5e1d6669d5cfab3c66498718aefe2a9f9146092c40eb961:image",
           "kind": "floorplan",
@@ -6292,9 +6472,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12101_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12101_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "da62bc278fa2e58a23b63cbe2fb805c5637d6e7a7489a8eecd59f953fe9ffc9b:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12101_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "da62bc278fa2e58a23b63cbe2fb805c5637d6e7a7489a8eecd59f953fe9ffc9b:image",
           "kind": "floorplan",
@@ -6325,9 +6520,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12100_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12100_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "7b57483705c4b255312407df4b02224f9f79a55b3af30a9716f56319bf303d3f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12100_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "7b57483705c4b255312407df4b02224f9f79a55b3af30a9716f56319bf303d3f:image",
           "kind": "floorplan",
@@ -6358,9 +6568,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12099_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12099_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "94205970f8efcae38af68e46f41abfc4047499d434f4a914ea529dd4088f58cf:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12099_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "94205970f8efcae38af68e46f41abfc4047499d434f4a914ea529dd4088f58cf:image",
           "kind": "floorplan",
@@ -6391,9 +6616,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12097_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12097_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "35876d30f518404259d25cbfe4837b9abe81d8c11381984016a9eb8da8e23efa:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12097_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "35876d30f518404259d25cbfe4837b9abe81d8c11381984016a9eb8da8e23efa:image",
           "kind": "floorplan",
@@ -6457,9 +6697,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12095_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12095_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "9c4a8ce8e11a381a3119ac8aa65e76c460d2bb772a1c2afa8141921a020069ce:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12095_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "9c4a8ce8e11a381a3119ac8aa65e76c460d2bb772a1c2afa8141921a020069ce:image",
           "kind": "floorplan",
@@ -6490,9 +6745,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12094_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12094_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "60569003b6d9ad38cfdecd7c087b4ce17d32cf9e41d1d2f881eb0f4bacefdda1:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12094_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "60569003b6d9ad38cfdecd7c087b4ce17d32cf9e41d1d2f881eb0f4bacefdda1:image",
           "kind": "floorplan",
@@ -6523,9 +6793,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12093_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12093_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "e86c9ba4f93167b0be663293e6dddc8fe2e110c343ef835c466e1f66eaa97ab7:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12093_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "e86c9ba4f93167b0be663293e6dddc8fe2e110c343ef835c466e1f66eaa97ab7:image",
           "kind": "floorplan",
@@ -11874,9 +12159,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12091_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12091_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "8880f5508c1c3477037b136958353338113093218be968fc3259723be8d09565:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12091_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "8880f5508c1c3477037b136958353338113093218be968fc3259723be8d09565:image",
           "kind": "floorplan",
@@ -11907,9 +12207,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12090_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12090_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "1c5fecf4d8b4d563d22c0342c6e8147ecf6cef6d85fc473c2718396dc73724b5:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12090_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "1c5fecf4d8b4d563d22c0342c6e8147ecf6cef6d85fc473c2718396dc73724b5:image",
           "kind": "floorplan",
@@ -11940,9 +12255,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12089_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12089_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "1db688952bf873580bc1fd7774025a3fda00d235da48ba45c3d883a3f7e593bb:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12089_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "1db688952bf873580bc1fd7774025a3fda00d235da48ba45c3d883a3f7e593bb:image",
           "kind": "floorplan",
@@ -11973,9 +12303,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12088_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12088_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "c0d8afddb3a5318a19b2b27bd4fd528826198c91e19951ff4cc098d6d9ba99dd:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12088_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "c0d8afddb3a5318a19b2b27bd4fd528826198c91e19951ff4cc098d6d9ba99dd:image",
           "kind": "floorplan",
@@ -12006,9 +12351,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12087_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12087_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "3fbb7609ed723a9491418d7994714ff0e8913ace3b6fff2f0718733ad123cead:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12087_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "3fbb7609ed723a9491418d7994714ff0e8913ace3b6fff2f0718733ad123cead:image",
           "kind": "floorplan",
@@ -12039,9 +12399,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12086_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12086_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "c3e4978cde0fee5291b65ef977e6267ed31bf608e0e5c0a51aed1bde206a622f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12086_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "c3e4978cde0fee5291b65ef977e6267ed31bf608e0e5c0a51aed1bde206a622f:image",
           "kind": "floorplan",
@@ -12072,9 +12447,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12085_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12085_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "e01bd892626939dc33cf03bfa1a4b8c367cc0ee2764d88106cad4dbd1fabb3f9:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12085_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "e01bd892626939dc33cf03bfa1a4b8c367cc0ee2764d88106cad4dbd1fabb3f9:image",
           "kind": "floorplan",
@@ -12105,9 +12495,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12084_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12084_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "e4d17757d34a2d3e56cf7c9e1930861a5c86277fe38195d2755aedea0c3aeb46:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12084_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "e4d17757d34a2d3e56cf7c9e1930861a5c86277fe38195d2755aedea0c3aeb46:image",
           "kind": "floorplan",
@@ -12138,9 +12543,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12083_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12083_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "b241839f9549817ca37f34a79a43aee8a4237c69a75203f5a2c1ae5686848ee6:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12083_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "b241839f9549817ca37f34a79a43aee8a4237c69a75203f5a2c1ae5686848ee6:image",
           "kind": "floorplan",
@@ -12171,9 +12591,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12082_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12082_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "4853e9b4c804748207d5b0b046535939e3068e0c2ff0632b15d9ec50afb201a1:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12082_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "4853e9b4c804748207d5b0b046535939e3068e0c2ff0632b15d9ec50afb201a1:image",
           "kind": "floorplan",
@@ -12204,9 +12639,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12081_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12081_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "47dd6c23671a0222886af09c4c3c0b910ddabc92111b24c627236724bbac53d4:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12081_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "47dd6c23671a0222886af09c4c3c0b910ddabc92111b24c627236724bbac53d4:image",
           "kind": "floorplan",
@@ -12237,9 +12687,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12080_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12080_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "8043e7359d0024113452b9773397601823784b44a8fe483ff5db23245daefe98:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12080_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "8043e7359d0024113452b9773397601823784b44a8fe483ff5db23245daefe98:image",
           "kind": "floorplan",
@@ -12270,9 +12735,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12079_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12079_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "ba5f392fb99488783f8b1d0173f52b9c79f98319e532477fe543722538a7236d:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12079_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "ba5f392fb99488783f8b1d0173f52b9c79f98319e532477fe543722538a7236d:image",
           "kind": "floorplan",
@@ -12336,9 +12816,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12077_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12077_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "e7867bba7a562628424c6a57a2460889601ed4e29f98c5763c4618aede5600e9:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12077_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "e7867bba7a562628424c6a57a2460889601ed4e29f98c5763c4618aede5600e9:image",
           "kind": "floorplan",
@@ -12435,9 +12930,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12074_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12074_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "8e8cd859084b494cf187ae82d0d8bf623ec650e1068412996111cb98329512cc:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12074_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "8e8cd859084b494cf187ae82d0d8bf623ec650e1068412996111cb98329512cc:image",
           "kind": "floorplan",
@@ -12534,9 +13044,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12071_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12071_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "02d1846283648f572558bb26626a359ff241dd5ae5af4ad6900782b9f85bda6f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12071_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "02d1846283648f572558bb26626a359ff241dd5ae5af4ad6900782b9f85bda6f:image",
           "kind": "floorplan",
@@ -12600,9 +13125,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12069_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12069_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "21ff24d99807f562270f3e5c3d13131a0f9bde3dbf3a1fd61c4e8360674492a5:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12069_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "21ff24d99807f562270f3e5c3d13131a0f9bde3dbf3a1fd61c4e8360674492a5:image",
           "kind": "floorplan",
@@ -12633,9 +13173,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12068_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12068_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "c74751ebeffcaa1652f01ce53e7027a88a9ca0b58da39de3f91699b89b60bb13:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12068_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "c74751ebeffcaa1652f01ce53e7027a88a9ca0b58da39de3f91699b89b60bb13:image",
           "kind": "floorplan",
@@ -12666,9 +13221,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12067_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12067_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "da04f18230d519d76c166a2b3d22ec473cf82feebb74a9472663c1d9be789dca:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12067_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "da04f18230d519d76c166a2b3d22ec473cf82feebb74a9472663c1d9be789dca:image",
           "kind": "floorplan",
@@ -12699,9 +13269,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12066_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12066_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "892098f5de275e7ad83eb0bfc308c4e649794be6bafac82bdc4e57ef93303f2d:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12066_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "892098f5de275e7ad83eb0bfc308c4e649794be6bafac82bdc4e57ef93303f2d:image",
           "kind": "floorplan",
@@ -12732,9 +13317,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12065_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12065_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "e326fcccf245a934bd7ac5f0c5104424c9bf5b42dbb7f0e2837c524297cbe09e:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12065_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "e326fcccf245a934bd7ac5f0c5104424c9bf5b42dbb7f0e2837c524297cbe09e:image",
           "kind": "floorplan",
@@ -12765,9 +13365,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12064_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12064_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "a962533c2f7e7cde3ab9ce521ee5822d43563ca3e5fc538a6a57ad143331d4cd:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12064_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "a962533c2f7e7cde3ab9ce521ee5822d43563ca3e5fc538a6a57ad143331d4cd:image",
           "kind": "floorplan",
@@ -12798,9 +13413,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12063_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12063_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "900dac056c28ea39b99a4d815f1118d189b97a4cbc6076a992b6fc4a2ff676c6:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12063_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "900dac056c28ea39b99a4d815f1118d189b97a4cbc6076a992b6fc4a2ff676c6:image",
           "kind": "floorplan",
@@ -12831,9 +13461,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12062_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12062_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "352afa4d454e6838223a30f693250f185e7891ea525993a07a57a84e1a9d2ed7:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12062_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "352afa4d454e6838223a30f693250f185e7891ea525993a07a57a84e1a9d2ed7:image",
           "kind": "floorplan",
@@ -12864,9 +13509,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12061_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12061_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "2a1c3e09e2a5a4c5bb09c1bd7fce2364575ba6b40ed986509ae099fa6f950bb9:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12061_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "2a1c3e09e2a5a4c5bb09c1bd7fce2364575ba6b40ed986509ae099fa6f950bb9:image",
           "kind": "floorplan",
@@ -12897,9 +13557,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12060_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12060_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "b4b5182dff29b003cdb5836c6d5dc2b18361e266f1275b5c67907ed236ccb10a:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12060_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "b4b5182dff29b003cdb5836c6d5dc2b18361e266f1275b5c67907ed236ccb10a:image",
           "kind": "floorplan",
@@ -12930,9 +13605,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12059_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12059_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "e404b7845020e92f28e3be6d04349aff3ae0d1a1bfab1b2a5ce45d555962b447:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12059_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "e404b7845020e92f28e3be6d04349aff3ae0d1a1bfab1b2a5ce45d555962b447:image",
           "kind": "floorplan",
@@ -12963,9 +13653,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12058_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12058_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "fed0a058bd6adfd23807a38978f552ba5db11789f1ef813d240e34e146a8d67b:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12058_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "fed0a058bd6adfd23807a38978f552ba5db11789f1ef813d240e34e146a8d67b:image",
           "kind": "floorplan",
@@ -12996,9 +13701,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12057_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12057_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "693119cd6c0daf5bb1d82fa53799e0b2a4ade3206492dec8732edce934b63579:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12057_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "693119cd6c0daf5bb1d82fa53799e0b2a4ade3206492dec8732edce934b63579:image",
           "kind": "floorplan",
@@ -13029,9 +13749,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12056_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12056_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "d1b472de07a12f2bb297e7ca0f507651230d817d5f0be87243388a4bbbd62fba:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12056_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "d1b472de07a12f2bb297e7ca0f507651230d817d5f0be87243388a4bbbd62fba:image",
           "kind": "floorplan",
@@ -13062,9 +13797,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12055_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12055_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "3565d418c9aeca407bfb37884b1193db47a64347dc11d334bd9a5b31e70f005f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12055_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "3565d418c9aeca407bfb37884b1193db47a64347dc11d334bd9a5b31e70f005f:image",
           "kind": "floorplan",
@@ -13095,9 +13845,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12054_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12054_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "a46341b8c0b8d4c077ae94a1851180c716cbad0ba20b4613bd4a54130e87ec1a:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12054_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "a46341b8c0b8d4c077ae94a1851180c716cbad0ba20b4613bd4a54130e87ec1a:image",
           "kind": "floorplan",
@@ -13128,9 +13893,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12053_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12053_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "7c6588c624e26f9f4dd1e8cb5b81dbfec89ca04ed69a8b971452d71c3d972734:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12053_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "7c6588c624e26f9f4dd1e8cb5b81dbfec89ca04ed69a8b971452d71c3d972734:image",
           "kind": "floorplan",
@@ -13161,9 +13941,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12052_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12052_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "32a88c61d3aac1b5e770720d915633fe2a3612a00d23042b7a324c93bec8903f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12052_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "32a88c61d3aac1b5e770720d915633fe2a3612a00d23042b7a324c93bec8903f:image",
           "kind": "floorplan",
@@ -13194,9 +13989,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12051_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12051_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "32deaa120d3cc33be7db11b82d27434ba4890d137359aed8de414aad73195e61:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12051_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "32deaa120d3cc33be7db11b82d27434ba4890d137359aed8de414aad73195e61:image",
           "kind": "floorplan",
@@ -13227,9 +14037,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12050_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12050_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "44c646d0a021f50f0ac5839783c32e1d4285abcef032ed0dd6bfdfec77622ff0:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12050_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "44c646d0a021f50f0ac5839783c32e1d4285abcef032ed0dd6bfdfec77622ff0:image",
           "kind": "floorplan",
@@ -13260,9 +14085,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12049_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12049_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "5ca69b94ec8c93d569319ad1f423330b80d48f247a94ee640bce6fa9f75fa94c:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12049_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "5ca69b94ec8c93d569319ad1f423330b80d48f247a94ee640bce6fa9f75fa94c:image",
           "kind": "floorplan",
@@ -13293,9 +14133,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12048_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12048_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "7333cc668f955f7f0c58eec1ca003b3ee29295fabe0618df05dd4bb20460a1c7:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12048_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "7333cc668f955f7f0c58eec1ca003b3ee29295fabe0618df05dd4bb20460a1c7:image",
           "kind": "floorplan",
@@ -13326,9 +14181,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12047_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12047_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "5e9a6af29ddc0e2272785f8eefb6c4a46a07a97528a09803bc2cf9b31a55acdf:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12047_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "5e9a6af29ddc0e2272785f8eefb6c4a46a07a97528a09803bc2cf9b31a55acdf:image",
           "kind": "floorplan",
@@ -13359,9 +14229,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12046_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12046_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "f97cfe04d7b119c435fd138d2e07bd3f6ed6c56e576eada1a27bb3db0ec48056:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12046_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "f97cfe04d7b119c435fd138d2e07bd3f6ed6c56e576eada1a27bb3db0ec48056:image",
           "kind": "floorplan",
@@ -13392,9 +14277,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12045_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12045_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "ed612a9372d193ba3bf4dd1d267ec028c8eca7d24d0e98b9be8d2a7c84c39251:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12045_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "ed612a9372d193ba3bf4dd1d267ec028c8eca7d24d0e98b9be8d2a7c84c39251:image",
           "kind": "floorplan",
@@ -13425,9 +14325,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12044_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12044_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "43bae3bce5db56219ece40e21509c0aba5092b7ae4e3856c97441a87670403ea:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12044_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "43bae3bce5db56219ece40e21509c0aba5092b7ae4e3856c97441a87670403ea:image",
           "kind": "floorplan",
@@ -13458,9 +14373,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12043_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12043_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "3c8db603c4818a58e028ff834fb3a08c240af6816eb3dbf3ef5cfa4740bb3f1a:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12043_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "3c8db603c4818a58e028ff834fb3a08c240af6816eb3dbf3ef5cfa4740bb3f1a:image",
           "kind": "floorplan",
@@ -13491,9 +14421,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12042_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12042_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "49a99bcd48e44909c902891a4c9929b16b2f24d8b0ef694648e9107d12b5320a:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12042_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "49a99bcd48e44909c902891a4c9929b16b2f24d8b0ef694648e9107d12b5320a:image",
           "kind": "floorplan",
@@ -13524,9 +14469,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12041_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12041_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "72bccccfb85756f3e241a812f6ca78f975246a4ba097d326d7f7714a0ed868d8:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12041_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "72bccccfb85756f3e241a812f6ca78f975246a4ba097d326d7f7714a0ed868d8:image",
           "kind": "floorplan",
@@ -13557,9 +14517,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12040_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12040_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "b0d1438aad8a86965096db2d4f37d1a7bdabcefc96dfb958729a1c7ab5f9856c:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12040_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "b0d1438aad8a86965096db2d4f37d1a7bdabcefc96dfb958729a1c7ab5f9856c:image",
           "kind": "floorplan",
@@ -13590,9 +14565,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12039_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12039_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "f685d1110c647ac80042ce6c728a70ddc48f15105006311bccc217603facc6ba:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12039_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "f685d1110c647ac80042ce6c728a70ddc48f15105006311bccc217603facc6ba:image",
           "kind": "floorplan",
@@ -13623,9 +14613,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12038_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12038_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "42c68ce490929342a73c2fb7577aa08145fee432e749dff1cb6ad0f019ee6c70:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12038_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "42c68ce490929342a73c2fb7577aa08145fee432e749dff1cb6ad0f019ee6c70:image",
           "kind": "floorplan",
@@ -13656,9 +14661,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12037_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12037_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "d0d8956d8e50dee3b40b79bffc763aefac9bbe1c6ccc7d63b263d0144979cb4f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12037_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "d0d8956d8e50dee3b40b79bffc763aefac9bbe1c6ccc7d63b263d0144979cb4f:image",
           "kind": "floorplan",
@@ -13689,9 +14709,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12036_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12036_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "1d389da056c1e5e2646ac356e2f0795cf6e689e4f9ee017423c9a35e80b5094f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12036_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "1d389da056c1e5e2646ac356e2f0795cf6e689e4f9ee017423c9a35e80b5094f:image",
           "kind": "floorplan",
@@ -13722,9 +14757,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12035_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12035_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "72576b50a819a80fa8c73323762750f49902dd86311904301db23faa88b6dada:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12035_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "72576b50a819a80fa8c73323762750f49902dd86311904301db23faa88b6dada:image",
           "kind": "floorplan",
@@ -13755,9 +14805,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12034_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12034_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "a2bf365000f36a2585f0f2d765c65ae376d214d286fca33cb12fa53030efa994:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12034_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "a2bf365000f36a2585f0f2d765c65ae376d214d286fca33cb12fa53030efa994:image",
           "kind": "floorplan",
@@ -13788,9 +14853,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12033_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12033_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "2be6febfadd867ea860feb9e647d9570f4469234620a43bada477bc30a0ef3b4:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12033_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "2be6febfadd867ea860feb9e647d9570f4469234620a43bada477bc30a0ef3b4:image",
           "kind": "floorplan",
@@ -13821,9 +14901,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12032_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12032_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "8ea0110a2e45846e419586b329f88dc6d104b88f9733d1a451e11686527f04b9:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12032_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "8ea0110a2e45846e419586b329f88dc6d104b88f9733d1a451e11686527f04b9:image",
           "kind": "floorplan",
@@ -13854,9 +14949,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12031_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12031_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "155835f0eda0401fe5dd7ef5d15d84986062168e0ef44fae743a7fb67be77106:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12031_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "155835f0eda0401fe5dd7ef5d15d84986062168e0ef44fae743a7fb67be77106:image",
           "kind": "floorplan",
@@ -13986,9 +15096,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12027_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12027_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "7596aa6f6231208e2151753698552cb27bc400ffceace075bc642c79cf17e026:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12027_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "7596aa6f6231208e2151753698552cb27bc400ffceace075bc642c79cf17e026:image",
           "kind": "floorplan",
@@ -14019,9 +15144,24 @@
       "entranceDirection": "北",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12026_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12026_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "5394301d46aaa6d875d72ea0346686b33c1f25b08df2c26627bdb287618f95cd:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12026_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "5394301d46aaa6d875d72ea0346686b33c1f25b08df2c26627bdb287618f95cd:image",
           "kind": "floorplan",
@@ -14052,9 +15192,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12025_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12025_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "366e49501438874fd533614124c8eeebaacde7ea8a8fae7bcc76cceb33a66931:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12025_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "366e49501438874fd533614124c8eeebaacde7ea8a8fae7bcc76cceb33a66931:image",
           "kind": "floorplan",
@@ -14085,9 +15240,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12024_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12024_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "2bb08979e51fe96741e10d195fddf1636f0ba6705f735e70896e0d8c8e307c3d:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12024_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "2bb08979e51fe96741e10d195fddf1636f0ba6705f735e70896e0d8c8e307c3d:image",
           "kind": "floorplan",
@@ -14118,9 +15288,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12023_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12023_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "fdd9256f5325c377e5c6a255444c328eaedcaccd850ea20fa2e579a5c17d1d37:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12023_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "fdd9256f5325c377e5c6a255444c328eaedcaccd850ea20fa2e579a5c17d1d37:image",
           "kind": "floorplan",
@@ -14151,9 +15336,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12022_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12022_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "27038d086a81abcf316dd68438c6ff465b69a41e83c1b3427f1edc69f1eec1e6:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12022_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "27038d086a81abcf316dd68438c6ff465b69a41e83c1b3427f1edc69f1eec1e6:image",
           "kind": "floorplan",
@@ -14184,9 +15384,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12021_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12021_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "14c165efd7cb54b3618e5a15ef51826f088f4393605e395fb780d082d36f6f7f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12021_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "14c165efd7cb54b3618e5a15ef51826f088f4393605e395fb780d082d36f6f7f:image",
           "kind": "floorplan",
@@ -14217,9 +15432,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12019_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12019_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "c965abdd44594ee99ad833990faeec9b5a9b22016d8e47de55d43f4f9e39772e:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12019_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "c965abdd44594ee99ad833990faeec9b5a9b22016d8e47de55d43f4f9e39772e:image",
           "kind": "floorplan",
@@ -14250,9 +15480,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12018_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12018_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "7460b5049e2e199dbf9dd80660a3028d8330205a8ce53865a99c146ce288aa5e:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12018_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "7460b5049e2e199dbf9dd80660a3028d8330205a8ce53865a99c146ce288aa5e:image",
           "kind": "floorplan",
@@ -14283,9 +15528,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12017_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12017_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "59d7659d7b8e95ba4d3897fe3d758df3e0798a5786ee13b8f351d4ef3c33b656:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12017_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "59d7659d7b8e95ba4d3897fe3d758df3e0798a5786ee13b8f351d4ef3c33b656:image",
           "kind": "floorplan",
@@ -14316,9 +15576,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12016_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12016_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "ffb171d987451acb44354413b3ed62e4000a85abb966fffd1e9bcec911951e72:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12016_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "ffb171d987451acb44354413b3ed62e4000a85abb966fffd1e9bcec911951e72:image",
           "kind": "floorplan",
@@ -14349,9 +15624,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12015_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12015_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "ec566b3dbb181226c12eda009a7bab2cb01b0e97ad2957d4bad1c2bfbfcbb301:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12015_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "ec566b3dbb181226c12eda009a7bab2cb01b0e97ad2957d4bad1c2bfbfcbb301:image",
           "kind": "floorplan",
@@ -14382,9 +15672,24 @@
       "entranceDirection": "南",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12014_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12014_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "79f5b68f3bfafd809c4c1c0e1164bd87c4f76f0f4f8bb86314dae829bbe4721f:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12014_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "79f5b68f3bfafd809c4c1c0e1164bd87c4f76f0f4f8bb86314dae829bbe4721f:image",
           "kind": "floorplan",
@@ -14415,9 +15720,24 @@
       "entranceDirection": "西",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12013_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12013_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "a8d71b89b918dc9133bd62f501310bc054b0bf38c28d61b440a62cf3b6c681b3:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12013_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "a8d71b89b918dc9133bd62f501310bc054b0bf38c28d61b440a62cf3b6c681b3:image",
           "kind": "floorplan",
@@ -14448,9 +15768,24 @@
       "entranceDirection": "東",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
+        "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12012_heimen1.webp",
         "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12012_heimen2.webp"
       ],
       "imageCandidates": [
+        {
+          "id": "a4662fdfb375b0a8536e296c340b0d1e633a4c9c7da3be94298691728e5c120c:image:companion-1f",
+          "kind": "floorplan",
+          "url": "https://www.toyotahome.co.jp/housing/howto/madori/design/assets/img/floorplan/12012_heimen1.webp",
+          "alt": "トヨタホームのデザイナーズプラン | 住宅・ハウスメーカーのトヨタホーム 1階",
+          "sourceUrl": "https://www.toyotahome.co.jp/chumon/howto/madori/design/?ad_cd=hp_housing_top_madori",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline-companion",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "ToyotaHome same plan companion floor image"
+          }
+        },
         {
           "id": "a4662fdfb375b0a8536e296c340b0d1e633a4c9c7da3be94298691728e5c120c:image",
           "kind": "floorplan",
@@ -14473,8 +15808,8 @@
   ],
   "logs": [
     {
-      "id": "accepted_public_1782689984818",
-      "createdAt": "2026-06-28T23:39:44.799Z",
+      "id": "accepted_public_1782693447463",
+      "createdAt": "2026-06-29T00:37:27.445Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
