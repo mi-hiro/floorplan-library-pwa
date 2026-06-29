@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-29T02:53:48.645Z",
-  "acceptedCount": 433,
-  "publicCandidateCount": 418,
+  "generatedAt": "2026-06-29T04:21:18.177Z",
+  "acceptedCount": 434,
+  "publicCandidateCount": 419,
   "multiImageCandidateCount": 102,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 22
     },
     "forumu.co.jp": {
-      "acceptedCount": 103
+      "acceptedCount": 92
     },
     "sfc.jp": {
       "acceptedCount": 24
@@ -23,7 +23,7 @@
       "acceptedCount": 1
     },
     "aidagroup.co.jp": {
-      "acceptedCount": 5
+      "acceptedCount": 4
     },
     "zerohome.jp": {
       "acceptedCount": 40
@@ -63,6 +63,12 @@
     },
     "hiyoriblog.com": {
       "acceptedCount": 1
+    },
+    "tanaken.co.jp": {
+      "acceptedCount": 1
+    },
+    "cleverlyhome.com": {
+      "acceptedCount": 12
     }
   }
 }
