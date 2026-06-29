@@ -5,7 +5,7 @@
     "rejectedCount": 0,
     "reviewCount": 11,
     "acceptanceRate": 1,
-    "lastCrawledAt": "2026-06-29T01:36:23.572Z",
+    "lastCrawledAt": "2026-06-29T02:45:01.104Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -60,7 +60,7 @@
     "rejectedCount": 25,
     "reviewCount": 65,
     "acceptanceRate": 0.615,
-    "lastCrawledAt": "2026-06-29T01:34:16.296Z",
+    "lastCrawledAt": "2026-06-29T02:43:35.366Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -71,7 +71,7 @@
     "rejectedCount": 62,
     "reviewCount": 16,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-29T01:37:54.952Z",
+    "lastCrawledAt": "2026-06-29T02:46:32.003Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -79,10 +79,10 @@
   "forumu.co.jp": {
     "candidateCount": 555,
     "acceptedCount": 103,
-    "rejectedCount": 291,
+    "rejectedCount": 360,
     "reviewCount": 318,
     "acceptanceRate": 0.186,
-    "lastCrawledAt": "2026-06-29T01:36:33.265Z",
+    "lastCrawledAt": "2026-06-29T02:45:10.643Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -93,7 +93,7 @@
     "rejectedCount": 50,
     "reviewCount": 76,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-06-29T01:36:36.677Z",
+    "lastCrawledAt": "2026-06-29T02:45:14.062Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -104,7 +104,7 @@
     "rejectedCount": 252,
     "reviewCount": 725,
     "acceptanceRate": 0.005,
-    "lastCrawledAt": "2026-06-28T11:58:19.836Z",
+    "lastCrawledAt": "2026-06-29T02:44:57.767Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -137,7 +137,7 @@
     "rejectedCount": 130,
     "reviewCount": 170,
     "acceptanceRate": 0.057,
-    "lastCrawledAt": "2026-06-29T01:37:12.414Z",
+    "lastCrawledAt": "2026-06-29T02:45:49.505Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -159,7 +159,7 @@
     "rejectedCount": 474,
     "reviewCount": 352,
     "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-06-29T01:36:15.189Z",
+    "lastCrawledAt": "2026-06-29T02:44:55.484Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -170,7 +170,7 @@
     "rejectedCount": 854,
     "reviewCount": 1234,
     "acceptanceRate": 0.054,
-    "lastCrawledAt": "2026-06-29T01:36:16.407Z",
+    "lastCrawledAt": "2026-06-29T02:44:56.797Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -181,7 +181,7 @@
     "rejectedCount": 38,
     "reviewCount": 38,
     "acceptanceRate": 0.116,
-    "lastCrawledAt": "2026-06-29T01:34:17.281Z",
+    "lastCrawledAt": "2026-06-29T02:43:37.585Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -335,7 +335,7 @@
     "rejectedCount": 91,
     "reviewCount": 16,
     "acceptanceRate": 0.047,
-    "lastCrawledAt": "2026-06-29T01:36:40.545Z",
+    "lastCrawledAt": "2026-06-29T02:45:17.822Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -346,7 +346,7 @@
     "rejectedCount": 76,
     "reviewCount": 44,
     "acceptanceRate": 0.09,
-    "lastCrawledAt": "2026-06-29T01:37:50.477Z",
+    "lastCrawledAt": "2026-06-29T02:46:28.106Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -365,10 +365,10 @@
   "aerahome.com": {
     "candidateCount": 151,
     "acceptedCount": 8,
-    "rejectedCount": 103,
+    "rejectedCount": 104,
     "reviewCount": 92,
     "acceptanceRate": 0.053,
-    "lastCrawledAt": "2026-06-29T01:37:58.831Z",
+    "lastCrawledAt": "2026-06-29T02:46:35.885Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
