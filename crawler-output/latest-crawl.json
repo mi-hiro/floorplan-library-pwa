@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-29T18:47:52.534Z",
+  "generatedAt": "2026-06-29T21:14:15.981Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -15982,8 +15982,8 @@
   ],
   "logs": [
     {
-      "id": "accepted_public_1782758872599",
-      "createdAt": "2026-06-29T18:47:52.534Z",
+      "id": "accepted_public_1782767655999",
+      "createdAt": "2026-06-29T21:14:15.981Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
