@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-29T01:57:45.702Z",
+  "generatedAt": "2026-06-29T04:21:18.177Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -47,7 +47,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -80,7 +80,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -128,7 +128,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -161,7 +161,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -224,7 +224,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
@@ -257,7 +257,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -290,7 +290,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -323,7 +323,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -356,7 +356,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -389,7 +389,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -422,7 +422,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -455,7 +455,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -488,7 +488,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -521,7 +521,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -554,7 +554,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -587,73 +587,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "258c35c78a7401c21d3ab02d475f6bc909529997ae2d3241c58b3519fa4f6157",
-      "title": "Enable JavaScript in your browser. このウェブサイトはJavaScriptをオンにしてご覧下さい。",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
-      "company": "forumu.co.jp",
-      "layout": "",
-      "floors": "",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_module/images/noscript.gif"
-      ],
-      "imageCandidates": [
-        {
-          "id": "258c35c78a7401c21d3ab02d475f6bc909529997ae2d3241c58b3519fa4f6157:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_module/images/noscript.gif",
-          "alt": "Enable JavaScript in your browser. このウェブサイトはJavaScriptをオンにしてご覧下さい。",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "941aca6a0ff3715b0b8190df09c88a1eb7102f1a5437bd7771fff508b3ebbce1",
-      "title": "注文住宅の間取り集｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
-      "company": "forumu.co.jp",
-      "layout": "",
-      "floors": "",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/235/img20170927211521102103.png?v=1737804779827"
-      ],
-      "imageCandidates": [
-        {
-          "id": "941aca6a0ff3715b0b8190df09c88a1eb7102f1a5437bd7771fff508b3ebbce1:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/235/img20170927211521102103.png?v=1737804779827",
-          "alt": "注文住宅の間取り集｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -688,7 +622,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -722,7 +656,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -756,7 +690,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -790,7 +724,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -824,7 +758,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -858,7 +792,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -892,7 +826,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -926,7 +860,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -959,41 +893,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "0cc46f207c7e1502895c7ef48ac89eb9fb2f0cee10244546f163dfadae3b65ed",
-      "title": "注文住宅の間取り集｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
-      "company": "forumu.co.jp",
-      "priceManYen": 1830,
-      "layout": "",
-      "floors": "",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1842/sign.png?v=1737804779827"
-      ],
-      "imageCandidates": [
-        {
-          "id": "0cc46f207c7e1502895c7ef48ac89eb9fb2f0cee10244546f163dfadae3b65ed:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1842/sign.png?v=1737804779827",
-          "alt": "注文住宅の間取り集｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1029,7 +929,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1064,7 +964,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1098,7 +998,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1133,7 +1033,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1167,7 +1067,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1202,7 +1102,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1236,7 +1136,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1271,7 +1171,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1306,7 +1206,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1341,7 +1241,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1376,7 +1276,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1411,7 +1311,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1446,7 +1346,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1481,7 +1381,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1516,7 +1416,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1551,7 +1451,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1586,7 +1486,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1621,7 +1521,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1656,7 +1556,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1691,7 +1591,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1726,7 +1626,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1761,7 +1661,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1796,7 +1696,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1831,7 +1731,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1864,40 +1764,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "81ff0bab25c4fb96b34a4aa82e268d896366ea71ab17f42352ae12c39d849cf0",
-      "title": "平屋・2階建て・3階建て 各100プランを掲載した間取り集を無料プレゼント！！",
-      "listingSource": "accepted aidagroup.co.jp",
-      "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
-      "company": "aidagroup.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/bn-catalog.jpg"
-      ],
-      "imageCandidates": [
-        {
-          "id": "81ff0bab25c4fb96b34a4aa82e268d896366ea71ab17f42352ae12c39d849cf0:image",
-          "kind": "floorplan",
-          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/bn-catalog.jpg",
-          "alt": "平屋・2階建て・3階建て 各100プランを掲載した間取り集を無料プレゼント！！",
-          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1930,7 +1797,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1963,7 +1830,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -1996,7 +1863,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2030,7 +1897,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2065,7 +1932,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2099,7 +1966,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2133,7 +2000,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2167,7 +2034,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2201,7 +2068,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2235,7 +2102,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2269,7 +2136,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2303,7 +2170,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2337,7 +2204,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2371,7 +2238,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2405,7 +2272,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2439,7 +2306,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2473,7 +2340,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2507,7 +2374,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2541,7 +2408,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2575,7 +2442,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2609,7 +2476,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2643,7 +2510,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2677,7 +2544,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2711,7 +2578,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2745,7 +2612,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2779,7 +2646,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2813,7 +2680,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2847,7 +2714,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2881,7 +2748,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2915,7 +2782,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2949,7 +2816,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -2983,7 +2850,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3017,7 +2884,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3051,7 +2918,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3085,7 +2952,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3119,7 +2986,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3153,7 +3020,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3187,7 +3054,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3221,7 +3088,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3255,7 +3122,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3289,7 +3156,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3323,7 +3190,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3357,7 +3224,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3391,7 +3258,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3424,7 +3291,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3457,7 +3324,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3490,7 +3357,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3523,7 +3390,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3556,7 +3423,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3589,7 +3456,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3622,7 +3489,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3655,7 +3522,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3688,7 +3555,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3721,7 +3588,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3754,7 +3621,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3787,7 +3654,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3820,7 +3687,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3853,7 +3720,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3886,7 +3753,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3919,7 +3786,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3952,7 +3819,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -3985,7 +3852,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4020,7 +3887,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4068,7 +3935,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -4116,7 +3983,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -4179,7 +4046,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
@@ -4227,7 +4094,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -4275,7 +4142,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -4309,7 +4176,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4343,7 +4210,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4377,7 +4244,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4411,7 +4278,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4445,7 +4312,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4479,7 +4346,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4513,7 +4380,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4547,7 +4414,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4581,7 +4448,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4615,7 +4482,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4649,7 +4516,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4683,7 +4550,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4717,7 +4584,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4751,7 +4618,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4785,7 +4652,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4820,7 +4687,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4853,7 +4720,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4887,7 +4754,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4921,7 +4788,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4955,7 +4822,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -4989,7 +4856,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5023,7 +4890,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5057,7 +4924,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5091,7 +4958,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5124,7 +4991,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5159,7 +5026,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5194,7 +5061,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5229,7 +5096,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5277,7 +5144,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -5325,7 +5192,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5358,7 +5225,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5406,7 +5273,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5454,7 +5321,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5487,7 +5354,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5520,7 +5387,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5568,7 +5435,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5616,7 +5483,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5664,7 +5531,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5712,7 +5579,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5745,7 +5612,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5778,7 +5645,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5826,7 +5693,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5860,7 +5727,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5894,7 +5761,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5928,7 +5795,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5962,7 +5829,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -5996,7 +5863,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6030,7 +5897,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6064,7 +5931,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6098,7 +5965,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6132,7 +5999,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6166,7 +6033,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6214,7 +6081,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6247,7 +6114,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6295,7 +6162,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6328,7 +6195,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6361,7 +6228,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6409,7 +6276,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6457,7 +6324,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6505,7 +6372,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6553,7 +6420,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6601,7 +6468,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6649,7 +6516,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6682,7 +6549,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6730,7 +6597,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6778,7 +6645,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6826,7 +6693,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6860,7 +6727,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6894,7 +6761,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6928,7 +6795,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6962,7 +6829,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -6996,7 +6863,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7030,7 +6897,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7064,7 +6931,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7100,7 +6967,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7134,7 +7001,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7168,7 +7035,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7203,7 +7070,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7239,7 +7106,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7289,7 +7156,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -7339,7 +7206,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -7389,7 +7256,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -7424,7 +7291,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7474,7 +7341,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
@@ -7509,40 +7376,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "7283c43e1e0fb6eb6989429e74e2ab7b47e93cf6190b79feb2d73bd41a42da5c",
-      "title": "平屋のリビングイメージ：広く明るいリビングには勾配天井を採用",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori_fv.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "7283c43e1e0fb6eb6989429e74e2ab7b47e93cf6190b79feb2d73bd41a42da5c:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori_fv.png",
-          "alt": "平屋のリビングイメージ：広く明るいリビングには勾配天井を採用",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7575,7 +7409,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7608,7 +7442,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7641,7 +7475,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7674,7 +7508,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7707,7 +7541,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7740,7 +7574,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7773,7 +7607,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7806,7 +7640,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7839,7 +7673,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7872,7 +7706,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7905,7 +7739,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7938,7 +7772,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -7971,7 +7805,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8004,7 +7838,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8037,7 +7871,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8070,7 +7904,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8103,7 +7937,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8136,7 +7970,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8169,7 +8003,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8202,7 +8036,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8235,7 +8069,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8268,7 +8102,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8301,7 +8135,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8334,7 +8168,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8367,7 +8201,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8400,7 +8234,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8433,7 +8267,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8466,7 +8300,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8499,7 +8333,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8532,7 +8366,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8565,7 +8399,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8598,7 +8432,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8631,7 +8465,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8664,7 +8498,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8697,7 +8531,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8730,7 +8564,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8763,7 +8597,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8796,7 +8630,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8829,7 +8663,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8862,7 +8696,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8895,7 +8729,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8928,7 +8762,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8961,7 +8795,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -8994,7 +8828,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9027,7 +8861,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9060,7 +8894,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9093,7 +8927,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9126,7 +8960,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9159,7 +8993,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9192,7 +9026,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9225,7 +9059,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9258,7 +9092,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9291,7 +9125,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9324,7 +9158,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9357,7 +9191,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9390,7 +9224,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9423,7 +9257,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9456,7 +9290,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9491,7 +9325,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9526,7 +9360,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9561,7 +9395,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9596,7 +9430,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9631,7 +9465,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9664,7 +9498,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9698,7 +9532,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9732,7 +9566,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9766,7 +9600,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9800,7 +9634,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9834,7 +9668,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9868,7 +9702,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9902,7 +9736,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9936,7 +9770,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -9970,7 +9804,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10004,7 +9838,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10038,7 +9872,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10072,7 +9906,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10106,7 +9940,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10140,7 +9974,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10174,7 +10008,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10208,7 +10042,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10242,7 +10076,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10276,7 +10110,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10310,7 +10144,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10344,7 +10178,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10378,7 +10212,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10412,7 +10246,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10446,7 +10280,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10480,7 +10314,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10514,7 +10348,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10548,7 +10382,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10582,7 +10416,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10616,7 +10450,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10650,7 +10484,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10684,7 +10518,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10718,7 +10552,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -10752,454 +10586,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "9d1fccae72cff680d1a162c1095b6ad0a1040d5882fd7dc82a38684d0602daea",
-      "title": "madori-02｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
-      "company": "フォルム",
-      "priceManYen": 700,
-      "layout": "3LDK",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1677/madori_02.webp?v=1735437185353"
-      ],
-      "imageCandidates": [
-        {
-          "id": "9d1fccae72cff680d1a162c1095b6ad0a1040d5882fd7dc82a38684d0602daea:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1677/madori_02.webp?v=1735437185353",
-          "alt": "madori-02｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "77f0f8f19ae55fd953c9ac14cc5112a597bb4cfb285a9d02a587766c4bcc5f43",
-      "title": "madori-05｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
-      "company": "フォルム",
-      "priceManYen": 600,
-      "layout": "4LDK",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1698/madori_05.webp?v=1735437185353"
-      ],
-      "imageCandidates": [
-        {
-          "id": "77f0f8f19ae55fd953c9ac14cc5112a597bb4cfb285a9d02a587766c4bcc5f43:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1698/madori_05.webp?v=1735437185353",
-          "alt": "madori-05｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "f665b000fe68a506d32763fac8563b59eac318b1606fee0c846a1782f734f8c7",
-      "title": "madori-01｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html",
-      "company": "forumu.co.jp",
-      "priceManYen": 500,
-      "layout": "3LDK",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1670/madori_01.png?v=1735437185353"
-      ],
-      "imageCandidates": [
-        {
-          "id": "f665b000fe68a506d32763fac8563b59eac318b1606fee0c846a1782f734f8c7:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1670/madori_01.png?v=1735437185353",
-          "alt": "madori-01｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "c838f7114b86d55da81035b9684841bfb4bd414871f3b522bfef38783a663247",
-      "title": "madori-01｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html",
-      "company": "forumu.co.jp",
-      "priceManYen": 500,
-      "layout": "3LDK",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1670/madori_01.webp?v=1735437185353"
-      ],
-      "imageCandidates": [
-        {
-          "id": "c838f7114b86d55da81035b9684841bfb4bd414871f3b522bfef38783a663247:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1670/madori_01.webp?v=1735437185353",
-          "alt": "madori-01｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "e4d4eb892de88c0072b2c0b0151a3e873ea94d4d4867645ca08eec0400a231bf",
-      "title": "madori-03｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html",
-      "company": "forumu.co.jp",
-      "priceManYen": 700,
-      "layout": "4LDK",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1684/madori_03.png?v=1735437185353"
-      ],
-      "imageCandidates": [
-        {
-          "id": "e4d4eb892de88c0072b2c0b0151a3e873ea94d4d4867645ca08eec0400a231bf:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1684/madori_03.png?v=1735437185353",
-          "alt": "madori-03｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "1297344fbcd2b5352218b276bb89c2617b3cec354abe18e9fa35426ef86a625d",
-      "title": "madori-03｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html",
-      "company": "forumu.co.jp",
-      "priceManYen": 700,
-      "layout": "4LDK",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1684/madori_03.webp?v=1735437185353"
-      ],
-      "imageCandidates": [
-        {
-          "id": "1297344fbcd2b5352218b276bb89c2617b3cec354abe18e9fa35426ef86a625d:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1684/madori_03.webp?v=1735437185353",
-          "alt": "madori-03｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "7d21c3d4cf1941a449d9b76c59d1470d920038789841653d431795f4b93f0318",
-      "title": "madori-04｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html",
-      "company": "forumu.co.jp",
-      "priceManYen": 700,
-      "layout": "4LDK",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1691/madori_04.png?v=1735437185353"
-      ],
-      "imageCandidates": [
-        {
-          "id": "7d21c3d4cf1941a449d9b76c59d1470d920038789841653d431795f4b93f0318:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1691/madori_04.png?v=1735437185353",
-          "alt": "madori-04｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "d17e01cca8700bdde04af7c0f0db1370f634302198453052c23127b87d3277b0",
-      "title": "madori-04｜FORUMU",
-      "listingSource": "accepted forumu.co.jp",
-      "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html",
-      "company": "forumu.co.jp",
-      "priceManYen": 700,
-      "layout": "4LDK",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.forumu.co.jp/_src/1691/madori_04.webp?v=1735437185353"
-      ],
-      "imageCandidates": [
-        {
-          "id": "d17e01cca8700bdde04af7c0f0db1370f634302198453052c23127b87d3277b0:image",
-          "kind": "floorplan",
-          "url": "https://www.forumu.co.jp/_src/1691/madori_04.webp?v=1735437185353",
-          "alt": "madori-04｜FORUMU",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "1f607b7ef7389dca6fb2c1e3708391b616461acb01a44678500cd771b5259d98",
-      "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 113.92,
-      "tsubo": 34.46,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "1f607b7ef7389dca6fb2c1e3708391b616461acb01a44678500cd771b5259d98:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img3.png",
-          "alt": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "419e4ca1cce4618895ff0675fff2fc7ec86075542c48cc08325ee8be756ba434",
-      "title": "SMART STYLE Roomie 29-1SE(SW)-2 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 97.51,
-      "tsubo": 29.5,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "419e4ca1cce4618895ff0675fff2fc7ec86075542c48cc08325ee8be756ba434:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img3.png",
-          "alt": "SMART STYLE Roomie 29-1SE(SW)-2 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "beb5f0204f2f26a62d37e189aa00bec06ad24a30204626478937dcd3cac8ec9d",
-      "title": "SMART STYLE 25-1W(E)-1 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "2LDK",
-      "areaSqm": 84.66,
-      "tsubo": 25.61,
-      "floors": "平屋",
-      "entranceDirection": "東",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "beb5f0204f2f26a62d37e189aa00bec06ad24a30204626478937dcd3cac8ec9d:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img3.png",
-          "alt": "SMART STYLE 25-1W(E)-1 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "a0b347f1866329c0e7cea839405a36ab8e0859b97b0114209dd826526eedaa38",
-      "title": "SMART STYLE Roomie 27-1SE-1 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 91.26,
-      "tsubo": 27.61,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "a0b347f1866329c0e7cea839405a36ab8e0859b97b0114209dd826526eedaa38:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img3.png",
-          "alt": "SMART STYLE Roomie 27-1SE-1 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "837210828b07ffead902cb16dcf1a291784f109c3f68c8112399a0d61874702b",
-      "title": "CENTURY Stylepro HIRAYA 28-1E(W)-1 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 92.34,
-      "tsubo": 27.93,
-      "floors": "平屋",
-      "entranceDirection": "東",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "837210828b07ffead902cb16dcf1a291784f109c3f68c8112399a0d61874702b:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img3.png",
-          "alt": "CENTURY Stylepro HIRAYA 28-1E(W)-1 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11232,7 +10619,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11267,7 +10654,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11302,7 +10689,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11337,7 +10724,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11372,7 +10759,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11407,7 +10794,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11442,7 +10829,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11477,7 +10864,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11512,7 +10899,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11547,7 +10934,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11581,7 +10968,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11615,7 +11002,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11649,7 +11036,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11682,7 +11069,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11715,7 +11102,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11748,7 +11135,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11781,7 +11168,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11814,7 +11201,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11847,7 +11234,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11880,7 +11267,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11913,7 +11300,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11946,7 +11333,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -11979,7 +11366,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12012,7 +11399,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12045,7 +11432,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12078,7 +11465,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12111,7 +11498,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12144,7 +11531,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12192,7 +11579,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12240,7 +11627,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12288,7 +11675,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12336,7 +11723,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12384,7 +11771,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12432,7 +11819,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12480,7 +11867,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12528,7 +11915,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12576,7 +11963,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12624,7 +12011,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12672,7 +12059,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12720,7 +12107,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12768,7 +12155,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12801,7 +12188,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12849,7 +12236,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12882,7 +12269,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12915,7 +12302,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12963,7 +12350,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -12996,7 +12383,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13029,7 +12416,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13077,7 +12464,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13110,7 +12497,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13158,7 +12545,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13206,7 +12593,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13254,7 +12641,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13302,7 +12689,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13350,7 +12737,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13398,7 +12785,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13446,7 +12833,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13494,7 +12881,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13542,7 +12929,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13590,7 +12977,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13638,7 +13025,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13686,7 +13073,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13734,7 +13121,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13782,7 +13169,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13830,7 +13217,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13878,7 +13265,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13926,7 +13313,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -13974,7 +13361,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14022,7 +13409,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14070,7 +13457,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14118,7 +13505,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14166,7 +13553,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14214,7 +13601,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14262,7 +13649,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14310,7 +13697,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14358,7 +13745,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14406,7 +13793,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14454,7 +13841,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14502,7 +13889,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14550,7 +13937,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14598,7 +13985,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14646,7 +14033,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14694,7 +14081,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14742,7 +14129,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14790,7 +14177,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14838,7 +14225,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14886,7 +14273,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14934,7 +14321,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -14982,7 +14369,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15015,7 +14402,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15048,7 +14435,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15081,7 +14468,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15129,7 +14516,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15177,7 +14564,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15225,7 +14612,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15273,7 +14660,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15321,7 +14708,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15369,7 +14756,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15417,7 +14804,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15465,7 +14852,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15513,7 +14900,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15561,7 +14948,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15609,7 +14996,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15657,7 +15044,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15705,7 +15092,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15753,7 +15140,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -15801,21 +15188,474 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
+      "fetchedAt": "2026-06-29T02:46:37.034Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2e9010ba902ab55f10b9e3490450ad0bcd4c70fa191bacdcfc27e1b601b39773",
+      "title": "間取り図",
+      "listingSource": "accepted tanaken.co.jp",
+      "sourceUrl": "https://www.tanaken.co.jp/estate/details_342.html",
+      "company": "tanaken.co.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.tanaken.co.jp/photo/estate/34/es342_layout.jpg?20260624133534"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2e9010ba902ab55f10b9e3490450ad0bcd4c70fa191bacdcfc27e1b601b39773:image",
+          "kind": "floorplan",
+          "url": "https://www.tanaken.co.jp/photo/estate/34/es342_layout.jpg?20260624133534",
+          "alt": "間取り図",
+          "sourceUrl": "https://www.tanaken.co.jp/estate/details_342.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T03:57:21.411Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "c63018d6e14230ec32538ada18e7d7c6980e1bd0236f1849f59869c256334576",
+      "title": "4LDKの間取り図1F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+      "company": "cleverlyhome.com",
+      "layout": "4LDK",
+      "areaSqm": 113.65,
+      "tsubo": 34.38,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/2023528122949.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "c63018d6e14230ec32538ada18e7d7c6980e1bd0236f1849f59869c256334576:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/2023528122949.jpg",
+          "alt": "4LDKの間取り図1F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "102a1a0f4e3a82541e03964ef80da87c8c7bf2dd915c879ae2f11b799429c28a",
+      "title": "4LDKの間取り図 2F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+      "company": "cleverlyhome.com",
+      "layout": "4LDK",
+      "areaSqm": 113.65,
+      "tsubo": 34.38,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/2023528122958.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "102a1a0f4e3a82541e03964ef80da87c8c7bf2dd915c879ae2f11b799429c28a:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/2023528122958.jpg",
+          "alt": "4LDKの間取り図 2F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "2f9d26f7ffe84e4a2592f20e8d11cf951bbfdbc04e6b13ed0f3ab2aa8b5666e5",
+      "title": "4LDKの間取り図 1F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+      "company": "cleverlyhome.com",
+      "layout": "4LDK",
+      "areaSqm": 120.06,
+      "tsubo": 36.32,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221025135432.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "2f9d26f7ffe84e4a2592f20e8d11cf951bbfdbc04e6b13ed0f3ab2aa8b5666e5:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221025135432.jpg",
+          "alt": "4LDKの間取り図 1F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "20f16cb88e5ec1ee5de6faae3f8d2e851273a729f1c5a59a1b558d9d16e7b169",
+      "title": "4LDKの間取り図 2F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+      "company": "cleverlyhome.com",
+      "layout": "4LDK",
+      "areaSqm": 120.06,
+      "tsubo": 36.32,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221025135435.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "20f16cb88e5ec1ee5de6faae3f8d2e851273a729f1c5a59a1b558d9d16e7b169:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221025135435.jpg",
+          "alt": "4LDKの間取り図 2F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5e7665fada64a4e0d5160b1f4fb25b768b9af4a1d786adceb4ec3cbc10f77926",
+      "title": "4LDKの平屋間取り図",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+      "company": "cleverlyhome.com",
+      "layout": "4LDK",
+      "areaSqm": 117.5,
+      "tsubo": 35.54,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/202332814125.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5e7665fada64a4e0d5160b1f4fb25b768b9af4a1d786adceb4ec3cbc10f77926:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/202332814125.jpg",
+          "alt": "4LDKの平屋間取り図",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9993",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "65aa972df302ba8833dbdd90f14615dfe2fa0f87167d1b4ee7fd520f5c1cc149",
+      "title": "3LDKの間取り図 1F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "company": "cleverlyhome.com",
+      "layout": "3LDK",
+      "areaSqm": 118.82,
+      "tsubo": 35.94,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/202322513617.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "65aa972df302ba8833dbdd90f14615dfe2fa0f87167d1b4ee7fd520f5c1cc149:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/202322513617.jpg",
+          "alt": "3LDKの間取り図 1F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "db62f43b3bf766c035197a49977606c0e06043a369c99fe9610b081b003f470f",
+      "title": "3LDKの間取り図 2F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "company": "cleverlyhome.com",
+      "layout": "3LDK",
+      "areaSqm": 118.82,
+      "tsubo": 35.94,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/202322513622.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "db62f43b3bf766c035197a49977606c0e06043a369c99fe9610b081b003f470f:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/202322513622.jpg",
+          "alt": "3LDKの間取り図 2F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "8e632bfa175144091a6e010e1046e984a5b40e637524c683b55ab4f47ab9a3fb",
+      "title": "3LDKの間取り図 1F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "company": "cleverlyhome.com",
+      "layout": "3LDK",
+      "areaSqm": 133.31,
+      "tsubo": 40.33,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221026113430.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8e632bfa175144091a6e010e1046e984a5b40e637524c683b55ab4f47ab9a3fb:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221026113430.jpg",
+          "alt": "3LDKの間取り図 1F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "90c41a7fe558e73586eb7398a16d3cd4a8dfae51a41789b0f23edc3005c62aa1",
+      "title": "3LDKの間取り図 2F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "company": "cleverlyhome.com",
+      "layout": "3LDK",
+      "areaSqm": 133.31,
+      "tsubo": 40.33,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221026113433.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "90c41a7fe558e73586eb7398a16d3cd4a8dfae51a41789b0f23edc3005c62aa1:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221026113433.jpg",
+          "alt": "3LDKの間取り図 2F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "aecf3ee278e50a0363e5781fdaa90bff8fb375fed96ee6421b45acc36428a4ed",
+      "title": "3LDKの間取り図 1F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "company": "cleverlyhome.com",
+      "layout": "3LDK",
+      "areaSqm": 114.26,
+      "tsubo": 34.56,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221026101437.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "aecf3ee278e50a0363e5781fdaa90bff8fb375fed96ee6421b45acc36428a4ed:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221026101437.jpg",
+          "alt": "3LDKの間取り図 1F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "d79fec9d6a6fa3a7a28740f598219cc3fe9491e6744801ebf0e63713b5fa21ef",
+      "title": "3LDKの間取り図 2F",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "company": "cleverlyhome.com",
+      "layout": "3LDK",
+      "areaSqm": 114.26,
+      "tsubo": 34.56,
+      "floors": "2階建て",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221026101439.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "d79fec9d6a6fa3a7a28740f598219cc3fe9491e6744801ebf0e63713b5fa21ef:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221026101439.jpg",
+          "alt": "3LDKの間取り図 2F",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "e1f5bcb76dbf9c4ce710a3f33feabcaa60f6391937ab29ba4a6ab3ddf5dff8df",
+      "title": "3LDKの間取り図 平屋",
+      "listingSource": "accepted cleverlyhome.com",
+      "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "company": "cleverlyhome.com",
+      "layout": "3LDK",
+      "areaSqm": 104.13,
+      "tsubo": 31.5,
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221025162012.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "e1f5bcb76dbf9c4ce710a3f33feabcaa60f6391937ab29ba4a6ab3ddf5dff8df:image",
+          "kind": "floorplan",
+          "url": "https://www.cleverlyhome.com/kurashi/wp-content/uploads/2023/06/20221025162012.jpg",
+          "alt": "3LDKの間取り図 平屋",
+          "sourceUrl": "https://www.cleverlyhome.com/kurashi/plan/9995",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-06-29T04:11:28.907Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782698265724",
-      "createdAt": "2026-06-29T01:57:45.702Z",
+      "id": "accepted_public_1782706878193",
+      "createdAt": "2026-06-29T04:21:18.177Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplan images: 439. Public plan groups: 424."
+      "message": "Accepted floorplan images: 434. Public plan groups: 419."
     }
   ]
 }
