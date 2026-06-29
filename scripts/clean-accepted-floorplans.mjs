@@ -72,7 +72,7 @@ function extraRejectReason(record) {
   if (/mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha|ウッドデッキ|カフェ|ldk|dsc|mg_|玄関|廊下|外観|内観/.test(text) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-photo-or-system-image";
   if (/[-_](?:120x68|160x90|300x200|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)/.test(text)) return "accepted-cleanup-small-thumbnail";
   if (/hamaguri\.co\.jp/.test(text) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
-  if (/yuyuhome\.co\.jp/.test(text) && !/floor_plan|madori|plan|間取り|図面|drawing/.test(decodedUrl.toLowerCase())) return "accepted-cleanup-domain-photo-gallery";
+  if (/yuyuhome\.co\.jp/.test(text) && !/floor_plan|madori|plan|間取り|図面|drawing/.test(decodedUrl.toLowerCase()) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/cleverlyhome\.com/.test(text) && !hasStrongFilePlanEvidence(record) && !isCleverlyPlanTitle(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/(chitose-home\.com|marusho-kensetsu\.co\.jp)/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/irohaie\.com/.test(text) && !hasStrongFilePlanEvidence(record) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";

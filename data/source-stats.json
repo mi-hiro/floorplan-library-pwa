@@ -5,7 +5,7 @@
     "rejectedCount": 0,
     "reviewCount": 11,
     "acceptanceRate": 1,
-    "lastCrawledAt": "2026-06-29T02:45:01.104Z",
+    "lastCrawledAt": "2026-06-29T18:35:36.508Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -60,7 +60,7 @@
     "rejectedCount": 25,
     "reviewCount": 65,
     "acceptanceRate": 0.615,
-    "lastCrawledAt": "2026-06-29T02:43:35.366Z",
+    "lastCrawledAt": "2026-06-29T18:34:22.295Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -71,7 +71,7 @@
     "rejectedCount": 67,
     "reviewCount": 40,
     "acceptanceRate": 0.013,
-    "lastCrawledAt": "2026-06-29T02:46:32.003Z",
+    "lastCrawledAt": "2026-06-29T18:37:07.064Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -79,10 +79,10 @@
   "forumu.co.jp": {
     "candidateCount": 555,
     "acceptedCount": 92,
-    "rejectedCount": 371,
+    "rejectedCount": 394,
     "reviewCount": 318,
     "acceptanceRate": 0.166,
-    "lastCrawledAt": "2026-06-29T02:45:10.643Z",
+    "lastCrawledAt": "2026-06-29T18:35:45.873Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -93,28 +93,28 @@
     "rejectedCount": 50,
     "reviewCount": 76,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-06-29T02:45:14.062Z",
+    "lastCrawledAt": "2026-06-29T18:35:49.249Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
   },
   "sekisuiheim.com": {
     "candidateCount": 850,
-    "acceptedCount": 4,
-    "rejectedCount": 252,
+    "acceptedCount": 10,
+    "rejectedCount": 265,
     "reviewCount": 725,
-    "acceptanceRate": 0.005,
-    "lastCrawledAt": "2026-06-29T02:44:57.767Z",
+    "acceptanceRate": 0.012,
+    "lastCrawledAt": "2026-06-29T18:35:32.045Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
   },
   "yuyuhome.co.jp": {
     "candidateCount": 1281,
-    "acceptedCount": 6,
-    "rejectedCount": 1110,
-    "reviewCount": 842,
-    "acceptanceRate": 0.005,
+    "acceptedCount": 10,
+    "rejectedCount": 1106,
+    "reviewCount": 855,
+    "acceptanceRate": 0.008,
     "lastCrawledAt": "2026-06-28T09:24:15.526Z",
     "blockReason": null,
     "nextCrawlAfter": null,
@@ -137,7 +137,7 @@
     "rejectedCount": 130,
     "reviewCount": 170,
     "acceptanceRate": 0.057,
-    "lastCrawledAt": "2026-06-29T02:45:49.505Z",
+    "lastCrawledAt": "2026-06-29T18:36:24.913Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -148,9 +148,9 @@
     "rejectedCount": 67,
     "reviewCount": 55,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-06-28T09:22:50.056Z",
+    "lastCrawledAt": "2026-06-29T18:30:21.409Z",
     "blockReason": "Failed to parse URL from <![CDATA[https://www.megasoft.co.jp/post-sitemap.xml]]>",
-    "nextCrawlAfter": "2026-06-29T09:22:50.056Z",
+    "nextCrawlAfter": "2026-06-30T18:30:21.409Z",
     "sourceQuality": "medium"
   },
   "irohaie.com": {
@@ -159,7 +159,7 @@
     "rejectedCount": 474,
     "reviewCount": 352,
     "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-06-29T02:44:55.484Z",
+    "lastCrawledAt": "2026-06-29T18:35:29.638Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -170,7 +170,7 @@
     "rejectedCount": 854,
     "reviewCount": 1234,
     "acceptanceRate": 0.054,
-    "lastCrawledAt": "2026-06-29T02:44:56.797Z",
+    "lastCrawledAt": "2026-06-29T18:35:30.804Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -181,7 +181,7 @@
     "rejectedCount": 39,
     "reviewCount": 38,
     "acceptanceRate": 0.093,
-    "lastCrawledAt": "2026-06-29T02:43:37.585Z",
+    "lastCrawledAt": "2026-06-29T18:35:31.358Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -332,10 +332,10 @@
   "with-e-home.com": {
     "candidateCount": 107,
     "acceptedCount": 5,
-    "rejectedCount": 91,
+    "rejectedCount": 93,
     "reviewCount": 16,
     "acceptanceRate": 0.047,
-    "lastCrawledAt": "2026-06-29T02:45:17.822Z",
+    "lastCrawledAt": "2026-06-29T18:35:53.006Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -343,10 +343,10 @@
   "searshome.co.jp": {
     "candidateCount": 133,
     "acceptedCount": 12,
-    "rejectedCount": 76,
+    "rejectedCount": 78,
     "reviewCount": 44,
     "acceptanceRate": 0.09,
-    "lastCrawledAt": "2026-06-29T02:46:28.106Z",
+    "lastCrawledAt": "2026-06-29T18:37:03.007Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -357,18 +357,18 @@
     "rejectedCount": 93,
     "reviewCount": 107,
     "acceptanceRate": 0.123,
-    "lastCrawledAt": "2026-06-28T18:33:26.407Z",
+    "lastCrawledAt": "2026-06-29T18:34:22.583Z",
     "blockReason": "fetch failed",
-    "nextCrawlAfter": "2026-06-29T18:33:26.407Z",
+    "nextCrawlAfter": "2026-06-30T18:34:22.583Z",
     "sourceQuality": "medium"
   },
   "aerahome.com": {
     "candidateCount": 151,
     "acceptedCount": 8,
-    "rejectedCount": 104,
+    "rejectedCount": 123,
     "reviewCount": 92,
     "acceptanceRate": 0.053,
-    "lastCrawledAt": "2026-06-29T02:46:35.885Z",
+    "lastCrawledAt": "2026-06-29T18:37:11.376Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-29T04:21:18.177Z",
-  "acceptedCount": 434,
-  "publicCandidateCount": 419,
+  "generatedAt": "2026-06-29T18:47:52.534Z",
+  "acceptedCount": 444,
+  "publicCandidateCount": 429,
   "multiImageCandidateCount": 102,
   "domains": {
     "ichijo.co.jp": {
@@ -14,7 +14,7 @@
       "acceptedCount": 24
     },
     "yuyuhome.co.jp": {
-      "acceptedCount": 6
+      "acceptedCount": 10
     },
     "genmai-home.com": {
       "acceptedCount": 1
@@ -41,7 +41,7 @@
       "acceptedCount": 111
     },
     "sekisuiheim.com": {
-      "acceptedCount": 4
+      "acceptedCount": 10
     },
     "searshome.co.jp": {
       "acceptedCount": 12
