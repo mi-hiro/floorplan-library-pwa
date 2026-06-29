@@ -353,10 +353,10 @@
   },
   "misawa.co.jp": {
     "candidateCount": 228,
-    "acceptedCount": 34,
-    "rejectedCount": 87,
+    "acceptedCount": 28,
+    "rejectedCount": 93,
     "reviewCount": 107,
-    "acceptanceRate": 0.149,
+    "acceptanceRate": 0.123,
     "lastCrawledAt": "2026-06-28T18:33:26.407Z",
     "blockReason": "fetch failed",
     "nextCrawlAfter": "2026-06-29T18:33:26.407Z",

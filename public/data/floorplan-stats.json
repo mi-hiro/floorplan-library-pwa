@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-29T01:57:45.702Z",
-  "acceptedCount": 439,
-  "publicCandidateCount": 424,
+  "generatedAt": "2026-06-29T02:35:33.372Z",
+  "acceptedCount": 433,
+  "publicCandidateCount": 418,
   "multiImageCandidateCount": 102,
   "domains": {
     "ichijo.co.jp": {
@@ -47,7 +47,7 @@
       "acceptedCount": 12
     },
     "misawa.co.jp": {
-      "acceptedCount": 34
+      "acceptedCount": 28
     },
     "aerahome.com": {
       "acceptedCount": 8

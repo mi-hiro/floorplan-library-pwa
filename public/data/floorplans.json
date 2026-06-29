@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-06-29T01:57:45.702Z",
+  "generatedAt": "2026-06-29T02:35:33.372Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -7514,39 +7514,6 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "7283c43e1e0fb6eb6989429e74e2ab7b47e93cf6190b79feb2d73bd41a42da5c",
-      "title": "平屋のリビングイメージ：広く明るいリビングには勾配天井を採用",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori_fv.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "7283c43e1e0fb6eb6989429e74e2ab7b47e93cf6190b79feb2d73bd41a42da5c:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori_fv.png",
-          "alt": "平屋のリビングイメージ：広く明るいリビングには勾配天井を採用",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
       "id": "e3af081202829f74d3b91583e1798a7e90051e61b8c850f5c460de262597c767",
       "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1階 間取り図",
       "listingSource": "accepted misawa.co.jp",
@@ -11015,181 +10982,6 @@
           "url": "https://www.forumu.co.jp/_src/1691/madori_04.webp?v=1735437185353",
           "alt": "madori-04｜FORUMU",
           "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "1f607b7ef7389dca6fb2c1e3708391b616461acb01a44678500cd771b5259d98",
-      "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 113.92,
-      "tsubo": 34.46,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "1f607b7ef7389dca6fb2c1e3708391b616461acb01a44678500cd771b5259d98:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img3.png",
-          "alt": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "419e4ca1cce4618895ff0675fff2fc7ec86075542c48cc08325ee8be756ba434",
-      "title": "SMART STYLE Roomie 29-1SE(SW)-2 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 97.51,
-      "tsubo": 29.5,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "419e4ca1cce4618895ff0675fff2fc7ec86075542c48cc08325ee8be756ba434:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img3.png",
-          "alt": "SMART STYLE Roomie 29-1SE(SW)-2 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "beb5f0204f2f26a62d37e189aa00bec06ad24a30204626478937dcd3cac8ec9d",
-      "title": "SMART STYLE 25-1W(E)-1 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "2LDK",
-      "areaSqm": 84.66,
-      "tsubo": 25.61,
-      "floors": "平屋",
-      "entranceDirection": "東",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "beb5f0204f2f26a62d37e189aa00bec06ad24a30204626478937dcd3cac8ec9d:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img3.png",
-          "alt": "SMART STYLE 25-1W(E)-1 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "a0b347f1866329c0e7cea839405a36ab8e0859b97b0114209dd826526eedaa38",
-      "title": "SMART STYLE Roomie 27-1SE-1 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 91.26,
-      "tsubo": 27.61,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "a0b347f1866329c0e7cea839405a36ab8e0859b97b0114209dd826526eedaa38:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img3.png",
-          "alt": "SMART STYLE Roomie 27-1SE-1 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-06-29T01:37:59.759Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "837210828b07ffead902cb16dcf1a291784f109c3f68c8112399a0d61874702b",
-      "title": "CENTURY Stylepro HIRAYA 28-1E(W)-1 外観",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 92.34,
-      "tsubo": 27.93,
-      "floors": "平屋",
-      "entranceDirection": "東",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img3.png"
-      ],
-      "imageCandidates": [
-        {
-          "id": "837210828b07ffead902cb16dcf1a291784f109c3f68c8112399a0d61874702b:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img3.png",
-          "alt": "CENTURY Stylepro HIRAYA 28-1E(W)-1 外観",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
           "ollamaReview": {
             "status": "checked",
             "model": "accepted-pipeline",
@@ -15808,14 +15600,14 @@
   ],
   "logs": [
     {
-      "id": "accepted_public_1782698265724",
-      "createdAt": "2026-06-29T01:57:45.702Z",
+      "id": "accepted_public_1782700533389",
+      "createdAt": "2026-06-29T02:35:33.372Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplan images: 439. Public plan groups: 424."
+      "message": "Accepted floorplan images: 433. Public plan groups: 418."
     }
   ]
 }

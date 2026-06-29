@@ -65,6 +65,7 @@ function extraRejectReason(record) {
   if (/\/common\/|noimg|placeholder|dummy|spacer|img-nav|nav-identity|pagetop|page_top|common\/tp\.gif/.test(text)) return "accepted-cleanup-common-ui-image";
   if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|og image|ogp|thumbnail|thumb|_thum|thum\.|tit_|bt_cate|btn_|bt_|txt[-_]|linenap|lineup_all|pc_linenap|sp_linenap/.test(text)) return "accepted-cleanup-text-or-thumbnail-image";
   if (/aerahome\.com\/column\/wp\/wp-content\/uploads\/.+\/column[0-9]+-01(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-aerahome-column-photo";
+  if (hasPhotoOnlyTitle(record)) return "accepted-cleanup-photo-only-title";
   if (/mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha|ウッドデッキ|カフェ|ldk|dsc|mg_|玄関|廊下|外観|内観/.test(text) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-photo-or-system-image";
   if (/[-_](?:120x68|160x90|300x200|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)/.test(text)) return "accepted-cleanup-small-thumbnail";
   if (/hamaguri\.co\.jp/.test(text) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
@@ -113,6 +114,15 @@ function isCleverlyPlanTitle(record) {
   const title = String(record.title || "").toLowerCase();
   return /間取り図\s*(?:1f|2f|１f|２f|１階|２階|平屋)|(?:1f|2f|１f|２f|１階|２階)の?間取り図|平屋間取り図/i.test(title) &&
     !/ldk|打ち合わせ|作成中|様子/.test(title);
+}
+
+function hasPhotoOnlyTitle(record) {
+  const title = String(record.title || "").toLowerCase();
+  if (!title) return false;
+  const hasPhotoWord = /外観|内観|施工写真|写真のみ|リビングイメージ|イメージ|photo|interior|exterior|facade|appearance|gallery/i.test(title) ||
+    /(?:リビング|ダイニング|キッチン|寝室|浴室|洗面|トイレ|玄関|和室|パントリー|ウォークイン|クローゼット|ランドリー|土間|ガレージ|吹き抜け|勾配天井|ワークスペース)(?:の|$|\s|　)/i.test(title);
+  if (!hasPhotoWord) return false;
+  return !/間取り|間取|平面図|図面|プラン|floor[-_ ]?plan|floorplan|madori|drawing|[1-7]s?ldk/i.test(title);
 }
 
 function isGenericUploadedPhoto(decodedUrl) {

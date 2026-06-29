@@ -260,6 +260,7 @@ function hasAcceptanceEvidence(candidate, visual) {
   if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|tr\?|og image|ogp|thumbnail|thumb|_thum|thum\.|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|[-_](?:120x68|160x90|300x200|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)|tit_|bt_cate|btn_|bt_|bn-footer|globalnav|sidebutton|pagetop|page_top|phone\.png|footer|header|recruit|request|contact|company|showroom|modelhouse|event|txt[-_]|linenap|lineup_all|noimg|placeholder|dummy|spacer|img-nav|nav-identity|common\/tp\.gif|mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha/.test(allSignal)) {
     return false;
   }
+  if (hasPhotoOnlyTitle(titleSignal)) return false;
   if (/aerahome\.com\/column\/wp\/wp-content\/uploads\/.+\/column[0-9]+-01(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) {
     return false;
   }
@@ -281,6 +282,15 @@ function hasAcceptanceEvidence(candidate, visual) {
 
 function hasTitlePlanEvidence(titleSignal) {
   return titleSignal.length <= 110 && /間取り図|平面図|図面|注文住宅の間取り|注文住宅.*プラン|間取り.*プラン|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)|間取り\s*(?:例|一覧|アーカイブ)|plan gallery|floor[-_ ]?plan archive|^平屋の間取り$/.test(titleSignal);
+}
+
+function hasPhotoOnlyTitle(titleSignal) {
+  const title = String(titleSignal || "").toLowerCase();
+  if (!title) return false;
+  const hasPhotoWord = /外観|内観|施工写真|写真のみ|リビングイメージ|イメージ|photo|interior|exterior|facade|appearance|gallery/i.test(title) ||
+    /(?:リビング|ダイニング|キッチン|寝室|浴室|洗面|トイレ|玄関|和室|パントリー|ウォークイン|クローゼット|ランドリー|土間|ガレージ|吹き抜け|勾配天井|ワークスペース)(?:の|$|\s|　)/i.test(title);
+  if (!hasPhotoWord) return false;
+  return !/間取り|間取|平面図|図面|プラン|floor[-_ ]?plan|floorplan|madori|drawing|[1-7]s?ldk/i.test(title);
 }
 
 function countDomainOllamaErrors(candidates) {
