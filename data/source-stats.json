@@ -104,7 +104,7 @@
     "rejectedCount": 288,
     "reviewCount": 725,
     "acceptanceRate": 0.025,
-    "lastCrawledAt": "2026-06-29T21:23:27.688Z",
+    "lastCrawledAt": "2026-06-29T21:54:23.355Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -166,10 +166,10 @@
   },
   "toyotahome.co.jp": {
     "candidateCount": 2062,
-    "acceptedCount": 111,
+    "acceptedCount": 200,
     "rejectedCount": 854,
     "reviewCount": 1234,
-    "acceptanceRate": 0.054,
+    "acceptanceRate": 0.097,
     "lastCrawledAt": "2026-06-29T21:23:26.063Z",
     "blockReason": null,
     "nextCrawlAfter": null,

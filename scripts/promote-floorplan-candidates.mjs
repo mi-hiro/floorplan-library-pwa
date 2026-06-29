@@ -199,7 +199,7 @@ async function main() {
       if (ollamaOptions.requestDelayMs > 0) await sleep(ollamaOptions.requestDelayMs);
     }
 
-    const finalConfidence = finalConfidenceFrom(visual, ollama);
+    const finalConfidence = finalConfidenceFrom(candidate, visual, ollama);
 
     if (ollama.status === "checked" && !ollama.isFloorplan) {
       rejected.push(makeRejected(candidate, visual, ollama, now, "ollama-rejected"));
@@ -504,6 +504,7 @@ function isStrongLegacyFloorplanReview(value) {
   if (value.status && value.status !== "checked") return false;
   if (value.isFloorplan !== true) return false;
   if (Number(value.confidence ?? 0) < 0.9) return false;
+  if (/^accepted-pipeline-companion$/i.test(String(value.model || "")) && /companion floor image|same plan companion floor image/i.test(String(value.reason || ""))) return true;
   const reason = String(value.reason || "");
   return /top[- ]?view|top[- ]?down|floor plan|residential floor plan|architectural drawing|layout of a .*floor plan/i.test(reason);
 }
@@ -518,10 +519,27 @@ function needsFreshOllamaReview(ollama) {
   return false;
 }
 
-function finalConfidenceFrom(visual, ollama) {
-  if (ollama.status === "checked") return Math.min(1, Math.max(0, ollama.confidence * 0.8 + visual.visualScore * 0.2));
+function finalConfidenceFrom(candidate, visual, ollama) {
+  if (ollama.status === "checked") {
+    const weighted = Math.min(1, Math.max(0, ollama.confidence * 0.8 + visual.visualScore * 0.2));
+    if (
+      ollama.category === "floorplan" &&
+      ollama.isFloorplan === true &&
+      ollama.isTopDownPlan === true &&
+      ollama.hasWallsOrRoomBoundaries === true &&
+      hasStrongConfidenceImageEvidence(candidate)
+    ) {
+      return Math.max(weighted, Math.min(0.97, ollama.confidence * 0.92 + visual.visualScore * 0.08 + 0.02));
+    }
+    return weighted;
+  }
   if (ollama.status === "error") return Math.min(0.84, visual.visualScore);
   return Math.min(0.84, visual.visualScore);
+}
+
+function hasStrongConfidenceImageEvidence(candidate) {
+  const { imageSignal } = acceptanceSignals(candidate);
+  return /madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|layout|間取り|間取|平面図|図面|plan[_-]?[0-9]|img_plan|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(imageSignal);
 }
 
 async function resolveOllamaRuntime(options) {
