@@ -257,7 +257,10 @@ function isAccepted(candidate, visual, ollama, finalConfidence, minConfidence) {
 function hasAcceptanceEvidence(candidate, visual) {
   const { fileSignal, imageSignal, titleSignal, allSignal } = acceptanceSignals(candidate);
   if (!isLikelyImageUrl(candidate.imageUrl || "")) return false;
-  if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|tr\?|og image|ogp|thumbnail|thumb|_thum|thum\.|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|[-_](?:120x68|160x90|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)|tit_|bt_cate|btn_|bt_|bn-footer|globalnav|sidebutton|pagetop|page_top|phone\.png|footer|header|recruit|request|contact|company|showroom|modelhouse|event|txt[-_]|linenap|lineup_all|noimg|placeholder|dummy|spacer|img-nav|nav-identity|common\/tp\.gif|mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha/.test(allSignal)) {
+  if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|tr\?|og image|ogp|thumbnail|thumb|_thum|thum\.|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|[-_](?:120x68|160x90|300x200|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)|tit_|bt_cate|btn_|bt_|bn-footer|globalnav|sidebutton|pagetop|page_top|phone\.png|footer|header|recruit|request|contact|company|showroom|modelhouse|event|txt[-_]|linenap|lineup_all|noimg|placeholder|dummy|spacer|img-nav|nav-identity|common\/tp\.gif|mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha/.test(allSignal)) {
+    return false;
+  }
+  if (/aerahome\.com\/column\/wp\/wp-content\/uploads\/.+\/column[0-9]+-01(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) {
     return false;
   }
   if (/打ち合わせ|作成中|様子/.test(titleSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;

@@ -5,7 +5,7 @@
     "rejectedCount": 0,
     "reviewCount": 11,
     "acceptanceRate": 1,
-    "lastCrawledAt": "2026-06-28T18:35:46.647Z",
+    "lastCrawledAt": "2026-06-29T01:36:23.572Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -46,7 +46,7 @@
   "hiyoriblog.com": {
     "candidateCount": 77,
     "acceptedCount": 1,
-    "rejectedCount": 48,
+    "rejectedCount": 53,
     "reviewCount": 29,
     "acceptanceRate": 0.013,
     "lastCrawledAt": "2026-06-28T09:25:02.312Z",
@@ -60,7 +60,7 @@
     "rejectedCount": 25,
     "reviewCount": 65,
     "acceptanceRate": 0.615,
-    "lastCrawledAt": "2026-06-28T18:34:22.520Z",
+    "lastCrawledAt": "2026-06-29T01:34:16.296Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -71,7 +71,7 @@
     "rejectedCount": 62,
     "reviewCount": 16,
     "acceptanceRate": 0,
-    "lastCrawledAt": "2026-06-28T18:37:16.480Z",
+    "lastCrawledAt": "2026-06-29T01:37:54.952Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -79,21 +79,21 @@
   "forumu.co.jp": {
     "candidateCount": 555,
     "acceptedCount": 103,
-    "rejectedCount": 282,
+    "rejectedCount": 291,
     "reviewCount": 318,
     "acceptanceRate": 0.186,
-    "lastCrawledAt": "2026-06-28T18:35:55.993Z",
+    "lastCrawledAt": "2026-06-29T01:36:33.265Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
   },
   "sfc.jp": {
-    "candidateCount": 89,
+    "candidateCount": 90,
     "acceptedCount": 24,
-    "rejectedCount": 49,
+    "rejectedCount": 50,
     "reviewCount": 76,
-    "acceptanceRate": 0.27,
-    "lastCrawledAt": "2026-06-28T18:35:59.412Z",
+    "acceptanceRate": 0.267,
+    "lastCrawledAt": "2026-06-29T01:36:36.677Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -137,7 +137,7 @@
     "rejectedCount": 130,
     "reviewCount": 170,
     "acceptanceRate": 0.057,
-    "lastCrawledAt": "2026-06-28T18:36:34.837Z",
+    "lastCrawledAt": "2026-06-29T01:37:12.414Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -159,7 +159,7 @@
     "rejectedCount": 474,
     "reviewCount": 352,
     "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-06-28T18:35:37.984Z",
+    "lastCrawledAt": "2026-06-29T01:36:15.189Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -170,7 +170,7 @@
     "rejectedCount": 854,
     "reviewCount": 1234,
     "acceptanceRate": 0.054,
-    "lastCrawledAt": "2026-06-28T18:35:39.177Z",
+    "lastCrawledAt": "2026-06-29T01:36:16.407Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -181,7 +181,7 @@
     "rejectedCount": 38,
     "reviewCount": 38,
     "acceptanceRate": 0.116,
-    "lastCrawledAt": "2026-06-28T18:34:23.293Z",
+    "lastCrawledAt": "2026-06-29T01:34:17.281Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -335,21 +335,21 @@
     "rejectedCount": 91,
     "reviewCount": 16,
     "acceptanceRate": 0.047,
-    "lastCrawledAt": "2026-06-28T18:36:03.106Z",
+    "lastCrawledAt": "2026-06-29T01:36:40.545Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
   },
   "searshome.co.jp": {
-    "candidateCount": 118,
+    "candidateCount": 133,
     "acceptedCount": 12,
-    "rejectedCount": 60,
-    "reviewCount": 40,
-    "acceptanceRate": 0.102,
-    "lastCrawledAt": "2026-06-28T18:37:12.529Z",
+    "rejectedCount": 76,
+    "reviewCount": 44,
+    "acceptanceRate": 0.09,
+    "lastCrawledAt": "2026-06-29T01:37:50.477Z",
     "blockReason": null,
     "nextCrawlAfter": null,
-    "sourceQuality": "medium"
+    "sourceQuality": "low"
   },
   "misawa.co.jp": {
     "candidateCount": 228,
@@ -365,10 +365,10 @@
   "aerahome.com": {
     "candidateCount": 151,
     "acceptedCount": 8,
-    "rejectedCount": 51,
+    "rejectedCount": 103,
     "reviewCount": 92,
     "acceptanceRate": 0.053,
-    "lastCrawledAt": "2026-06-28T18:37:20.379Z",
+    "lastCrawledAt": "2026-06-29T01:37:58.831Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"

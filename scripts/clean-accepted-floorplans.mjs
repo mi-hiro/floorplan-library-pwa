@@ -64,8 +64,9 @@ function extraRejectReason(record) {
   const text = `${record.title || ""} ${decodedUrl} ${record.source?.imageUrl || ""} ${record.context?.alt || ""}`.toLowerCase();
   if (/\/common\/|noimg|placeholder|dummy|spacer|img-nav|nav-identity|pagetop|page_top|common\/tp\.gif/.test(text)) return "accepted-cleanup-common-ui-image";
   if (/facebook\.com|tr\.line\.me|tag\.gif|google-analytics|googletagmanager|tracking|pixel|prev-image|next-image|pic_clm_list|pic_body|keyvisual|interview-nav|og image|ogp|thumbnail|thumb|_thum|thum\.|tit_|bt_cate|btn_|bt_|txt[-_]|linenap|lineup_all|pc_linenap|sp_linenap/.test(text)) return "accepted-cleanup-text-or-thumbnail-image";
+  if (/aerahome\.com\/column\/wp\/wp-content\/uploads\/.+\/column[0-9]+-01(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/.test(text) && !hasStrongFilePlanEvidence(record)) return "accepted-cleanup-aerahome-column-photo";
   if (/mainvisual|hero|gallery|photo|entrance|corridor|toilet|window|curtain|television|slidingdoor|livingcurtain|specialgift|siteguard|captcha|ウッドデッキ|カフェ|ldk|dsc|mg_|玄関|廊下|外観|内観/.test(text) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-photo-or-system-image";
-  if (/[-_](?:120x68|160x90|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)/.test(text)) return "accepted-cleanup-small-thumbnail";
+  if (/[-_](?:120x68|160x90|300x200|320x180)\.(?:jpe?g|png|webp)(?:$|[?#]|\s)/.test(text)) return "accepted-cleanup-small-thumbnail";
   if (/hamaguri\.co\.jp/.test(text) && !hasStrongPlanEvidence(record)) return "accepted-cleanup-domain-photo-gallery";
   if (/yuyuhome\.co\.jp/.test(text) && !/floor_plan|madori|plan|間取り|図面|drawing/.test(decodedUrl.toLowerCase())) return "accepted-cleanup-domain-photo-gallery";
   if (/cleverlyhome\.com/.test(text) && !hasStrongFilePlanEvidence(record) && !isCleverlyPlanTitle(record)) return "accepted-cleanup-domain-photo-gallery";
