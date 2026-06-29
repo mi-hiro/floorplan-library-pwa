@@ -490,6 +490,7 @@ export default function App() {
   const [floorplanSort, setFloorplanSort] = useState<SortKey>("newest");
   const [floorplanDisplay, setFloorplanDisplay] = useState<FloorplanDisplayMode>("compact");
   const [floorplanPage, setFloorplanPage] = useState(1);
+  const [selectedFloorplanImages, setSelectedFloorplanImages] = useState<Record<string, string>>({});
   const [editingProperty, setEditingProperty] = useState<FloorPlanProperty | undefined>();
   const [isCreating, setIsCreating] = useState(false);
   const [compareIds, setCompareIds] = useState<string[]>([]);
@@ -601,6 +602,22 @@ export default function App() {
       window.requestAnimationFrame(() => {
         document.getElementById("floorplans")?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
+    });
+  }
+
+  function getSelectedFloorplanImage(item: CollectedFloorplanItem) {
+    return item.images.find((image) => image.id === selectedFloorplanImages[item.id]) ?? item.images[0] ?? {
+      id: item.id,
+      title: item.title,
+      imageUrl: item.imageUrl,
+      imageLink: item.imageLink
+    };
+  }
+
+  function selectFloorplanImage(itemId: string, imageId: string) {
+    setSelectedFloorplanImages((current) => {
+      if (current[itemId] === imageId) return current;
+      return { ...current, [itemId]: imageId };
     });
   }
 
@@ -884,49 +901,56 @@ export default function App() {
                 {filteredCollectedFloorplans.length > 0 ? (
                   <>
                     <div className={`floorplan-gallery ${floorplanDisplay === "compact" ? "is-compact-list" : ""}`}>
-                      {pagedCollectedFloorplans.map((item) => (
-                        <article className="floorplan-tile" key={item.id}>
-                          <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(item.imageLink)}>
-                            <img src={item.imageUrl} alt={item.title} loading="lazy" />
-                          </button>
-                          {item.images.length > 1 ? (
-                            <div className="floorplan-image-strip" aria-label="階別の間取り図">
-                              {item.images.slice(0, 6).map((image, imageIndex) => (
-                                <button
-                                  className="floorplan-image-chip"
-                                  key={image.id}
-                                  type="button"
-                                  onClick={() => openExternalUrl(image.imageLink)}
-                                  title={image.title}
-                                >
-                                  <img src={image.imageUrl} alt={image.title} loading="lazy" />
-                                  <span>{floorplanImageBadge(image, imageIndex)}</span>
-                                </button>
-                              ))}
-                            </div>
-                          ) : null}
-                          <div className="floorplan-tile-body">
-                            <h3>{item.title}</h3>
-                            {floorplanMetaLabels(item).length > 0 ? (
-                              <div className="floorplan-meta">
-                                {floorplanMetaLabels(item).map((label) => (
-                                  <span key={label}>{label}</span>
-                                ))}
+                      {pagedCollectedFloorplans.map((item) => {
+                        const selectedImage = getSelectedFloorplanImage(item);
+                        return (
+                          <article className="floorplan-tile" key={item.id}>
+                            <button className="floorplan-image-button" type="button" onClick={() => openExternalUrl(selectedImage.imageLink)}>
+                              <img src={selectedImage.imageUrl} alt={selectedImage.title || item.title} loading="lazy" />
+                            </button>
+                            {item.images.length > 1 ? (
+                              <div className="floorplan-image-strip" aria-label="階別の間取り図">
+                                {item.images.slice(0, 6).map((image, imageIndex) => {
+                                  const isSelected = selectedImage.id === image.id;
+                                  return (
+                                    <button
+                                      className={`floorplan-image-chip ${isSelected ? "is-selected" : ""}`}
+                                      key={image.id}
+                                      type="button"
+                                      onClick={() => selectFloorplanImage(item.id, image.id)}
+                                      aria-pressed={isSelected}
+                                      title={`${floorplanImageBadge(image, imageIndex)}を大きく表示`}
+                                    >
+                                      <img src={image.imageUrl} alt={image.title} loading="lazy" />
+                                      <span>{floorplanImageBadge(image, imageIndex)}</span>
+                                    </button>
+                                  );
+                                })}
                               </div>
                             ) : null}
-                            <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
-                            <p className="muted-text floorplan-date">取得日時：{formatDate(item.fetchedAt)}</p>
-                            <div className="card-actions">
-                              <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || item.imageLink)}>
-                                元ページ
-                              </button>
-                              <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
-                                正式登録
-                              </button>
+                            <div className="floorplan-tile-body">
+                              <h3>{item.title}</h3>
+                              {floorplanMetaLabels(item).length > 0 ? (
+                                <div className="floorplan-meta">
+                                  {floorplanMetaLabels(item).map((label) => (
+                                    <span key={label}>{label}</span>
+                                  ))}
+                                </div>
+                              ) : null}
+                              <p className="muted-text">{item.listingSource || "掲載元未入力"} / {item.layout || "間取り未抽出"}</p>
+                              <p className="muted-text floorplan-date">取得日時：{formatDate(item.fetchedAt)}</p>
+                              <div className="card-actions">
+                                <button className="ghost-button" type="button" onClick={() => openExternalUrl(item.sourceUrl || selectedImage.imageLink)}>
+                                  元ページ
+                                </button>
+                                <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
+                                  正式登録
+                                </button>
+                              </div>
                             </div>
-                          </div>
-                        </article>
-                      ))}
+                          </article>
+                        );
+                      })}
                     </div>
                     <div className="pager-controls pager-controls-bottom">
                       <button className="secondary-button" type="button" disabled={floorplanPage <= 1} onClick={() => moveFloorplanPage(floorplanPage - 1)}>
