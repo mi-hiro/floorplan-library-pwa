@@ -857,6 +857,25 @@ h3 {
   gap: 12px;
 }
 
+.detail-back-button {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--primary);
+  border-radius: 7px;
+  padding: 9px 14px;
+  color: #fff;
+  background: var(--primary);
+  box-shadow: 0 8px 18px rgba(46, 111, 158, 0.22);
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+.detail-back-button:hover {
+  background: var(--primary-dark);
+}
+
 .floorplan-detail-header h2 {
   font-size: 1.15rem;
 }
@@ -1767,6 +1786,11 @@ h3 {
   .floorplan-detail-header {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .detail-back-button {
+    width: 100%;
+    min-height: 44px;
   }
 
   .section-heading.floorplan-list-heading {

@@ -914,8 +914,8 @@ export default function App() {
         return (
           <main className="single-main floorplan-detail-page">
             <section className="floorplan-detail-header">
-              <button className="secondary-button" type="button" onClick={() => setSelectedFloorplanDetailId(undefined)}>
-                一覧へ戻る
+              <button className="detail-back-button" type="button" onClick={() => setSelectedFloorplanDetailId(undefined)}>
+                ← 一覧へ戻る
               </button>
               <div>
                 <p className="eyebrow">詳細</p>
