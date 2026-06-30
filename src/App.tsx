@@ -59,6 +59,7 @@ const settingsTabs: { key: SettingsTabKey; label: string; icon: React.ElementTyp
 
 const AUTO_CRAWL_FEED_URL = `${import.meta.env.BASE_URL}data/floorplans.json`;
 const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at:v3";
+const LAST_AUTO_CRAWL_COUNT_KEY = "floorplan-library:last-auto-crawl-count:v1";
 
 type ImportCrawlOptions = {
   switchToCandidates?: boolean;
@@ -418,11 +419,21 @@ function sanitizeImageCandidates(images: NonNullable<CrawlCandidate["imageCandid
 }
 
 function isDisplayFloorplanImage(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  if (isAcceptedPublicFloorplanImage(image)) return true;
   if (hasHardNonFloorplanSignal(image)) return false;
   if (image.ollamaReview?.status === "checked" && image.ollamaReview.isFloorplan === false) return false;
   if (image.needsOllamaReview) return false;
   if (isOllamaAcceptedFloorplan(image)) return true;
   return hasStrongFloorplanSignal(image);
+}
+
+function isAcceptedPublicFloorplanImage(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
+  return (
+    image.kind === "floorplan" &&
+    image.ollamaReview?.status === "checked" &&
+    image.ollamaReview.isFloorplan === true &&
+    /accepted-pipeline/.test(image.ollamaReview.model || "")
+  );
 }
 
 function isOllamaAcceptedFloorplan(image: NonNullable<CrawlCandidate["imageCandidates"]>[number]) {
@@ -436,7 +447,7 @@ function hasStrongFloorplanSignal(image: NonNullable<CrawlCandidate["imageCandid
 
   if (/間取り図|平面図|図面|プラン[0-9０-９]+.*間取り|間取り.*[12１２]階|floor\s*plan|floorplan/i.test(altSignal)) return true;
   if (/間取り/i.test(altSignal) && /[2-5]\s*LDK|[0-9]{2}\s*坪|平屋|二階建|2階建|プラン|家/i.test(altSignal)) return true;
-  if (/madori|floor[-_]?plan|floor_plan|floorplan|layout|topview|top-view|zumen|drawing|heimen|hemen/i.test(fileSignal)) return true;
+  if (/madori|floor[-_]?plan|floor_plan|floorplan|layout|topview|top-view|zumen|drawing|heimen|hemen|平面/i.test(fileSignal)) return true;
   if (/(?:^|[_-])plan[-_]?[0-9]+|collection_plan|madori_thm|N[0-9]+-[12]F/i.test(fileSignal)) return true;
   return /floor[-_]?plan/i.test(tailSignal) && /map[0-9]|plan|layout/i.test(fileSignal);
 }
@@ -824,13 +835,17 @@ export default function App() {
 
       const crawlPackage = (await response.json()) as CrawlResultPackage;
       const lastGeneratedAt = localStorage.getItem(LAST_AUTO_CRAWL_KEY);
-      if (!crawlPackage.generatedAt || crawlPackage.generatedAt === lastGeneratedAt) {
+      const lastCandidateCount = Number(localStorage.getItem(LAST_AUTO_CRAWL_COUNT_KEY) || 0);
+      const hostedCandidateCount = Array.isArray(crawlPackage.candidates) ? crawlPackage.candidates.length : 0;
+      const shouldImportSameVersion = hostedCandidateCount > candidates.length || hostedCandidateCount > lastCandidateCount;
+      if (!crawlPackage.generatedAt || (crawlPackage.generatedAt === lastGeneratedAt && !shouldImportSameVersion)) {
         if (showNoUpdate) setAutoSyncStatus("新しい巡回データなし");
         return;
       }
 
       const result = await importCrawlPackage(crawlPackage, { switchToCandidates: false, replaceCandidates: true });
       localStorage.setItem(LAST_AUTO_CRAWL_KEY, crawlPackage.generatedAt);
+      localStorage.setItem(LAST_AUTO_CRAWL_COUNT_KEY, String(result.candidateCount));
       setAutoSyncStatus(`巡回候補 ${result.candidateCount}件に更新`);
     } catch {
       setAutoSyncStatus("巡回データ確認エラー");
