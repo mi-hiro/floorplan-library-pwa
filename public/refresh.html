@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f7fbff" />
+    <title>最新版へ更新中</title>
+    <style>
+      :root {
+        color: #102436;
+        background: #f2f7fb;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      main {
+        width: min(420px, 100%);
+        background: #ffffff;
+        border: 1px solid #c9dce8;
+        border-radius: 12px;
+        box-shadow: 0 18px 42px rgb(28 76 112 / 12%);
+        padding: 24px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: 24px;
+      }
+
+      p {
+        margin: 0 0 16px;
+        line-height: 1.7;
+        color: #516171;
+      }
+
+      .status {
+        margin-top: 18px;
+        padding: 12px;
+        border-radius: 8px;
+        background: #eef7fc;
+        color: #174a68;
+        font-weight: 700;
+      }
+
+      a {
+        color: #1d6e9d;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>最新版へ更新中</h1>
+      <p>古いPWA本体と古い自動収集一覧を整理して、公開中の最新版データを入れ直しています。</p>
+      <p>お気に入りや手動登録は消しません。</p>
+      <div class="status" id="status">更新を開始しています...</div>
+      <p id="fallback" hidden>自動で戻らない場合は、<a href="./?v=force-refresh#/library">こちら</a>を開いてください。</p>
+    </main>
+
+    <script>
+      const DB_NAME = "floorplan-library-db";
+      const DB_VERSION = 1;
+      const STORE_NAMES = ["properties", "sites", "candidates", "logs"];
+      const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at:v3";
+      const LAST_AUTO_CRAWL_COUNT_KEY = "floorplan-library:last-auto-crawl-count:v1";
+      const statusEl = document.getElementById("status");
+      const fallbackEl = document.getElementById("fallback");
+
+      function setStatus(message) {
+        statusEl.textContent = message;
+      }
+
+      function requestToPromise(request) {
+        return new Promise((resolve, reject) => {
+          request.onsuccess = () => resolve(request.result);
+          request.onerror = () => reject(request.error);
+        });
+      }
+
+      function openDatabase() {
+        return new Promise((resolve, reject) => {
+          const request = indexedDB.open(DB_NAME, DB_VERSION);
+          request.onupgradeneeded = () => {
+            const db = request.result;
+            STORE_NAMES.forEach((storeName) => {
+              if (!db.objectStoreNames.contains(storeName)) {
+                db.createObjectStore(storeName, { keyPath: "id" });
+              }
+            });
+          };
+          request.onsuccess = () => resolve(request.result);
+          request.onerror = () => reject(request.error);
+        });
+      }
+
+      async function replaceCandidates(candidates) {
+        const db = await openDatabase();
+        await new Promise((resolve, reject) => {
+          const tx = db.transaction("candidates", "readwrite");
+          const store = tx.objectStore("candidates");
+          store.clear();
+          candidates.forEach((candidate) => store.put(candidate));
+          tx.oncomplete = resolve;
+          tx.onerror = () => reject(tx.error);
+          tx.onabort = () => reject(tx.error);
+        });
+        db.close();
+      }
+
+      async function unregisterServiceWorkers() {
+        if (!("serviceWorker" in navigator)) return;
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(registrations.map((registration) => registration.unregister()));
+      }
+
+      async function clearCaches() {
+        if (!("caches" in window)) return;
+        const keys = await caches.keys();
+        await Promise.all(keys.map((key) => caches.delete(key)));
+      }
+
+      async function run() {
+        try {
+          setStatus("最新版データを取得しています...");
+          const response = await fetch(`./data/floorplans.json?force=${Date.now()}`, { cache: "no-store" });
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const payload = await response.json();
+          const candidates = Array.isArray(payload.candidates) ? payload.candidates : [];
+          if (!candidates.length) throw new Error("最新版データを読み込めませんでした");
+
+          setStatus(`${candidates.length}件の自動収集一覧へ入れ替えています...`);
+          await replaceCandidates(candidates);
+          localStorage.setItem(LAST_AUTO_CRAWL_KEY, payload.generatedAt || String(Date.now()));
+          localStorage.setItem(LAST_AUTO_CRAWL_COUNT_KEY, String(candidates.length));
+
+          setStatus("古いPWAキャッシュを整理しています...");
+          await clearCaches();
+          await unregisterServiceWorkers();
+
+          setStatus(`${candidates.length}件に更新しました。ライブラリへ戻ります...`);
+          fallbackEl.hidden = false;
+          window.setTimeout(() => {
+            window.location.replace(`./?v=${Date.now()}#/library`);
+          }, 1200);
+        } catch (error) {
+          console.error(error);
+          setStatus("更新に失敗しました。通信状態を確認して、もう一度開いてください。");
+          fallbackEl.hidden = false;
+        }
+      }
+
+      run();
+    </script>
+  </body>
+</html>
