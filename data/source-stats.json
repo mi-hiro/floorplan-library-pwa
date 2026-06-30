@@ -133,14 +133,14 @@
   },
   "kh-house.jp": {
     "candidateCount": 281,
-    "acceptedCount": 16,
-    "rejectedCount": 132,
+    "acceptedCount": 46,
+    "rejectedCount": 134,
     "reviewCount": 170,
-    "acceptanceRate": 0.057,
+    "acceptanceRate": 0.164,
     "lastCrawledAt": "2026-06-29T21:24:19.705Z",
     "blockReason": null,
     "nextCrawlAfter": null,
-    "sourceQuality": "low"
+    "sourceQuality": "medium"
   },
   "megasoft.co.jp": {
     "candidateCount": 120,

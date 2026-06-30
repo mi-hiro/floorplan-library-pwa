@@ -136,7 +136,7 @@ function hasStrongPlanEvidence(record) {
   if (/with-e-home\.com\/img\/uploads\/plans\/\d{4}-\d{2}-\d{2}\/[^?#\s]+\.png/i.test(url)) return true;
   if (title.length <= 70 && /^平屋の間取り$/.test(title)) return true;
   if (title.length <= 110 && /間取りの(?:１|1|２|2|３|3|一|二|三)?階部分|注文住宅の間取り|注文住宅.*プラン|間取り.*プラン|間取り図plan|平面図|図面|平屋.*間取り(?:事例|プラン)|間取り(?:事例|プラン|集)|間取り\s*(?:例|一覧|アーカイブ)|plan gallery|floor[-_ ]?plan archive/i.test(title)) return true;
-  if (/floor_plan|floorplan|topview_plan|madori|drawing|layout|plan[_-]?[0-9]|pic_small_pl_p[0-9]/i.test(url)) return true;
+  if (/floor_plan|floorplan|topview_plan|madori|drawing|layout|平面|plan[_-]?[0-9]|pic_small_pl_p[0-9]/i.test(url)) return true;
   return false;
 }
 
@@ -144,14 +144,14 @@ function hasStrongImagePlanEvidence(record) {
   const url = safeDecode(record.source?.imageUrl || "").toLowerCase();
   const fileName = url.split(/[/?#]/)[0].split("/").filter(Boolean).pop() || url;
   const alt = String(record.context?.alt || "").toLowerCase();
-  return /madori|floor[-_ ]?plan|floorplan|layout|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(`${fileName} ${alt}`);
+  return /madori|floor[-_ ]?plan|floorplan|layout|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(`${fileName} ${alt}`);
 }
 
 function hasStrongFilePlanEvidence(record) {
   const url = safeDecode(record.source?.imageUrl || "").toLowerCase();
   const path = url.replace(/^https?:\/\/[^/]+/i, "").split(/[?#]/)[0];
   const fileName = path.split("/").filter(Boolean).pop() || path;
-  return /madori|floor[-_ ]?plan|floorplan|layout|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileName);
+  return /madori|floor[-_ ]?plan|floorplan|layout|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileName);
 }
 
 function isCleverlyPlanTitle(record) {
