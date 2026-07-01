@@ -1,14 +1,14 @@
 {
   "ichijo.co.jp": {
-    "candidateCount": 22,
-    "acceptedCount": 22,
-    "rejectedCount": 0,
-    "reviewCount": 11,
-    "acceptanceRate": 1,
-    "lastCrawledAt": "2026-06-29T21:23:31.085Z",
+    "candidateCount": 435,
+    "acceptedCount": 88,
+    "rejectedCount": 170,
+    "reviewCount": 215,
+    "acceptanceRate": 0.202,
+    "lastCrawledAt": "2026-07-01T03:01:04.406Z",
     "blockReason": null,
     "nextCrawlAfter": null,
-    "sourceQuality": "high"
+    "sourceQuality": "medium"
   },
   "eyefulhome.jp": {
     "candidateCount": 136,
@@ -55,15 +55,15 @@
     "sourceQuality": "low"
   },
   "zerohome.jp": {
-    "candidateCount": 65,
+    "candidateCount": 280,
     "acceptedCount": 40,
-    "rejectedCount": 25,
-    "reviewCount": 65,
-    "acceptanceRate": 0.615,
-    "lastCrawledAt": "2026-06-29T21:22:17.341Z",
+    "rejectedCount": 102,
+    "reviewCount": 203,
+    "acceptanceRate": 0.143,
+    "lastCrawledAt": "2026-07-01T02:58:25.896Z",
     "blockReason": null,
     "nextCrawlAfter": null,
-    "sourceQuality": "high"
+    "sourceQuality": "medium"
   },
   "tanaken.co.jp": {
     "candidateCount": 77,
@@ -71,7 +71,7 @@
     "rejectedCount": 67,
     "reviewCount": 40,
     "acceptanceRate": 0.013,
-    "lastCrawledAt": "2026-06-29T21:25:01.992Z",
+    "lastCrawledAt": "2026-07-01T03:02:45.151Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -82,7 +82,7 @@
     "rejectedCount": 394,
     "reviewCount": 318,
     "acceptanceRate": 0.166,
-    "lastCrawledAt": "2026-06-29T21:23:40.422Z",
+    "lastCrawledAt": "2026-07-01T03:01:22.979Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -93,7 +93,7 @@
     "rejectedCount": 50,
     "reviewCount": 76,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-06-29T21:23:43.918Z",
+    "lastCrawledAt": "2026-07-01T03:01:26.599Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -132,12 +132,12 @@
     "sourceQuality": "low"
   },
   "kh-house.jp": {
-    "candidateCount": 281,
+    "candidateCount": 302,
     "acceptedCount": 46,
-    "rejectedCount": 134,
-    "reviewCount": 170,
-    "acceptanceRate": 0.164,
-    "lastCrawledAt": "2026-06-29T21:24:19.705Z",
+    "rejectedCount": 150,
+    "reviewCount": 175,
+    "acceptanceRate": 0.152,
+    "lastCrawledAt": "2026-07-01T03:02:02.085Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -148,9 +148,9 @@
     "rejectedCount": 70,
     "reviewCount": 55,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-06-29T18:30:21.409Z",
+    "lastCrawledAt": "2026-06-30T18:32:08.824Z",
     "blockReason": "Failed to parse URL from <![CDATA[https://www.megasoft.co.jp/post-sitemap.xml]]>",
-    "nextCrawlAfter": "2026-06-30T18:30:21.409Z",
+    "nextCrawlAfter": "2026-07-01T18:32:08.824Z",
     "sourceQuality": "medium"
   },
   "irohaie.com": {
@@ -159,18 +159,18 @@
     "rejectedCount": 474,
     "reviewCount": 352,
     "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-06-29T21:23:24.223Z",
+    "lastCrawledAt": "2026-07-01T03:00:45.304Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
   },
   "toyotahome.co.jp": {
-    "candidateCount": 2062,
+    "candidateCount": 2066,
     "acceptedCount": 200,
-    "rejectedCount": 854,
+    "rejectedCount": 858,
     "reviewCount": 1234,
     "acceptanceRate": 0.097,
-    "lastCrawledAt": "2026-06-29T21:23:26.063Z",
+    "lastCrawledAt": "2026-07-01T03:00:47.052Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -181,7 +181,7 @@
     "rejectedCount": 39,
     "reviewCount": 38,
     "acceptanceRate": 0.093,
-    "lastCrawledAt": "2026-06-29T21:23:26.535Z",
+    "lastCrawledAt": "2026-07-01T03:00:47.733Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -335,7 +335,7 @@
     "rejectedCount": 93,
     "reviewCount": 16,
     "acceptanceRate": 0.047,
-    "lastCrawledAt": "2026-06-29T21:23:47.907Z",
+    "lastCrawledAt": "2026-07-01T03:01:30.381Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -346,7 +346,7 @@
     "rejectedCount": 78,
     "reviewCount": 44,
     "acceptanceRate": 0.09,
-    "lastCrawledAt": "2026-06-29T21:24:58.027Z",
+    "lastCrawledAt": "2026-07-01T03:02:40.189Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -357,9 +357,9 @@
     "rejectedCount": 93,
     "reviewCount": 107,
     "acceptanceRate": 0.123,
-    "lastCrawledAt": "2026-06-29T18:34:22.583Z",
+    "lastCrawledAt": "2026-06-30T18:35:43.170Z",
     "blockReason": "fetch failed",
-    "nextCrawlAfter": "2026-06-30T18:34:22.583Z",
+    "nextCrawlAfter": "2026-07-01T18:35:43.170Z",
     "sourceQuality": "medium"
   },
   "aerahome.com": {
@@ -368,7 +368,7 @@
     "rejectedCount": 123,
     "reviewCount": 92,
     "acceptanceRate": 0.053,
-    "lastCrawledAt": "2026-06-29T21:25:05.894Z",
+    "lastCrawledAt": "2026-07-01T03:02:49.094Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -376,10 +376,10 @@
   "be-enough.jp": {
     "candidateCount": 5098,
     "acceptedCount": 115,
-    "rejectedCount": 41,
-    "reviewCount": 417,
+    "rejectedCount": 3865,
+    "reviewCount": 1154,
     "acceptanceRate": 0.023,
-    "lastCrawledAt": "2026-06-29T22:48:21.254Z",
+    "lastCrawledAt": "2026-07-01T03:03:23.692Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
