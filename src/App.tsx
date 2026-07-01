@@ -47,7 +47,7 @@ const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
 
 type SettingsTabKey = "sites" | "crawlSettings" | "candidates" | "logs";
 type SortKey = "newest" | "oldest" | "source" | "layout";
-type PageSize = 20 | 40 | 60;
+type PageSize = 20 | 40 | 60 | 80 | 100;
 type FloorplanDisplayMode = "cards" | "compact";
 
 const settingsTabs: { key: SettingsTabKey; label: string; icon: React.ElementType }[] = [
@@ -1053,6 +1053,8 @@ export default function App() {
                       <option value={20}>20件</option>
                       <option value={40}>40件</option>
                       <option value={60}>60件</option>
+                      <option value={80}>80件</option>
+                      <option value={100}>100件</option>
                     </select>
                   </label>
                   <label className="field compact-field">

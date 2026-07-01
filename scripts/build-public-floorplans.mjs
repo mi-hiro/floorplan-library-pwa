@@ -60,6 +60,15 @@ function acceptedGroupKey(record) {
   const splitImageKey = floorSplitImageGroupKey(imageUrl);
   if (splitImageKey) return `image:${record.source?.sourceDomain || ""}:${splitImageKey}`;
 
+  const sequenceKey = floorSequenceGroupKey(record);
+  if (sequenceKey) return `sequence:${record.source?.sourceDomain || ""}:${sequenceKey}`;
+
+  const pageImageKey = pageImageGroupKey(record);
+  if (pageImageKey) return `page-image:${record.source?.sourceDomain || ""}:${pageImageKey}`;
+
+  const detailPageKey = detailPageFloorGroupKey(record);
+  if (detailPageKey) return `detail-page:${record.source?.sourceDomain || ""}:${detailPageKey}`;
+
   return `record:${record.id}`;
 }
 
@@ -71,12 +80,59 @@ function floorSplitImageGroupKey(rawUrl) {
     .replace(/-\d+x\d+(?=\.(?:jpe?g|png|webp|gif)$)/i, "")
     .replace(/(_heimen)[0-9]+(?=\.(?:jpe?g|png|webp|gif)$)/i, "$1")
     .replace(/(plan[0-9]+)-img0[23](?=\.(?:jpe?g|png|webp|gif)$)/i, "$1-img")
+    .replace(/(\/case\/[^/]+\/images\/img_plan_)0?[1-3](?:_sp)?(?=\.(?:jpe?g|png|webp|gif)$)/i, "$1floor")
     .replace(/([_-])(?:[1-3]|[1-3]f|[1-3]F|[１２３]|[１２３]f|[１２３]F|[一二三]階|[1-3]階)(?=\.(?:jpe?g|png|webp|gif)$)/i, "");
 
   if (grouped === normalized) return "";
   if (!extensionPattern.test(grouped)) return "";
   if (!/madori|floor[-_]?plan|floorplan|floor_plan|heimen|zumen|drawing|collection_plan|topview|plan|間取り|間取|平面|図面/i.test(grouped)) return "";
   return grouped;
+}
+
+function floorSequenceGroupKey(record) {
+  const pageUrl = normalizeUrl(record.source?.pageUrl || "");
+  const imageUrl = normalizeUrl(record.source?.imageUrl || "");
+  const floor = floorOrder(record);
+  if (!pageUrl || floor >= 9) return "";
+
+  const sfcMatch = imageUrl.match(/\/ie\/myhome\/img\/([0-9]+)_([0-9]+)\.(?:jpe?g|png|webp)$/i);
+  if (sfcMatch) {
+    const imageNumber = Number(sfcMatch[2]);
+    if (!Number.isFinite(imageNumber)) return "";
+    const floorOffset = floor === 1.5 ? 1 : Math.max(0, Math.floor(floor) - 1);
+    const groupStart = imageNumber - floorOffset;
+    return `${pageUrl}:sfc-${sfcMatch[1]}-${groupStart}`;
+  }
+
+  if (/cleverlyhome\.com\/kurashi\/plan\//i.test(pageUrl)) {
+    const layout = record.metadata?.layout?.value || "layout-unknown";
+    const area = record.metadata?.totalFloorAreaSqm?.value ? Number(record.metadata.totalFloorAreaSqm.value).toFixed(2) : "area-unknown";
+    const title = normalizePlanTitleBase(record.title || record.context?.alt || "");
+    return `${pageUrl}:${layout}:${area}:${title || "floorplan"}`;
+  }
+
+  return "";
+}
+
+function pageImageGroupKey(record) {
+  const pageUrl = normalizeUrl(record.source?.pageUrl || "");
+  const imageUrl = normalizeUrl(record.source?.imageUrl || "");
+  if (!pageUrl || !imageUrl) return "";
+
+  const forumuPlanPage = pageUrl.match(/forumu\.co\.jp\/madori\/madori-([0-9]+)\.html$/i);
+  const forumuImage = imageUrl.match(/\/(?:[^/]+\/)?(madori[_-][0-9]+)\.(?:jpe?g|png|webp)$/i);
+  if (forumuPlanPage && forumuImage) return `${pageUrl}:${forumuImage[1]}`;
+
+  return "";
+}
+
+function detailPageFloorGroupKey(record) {
+  const pageUrl = normalizeUrl(record.source?.pageUrl || "");
+  if (!pageUrl || floorOrder(record) >= 9) return "";
+  if (/\/case\/[^/?#]+\/?$/i.test(pageUrl) || /\/works?\/[^/?#]+\/?$/i.test(pageUrl)) {
+    return pageUrl;
+  }
+  return "";
 }
 
 function compareFloorRecords(a, b) {
@@ -95,6 +151,10 @@ function floorOrderFromImage(image) {
 function floorOrderFromSignal(signal) {
   if (/be-enough\.jp\/.+\/plan[0-9]+-img02(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/i.test(signal)) return 1;
   if (/be-enough\.jp\/.+\/plan[0-9]+-img03(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/i.test(signal)) return 2;
+  if (/(?:^|[^0-9０-９])(?:1|１|一)階(?:部分|間取り)|(?:^|[^0-9０-９])(?:1|１|一)F(?:\s|$)/i.test(signal)) return 1;
+  if (/(?:1\.5|１\.５)階(?:部分|間取り)|(?:1\.5|１\.５)F(?:\s|$)/i.test(signal)) return 1.5;
+  if (/(?:^|[^0-9０-９])(?:2|２|二)階(?:部分|間取り)|(?:^|[^0-9０-９])(?:2|２|二)F(?:\s|$)/i.test(signal)) return 2;
+  if (/(?:^|[^0-9０-９])(?:3|３|三)階(?:部分|間取り)|(?:^|[^0-9０-９])(?:3|３|三)F(?:\s|$)/i.test(signal)) return 3;
   if (/1\.5階|１\.５階/.test(signal)) return 1.5;
   if (/(?:^|[_-])1f|(?:^|[_-])1F|1階|１階|一階|_heimen1|-[1１](?=\.)/.test(signal)) return 1;
   if (/(?:^|[_-])2f|(?:^|[_-])2F|2階|２階|二階|_heimen2|-[2２](?=\.)/.test(signal)) return 2;
@@ -220,12 +280,35 @@ function imageAlt(record, index) {
 function displayTitle(group) {
   const first = group[0];
   if (group.length === 1) return first.title || "間取り図";
-  const base = normalizeWhitespace(first.title || "間取り図")
+  const titleCandidates = [
+    first.title,
+    first.context?.alt,
+    first.context?.caption,
+    first.context?.pageTitle,
+    ...group.map((record) => record.title)
+  ]
+    .map((value) => normalizePlanTitleBase(value || ""))
+    .map((value) => value.replace(/\s*[｜|].*$/, "").trim())
+    .filter((value) => value && !isGenericPlanTitle(value));
+  return titleCandidates[0] || normalizePlanTitleBase(first.context?.pageTitle || "") || "間取り図";
+}
+
+function normalizePlanTitleBase(value) {
+  return normalizeWhitespace(value || "")
     .replace(/[（(【\[]\s*(?:1\.5階|１\.５階|[1-3１２３]\s*(?:階|F|f)|[一二三]階)(?:部分)?\s*[）)】\]]/g, " ")
-    .replace(/\s+(?:1\.5階|１\.５階|[1-3１２３]\s*(?:階|F|f)|[一二三]階)(?:部分)?$/g, "")
+    .replace(/の(?:1\.5階|１\.５階|[1-3１２３]\s*階|[一二三]階)部分/g, "")
+    .replace(/(?:1\.5階|１\.５階|[1-3１２３]\s*階|[一二三]階)部分/g, "")
+    .replace(/(間取り図?)\s*(?:[1-3]F|[1-3]f)$/g, "$1")
+    .replace(/\s+(?:[1-3]F|[1-3]f)$/g, "")
+    .replace(/の部分/g, "")
+    .replace(/^(?:1\.5階|１\.５階|[1-3１２３]\s*階|[一二三]階)の間取り$/g, "")
     .replace(/\s+/g, " ")
     .trim();
-  return base || first.title || "間取り図";
+}
+
+function isGenericPlanTitle(value) {
+  const normalized = normalizeWhitespace(value);
+  return !normalized || /^(?:間取り|間取り図|平面図|の間取り|imgsrc[0-9_]+)$/i.test(normalized);
 }
 
 function buildStats(records, candidates, generatedAt) {
