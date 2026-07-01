@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-01T02:18:42.286Z",
-  "acceptedCount": 733,
-  "publicCandidateCount": 545,
+  "generatedAt": "2026-07-01T03:07:28.653Z",
+  "acceptedCount": 755,
+  "publicCandidateCount": 567,
   "multiImageCandidateCount": 181,
   "domains": {
     "ichijo.co.jp": {
-      "acceptedCount": 66
+      "acceptedCount": 88
     },
     "forumu.co.jp": {
       "acceptedCount": 92
