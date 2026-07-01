@@ -374,20 +374,20 @@
       "lastSitemapCandidateCount": 298
     },
     "suumo.jp": {
-      "portalPilotLastRunAt": "2026-07-01T21:33:57.661Z",
-      "lastPortalCandidateCount": 198,
-      "nextCrawlAfter": "2026-07-02T21:35:37.555Z",
-      "lastCrawledAt": "2026-07-01T21:35:37.555Z",
+      "portalPilotLastRunAt": "2026-07-01T21:54:16.127Z",
+      "lastPortalCandidateCount": 200,
+      "nextCrawlAfter": "2026-07-02T21:55:57.167Z",
+      "lastCrawledAt": "2026-07-01T21:55:57.167Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
-      "suumoRegionCursor": 12,
+      "suumoRegionCursor": 24,
       "suumoRegionCount": 47,
       "lastPortalRegionRoots": [
-        "https://suumo.jp/chumon/tn_kanagawa/jitsurei/",
-        "https://suumo.jp/chumon/tn_saitama/jitsurei/",
-        "https://suumo.jp/chumon/tn_chiba/jitsurei/",
-        "https://suumo.jp/chumon/tn_ibaraki/jitsurei/"
+        "https://suumo.jp/chumon/tn_aichi/jitsurei/",
+        "https://suumo.jp/chumon/tn_shizuoka/jitsurei/",
+        "https://suumo.jp/chumon/tn_gifu/jitsurei/",
+        "https://suumo.jp/chumon/tn_mie/jitsurei/"
       ]
     },
     "universalhome.co.jp": {
@@ -472,5 +472,5 @@
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12073&amp;ad_cd=hp_housing_top_madori"
     ]
   },
-  "updatedAt": "2026-07-01T21:35:37.555Z"
+  "updatedAt": "2026-07-01T21:55:57.167Z"
 }
