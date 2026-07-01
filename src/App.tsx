@@ -1,16 +1,18 @@
 import {
   ClipboardList,
   Database,
+  FileDown,
   Heart,
   Home,
   LayoutGrid,
   Plus,
+  Printer,
   Scale,
   Settings,
   ShieldCheck,
   SlidersHorizontal
 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { CandidatesView, CrawlSettingsView, LogsView, SitesView } from "./components/AdminViews";
 import { CompareView } from "./components/CompareView";
 import { defaultFilters, FilterPanel } from "./components/FilterPanel";
@@ -241,6 +243,20 @@ function floorplanDetailRows(item: CollectedFloorplanItem) {
     ["元ページURL", item.sourceUrl || "未入力"],
     ["画像URL", item.images.map((image) => image.imageLink).join("\n")]
   ];
+}
+
+function floorplanPrintLayoutStyle(imageCount: number): CSSProperties {
+  const safeCount = Math.max(1, imageCount);
+  const columns = safeCount <= 1 ? 1 : safeCount <= 4 ? 2 : safeCount <= 6 ? 3 : 4;
+  const rows = Math.max(1, Math.ceil(safeCount / columns));
+  return {
+    "--print-cols": String(columns),
+    "--print-rows": String(rows)
+  } as CSSProperties;
+}
+
+function safeDocumentTitle(value: string) {
+  return (value || "間取り図").replace(/[\\/:*?"<>|]/g, " ").replace(/\s+/g, " ").trim().slice(0, 80) || "間取り図";
 }
 
 function isSameCandidateProperty(property: FloorPlanProperty, candidate: CrawlCandidate) {
@@ -695,6 +711,18 @@ export default function App() {
     });
   }
 
+  function printFloorplanDetail(item: CollectedFloorplanItem, mode: "print" | "pdf") {
+    if (typeof window === "undefined") return;
+    const previousTitle = document.title;
+    document.title = `${mode === "pdf" ? "PDF " : ""}${safeDocumentTitle(item.title)}`;
+    window.requestAnimationFrame(() => {
+      window.print();
+      window.setTimeout(() => {
+        document.title = previousTitle;
+      }, 700);
+    });
+  }
+
   async function addLog(log: Omit<CrawlLog, "id" | "createdAt">) {
     const next: CrawlLog = { ...log, id: makeId("log"), createdAt: nowIso() };
     await putItem("logs", next);
@@ -989,6 +1017,14 @@ export default function App() {
                   <button className="ghost-button" type="button" onClick={() => openExternalUrl(selectedImage.imageLink)}>
                     画像を開く
                   </button>
+                  <button className="ghost-button" type="button" onClick={() => printFloorplanDetail(item, "print")}>
+                    <Printer size={16} />
+                    印刷
+                  </button>
+                  <button className="ghost-button" type="button" onClick={() => printFloorplanDetail(item, "pdf")}>
+                    <FileDown size={16} />
+                    PDF出力
+                  </button>
                   <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
                     お気に入り
                   </button>
@@ -1022,6 +1058,33 @@ export default function App() {
                   </button>
                 ))}
               </div>
+            </section>
+
+            <section className="floorplan-print-sheet" aria-hidden="true" style={floorplanPrintLayoutStyle(item.images.length)}>
+              <header className="floorplan-print-header">
+                <div>
+                  <p>間取り図ライブラリ</p>
+                  <h1>{item.title}</h1>
+                </div>
+                <span>{formatDate(item.fetchedAt)}</span>
+              </header>
+              <div className="floorplan-print-meta">
+                {floorplanMetaLabels(item).map((label) => (
+                  <span key={label}>{label}</span>
+                ))}
+              </div>
+              <div className="floorplan-print-images">
+                {item.images.map((image, imageIndex) => (
+                  <figure className="floorplan-print-image" key={image.id}>
+                    <img src={image.imageUrl} alt={image.title || item.title} loading="eager" />
+                    <figcaption>{floorplanImageBadge(image, imageIndex)}</figcaption>
+                  </figure>
+                ))}
+              </div>
+              <footer className="floorplan-print-footer">
+                <span>{item.company || item.listingSource || "掲載元未入力"}</span>
+                <span>{item.sourceUrl || selectedImage.imageLink}</span>
+              </footer>
             </section>
           </main>
         );

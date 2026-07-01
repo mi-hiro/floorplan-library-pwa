@@ -962,7 +962,7 @@ h3 {
 
 .detail-actions {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
   gap: 8px;
 }
 
@@ -1020,6 +1020,17 @@ h3 {
   width: 100%;
   height: 160px;
   object-fit: contain;
+}
+
+.floorplan-print-sheet {
+  position: absolute;
+  left: -10000px;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .floorplan-detail-button {
@@ -1982,5 +1993,148 @@ h3 {
   .floorplan-gallery.is-compact-list .card-actions .ghost-button,
   .floorplan-gallery.is-compact-list .card-actions .primary-button {
     flex: 1 1 42%;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 8mm;
+  }
+
+  html,
+  body {
+    width: 297mm;
+    height: 210mm;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    background: #fff !important;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  .floorplan-print-sheet,
+  .floorplan-print-sheet * {
+    visibility: visible !important;
+  }
+
+  .floorplan-print-sheet {
+    position: fixed;
+    inset: 0;
+    width: calc(297mm - 16mm);
+    height: calc(210mm - 16mm);
+    display: grid;
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
+    gap: 3.5mm;
+    overflow: hidden;
+    opacity: 1;
+    pointer-events: none;
+    color: #111;
+    background: #fff;
+    break-after: avoid;
+    page-break-after: avoid;
+    font-family: "Noto Sans JP", "Yu Gothic", Meiryo, system-ui, sans-serif;
+  }
+
+  .floorplan-print-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 6mm;
+    align-items: end;
+    border-bottom: 0.4mm solid #1f2d38;
+    padding-bottom: 2mm;
+  }
+
+  .floorplan-print-header p {
+    margin: 0 0 1mm;
+    color: #35566e;
+    font-size: 8pt;
+    font-weight: 800;
+  }
+
+  .floorplan-print-header h1 {
+    margin: 0;
+    font-size: 13pt;
+    line-height: 1.25;
+  }
+
+  .floorplan-print-header span {
+    color: #555;
+    font-size: 8pt;
+    white-space: nowrap;
+  }
+
+  .floorplan-print-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5mm;
+    min-height: 6mm;
+  }
+
+  .floorplan-print-meta span {
+    border: 0.25mm solid #8fb2ca;
+    border-radius: 999px;
+    padding: 0.9mm 2mm;
+    color: #173d59;
+    background: #edf6fb;
+    font-size: 7.5pt;
+    font-weight: 800;
+  }
+
+  .floorplan-print-images {
+    min-height: 0;
+    display: grid;
+    grid-template-columns: repeat(var(--print-cols), minmax(0, 1fr));
+    grid-template-rows: repeat(var(--print-rows), minmax(0, 1fr));
+    gap: 3mm;
+  }
+
+  .floorplan-print-image {
+    min-width: 0;
+    min-height: 0;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 1mm;
+    margin: 0;
+    padding: 2mm;
+    border: 0.25mm solid #d1dde6;
+    border-radius: 2mm;
+    background: #fff;
+    overflow: hidden;
+  }
+
+  .floorplan-print-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    object-fit: contain;
+  }
+
+  .floorplan-print-image figcaption {
+    color: #173d59;
+    font-size: 8pt;
+    font-weight: 900;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .floorplan-print-footer {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 4mm;
+    padding-top: 2mm;
+    border-top: 0.25mm solid #d1dde6;
+    color: #555;
+    font-size: 7pt;
+    line-height: 1.25;
+  }
+
+  .floorplan-print-footer span:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
