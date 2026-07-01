@@ -5,7 +5,7 @@
     "rejectedCount": 189,
     "reviewCount": 215,
     "acceptanceRate": 0.315,
-    "lastCrawledAt": "2026-07-01T04:25:28.902Z",
+    "lastCrawledAt": "2026-07-01T06:22:31.559Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -46,7 +46,7 @@
   "hiyoriblog.com": {
     "candidateCount": 77,
     "acceptedCount": 1,
-    "rejectedCount": 53,
+    "rejectedCount": 61,
     "reviewCount": 29,
     "acceptanceRate": 0.013,
     "lastCrawledAt": "2026-06-28T09:25:02.312Z",
@@ -60,7 +60,7 @@
     "rejectedCount": 107,
     "reviewCount": 234,
     "acceptanceRate": 0.147,
-    "lastCrawledAt": "2026-07-01T04:16:59.024Z",
+    "lastCrawledAt": "2026-07-01T06:19:58.156Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -71,7 +71,7 @@
     "rejectedCount": 67,
     "reviewCount": 40,
     "acceptanceRate": 0.013,
-    "lastCrawledAt": "2026-07-01T04:27:09.721Z",
+    "lastCrawledAt": "2026-07-01T06:24:10.500Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -82,7 +82,7 @@
     "rejectedCount": 394,
     "reviewCount": 318,
     "acceptanceRate": 0.166,
-    "lastCrawledAt": "2026-07-01T04:25:35.390Z",
+    "lastCrawledAt": "2026-07-01T06:22:50.031Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -93,7 +93,7 @@
     "rejectedCount": 50,
     "reviewCount": 76,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-07-01T04:25:36.908Z",
+    "lastCrawledAt": "2026-07-01T06:22:53.504Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -101,7 +101,7 @@
   "sekisuiheim.com": {
     "candidateCount": 850,
     "acceptedCount": 21,
-    "rejectedCount": 288,
+    "rejectedCount": 314,
     "reviewCount": 725,
     "acceptanceRate": 0.025,
     "lastCrawledAt": "2026-07-01T04:17:34.915Z",
@@ -133,11 +133,11 @@
   },
   "kh-house.jp": {
     "candidateCount": 313,
-    "acceptedCount": 46,
-    "rejectedCount": 150,
+    "acceptedCount": 48,
+    "rejectedCount": 155,
     "reviewCount": 179,
-    "acceptanceRate": 0.147,
-    "lastCrawledAt": "2026-07-01T04:26:21.961Z",
+    "acceptanceRate": 0.153,
+    "lastCrawledAt": "2026-07-01T06:23:29.177Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -156,10 +156,10 @@
   "irohaie.com": {
     "candidateCount": 658,
     "acceptedCount": 8,
-    "rejectedCount": 474,
+    "rejectedCount": 475,
     "reviewCount": 352,
     "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-07-01T04:17:31.898Z",
+    "lastCrawledAt": "2026-07-01T06:22:11.525Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -170,7 +170,7 @@
     "rejectedCount": 858,
     "reviewCount": 1234,
     "acceptanceRate": 0.097,
-    "lastCrawledAt": "2026-07-01T04:17:33.495Z",
+    "lastCrawledAt": "2026-07-01T06:22:14.587Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -181,7 +181,7 @@
     "rejectedCount": 39,
     "reviewCount": 38,
     "acceptanceRate": 0.093,
-    "lastCrawledAt": "2026-07-01T04:17:34.059Z",
+    "lastCrawledAt": "2026-07-01T06:22:15.100Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -335,7 +335,7 @@
     "rejectedCount": 93,
     "reviewCount": 16,
     "acceptanceRate": 0.047,
-    "lastCrawledAt": "2026-07-01T04:25:38.328Z",
+    "lastCrawledAt": "2026-07-01T06:22:57.301Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -343,10 +343,10 @@
   "searshome.co.jp": {
     "candidateCount": 141,
     "acceptedCount": 13,
-    "rejectedCount": 83,
+    "rejectedCount": 85,
     "reviewCount": 47,
     "acceptanceRate": 0.092,
-    "lastCrawledAt": "2026-07-01T04:27:07.612Z",
+    "lastCrawledAt": "2026-07-01T06:24:06.679Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -368,7 +368,7 @@
     "rejectedCount": 123,
     "reviewCount": 92,
     "acceptanceRate": 0.053,
-    "lastCrawledAt": "2026-07-01T04:27:11.594Z",
+    "lastCrawledAt": "2026-07-01T06:24:14.367Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -376,10 +376,10 @@
   "be-enough.jp": {
     "candidateCount": 5107,
     "acceptedCount": 115,
-    "rejectedCount": 3980,
+    "rejectedCount": 4009,
     "reviewCount": 1162,
     "acceptanceRate": 0.023,
-    "lastCrawledAt": "2026-07-01T04:17:41.167Z",
+    "lastCrawledAt": "2026-07-01T06:24:48.456Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -387,7 +387,7 @@
   "mandai-home.com": {
     "candidateCount": 23,
     "acceptedCount": 0,
-    "rejectedCount": 10,
+    "rejectedCount": 11,
     "reviewCount": 14,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-07-01T04:18:23.039Z",
