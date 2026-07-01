@@ -5,7 +5,7 @@
     "rejectedCount": 202,
     "reviewCount": 215,
     "acceptanceRate": 0.317,
-    "lastCrawledAt": "2026-07-01T07:03:55.216Z",
+    "lastCrawledAt": "2026-07-01T18:39:39.299Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "high"
@@ -34,10 +34,10 @@
   },
   "suumo.jp": {
     "candidateCount": 1747,
-    "acceptedCount": 676,
-    "rejectedCount": 40,
+    "acceptedCount": 918,
+    "rejectedCount": 55,
     "reviewCount": 628,
-    "acceptanceRate": 0.387,
+    "acceptanceRate": 0.525,
     "lastCrawledAt": "2026-07-01T14:18:00.002Z",
     "blockReason": null,
     "nextCrawlAfter": "2026-07-02T14:18:00.002Z",
@@ -60,7 +60,7 @@
     "rejectedCount": 181,
     "reviewCount": 234,
     "acceptanceRate": 0.147,
-    "lastCrawledAt": "2026-07-01T06:19:58.156Z",
+    "lastCrawledAt": "2026-07-01T18:37:07.651Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -71,18 +71,18 @@
     "rejectedCount": 67,
     "reviewCount": 40,
     "acceptanceRate": 0.013,
-    "lastCrawledAt": "2026-07-01T07:05:36.316Z",
+    "lastCrawledAt": "2026-07-01T18:41:32.120Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
   },
   "forumu.co.jp": {
     "candidateCount": 1429,
-    "acceptedCount": 112,
-    "rejectedCount": 769,
-    "reviewCount": 433,
-    "acceptanceRate": 0.078,
-    "lastCrawledAt": "2026-07-01T07:54:11.440Z",
+    "acceptedCount": 128,
+    "rejectedCount": 878,
+    "reviewCount": 604,
+    "acceptanceRate": 0.09,
+    "lastCrawledAt": "2026-07-01T18:40:10.055Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -93,7 +93,7 @@
     "rejectedCount": 50,
     "reviewCount": 76,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-07-01T07:04:03.407Z",
+    "lastCrawledAt": "2026-07-01T18:40:13.458Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -137,7 +137,7 @@
     "rejectedCount": 155,
     "reviewCount": 179,
     "acceptanceRate": 0.153,
-    "lastCrawledAt": "2026-07-01T07:04:48.426Z",
+    "lastCrawledAt": "2026-07-01T18:40:48.706Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -148,9 +148,9 @@
     "rejectedCount": 70,
     "reviewCount": 55,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-06-30T18:32:08.824Z",
+    "lastCrawledAt": "2026-07-01T18:33:49.221Z",
     "blockReason": "Failed to parse URL from <![CDATA[https://www.megasoft.co.jp/post-sitemap.xml]]>",
-    "nextCrawlAfter": "2026-07-01T18:32:08.824Z",
+    "nextCrawlAfter": "2026-07-02T18:33:49.221Z",
     "sourceQuality": "medium"
   },
   "irohaie.com": {
@@ -159,7 +159,7 @@
     "rejectedCount": 475,
     "reviewCount": 352,
     "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-07-01T06:22:11.525Z",
+    "lastCrawledAt": "2026-07-01T18:39:17.384Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -170,7 +170,7 @@
     "rejectedCount": 858,
     "reviewCount": 1234,
     "acceptanceRate": 0.071,
-    "lastCrawledAt": "2026-07-01T06:22:14.587Z",
+    "lastCrawledAt": "2026-07-01T18:39:18.583Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -335,7 +335,7 @@
     "rejectedCount": 93,
     "reviewCount": 16,
     "acceptanceRate": 0.047,
-    "lastCrawledAt": "2026-07-01T07:04:04.881Z",
+    "lastCrawledAt": "2026-07-01T18:40:17.128Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -346,7 +346,7 @@
     "rejectedCount": 85,
     "reviewCount": 47,
     "acceptanceRate": 0.092,
-    "lastCrawledAt": "2026-07-01T07:05:34.417Z",
+    "lastCrawledAt": "2026-07-01T18:41:26.737Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -357,9 +357,9 @@
     "rejectedCount": 102,
     "reviewCount": 107,
     "acceptanceRate": 0.149,
-    "lastCrawledAt": "2026-06-30T18:35:43.170Z",
+    "lastCrawledAt": "2026-07-01T18:37:07.696Z",
     "blockReason": "fetch failed",
-    "nextCrawlAfter": "2026-07-01T18:35:43.170Z",
+    "nextCrawlAfter": "2026-07-02T18:37:07.696Z",
     "sourceQuality": "medium"
   },
   "aerahome.com": {
@@ -368,7 +368,7 @@
     "rejectedCount": 123,
     "reviewCount": 92,
     "acceptanceRate": 0.053,
-    "lastCrawledAt": "2026-07-01T07:05:38.200Z",
+    "lastCrawledAt": "2026-07-01T18:41:36.391Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -379,7 +379,7 @@
     "rejectedCount": 4009,
     "reviewCount": 1166,
     "acceptanceRate": 0.023,
-    "lastCrawledAt": "2026-07-01T07:07:18.414Z",
+    "lastCrawledAt": "2026-07-01T18:42:09.979Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -407,25 +407,25 @@
     "sourceQuality": "low"
   },
   "iidasangyo.co.jp": {
-    "candidateCount": 73,
+    "candidateCount": 371,
     "acceptedCount": 70,
-    "rejectedCount": 1,
-    "reviewCount": 2,
-    "acceptanceRate": 0.959,
-    "lastCrawledAt": "2026-07-01T08:04:30.378Z",
-    "blockReason": null,
-    "nextCrawlAfter": null,
-    "sourceQuality": "high"
+    "rejectedCount": 104,
+    "reviewCount": 197,
+    "acceptanceRate": 0.189,
+    "lastCrawledAt": "2026-07-01T18:36:04.166Z",
+    "blockReason": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+    "nextCrawlAfter": "2026-07-02T18:36:04.166Z",
+    "sourceQuality": "medium"
   },
   "universalhome.co.jp": {
-    "candidateCount": 35,
+    "candidateCount": 172,
     "acceptedCount": 35,
-    "rejectedCount": 0,
-    "reviewCount": 0,
-    "acceptanceRate": 1,
-    "lastCrawledAt": null,
+    "rejectedCount": 93,
+    "reviewCount": 44,
+    "acceptanceRate": 0.203,
+    "lastCrawledAt": "2026-07-01T18:36:04.730Z",
     "blockReason": null,
     "nextCrawlAfter": null,
-    "sourceQuality": "high"
+    "sourceQuality": "medium"
   }
 }

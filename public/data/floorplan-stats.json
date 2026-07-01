@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-01T14:26:06.423Z",
-  "acceptedCount": 1684,
-  "publicCandidateCount": 1113,
-  "multiImageCandidateCount": 497,
+  "generatedAt": "2026-07-01T18:45:25.593Z",
+  "acceptedCount": 1942,
+  "publicCandidateCount": 1258,
+  "multiImageCandidateCount": 600,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 138
     },
     "forumu.co.jp": {
-      "acceptedCount": 112
+      "acceptedCount": 128
     },
     "sfc.jp": {
       "acceptedCount": 24
@@ -20,7 +20,7 @@
       "acceptedCount": 1
     },
     "suumo.jp": {
-      "acceptedCount": 676
+      "acceptedCount": 918
     },
     "aidagroup.co.jp": {
       "acceptedCount": 4
