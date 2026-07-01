@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-01T08:15:00.938Z",
+  "generatedAt": "2026-07-01T08:30:56.838Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
@@ -1185,7 +1185,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-07-01T07:08:19.799Z",
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
     },
@@ -29403,18 +29403,288 @@
       "fetchedAt": "2026-07-01T08:13:46.631Z",
       "errorInfo": "",
       "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "ec46b662b6de7f6795d990476a0a0ea3dacfde34f5ffb3ac0ad17654959d95dc",
+      "title": "SUUMO 注文住宅実例 4LDK 間取り図 1枚目",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_150800/150800_0002_23/jitsurei/jc_0001/",
+      "company": "SUUMO 注文住宅実例",
+      "priceManYen": 2000,
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/00/main/15080000020001m01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "ec46b662b6de7f6795d990476a0a0ea3dacfde34f5ffb3ac0ad17654959d95dc:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/00/main/15080000020001m01.jpg",
+          "alt": "SUUMO 注文住宅実例 4LDK 間取り図 1枚目",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_150800/150800_0002_23/jitsurei/jc_0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.952,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a5ab1043a1aa0b61c0086bb047afba0ad0f110467bed71314c78a7b769e48956",
+      "title": "SUUMO 注文住宅実例 4LDK 間取り図 2枚目",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_150800/150800_0002_23/jitsurei/jc_0001/",
+      "company": "SUUMO 注文住宅実例",
+      "priceManYen": 2000,
+      "layout": "4LDK",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/00/main/15080000020001m02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a5ab1043a1aa0b61c0086bb047afba0ad0f110467bed71314c78a7b769e48956:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/00/main/15080000020001m02.jpg",
+          "alt": "SUUMO 注文住宅実例 4LDK 間取り図 2枚目",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_150800/150800_0002_23/jitsurei/jc_0001/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.952,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "c43c48a1567f1e39d4731489d2eebfe3c9092096f95c8d22a61dff6f8a532f83",
+      "title": "SUUMO 注文住宅実例 間取り図 1枚目",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_jyoshikawa/081603_0001_23/jitsurei/jc_0034/",
+      "company": "SUUMO 注文住宅実例",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/03/main/08160300010034m01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "c43c48a1567f1e39d4731489d2eebfe3c9092096f95c8d22a61dff6f8a532f83:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/03/main/08160300010034m01.jpg",
+          "alt": "SUUMO 注文住宅実例 間取り図 1枚目",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_jyoshikawa/081603_0001_23/jitsurei/jc_0034/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.952,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "b4e09b688abaa037ebaafb2f4ab82f81a209f1f4da27ea3568a481a6105d4e79",
+      "title": "SUUMO 注文住宅実例 間取り図 2枚目",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_jyoshikawa/081603_0001_23/jitsurei/jc_0034/",
+      "company": "SUUMO 注文住宅実例",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/03/main/08160300010034m02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "b4e09b688abaa037ebaafb2f4ab82f81a209f1f4da27ea3568a481a6105d4e79:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/03/main/08160300010034m02.jpg",
+          "alt": "SUUMO 注文住宅実例 間取り図 2枚目",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_jyoshikawa/081603_0001_23/jitsurei/jc_0034/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.952,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "5b6b7b2b49f5e269a886d819c7640f27086cf35d5ea71b973895a8c41afd5b3e",
+      "title": "SUUMO 注文住宅実例 間取り図 1枚目",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_samata/159438_0001_10/jitsurei/jc_0071/",
+      "company": "SUUMO 注文住宅実例",
+      "priceManYen": 3303,
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/38/main/15943800010071m01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "5b6b7b2b49f5e269a886d819c7640f27086cf35d5ea71b973895a8c41afd5b3e:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/38/main/15943800010071m01.jpg",
+          "alt": "SUUMO 注文住宅実例 間取り図 1枚目",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_samata/159438_0001_10/jitsurei/jc_0071/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.938,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "8e7c5b89f5cb5fbfe4d20a1ecd5dfa674ba3da03871ae9aca47ffca8c00fee8c",
+      "title": "SUUMO 注文住宅実例 間取り図 1枚目",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_tsubasajutaku/170763_0001_16/jitsurei/jc_0009/",
+      "company": "SUUMO 注文住宅実例",
+      "priceManYen": 2100,
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/63/main/17076300010009m01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8e7c5b89f5cb5fbfe4d20a1ecd5dfa674ba3da03871ae9aca47ffca8c00fee8c:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/63/main/17076300010009m01.jpg",
+          "alt": "SUUMO 注文住宅実例 間取り図 1枚目",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_tsubasajutaku/170763_0001_16/jitsurei/jc_0009/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.938,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "dff30c2f7c9ee9f0b4c17bacbde6601942ecd1bc2497bb2a12ec4ce067cd925b",
+      "title": "SUUMO 注文住宅実例 間取り図 1枚目",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_fanshome/180236_0001_29/jitsurei/jc_0004/",
+      "company": "SUUMO 注文住宅実例",
+      "priceManYen": 2000,
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/36/main/18023600010004m01.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "dff30c2f7c9ee9f0b4c17bacbde6601942ecd1bc2497bb2a12ec4ce067cd925b:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/36/main/18023600010004m01.jpg",
+          "alt": "SUUMO 注文住宅実例 間取り図 1枚目",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_fanshome/180236_0001_29/jitsurei/jc_0004/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.938,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "a4469e2abc5dd41b1de9b8cdd00e4fe654305e409effb7a98c74c62631e0e6cf",
+      "title": "SUUMO 注文住宅実例 間取り図 2枚目",
+      "listingSource": "accepted suumo.jp",
+      "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_fanshome/180236_0001_29/jitsurei/jc_0004/",
+      "company": "SUUMO 注文住宅実例",
+      "priceManYen": 2000,
+      "layout": "",
+      "floors": "2階建",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://img01.suumo.com/front/gazo/chumon/220/36/main/18023600010004m02.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a4469e2abc5dd41b1de9b8cdd00e4fe654305e409effb7a98c74c62631e0e6cf:image",
+          "kind": "floorplan",
+          "url": "https://img01.suumo.com/front/gazo/chumon/220/36/main/18023600010004m02.jpg",
+          "alt": "SUUMO 注文住宅実例 間取り図 2枚目",
+          "sourceUrl": "https://suumo.jp/chumon/koumuten/rn_fanshome/180236_0001_29/jitsurei/jc_0004/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.938,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-01T08:30:32.946Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     }
   ],
   "logs": [
     {
-      "id": "accepted_public_1782893700993",
-      "createdAt": "2026-07-01T08:15:00.938Z",
+      "id": "accepted_public_1782894656902",
+      "createdAt": "2026-07-01T08:30:56.838Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplan images: 1009. Public plan groups: 776."
+      "message": "Accepted floorplan images: 1017. Public plan groups: 784."
     }
   ]
 }
