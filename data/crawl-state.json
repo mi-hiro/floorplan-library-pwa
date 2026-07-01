@@ -372,10 +372,10 @@
       "nextCrawlAfter": null
     },
     "suumo.jp": {
-      "portalPilotLastRunAt": "2026-07-01T08:29:39.282Z",
-      "lastPortalCandidateCount": 8,
-      "nextCrawlAfter": "2026-07-31T08:30:17.599Z",
-      "lastCrawledAt": "2026-07-01T08:30:17.599Z",
+      "portalPilotLastRunAt": "2026-07-01T08:39:58.243Z",
+      "lastPortalCandidateCount": 135,
+      "nextCrawlAfter": "2026-07-31T08:41:36.487Z",
+      "lastCrawledAt": "2026-07-01T08:41:36.487Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null
@@ -447,5 +447,5 @@
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12078&amp;ad_cd=hp_housing_top_madori"
     ]
   },
-  "updatedAt": "2026-07-01T08:30:17.599Z"
+  "updatedAt": "2026-07-01T08:41:36.487Z"
 }

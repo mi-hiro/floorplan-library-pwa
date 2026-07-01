@@ -135,7 +135,8 @@ function extractCaseUrls(html, baseUrl) {
     [...String(html || "").matchAll(/href=["']([^"']+)["']/gi)]
       .map((match) => safeUrl(match[1], baseUrl))
       .filter(Boolean)
-      .filter((url) => isCaseUrl(url) || /\/chumon\/tn_[^/]+\/jitsurei\/$/i.test(url))
+      .filter(isCaseUrl)
+      .map(canonicalPageUrl)
   );
 }
 
@@ -158,7 +159,24 @@ function extractFloorplanImages(html, baseUrl) {
 }
 
 function isCaseUrl(url) {
-  return /^https:\/\/suumo\.jp\/chumon\/koumuten\/[^/]+\/[^/]+\/jitsurei\/jc_[0-9]+\/?$/i.test(String(url || ""));
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname !== "suumo.jp") return false;
+    return /^\/chumon\/(?:tn_[^/]+\/)?(?:koumuten\/)?rn_[^/]+\/[^/]+\/jitsurei\/jc_[0-9]+\/?$/i.test(parsed.pathname);
+  } catch {
+    return false;
+  }
+}
+
+function canonicalPageUrl(url) {
+  try {
+    const parsed = new URL(url);
+    parsed.search = "";
+    parsed.hash = "";
+    return parsed.toString();
+  } catch {
+    return url;
+  }
 }
 
 function makeTitle(pageTitle, imageUrl) {

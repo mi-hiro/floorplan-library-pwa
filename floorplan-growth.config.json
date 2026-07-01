@@ -27,8 +27,8 @@
     "suumo": {
       "enabled": true,
       "recrawlIntervalDays": 30,
-      "maxRootPages": 8,
-      "maxCasePages": 20,
+      "maxRootPages": 24,
+      "maxCasePages": 100,
       "delayMs": 3000,
       "rootUrls": [
         "https://suumo.jp/chumon/jitsurei/"
