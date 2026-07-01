@@ -33,15 +33,15 @@
     "sourceQuality": "low"
   },
   "suumo.jp": {
-    "candidateCount": 1,
-    "acceptedCount": 1,
+    "candidateCount": 9,
+    "acceptedCount": 9,
     "rejectedCount": 0,
     "reviewCount": 1,
     "acceptanceRate": 1,
-    "lastCrawledAt": null,
+    "lastCrawledAt": "2026-07-01T08:30:17.599Z",
     "blockReason": null,
-    "nextCrawlAfter": null,
-    "sourceQuality": "medium"
+    "nextCrawlAfter": "2026-07-31T08:30:17.599Z",
+    "sourceQuality": "high"
   },
   "hiyoriblog.com": {
     "candidateCount": 77,

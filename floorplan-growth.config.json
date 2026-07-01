@@ -22,6 +22,27 @@
     "maxPdfFiles": 5,
     "preferHighQualitySources": true
   },
+  "portalPilot": {
+    "enabled": true,
+    "suumo": {
+      "enabled": true,
+      "recrawlIntervalDays": 30,
+      "maxRootPages": 8,
+      "maxCasePages": 20,
+      "delayMs": 3000,
+      "rootUrls": [
+        "https://suumo.jp/chumon/jitsurei/"
+      ]
+    },
+    "athome": {
+      "enabled": false,
+      "reason": "Detail pages returned authentication challenge during pilot check."
+    },
+    "homes": {
+      "enabled": false,
+      "reason": "Published sitemap returned HTTP 403 during pilot check."
+    }
+  },
   "classification": {
     "minVisualScoreForOllama": 0.45,
     "autoAcceptMinConfidence": 0.85,

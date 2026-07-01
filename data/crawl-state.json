@@ -51,7 +51,7 @@
       "lastSitemapCandidateCount": 979
     },
     "forumu.co.jp": {
-      "lastCrawledAt": "2026-07-01T07:04:01.804Z",
+      "lastCrawledAt": "2026-07-01T07:54:11.440Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -363,6 +363,22 @@
       "failures": 0,
       "blockReason": null,
       "nextCrawlAfter": null
+    },
+    "iidasangyo.co.jp": {
+      "lastCrawledAt": "2026-07-01T08:04:30.378Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null,
+      "nextCrawlAfter": null
+    },
+    "suumo.jp": {
+      "portalPilotLastRunAt": "2026-07-01T08:29:39.282Z",
+      "lastPortalCandidateCount": 8,
+      "nextCrawlAfter": "2026-07-31T08:30:17.599Z",
+      "lastCrawledAt": "2026-07-01T08:30:17.599Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null
     }
   },
   "commonCrawl": {
@@ -431,5 +447,5 @@
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12078&amp;ad_cd=hp_housing_top_madori"
     ]
   },
-  "updatedAt": "2026-07-01T07:07:19.089Z"
+  "updatedAt": "2026-07-01T08:30:17.599Z"
 }
