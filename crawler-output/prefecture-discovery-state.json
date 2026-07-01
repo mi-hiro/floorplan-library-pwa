@@ -1,270 +1,143 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-29T21:49:41.614Z",
-  "nextIndex": 29,
+  "updatedAt": "2026-07-01T04:31:53.926Z",
+  "nextIndex": 39,
   "completedRounds": 1,
-  "pendingPrefectures": [
-    "新潟",
-    "富山",
-    "石川",
-    "福井",
-    "東京"
-  ],
-  "pendingQueries": [
-    {
-      "prefecture": "新潟",
-      "query": "新潟 注文住宅 間取り 工務店"
-    },
-    {
-      "prefecture": "新潟",
-      "query": "新潟 新築 平屋 間取り"
-    },
-    {
-      "prefecture": "新潟",
-      "query": "新潟 工務店 施工事例 間取り"
-    },
-    {
-      "prefecture": "新潟",
-      "query": "新潟 住宅会社 建築実例 間取り"
-    },
-    {
-      "prefecture": "新潟",
-      "query": "新潟 ハウスメーカー プラン集 間取り"
-    },
-    {
-      "prefecture": "新潟",
-      "query": "新潟 新築 3LDK 間取り 工務店"
-    },
-    {
-      "prefecture": "富山",
-      "query": "富山 注文住宅 間取り 工務店"
-    },
-    {
-      "prefecture": "富山",
-      "query": "富山 新築 平屋 間取り"
-    },
-    {
-      "prefecture": "富山",
-      "query": "富山 工務店 施工事例 間取り"
-    },
-    {
-      "prefecture": "富山",
-      "query": "富山 住宅会社 建築実例 間取り"
-    },
-    {
-      "prefecture": "富山",
-      "query": "富山 ハウスメーカー プラン集 間取り"
-    },
-    {
-      "prefecture": "富山",
-      "query": "富山 新築 3LDK 間取り 工務店"
-    },
-    {
-      "prefecture": "石川",
-      "query": "石川 注文住宅 間取り 工務店"
-    },
-    {
-      "prefecture": "石川",
-      "query": "石川 新築 平屋 間取り"
-    },
-    {
-      "prefecture": "石川",
-      "query": "石川 工務店 施工事例 間取り"
-    },
-    {
-      "prefecture": "石川",
-      "query": "石川 住宅会社 建築実例 間取り"
-    },
-    {
-      "prefecture": "石川",
-      "query": "石川 ハウスメーカー プラン集 間取り"
-    },
-    {
-      "prefecture": "石川",
-      "query": "石川 新築 3LDK 間取り 工務店"
-    },
-    {
-      "prefecture": "福井",
-      "query": "福井 注文住宅 間取り 工務店"
-    },
-    {
-      "prefecture": "福井",
-      "query": "福井 新築 平屋 間取り"
-    },
-    {
-      "prefecture": "福井",
-      "query": "福井 工務店 施工事例 間取り"
-    },
-    {
-      "prefecture": "福井",
-      "query": "福井 住宅会社 建築実例 間取り"
-    },
-    {
-      "prefecture": "福井",
-      "query": "福井 ハウスメーカー プラン集 間取り"
-    },
-    {
-      "prefecture": "福井",
-      "query": "福井 新築 3LDK 間取り 工務店"
-    },
-    {
-      "prefecture": "東京",
-      "query": "東京 注文住宅 間取り 工務店"
-    },
-    {
-      "prefecture": "東京",
-      "query": "東京 新築 平屋 間取り"
-    },
-    {
-      "prefecture": "東京",
-      "query": "東京 工務店 施工事例 間取り"
-    },
-    {
-      "prefecture": "東京",
-      "query": "東京 住宅会社 建築実例 間取り"
-    },
-    {
-      "prefecture": "東京",
-      "query": "東京 ハウスメーカー プラン集 間取り"
-    },
-    {
-      "prefecture": "東京",
-      "query": "東京 新築 3LDK 間取り 工務店"
-    }
-  ],
-  "lastPreparedAt": "2026-06-29T21:49:41.615Z",
+  "pendingPrefectures": [],
+  "pendingQueries": [],
+  "lastPreparedAt": "2026-07-01T04:31:53.926Z",
   "lastPrefectures": [
-    "新潟",
-    "富山",
-    "石川",
-    "福井",
-    "東京"
+    "神奈川",
+    "千葉",
+    "埼玉",
+    "茨城",
+    "栃木"
   ],
   "lastQueries": [
     {
-      "prefecture": "新潟",
-      "query": "新潟 注文住宅 間取り 工務店"
+      "prefecture": "神奈川",
+      "query": "神奈川 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "新潟",
-      "query": "新潟 新築 平屋 間取り"
+      "prefecture": "神奈川",
+      "query": "神奈川 新築 平屋 間取り"
     },
     {
-      "prefecture": "新潟",
-      "query": "新潟 工務店 施工事例 間取り"
+      "prefecture": "神奈川",
+      "query": "神奈川 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "新潟",
-      "query": "新潟 住宅会社 建築実例 間取り"
+      "prefecture": "神奈川",
+      "query": "神奈川 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "新潟",
-      "query": "新潟 ハウスメーカー プラン集 間取り"
+      "prefecture": "神奈川",
+      "query": "神奈川 ハウスメーカー プラン集 間取り"
     },
     {
-      "prefecture": "新潟",
-      "query": "新潟 新築 3LDK 間取り 工務店"
+      "prefecture": "神奈川",
+      "query": "神奈川 新築 3LDK 間取り 工務店"
     },
     {
-      "prefecture": "富山",
-      "query": "富山 注文住宅 間取り 工務店"
+      "prefecture": "千葉",
+      "query": "千葉 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "富山",
-      "query": "富山 新築 平屋 間取り"
+      "prefecture": "千葉",
+      "query": "千葉 新築 平屋 間取り"
     },
     {
-      "prefecture": "富山",
-      "query": "富山 工務店 施工事例 間取り"
+      "prefecture": "千葉",
+      "query": "千葉 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "富山",
-      "query": "富山 住宅会社 建築実例 間取り"
+      "prefecture": "千葉",
+      "query": "千葉 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "富山",
-      "query": "富山 ハウスメーカー プラン集 間取り"
+      "prefecture": "千葉",
+      "query": "千葉 ハウスメーカー プラン集 間取り"
     },
     {
-      "prefecture": "富山",
-      "query": "富山 新築 3LDK 間取り 工務店"
+      "prefecture": "千葉",
+      "query": "千葉 新築 3LDK 間取り 工務店"
     },
     {
-      "prefecture": "石川",
-      "query": "石川 注文住宅 間取り 工務店"
+      "prefecture": "埼玉",
+      "query": "埼玉 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "石川",
-      "query": "石川 新築 平屋 間取り"
+      "prefecture": "埼玉",
+      "query": "埼玉 新築 平屋 間取り"
     },
     {
-      "prefecture": "石川",
-      "query": "石川 工務店 施工事例 間取り"
+      "prefecture": "埼玉",
+      "query": "埼玉 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "石川",
-      "query": "石川 住宅会社 建築実例 間取り"
+      "prefecture": "埼玉",
+      "query": "埼玉 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "石川",
-      "query": "石川 ハウスメーカー プラン集 間取り"
+      "prefecture": "埼玉",
+      "query": "埼玉 ハウスメーカー プラン集 間取り"
     },
     {
-      "prefecture": "石川",
-      "query": "石川 新築 3LDK 間取り 工務店"
+      "prefecture": "埼玉",
+      "query": "埼玉 新築 3LDK 間取り 工務店"
     },
     {
-      "prefecture": "福井",
-      "query": "福井 注文住宅 間取り 工務店"
+      "prefecture": "茨城",
+      "query": "茨城 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "福井",
-      "query": "福井 新築 平屋 間取り"
+      "prefecture": "茨城",
+      "query": "茨城 新築 平屋 間取り"
     },
     {
-      "prefecture": "福井",
-      "query": "福井 工務店 施工事例 間取り"
+      "prefecture": "茨城",
+      "query": "茨城 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "福井",
-      "query": "福井 住宅会社 建築実例 間取り"
+      "prefecture": "茨城",
+      "query": "茨城 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "福井",
-      "query": "福井 ハウスメーカー プラン集 間取り"
+      "prefecture": "茨城",
+      "query": "茨城 ハウスメーカー プラン集 間取り"
     },
     {
-      "prefecture": "福井",
-      "query": "福井 新築 3LDK 間取り 工務店"
+      "prefecture": "茨城",
+      "query": "茨城 新築 3LDK 間取り 工務店"
     },
     {
-      "prefecture": "東京",
-      "query": "東京 注文住宅 間取り 工務店"
+      "prefecture": "栃木",
+      "query": "栃木 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "東京",
-      "query": "東京 新築 平屋 間取り"
+      "prefecture": "栃木",
+      "query": "栃木 新築 平屋 間取り"
     },
     {
-      "prefecture": "東京",
-      "query": "東京 工務店 施工事例 間取り"
+      "prefecture": "栃木",
+      "query": "栃木 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "東京",
-      "query": "東京 住宅会社 建築実例 間取り"
+      "prefecture": "栃木",
+      "query": "栃木 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "東京",
-      "query": "東京 ハウスメーカー プラン集 間取り"
+      "prefecture": "栃木",
+      "query": "栃木 ハウスメーカー プラン集 間取り"
     },
     {
-      "prefecture": "東京",
-      "query": "東京 新築 3LDK 間取り 工務店"
+      "prefecture": "栃木",
+      "query": "栃木 新築 3LDK 間取り 工務店"
     }
   ],
   "totals": {
     "prefectures": 47,
-    "runs": 24
+    "runs": 26
   },
   "runs": [
     {
@@ -534,6 +407,32 @@
       "queryCount": 30,
       "startIndex": 24,
       "nextIndex": 29
+    },
+    {
+      "createdAt": "2026-07-01T03:42:30.608Z",
+      "prefectures": [
+        "新潟",
+        "富山",
+        "石川",
+        "福井",
+        "東京"
+      ],
+      "queryCount": 30,
+      "startIndex": 29,
+      "nextIndex": 34
+    },
+    {
+      "createdAt": "2026-07-01T04:31:53.925Z",
+      "prefectures": [
+        "神奈川",
+        "千葉",
+        "埼玉",
+        "茨城",
+        "栃木"
+      ],
+      "queryCount": 30,
+      "startIndex": 34,
+      "nextIndex": 39
     }
   ]
 }
