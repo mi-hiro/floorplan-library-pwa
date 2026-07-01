@@ -42,6 +42,7 @@ async function main() {
 
   const maxRootPages = Number(args.maxRootPages ?? portalConfig.maxRootPages ?? 8);
   const maxCasePages = Number(args.maxCasePages ?? portalConfig.maxCasePages ?? 20);
+  const maxListPagesPerRegion = Math.max(1, Number(args.maxListPagesPerRegion ?? portalConfig.maxListPagesPerRegion ?? 1));
   const delayMs = Number(args.delayMs ?? portalConfig.delayMs ?? 3000);
   const regionBatchSize = Number(args.regionBatchSize ?? portalConfig.regionBatchSize ?? 4);
   const rotateRegionalRoots = parseBool(args.rotateRegionalRoots ?? portalConfig.rotateRegionalRoots, true);
@@ -87,6 +88,14 @@ async function main() {
       const html = rootHtmlCache.get(rootUrl) ?? await fetchHtml(rootUrl);
       detailSeeds.push(...extractCaseUrls(html, rootUrl).filter(isCaseUrl));
       if (delayMs > 0) await sleep(delayMs);
+
+      for (const listUrl of extractPaginationUrls(html, rootUrl).slice(0, maxListPagesPerRegion - 1)) {
+        if (detailSeeds.length >= maxCasePages) break;
+        if (!isAllowedByRobots(listUrl, pageRobots.rules)) continue;
+        const listHtml = await fetchHtml(listUrl);
+        detailSeeds.push(...extractCaseUrls(listHtml, listUrl).filter(isCaseUrl));
+        if (delayMs > 0) await sleep(delayMs);
+      }
     }
 
     for (const pageUrl of unique(detailSeeds).slice(0, maxCasePages)) {
@@ -171,6 +180,29 @@ function extractRegionalJitsureiUrls(html, baseUrl) {
   );
 }
 
+function extractPaginationUrls(html, baseUrl) {
+  let base;
+  try {
+    base = new URL(baseUrl);
+  } catch {
+    return [];
+  }
+  return unique(
+    [...String(html || "").matchAll(/href=["']([^"']+)["']/gi)]
+      .map((match) => safeUrl(match[1], baseUrl))
+      .filter(Boolean)
+      .filter((url) => {
+        try {
+          const parsed = new URL(url);
+          return parsed.hostname === DOMAIN && parsed.pathname === base.pathname && Number(parsed.searchParams.get("pn") || 0) > 1;
+        } catch {
+          return false;
+        }
+      })
+      .map(canonicalPageUrl)
+  ).sort((a, b) => listPageNumber(a) - listPageNumber(b));
+}
+
 function extractFloorplanImages(html, baseUrl) {
   return unique(
     [...String(html || "").matchAll(/(?:src|data-src|href)=["']([^"']+)["']/gi)]
@@ -219,6 +251,14 @@ function isRegionalRootUrl(url) {
     return parsed.hostname === DOMAIN && /^\/chumon\/tn_[^/]+\/jitsurei\/$/i.test(parsed.pathname);
   } catch {
     return false;
+  }
+}
+
+function listPageNumber(url) {
+  try {
+    return Number(new URL(url).searchParams.get("pn") || 1);
+  } catch {
+    return 1;
   }
 }
 

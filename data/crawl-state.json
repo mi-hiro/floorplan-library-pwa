@@ -4,7 +4,7 @@
     "zerohome.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 178,
-      "lastCrawledAt": "2026-07-01T06:19:58.156Z",
+      "lastCrawledAt": "2026-07-01T18:37:07.651Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -14,7 +14,7 @@
     "ichijo.co.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 435,
-      "lastCrawledAt": "2026-07-01T07:03:55.216Z",
+      "lastCrawledAt": "2026-07-01T18:39:39.299Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -24,7 +24,7 @@
     "irohaie.com": {
       "sitemapLastmod": "2024-03-25T14:37:56+09:00",
       "lastSitemapCandidateCount": 246,
-      "lastCrawledAt": "2026-07-01T06:22:11.525Z",
+      "lastCrawledAt": "2026-07-01T18:39:17.384Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -32,17 +32,17 @@
       "wordpressModifiedAfter": "2025-08-01T14:32:08"
     },
     "misawa.co.jp": {
-      "lastCrawledAt": "2026-06-30T18:35:43.170Z",
+      "lastCrawledAt": "2026-07-01T18:37:07.696Z",
       "lastStatus": "stopped",
       "blockReason": "fetch failed",
-      "failures": 3,
-      "nextCrawlAfter": "2026-07-01T18:35:43.170Z",
+      "failures": 4,
+      "nextCrawlAfter": "2026-07-02T18:37:07.696Z",
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 222
     },
     "toyotahome.co.jp": {
       "wordpressModifiedAfter": null,
-      "lastCrawledAt": "2026-07-01T06:22:14.587Z",
+      "lastCrawledAt": "2026-07-01T18:39:18.583Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -51,7 +51,7 @@
       "lastSitemapCandidateCount": 979
     },
     "forumu.co.jp": {
-      "lastCrawledAt": "2026-07-01T07:54:11.440Z",
+      "lastCrawledAt": "2026-07-01T18:40:10.055Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -61,7 +61,7 @@
       "wordpressModifiedAfter": null
     },
     "sfc.jp": {
-      "lastCrawledAt": "2026-07-01T07:04:03.407Z",
+      "lastCrawledAt": "2026-07-01T18:40:13.458Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -81,11 +81,11 @@
       "wordpressModifiedAfter": null
     },
     "megasoft.co.jp": {
-      "lastCrawledAt": "2026-06-30T18:32:08.824Z",
+      "lastCrawledAt": "2026-07-01T18:33:49.221Z",
       "lastStatus": "stopped",
       "blockReason": "Failed to parse URL from <![CDATA[https://www.megasoft.co.jp/post-sitemap.xml]]>",
-      "failures": 4,
-      "nextCrawlAfter": "2026-07-01T18:32:08.824Z"
+      "failures": 5,
+      "nextCrawlAfter": "2026-07-02T18:33:49.221Z"
     },
     "sekisuiheim.com": {
       "sitemapLastmod": "2025-09-30",
@@ -120,7 +120,7 @@
     "be-enough.jp": {
       "sitemapLastmod": "2026-06-20T11:52:43+00:00",
       "lastSitemapCandidateCount": 10723,
-      "lastCrawledAt": "2026-07-01T07:07:18.414Z",
+      "lastCrawledAt": "2026-07-01T18:42:09.979Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -291,7 +291,7 @@
     "with-e-home.com": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 48,
-      "lastCrawledAt": "2026-07-01T07:04:04.881Z",
+      "lastCrawledAt": "2026-07-01T18:40:17.128Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -301,7 +301,7 @@
     "kh-house.jp": {
       "sitemapLastmod": "2026-06-30",
       "lastSitemapCandidateCount": 29,
-      "lastCrawledAt": "2026-07-01T07:04:48.426Z",
+      "lastCrawledAt": "2026-07-01T18:40:48.706Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -311,7 +311,7 @@
     "searshome.co.jp": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 35,
-      "lastCrawledAt": "2026-07-01T07:05:34.417Z",
+      "lastCrawledAt": "2026-07-01T18:41:26.737Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -330,7 +330,7 @@
     "aerahome.com": {
       "sitemapLastmod": "2025-05-26",
       "lastSitemapCandidateCount": 151,
-      "lastCrawledAt": "2026-07-01T07:05:38.200Z",
+      "lastCrawledAt": "2026-07-01T18:41:36.391Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -349,7 +349,7 @@
     "tanaken.co.jp": {
       "sitemapLastmod": "2026-06-28",
       "lastSitemapCandidateCount": 77,
-      "lastCrawledAt": "2026-07-01T07:05:36.316Z",
+      "lastCrawledAt": "2026-07-01T18:41:32.120Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -365,27 +365,40 @@
       "nextCrawlAfter": null
     },
     "iidasangyo.co.jp": {
-      "lastCrawledAt": "2026-07-01T08:04:30.378Z",
-      "lastStatus": "ok",
-      "failures": 0,
-      "blockReason": null,
-      "nextCrawlAfter": null
+      "lastCrawledAt": "2026-07-01T18:36:04.166Z",
+      "lastStatus": "stopped",
+      "failures": 1,
+      "blockReason": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "nextCrawlAfter": "2026-07-02T18:36:04.166Z",
+      "sitemapLastmod": null,
+      "lastSitemapCandidateCount": 298
     },
     "suumo.jp": {
-      "portalPilotLastRunAt": "2026-07-01T14:16:45.844Z",
-      "lastPortalCandidateCount": 152,
-      "nextCrawlAfter": "2026-07-02T14:18:00.002Z",
-      "lastCrawledAt": "2026-07-01T14:18:00.002Z",
+      "portalPilotLastRunAt": "2026-07-01T21:33:57.661Z",
+      "lastPortalCandidateCount": 198,
+      "nextCrawlAfter": "2026-07-02T21:35:37.555Z",
+      "lastCrawledAt": "2026-07-01T21:35:37.555Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
-      "suumoRegionCursor": 0,
+      "suumoRegionCursor": 12,
       "suumoRegionCount": 47,
       "lastPortalRegionRoots": [
-        "https://suumo.jp/chumon/tn_miyazaki/jitsurei/",
-        "https://suumo.jp/chumon/tn_saga/jitsurei/",
-        "https://suumo.jp/chumon/tn_okinawa/jitsurei/"
+        "https://suumo.jp/chumon/tn_kanagawa/jitsurei/",
+        "https://suumo.jp/chumon/tn_saitama/jitsurei/",
+        "https://suumo.jp/chumon/tn_chiba/jitsurei/",
+        "https://suumo.jp/chumon/tn_ibaraki/jitsurei/"
       ]
+    },
+    "universalhome.co.jp": {
+      "sitemapLastmod": null,
+      "lastSitemapCandidateCount": 137,
+      "lastCrawledAt": "2026-07-01T18:36:04.730Z",
+      "lastStatus": "ok",
+      "failures": 0,
+      "blockReason": null,
+      "nextCrawlAfter": null,
+      "wordpressModifiedAfter": null
     }
   },
   "commonCrawl": {
@@ -451,8 +464,13 @@
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12081&amp;ad_cd=hp_housing_top_madori",
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12080&amp;ad_cd=hp_housing_top_madori",
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12079&amp;ad_cd=hp_housing_top_madori",
-      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12078&amp;ad_cd=hp_housing_top_madori"
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12078&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12077&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12076&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12075&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12074&amp;ad_cd=hp_housing_top_madori",
+      "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12073&amp;ad_cd=hp_housing_top_madori"
     ]
   },
-  "updatedAt": "2026-07-01T14:18:00.002Z"
+  "updatedAt": "2026-07-01T21:35:37.555Z"
 }
