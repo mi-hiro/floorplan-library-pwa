@@ -33,14 +33,14 @@
     "sourceQuality": "low"
   },
   "suumo.jp": {
-    "candidateCount": 1002,
-    "acceptedCount": 437,
-    "rejectedCount": 19,
-    "reviewCount": 400,
-    "acceptanceRate": 0.436,
-    "lastCrawledAt": "2026-07-01T13:50:05.331Z",
+    "candidateCount": 1747,
+    "acceptedCount": 676,
+    "rejectedCount": 40,
+    "reviewCount": 628,
+    "acceptanceRate": 0.387,
+    "lastCrawledAt": "2026-07-01T14:18:00.002Z",
     "blockReason": null,
-    "nextCrawlAfter": "2026-07-02T13:50:05.331Z",
+    "nextCrawlAfter": "2026-07-02T14:18:00.002Z",
     "sourceQuality": "high"
   },
   "hiyoriblog.com": {

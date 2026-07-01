@@ -372,20 +372,19 @@
       "nextCrawlAfter": null
     },
     "suumo.jp": {
-      "portalPilotLastRunAt": "2026-07-01T13:48:46.295Z",
-      "lastPortalCandidateCount": 168,
-      "nextCrawlAfter": "2026-07-02T13:50:05.331Z",
-      "lastCrawledAt": "2026-07-01T13:50:05.331Z",
+      "portalPilotLastRunAt": "2026-07-01T14:16:45.844Z",
+      "lastPortalCandidateCount": 152,
+      "nextCrawlAfter": "2026-07-02T14:18:00.002Z",
+      "lastCrawledAt": "2026-07-01T14:18:00.002Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
-      "suumoRegionCursor": 28,
+      "suumoRegionCursor": 0,
       "suumoRegionCount": 47,
       "lastPortalRegionRoots": [
-        "https://suumo.jp/chumon/tn_osaka/jitsurei/",
-        "https://suumo.jp/chumon/tn_hyogo/jitsurei/",
-        "https://suumo.jp/chumon/tn_kyoto/jitsurei/",
-        "https://suumo.jp/chumon/tn_shiga/jitsurei/"
+        "https://suumo.jp/chumon/tn_miyazaki/jitsurei/",
+        "https://suumo.jp/chumon/tn_saga/jitsurei/",
+        "https://suumo.jp/chumon/tn_okinawa/jitsurei/"
       ]
     }
   },
@@ -455,5 +454,5 @@
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12078&amp;ad_cd=hp_housing_top_madori"
     ]
   },
-  "updatedAt": "2026-07-01T13:50:05.331Z"
+  "updatedAt": "2026-07-01T14:18:00.002Z"
 }
