@@ -26,9 +26,12 @@
     "enabled": true,
     "suumo": {
       "enabled": true,
-      "recrawlIntervalDays": 30,
-      "maxRootPages": 24,
-      "maxCasePages": 100,
+      "recrawlIntervalDays": 1,
+      "rotateRegionalRoots": true,
+      "regionBatchSize": 4,
+      "includeRootPage": false,
+      "maxRootPages": 6,
+      "maxCasePages": 80,
       "delayMs": 3000,
       "rootUrls": [
         "https://suumo.jp/chumon/jitsurei/"
