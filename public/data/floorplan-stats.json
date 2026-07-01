@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-01T07:10:51.542Z",
-  "acceptedCount": 814,
-  "publicCandidateCount": 616,
-  "multiImageCandidateCount": 186,
+  "generatedAt": "2026-07-01T08:15:00.938Z",
+  "acceptedCount": 1009,
+  "publicCandidateCount": 776,
+  "multiImageCandidateCount": 221,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 138
     },
     "forumu.co.jp": {
-      "acceptedCount": 92
+      "acceptedCount": 112
     },
     "sfc.jp": {
       "acceptedCount": 24
@@ -38,7 +38,7 @@
       "acceptedCount": 5
     },
     "toyotahome.co.jp": {
-      "acceptedCount": 200
+      "acceptedCount": 261
     },
     "sekisuiheim.com": {
       "acceptedCount": 21
@@ -47,7 +47,7 @@
       "acceptedCount": 13
     },
     "misawa.co.jp": {
-      "acceptedCount": 28
+      "acceptedCount": 34
     },
     "aerahome.com": {
       "acceptedCount": 8
@@ -72,6 +72,15 @@
     },
     "be-enough.jp": {
       "acceptedCount": 115
+    },
+    "hirayakoubou.net": {
+      "acceptedCount": 3
+    },
+    "iidasangyo.co.jp": {
+      "acceptedCount": 70
+    },
+    "universalhome.co.jp": {
+      "acceptedCount": 35
     }
   }
 }
