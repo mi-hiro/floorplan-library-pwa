@@ -395,11 +395,12 @@ function floorplanImageBadge(image: CollectedFloorplanImage, index: number) {
 function sanitizeImageCandidates(images: NonNullable<CrawlCandidate["imageCandidates"]>) {
   const floorplans = images.filter((image) => image.kind === "floorplan" && isDisplayFloorplanImage(image));
   const hasLayoutImage = floorplans.some(
-    (image) => isOllamaAcceptedFloorplan(image) || hasStrongFloorplanSignal(image)
+    (image) => isAcceptedPublicFloorplanImage(image) || isOllamaAcceptedFloorplan(image) || hasStrongFloorplanSignal(image)
   );
   const filtered = hasLayoutImage
     ? floorplans.filter((image) => {
         const signal = imageSignalText(image);
+        if (isAcceptedPublicFloorplanImage(image)) return true;
         if (hasHardNonFloorplanSignal(image)) return false;
         if (isOllamaAcceptedFloorplan(image)) return true;
         if (/\/photo\/estate\/.+_[0-9]+[bsz]\.(?:jpe?g|png|webp)/i.test(signal) && /layout/i.test(floorplans.map(imageSignalText).join(" "))) {
