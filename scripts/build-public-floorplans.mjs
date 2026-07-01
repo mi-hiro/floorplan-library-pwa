@@ -129,6 +129,9 @@ function pageImageGroupKey(record) {
 function detailPageFloorGroupKey(record) {
   const pageUrl = normalizeUrl(record.source?.pageUrl || "");
   if (!pageUrl || floorOrder(record) >= 9) return "";
+  if (/suumo\.jp\/chumon\/(?:tn_[^/]+\/)?(?:koumuten\/)?rn_[^/]+\/[^/]+\/jitsurei\/jc_[0-9]+\/?$/i.test(pageUrl)) {
+    return pageUrl;
+  }
   if (/\/case\/[^/?#]+\/?$/i.test(pageUrl) || /\/works?\/[^/?#]+\/?$/i.test(pageUrl)) {
     return pageUrl;
   }
@@ -149,6 +152,9 @@ function floorOrderFromImage(image) {
 }
 
 function floorOrderFromSignal(signal) {
+  if (/img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/?#]+m01\.(?:jpe?g|png|webp)/i.test(signal)) return 1;
+  if (/img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/?#]+m02\.(?:jpe?g|png|webp)/i.test(signal)) return 2;
+  if (/img01\.suumo\.com\/front\/gazo\/chumon\/.+\/main\/[^/?#]+m03\.(?:jpe?g|png|webp)/i.test(signal)) return 3;
   if (/be-enough\.jp\/.+\/plan[0-9]+-img02(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/i.test(signal)) return 1;
   if (/be-enough\.jp\/.+\/plan[0-9]+-img03(?:-\d+x\d+)?\.(?:jpe?g|png|webp)/i.test(signal)) return 2;
   if (/(?:^|[^0-9０-９])(?:1|１|一)階(?:部分|間取り)|(?:^|[^0-9０-９])(?:1|１|一)F(?:\s|$)/i.test(signal)) return 1;
@@ -298,6 +304,8 @@ function normalizePlanTitleBase(value) {
     .replace(/[（(【\[]\s*(?:1\.5階|１\.５階|[1-3１２３]\s*(?:階|F|f)|[一二三]階)(?:部分)?\s*[）)】\]]/g, " ")
     .replace(/の(?:1\.5階|１\.５階|[1-3１２３]\s*階|[一二三]階)部分/g, "")
     .replace(/(?:1\.5階|１\.５階|[1-3１２３]\s*階|[一二三]階)部分/g, "")
+    .replace(/(間取り図?)\s*[1-3１-３]\s*枚目$/g, "$1")
+    .replace(/\s+[1-3１-３]\s*枚目$/g, "")
     .replace(/(間取り図?)\s*(?:[1-3]F|[1-3]f)$/g, "$1")
     .replace(/\s+(?:[1-3]F|[1-3]f)$/g, "")
     .replace(/の部分/g, "")
