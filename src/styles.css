@@ -55,10 +55,11 @@ img {
 }
 
 .app-shell {
-  width: min(1480px, 100%);
+  width: 100%;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 18px clamp(12px, 2.2vw, 28px) 36px;
+  max-width: none;
+  margin: 0;
+  padding: 18px clamp(14px, 1.6vw, 32px) 36px;
 }
 
 .loading-screen {
@@ -278,9 +279,9 @@ h3 {
 
 .library-layout {
   display: grid;
-  grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+  grid-template-columns: clamp(280px, 20vw, 360px) minmax(0, 1fr);
   align-items: start;
-  gap: 18px;
+  gap: clamp(14px, 1.25vw, 24px);
 }
 
 .single-main {
@@ -741,7 +742,7 @@ h3 {
 }
 
 .floorplan-gallery.is-compact-list .floorplan-tile {
-  grid-template-columns: 96px minmax(0, 1fr);
+  grid-template-columns: 108px minmax(0, 1fr);
   min-height: 94px;
 }
 
