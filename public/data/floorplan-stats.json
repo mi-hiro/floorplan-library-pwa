@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-01T03:07:28.653Z",
-  "acceptedCount": 755,
-  "publicCandidateCount": 567,
-  "multiImageCandidateCount": 181,
+  "generatedAt": "2026-07-01T04:29:23.795Z",
+  "acceptedCount": 811,
+  "publicCandidateCount": 613,
+  "multiImageCandidateCount": 186,
   "domains": {
     "ichijo.co.jp": {
-      "acceptedCount": 88
+      "acceptedCount": 137
     },
     "forumu.co.jp": {
       "acceptedCount": 92
@@ -26,7 +26,7 @@
       "acceptedCount": 4
     },
     "zerohome.jp": {
-      "acceptedCount": 40
+      "acceptedCount": 46
     },
     "creatorhome.co.jp": {
       "acceptedCount": 1
@@ -44,7 +44,7 @@
       "acceptedCount": 21
     },
     "searshome.co.jp": {
-      "acceptedCount": 12
+      "acceptedCount": 13
     },
     "misawa.co.jp": {
       "acceptedCount": 28
