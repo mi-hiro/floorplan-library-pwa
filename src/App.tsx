@@ -383,6 +383,10 @@ function getCollectedFloorplans(candidates: CrawlCandidate[]) {
   return [...floorplans.values()];
 }
 
+function countCollectedFloorplanImages(items: CollectedFloorplanItem[]) {
+  return items.reduce((total, item) => total + Math.max(1, item.images?.length ?? 0), 0);
+}
+
 function floorplanImageBadge(image: CollectedFloorplanImage, index: number) {
   const signal = `${image.title} ${image.imageLink}`;
   if (/1\.5階|１\.５階/.test(signal)) return "1.5F";
@@ -603,10 +607,15 @@ export default function App() {
     () => collectedFloorplans.find((item) => item.id === selectedFloorplanDetailId),
     [collectedFloorplans, selectedFloorplanDetailId]
   );
+  const collectedFloorplanImageCount = useMemo(() => countCollectedFloorplanImages(collectedFloorplans), [collectedFloorplans]);
   const filteredProperties = useMemo(() => filterProperties(properties, filters), [properties, filters]);
   const filteredCollectedFloorplans = useMemo(
     () => filterCollectedFloorplans(collectedFloorplans, filters),
     [collectedFloorplans, filters]
+  );
+  const filteredCollectedFloorplanImageCount = useMemo(
+    () => countCollectedFloorplanImages(filteredCollectedFloorplans),
+    [filteredCollectedFloorplans]
   );
   const sortedCollectedFloorplans = useMemo(
     () => sortCollectedFloorplans(filteredCollectedFloorplans, floorplanSort),
@@ -900,7 +909,7 @@ export default function App() {
         <div className="summary-strip">
           <span>登録 {properties.length}件</span>
           <span>間取り {floorplanCount}件</span>
-          <span>自動 {collectedFloorplans.length}件</span>
+          <span>自動 {collectedFloorplanImageCount}枚</span>
           <span>{autoSyncStatus === "巡回データ確認待ち" ? "巡回待ち" : autoSyncStatus}</span>
           <span>更新 {formatDate(properties[0]?.updatedAt)}</span>
         </div>
@@ -1034,7 +1043,7 @@ export default function App() {
                 <div className="section-heading compact floorplan-list-heading">
                   <h2>収集した間取り図</h2>
                   <span className="status-pill on">
-                    {filteredCollectedFloorplans.length} / {collectedFloorplans.length}件
+                    {filteredCollectedFloorplanImageCount}枚 / {collectedFloorplanImageCount}枚
                   </span>
                 </div>
                 <div className="list-toolbar">
