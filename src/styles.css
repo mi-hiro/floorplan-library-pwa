@@ -169,6 +169,10 @@ h3 {
   backdrop-filter: blur(12px);
 }
 
+.app-nav.is-review-mode {
+  grid-template-columns: repeat(2, minmax(112px, 1fr));
+}
+
 .app-nav button,
 .primary-button,
 .secondary-button,
@@ -205,6 +209,22 @@ h3 {
   color: var(--primary-dark);
   border-color: #8db9d7;
   background: #e8f3fb;
+}
+
+.review-mode-banner {
+  margin: -6px 0 12px;
+  padding: 9px 12px;
+  border: 1px solid #b5d1e4;
+  border-radius: 7px;
+  color: var(--primary-dark);
+  background: #eef7fd;
+  font-weight: 700;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.62;
+  box-shadow: none;
 }
 
 .nav-badge {

@@ -98,14 +98,23 @@ function getInitialView(): ViewKey {
   const rawHashView = window.location.hash.replace("#", "");
   const hashView = rawHashView as ViewKey;
   if (rawHashView === "floorplans") return "library";
-  if (settingsTabs.some((item) => item.key === rawHashView)) return "settings";
-  return navItems.some((item) => item.key === hashView) ? hashView : "library";
+  if (settingsTabs.some((item) => item.key === rawHashView)) return reviewSafeView("settings");
+  return navItems.some((item) => item.key === hashView) ? reviewSafeView(hashView) : "library";
 }
 
 function getInitialSettingsTab(): SettingsTabKey {
   if (typeof window === "undefined") return "sites";
   const rawHashView = window.location.hash.replace("#", "");
   return settingsTabs.some((item) => item.key === rawHashView) ? (rawHashView as SettingsTabKey) : "sites";
+}
+
+function isReviewModePath() {
+  if (typeof window === "undefined") return false;
+  return /\/review-\d{8}-[a-z0-9]+\/?/i.test(window.location.pathname);
+}
+
+function reviewSafeView(view: ViewKey): ViewKey {
+  return isReviewModePath() && (view === "favorites" || view === "settings") ? "library" : view;
 }
 
 function includesText(value: string | undefined, keyword: string) {
@@ -560,6 +569,7 @@ function getUrlSignalParts(url: string) {
 }
 
 export default function App() {
+  const isReviewMode = isReviewModePath();
   const [view, setViewState] = useState<ViewKey>(getInitialView);
   const [settingsView, setSettingsViewState] = useState<SettingsTabKey>(getInitialSettingsTab);
   const [properties, setProperties] = useState<FloorPlanProperty[]>([]);
@@ -580,19 +590,28 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   function setView(nextView: ViewKey) {
-    if (nextView !== "library") setSelectedFloorplanDetailId(undefined);
-    setViewState(nextView);
+    const safeNextView = isReviewMode ? reviewSafeView(nextView) : nextView;
+    if (safeNextView !== "library") setSelectedFloorplanDetailId(undefined);
+    setViewState(safeNextView);
     if (typeof window !== "undefined") {
-      window.history.replaceState(null, "", `#${nextView}`);
+      window.history.replaceState(null, "", `#${safeNextView}`);
     }
   }
 
   function setSettingsView(nextView: SettingsTabKey) {
+    if (isReviewMode) {
+      setView("library");
+      return;
+    }
     setSettingsViewState(nextView);
     setViewState("settings");
     if (typeof window !== "undefined") {
       window.history.replaceState(null, "", `#${nextView}`);
     }
+  }
+
+  function blockReviewEdit() {
+    window.alert("確認用URLでは登録・編集・設定変更はできません。閲覧、比較、印刷、PDF出力は利用できます。");
   }
 
   async function refreshData() {
@@ -678,6 +697,10 @@ export default function App() {
   );
   const floorplanCount = useMemo(() => properties.filter((property) => getPrimaryFloorplan(property)).length, [properties]);
   const favoriteProperties = useMemo(() => properties.filter((property) => property.favorite), [properties]);
+  const visibleNavItems = useMemo(
+    () => (isReviewMode ? navItems.filter((item) => item.key !== "favorites" && item.key !== "settings") : navItems),
+    [isReviewMode]
+  );
 
   useEffect(() => {
     setFloorplanPage(1);
@@ -745,6 +768,10 @@ export default function App() {
   }
 
   async function saveProperty(property: FloorPlanProperty) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     await putItem("properties", property);
     setProperties((current) => {
       const exists = current.some((item) => item.id === property.id);
@@ -756,6 +783,10 @@ export default function App() {
   }
 
   async function deleteProperty(id: string) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     if (!confirm("この物件を削除しますか？")) return;
     await deleteItem("properties", id);
     setProperties((current) => current.filter((property) => property.id !== id));
@@ -765,6 +796,10 @@ export default function App() {
   }
 
   async function toggleFavorite(property: FloorPlanProperty) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     await saveProperty({ ...property, favorite: !property.favorite, updatedAt: nowIso() });
   }
 
@@ -776,6 +811,10 @@ export default function App() {
   }
 
   async function saveSite(site: CrawlSite) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     const next = { ...site, updatedAt: nowIso() };
     await putItem("sites", next);
     setSites((current) => {
@@ -795,12 +834,20 @@ export default function App() {
   }
 
   async function deleteSite(id: string) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     if (!confirm("このサイト設定を削除しますか？")) return;
     await deleteItem("sites", id);
     setSites((current) => current.filter((site) => site.id !== id));
   }
 
   async function saveCandidate(candidate: CrawlCandidate) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     await putItem("candidates", candidate);
     setCandidates((current) => {
       const exists = current.some((item) => item.id === candidate.id);
@@ -817,11 +864,19 @@ export default function App() {
   }
 
   async function deleteCandidate(id: string) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     await deleteItem("candidates", id);
     setCandidates((current) => current.filter((candidate) => candidate.id !== id));
   }
 
   async function promoteCandidate(candidate: CrawlCandidate) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     const existing = properties.find((property) => isSameCandidateProperty(property, candidate));
     if (existing) {
       await saveProperty({ ...existing, favorite: true, updatedAt: nowIso() });
@@ -918,12 +973,20 @@ export default function App() {
   }, [loading, collectedFloorplans.length]);
 
   async function clearLogs() {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     if (!confirm("巡回ログをすべて削除しますか？")) return;
     await clearStore("logs");
     setLogs([]);
   }
 
   async function handleAddSamples() {
+    if (isReviewMode) {
+      blockReviewEdit();
+      return;
+    }
     const next = await addSampleProperties();
     setProperties(next.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)));
   }
@@ -958,8 +1021,8 @@ export default function App() {
         </div>
       </header>
 
-      <nav className="app-nav" aria-label="画面切り替え">
-        {navItems.map(({ key, label, icon: Icon }) => (
+      <nav className={`app-nav ${isReviewMode ? "is-review-mode" : ""}`} aria-label="画面切り替え">
+        {visibleNavItems.map(({ key, label, icon: Icon }) => (
           <button
             key={key}
             className={view === key ? "is-current" : ""}
@@ -975,6 +1038,12 @@ export default function App() {
           </button>
         ))}
       </nav>
+
+      {isReviewMode ? (
+        <div className="review-mode-banner" role="status">
+          確認用URLです。閲覧・比較・印刷・PDF出力のみ利用できます。
+        </div>
+      ) : null}
 
       {view === "library" && selectedFloorplanDetail ? (() => {
         const item = selectedFloorplanDetail;
@@ -1040,8 +1109,14 @@ export default function App() {
                     <FileDown size={16} />
                     PDF出力
                   </button>
-                  <button className="primary-button" type="button" onClick={() => promoteCandidate(item.candidate)}>
-                    お気に入り
+                  <button
+                    className="primary-button"
+                    type="button"
+                    disabled={isReviewMode}
+                    title={isReviewMode ? "確認用URLでは登録できません" : undefined}
+                    onClick={() => promoteCandidate(item.candidate)}
+                  >
+                    {isReviewMode ? "閲覧専用" : "お気に入り"}
                   </button>
                 </div>
                 <dl className="detail-info-list">
@@ -1121,7 +1196,13 @@ export default function App() {
             availableTags={availableTags}
             listingSources={listingSources}
             companies={companies}
-            onAdd={() => setIsCreating(true)}
+            onAdd={() => {
+              if (isReviewMode) {
+                blockReviewEdit();
+                return;
+              }
+              setIsCreating(true);
+            }}
           />
           <section className="library-main">
             {collectedFloorplans.length > 0 ? (
@@ -1240,7 +1321,17 @@ export default function App() {
                 <h2>最初の間取り図を登録しましょう</h2>
                 <p>端末内の画像、スクリーンショット、画像URLを使ってローカル保存できます。</p>
                 <div className="empty-actions">
-                  <button className="primary-button" type="button" onClick={() => setIsCreating(true)}>
+                  <button
+                    className="primary-button"
+                    type="button"
+                    onClick={() => {
+                      if (isReviewMode) {
+                        blockReviewEdit();
+                        return;
+                      }
+                      setIsCreating(true);
+                    }}
+                  >
                     <Plus size={17} />
                     追加
                   </button>
@@ -1264,8 +1355,20 @@ export default function App() {
                     key={property.id}
                     property={property}
                     selectedForCompare={compareIds.includes(property.id)}
-                    onOpen={() => setEditingProperty(property)}
-                    onEdit={() => setEditingProperty(property)}
+                    onOpen={() => {
+                      if (isReviewMode) {
+                        blockReviewEdit();
+                        return;
+                      }
+                      setEditingProperty(property);
+                    }}
+                    onEdit={() => {
+                      if (isReviewMode) {
+                        blockReviewEdit();
+                        return;
+                      }
+                      setEditingProperty(property);
+                    }}
                     onToggleFavorite={() => toggleFavorite(property)}
                     onToggleCompare={() => toggleCompare(property.id)}
                   />
@@ -1292,8 +1395,20 @@ export default function App() {
                   key={property.id}
                   property={property}
                   selectedForCompare={compareIds.includes(property.id)}
-                  onOpen={() => setEditingProperty(property)}
-                  onEdit={() => setEditingProperty(property)}
+                  onOpen={() => {
+                    if (isReviewMode) {
+                      blockReviewEdit();
+                      return;
+                    }
+                    setEditingProperty(property);
+                  }}
+                  onEdit={() => {
+                    if (isReviewMode) {
+                      blockReviewEdit();
+                      return;
+                    }
+                    setEditingProperty(property);
+                  }}
                   onToggleFavorite={() => toggleFavorite(property)}
                   onToggleCompare={() => toggleCompare(property.id)}
                 />
@@ -1351,7 +1466,7 @@ export default function App() {
         </main>
       ) : null}
 
-      {(editingProperty || isCreating) ? (
+      {!isReviewMode && (editingProperty || isCreating) ? (
         <PropertyWorkspace
           property={editingProperty}
           onSave={saveProperty}
