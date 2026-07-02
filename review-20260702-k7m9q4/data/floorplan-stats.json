@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-02T03:04:47.673Z",
-  "acceptedCount": 2063,
-  "publicCandidateCount": 1320,
-  "multiImageCandidateCount": 646,
+  "generatedAt": "2026-07-02T03:49:12.120Z",
+  "acceptedCount": 2162,
+  "publicCandidateCount": 1374,
+  "multiImageCandidateCount": 683,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 138
@@ -20,7 +20,7 @@
       "acceptedCount": 1
     },
     "suumo.jp": {
-      "acceptedCount": 1031
+      "acceptedCount": 1122
     },
     "aidagroup.co.jp": {
       "acceptedCount": 4
@@ -74,7 +74,7 @@
       "acceptedCount": 117
     },
     "hirayakoubou.net": {
-      "acceptedCount": 3
+      "acceptedCount": 11
     },
     "iidasangyo.co.jp": {
       "acceptedCount": 70
