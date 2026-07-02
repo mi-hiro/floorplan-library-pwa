@@ -245,6 +245,21 @@ function floorplanDetailRows(item: CollectedFloorplanItem) {
   ];
 }
 
+function floorplanPrintRows(item: CollectedFloorplanItem) {
+  return [
+    ["掲載元", item.listingSource || "未入力"],
+    ["会社", item.company || "未入力"],
+    ["間取り", item.layout || "情報なし"],
+    ["階数", item.floors || "未抽出"],
+    ["玄関向き", item.candidate.entranceDirection || "未抽出"],
+    ["延床面積", item.areaSqm ? `${item.areaSqm}㎡` : "未抽出"],
+    ["坪数", item.tsubo ? `${item.tsubo}坪` : "未抽出"],
+    ["価格", item.priceManYen ? `${item.priceManYen.toLocaleString("ja-JP")}万円` : "未抽出"],
+    ["画像枚数", `${item.images.length}枚`],
+    ["取得日", formatDate(item.fetchedAt)]
+  ];
+}
+
 function floorplanPrintLayoutStyle(imageCount: number): CSSProperties {
   const safeCount = Math.max(1, imageCount);
   const columns = safeCount <= 1 ? 1 : safeCount <= 4 ? 2 : safeCount <= 6 ? 3 : 4;
@@ -1081,6 +1096,14 @@ export default function App() {
                   </figure>
                 ))}
               </div>
+              <dl className="floorplan-print-info">
+                {floorplanPrintRows(item).map(([label, value]) => (
+                  <div key={label}>
+                    <dt>{label}</dt>
+                    <dd>{value}</dd>
+                  </div>
+                ))}
+              </dl>
               <footer className="floorplan-print-footer">
                 <span>{item.company || item.listingSource || "掲載元未入力"}</span>
                 <span>{item.sourceUrl || selectedImage.imageLink}</span>

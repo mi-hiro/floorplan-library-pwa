@@ -1999,43 +1999,54 @@ h3 {
 @media print {
   @page {
     size: A4 landscape;
-    margin: 8mm;
+    margin: 6mm;
   }
 
   html,
   body {
-    width: 297mm;
-    height: 210mm;
+    width: auto;
+    height: auto;
     min-width: 0;
     min-height: 0;
     overflow: hidden;
     background: #fff !important;
   }
 
-  body * {
-    visibility: hidden !important;
+  .app-shell > :not(.floorplan-detail-page),
+  .floorplan-detail-page > :not(.floorplan-print-sheet) {
+    display: none !important;
   }
 
-  .floorplan-print-sheet,
-  .floorplan-print-sheet * {
-    visibility: visible !important;
+  .app-shell,
+  .floorplan-detail-page {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: #fff !important;
   }
 
   .floorplan-print-sheet {
-    position: fixed;
-    inset: 0;
-    width: calc(297mm - 16mm);
-    height: calc(210mm - 16mm);
+    position: static !important;
+    left: auto;
+    top: auto;
+    width: 272mm;
+    height: 180mm;
     display: grid;
-    grid-template-rows: auto auto minmax(0, 1fr) auto;
-    gap: 3.5mm;
-    overflow: hidden;
-    opacity: 1;
+    grid-template-rows: auto auto minmax(0, 1fr) auto auto;
+    gap: 2mm;
+    overflow: hidden !important;
+    opacity: 1 !important;
     pointer-events: none;
     color: #111;
     background: #fff;
-    break-after: avoid;
+    break-after: avoid-page;
+    break-before: avoid-page;
     page-break-after: avoid;
+    page-break-before: avoid;
     font-family: "Noto Sans JP", "Yu Gothic", Meiryo, system-ui, sans-serif;
   }
 
@@ -2045,7 +2056,7 @@ h3 {
     gap: 6mm;
     align-items: end;
     border-bottom: 0.4mm solid #1f2d38;
-    padding-bottom: 2mm;
+    padding-bottom: 1.4mm;
   }
 
   .floorplan-print-header p {
@@ -2057,7 +2068,7 @@ h3 {
 
   .floorplan-print-header h1 {
     margin: 0;
-    font-size: 13pt;
+    font-size: 11pt;
     line-height: 1.25;
   }
 
@@ -2070,17 +2081,17 @@ h3 {
   .floorplan-print-meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5mm;
-    min-height: 6mm;
+    gap: 1mm;
+    min-height: 0;
   }
 
   .floorplan-print-meta span {
     border: 0.25mm solid #8fb2ca;
     border-radius: 999px;
-    padding: 0.9mm 2mm;
+    padding: 0.7mm 1.6mm;
     color: #173d59;
     background: #edf6fb;
-    font-size: 7.5pt;
+    font-size: 7pt;
     font-weight: 800;
   }
 
@@ -2089,7 +2100,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(var(--print-cols), minmax(0, 1fr));
     grid-template-rows: repeat(var(--print-rows), minmax(0, 1fr));
-    gap: 3mm;
+    gap: 2mm;
   }
 
   .floorplan-print-image {
@@ -2097,9 +2108,9 @@ h3 {
     min-height: 0;
     display: grid;
     grid-template-rows: minmax(0, 1fr) auto;
-    gap: 1mm;
+    gap: 0.8mm;
     margin: 0;
-    padding: 2mm;
+    padding: 1.5mm;
     border: 0.25mm solid #d1dde6;
     border-radius: 2mm;
     background: #fff;
@@ -2115,20 +2126,60 @@ h3 {
 
   .floorplan-print-image figcaption {
     color: #173d59;
-    font-size: 8pt;
+    font-size: 7pt;
     font-weight: 900;
     line-height: 1.1;
     text-align: center;
   }
 
+  .floorplan-print-info {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0;
+    margin: 0;
+    border-top: 0.25mm solid #d1dde6;
+    border-left: 0.25mm solid #d1dde6;
+  }
+
+  .floorplan-print-info div {
+    min-width: 0;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 1mm;
+    padding: 0.9mm 1.2mm;
+    border-right: 0.25mm solid #d1dde6;
+    border-bottom: 0.25mm solid #d1dde6;
+  }
+
+  .floorplan-print-info dt,
+  .floorplan-print-info dd {
+    margin: 0;
+    font-size: 6.8pt;
+    line-height: 1.15;
+    white-space: nowrap;
+  }
+
+  .floorplan-print-info dt {
+    color: #5d6972;
+    font-weight: 800;
+  }
+
+  .floorplan-print-info dd {
+    min-width: 0;
+    overflow: hidden;
+    color: #111;
+    font-weight: 700;
+    text-overflow: ellipsis;
+  }
+
   .floorplan-print-footer {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr);
-    gap: 4mm;
-    padding-top: 2mm;
+    gap: 3mm;
+    padding-top: 1mm;
     border-top: 0.25mm solid #d1dde6;
     color: #555;
-    font-size: 7pt;
+    font-size: 6.3pt;
     line-height: 1.25;
   }
 
