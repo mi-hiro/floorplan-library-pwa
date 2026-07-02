@@ -374,22 +374,22 @@
       "lastSitemapCandidateCount": 298
     },
     "suumo.jp": {
-      "portalPilotLastRunAt": "2026-07-02T03:42:32.497Z",
-      "lastPortalCandidateCount": 176,
-      "nextCrawlAfter": "2026-07-03T03:47:38.862Z",
-      "lastCrawledAt": "2026-07-02T03:47:38.862Z",
+      "portalPilotLastRunAt": "2026-07-02T05:59:25.511Z",
+      "lastPortalCandidateCount": 179,
+      "nextCrawlAfter": "2026-07-03T06:04:35.869Z",
+      "lastCrawledAt": "2026-07-02T06:04:35.869Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
-      "suumoRegionCursor": 38,
+      "suumoRegionCursor": 3,
       "suumoRegionCount": 47,
       "lastPortalRegionRoots": [
-        "https://suumo.jp/chumon/tn_yamaguchi/jitsurei/",
-        "https://suumo.jp/chumon/tn_shimane/jitsurei/",
-        "https://suumo.jp/chumon/tn_tottori/jitsurei/",
-        "https://suumo.jp/chumon/tn_ehime/jitsurei/",
-        "https://suumo.jp/chumon/tn_kagawa/jitsurei/",
-        "https://suumo.jp/chumon/tn_tokushima/jitsurei/"
+        "https://suumo.jp/chumon/tn_miyazaki/jitsurei/",
+        "https://suumo.jp/chumon/tn_saga/jitsurei/",
+        "https://suumo.jp/chumon/tn_okinawa/jitsurei/",
+        "https://suumo.jp/chumon/tn_hokkaido/jitsurei/",
+        "https://suumo.jp/chumon/tn_miyagi/jitsurei/",
+        "https://suumo.jp/chumon/tn_fukushima/jitsurei/"
       ]
     },
     "universalhome.co.jp": {
@@ -474,5 +474,5 @@
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12073&amp;ad_cd=hp_housing_top_madori"
     ]
   },
-  "updatedAt": "2026-07-02T03:47:38.862Z"
+  "updatedAt": "2026-07-02T06:04:35.869Z"
 }
