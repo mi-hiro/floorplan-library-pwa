@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-02T06:06:04.933Z",
-  "acceptedCount": 2179,
-  "publicCandidateCount": 1382,
+  "generatedAt": "2026-07-02T15:06:57.773Z",
+  "acceptedCount": 2209,
+  "publicCandidateCount": 1412,
   "multiImageCandidateCount": 691,
   "domains": {
     "ichijo.co.jp": {
@@ -26,7 +26,7 @@
       "acceptedCount": 4
     },
     "zerohome.jp": {
-      "acceptedCount": 46
+      "acceptedCount": 76
     },
     "creatorhome.co.jp": {
       "acceptedCount": 1
