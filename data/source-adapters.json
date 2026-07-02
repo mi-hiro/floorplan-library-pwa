@@ -248,5 +248,88 @@
     ],
     "contextSelectors": [".contents", ".main", "#content"],
     "rejectSelectors": [".banner", ".footer", ".nav"]
+  },
+  "yuyuhome.co.jp": {
+    "enabled": true,
+    "quality": "medium",
+    "companyName": "悠悠ホーム",
+    "seedUrls": [
+      "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/"
+    ],
+    "pagePatterns": ["/column/"],
+    "acceptUrlPatterns": [
+      "/column/wp-content/uploads/.*/[^/]*(?:floor_plan|madori|間取り|plan)[^/]*\\.(?:jpg|jpeg|png|webp)"
+    ],
+    "rejectUrlPatterns": [
+      "thumb|thumbnail|logo|icon|footer|header|facebook|instagram|youtube|line|compact_house_has|land_of|interior|exterior|kitchen|living|bath|toilet"
+    ],
+    "contextSelectors": [".entry-content", ".article", ".contents", ".main"],
+    "rejectSelectors": [".banner", ".footer", ".sns"]
+  },
+  "eyefulhome.jp": {
+    "enabled": true,
+    "quality": "high",
+    "companyName": "アイフルホーム",
+    "seedUrls": [
+      "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "https://www.eyefulhome.jp/concept/favo/case02.html",
+      "https://www.eyefulhome.jp/concept/favo/case03.html",
+      "https://www.eyefulhome.jp/concept/favo/case04.html",
+      "https://www.eyefulhome.jp/concept/favo/case05.html",
+      "https://www.eyefulhome.jp/concept/favo/case06.html",
+      "https://www.eyefulhome.jp/concept/favo/case07.html",
+      "https://www.eyefulhome.jp/concept/favo/case08.html"
+    ],
+    "pagePatterns": ["/concept/favo/case"],
+    "acceptUrlPatterns": [
+      "/concept/favo/img/case[0-9]+/madori[0-9]+\\.(?:png|jpg|jpeg|webp)"
+    ],
+    "rejectUrlPatterns": [
+      "madori_thm|case_mv|family|illust|slide|voice|logo|icon|common/|btn_|ttl|banner|photo"
+    ],
+    "contextSelectors": [".case", ".contents", ".main"],
+    "rejectSelectors": [".banner", ".footer", ".sns"]
+  },
+  "creatorhome.co.jp": {
+    "enabled": true,
+    "quality": "medium",
+    "companyName": "クリ英ター永和",
+    "seedUrls": [
+      "https://creatorhome.co.jp/model-house/ienomori/"
+    ],
+    "pagePatterns": ["/model-house/", "/works/"],
+    "acceptUrlPatterns": [
+      "(?:madori|Madori|floor|plan|間取り)[^/]*\\.(?:jpg|jpeg|png|webp)"
+    ],
+    "rejectUrlPatterns": [
+      "logo|icon|instagram|megaphone|envelope|key|S_house|N_house|IMG_|2D5A|photo|interior|exterior"
+    ],
+    "contextSelectors": [".contents", ".main", ".model-house"],
+    "rejectSelectors": [".banner", ".footer", ".sns"]
+  },
+  "irohaie.com": {
+    "enabled": true,
+    "quality": "medium",
+    "companyName": "IROHA.IE",
+    "seedUrls": [
+      "https://irohaie.com/floor-plan/",
+      "https://irohaie.com/floor-plan/2073/",
+      "https://irohaie.com/floor-plan/2071/",
+      "https://irohaie.com/floor-plan/2070/",
+      "https://irohaie.com/floor-plan/2068/",
+      "https://irohaie.com/floor-plan/1974/",
+      "https://irohaie.com/floor-plan/1973/",
+      "https://irohaie.com/floor-plan/1972/",
+      "https://irohaie.com/floor-plan/1971/"
+    ],
+    "pagePatterns": ["/floor-plan/"],
+    "acceptUrlPatterns": [
+      "/wpcms/wp-content/uploads/.*/(?:Like[0-9._-]+|[0-9]{3,4})\\.(?:jpg|jpeg|png|webp)"
+    ],
+    "rejectUrlPatterns": [
+      "themes/|logo|icon|txt-|linenap|lineup|takusan|hajimete|bnr|banner|footer|header|sp_logo"
+    ],
+    "contextSelectors": [".floor-plan", ".contents", ".main"],
+    "rejectSelectors": [".banner", ".footer", ".sns"]
   }
 }
