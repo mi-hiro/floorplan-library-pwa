@@ -331,5 +331,63 @@
     ],
     "contextSelectors": [".floor-plan", ".contents", ".main"],
     "rejectSelectors": [".banner", ".footer", ".sns"]
+  },
+  "genmai-home.com": {
+    "enabled": true,
+    "quality": "medium",
+    "companyName": "玄米ホーム",
+    "seedUrls": [
+      "https://genmai-home.com/floorplan1/21/",
+      "https://genmai-home.com/floorplan2/27/",
+      "https://genmai-home.com/floorplan3/32/"
+    ],
+    "pagePatterns": ["/floorplan"],
+    "acceptUrlPatterns": [
+      "/wp-content/uploads/.*/drawing(?:-[0-9]+x[0-9]+)?\\.(?:jpg|jpeg|png|webp)"
+    ],
+    "rejectUrlPatterns": [
+      "drawingele|160x90|120x68|320x180|bedroom|childroom|livingroom|Laundryroom|toilet|bath|kitchen|specialgift|handrail|television|blog-card-cache|favicon|logo|icon|banner"
+    ],
+    "contextSelectors": [".entry-content", ".article", ".contents", ".main"],
+    "rejectSelectors": [".banner", ".footer", ".sns"]
+  },
+  "hirayakoubou.net": {
+    "enabled": true,
+    "quality": "high",
+    "companyName": "平屋工房",
+    "seedUrls": [
+      "https://hirayakoubou.net/plan/",
+      "https://hirayakoubou.net/plan/yn-13/",
+      "https://hirayakoubou.net/plan/ys-13/",
+      "https://hirayakoubou.net/plan/yew-15/",
+      "https://hirayakoubou.net/plan/yn-15/",
+      "https://hirayakoubou.net/plan/ys-18/",
+      "https://hirayakoubou.net/plan/ys-19/",
+      "https://hirayakoubou.net/plan/yn-19/",
+      "https://hirayakoubou.net/plan/yew-19/",
+      "https://hirayakoubou.net/plan/yn-26/",
+      "https://hirayakoubou.net/plan/yew-22/",
+      "https://hirayakoubou.net/plan/ys-23/",
+      "https://hirayakoubou.net/plan/yn-23/",
+      "https://hirayakoubou.net/plan/yew-25/",
+      "https://hirayakoubou.net/plan/yew-26/",
+      "https://hirayakoubou.net/plan/rew-30-3/",
+      "https://hirayakoubou.net/plan/ryew-30/",
+      "https://hirayakoubou.net/plan/ryew-30-2/",
+      "https://hirayakoubou.net/plan/yn-29/",
+      "https://hirayakoubou.net/plan/yew-28/",
+      "https://hirayakoubou.net/plan/yn-28/",
+      "https://hirayakoubou.net/plan/ys-28/"
+    ],
+    "pagePatterns": ["/plan/"],
+    "acceptUrlPatterns": [
+      "/wp-content/uploads/(?:r?yew|yn|ys|rew|ms|ns|ew)-[0-9][^/]*\\.(?:jpg|jpeg|png|webp)",
+      "/wp-content/uploads/(?:REW|YEW|YN|YS|MS|NS|EW)-[0-9][^/]*\\.(?:jpg|jpeg|png|webp)"
+    ],
+    "rejectUrlPatterns": [
+      "logo|ninki|ninnki|plam|banner|bnr|footer|header|facebook|instagram|youtube|line|noscript|staff|event|photo|main"
+    ],
+    "contextSelectors": [".plan", ".contents", ".main", ".entry-content"],
+    "rejectSelectors": [".banner", ".footer", ".sns"]
   }
 }

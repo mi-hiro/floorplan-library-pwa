@@ -33,14 +33,14 @@
     "sourceQuality": "low"
   },
   "suumo.jp": {
-    "candidateCount": 2056,
-    "acceptedCount": 1031,
-    "rejectedCount": 76,
+    "candidateCount": 2313,
+    "acceptedCount": 1122,
+    "rejectedCount": 86,
     "reviewCount": 628,
-    "acceptanceRate": 0.501,
-    "lastCrawledAt": "2026-07-02T01:20:08.878Z",
+    "acceptanceRate": 0.485,
+    "lastCrawledAt": "2026-07-02T03:47:38.862Z",
     "blockReason": null,
-    "nextCrawlAfter": "2026-07-03T01:20:08.878Z",
+    "nextCrawlAfter": "2026-07-03T03:47:38.862Z",
     "sourceQuality": "high"
   },
   "hiyoriblog.com": {
@@ -189,10 +189,10 @@
   "genmai-home.com": {
     "candidateCount": 351,
     "acceptedCount": 1,
-    "rejectedCount": 314,
+    "rejectedCount": 315,
     "reviewCount": 216,
     "acceptanceRate": 0.003,
-    "lastCrawledAt": "2026-07-02T01:29:37.713Z",
+    "lastCrawledAt": "2026-07-02T03:18:00.662Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -319,12 +319,12 @@
     "sourceQuality": "low"
   },
   "hirayakoubou.net": {
-    "candidateCount": 233,
-    "acceptedCount": 3,
-    "rejectedCount": 85,
-    "reviewCount": 192,
-    "acceptanceRate": 0.013,
-    "lastCrawledAt": "2026-07-01T04:20:25.977Z",
+    "candidateCount": 288,
+    "acceptedCount": 11,
+    "rejectedCount": 147,
+    "reviewCount": 195,
+    "acceptanceRate": 0.038,
+    "lastCrawledAt": "2026-07-02T03:18:43.643Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -376,7 +376,7 @@
   "be-enough.jp": {
     "candidateCount": 5111,
     "acceptedCount": 117,
-    "rejectedCount": 4057,
+    "rejectedCount": 4199,
     "reviewCount": 1166,
     "acceptanceRate": 0.023,
     "lastCrawledAt": "2026-07-02T01:30:06.549Z",

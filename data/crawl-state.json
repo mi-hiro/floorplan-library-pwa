@@ -100,7 +100,7 @@
     "genmai-home.com": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 199,
-      "lastCrawledAt": "2026-07-02T01:29:37.713Z",
+      "lastCrawledAt": "2026-07-02T03:18:00.662Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -272,7 +272,7 @@
     "hirayakoubou.net": {
       "sitemapLastmod": null,
       "lastSitemapCandidateCount": 93,
-      "lastCrawledAt": "2026-07-01T04:20:25.977Z",
+      "lastCrawledAt": "2026-07-02T03:18:43.643Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
@@ -374,18 +374,22 @@
       "lastSitemapCandidateCount": 298
     },
     "suumo.jp": {
-      "portalPilotLastRunAt": "2026-07-02T01:17:58.983Z",
-      "lastPortalCandidateCount": 67,
-      "nextCrawlAfter": "2026-07-03T01:20:08.878Z",
-      "lastCrawledAt": "2026-07-02T01:20:08.878Z",
+      "portalPilotLastRunAt": "2026-07-02T03:42:32.497Z",
+      "lastPortalCandidateCount": 176,
+      "nextCrawlAfter": "2026-07-03T03:47:38.862Z",
+      "lastCrawledAt": "2026-07-02T03:47:38.862Z",
       "lastStatus": "ok",
       "failures": 0,
       "blockReason": null,
-      "suumoRegionCursor": 26,
+      "suumoRegionCursor": 38,
       "suumoRegionCount": 47,
       "lastPortalRegionRoots": [
-        "https://suumo.jp/chumon/tn_osaka/jitsurei/",
-        "https://suumo.jp/chumon/tn_hyogo/jitsurei/"
+        "https://suumo.jp/chumon/tn_yamaguchi/jitsurei/",
+        "https://suumo.jp/chumon/tn_shimane/jitsurei/",
+        "https://suumo.jp/chumon/tn_tottori/jitsurei/",
+        "https://suumo.jp/chumon/tn_ehime/jitsurei/",
+        "https://suumo.jp/chumon/tn_kagawa/jitsurei/",
+        "https://suumo.jp/chumon/tn_tokushima/jitsurei/"
       ]
     },
     "universalhome.co.jp": {
@@ -470,5 +474,5 @@
       "https://www.toyotahome.co.jp/housing/howto/madori/design/detail.html?id=12073&amp;ad_cd=hp_housing_top_madori"
     ]
   },
-  "updatedAt": "2026-07-02T03:00:04.507Z"
+  "updatedAt": "2026-07-02T03:47:38.862Z"
 }

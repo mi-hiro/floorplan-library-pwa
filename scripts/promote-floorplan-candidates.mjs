@@ -272,6 +272,10 @@ function hasAcceptanceEvidence(candidate, visual) {
   if (/hamaguri\.co\.jp/.test(allSignal) && !/madori|floor|plan|間取り|図面|drawing/.test(fileSignal)) return false;
   if (/yuyuhome\.co\.jp/.test(allSignal) && !/floor_plan|madori|plan|間取り|図面|drawing/.test(fileSignal) && !(hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.7)) return false;
   if (/genmai-home\.com/.test(allSignal) && !/drawing|madori|floor|plan|間取り|図面/.test(fileSignal)) return false;
+  if (/hirayakoubou\.net/.test(allSignal)) {
+    if (/^(?:r?yew|yn|ys|rew|ms|ns|ew)-[0-9][a-z0-9_-]*fig(?:-\d+x\d+)?\.(?:jpe?g|png|webp)$/i.test(fileSignal) && visual.visualScore >= 0.45) return true;
+    return false;
+  }
   if (/cleverlyhome\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !isCleverlyPlanTitle(titleSignal)) return false;
   if (/(chitose-home\.com|marusho-kensetsu\.co\.jp)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
   if (/irohaie\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !(hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.7)) return false;
@@ -544,7 +548,7 @@ function finalConfidenceFrom(candidate, visual, ollama) {
 
 function hasStrongConfidenceImageEvidence(candidate) {
   const { imageSignal } = acceptanceSignals(candidate);
-  return /madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|layout|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|img_plan|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(imageSignal);
+  return /madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|layout|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|img_plan|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]|(?:r?yew|yn|ys|rew|ms|ns|ew)-[0-9][a-z0-9_-]*fig/i.test(imageSignal);
 }
 
 async function resolveOllamaRuntime(options) {
