@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T23:26:06.184Z",
+  "generatedAt": "2026-07-02T23:17:10.544Z",
   "source": "local-crawler",
   "candidates": [
     {
@@ -609,21 +609,36 @@
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan33.jpg",
           "alt": "二世帯住宅の間取り図PLAN 33",
-          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/"
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_078475c8c6da441a",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan34.jpg",
           "alt": "二世帯住宅の間取り図PLAN 34",
-          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/"
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_5fc9d425895f2e63",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan35.jpg",
           "alt": "二世帯住宅の間取り図PLAN 35",
-          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/"
+          "sourceUrl": "https://zerohome.jp/chumon/plan/two-family-house/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         }
       ],
       "fetchedAt": "2026-06-27T19:26:02.617Z",
@@ -655,35 +670,60 @@
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan36.jpg",
           "alt": "平屋の間取り図PLAN 36",
-          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_734a49423ed0df62",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan37.jpg",
           "alt": "平屋の間取り図PLAN 37",
-          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_d8960e227c73f70d",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan38.jpg",
           "alt": "平屋の間取り図PLAN 38",
-          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_449acb297c37175d",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan39.jpg",
           "alt": "平屋の間取り図PLAN 39",
-          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_5b022c88d5e1fc2e",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan40.jpg",
           "alt": "平屋の間取り図PLAN 40",
-          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/"
+          "sourceUrl": "https://zerohome.jp/chumon/plan/one-story-house/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         }
       ],
       "fetchedAt": "2026-06-27T19:32:04.148Z",
@@ -713,7 +753,12 @@
           "kind": "floorplan",
           "url": "https://www.tanaken.co.jp/photo/estate/34/es342_layout.jpg?20260624133534",
           "alt": "間取り図",
-          "sourceUrl": "https://www.tanaken.co.jp/estate/details_342.html"
+          "sourceUrl": "https://www.tanaken.co.jp/estate/details_342.html",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         }
       ],
       "fetchedAt": "2026-06-27T19:44:08.356Z",
@@ -1601,42 +1646,72 @@
           "kind": "floorplan",
           "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250712_097-Edit-400x267.png",
           "alt": "【せやまどりNo.98】「延床33.6坪に収納・動線・快適さのすべてを実現した 極小二世帯住宅」の間取り図 | 和室・書斎・趣味",
-          "sourceUrl": "https://be-enough.jp/layout-example/"
+          "sourceUrl": "https://be-enough.jp/layout-example/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_6a0c827d8ec2c7da",
           "kind": "floorplan",
           "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250712_097-Edit.png",
           "alt": "【せやまどりNo.98】「延床33.6坪に収納・動線・快適さのすべてを実現した 極小二世帯住宅」の間取り図 | 和室・書斎・趣味",
-          "sourceUrl": "https://be-enough.jp/layout-example/"
+          "sourceUrl": "https://be-enough.jp/layout-example/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_3780ecff9316bbf6",
           "kind": "floorplan",
           "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250712_097-Edit-640x427.png",
           "alt": "【せやまどりNo.98】「延床33.6坪に収納・動線・快適さのすべてを実現した 極小二世帯住宅」の間取り図 | 和室・書斎・趣味",
-          "sourceUrl": "https://be-enough.jp/layout-example/"
+          "sourceUrl": "https://be-enough.jp/layout-example/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_63c30bfadcec98ae",
           "kind": "floorplan",
           "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250716_114-Edit-400x267.png",
           "alt": "【せやまどりNo.99】「南道路を最大限に活かした事務所併用・収納アイデア満載の1階完結型の家」の間取り図 | 和室・書斎・趣味",
-          "sourceUrl": "https://be-enough.jp/layout-example/"
+          "sourceUrl": "https://be-enough.jp/layout-example/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_06aa2396d7b9aaac",
           "kind": "floorplan",
           "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250716_114-Edit.png",
           "alt": "【せやまどりNo.99】「南道路を最大限に活かした事務所併用・収納アイデア満載の1階完結型の家」の間取り図 | 和室・書斎・趣味",
-          "sourceUrl": "https://be-enough.jp/layout-example/"
+          "sourceUrl": "https://be-enough.jp/layout-example/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_eaff9c21d1694a03",
           "kind": "floorplan",
           "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250716_114-Edit-640x427.png",
           "alt": "【せやまどりNo.99】「南道路を最大限に活かした事務所併用・収納アイデア満載の1階完結型の家」の間取り図 | 和室・書斎・趣味",
-          "sourceUrl": "https://be-enough.jp/layout-example/"
+          "sourceUrl": "https://be-enough.jp/layout-example/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:35:24.977Z",
@@ -1735,31 +1810,22 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-01.jpg",
-        "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-02.jpg",
         "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-03.jpg"
       ],
       "imageCandidates": [
-        {
-          "id": "image_candidate_1dc2ea6639af7f5a",
-          "kind": "floorplan",
-          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-01.jpg",
-          "alt": "平屋",
-          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/"
-        },
-        {
-          "id": "image_candidate_611e3662a0bc02b2",
-          "kind": "floorplan",
-          "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-02.jpg",
-          "alt": "2階建",
-          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/"
-        },
         {
           "id": "image_candidate_f925169c4bfd4eff",
           "kind": "floorplan",
           "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-03.jpg",
           "alt": "3階建",
-          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/"
+          "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image depicts a three-story residential building with a clear top-view layout of the house's structure and design elements such as balconies, windows, doors, and rooflines. It "
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:42:03.576Z",
@@ -1791,21 +1857,40 @@
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1677/madori_02.png?v=1735437185353",
           "alt": "imgsrc1677_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         },
         {
           "id": "image_candidate_b63427bc2ec8229b",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1677/madori_02.webp?v=1735437185353",
           "alt": "",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_9df3ec2c400ea0cc",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1678/madori_02.png?v=1735437185353",
           "alt": " \n                  \n                   \n                   \n                 ",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-02.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:45:30.424Z",
@@ -1837,21 +1922,40 @@
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1698/madori_05.png?v=1735437185353",
           "alt": "imgsrc1698_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, as indicated by the presence of labeled rooms and spaces, typical architectural symbols for doors, windows, a"
+          }
         },
         {
           "id": "image_candidate_7f268dde70a047c7",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1698/madori_05.webp?v=1735437185353",
           "alt": "",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_33052137e3e85845",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1699/madori_05.png?v=1735437185353",
           "alt": " \n                  \n                   \n                   \n                 ",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-05.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:46:27.631Z",
@@ -1886,42 +1990,84 @@
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1361/madori_01.png?v=1737804779827",
           "alt": "imgsrc1361_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image displays a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         },
         {
           "id": "image_candidate_00dd746b828a98f8",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1618/madori_02.png?v=1737804779827",
           "alt": "imgsrc1618_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         },
         {
           "id": "image_candidate_3f82e6dedfdd30b2",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1620/madori_03.png?v=1737804779827",
           "alt": "imgsrc1620_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, as it shows the arrangement of rooms and spaces within a house. It is not an exterior photo, interior photo, "
+          }
         },
         {
           "id": "image_candidate_a075fd7ef6a03712",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1622/madori_04.png?v=1737804779827",
           "alt": "imgsrc1622_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, as indicated by the presence of labeled rooms and furniture placement typical of such plans. The image is not"
+          }
         },
         {
           "id": "image_candidate_8a507e57da8f72c8",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1624/madori_05.png?v=1737804779827",
           "alt": "imgsrc1624_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+          }
         },
         {
           "id": "image_candidate_b7d0acb09132a0d8",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1626/madori_06.png?v=1737804779827",
           "alt": "imgsrc1626_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:47:24.877Z",
@@ -1953,21 +2099,40 @@
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1670/madori_01.png?v=1735437185353",
           "alt": "imgsrc1670_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+          }
         },
         {
           "id": "image_candidate_6636de3cf44183ed",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1670/madori_01.webp?v=1735437185353",
           "alt": "",
-          "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_f3b2fad09df10a1c",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1671/madori_01.png?v=1735437185353",
           "alt": " \n                  \n                   \n                   \n                 ",
-          "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/nmadori-01.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:48:22.477Z",
@@ -1999,21 +2164,40 @@
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1684/madori_03.png?v=1735437185353",
           "alt": "imgsrc1684_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, as it shows the arrangement of rooms and spaces within a house. It is not an exterior photo, interior photo, "
+          }
         },
         {
           "id": "image_candidate_6d7b85bb3ff109f8",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1684/madori_03.webp?v=1735437185353",
           "alt": "",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_13dc9b43ab95616d",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1685/madori_03.png?v=1735437185353",
           "alt": " \n                  \n                   \n                   \n                 ",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-03.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, as it shows the arrangement of rooms and spaces within a house. It is not an exterior photo, interior photo, "
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:49:19.841Z",
@@ -2045,21 +2229,40 @@
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1691/madori_04.png?v=1735437185353",
           "alt": "imgsrc1691_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, as indicated by the presence of labeled rooms and furniture placement typical of such diagrams. The image is "
+          }
         },
         {
           "id": "image_candidate_5fdc1a33988c176c",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1691/madori_04.webp?v=1735437185353",
           "alt": "",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_38784de54a7124f6",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1692/madori_04.png?v=1735437185353",
           "alt": " \n                  \n                   \n                   \n                 ",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-04.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, as indicated by the presence of labeled rooms and furniture placement typical of such diagrams. The image is "
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:50:17.076Z",
@@ -2091,21 +2294,40 @@
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1705/madori_06.png?v=1735437185353",
           "alt": "imgsrc1705_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-06.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-06.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         },
         {
           "id": "image_candidate_bbb17d587fcbea5e",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1705/madori_06.webp?v=1735437185353",
           "alt": "",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-06.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-06.html",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_1f4a8d3bfbad4d0a",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1706/madori_06.png?v=1735437185353",
           "alt": " \n                  \n                   \n                   \n                 ",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-06.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-06.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:51:14.523Z",
@@ -2137,21 +2359,40 @@
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1712/madori_07.png?v=1735437185353",
           "alt": "imgsrc1712_1",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-07.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-07.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         },
         {
           "id": "image_candidate_33f01002c180f952",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1712/madori_07.webp?v=1735437185353",
           "alt": "",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-07.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-07.html",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_7050a19b02fd6b8d",
           "kind": "floorplan",
           "url": "https://www.forumu.co.jp/_src/1713/madori_07.png?v=1735437185353",
           "alt": " \n                  \n                   \n                   \n                 ",
-          "sourceUrl": "https://www.forumu.co.jp/madori/madori-07.html"
+          "sourceUrl": "https://www.forumu.co.jp/madori/madori-07.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "llava:latest",
+            "isFloorplan": true,
+            "confidence": 0.95,
+            "reason": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:52:12.083Z",
@@ -2174,7 +2415,6 @@
         "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no1__title.png",
         "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no2__title.png",
         "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no3__title.png",
-        "https://www.ibaraki-heim.co.jp/assets/img/sp/madori-ranking-1__h1.png?2",
         "https://www.ibaraki-heim.co.jp/assets/img/sp/madori-ranking-1__no1__title.png"
       ],
       "imageCandidates": [
@@ -2183,42 +2423,60 @@
           "kind": "floorplan",
           "url": "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__h1.png?2",
           "alt": "間取り実例 月間ランキング",
-          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/"
+          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_800c2fd761d5c3a6",
           "kind": "floorplan",
           "url": "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no1__title.png",
           "alt": "No.1",
-          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/"
+          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_e090d3ba60d3e633",
           "kind": "floorplan",
           "url": "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no2__title.png",
           "alt": "No.2",
-          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/"
+          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_fd8e7b849908dbdf",
           "kind": "floorplan",
           "url": "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no3__title.png",
           "alt": "No.3",
-          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/"
-        },
-        {
-          "id": "image_candidate_2368bdc1482eda22",
-          "kind": "floorplan",
-          "url": "https://www.ibaraki-heim.co.jp/assets/img/sp/madori-ranking-1__h1.png?2",
-          "alt": "",
-          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/"
+          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_c0374c6d7df85765",
           "kind": "floorplan",
           "url": "https://www.ibaraki-heim.co.jp/assets/img/sp/madori-ranking-1__no1__title.png",
           "alt": "",
-          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/"
+          "sourceUrl": "https://www.ibaraki-heim.co.jp/interview/madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         }
       ],
       "fetchedAt": "2026-06-27T22:53:01.933Z",
@@ -2792,42 +3050,72 @@
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_01.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_9f684b10124cda06",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_02.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_bdf511486ddfbdb9",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_03.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_db8c94b8f84d8951",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_04.jpg",
           "alt": "pbmce_selected",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_716175fe5f0a1436",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_05.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_02f57cf8cf15220d",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_06.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         }
       ],
       "fetchedAt": "2026-06-27T23:00:37.216Z",
@@ -2861,42 +3149,72 @@
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_01.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_ab733b2e2492769f",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_02.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_d9f1c3a6eac1fa60",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_03.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_194e387082120c8c",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_04.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_87b7e973012b0310",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_05.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_c76d9b05e810375d",
           "kind": "floorplan",
           "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_06.jpg",
           "alt": "",
-          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/"
+          "sourceUrl": "https://www.sekisuihouse.co.jp/kodate/products/steel3/column/nisetai-madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         }
       ],
       "fetchedAt": "2026-06-27T23:01:39.455Z",
@@ -2926,21 +3244,36 @@
           "kind": "floorplan",
           "url": "https://www.sekisuiheim.com/madori/images/index/pic_small_pl_p01.webp",
           "alt": "平屋の間取り",
-          "sourceUrl": "https://www.sekisuiheim.com/madori/"
+          "sourceUrl": "https://www.sekisuiheim.com/madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_eb3b967b909f4dc1",
           "kind": "floorplan",
           "url": "https://www.sekisuiheim.com/madori/images/index/pic_small_pl_p02.webp",
           "alt": "1.5階平屋の間取り",
-          "sourceUrl": "https://www.sekisuiheim.com/madori/"
+          "sourceUrl": "https://www.sekisuiheim.com/madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_f2cfce9f8f2abefa",
           "kind": "floorplan",
           "url": "https://www.sekisuiheim.com/madori/images/index/pic_small_pl_p04.webp",
           "alt": "延べ床約30坪の2階建の間取り",
-          "sourceUrl": "https://www.sekisuiheim.com/madori/"
+          "sourceUrl": "https://www.sekisuiheim.com/madori/",
+          "ollamaReview": {
+            "status": "unchecked",
+            "model": "llava:latest",
+            "reason": "HTTP 400"
+          }
         },
         {
           "id": "image_candidate_4f7413489aea282f",
@@ -6546,7 +6879,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-06-30T22:57:10.224Z",
+      "fetchedAt": "2026-07-02T22:58:27.012Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     },
@@ -6591,7 +6924,7 @@
           "sourceUrl": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/"
         }
       ],
-      "fetchedAt": "2026-06-30T22:58:00.215Z",
+      "fetchedAt": "2026-07-02T22:59:17.681Z",
       "errorInfo": "",
       "memo": "ローカル巡回で作成。正式登録前に元ページと画像利用条件を確認してください。 Ollama reviewed with llava:latest."
     }
@@ -27246,6 +27579,3216 @@
       "action": "clean",
       "result": "success",
       "message": "Removed room/exterior image candidates. candidates 134 -> 120, images 359 -> 356."
+    },
+    {
+      "id": "log_350f65b8-e0c5-476c-8d5f-827e66dba773",
+      "createdAt": "2026-07-02T22:36:14.269Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "2件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_ec9ea48d-67b8-4a78-9562-633a7078f3d8",
+      "createdAt": "2026-07-02T22:36:14.873Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/floorplan1/21/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_d0d3a8d6-5bf8-4191-9d75-113b834a45ee",
+      "createdAt": "2026-07-02T22:37:03.798Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/floorplan1/21/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "一条工務店30坪平屋の4LDK・ランドリールームの間取りの考え方 - 玄米が住む一条工務店の平屋での暮らし を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_7e0b1590-f540-48ea-9753-671f2bc606f6",
+      "createdAt": "2026-07-02T22:37:12.556Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/floorplan2/27/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_3dd7431c-6bcb-4598-9123-ad809f675cfd",
+      "createdAt": "2026-07-02T22:38:01.674Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/floorplan2/27/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "一条工務店30坪平屋の廊下の必要性と玄関・水回りの間取り考え方 - 玄米が住む一条工務店の平屋での暮らし を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_522267ab-d6e9-4f72-9ae1-63d9e4628759",
+      "createdAt": "2026-07-02T22:38:10.431Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/floorplan3/32/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_64983f3b-3f6b-4484-9481-41820c56a196",
+      "createdAt": "2026-07-02T22:38:59.489Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/floorplan3/32/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "一条工務店30坪平屋の家全体の収納スペースの間取りの考え方 - 玄米が住む一条工務店の平屋での暮らし を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_221d8642-427a-4a64-8eb2-fc6d112e846d",
+      "createdAt": "2026-07-02T22:38:59.491Z",
+      "siteName": "discovered genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_7dc81e27-b080-4dda-af89-c8a3508b76f1",
+      "createdAt": "2026-07-02T22:38:59.668Z",
+      "siteName": "discovered www.misawa.co.jp",
+      "domain": "www.misawa.co.jp",
+      "url": "https://www.misawa.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "停止中",
+      "message": "robots.txt確認でHTTP 403"
+    },
+    {
+      "id": "log_b699a8dc-16fe-4ba7-a6a8-8ad86f2829e2",
+      "createdAt": "2026-07-02T22:39:00.071Z",
+      "siteName": "discovered www.toyotahome.co.jp",
+      "domain": "www.toyotahome.co.jp",
+      "url": "https://www.toyotahome.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "停止中",
+      "message": "robots.txt確認でHTTP 403"
+    },
+    {
+      "id": "log_c341b6fa-9ec7-4afb-8c07-5f6d9a01cd7e",
+      "createdAt": "2026-07-02T22:39:00.275Z",
+      "siteName": "discovered www.eco-works.jp",
+      "domain": "www.eco-works.jp",
+      "url": "https://www.eco-works.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "4件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_f815c518-a76f-4ff6-ab6a-7a2dd1213481",
+      "createdAt": "2026-07-02T22:39:00.778Z",
+      "siteName": "discovered www.eco-works.jp",
+      "domain": "www.eco-works.jp",
+      "url": "https://www.eco-works.jp/workscat/one-story/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_34b2d5c7-f09b-40e1-9567-426c92792df3",
+      "createdAt": "2026-07-02T22:39:00.781Z",
+      "siteName": "discovered www.eco-works.jp",
+      "domain": "www.eco-works.jp",
+      "url": "https://www.eco-works.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_4b827ebf-43e5-4b8d-9053-539e18293726",
+      "createdAt": "2026-07-02T22:39:01.117Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "robots.txtが見つからないため、明示的な禁止なしとして扱います。"
+    },
+    {
+      "id": "log_aec0febe-382b-4220-afcf-bc24ada4293e",
+      "createdAt": "2026-07-02T22:39:01.494Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/sitemap_index.xml",
+      "action": "sitemap確認",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_9856d223-e9dd-498b-b6f2-74dff448a1b1",
+      "createdAt": "2026-07-02T22:39:01.494Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/sitemap.xml",
+      "action": "sitemap確認",
+      "result": "成功",
+      "message": "14件のURLを検出しました。"
+    },
+    {
+      "id": "log_4ad1e46b-d04a-4231-ae10-aec2daac01b3",
+      "createdAt": "2026-07-02T22:39:01.739Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_e971b688-964a-43c8-9787-bc487356b812",
+      "createdAt": "2026-07-02T22:39:10.073Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/1647/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_15cec49b-00d7-421b-8265-a99fa03e8ecb",
+      "createdAt": "2026-07-02T22:39:59.099Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/1647/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【施工事例】「ただいま」が泥だらけでも大丈夫。子育て目線を詰め込んだ家 - 丸商建設住宅サイト を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_a51de999-2084-405e-bfa9-e103c656b3e5",
+      "createdAt": "2026-07-02T22:40:07.522Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/2088/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_0dde4021-d1b3-4b63-844f-485f680f2475",
+      "createdAt": "2026-07-02T22:40:56.541Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/2088/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【お客様の声】「やりたい」をたくさん詰め込んだ、家族もペットものびのび暮らせる住まい M様邸（鹿児島県国分） - 丸商建設住宅サイト を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_bc18c078-8011-4736-b5ac-70f6b5301c2e",
+      "createdAt": "2026-07-02T22:41:04.906Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/2698/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_a7c53e12-4656-456d-9f9f-618c3c71f197",
+      "createdAt": "2026-07-02T22:41:13.339Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://xs228083.xsrv.jp/housing/wp-content/uploads/2026/06/1-4.png",
+      "action": "画像候補検出",
+      "result": "停止中",
+      "message": "画像として読めなかったため候補から外しました。"
+    },
+    {
+      "id": "log_55037455-4d37-431f-aa0e-c1d1981c1e14",
+      "createdAt": "2026-07-02T22:41:54.207Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/2698/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【お客様の声】子どもたちが走り回る、大空間リビングで叶えた理想の暮らし T様邸（鹿児島県霧島市） - 丸商建設住宅サイト を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_4384b59b-4b3d-4870-b679-655846419891",
+      "createdAt": "2026-07-02T22:42:02.575Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/3927/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_1b520358-6538-436e-8bb8-0947284da59d",
+      "createdAt": "2026-07-02T22:42:10.915Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/3936/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_89a4aaa3-0d6d-4e9c-ae7e-1d4c31f7d151",
+      "createdAt": "2026-07-02T22:42:59.956Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/3936/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【お客様の声】家族みんなで決めた“こだわりの玄関”が一番のお気に入りです F様邸（高原町） - 丸商建設住宅サイト を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_c7924a58-0379-49d3-a715-4e555a4977f1",
+      "createdAt": "2026-07-02T22:43:08.297Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/3958/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_8012bb8c-6be5-40e6-879f-121881f72e7e",
+      "createdAt": "2026-07-02T22:43:57.406Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/3958/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【施工事例】ホワイトトーンで統一した平屋｜収納と家事動線にこだわった暮らしやすい住まい - 丸商建設住宅サイト を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_fe554485-a29c-429b-8562-5b8a060f31b3",
+      "createdAt": "2026-07-02T22:44:05.727Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/4006/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_9aef4f22-9466-4323-94b1-c7f2d079540b",
+      "createdAt": "2026-07-02T22:44:54.743Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/4006/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【施工事例】完全分離型だからこそ叶う、理想の二世帯住宅 - 丸商建設住宅サイト を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_8a887eb2-8611-4cf5-9ed5-ceb2314924a6",
+      "createdAt": "2026-07-02T22:45:03.025Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works-sitemap.xml",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_9fe4f8cb-9505-40da-a5dc-29c440d36cae",
+      "createdAt": "2026-07-02T22:45:11.243Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works__hash-sitemap.xml",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_25d90a39-b6d4-4e77-a41f-8f2158673ddc",
+      "createdAt": "2026-07-02T22:45:19.477Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/house-sitemap.xml",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_c06e9377-68bb-4409-848f-e0de5df46bef",
+      "createdAt": "2026-07-02T22:45:27.717Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/modelhouse-sitemap.xml",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_94ad9f73-8127-4934-8c43-266ba3393003",
+      "createdAt": "2026-07-02T22:45:35.939Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works__category-sitemap.xml",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_6aa51201-e82b-414a-99c8-77a4bc6e5118",
+      "createdAt": "2026-07-02T22:45:44.163Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/house__category-sitemap.xml",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_753ee80b-498c-4fea-90e3-1756033c41e2",
+      "createdAt": "2026-07-02T22:45:52.467Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/?HASH=4ldk",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_2eb76108-cb42-41d3-808a-85e514833d26",
+      "createdAt": "2026-07-02T22:46:00.856Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/voice/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_1fdd3293-bff4-4a30-8ec8-8077960e96ac",
+      "createdAt": "2026-07-02T22:46:09.205Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/?CAT=%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E5%A3%B0",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_4f574257-38ad-4696-a72c-2cce2fa1d812",
+      "createdAt": "2026-07-02T22:46:17.517Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/?CAT=%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_6dc4990a-df83-4476-8c2e-98153f03ba14",
+      "createdAt": "2026-07-02T22:46:25.810Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/?HASH=%E4%BA%8C%E4%B8%96%E5%B8%AF%E4%BD%8F%E5%AE%85",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_19998865-3449-4830-ae84-15770580e5a2",
+      "createdAt": "2026-07-02T22:46:34.117Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/works/?HASH=%E5%B9%B3%E5%B1%8B",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_13499624-cdff-4696-9fdb-572d3a4014ef",
+      "createdAt": "2026-07-02T22:46:34.122Z",
+      "siteName": "discovered www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_eef49102-1bf7-4353-b92a-f6cd05992e47",
+      "createdAt": "2026-07-02T22:46:34.329Z",
+      "siteName": "discovered www.aqura.co.jp",
+      "domain": "www.aqura.co.jp",
+      "url": "https://www.aqura.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "5件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_83a54e49-afad-46a8-998c-75ec68f425d6",
+      "createdAt": "2026-07-02T22:46:34.369Z",
+      "siteName": "discovered www.aqura.co.jp",
+      "domain": "www.aqura.co.jp",
+      "url": "https://www.aqura.co.jp/column/plan/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_45382875-8d53-498d-9e93-d86189529fca",
+      "createdAt": "2026-07-02T22:46:42.508Z",
+      "siteName": "discovered www.aqura.co.jp",
+      "domain": "www.aqura.co.jp",
+      "url": "https://www.aqura.co.jp/column/plan/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "AQ COLUMN｜AQ Group アキュラホーム を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_f4156fd6-a8ab-410a-a6ec-a6102f4abea3",
+      "createdAt": "2026-07-02T22:46:42.509Z",
+      "siteName": "discovered www.aqura.co.jp",
+      "domain": "www.aqura.co.jp",
+      "url": "https://www.aqura.co.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_53413f17-9623-4b85-a31b-9a60336ae9bb",
+      "createdAt": "2026-07-02T22:46:42.791Z",
+      "siteName": "discovered www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "1件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_1815de91-4e1c-4d38-b9b6-6ef0bc5941ec",
+      "createdAt": "2026-07-02T22:46:43.132Z",
+      "siteName": "discovered www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_2eec3407-4a7a-4c8c-b258-e16bf956bac6",
+      "createdAt": "2026-07-02T22:47:24.270Z",
+      "siteName": "discovered www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/order/madori_plan/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【公式】間取りプラン集｜アイダ設計（ハウスメーカー） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_9b69cff6-8db9-4739-bad1-71bf762a2593",
+      "createdAt": "2026-07-02T22:47:24.275Z",
+      "siteName": "discovered www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_052f767e-2105-4f82-aebc-840b30309608",
+      "createdAt": "2026-07-02T22:47:24.588Z",
+      "siteName": "discovered sfc.jp",
+      "domain": "sfc.jp",
+      "url": "https://sfc.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "1件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_c5c43041-4dc1-4153-8a12-d26dea6e8ff9",
+      "createdAt": "2026-07-02T22:47:24.884Z",
+      "siteName": "discovered sfc.jp",
+      "domain": "sfc.jp",
+      "url": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_d457663e-2c6c-4c2c-a4ba-bad380c3c9e4",
+      "createdAt": "2026-07-02T22:48:14.451Z",
+      "siteName": "discovered sfc.jp",
+      "domain": "sfc.jp",
+      "url": "https://sfc.jp/ie/myhome/articles/chumon-madori20250930/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "注文住宅の間取り13選。空間づくりのアイデア・間取りの決め方も解説｜わたしの家｜木造注文住宅・戸建の住友林業（ハウスメーカー） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_29740171-1ddc-4094-949b-862c3d909304",
+      "createdAt": "2026-07-02T22:48:14.452Z",
+      "siteName": "discovered sfc.jp",
+      "domain": "sfc.jp",
+      "url": "https://sfc.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_2afc2c44-5853-4ff7-9dd3-4ad6baefcc6e",
+      "createdAt": "2026-07-02T22:48:14.772Z",
+      "siteName": "discovered sumaiida.com",
+      "domain": "sumaiida.com",
+      "url": "https://sumaiida.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "4件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_7babba38-154e-42e9-8627-2e18c1ae0422",
+      "createdAt": "2026-07-02T22:48:14.943Z",
+      "siteName": "discovered sumaiida.com",
+      "domain": "sumaiida.com",
+      "url": "https://sumaiida.com/customhome/user_data/case_twostory",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_f1f1c38b-dd4d-4915-a7fe-a37d142790b1",
+      "createdAt": "2026-07-02T22:49:04.280Z",
+      "siteName": "discovered sumaiida.com",
+      "domain": "sumaiida.com",
+      "url": "https://sumaiida.com/customhome/user_data/case_twostory",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "2階建ての建築実例紹介 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_ea4c094e-47c6-45fb-9cd6-d6774641060c",
+      "createdAt": "2026-07-02T22:49:04.281Z",
+      "siteName": "discovered sumaiida.com",
+      "domain": "sumaiida.com",
+      "url": "https://sumaiida.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_45bd07ef-5bd4-4aaa-bc65-93e6995e6de8",
+      "createdAt": "2026-07-02T22:49:04.838Z",
+      "siteName": "discovered with-e-home.com",
+      "domain": "with-e-home.com",
+      "url": "https://with-e-home.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "robots.txtが見つからないため、明示的な禁止なしとして扱います。"
+    },
+    {
+      "id": "log_0d9c585d-ae1d-475a-b1c5-07919aca9b17",
+      "createdAt": "2026-07-02T22:49:05.141Z",
+      "siteName": "discovered with-e-home.com",
+      "domain": "with-e-home.com",
+      "url": "https://with-e-home.com/plans/tag/17",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_a06127a4-2222-4a14-986c-a20dbc023a42",
+      "createdAt": "2026-07-02T22:49:54.182Z",
+      "siteName": "discovered with-e-home.com",
+      "domain": "with-e-home.com",
+      "url": "https://with-e-home.com/plans/tag/17",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "「4LDK」の間取り集 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_d883274a-970e-4010-9282-eef41fa999fd",
+      "createdAt": "2026-07-02T22:49:54.183Z",
+      "siteName": "discovered with-e-home.com",
+      "domain": "with-e-home.com",
+      "url": "https://with-e-home.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_88402412-2cfe-49c6-9e32-627b0927caa6",
+      "createdAt": "2026-07-02T22:49:55.716Z",
+      "siteName": "discovered kh-house.jp",
+      "domain": "kh-house.jp",
+      "url": "https://kh-house.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "2件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_ac08ccf8-a7ef-4d93-ae5c-ec33e45e0970",
+      "createdAt": "2026-07-02T22:49:55.851Z",
+      "siteName": "discovered kh-house.jp",
+      "domain": "kh-house.jp",
+      "url": "https://kh-house.jp/plan/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_64bcc9bf-68fe-4a68-a251-62620b541b42",
+      "createdAt": "2026-07-02T22:50:44.882Z",
+      "siteName": "discovered kh-house.jp",
+      "domain": "kh-house.jp",
+      "url": "https://kh-house.jp/plan/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "厳選プラン集｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_784a5554-52b5-410e-83d9-e116c4d05f3b",
+      "createdAt": "2026-07-02T22:50:44.882Z",
+      "siteName": "discovered kh-house.jp",
+      "domain": "kh-house.jp",
+      "url": "https://kh-house.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_bc0113df-c28f-467f-9fbd-aedec1918a9e",
+      "createdAt": "2026-07-02T22:50:45.716Z",
+      "siteName": "discovered searshome.co.jp",
+      "domain": "searshome.co.jp",
+      "url": "https://searshome.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "2件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_02d8e533-30d2-4571-b01f-efd3b8bbddfa",
+      "createdAt": "2026-07-02T22:50:46.364Z",
+      "siteName": "discovered searshome.co.jp",
+      "domain": "searshome.co.jp",
+      "url": "https://searshome.co.jp/plan/hiraya/hiraya0006/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_30144bbb-7690-4d13-937c-f0c995e9bfd9",
+      "createdAt": "2026-07-02T22:51:35.478Z",
+      "siteName": "discovered searshome.co.jp",
+      "domain": "searshome.co.jp",
+      "url": "https://searshome.co.jp/plan/hiraya/hiraya0006/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "熊本の注文住宅はシアーズホーム／ハウスメーカー・工務店／注文住宅で建てる一軒家 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_cce0dd29-aead-452d-9227-84775c3da458",
+      "createdAt": "2026-07-02T22:51:35.478Z",
+      "siteName": "discovered searshome.co.jp",
+      "domain": "searshome.co.jp",
+      "url": "https://searshome.co.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_16b06b2f-6571-487b-944e-3adafe77aca5",
+      "createdAt": "2026-07-02T22:51:35.712Z",
+      "siteName": "discovered aerahome.com",
+      "domain": "aerahome.com",
+      "url": "https://aerahome.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "230件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_a1306fdb-fc5e-4cb1-8f51-2866c701ca34",
+      "createdAt": "2026-07-02T22:51:36.364Z",
+      "siteName": "discovered aerahome.com",
+      "domain": "aerahome.com",
+      "url": "https://aerahome.com/column/plannig/250709131/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_b9c60655-04de-4194-b2ec-21f16cf715c6",
+      "createdAt": "2026-07-02T22:52:25.473Z",
+      "siteName": "discovered aerahome.com",
+      "domain": "aerahome.com",
+      "url": "https://aerahome.com/column/plannig/250709131/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【保存版！】人気の平屋3LDK間取りプラン集。一級建築士が家族構成と暮らしに合わせた最適解を提案 - お役立ちコラム | 平屋・注文住宅のアエラホーム を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_bc657afb-316d-465d-b3d6-4388ba74a35e",
+      "createdAt": "2026-07-02T22:52:25.473Z",
+      "siteName": "discovered aerahome.com",
+      "domain": "aerahome.com",
+      "url": "https://aerahome.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_8f668911-5f88-4125-a27c-61a6dc453f02",
+      "createdAt": "2026-07-02T22:52:25.772Z",
+      "siteName": "discovered www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "robots.txtが見つからないため、明示的な禁止なしとして扱います。"
+    },
+    {
+      "id": "log_f7f9f862-5906-4d97-a4e4-0cc4fe1f82cb",
+      "createdAt": "2026-07-02T22:52:25.950Z",
+      "siteName": "discovered www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/sitemap.xml",
+      "action": "sitemap確認",
+      "result": "成功",
+      "message": "対象ファイルは見つかりませんでした。"
+    },
+    {
+      "id": "log_4f275456-a5d7-47e8-b7c0-4f44a7c018bf",
+      "createdAt": "2026-07-02T22:52:26.004Z",
+      "siteName": "discovered www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/interview/madori/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_fb4f20bb-bc12-45f0-98ac-bef152045939",
+      "createdAt": "2026-07-02T22:53:15.173Z",
+      "siteName": "discovered www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/interview/madori/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "間取り実例 | 茨城セキスイハイム | 茨城県の住宅メーカー（ハウスメーカー） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_7a9276b9-417b-4791-985a-2efba19f4d71",
+      "createdAt": "2026-07-02T22:53:23.371Z",
+      "siteName": "discovered www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/heimgallerypark-tsukuba/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_bcda26df-a57d-486b-91f7-db3eb669fa20",
+      "createdAt": "2026-07-02T22:53:31.564Z",
+      "siteName": "discovered www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/myhomeplan/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_ebeb7ba5-1bdb-4512-9101-e5e39394467d",
+      "createdAt": "2026-07-02T22:54:20.709Z",
+      "siteName": "discovered www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/myhomeplan/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "私たちの茨城マイホーム計画 | 茨城セキスイハイム | 茨城県の住宅メーカー（ハウスメーカー） を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_19082939-1704-447c-8b51-8a2c7dc68175",
+      "createdAt": "2026-07-02T22:54:20.942Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "robots.txtが見つからないため、明示的な禁止なしとして扱います。"
+    },
+    {
+      "id": "log_e8f2b19e-630d-41c4-85b4-e0c63668f7a9",
+      "createdAt": "2026-07-02T22:54:21.120Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_fea927ff-007e-45c9-b524-b8b3daada846",
+      "createdAt": "2026-07-02T22:55:10.150Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case01.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 子育ても家事も暮らしももっと楽しくなる住まい｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_3e0a9c28-8d87-4220-bd10-186e1c8d74d8",
+      "createdAt": "2026-07-02T22:55:18.316Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case02.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_9b3aa57e-fb8f-46aa-97ba-bcde75086688",
+      "createdAt": "2026-07-02T22:55:34.671Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case02.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 子どもと育つ、家族で育む、家族のきずなが深まる平屋｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_3f532a87-7cdd-41cd-b4e6-68f9e01b0798",
+      "createdAt": "2026-07-02T22:55:42.847Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case02new.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_16f851d9-fed0-41da-a1a1-46433f0e45cf",
+      "createdAt": "2026-07-02T22:55:59.192Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case02new.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 子どもの居場所がたくさんあるお家｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_d92b478c-08af-4692-9d35-8cafbb03c9ed",
+      "createdAt": "2026-07-02T22:56:07.395Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case03.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_94080c27-89b1-4e02-afa2-a2117a849c41",
+      "createdAt": "2026-07-02T22:56:15.573Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case03.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 自然の光と風を感じながら、のびのび子育てできる平屋｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_faa4a277-8596-4955-a34e-4b2bc1cb542b",
+      "createdAt": "2026-07-02T22:56:23.732Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case04.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_cc32bb55-5f79-47d6-be1e-fab06f92eed9",
+      "createdAt": "2026-07-02T22:56:40.131Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case04.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 家族や仲間との絆が深まるキッチンのある家｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_58299320-1e1c-424f-a7f8-a035f4baa0f3",
+      "createdAt": "2026-07-02T22:56:48.295Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case05.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_ae2a28be-b136-437d-9e6a-0d350bf8e21c",
+      "createdAt": "2026-07-02T22:57:04.627Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case05.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 家族が自然と集まるスキップフロア｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_cc7c51e3-6b99-40e2-97dc-3ac4a0843387",
+      "createdAt": "2026-07-02T22:57:12.784Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case06.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_264ce9d1-9bc9-4fa4-8d02-61277aeab90b",
+      "createdAt": "2026-07-02T22:57:29.155Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case06.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 自分の好きな鑑賞時間を楽しむ｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_7dba3c4e-6b1e-4a5a-a80a-d39af731686c",
+      "createdAt": "2026-07-02T22:57:37.324Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case07.html",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_25054db4-af4d-437b-8947-cd94719a401d",
+      "createdAt": "2026-07-02T22:58:26.369Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp/concept/favo/case07.html",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "FAVO 空間を有効活用する工夫に満ちた家｜注文住宅のFCハウスメーカー【アイフルホーム】 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_6d410291-6610-4cda-a135-61d9c537f0ca",
+      "createdAt": "2026-07-02T22:58:26.369Z",
+      "siteName": "discovered www.eyefulhome.jp",
+      "domain": "www.eyefulhome.jp",
+      "url": "https://www.eyefulhome.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_9dd92f82-3ff3-43ac-a321-82b8e8d075d7",
+      "createdAt": "2026-07-02T22:58:26.809Z",
+      "siteName": "discovered miyazaki1960.com",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "0件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_e32d23d7-6e12-42e4-a43a-47fc7fa8a34f",
+      "createdAt": "2026-07-02T22:58:27.011Z",
+      "siteName": "discovered miyazaki1960.com",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/works1/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_0d0c7c56-e623-4c35-8c0c-7bcee3c05d0a",
+      "createdAt": "2026-07-02T22:59:16.725Z",
+      "siteName": "discovered miyazaki1960.com",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/works1/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "株式会社 宮崎工務店 - 施工事例 住宅新築 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_aa25f15b-2470-4475-a71b-7bafc769ded4",
+      "createdAt": "2026-07-02T22:59:16.725Z",
+      "siteName": "discovered miyazaki1960.com",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_9dd2e8ad-de4f-476b-bc80-a304af9db4ac",
+      "createdAt": "2026-07-02T22:59:16.946Z",
+      "siteName": "discovered www.yuyuhome.co.jp",
+      "domain": "www.yuyuhome.co.jp",
+      "url": "https://www.yuyuhome.co.jp/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "0件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_e0e27f50-bdae-49aa-b92a-6039239532b1",
+      "createdAt": "2026-07-02T22:59:17.674Z",
+      "siteName": "discovered www.yuyuhome.co.jp",
+      "domain": "www.yuyuhome.co.jp",
+      "url": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_41617975-24a3-4583-b5e5-227c5034e270",
+      "createdAt": "2026-07-02T23:00:06.725Z",
+      "siteName": "discovered www.yuyuhome.co.jp",
+      "domain": "www.yuyuhome.co.jp",
+      "url": "https://www.yuyuhome.co.jp/column/conpact-house-floor-plan/",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "【30坪以下】コンパクトハウスの間取り解説【注文住宅のプロ監修】｜注文住宅お役立ちコラム｜悠悠ホーム | 福岡・熊本・佐賀のハウスメーカー を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_fb8e9223-e1d5-4aca-9bf1-03ecafc59fd6",
+      "createdAt": "2026-07-02T23:00:06.728Z",
+      "siteName": "discovered www.yuyuhome.co.jp",
+      "domain": "www.yuyuhome.co.jp",
+      "url": "https://www.yuyuhome.co.jp",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_03fd8a5d-bdc2-4397-a85a-8c0e7b960e26",
+      "createdAt": "2026-07-02T23:00:06.961Z",
+      "siteName": "discovered www.cleverlyhome.com",
+      "domain": "www.cleverlyhome.com",
+      "url": "https://www.cleverlyhome.com/robots.txt",
+      "action": "robots確認",
+      "result": "成功",
+      "message": "2件のrobotsルールを読み込みました。"
+    },
+    {
+      "id": "log_0d01f148-7ac6-48fe-b55a-6cde0dfb1c9e",
+      "createdAt": "2026-07-02T23:00:10.136Z",
+      "siteName": "discovered www.cleverlyhome.com",
+      "domain": "www.cleverlyhome.com",
+      "url": "https://www.cleverlyhome.com/kurashi/plan/9993",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_6f542d3f-6072-4ece-9c25-14815ce89145",
+      "createdAt": "2026-07-02T23:00:59.315Z",
+      "siteName": "discovered www.cleverlyhome.com",
+      "domain": "www.cleverlyhome.com",
+      "url": "https://www.cleverlyhome.com/kurashi/plan/9993",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "4LDKの注文住宅間取り実例｜2階建て・平屋に必要な広さや費用は？ を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_2958127c-047c-4660-923a-3b19286a56c9",
+      "createdAt": "2026-07-02T23:01:14.341Z",
+      "siteName": "discovered www.cleverlyhome.com",
+      "domain": "www.cleverlyhome.com",
+      "url": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "action": "詳細取得",
+      "result": "成功",
+      "message": "HTMLを取得しました。"
+    },
+    {
+      "id": "log_702aa68c-566c-4e3f-a123-1c85e0ec1cd6",
+      "createdAt": "2026-07-02T23:02:03.363Z",
+      "siteName": "discovered www.cleverlyhome.com",
+      "domain": "www.cleverlyhome.com",
+      "url": "https://www.cleverlyhome.com/kurashi/plan/9995",
+      "action": "候補保存",
+      "result": "成功",
+      "message": "3LDKの注文住宅間取り実例【2階建て・平屋】失敗例と対策も解説 を確認待ち候補として保存しました。"
+    },
+    {
+      "id": "log_48526296-0aff-48c4-a429-e538bec1a816",
+      "createdAt": "2026-07-02T23:02:03.363Z",
+      "siteName": "discovered www.cleverlyhome.com",
+      "domain": "www.cleverlyhome.com",
+      "url": "https://www.cleverlyhome.com",
+      "action": "停止",
+      "result": "上限到達",
+      "message": "1回あたりの取得上限に到達しました。"
+    },
+    {
+      "id": "log_3f3ec568-708b-4c57-9a1e-9bcc7a710f63",
+      "createdAt": "2026-07-02T23:02:13.776Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=zerohome.jp%2Fchumon%2Fplan%2Fplan04%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "zerohome.jp/chumon/plan/plan04/*: This operation was aborted"
+    },
+    {
+      "id": "log_a420a0c5-2edd-4e11-b801-d6e28f9303e2",
+      "createdAt": "2026-07-02T23:02:23.780Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ichijo.co.jp%2Flp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ichijo.co.jp/lp/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_51f8ba9c-a629-4e4e-9f13-364d3f8380cd",
+      "createdAt": "2026-07-02T23:02:33.782Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=irohaie.com%2Ffloor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "irohaie.com/floor-plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_c62a73d5-bf23-4d83-b1aa-5efe951b84c7",
+      "createdAt": "2026-07-02T23:02:43.782Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.misawa.co.jp%2Fkodate%2Fguide%2Fhiraya%2Fmadori.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.misawa.co.jp/kodate/guide/hiraya/madori.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_03c4fa55-19ba-42b0-a2ef-99a67b88b890",
+      "createdAt": "2026-07-02T23:02:53.783Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.toyotahome.co.jp%2Fchumon%2Fhowto%2Fmadori%2Fdesign%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.toyotahome.co.jp/chumon/howto/madori/design/*: This operation was aborted"
+    },
+    {
+      "id": "log_9e91e4c8-bbd5-4876-97e4-181e7390f456",
+      "createdAt": "2026-07-02T23:03:03.785Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.aidagroup.co.jp%2Forder%2Fmadori_plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.aidagroup.co.jp/order/madori_plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_7bf9d32f-49c9-484f-8a17-a02fcc33345c",
+      "createdAt": "2026-07-02T23:03:13.786Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.megasoft.co.jp%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.megasoft.co.jp/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_e43a1d7f-4758-43b0-b15b-9dc67ea1d4d6",
+      "createdAt": "2026-07-02T23:03:23.787Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuiheim.com%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuiheim.com/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_7ead958e-1c17-4c11-be8e-c7b8ab57fd42",
+      "createdAt": "2026-07-02T23:03:33.788Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=genmai-home.com%2Ffloorplan1%2F21%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "genmai-home.com/floorplan1/21/*: This operation was aborted"
+    },
+    {
+      "id": "log_9d80b4b7-8181-494a-9a34-72a8c4ecfb22",
+      "createdAt": "2026-07-02T23:03:43.789Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.forumu.co.jp%2Fmadori%2Fmadori-02.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.forumu.co.jp/madori/madori-02.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_f6264590-03c8-4fcb-8c67-d43967c7b651",
+      "createdAt": "2026-07-02T23:03:53.789Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.ibaraki-heim.co.jp%2Finterview%2Fmadori%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.ibaraki-heim.co.jp/interview/madori/*: This operation was aborted"
+    },
+    {
+      "id": "log_358ee767-080f-4acf-94a7-4c7073ea7b1c",
+      "createdAt": "2026-07-02T23:04:03.789Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=be-enough.jp%2Flayout-example%2F30%25E5%259D%25AA%25EF%25BD%259E%2Fp10009%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "be-enough.jp/layout-example/30%E5%9D%AA%EF%BD%9E/p10009/*: This operation was aborted"
+    },
+    {
+      "id": "log_98a8dee7-36f5-4e25-ada7-2c01d72acc55",
+      "createdAt": "2026-07-02T23:04:13.793Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sfc.jp%2Fie%2Fmyhome%2Farticles%2Fchumon-madori20250930%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "sfc.jp/ie/myhome/articles/chumon-madori20250930/*: This operation was aborted"
+    },
+    {
+      "id": "log_6085a204-323d-4c55-811d-6b5820796a81",
+      "createdAt": "2026-07-02T23:04:23.795Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.marusho-kensetsu.co.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.marusho-kensetsu.co.jp/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_d2ce4b15-b665-44d3-a0ba-ba4f85cec295",
+      "createdAt": "2026-07-02T23:04:33.796Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.shichiro.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.shichiro.com/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_0c5c7baa-2414-4205-8ef0-11df1bab75a0",
+      "createdAt": "2026-07-02T23:04:43.799Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.mandai-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.mandai-home.com/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_9d4d993d-6c17-4c7e-be21-f905985e20c9",
+      "createdAt": "2026-07-02T23:04:53.799Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.sekisuihouse.co.jp%2Fcrepre%2Fgreenfirstoffice%2Fworks01%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.sekisuihouse.co.jp/crepre/greenfirstoffice/works01/*: This operation was aborted"
+    },
+    {
+      "id": "log_9c96d818-36ce-4e1e-920f-f813ae39ae1f",
+      "createdAt": "2026-07-02T23:05:03.800Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eyefulhome.jp%2Fconcept%2Ffavo%2Fcase01.html%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eyefulhome.jp/concept/favo/case01.html/*: This operation was aborted"
+    },
+    {
+      "id": "log_a4a516d9-f2df-495a-a63f-c629cf7a1e63",
+      "createdAt": "2026-07-02T23:05:13.801Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=creatorhome.co.jp%2Fworks%2Frasie%2F64%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "creatorhome.co.jp/works/rasie/64/*: This operation was aborted"
+    },
+    {
+      "id": "log_ce2b0d3e-9670-4c26-b4f7-161fcf57a879",
+      "createdAt": "2026-07-02T23:05:23.805Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=sumaiida.com%2Fcustomhome%2Fuser_data%2Fcase_twostory%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "sumaiida.com/customhome/user_data/case_twostory/*: This operation was aborted"
+    },
+    {
+      "id": "log_66a4a89f-3491-41fd-9396-a4ea8bf5d197",
+      "createdAt": "2026-07-02T23:05:33.806Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=hamaguri.co.jp%2Fhouse%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "hamaguri.co.jp/house/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_1140aace-b942-4643-9506-999df5a05eed",
+      "createdAt": "2026-07-02T23:05:43.806Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.eco-works.jp%2Fworkscat%2Fone-story%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.eco-works.jp/workscat/one-story/*: This operation was aborted"
+    },
+    {
+      "id": "log_6657b8b8-12e8-4ec3-99b0-32946580e671",
+      "createdAt": "2026-07-02T23:05:53.809Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=bell-h.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "bell-h.jp/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_7b52d6e6-c2df-4450-946d-2df47a1e020f",
+      "createdAt": "2026-07-02T23:06:03.810Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=miyazaki1960.com%2Fworks1%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "miyazaki1960.com/works1/*: This operation was aborted"
+    },
+    {
+      "id": "log_bc751d5d-1273-4c3d-8cd3-d5dd92f62a27",
+      "createdAt": "2026-07-02T23:06:13.811Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.chitose-home.com%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.chitose-home.com/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_9d34781f-bd1e-4c60-b5d8-8432e0bb892d",
+      "createdAt": "2026-07-02T23:06:23.811Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.peacehome.jp%2Fworks%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.peacehome.jp/works/*: This operation was aborted"
+    },
+    {
+      "id": "log_666f2c56-6ac7-4334-acf7-69a9e1b0e10a",
+      "createdAt": "2026-07-02T23:06:33.812Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=yamasahouse.co.jp%2Fcase%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "yamasahouse.co.jp/case/*: This operation was aborted"
+    },
+    {
+      "id": "log_99d0ba0e-5d63-4b53-8d11-53a424d252be",
+      "createdAt": "2026-07-02T23:06:43.813Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.yuyuhome.co.jp%2Fcolumn%2Fconpact-house-floor-plan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.yuyuhome.co.jp/column/conpact-house-floor-plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_20fa1e09-5504-42ee-8a11-ff5ba53ecc1f",
+      "createdAt": "2026-07-02T23:06:53.815Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=hirayakoubou.net%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "hirayakoubou.net/plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_f43bd1e9-87bd-4421-81cf-c62d5aa6501f",
+      "createdAt": "2026-07-02T23:07:03.816Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=www.cleverlyhome.com%2Fkurashi%2Fplan%2F9993%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "www.cleverlyhome.com/kurashi/plan/9993/*: This operation was aborted"
+    },
+    {
+      "id": "log_4540ca8d-1241-48b9-bce9-50b3fe5f1d6e",
+      "createdAt": "2026-07-02T23:07:13.819Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=with-e-home.com%2Fplans%2Ftag%2F17%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "with-e-home.com/plans/tag/17/*: This operation was aborted"
+    },
+    {
+      "id": "log_fd36d23a-27da-448a-9314-18b78b7eb4fe",
+      "createdAt": "2026-07-02T23:07:23.820Z",
+      "siteName": "Common Crawl",
+      "domain": "index.commoncrawl.org",
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-25-index?url=kh-house.jp%2Fplan%2F*&output=json&fl=url%2Cmime%2Cstatus%2Ctimestamp%2Cdigest%2Cfilename%2Coffset%2Clength&filter=status%3A200&collapse=urlkey&limit=60",
+      "action": "index-query",
+      "result": "skipped",
+      "message": "kh-house.jp/plan/*: This operation was aborted"
+    },
+    {
+      "id": "log_7b6962ad-2c34-4399-9e0e-d23e930796f0",
+      "createdAt": "2026-07-02T23:07:24.055Z",
+      "siteName": "Ollama",
+      "domain": "127.0.0.1",
+      "url": "http://127.0.0.1:11434",
+      "action": "model",
+      "result": "success",
+      "message": "Using llava:latest"
+    },
+    {
+      "id": "log_9e049822-1825-4844-8c7e-170bcd691b43",
+      "createdAt": "2026-07-02T23:07:39.525Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan01.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_c81703fd-2b8b-4707-996e-cfb612da86e1",
+      "createdAt": "2026-07-02T23:07:43.937Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan02.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_37a6dec5-0f63-4e71-a04b-3a3ca74f7c95",
+      "createdAt": "2026-07-02T23:07:44.905Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan03.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_8511ff71-69a1-4da9-ab7a-c4b09c889ba7",
+      "createdAt": "2026-07-02T23:07:45.858Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan04-1.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_a7014ad4-5056-40be-bd6d-7f1756321bb5",
+      "createdAt": "2026-07-02T23:07:46.999Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan05.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_91b1a039-7ab3-46a4-85ae-564c3557692a",
+      "createdAt": "2026-07-02T23:07:47.980Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan06.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_72850194-2e27-407f-af05-c038b4116524",
+      "createdAt": "2026-07-02T23:07:49.391Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan18.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_4ab0ba95-bdc4-46fd-b131-cb3a0a2e3687",
+      "createdAt": "2026-07-02T23:07:50.361Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan19.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_a872c8f5-044e-452a-8515-5b2aab26a699",
+      "createdAt": "2026-07-02T23:07:51.265Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan20.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_012e7cb9-14a4-43e7-8560-419b94294e35",
+      "createdAt": "2026-07-02T23:07:52.239Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan21.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_81acc7b1-4135-42e7-b034-7db59d4ed152",
+      "createdAt": "2026-07-02T23:07:53.281Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan22.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_7be61922-f734-40c6-8999-5e8db3ed0cdc",
+      "createdAt": "2026-07-02T23:07:54.191Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan23.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_ae2f5bf9-abc0-4af0-b64b-ea47d4605e08",
+      "createdAt": "2026-07-02T23:07:55.766Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan31.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_b042474f-9605-4375-a178-95314a3e093f",
+      "createdAt": "2026-07-02T23:07:56.725Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan32.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_a5108417-95ea-4246-97aa-be650d96f7dd",
+      "createdAt": "2026-07-02T23:07:57.805Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan33.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_1c7a8e07-f556-4d32-a91d-f2aa06dd3c9e",
+      "createdAt": "2026-07-02T23:07:58.789Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan34.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_97cd9f61-715b-4d92-9f6e-f8da5f5e9941",
+      "createdAt": "2026-07-02T23:07:59.744Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan35.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_ad29a7bf-1f81-48b6-81e1-a117ab324a76",
+      "createdAt": "2026-07-02T23:08:00.806Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan36.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_19d781d6-d98f-4381-b0f6-7bc0e41d49df",
+      "createdAt": "2026-07-02T23:08:01.776Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan37.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_4ac5e11a-df48-4772-820c-a1f47227905a",
+      "createdAt": "2026-07-02T23:08:02.734Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan38.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_cc99ef65-a3d0-4d23-9fab-b7b0fccf2ffb",
+      "createdAt": "2026-07-02T23:08:03.704Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan39.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_27e7dd06-fa50-438a-ab8b-68ee204d7c6d",
+      "createdAt": "2026-07-02T23:08:04.612Z",
+      "siteName": "Ollama",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan40.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_82dbc4a9-6faf-4f69-b2f7-494b767d7ec0",
+      "createdAt": "2026-07-02T23:08:05.939Z",
+      "siteName": "Ollama",
+      "domain": "www.tanaken.co.jp",
+      "url": "https://www.tanaken.co.jp/photo/estate/34/es342_layout.jpg?20260624133534",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_553e6616-d3aa-4213-88db-13eb389770d3",
+      "createdAt": "2026-07-02T23:08:07.968Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250712_097-Edit-400x267.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_a0e49978-0a30-4169-97e7-fd2002a58710",
+      "createdAt": "2026-07-02T23:08:08.926Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250712_097-Edit.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_24791b37-9ea0-47e7-b3ce-2a78e3d36c50",
+      "createdAt": "2026-07-02T23:08:09.834Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250712_097-Edit-640x427.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_43503b50-a93b-48a3-904b-be7a48ed042f",
+      "createdAt": "2026-07-02T23:08:10.734Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250716_114-Edit-400x267.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_63142b62-c618-43ee-8308-dd8fb2f6d142",
+      "createdAt": "2026-07-02T23:08:11.689Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250716_114-Edit.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_6240dffd-9bdb-4369-b912-193b20bef8c3",
+      "createdAt": "2026-07-02T23:08:12.592Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/08/Y250716_114-Edit-640x427.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_7f2bc4c7-5749-43ec-8f45-21516c1a46c8",
+      "createdAt": "2026-07-02T23:08:13.566Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/03/maxresdefault-4-640x360.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_77ff3da5-de5a-427d-a9e8-e9b45ef07a4f",
+      "createdAt": "2026-07-02T23:08:14.520Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/03/maxresdefault-4.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_02a68f8f-cf62-4d19-8b99-ad0a06a41694",
+      "createdAt": "2026-07-02T23:08:15.462Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/03/maxresdefault-4-1170x658.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_1a5bea4f-85c2-4e2b-b304-4ecb43ad7caa",
+      "createdAt": "2026-07-02T23:08:16.402Z",
+      "siteName": "Ollama",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/wp/wp-content/uploads/2025/03/maxresdefault-4-400x225.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_360f3d2a-bcc6-4301-a58b-470562235ebc",
+      "createdAt": "2026-07-02T23:08:27.231Z",
+      "siteName": "Ollama",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-01.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts a house exterior with a person and a dog in front of it. It is not a floor plan or architectural drawing."
+    },
+    {
+      "id": "log_e6a4245f-6026-4c4e-b391-bb885a6767e4",
+      "createdAt": "2026-07-02T23:08:27.932Z",
+      "siteName": "Ollama",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-01.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts a house exterior with a person and a dog in front of it. It is not a floor plan or architectural drawing."
+    },
+    {
+      "id": "log_a9030b05-8d3b-4b14-8fac-a6f3ad763a63",
+      "createdAt": "2026-07-02T23:08:37.580Z",
+      "siteName": "Ollama",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-02.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows a two-story house with an exterior view of the facade and front yard. It is not a floor plan or architectural drawing."
+    },
+    {
+      "id": "log_575028f3-9da5-440d-8b81-4e6290aad01c",
+      "createdAt": "2026-07-02T23:08:38.282Z",
+      "siteName": "Ollama",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-02.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows a two-story house with an exterior view of the facade and front yard. It is not a floor plan or architectural drawing."
+    },
+    {
+      "id": "log_436c0c3d-d801-41bb-b943-2b93f125bb14",
+      "createdAt": "2026-07-02T23:08:50.665Z",
+      "siteName": "Ollama",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/assets/imgs/contents/madori_plan/img-03.jpg",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a three-story residential building with a clear top-view layout of the house's structure and design elements such as balconies, windows, doors, and rooflines. It "
+    },
+    {
+      "id": "log_b4925237-4f09-459b-8d63-dd7131fe4897",
+      "createdAt": "2026-07-02T23:09:00.197Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1677/madori_02.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_ab44b7b8-36d0-400f-abe9-2b5a6ff2e34b",
+      "createdAt": "2026-07-02T23:09:01.467Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1677/madori_02.webp?v=1735437185353",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_c70029b9-d932-4c6b-871d-38aa9a84b6bd",
+      "createdAt": "2026-07-02T23:09:10.162Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1678/madori_02.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_5f609943-dd95-4af8-9fc7-fabb515a5524",
+      "createdAt": "2026-07-02T23:09:26.735Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1698/madori_05.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, as indicated by the presence of labeled rooms and spaces, typical architectural symbols for doors, windows, a"
+    },
+    {
+      "id": "log_31c625b4-66b0-44ff-b313-d3ebaf953c4d",
+      "createdAt": "2026-07-02T23:09:28.179Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1698/madori_05.webp?v=1735437185353",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_b850c104-1ae5-428d-90f1-8481591bf8e3",
+      "createdAt": "2026-07-02T23:09:37.612Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1699/madori_05.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+    },
+    {
+      "id": "log_77683a79-05de-452e-932d-4625b0f5356b",
+      "createdAt": "2026-07-02T23:09:46.807Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1361/madori_01.png?v=1737804779827",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_c31b2fb1-4033-4513-9a4c-39abda052f70",
+      "createdAt": "2026-07-02T23:09:55.933Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1618/madori_02.png?v=1737804779827",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_dd2b7433-01b9-40cd-bcb1-465d16ea12b2",
+      "createdAt": "2026-07-02T23:10:12.786Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1620/madori_03.png?v=1737804779827",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, as it shows the arrangement of rooms and spaces within a house. It is not an exterior photo, interior photo, "
+    },
+    {
+      "id": "log_47edee2f-2cea-4eb8-b3fd-1e58bcf1bdc6",
+      "createdAt": "2026-07-02T23:10:28.842Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1622/madori_04.png?v=1737804779827",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, as indicated by the presence of labeled rooms and furniture placement typical of such plans. The image is not"
+    },
+    {
+      "id": "log_b22f57cf-1a3d-4200-a450-f1a23e7ed5d7",
+      "createdAt": "2026-07-02T23:10:39.085Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1624/madori_05.png?v=1737804779827",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+    },
+    {
+      "id": "log_87cdcc19-e5c4-480d-bf5b-30da869fa17d",
+      "createdAt": "2026-07-02T23:10:48.190Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1626/madori_06.png?v=1737804779827",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_bcd1a603-3068-40dc-9371-bcfd7144d7ba",
+      "createdAt": "2026-07-02T23:10:58.017Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1670/madori_01.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+    },
+    {
+      "id": "log_e780d633-8c8b-4131-a3d7-d6b5607ffd55",
+      "createdAt": "2026-07-02T23:10:59.071Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1670/madori_01.webp?v=1735437185353",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_cddb6cee-51e4-4cd4-a87a-9a8af22d0f98",
+      "createdAt": "2026-07-02T23:11:08.704Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1671/madori_01.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided for a private Japanese residential floor-plan library."
+    },
+    {
+      "id": "log_2f779e6d-2ad6-4725-8db5-1896583b02e4",
+      "createdAt": "2026-07-02T23:11:25.395Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1684/madori_03.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, as it shows the arrangement of rooms and spaces within a house. It is not an exterior photo, interior photo, "
+    },
+    {
+      "id": "log_4572179e-ad86-4e98-b9fa-281f5d0901fc",
+      "createdAt": "2026-07-02T23:11:26.471Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1684/madori_03.webp?v=1735437185353",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_7686a153-2725-4c95-b11c-641ce1ec935f",
+      "createdAt": "2026-07-02T23:11:42.931Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1685/madori_03.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, as it shows the arrangement of rooms and spaces within a house. It is not an exterior photo, interior photo, "
+    },
+    {
+      "id": "log_aa2b9f3f-26e9-4287-ba79-f92700a75c11",
+      "createdAt": "2026-07-02T23:11:58.313Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1691/madori_04.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, as indicated by the presence of labeled rooms and furniture placement typical of such diagrams. The image is "
+    },
+    {
+      "id": "log_8cbe991c-001e-40d8-bb26-606192f5a6d7",
+      "createdAt": "2026-07-02T23:11:59.398Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1691/madori_04.webp?v=1735437185353",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_887986ef-d77c-4b95-8ed0-d152d1fc8a10",
+      "createdAt": "2026-07-02T23:12:14.424Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1692/madori_04.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, as indicated by the presence of labeled rooms and furniture placement typical of such diagrams. The image is "
+    },
+    {
+      "id": "log_b4e26341-a046-4872-8c84-d312a174c563",
+      "createdAt": "2026-07-02T23:12:23.200Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1705/madori_06.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_92de97ad-87e1-4be2-82ce-7e24b469cfa4",
+      "createdAt": "2026-07-02T23:12:24.285Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1705/madori_06.webp?v=1735437185353",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_abb0b1c4-11cf-4a52-8047-0edeb3cc2dcf",
+      "createdAt": "2026-07-02T23:12:33.008Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1706/madori_06.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a top-down layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_558fbaa6-e89a-427f-a40f-96411238ebd0",
+      "createdAt": "2026-07-02T23:12:42.375Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1712/madori_07.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_79f88438-6237-401a-8d1b-aecc3957e66d",
+      "createdAt": "2026-07-02T23:12:43.406Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1712/madori_07.webp?v=1735437185353",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_a1cf05d3-a699-4b24-92e7-a65631b8df86",
+      "createdAt": "2026-07-02T23:12:52.151Z",
+      "siteName": "Ollama",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/_src/1713/madori_07.png?v=1735437185353",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image appears to be a top-view layout of a residential floor plan, which is consistent with the criteria provided."
+    },
+    {
+      "id": "log_3ac79422-d7f3-4656-bab3-43b322b92146",
+      "createdAt": "2026-07-02T23:12:53.279Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__h1.png?2",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_879434c3-a007-4246-b55a-3ee80be70ccb",
+      "createdAt": "2026-07-02T23:12:54.151Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no1__title.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_c25a2c30-edf8-42de-857e-c0f647696cab",
+      "createdAt": "2026-07-02T23:12:55.042Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no2__title.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_fe466ce1-44dd-4623-ab0f-7ee3b7645fd2",
+      "createdAt": "2026-07-02T23:12:55.917Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/pc/madori-ranking-1__no3__title.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_07344f3a-d7d1-41b8-9b34-82281aaf4bc9",
+      "createdAt": "2026-07-02T23:13:07.257Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/sp/madori-ranking-1__h1.png?2",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image appears to be a screenshot of a computer interface with Japanese text and some graphical elements that do not resemble a floor plan. It is not a clear representation of a"
+    },
+    {
+      "id": "log_61cc560f-e085-4162-8394-94dc0dc0ed6a",
+      "createdAt": "2026-07-02T23:13:07.958Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/sp/madori-ranking-1__h1.png?2",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image appears to be a screenshot of a computer interface with Japanese text and some graphical elements that do not resemble a floor plan. It is not a clear representation of a"
+    },
+    {
+      "id": "log_4d3a11d8-10be-4f65-892e-fb546b0a0086",
+      "createdAt": "2026-07-02T23:13:08.315Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/sp/madori-ranking-1__no1__title.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f29a5828-70c5-4b9f-9734-a91d64318e25",
+      "createdAt": "2026-07-02T23:13:09.223Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/common/subnavi_01_1.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_087b28a6-77c6-4238-820a-c4bfc991e1c5",
+      "createdAt": "2026-07-02T23:13:10.105Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/common/subnavi_01_2.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_5b4eb18f-8d26-47b1-a09e-1b868d5408c1",
+      "createdAt": "2026-07-02T23:13:10.982Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/common/subnavi_01_3.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_0983dc5f-199d-419a-99c0-05cd74eced97",
+      "createdAt": "2026-07-02T23:13:11.919Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/common/subnavi_01_4.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_10e205e3-93f9-45f2-b087-7dbec3c5322e",
+      "createdAt": "2026-07-02T23:13:12.821Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/common/subnavi_01_6.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_5a9d07ab-560f-4933-aabf-05c56f8278f0",
+      "createdAt": "2026-07-02T23:13:13.768Z",
+      "siteName": "Ollama",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/assets/img/common/subnavi_01_7.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_b9a7be82-3503-48b9-89e2-5ff584fc7534",
+      "createdAt": "2026-07-02T23:13:15.203Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/009/assets/img/main.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_3f5c0d8a-4e4c-4073-b9f7-57e18ca06791",
+      "createdAt": "2026-07-02T23:13:16.455Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/012/assets/img/main.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_0020dc3a-2d50-4219-8b9f-b635c74242fd",
+      "createdAt": "2026-07-02T23:13:17.594Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/002/assets/img/main.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f177ad6d-e321-49fa-b443-891e61564d6d",
+      "createdAt": "2026-07-02T23:13:19.184Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/007/assets/img/main.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f8c02e0b-69bd-4069-806e-f778cd3cdfcb",
+      "createdAt": "2026-07-02T23:13:20.316Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/008/assets/img/main.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_e5331b68-7422-4161-8535-f27590f70fce",
+      "createdAt": "2026-07-02T23:13:21.554Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/001/assets/img/main.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_014e4fbc-d7b8-44bc-a8be-ef1308da099b",
+      "createdAt": "2026-07-02T23:13:22.615Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/001/assets/img/img01.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_21a4eeb8-6e9f-423d-84fa-2a439833224f",
+      "createdAt": "2026-07-02T23:13:23.752Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/001/assets/img/img02.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_eced75f7-aeb6-4530-9fe3-f9938e4d7a8a",
+      "createdAt": "2026-07-02T23:13:24.765Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/001/assets/img/img03.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_20f6a200-4456-4da2-a960-a7fdb42e7213",
+      "createdAt": "2026-07-02T23:13:25.789Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/001/assets/img/img04.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_3f61f303-4687-4478-9850-a306364ca09d",
+      "createdAt": "2026-07-02T23:13:26.911Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/002/assets/img/img01.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_12cfa6da-9600-44d0-ae77-c58df9290695",
+      "createdAt": "2026-07-02T23:13:27.980Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/002/assets/img/img02.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_3844ec89-eb64-40c6-9418-f3ccbbf6d815",
+      "createdAt": "2026-07-02T23:13:29.445Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/002/assets/img/img03.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_092fa41c-cade-400e-9001-0b695629baf5",
+      "createdAt": "2026-07-02T23:13:30.470Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/crepre/tokken/works/002/assets/img/img04.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_d5d0b052-3c00-42bd-af9b-01961f0d9237",
+      "createdAt": "2026-07-02T23:13:31.484Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/kodate/ideas/lifestyle/puremium/floor-plan/assets/img/img01.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_8a706466-ec3c-4440-856f-85eab59bc621",
+      "createdAt": "2026-07-02T23:13:32.392Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/kodate/ideas/lifestyle/puremium/floor-plan/assets/img/map01-1-pc.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_c319b9e9-1e65-43ae-a27b-a4868cd771ab",
+      "createdAt": "2026-07-02T23:13:33.280Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/kodate/ideas/lifestyle/puremium/floor-plan/assets/img/map01-1-sp.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_c6c75cef-481f-4928-8461-cdcca28948d8",
+      "createdAt": "2026-07-02T23:13:34.170Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/kodate/ideas/lifestyle/puremium/floor-plan/assets/img/map01-2-pc.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_fae9dd33-5efc-4e67-8446-836bece53c3c",
+      "createdAt": "2026-07-02T23:13:35.190Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/kodate/ideas/lifestyle/puremium/floor-plan/assets/img/map01-2-sp.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_e5e94f6b-3108-42d1-bf20-3190f04dc967",
+      "createdAt": "2026-07-02T23:13:36.144Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_01.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f5e00a93-c51a-443a-b424-761099deee07",
+      "createdAt": "2026-07-02T23:13:37.027Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_02.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_9e9d9a99-0da0-474f-aa6e-643f936e398a",
+      "createdAt": "2026-07-02T23:13:37.907Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_03.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_0b302654-c4c3-4489-a02d-98a7a62677f6",
+      "createdAt": "2026-07-02T23:13:38.788Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_04.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_c2878c5d-1c4c-4f2f-842f-cb0f4f29989a",
+      "createdAt": "2026-07-02T23:13:39.717Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_05.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_ccf96eae-e013-4ec2-8529-44ac61f15444",
+      "createdAt": "2026-07-02T23:13:40.602Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/chintaiheiyoujyutaku-madori/kodate_06.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_baaa853b-dd66-486f-8cf3-45a7d05879a4",
+      "createdAt": "2026-07-02T23:13:42.863Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_01.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_6ec001f6-ceab-4b19-add6-0a39d8573093",
+      "createdAt": "2026-07-02T23:13:43.875Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_02.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f8340050-1529-4ffb-9287-09bd30427f6e",
+      "createdAt": "2026-07-02T23:13:44.867Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_03.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_8aefe48d-9a6d-4fcc-bad9-d4482ac8759b",
+      "createdAt": "2026-07-02T23:13:46.032Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_04.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f244cfd1-f70d-4ee1-a3f2-8a20fe20ed0d",
+      "createdAt": "2026-07-02T23:13:46.981Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_05.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_0d3013d6-8aaa-4864-a2ae-db8ceee7e5eb",
+      "createdAt": "2026-07-02T23:13:48.128Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuihouse.co.jp",
+      "url": "https://www.sekisuihouse.co.jp/library/kodate/products/steel3/column/nisetai-madori/kodate_06.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_bab281e6-9911-4374-91bc-1e28daf12f6f",
+      "createdAt": "2026-07-02T23:13:49.270Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/madori/images/index/pic_small_pl_p01.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_84eb8409-c7cf-4f83-a8a1-fdbd909f17a4",
+      "createdAt": "2026-07-02T23:13:50.180Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/madori/images/index/pic_small_pl_p02.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f7576193-95c5-43b2-95e6-d1a1c4f8b539",
+      "createdAt": "2026-07-02T23:13:51.064Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/madori/images/index/pic_small_pl_p04.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_69bc72ca-d3bd-4134-9272-5cb3de3e65c3",
+      "createdAt": "2026-07-02T23:13:51.940Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/common/images/pic_global_mega01_02.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_7c40e49e-c1a7-4238-8fd5-5397ff6cd4e1",
+      "createdAt": "2026-07-02T23:13:52.815Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/common/images/pic_global_mega03_02.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_0ba9c241-0676-4743-86ae-c79e1f6081af",
+      "createdAt": "2026-07-02T23:13:53.684Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/common/images/pic_global_mega01_03.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_268df1f8-eb28-425f-87b9-662767d72808",
+      "createdAt": "2026-07-02T23:13:54.620Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/common/images/pic_global_mega01_04.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_4595248c-0f35-43ae-8d47-7d6d5906cd6f",
+      "createdAt": "2026-07-02T23:13:55.592Z",
+      "siteName": "Ollama",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/common/images/pic_global_mega01_05.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_c7670da9-383c-485f-b89b-d5760397e645",
+      "createdAt": "2026-07-02T23:13:57.402Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/new%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B5%E3%83%A0%E3%83%8D04134.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_60dc4b70-e7dc-4c24-9334-415a2614d5f7",
+      "createdAt": "2026-07-02T23:13:58.290Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/new%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B5%E3%83%A0%E3%83%8D04135.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_fa3ab7ac-67fe-4b5c-a304-793e1e29e5b9",
+      "createdAt": "2026-07-02T23:13:59.185Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/new%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B5%E3%83%A0%E3%83%8D04136.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_7998ae7c-6e01-4fa6-a970-534bc9223a27",
+      "createdAt": "2026-07-02T23:14:00.107Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/new%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B5%E3%83%A0%E3%83%8D04137.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_c68b3b32-ab54-46c1-88cf-7fac23441ee0",
+      "createdAt": "2026-07-02T23:14:01.026Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/new%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B5%E3%83%A0%E3%83%8D04139.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_69596d87-c8fb-4be4-8b12-d273804d060e",
+      "createdAt": "2026-07-02T23:14:01.948Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/0022-scaled-1024x683.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_be8a964a-17f2-45b3-83d7-83e9b422d60e",
+      "createdAt": "2026-07-02T23:14:02.906Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/0022-scaled-2048x1366.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_480771e0-d4fa-4ee4-b98b-40c716d73105",
+      "createdAt": "2026-07-02T23:14:03.847Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/0022-scaled-1536x1024.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_63cb9c8a-6bc4-4667-86cf-475aede83c86",
+      "createdAt": "2026-07-02T23:14:04.769Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/0022-scaled-768x512.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_357fda34-2b4f-4eb2-b2ec-cf86cdb3797e",
+      "createdAt": "2026-07-02T23:14:05.650Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/0022-scaled-300x200.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_f92c34d6-3c58-4295-ad31-fca9ab0911cd",
+      "createdAt": "2026-07-02T23:14:06.563Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/03/464985f996ff76138f3f348c181c33c6-1.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_09e79fab-2123-45ab-bb9d-a8ddfcab0ed8",
+      "createdAt": "2026-07-02T23:14:07.461Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/03/464985f996ff76138f3f348c181c33c6-1-768x543.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_5b3aefd5-c9d2-41ca-9d05-593d5ddaf357",
+      "createdAt": "2026-07-02T23:14:08.714Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/%E3%82%AA%E3%83%BC%E3%83%96.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_72b2a075-c5dd-4f01-8a75-eaa2f1ebebe4",
+      "createdAt": "2026-07-02T23:14:09.661Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/DSC06639-2-2048x1365-1-1500x1000.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_939c1c75-9838-4135-91f6-2d404f926fa1",
+      "createdAt": "2026-07-02T23:14:10.661Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/DSC06639-2-2048x1365-1.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_0cf793d9-80f0-48be-9cf7-56a48b72aa2e",
+      "createdAt": "2026-07-02T23:14:11.612Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2026/03/DSC06639-2-2048x1365-1-1536x1024.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_587e9080-295b-450d-9d13-00598a422d78",
+      "createdAt": "2026-07-02T23:14:12.517Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/5d8bd338ad341fc5126343943bdf090b-1.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_d2f1dc24-3f81-4497-9870-3f69a223d443",
+      "createdAt": "2026-07-02T23:14:13.387Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/5d8bd338ad341fc5126343943bdf090b-1-768x543.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_76c0851b-7524-4b78-95bb-a0eaf1da1794",
+      "createdAt": "2026-07-02T23:14:14.295Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2024/10/0012-1-scaled-1024x683.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_bc436e6d-3aa4-45a1-802d-a3cd58d6acd0",
+      "createdAt": "2026-07-02T23:14:15.225Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2024/10/0012-1-scaled-2048x1366.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_1a4637b7-4132-4a7d-a430-1a1e97826797",
+      "createdAt": "2026-07-02T23:14:16.138Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2024/10/0012-1-scaled-1536x1024.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_92206e05-fb59-4191-bd65-044ea0a5f283",
+      "createdAt": "2026-07-02T23:14:17.039Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/%E9%B9%BF%E5%B1%8B-%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%83%95%E3%83%AD%E3%82%A2.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_d0cd0359-f329-40a9-8f91-be3f8bed273d",
+      "createdAt": "2026-07-02T23:14:17.898Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/%E9%B9%BF%E5%B1%8B-%E3%82%B9%E3%82%AD%E3%83%83%E3%83%97%E3%83%95%E3%83%AD%E3%82%A2-768x543.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_6d474340-bcba-4404-9bc8-b28681ec7c14",
+      "createdAt": "2026-07-02T23:14:18.799Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/0023-3-scaled-1024x683.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_da4b5600-7b00-468b-a34f-58d6e6551991",
+      "createdAt": "2026-07-02T23:14:19.740Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/0023-3-scaled-2048x1366.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_dd385b60-83ec-4ce6-9c47-e162c07ef103",
+      "createdAt": "2026-07-02T23:14:20.658Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/3d877c89df6c0e873261986eb75a50ce-2.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_59476d23-ff08-4cd6-9b09-d87f1b7545ae",
+      "createdAt": "2026-07-02T23:14:21.530Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/3d877c89df6c0e873261986eb75a50ce-2-768x543.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_fc3016f5-e88e-47b9-b510-e5b411ebd0fc",
+      "createdAt": "2026-07-02T23:14:22.478Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2024/12/31a57a36d9755fe44e5aeb89f894e01a-1024x683.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_9a845d0d-8f74-4c5f-8c3e-4ad33dd2ccf9",
+      "createdAt": "2026-07-02T23:14:23.519Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2024/12/31a57a36d9755fe44e5aeb89f894e01a.jpg",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_45783e23-2a48-428f-969d-1ed1b71ad095",
+      "createdAt": "2026-07-02T23:14:24.436Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/f419ec2c539b87d4a1919fbfd3e0f257.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_97eab18c-f044-43c3-a794-7b5ef2399a18",
+      "createdAt": "2026-07-02T23:14:25.337Z",
+      "siteName": "Ollama",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/wp-content/uploads/2025/04/f419ec2c539b87d4a1919fbfd3e0f257-768x543.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_5430e44a-3751-4763-8146-556edfebe02e",
+      "createdAt": "2026-07-02T23:14:26.488Z",
+      "siteName": "Ollama",
+      "domain": "with-e-home.com",
+      "url": "https://with-e-home.com/img/index/bestplan__two-story.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_fc6b6e4d-3a7d-4187-b5fc-811c5469122c",
+      "createdAt": "2026-07-02T23:14:27.409Z",
+      "siteName": "Ollama",
+      "domain": "with-e-home.com",
+      "url": "https://with-e-home.com/img/index/bestplan__hiraya.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_4ba52cca-33b1-4cc3-8620-caa482ef19ca",
+      "createdAt": "2026-07-02T23:14:28.330Z",
+      "siteName": "Ollama",
+      "domain": "with-e-home.com",
+      "url": "https://with-e-home.com/img/index/bestplan__teinei.webp",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "HTTP 400"
+    },
+    {
+      "id": "log_8c1cfb16-f395-44e3-8c3c-c3e6a0d92489",
+      "createdAt": "2026-07-02T23:14:31.740Z",
+      "siteName": "Ollama",
+      "domain": "www.peacehome.jp",
+      "url": "https://www.peacehome.jp/wp-content/uploads/2026/06/01.%E5%B9%B3%E5%B1%8B%E9%83%BD%E5%9F%8E1_1-2560x2560.png",
+      "action": "image-review",
+      "result": "skipped",
+      "message": "image too large: 4784196"
+    },
+    {
+      "id": "log_6a6c9e9b-d72a-4edb-b3d4-a4aeda9c4a8c",
+      "createdAt": "2026-07-02T23:14:46.640Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_01-1024x444.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows an interior space that appears to be a kitchen and dining area within a residential setting. It is not a top-view layout or architectural plan drawing, but rather a"
+    },
+    {
+      "id": "log_18b97924-a921-44f9-910d-0e4bd2b85d16",
+      "createdAt": "2026-07-02T23:14:47.341Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_01-1024x444.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows an interior space that appears to be a kitchen and dining area within a residential setting. It is not a top-view layout or architectural plan drawing, but rather a"
+    },
+    {
+      "id": "log_215d69ec-fcc7-402a-acd7-6da3165ddd97",
+      "createdAt": "2026-07-02T23:15:01.302Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_01.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows an interior space that appears to be a kitchen and dining area within a residential home. It is not a top-view layout or architectural plan drawing, but rather a ph"
+    },
+    {
+      "id": "log_ba7cdbdd-a246-4c36-ba73-db2f5ecf349c",
+      "createdAt": "2026-07-02T23:15:02.003Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_01.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows an interior space that appears to be a kitchen and dining area within a residential home. It is not a top-view layout or architectural plan drawing, but rather a ph"
+    },
+    {
+      "id": "log_7a87d9db-f1ff-4c13-8e28-45d275b8d0b1",
+      "createdAt": "2026-07-02T23:15:33.641Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_01-768x333.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows an interior space that appears to be a kitchen and dining area within a residential setting. It is not a top-view layout or architectural plan drawing, but rather a"
+    },
+    {
+      "id": "log_ecf8c78e-64b0-4aab-bdf8-e0a6ec1cf6c3",
+      "createdAt": "2026-07-02T23:15:34.342Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_01-768x333.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image shows an interior space that appears to be a kitchen and dining area within a residential setting. It is not a top-view layout or architectural plan drawing, but rather a"
+    },
+    {
+      "id": "log_1b4e74ab-7b2a-4abc-89e6-0fc672f25f5f",
+      "createdAt": "2026-07-02T23:15:46.324Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_01-300x130.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts an interior space with a dining table and chairs, a kitchen area, and a view of the outside through large windows. It is not a top-view layout or architectural pl"
+    },
+    {
+      "id": "log_df29dbe5-ec69-40a7-9db4-805c0bbb6e0a",
+      "createdAt": "2026-07-02T23:15:47.024Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_01-300x130.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts an interior space with a dining table and chairs, a kitchen area, and a view of the outside through large windows. It is not a top-view layout or architectural pl"
+    },
+    {
+      "id": "log_601452b2-1e1c-4fdf-8d2a-1221b7cb9eae",
+      "createdAt": "2026-07-02T23:15:57.794Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_02-1024x444.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts a family in an interior setting, which is not a floor plan or architectural drawing. It appears to be a candid photograph of people in a room, rather than a repre"
+    },
+    {
+      "id": "log_bdcb7e38-2a91-41e2-a2f9-6d7ad79655e3",
+      "createdAt": "2026-07-02T23:15:58.495Z",
+      "siteName": "Ollama",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/wp-content/uploads/2026/06/about_02-1024x444.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts a family in an interior setting, which is not a floor plan or architectural drawing. It appears to be a candid photograph of people in a room, rather than a repre"
+    },
+    {
+      "id": "log_127fe8a8-9799-4708-b414-09cf78ebe675",
+      "createdAt": "2026-07-02T23:16:12.200Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/works1/ec.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image appears to be a photograph of an interior space, specifically a bathroom with a modern design. It does not depict a floor plan or architectural drawing in the traditional"
+    },
+    {
+      "id": "log_0f735947-759e-48cb-8b47-64739cfeeae5",
+      "createdAt": "2026-07-02T23:16:12.901Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/works1/ec.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image appears to be a photograph of an interior space, specifically a bathroom with a modern design. It does not depict a floor plan or architectural drawing in the traditional"
+    },
+    {
+      "id": "log_ff36d8a5-3461-461c-99c1-0645ae4a5dc6",
+      "createdAt": "2026-07-02T23:16:26.959Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/base/lg-miyazaki.png",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image appears to be a screenshot of a webpage or a digital advertisement with text in Japanese and English. It includes a logo at the top left corner, which suggests it is not "
+    },
+    {
+      "id": "log_30963a2d-820f-4d3b-a117-d3bcaf57cdea",
+      "createdAt": "2026-07-02T23:16:27.660Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/base/lg-miyazaki.png",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image appears to be a screenshot of a webpage or a digital advertisement with text in Japanese and English. It includes a logo at the top left corner, which suggests it is not "
+    },
+    {
+      "id": "log_3f09948e-09de-4924-8293-9ad695bd1bf5",
+      "createdAt": "2026-07-02T23:16:39.199Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/base/mk-fax.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image depicts a document icon with a piece of paper and a pen, which is commonly associated with floor plans or architectural drawings. The presence of the document icon sugges"
+    },
+    {
+      "id": "log_a120e24e-8f73-4dae-8f75-9d5d4289d53e",
+      "createdAt": "2026-07-02T23:16:49.860Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/base/bt-menu.png",
+      "action": "image-review",
+      "result": "accepted",
+      "message": "The image displays a menu icon, which suggests that it is related to a floor plan library or service. However, the actual content of the image is not visible in this description."
+    },
+    {
+      "id": "log_1041f0b3-562a-47bc-82fe-a3d98c2f2f01",
+      "createdAt": "2026-07-02T23:16:58.359Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/base/bt-close.png",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image appears to be a simple icon or logo rather than a detailed floor plan drawing."
+    },
+    {
+      "id": "log_48ab137d-c499-4a57-a16a-863fe120c76b",
+      "createdAt": "2026-07-02T23:16:59.060Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/base/bt-close.png",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image appears to be a simple icon or logo rather than a detailed floor plan drawing."
+    },
+    {
+      "id": "log_886581d9-373d-437d-aa6c-26ba4b722303",
+      "createdAt": "2026-07-02T23:17:08.700Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/works1/14/tm.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts a real-life house exterior with architectural features such as a covered porch and a garage. It is not a floor plan drawing."
+    },
+    {
+      "id": "log_b9f34408-8edb-4b06-bf90-f42289ec3e75",
+      "createdAt": "2026-07-02T23:17:09.401Z",
+      "siteName": "Ollama",
+      "domain": "miyazaki1960.com",
+      "url": "https://miyazaki1960.com/assets/img/works1/14/tm.jpg",
+      "action": "image-review",
+      "result": "rejected",
+      "message": "The image depicts a real-life house exterior with architectural features such as a covered porch and a garage. It is not a floor plan drawing."
+    },
+    {
+      "id": "log_clean_1783034230552",
+      "createdAt": "2026-07-02T23:17:10.552Z",
+      "siteName": "clean-crawl-output",
+      "domain": "-",
+      "url": "crawler-output\\latest-crawl.json",
+      "action": "clean",
+      "result": "success",
+      "message": "Removed room/exterior image candidates. candidates 121 -> 120, images 356 -> 353."
     }
   ]
 }
