@@ -278,7 +278,12 @@ function hasAcceptanceEvidence(candidate, visual) {
   }
   if (/cleverlyhome\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !isCleverlyPlanTitle(titleSignal)) return false;
   if (/(chitose-home\.com|marusho-kensetsu\.co\.jp)/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return false;
-  if (/irohaie\.com/.test(allSignal) && !/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal) && !(hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.7)) return false;
+  if (/irohaie\.com/.test(allSignal)) {
+    if (/^(?:like[0-9._-]+|[0-9]{2,4}(?:-[0-9])?)\.(?:jpe?g|png|webp)$/i.test(fileSignal) && visual.visualScore >= 0.55) return true;
+    if (/madori|floor[-_ ]?plan|floorplan|topview|heimen|hemen|zumen|drawing|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|pic_small_pl_p[0-9]|collection_plan|madori_thm|zu[0-9]/i.test(fileSignal)) return true;
+    if (hasTitlePlanEvidence(titleSignal) && visual.visualScore >= 0.7) return true;
+    return false;
+  }
   if (/be-enough\.jp/.test(allSignal)) {
     if (/^(?:snapshot|plan[0-9]+-img0[14](?:-\d+x\d+)?)\.(?:jpe?g|png|webp)$/i.test(fileSignal)) return false;
     if (/^plan[0-9]+-img0[23](?:-\d+x\d+)?\.(?:jpe?g|png|webp)$/i.test(fileSignal) && visual.visualScore >= 0.45) return true;
@@ -548,7 +553,7 @@ function finalConfidenceFrom(candidate, visual, ollama) {
 
 function hasStrongConfidenceImageEvidence(candidate) {
   const { imageSignal } = acceptanceSignals(candidate);
-  return /madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|layout|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|img_plan|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]|(?:r?yew|yn|ys|rew|ms|ns|ew)-[0-9][a-z0-9_-]*fig/i.test(imageSignal);
+  return /madori|floor[-_ ]?plan|floorplan|floor_plan|topview|heimen|hemen|zumen|drawing|layout|間取り|間取|平面図|平面|図面|plan[_-]?[0-9]|img_plan|pic_small_pl_p[0-9]|madori_[0-9]|collection_plan|madori_thm|zu[0-9]|(?:r?yew|yn|ys|rew|ms|ns|ew)-[0-9][a-z0-9_-]*fig|(?:like[0-9._-]+|[0-9]{2,4}(?:-[0-9])?)\.(?:jpe?g|png|webp)/i.test(imageSignal);
 }
 
 async function resolveOllamaRuntime(options) {

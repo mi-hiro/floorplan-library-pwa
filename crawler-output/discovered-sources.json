@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-02T01:28:02.832Z",
+  "generatedAt": "2026-07-02T14:56:29.508Z",
   "source": "source-discovery",
   "discoveredUrls": [
     {
@@ -18280,6 +18280,1156 @@
       "action": "update-common-crawl",
       "result": "success",
       "message": "seedUrls=102"
+    },
+    {
+      "id": "log_fd6e1391-0142-46f6-bcc8-837e9ef16fd8",
+      "createdAt": "2026-07-02T14:49:13.989Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_8d2461c5-6dbd-4ed6-9b8a-d37fa29335b2",
+      "createdAt": "2026-07-02T14:49:14.135Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 新築 平屋 間取り"
+    },
+    {
+      "id": "log_8ca258b6-8f59-41c9-b062-a078a54f9e1d",
+      "createdAt": "2026-07-02T14:49:14.501Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_c4b54de2-5ae3-40a2-9a78-668862e6a449",
+      "createdAt": "2026-07-02T14:49:14.629Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_8f329944-ef87-4031-9082-b54b6339bab7",
+      "createdAt": "2026-07-02T14:49:14.757Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B2%A1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福岡 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_fbcf801a-969e-4de1-ab63-6316256d21d6",
+      "createdAt": "2026-07-02T14:49:14.883Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B2%A1+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福岡 新築 平屋 間取り"
+    },
+    {
+      "id": "log_fe856663-b40f-4825-ae53-37534a554164",
+      "createdAt": "2026-07-02T14:49:15.010Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B2%A1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福岡 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_828d34c2-2422-4e1d-8a71-50db7acb9991",
+      "createdAt": "2026-07-02T14:49:15.139Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B2%A1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福岡 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_20a50c93-a12a-4102-829e-2a959c8bc245",
+      "createdAt": "2026-07-02T14:49:15.262Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B9%BF%E5%85%90%E5%B3%B6+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鹿児島 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_3d4f32d1-501a-440b-91b8-2c91b06665dc",
+      "createdAt": "2026-07-02T14:49:15.393Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B9%BF%E5%85%90%E5%B3%B6+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鹿児島 新築 平屋 間取り"
+    },
+    {
+      "id": "log_197398c8-ece7-4f77-acba-0d28d30a070e",
+      "createdAt": "2026-07-02T14:49:15.528Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B9%BF%E5%85%90%E5%B3%B6+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鹿児島 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_c282f8d8-36cc-46df-8920-0823a6200041",
+      "createdAt": "2026-07-02T14:49:15.653Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B9%BF%E5%85%90%E5%B3%B6+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鹿児島 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_81fcef6f-a512-4ac6-a34c-44bfff67799e",
+      "createdAt": "2026-07-02T14:49:15.779Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 注文住宅 間取り 工務店"
+    },
+    {
+      "id": "log_ce13f84b-621a-4c1c-abfa-104c7ca4db55",
+      "createdAt": "2026-07-02T14:49:15.908Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E6%96%B0%E7%AF%89+%E5%B9%B3%E5%B1%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 新築 平屋 間取り"
+    },
+    {
+      "id": "log_094629fa-383d-4ae3-99be-429d9f3b7a5c",
+      "createdAt": "2026-07-02T14:49:16.038Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E5%B7%A5%E5%8B%99%E5%BA%97+%E6%96%BD%E5%B7%A5%E4%BA%8B%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 工務店 施工事例 間取り"
+    },
+    {
+      "id": "log_264e09c4-0810-4eef-946e-87949c7e6b7d",
+      "createdAt": "2026-07-02T14:49:16.170Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 住宅会社 建築実例 間取り"
+    },
+    {
+      "id": "log_a539a807-af5d-4bf6-9e57-7d81236e56fb",
+      "createdAt": "2026-07-02T14:49:16.301Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_a659c51d-797f-4b85-8b0a-2c82f88e0fe9",
+      "createdAt": "2026-07-02T14:49:16.435Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_bb6991e6-d64a-43bf-ab02-cdb4c1ff3d55",
+      "createdAt": "2026-07-02T14:49:16.582Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_ec60a371-32fe-4bfe-9f26-dc9e34fd0815",
+      "createdAt": "2026-07-02T14:49:16.702Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E5%AE%AE%E5%B4%8E+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "宮崎 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_334c1f7f-4035-4e20-afa7-f57701ca100f",
+      "createdAt": "2026-07-02T14:49:16.830Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B2%A1+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福岡 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_447dc745-4ccc-49c6-b95d-aaf4192dd605",
+      "createdAt": "2026-07-02T14:49:16.960Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B2%A1+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福岡 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_2dbea33a-b3a6-4bfb-a80a-f011d26f8058",
+      "createdAt": "2026-07-02T14:49:17.103Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B2%A1+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福岡 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_f04be8f8-efc2-4417-ad33-2f48c4e91d73",
+      "createdAt": "2026-07-02T14:49:17.229Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%A6%8F%E5%B2%A1+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "福岡 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_51051bba-a776-4653-9ec1-96ea7168c009",
+      "createdAt": "2026-07-02T14:49:17.349Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B9%BF%E5%85%90%E5%B3%B6+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鹿児島 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_0a248a1b-1705-443b-93e9-2e9a8bb469ba",
+      "createdAt": "2026-07-02T14:49:17.477Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B9%BF%E5%85%90%E5%B3%B6+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鹿児島 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_fdb50021-d588-4bb3-a0c0-db7c7ccd07b9",
+      "createdAt": "2026-07-02T14:49:17.607Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B9%BF%E5%85%90%E5%B3%B6+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鹿児島 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_d5a770de-a1ac-4476-9a2b-db530298713b",
+      "createdAt": "2026-07-02T14:49:17.743Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E9%B9%BF%E5%85%90%E5%B3%B6+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "鹿児島 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_e9009fbc-57c8-49cc-8299-53a9b1091b67",
+      "createdAt": "2026-07-02T14:49:17.868Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E5%B7%A5%E5%8B%99%E5%BA%97+%E3%83%97%E3%83%A9%E3%83%B3%E9%9B%86+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 工務店 プラン集 間取り"
+    },
+    {
+      "id": "log_e1a0ff5a-7cbf-4031-ba14-366ae6f0f4b8",
+      "createdAt": "2026-07-02T14:49:18.002Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E4%BD%8F%E5%AE%85%E4%BC%9A%E7%A4%BE+%E5%B9%B3%E5%B1%8B%E3%83%97%E3%83%A9%E3%83%B3+%E9%96%93%E5%8F%96%E3%82%8A&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 住宅会社 平屋プラン 間取り"
+    },
+    {
+      "id": "log_09335007-cd91-4255-a506-2aa832fc317d",
+      "createdAt": "2026-07-02T14:49:18.137Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E6%96%B0%E7%AF%89+3LDK+%E9%96%93%E5%8F%96%E3%82%8A+%E5%B7%A5%E5%8B%99%E5%BA%97&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 新築 3LDK 間取り 工務店"
+    },
+    {
+      "id": "log_f62ef197-7756-4321-ace6-38a1811a479a",
+      "createdAt": "2026-07-02T14:49:18.280Z",
+      "siteName": "DuckDuckGo",
+      "domain": "api.duckduckgo.com",
+      "url": "https://api.duckduckgo.com/?q=%E7%86%8A%E6%9C%AC+%E6%B3%A8%E6%96%87%E4%BD%8F%E5%AE%85+%E5%BB%BA%E7%AF%89%E5%AE%9F%E4%BE%8B+%E5%B9%B3%E9%9D%A2%E5%9B%B3&format=json&no_html=1&skip_disambig=1",
+      "action": "instant-answer",
+      "result": "success",
+      "message": "熊本 注文住宅 建築実例 平面図"
+    },
+    {
+      "id": "log_763d9017-7cb7-4610-a287-24afe90b5555",
+      "createdAt": "2026-07-02T14:56:00.292Z",
+      "siteName": "zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_6496b949-9da2-4a8b-a978-3a7be76bd946",
+      "createdAt": "2026-07-02T14:56:00.646Z",
+      "siteName": "zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "15 URLs"
+    },
+    {
+      "id": "log_4fc755c3-f6c4-4139-a1cf-7ddff8b1c9a2",
+      "createdAt": "2026-07-02T14:56:00.841Z",
+      "siteName": "zerohome.jp",
+      "domain": "www.zerohome.jp",
+      "url": "https://www.zerohome.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "skipped",
+      "message": "fetch failed"
+    },
+    {
+      "id": "log_33b27feb-8d0d-493f-a6be-bb3dbf22b967",
+      "createdAt": "2026-07-02T14:56:00.998Z",
+      "siteName": "zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/post-sitemap1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "201 URLs"
+    },
+    {
+      "id": "log_70453053-c2a8-452a-800a-06bf04a4e049",
+      "createdAt": "2026-07-02T14:56:01.182Z",
+      "siteName": "zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/post-sitemap2.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "200 URLs"
+    },
+    {
+      "id": "log_d2c9638b-b5b4-4a4e-9353-665ccf5c9c50",
+      "createdAt": "2026-07-02T14:56:01.346Z",
+      "siteName": "zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/post-sitemap3.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "200 URLs"
+    },
+    {
+      "id": "log_57c7cca5-01ad-4283-8862-a86d0cbd0e73",
+      "createdAt": "2026-07-02T14:56:01.469Z",
+      "siteName": "zerohome.jp",
+      "domain": "zerohome.jp",
+      "url": "https://zerohome.jp/post-sitemap4.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "11 URLs"
+    },
+    {
+      "id": "log_30b093fe-f8e7-41a9-a13a-46d1c23edeb9",
+      "createdAt": "2026-07-02T14:56:01.661Z",
+      "siteName": "www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_f873db24-03a9-4c75-8e43-9954df6dc99b",
+      "createdAt": "2026-07-02T14:56:01.837Z",
+      "siteName": "www.ichijo.co.jp",
+      "domain": "www.ichijo.co.jp",
+      "url": "https://www.ichijo.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "1748 URLs"
+    },
+    {
+      "id": "log_9eb97c24-a9d0-4b33-b34a-3714d64e99f3",
+      "createdAt": "2026-07-02T14:56:02.096Z",
+      "siteName": "www.ichijo.co.jp",
+      "domain": "ichijo.co.jp",
+      "url": "https://ichijo.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "1748 URLs"
+    },
+    {
+      "id": "log_4e019948-fb8f-47b8-8133-1d30648adedb",
+      "createdAt": "2026-07-02T14:56:05.737Z",
+      "siteName": "irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_43f51113-b6c0-4ebd-a126-8cd23aea407f",
+      "createdAt": "2026-07-02T14:56:06.830Z",
+      "siteName": "irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wp-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "11 URLs"
+    },
+    {
+      "id": "log_d086a344-067d-48d7-9b84-4277b1a2e127",
+      "createdAt": "2026-07-02T14:56:07.373Z",
+      "siteName": "irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "11 URLs"
+    },
+    {
+      "id": "log_65f1bd1d-95ce-4e69-9632-a205e0de575d",
+      "createdAt": "2026-07-02T14:56:08.017Z",
+      "siteName": "irohaie.com",
+      "domain": "www.irohaie.com",
+      "url": "https://www.irohaie.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "11 URLs"
+    },
+    {
+      "id": "log_a6de57db-8b8b-49ec-b16a-c90713c2027d",
+      "createdAt": "2026-07-02T14:56:08.693Z",
+      "siteName": "irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wp-sitemap-posts-post-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "1 URLs"
+    },
+    {
+      "id": "log_5a3b7b7d-55f2-4b34-a0c8-faf27a2b45f7",
+      "createdAt": "2026-07-02T14:56:08.866Z",
+      "siteName": "irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wp-sitemap-posts-page-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "45 URLs"
+    },
+    {
+      "id": "log_8b10442f-cc37-4abe-b98d-86ca363bc401",
+      "createdAt": "2026-07-02T14:56:09.062Z",
+      "siteName": "irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wp-sitemap-posts-column-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "242 URLs"
+    },
+    {
+      "id": "log_f74603c5-4634-4508-98f8-7f28b3c0955b",
+      "createdAt": "2026-07-02T14:56:09.229Z",
+      "siteName": "irohaie.com",
+      "domain": "irohaie.com",
+      "url": "https://irohaie.com/wp-sitemap-posts-floor-plan-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "12 URLs"
+    },
+    {
+      "id": "log_20752af5-8d1d-470a-9ef6-fae14af97c90",
+      "createdAt": "2026-07-02T14:56:09.532Z",
+      "siteName": "www.misawa.co.jp",
+      "domain": "www.misawa.co.jp",
+      "url": "https://www.misawa.co.jp/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_361d371b-52b0-490f-b2ff-a0ff28cd66d5",
+      "createdAt": "2026-07-02T14:56:09.800Z",
+      "siteName": "www.misawa.co.jp",
+      "domain": "www.misawa.co.jp",
+      "url": "https://www.misawa.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "267 URLs"
+    },
+    {
+      "id": "log_1590eac7-4c8c-4889-b1e8-165bd171fb44",
+      "createdAt": "2026-07-02T14:56:09.902Z",
+      "siteName": "www.misawa.co.jp",
+      "domain": "www.misawa.co.jp",
+      "url": "https://www.misawa.co.jp/area/tokai/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "55 URLs"
+    },
+    {
+      "id": "log_b13ccc86-5da1-42e0-90ee-62a90255923c",
+      "createdAt": "2026-07-02T14:56:09.945Z",
+      "siteName": "www.misawa.co.jp",
+      "domain": "misawa.co.jp",
+      "url": "https://misawa.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "skipped",
+      "message": "fetch failed"
+    },
+    {
+      "id": "log_6579f48c-fbc1-4aad-8b58-fd75b6713371",
+      "createdAt": "2026-07-02T14:56:10.425Z",
+      "siteName": "www.toyotahome.co.jp",
+      "domain": "www.toyotahome.co.jp",
+      "url": "https://www.toyotahome.co.jp/robots.txt",
+      "action": "robots",
+      "result": "skipped",
+      "message": "HTTP 403"
+    },
+    {
+      "id": "log_39ed66eb-2731-425f-8af7-6b6f6251650a",
+      "createdAt": "2026-07-02T14:56:10.735Z",
+      "siteName": "www.toyotahome.co.jp",
+      "domain": "www.toyotahome.co.jp",
+      "url": "https://www.toyotahome.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "1000 URLs"
+    },
+    {
+      "id": "log_650fd44d-ec60-409b-820e-05b87c7e3370",
+      "createdAt": "2026-07-02T14:56:11.210Z",
+      "siteName": "www.toyotahome.co.jp",
+      "domain": "toyotahome.co.jp",
+      "url": "https://toyotahome.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "1000 URLs"
+    },
+    {
+      "id": "log_712c87c7-832a-4700-b46a-6d96d5412fd4",
+      "createdAt": "2026-07-02T14:56:11.756Z",
+      "siteName": "www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_9392ede0-bcc4-4887-9037-3519ebb59065",
+      "createdAt": "2026-07-02T14:56:11.972Z",
+      "siteName": "www.aidagroup.co.jp",
+      "domain": "www.aidagroup.co.jp",
+      "url": "https://www.aidagroup.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "skipped",
+      "message": "Not found"
+    },
+    {
+      "id": "log_5f0e6428-e2b2-47a2-ac8b-dfd07adf37db",
+      "createdAt": "2026-07-02T14:56:12.539Z",
+      "siteName": "www.aidagroup.co.jp",
+      "domain": "aidagroup.co.jp",
+      "url": "https://aidagroup.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "skipped",
+      "message": "Not found"
+    },
+    {
+      "id": "log_2f20a133-6e20-48c8-aaf3-2d67ccff29bc",
+      "createdAt": "2026-07-02T14:56:13.161Z",
+      "siteName": "www.megasoft.co.jp",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_069a4942-4ede-447e-8a9c-a2056d9946f3",
+      "createdAt": "2026-07-02T14:56:13.777Z",
+      "siteName": "www.megasoft.co.jp",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "0 URLs"
+    },
+    {
+      "id": "log_81152352-1172-4593-94a8-47175d8149ee",
+      "createdAt": "2026-07-02T14:56:14.242Z",
+      "siteName": "www.megasoft.co.jp",
+      "domain": "www.megasoft.co.jp",
+      "url": "https://www.megasoft.co.jp/sitemap.rss",
+      "action": "sitemap",
+      "result": "success",
+      "message": "0 URLs"
+    },
+    {
+      "id": "log_435337ea-edca-4240-9933-f66f2cdfefb4",
+      "createdAt": "2026-07-02T14:56:14.954Z",
+      "siteName": "www.megasoft.co.jp",
+      "domain": "megasoft.co.jp",
+      "url": "https://megasoft.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "0 URLs"
+    },
+    {
+      "id": "log_33932a61-dd45-4a08-a377-b0438f1340ec",
+      "createdAt": "2026-07-02T14:56:15.636Z",
+      "siteName": "www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_91b6a2fd-d194-4b9f-968c-b1094310d762",
+      "createdAt": "2026-07-02T14:56:15.823Z",
+      "siteName": "www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "http://www.sekisuiheim.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "911 URLs"
+    },
+    {
+      "id": "log_8b27f659-e35e-4d8c-9e50-497a31d47092",
+      "createdAt": "2026-07-02T14:56:15.880Z",
+      "siteName": "www.sekisuiheim.com",
+      "domain": "www.sekisuiheim.com",
+      "url": "https://www.sekisuiheim.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "911 URLs"
+    },
+    {
+      "id": "log_ddf1c124-9b67-4493-89cf-7107a358630f",
+      "createdAt": "2026-07-02T14:56:16.206Z",
+      "siteName": "www.sekisuiheim.com",
+      "domain": "sekisuiheim.com",
+      "url": "https://sekisuiheim.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "911 URLs"
+    },
+    {
+      "id": "log_1f0f250b-d630-4a02-86ee-7ae06c50d6e6",
+      "createdAt": "2026-07-02T14:56:17.217Z",
+      "siteName": "genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_0e2e1b9d-f258-49d8-8447-2970ef5b6ace",
+      "createdAt": "2026-07-02T14:56:17.354Z",
+      "siteName": "genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/sitemap.rss",
+      "action": "sitemap",
+      "result": "success",
+      "message": "0 URLs"
+    },
+    {
+      "id": "log_a426e616-19cb-487d-ba1d-2b84da00be06",
+      "createdAt": "2026-07-02T14:56:17.726Z",
+      "siteName": "genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "3 URLs"
+    },
+    {
+      "id": "log_044ffb8c-db0f-4944-ad98-78ceeacba89e",
+      "createdAt": "2026-07-02T14:56:18.437Z",
+      "siteName": "genmai-home.com",
+      "domain": "www.genmai-home.com",
+      "url": "https://www.genmai-home.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "3 URLs"
+    },
+    {
+      "id": "log_1e4c0fea-1e7f-4f95-9f7a-5a5099262491",
+      "createdAt": "2026-07-02T14:56:18.549Z",
+      "siteName": "genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/wp-sitemap-posts-post-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "25 URLs"
+    },
+    {
+      "id": "log_e8de6e58-282f-4a48-b448-668be261d9dc",
+      "createdAt": "2026-07-02T14:56:18.667Z",
+      "siteName": "genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/wp-sitemap-posts-page-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "2 URLs"
+    },
+    {
+      "id": "log_4ec64a26-723d-47d1-b303-91a951bfb27a",
+      "createdAt": "2026-07-02T14:56:18.775Z",
+      "siteName": "genmai-home.com",
+      "domain": "genmai-home.com",
+      "url": "https://genmai-home.com/wp-sitemap-taxonomies-post_tag-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "1 URLs"
+    },
+    {
+      "id": "log_6d3ca23f-1a52-4228-a55a-dbd728e8ac2c",
+      "createdAt": "2026-07-02T14:56:19.051Z",
+      "siteName": "www.forumu.co.jp",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/robots.txt",
+      "action": "robots",
+      "result": "skipped",
+      "message": "HTTP 404"
+    },
+    {
+      "id": "log_6bf8dc1e-51b8-4a35-8d94-cd96c3038352",
+      "createdAt": "2026-07-02T14:56:19.213Z",
+      "siteName": "www.forumu.co.jp",
+      "domain": "www.forumu.co.jp",
+      "url": "https://www.forumu.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "103 URLs"
+    },
+    {
+      "id": "log_aae7f260-776b-4aee-b5a2-42ec282e4644",
+      "createdAt": "2026-07-02T14:56:19.457Z",
+      "siteName": "www.forumu.co.jp",
+      "domain": "forumu.co.jp",
+      "url": "https://forumu.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "103 URLs"
+    },
+    {
+      "id": "log_93c1e815-9baf-477c-abb2-99f3644f8681",
+      "createdAt": "2026-07-02T14:56:19.740Z",
+      "siteName": "www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/robots.txt",
+      "action": "robots",
+      "result": "skipped",
+      "message": "HTTP 404"
+    },
+    {
+      "id": "log_a6141cf7-2c16-49ba-b8fc-eb039ce55b58",
+      "createdAt": "2026-07-02T14:56:19.946Z",
+      "siteName": "www.ibaraki-heim.co.jp",
+      "domain": "www.ibaraki-heim.co.jp",
+      "url": "https://www.ibaraki-heim.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "skipped",
+      "message": "Not found"
+    },
+    {
+      "id": "log_cbb20d0b-ad0c-4fc2-bcf9-84461b8d7183",
+      "createdAt": "2026-07-02T14:56:20.324Z",
+      "siteName": "www.ibaraki-heim.co.jp",
+      "domain": "ibaraki-heim.co.jp",
+      "url": "https://ibaraki-heim.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "skipped",
+      "message": "Not found"
+    },
+    {
+      "id": "log_96a6444c-7749-4bac-91e1-950556d41c8f",
+      "createdAt": "2026-07-02T14:56:20.531Z",
+      "siteName": "be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_17bf728e-5082-458a-b8fe-cee6ee3c6012",
+      "createdAt": "2026-07-02T14:56:20.799Z",
+      "siteName": "be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/sitemap_index.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "21 URLs"
+    },
+    {
+      "id": "log_b4afa181-d7b6-4853-8440-590cace97c40",
+      "createdAt": "2026-07-02T14:56:20.999Z",
+      "siteName": "be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "21 URLs"
+    },
+    {
+      "id": "log_e857aa86-ca5c-4bb5-a4af-d36673bc92c8",
+      "createdAt": "2026-07-02T14:56:21.532Z",
+      "siteName": "be-enough.jp",
+      "domain": "www.be-enough.jp",
+      "url": "https://www.be-enough.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "21 URLs"
+    },
+    {
+      "id": "log_b27ec75e-906a-40ff-b998-4051fb6726ea",
+      "createdAt": "2026-07-02T14:56:21.638Z",
+      "siteName": "be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/page-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "25 URLs"
+    },
+    {
+      "id": "log_8a2b1eb9-36fa-4c25-a692-a6b614409c5f",
+      "createdAt": "2026-07-02T14:56:22.274Z",
+      "siteName": "be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/blog-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "215 URLs"
+    },
+    {
+      "id": "log_16cfb760-953f-4843-acb6-c8d386c61911",
+      "createdAt": "2026-07-02T14:56:22.449Z",
+      "siteName": "be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/faq-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "148 URLs"
+    },
+    {
+      "id": "log_5740a52d-3b92-4a2b-b479-73d8aec008eb",
+      "createdAt": "2026-07-02T14:56:22.546Z",
+      "siteName": "be-enough.jp",
+      "domain": "be-enough.jp",
+      "url": "https://be-enough.jp/words-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "17 URLs"
+    },
+    {
+      "id": "log_90829d11-b949-43e8-a662-99fcaf45bd5e",
+      "createdAt": "2026-07-02T14:56:22.785Z",
+      "siteName": "sfc.jp",
+      "domain": "sfc.jp",
+      "url": "https://sfc.jp/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_90ebd20a-9909-4fb5-9f52-3a53039be81a",
+      "createdAt": "2026-07-02T14:56:23.050Z",
+      "siteName": "sfc.jp",
+      "domain": "sfc.jp",
+      "url": "https://sfc.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "skipped",
+      "message": "Not found"
+    },
+    {
+      "id": "log_3d0a8459-c1de-4d88-8980-489d5a1280f6",
+      "createdAt": "2026-07-02T14:56:23.085Z",
+      "siteName": "sfc.jp",
+      "domain": "www.sfc.jp",
+      "url": "https://www.sfc.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "skipped",
+      "message": "fetch failed"
+    },
+    {
+      "id": "log_e0a9123e-1549-4e8d-9bf7-c06d28bdf90f",
+      "createdAt": "2026-07-02T14:56:23.425Z",
+      "siteName": "www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/robots.txt",
+      "action": "robots",
+      "result": "skipped",
+      "message": "HTTP 404"
+    },
+    {
+      "id": "log_bb144a57-6791-4872-a427-38748d52584f",
+      "createdAt": "2026-07-02T14:56:23.701Z",
+      "siteName": "www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "14 URLs"
+    },
+    {
+      "id": "log_e89d35c7-2c15-46cb-9bcf-4a5b277dbac7",
+      "createdAt": "2026-07-02T14:56:24.116Z",
+      "siteName": "www.marusho-kensetsu.co.jp",
+      "domain": "marusho-kensetsu.co.jp",
+      "url": "https://marusho-kensetsu.co.jp/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "14 URLs"
+    },
+    {
+      "id": "log_bca439bd-48a1-46d6-be60-428b445055c6",
+      "createdAt": "2026-07-02T14:56:24.226Z",
+      "siteName": "www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/page-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "25 URLs"
+    },
+    {
+      "id": "log_fa08f685-616d-4dee-920f-f357a6d24d5e",
+      "createdAt": "2026-07-02T14:56:24.300Z",
+      "siteName": "www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/news-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "4 URLs"
+    },
+    {
+      "id": "log_75186b6a-d362-4750-a951-ab98e4558565",
+      "createdAt": "2026-07-02T14:56:24.389Z",
+      "siteName": "www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/blog-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "7 URLs"
+    },
+    {
+      "id": "log_26450165-06fe-4069-bd74-66a2596c888b",
+      "createdAt": "2026-07-02T14:56:24.520Z",
+      "siteName": "www.marusho-kensetsu.co.jp",
+      "domain": "www.marusho-kensetsu.co.jp",
+      "url": "https://www.marusho-kensetsu.co.jp/event-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "20 URLs"
+    },
+    {
+      "id": "log_5a0e151a-d6ae-4f47-b0b0-675f7de089cd",
+      "createdAt": "2026-07-02T14:56:25.469Z",
+      "siteName": "www.shichiro.com",
+      "domain": "www.shichiro.com",
+      "url": "https://www.shichiro.com/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_7a5f5f6d-551c-4fd8-aeec-c4b4cc8480ed",
+      "createdAt": "2026-07-02T14:56:25.641Z",
+      "siteName": "www.shichiro.com",
+      "domain": "www.shichiro.com",
+      "url": "https://www.shichiro.com/wp-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "19 URLs"
+    },
+    {
+      "id": "log_7ab132c4-79e4-4fc2-9500-63cdb74ab2b0",
+      "createdAt": "2026-07-02T14:56:26.091Z",
+      "siteName": "www.shichiro.com",
+      "domain": "www.shichiro.com",
+      "url": "https://www.shichiro.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "19 URLs"
+    },
+    {
+      "id": "log_0ed06849-2f62-4a55-bfe6-02e1b89d2134",
+      "createdAt": "2026-07-02T14:56:26.739Z",
+      "siteName": "www.shichiro.com",
+      "domain": "shichiro.com",
+      "url": "https://shichiro.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "19 URLs"
+    },
+    {
+      "id": "log_ed41476f-3cd9-4d8b-a5d0-146ee06842cb",
+      "createdAt": "2026-07-02T14:56:26.877Z",
+      "siteName": "www.shichiro.com",
+      "domain": "www.shichiro.com",
+      "url": "https://www.shichiro.com/wp-sitemap-posts-post-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "1 URLs"
+    },
+    {
+      "id": "log_2123af30-3380-4b59-a45b-a12d01b02200",
+      "createdAt": "2026-07-02T14:56:27.047Z",
+      "siteName": "www.shichiro.com",
+      "domain": "www.shichiro.com",
+      "url": "https://www.shichiro.com/wp-sitemap-posts-page-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "6 URLs"
+    },
+    {
+      "id": "log_1e89aa37-2d08-4bc4-8a60-c75c4cbcfe7f",
+      "createdAt": "2026-07-02T14:56:27.195Z",
+      "siteName": "www.shichiro.com",
+      "domain": "www.shichiro.com",
+      "url": "https://www.shichiro.com/wp-sitemap-posts-article-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "463 URLs"
+    },
+    {
+      "id": "log_2d50b8dd-abfc-4eda-896e-256c621299cc",
+      "createdAt": "2026-07-02T14:56:27.434Z",
+      "siteName": "www.shichiro.com",
+      "domain": "www.shichiro.com",
+      "url": "https://www.shichiro.com/wp-sitemap-posts-event-1.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "532 URLs"
+    },
+    {
+      "id": "log_9a5a4610-ccd9-4f4a-8c6c-4086405354bf",
+      "createdAt": "2026-07-02T14:56:28.153Z",
+      "siteName": "www.mandai-home.com",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/robots.txt",
+      "action": "robots",
+      "result": "success",
+      "message": "Loaded robots.txt"
+    },
+    {
+      "id": "log_1fd04cc3-d8db-4540-818d-e6ace2fcfba3",
+      "createdAt": "2026-07-02T14:56:28.267Z",
+      "siteName": "www.mandai-home.com",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "3 URLs"
+    },
+    {
+      "id": "log_09c7ecd0-1088-4517-915d-e4fdca9468d4",
+      "createdAt": "2026-07-02T14:56:28.364Z",
+      "siteName": "www.mandai-home.com",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/sitemap.html",
+      "action": "sitemap",
+      "result": "success",
+      "message": "0 URLs"
+    },
+    {
+      "id": "log_ffc1c436-37e5-45c5-a571-84d9fa75f25b",
+      "createdAt": "2026-07-02T14:56:29.025Z",
+      "siteName": "www.mandai-home.com",
+      "domain": "mandai-home.com",
+      "url": "https://mandai-home.com/sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "3 URLs"
+    },
+    {
+      "id": "log_87416d1f-fc61-43c1-bcd6-5203e2ea1c2b",
+      "createdAt": "2026-07-02T14:56:29.137Z",
+      "siteName": "www.mandai-home.com",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/sitemap-misc.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "2 URLs"
+    },
+    {
+      "id": "log_8ca8e443-57a0-40f5-9bed-5f507f5df67b",
+      "createdAt": "2026-07-02T14:56:29.397Z",
+      "siteName": "www.mandai-home.com",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/post-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "249 URLs"
+    },
+    {
+      "id": "log_a0e1e27b-505d-4d5f-81ae-c89ab28bd5c5",
+      "createdAt": "2026-07-02T14:56:29.501Z",
+      "siteName": "www.mandai-home.com",
+      "domain": "www.mandai-home.com",
+      "url": "https://www.mandai-home.com/page-sitemap.xml",
+      "action": "sitemap",
+      "result": "success",
+      "message": "28 URLs"
+    },
+    {
+      "id": "log_e31e8a1e-2fa0-4058-8775-125246e1a352",
+      "createdAt": "2026-07-02T14:56:29.508Z",
+      "siteName": "sitemap",
+      "domain": "-",
+      "url": "common-crawl.config.json",
+      "action": "update-common-crawl",
+      "result": "success",
+      "message": "seedUrls=78"
     }
   ]
 }
