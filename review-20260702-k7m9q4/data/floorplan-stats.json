@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-02T01:26:31.101Z",
-  "acceptedCount": 2057,
-  "publicCandidateCount": 1314,
+  "generatedAt": "2026-07-02T03:04:47.673Z",
+  "acceptedCount": 2063,
+  "publicCandidateCount": 1320,
   "multiImageCandidateCount": 646,
   "domains": {
     "ichijo.co.jp": {
@@ -35,7 +35,7 @@
       "acceptedCount": 32
     },
     "eyefulhome.jp": {
-      "acceptedCount": 5
+      "acceptedCount": 11
     },
     "toyotahome.co.jp": {
       "acceptedCount": 261
