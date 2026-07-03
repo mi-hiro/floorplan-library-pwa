@@ -33,14 +33,14 @@
     "sourceQuality": "low"
   },
   "suumo.jp": {
-    "candidateCount": 2551,
+    "candidateCount": 2679,
     "acceptedCount": 1139,
-    "rejectedCount": 96,
+    "rejectedCount": 101,
     "reviewCount": 628,
-    "acceptanceRate": 0.446,
-    "lastCrawledAt": "2026-07-02T06:04:35.869Z",
+    "acceptanceRate": 0.425,
+    "lastCrawledAt": "2026-07-03T08:05:13.660Z",
     "blockReason": null,
-    "nextCrawlAfter": "2026-07-03T06:04:35.869Z",
+    "nextCrawlAfter": "2026-07-04T08:05:13.660Z",
     "sourceQuality": "high"
   },
   "hiyoriblog.com": {
@@ -167,7 +167,7 @@
   "toyotahome.co.jp": {
     "candidateCount": 3656,
     "acceptedCount": 261,
-    "rejectedCount": 997,
+    "rejectedCount": 1177,
     "reviewCount": 1234,
     "acceptanceRate": 0.071,
     "lastCrawledAt": "2026-07-03T04:57:10.467Z",
@@ -353,14 +353,14 @@
   },
   "misawa.co.jp": {
     "candidateCount": 394,
-    "acceptedCount": 34,
+    "acceptedCount": 45,
     "rejectedCount": 231,
     "reviewCount": 144,
-    "acceptanceRate": 0.086,
+    "acceptanceRate": 0.114,
     "lastCrawledAt": "2026-07-02T21:45:09.924Z",
     "blockReason": "fetch failed",
     "nextCrawlAfter": "2026-07-03T21:45:09.924Z",
-    "sourceQuality": "low"
+    "sourceQuality": "medium"
   },
   "aerahome.com": {
     "candidateCount": 151,

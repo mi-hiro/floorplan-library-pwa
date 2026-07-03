@@ -1,38 +1,24 @@
 param(
-  [string]$TaskName = "Floorplan Library Auto Growth",
   [string]$At = "07:30"
 )
 
 $ErrorActionPreference = "Stop"
-
 $ProjectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-$RunScript = Join-Path $ProjectRoot "run-auto-floorplan-growth.ps1"
-$PowerShell = "C:\Program Files\PowerShell\7\pwsh.exe"
+$TaskName = "Floorplan Library Auto Growth"
+$ScriptPath = Join-Path $ProjectRoot "run-auto-floorplan-growth.ps1"
 
-if (!(Test-Path -LiteralPath $RunScript)) {
-  throw "Run script was not found: $RunScript"
+if (!(Test-Path -LiteralPath $ScriptPath)) {
+  throw "Auto growth script was not found: $ScriptPath"
 }
 
-if (!(Test-Path -LiteralPath $PowerShell)) {
-  $PowerShell = "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe"
+$Pwsh = (Get-Command pwsh.exe -ErrorAction SilentlyContinue).Source
+if (!$Pwsh) {
+  $Pwsh = "powershell.exe"
 }
 
-$action = New-ScheduledTaskAction -Execute $PowerShell -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$RunScript`""
-$trigger = New-ScheduledTaskTrigger -Daily -At $At
-$settings = New-ScheduledTaskSettingsSet `
-  -MultipleInstances IgnoreNew `
-  -StartWhenAvailable `
-  -WakeToRun `
-  -ExecutionTimeLimit (New-TimeSpan -Hours 8)
+$Action = New-ScheduledTaskAction -Execute $Pwsh -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$ScriptPath`""
+$Trigger = New-ScheduledTaskTrigger -Daily -At $At
+$Settings = New-ScheduledTaskSettingsSet -MultipleInstances IgnoreNew -StartWhenAvailable
 
-Register-ScheduledTask `
-  -TaskName $TaskName `
-  -Action $action `
-  -Trigger $trigger `
-  -Settings $settings `
-  -Description "Daily automatic growth run for Floorplan Library PWA" `
-  -Force | Out-Null
-
-Write-Host "Registered: $TaskName"
-Write-Host "Schedule: Daily $At"
-Write-Host "Script: $RunScript"
+Register-ScheduledTask -TaskName $TaskName -Action $Action -Trigger $Trigger -Settings $Settings -Description "Discover and classify floorplan candidates daily." -Force | Out-Null
+Write-Host "Registered task: $TaskName at $At"
