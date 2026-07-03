@@ -1,86 +1,86 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-02T21:34:06.646Z",
-  "nextIndex": 8,
+  "updatedAt": "2026-07-03T05:10:31.562Z",
+  "nextIndex": 16,
   "completedRounds": 2,
   "pendingPrefectures": [],
   "pendingQueries": [],
-  "lastPreparedAt": "2026-07-02T21:34:06.646Z",
+  "lastPreparedAt": "2026-07-03T05:10:31.562Z",
   "lastPrefectures": [
-    "大分",
-    "佐賀",
-    "長崎",
-    "沖縄"
+    "鳥取",
+    "愛媛",
+    "香川",
+    "徳島"
   ],
   "lastQueries": [
     {
-      "prefecture": "大分",
-      "query": "大分 注文住宅 間取り 工務店"
+      "prefecture": "鳥取",
+      "query": "鳥取 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "大分",
-      "query": "大分 新築 平屋 間取り"
+      "prefecture": "鳥取",
+      "query": "鳥取 新築 平屋 間取り"
     },
     {
-      "prefecture": "大分",
-      "query": "大分 工務店 施工事例 間取り"
+      "prefecture": "鳥取",
+      "query": "鳥取 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "大分",
-      "query": "大分 住宅会社 建築実例 間取り"
+      "prefecture": "鳥取",
+      "query": "鳥取 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "佐賀",
-      "query": "佐賀 注文住宅 間取り 工務店"
+      "prefecture": "愛媛",
+      "query": "愛媛 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "佐賀",
-      "query": "佐賀 新築 平屋 間取り"
+      "prefecture": "愛媛",
+      "query": "愛媛 新築 平屋 間取り"
     },
     {
-      "prefecture": "佐賀",
-      "query": "佐賀 工務店 施工事例 間取り"
+      "prefecture": "愛媛",
+      "query": "愛媛 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "佐賀",
-      "query": "佐賀 住宅会社 建築実例 間取り"
+      "prefecture": "愛媛",
+      "query": "愛媛 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "長崎",
-      "query": "長崎 注文住宅 間取り 工務店"
+      "prefecture": "香川",
+      "query": "香川 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "長崎",
-      "query": "長崎 新築 平屋 間取り"
+      "prefecture": "香川",
+      "query": "香川 新築 平屋 間取り"
     },
     {
-      "prefecture": "長崎",
-      "query": "長崎 工務店 施工事例 間取り"
+      "prefecture": "香川",
+      "query": "香川 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "長崎",
-      "query": "長崎 住宅会社 建築実例 間取り"
+      "prefecture": "香川",
+      "query": "香川 住宅会社 建築実例 間取り"
     },
     {
-      "prefecture": "沖縄",
-      "query": "沖縄 注文住宅 間取り 工務店"
+      "prefecture": "徳島",
+      "query": "徳島 注文住宅 間取り 工務店"
     },
     {
-      "prefecture": "沖縄",
-      "query": "沖縄 新築 平屋 間取り"
+      "prefecture": "徳島",
+      "query": "徳島 新築 平屋 間取り"
     },
     {
-      "prefecture": "沖縄",
-      "query": "沖縄 工務店 施工事例 間取り"
+      "prefecture": "徳島",
+      "query": "徳島 工務店 施工事例 間取り"
     },
     {
-      "prefecture": "沖縄",
-      "query": "沖縄 住宅会社 建築実例 間取り"
+      "prefecture": "徳島",
+      "query": "徳島 住宅会社 建築実例 間取り"
     }
   ],
   "totals": {
     "prefectures": 47,
-    "runs": 30
+    "runs": 32
   },
   "runs": [
     {
@@ -424,6 +424,30 @@
       "queryCount": 16,
       "startIndex": 4,
       "nextIndex": 8
+    },
+    {
+      "createdAt": "2026-07-03T04:53:37.771Z",
+      "prefectures": [
+        "山口",
+        "広島",
+        "岡山",
+        "島根"
+      ],
+      "queryCount": 16,
+      "startIndex": 8,
+      "nextIndex": 12
+    },
+    {
+      "createdAt": "2026-07-03T05:10:31.561Z",
+      "prefectures": [
+        "鳥取",
+        "愛媛",
+        "香川",
+        "徳島"
+      ],
+      "queryCount": 16,
+      "startIndex": 12,
+      "nextIndex": 16
     }
   ]
 }
