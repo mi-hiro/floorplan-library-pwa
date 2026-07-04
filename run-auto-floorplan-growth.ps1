@@ -127,22 +127,10 @@ if ($LASTEXITCODE -ne 0) {
   Write-Warning "Common Crawl candidate collection failed. Continuing."
 }
 
-Write-Host "Reviewing candidates with Ollama..."
-& $NodeCommand scripts/ollama-floorplan-filter.mjs `
-  --config ollama-filter.config.json `
-  --input $LatestOutput `
-  --out $LatestOutput `
-  --max-images ([string]$OllamaMaxImages)
+Write-Host "Running accepted-only floorplan promotion pipeline..."
+& $NodeCommand scripts/run-daily-floorplan-growth.mjs
 if ($LASTEXITCODE -ne 0) {
-  Write-Warning "Ollama review failed. Keeping crawler output."
-}
-
-Write-Host "Cleaning room and exterior image candidates..."
-& $NodeCommand scripts/clean-crawl-output.mjs `
-  --input $LatestOutput `
-  --out $LatestOutput
-if ($LASTEXITCODE -ne 0) {
-  Write-Warning "Crawl output cleanup failed. Keeping crawler output."
+  throw "Accepted-only floorplan pipeline failed."
 }
 
 Write-Host "Advancing prefecture rotation..."
@@ -156,7 +144,7 @@ Write-Host "Advancing prefecture rotation..."
   --advance
 
 if (!$NoPublish) {
-  Write-Host "Publishing latest crawl output..."
+  Write-Host "Publishing accepted-only public data..."
   & ".\publish-crawl-output.ps1" -InputPath $LatestOutput
 }
 
