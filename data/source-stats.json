@@ -5,7 +5,7 @@
     "rejectedCount": 363,
     "reviewCount": 279,
     "acceptanceRate": 0.218,
-    "lastCrawledAt": "2026-07-03T04:56:25.543Z",
+    "lastCrawledAt": "2026-07-04T16:27:33.447Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -16,7 +16,7 @@
     "rejectedCount": 163,
     "reviewCount": 165,
     "acceptanceRate": 0.036,
-    "lastCrawledAt": "2026-07-02T18:43:09.217Z",
+    "lastCrawledAt": "2026-07-03T18:42:06.611Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -27,20 +27,20 @@
     "rejectedCount": 251,
     "reviewCount": 51,
     "acceptanceRate": 0.003,
-    "lastCrawledAt": "2026-07-02T18:43:38.293Z",
+    "lastCrawledAt": "2026-07-03T18:42:37.028Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
   },
   "suumo.jp": {
-    "candidateCount": 2679,
-    "acceptedCount": 1139,
-    "rejectedCount": 101,
-    "reviewCount": 628,
-    "acceptanceRate": 0.425,
-    "lastCrawledAt": "2026-07-03T08:05:13.660Z",
+    "candidateCount": 2850,
+    "acceptedCount": 1195,
+    "rejectedCount": 102,
+    "reviewCount": 629,
+    "acceptanceRate": 0.419,
+    "lastCrawledAt": "2026-07-04T16:42:47.822Z",
     "blockReason": null,
-    "nextCrawlAfter": "2026-07-04T08:05:13.660Z",
+    "nextCrawlAfter": "2026-07-05T16:42:47.821Z",
     "sourceQuality": "high"
   },
   "hiyoriblog.com": {
@@ -55,12 +55,12 @@
     "sourceQuality": "low"
   },
   "zerohome.jp": {
-    "candidateCount": 573,
+    "candidateCount": 644,
     "acceptedCount": 78,
-    "rejectedCount": 459,
-    "reviewCount": 267,
-    "acceptanceRate": 0.136,
-    "lastCrawledAt": "2026-07-03T04:56:06.940Z",
+    "rejectedCount": 525,
+    "reviewCount": 272,
+    "acceptanceRate": 0.121,
+    "lastCrawledAt": "2026-07-04T16:27:32.936Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -71,7 +71,7 @@
     "rejectedCount": 67,
     "reviewCount": 40,
     "acceptanceRate": 0.013,
-    "lastCrawledAt": "2026-07-02T18:41:54.356Z",
+    "lastCrawledAt": "2026-07-03T18:40:33.104Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -82,7 +82,7 @@
     "rejectedCount": 996,
     "reviewCount": 604,
     "acceptanceRate": 0.09,
-    "lastCrawledAt": "2026-07-03T04:58:00.640Z",
+    "lastCrawledAt": "2026-07-03T18:39:10.929Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -93,7 +93,7 @@
     "rejectedCount": 50,
     "reviewCount": 76,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-07-02T21:47:08.657Z",
+    "lastCrawledAt": "2026-07-04T16:27:35.224Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -115,7 +115,7 @@
     "rejectedCount": 1115,
     "reviewCount": 855,
     "acceptanceRate": 0.008,
-    "lastCrawledAt": "2026-07-02T18:42:37.601Z",
+    "lastCrawledAt": "2026-07-03T18:41:35.994Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -137,7 +137,7 @@
     "rejectedCount": 156,
     "reviewCount": 179,
     "acceptanceRate": 0.153,
-    "lastCrawledAt": "2026-07-02T18:41:01.413Z",
+    "lastCrawledAt": "2026-07-04T16:28:37.430Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
@@ -148,9 +148,9 @@
     "rejectedCount": 70,
     "reviewCount": 55,
     "acceptanceRate": 0.267,
-    "lastCrawledAt": "2026-07-02T21:45:44.890Z",
+    "lastCrawledAt": "2026-07-04T16:22:32.037Z",
     "blockReason": "Failed to parse URL from <![CDATA[https://www.megasoft.co.jp/post-sitemap.xml]]>",
-    "nextCrawlAfter": "2026-07-03T21:45:44.890Z",
+    "nextCrawlAfter": "2026-07-05T16:22:32.037Z",
     "sourceQuality": "medium"
   },
   "irohaie.com": {
@@ -159,7 +159,7 @@
     "rejectedCount": 622,
     "reviewCount": 352,
     "acceptanceRate": 0.012,
-    "lastCrawledAt": "2026-07-03T04:56:45.618Z",
+    "lastCrawledAt": "2026-07-04T16:29:44.547Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -170,7 +170,7 @@
     "rejectedCount": 1177,
     "reviewCount": 1234,
     "acceptanceRate": 0.071,
-    "lastCrawledAt": "2026-07-03T04:57:10.467Z",
+    "lastCrawledAt": "2026-07-04T16:29:45.746Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -192,7 +192,7 @@
     "rejectedCount": 333,
     "reviewCount": 225,
     "acceptanceRate": 0.003,
-    "lastCrawledAt": "2026-07-03T04:57:43.547Z",
+    "lastCrawledAt": "2026-07-03T18:43:22.477Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -211,7 +211,7 @@
   "marusho-kensetsu.co.jp": {
     "candidateCount": 1004,
     "acceptedCount": 0,
-    "rejectedCount": 340,
+    "rejectedCount": 387,
     "reviewCount": 742,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-07-02T21:47:31.240Z",
@@ -299,7 +299,7 @@
   "chitose-home.com": {
     "candidateCount": 911,
     "acceptedCount": 0,
-    "rejectedCount": 174,
+    "rejectedCount": 176,
     "reviewCount": 810,
     "acceptanceRate": 0,
     "lastCrawledAt": "2026-07-02T01:32:03.675Z",
@@ -324,7 +324,7 @@
     "rejectedCount": 161,
     "reviewCount": 195,
     "acceptanceRate": 0.038,
-    "lastCrawledAt": "2026-07-02T18:44:59.017Z",
+    "lastCrawledAt": "2026-07-03T18:44:04.010Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -335,7 +335,7 @@
     "rejectedCount": 93,
     "reviewCount": 16,
     "acceptanceRate": 0.047,
-    "lastCrawledAt": "2026-07-02T18:40:29.749Z",
+    "lastCrawledAt": "2026-07-03T18:39:18.298Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -346,20 +346,20 @@
     "rejectedCount": 85,
     "reviewCount": 47,
     "acceptanceRate": 0.092,
-    "lastCrawledAt": "2026-07-02T18:41:38.976Z",
+    "lastCrawledAt": "2026-07-03T18:40:29.107Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
   },
   "misawa.co.jp": {
-    "candidateCount": 394,
+    "candidateCount": 399,
     "acceptedCount": 45,
-    "rejectedCount": 231,
-    "reviewCount": 144,
-    "acceptanceRate": 0.114,
-    "lastCrawledAt": "2026-07-02T21:45:09.924Z",
+    "rejectedCount": 236,
+    "reviewCount": 148,
+    "acceptanceRate": 0.113,
+    "lastCrawledAt": "2026-07-04T16:27:34.721Z",
     "blockReason": "fetch failed",
-    "nextCrawlAfter": "2026-07-03T21:45:09.924Z",
+    "nextCrawlAfter": "2026-07-05T16:27:34.721Z",
     "sourceQuality": "medium"
   },
   "aerahome.com": {
@@ -368,7 +368,7 @@
     "rejectedCount": 123,
     "reviewCount": 92,
     "acceptanceRate": 0.053,
-    "lastCrawledAt": "2026-07-02T18:41:58.488Z",
+    "lastCrawledAt": "2026-07-03T18:40:37.372Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -376,10 +376,10 @@
   "be-enough.jp": {
     "candidateCount": 5111,
     "acceptedCount": 117,
-    "rejectedCount": 4434,
+    "rejectedCount": 4463,
     "reviewCount": 1166,
     "acceptanceRate": 0.023,
-    "lastCrawledAt": "2026-07-02T21:47:05.375Z",
+    "lastCrawledAt": "2026-07-03T18:41:10.996Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "low"
@@ -412,9 +412,9 @@
     "rejectedCount": 110,
     "reviewCount": 197,
     "acceptanceRate": 0.189,
-    "lastCrawledAt": "2026-07-02T18:38:21.154Z",
+    "lastCrawledAt": "2026-07-04T16:28:38.666Z",
     "blockReason": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-    "nextCrawlAfter": "2026-07-03T18:38:21.154Z",
+    "nextCrawlAfter": "2026-07-05T16:28:38.666Z",
     "sourceQuality": "medium"
   },
   "universalhome.co.jp": {
@@ -423,7 +423,7 @@
     "rejectedCount": 98,
     "reviewCount": 44,
     "acceptanceRate": 0.203,
-    "lastCrawledAt": "2026-07-02T18:38:21.752Z",
+    "lastCrawledAt": "2026-07-04T16:28:39.226Z",
     "blockReason": null,
     "nextCrawlAfter": null,
     "sourceQuality": "medium"
