@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-06T05:30:36.205Z",
+  "generatedAt": "2026-07-06T14:11:45.954Z",
   "source": "accepted-floorplans",
   "candidates": [
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01.png",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-floor.png",
       "title": "プラン1間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -51,7 +51,7 @@
           "id": "2c73d06f32d4c482b45070040a0c104dc885ebb673a98c00721a3acfa621660a:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan01-3.png?241205",
-          "alt": "プラン1間取り図外回り 3階",
+          "alt": "プラン1間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -67,7 +67,7 @@
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02.png",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02-floor.png",
       "title": "プラン2間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
@@ -99,7 +99,7 @@
           "id": "de670880a8b1e4e22ec5d432e849ab1d18478d35dd51cc1c3869f3251d54de31:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan02-2.png",
-          "alt": "プラン2間取り図外回り 2階",
+          "alt": "プラン2間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -115,13 +115,13 @@
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03.png",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-floor.png",
       "title": "プラン3間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -162,7 +162,7 @@
           "id": "2a3d025e74303ec2cf5f62fe9255414191d35f818e096e532b523321d04c3675:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan03-3.png",
-          "alt": "プラン3間取り図外回り 3階",
+          "alt": "プラン3間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -178,7 +178,7 @@
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04.png",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04-floor.png",
       "title": "プラン4間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
@@ -210,7 +210,7 @@
           "id": "2d27263bb2449056562902ba9f56f01ad8daa0ae3b0022638c34947aabedfc35:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan04-2.png",
-          "alt": "プラン4間取り図外回り 2階",
+          "alt": "プラン4間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -226,13 +226,13 @@
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05.png",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan05-floor.png",
       "title": "プラン5間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -289,7 +289,7 @@
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06.png",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-floor.png",
       "title": "プラン6間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
@@ -321,7 +321,7 @@
           "id": "ede456fcd94158fe8c51d90006e4ef705b8ee36f7839c676e68343b91d2fc5c2:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan06-2.png",
-          "alt": "プラン6間取り図外回り 2階",
+          "alt": "プラン6間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -337,7 +337,7 @@
       "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07.png",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-floor.png",
       "title": "プラン7間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
@@ -369,7 +369,7 @@
           "id": "d5784163ade4b7871c2cafdc9360f7bdb32ce8508506fa9a8ea06840b4b06abc:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan07-2.png",
-          "alt": "プラン7間取り図外回り 2階",
+          "alt": "プラン7間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -996,7 +996,7 @@
       "layout": "4LDK",
       "areaSqm": 118,
       "tsubo": 35.7,
-      "floors": "平屋",
+      "floors": "1.5階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1114,7 +1114,7 @@
       "layout": "3LDK",
       "areaSqm": 112.61,
       "tsubo": 34.06,
-      "floors": "平屋",
+      "floors": "1.5階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1198,7 +1198,7 @@
       "layout": "3LDK",
       "areaSqm": 112.61,
       "tsubo": 34.06,
-      "floors": "2階建て",
+      "floors": "1.5階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1248,7 +1248,7 @@
       "layout": "3LDK",
       "areaSqm": 114.27,
       "tsubo": 34.57,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1298,7 +1298,7 @@
       "layout": "4LDK",
       "areaSqm": 128.76,
       "tsubo": 38.95,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1348,7 +1348,7 @@
       "layout": "4LDK",
       "areaSqm": 119.23,
       "tsubo": 36.07,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1398,7 +1398,7 @@
       "layout": "4LDK",
       "areaSqm": 131.45,
       "tsubo": 39.76,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1448,7 +1448,7 @@
       "layout": "",
       "areaSqm": 146.57,
       "tsubo": 44.34,
-      "floors": "2階建て",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1513,7 +1513,7 @@
       "layout": "",
       "areaSqm": 245.23,
       "tsubo": 74.18,
-      "floors": "2階建て",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1675,7 +1675,7 @@
       "sourceUrl": "https://www.aidagroup.co.jp/order/madori_plan/",
       "company": "aidagroup.co.jp",
       "layout": "",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1709,7 +1709,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1744,7 +1744,7 @@
       "layout": "",
       "areaSqm": 122.3,
       "tsubo": 37,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1778,7 +1778,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1812,7 +1812,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1846,7 +1846,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1857,7 +1857,7 @@
           "id": "74498cd072e9c69536ccaf99c5d8b2ff1b95f13608bfb71a57fbb8bbf3705ca6:image",
           "kind": "floorplan",
           "url": "https://zerohome.jp/wp-content/uploads/2023/10/topview_plan04-1.jpg",
-          "alt": "３階建て狭小住宅の間取り図PLAN 04 1階",
+          "alt": "３階建て狭小住宅の間取り図PLAN 04 3階",
           "sourceUrl": "https://zerohome.jp/chumon/plan/slim-house/",
           "ollamaReview": {
             "status": "checked",
@@ -1880,7 +1880,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1914,7 +1914,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1948,7 +1948,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -1982,7 +1982,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2016,7 +2016,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2322,7 +2322,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2356,7 +2356,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2390,7 +2390,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2424,7 +2424,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2458,7 +2458,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2492,7 +2492,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2526,7 +2526,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2560,7 +2560,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2594,7 +2594,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2628,7 +2628,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2662,7 +2662,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2696,7 +2696,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -2730,7 +2730,7 @@
       "company": "ゼロホーム 間取り実例",
       "priceManYen": 2,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -3726,13 +3726,13 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08.png",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08-floor.png",
       "title": "プラン8間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -3773,7 +3773,7 @@
           "id": "f9686537191a7e0edbd71395ccc7f96e9d2de2362d4fbfe7ed0b1b38cc3bca1f:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan08-3.png",
-          "alt": "プラン8間取り図外回り 3階",
+          "alt": "プラン8間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3789,13 +3789,13 @@
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09.jpg",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09-floor.jpg",
       "title": "プラン9間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -3836,7 +3836,7 @@
           "id": "32a74c5de8a81b0cc257159b09ce5ef0928d69c7a5001c3cd105ae330627a579:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan09-3.jpg",
-          "alt": "プラン9間取り図外回り 3階",
+          "alt": "プラン9間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3852,13 +3852,13 @@
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10.jpg",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan10-floor.jpg",
       "title": "プラン10間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -3915,13 +3915,13 @@
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11.jpg",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11-floor.jpg",
       "title": "プラン11間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -3962,7 +3962,7 @@
           "id": "feaa9515d08c3a788cb7ee4ebb6df092408829aca2a19acd43aebc69d26ad564:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan11-3.jpg",
-          "alt": "プラン8間取り図外回り 3階",
+          "alt": "プラン8間取り図外回り",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -3978,13 +3978,13 @@
       "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12.jpg",
+      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12-floor.jpg",
       "title": "プラン12間取り図1階",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店 間取りLP",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -4025,7 +4025,7 @@
           "id": "cab0b7b30442fc2aa0e187d2d6f927603255e3e507db5fff93f03f8f1c1b9455:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/collection/collection_plan12-3.jpg",
-          "alt": "理想の間取りの考え方と人気の間取り例｜一条工務店 3階",
+          "alt": "理想の間取りの考え方と人気の間取り例｜一条工務店",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -4898,7 +4898,7 @@
       "layout": "",
       "areaSqm": 99.17,
       "tsubo": 30,
-      "floors": "平屋",
+      "floors": "1.5階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -6978,7 +6978,7 @@
       "layout": "3LDK",
       "areaSqm": 87.36,
       "tsubo": 26.43,
-      "floors": "2階建て",
+      "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7163,7 +7163,7 @@
       "layout": "3LDK",
       "areaSqm": 44.71,
       "tsubo": 13.52,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -7275,17 +7275,18 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "e3af081202829f74d3b91583e1798a7e90051e61b8c850f5c460de262597c767",
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_imgfloor.png",
       "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1階 間取り図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
       "company": "misawa.co.jp",
       "layout": "",
-      "floors": "平屋",
+      "floors": "1.5階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.png"
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.png",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.png"
       ],
       "imageCandidates": [
         {
@@ -7301,26 +7302,7 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "1c31b8f5742481e4077ade42cd52fe691b0f86549483eab9b3deca439ce06396",
-      "title": "CENTURY Stylepro HIRAYA 34-1SE(SW)-1 1.5階 間取り図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "1c31b8f5742481e4077ade42cd52fe691b0f86549483eab9b3deca439ce06396:image",
           "kind": "floorplan",
@@ -7338,20 +7320,21 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "e707ba94c28d08a5a7d88e42d81f579482cce996ce8685982baf6dd1c41a1e52",
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_imgfloor.png",
       "title": "SMART STYLE Roomie 29-1SE(SW)-2 1階 間取り図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
       "company": "misawa.co.jp",
       "layout": "",
-      "floors": "平屋",
+      "floors": "1.5階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.png"
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.png",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.png"
       ],
       "imageCandidates": [
         {
@@ -7367,26 +7350,7 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "58acdc8fd6557507f69ca3c2e07cfbd9d608ee9ecb1b24eaff725206a54c2664",
-      "title": "SMART STYLE Roomie 29-1SE(SW)-2 1.5階 間取り図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "58acdc8fd6557507f69ca3c2e07cfbd9d608ee9ecb1b24eaff725206a54c2664:image",
           "kind": "floorplan",
@@ -7404,20 +7368,21 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "bd2d750d0cdf5b76cdd0193e6aa61733493b7bc25448723c73945af303b118a1",
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_imgfloor.png",
       "title": "SMART STYLE 25-1W(E)-1 1階 間取り図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
       "company": "misawa.co.jp",
       "layout": "",
-      "floors": "平屋",
+      "floors": "1.5階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.png"
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.png",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.png"
       ],
       "imageCandidates": [
         {
@@ -7433,26 +7398,7 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "60d050954e283851647fae0798ff45439a561a524f71b7a8d3bb06b5f88055aa",
-      "title": "SMART STYLE 25-1W(E)-1 1.5階 間取り図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "60d050954e283851647fae0798ff45439a561a524f71b7a8d3bb06b5f88055aa:image",
           "kind": "floorplan",
@@ -7470,7 +7416,7 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "b0408fc7b3684be42d070ff9d94d864654f71cf786e08d3a52bad33df00705dd",
@@ -7506,17 +7452,18 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "f94fd9fe661d10b0de33ce660431cb826f31b71e64510838dc6df31810f75242",
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_imgfloor.png",
       "title": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1階 間取り図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
       "company": "misawa.co.jp",
       "layout": "",
-      "floors": "平屋",
+      "floors": "1.5階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.png"
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.png",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.png"
       ],
       "imageCandidates": [
         {
@@ -7532,26 +7479,7 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "b7a8e36177c0bcd2d7f283f32af080d26d0fb278af455c7627e8f1311f6d0e15",
-      "title": "CENTURY Stylepro HIRAYA 28-1E(W)-1 1.5階 間取り図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "b7a8e36177c0bcd2d7f283f32af080d26d0fb278af455c7627e8f1311f6d0e15:image",
           "kind": "floorplan",
@@ -7569,7 +7497,7 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "e26a9ae788524f0492b1c44e4f47c2a3437c3e75e5bbe0a024a89c49de18ab9f",
@@ -7737,215 +7665,19 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "10e6ece56dcc8783fe15bb97d0bbc27db5653349a648360ce72f30ff7bf1538c",
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_imgfloor.webp",
       "title": "平屋の間取り紹介！デザインのミサワホーム",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
       "company": "misawa.co.jp",
-      "layout": "",
+      "layout": "2LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "10e6ece56dcc8783fe15bb97d0bbc27db5653349a648360ce72f30ff7bf1538c:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.942,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "dc439a9776fc5f14b44888f876114f267a4b6f9fbd79c22365f57c51ca57f73e",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "dc439a9776fc5f14b44888f876114f267a4b6f9fbd79c22365f57c51ca57f73e:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.942,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "8c3bb1dbff82d8aaf57c460c48a4e12546ecc6b7942d609273b583092eae5f95",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "8c3bb1dbff82d8aaf57c460c48a4e12546ecc6b7942d609273b583092eae5f95:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "6c289aba77a23d6cfc68aeb580b57a68135321cadd5be4471bd62f299d96da74",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "6c289aba77a23d6cfc68aeb580b57a68135321cadd5be4471bd62f299d96da74:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "ec055b61c80e2182bda95ed455126694b7273a2ab59e7e9301b9816c7e860f43",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "ec055b61c80e2182bda95ed455126694b7273a2ab59e7e9301b9816c7e860f43:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "4c7d578e9e39c45809702882cd3d99e6ecd648ca19ecfa913ca37bfd6a9cb378",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "4c7d578e9e39c45809702882cd3d99e6ecd648ca19ecfa913ca37bfd6a9cb378:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "5b174f3d2421a5a9a5a1f983d9a7daa460e85a39f0cfbd38d2bd1548dadf1f10",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.webp"
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img1.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img3.webp"
       ],
       "imageCandidates": [
         {
@@ -7961,30 +7693,25 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "a4fedea51d55a31eb88261192cedac1aa8eaced79a926f576d76802acc1b2bce",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "平屋",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.webp"
-      ],
-      "imageCandidates": [
+        },
         {
-          "id": "a4fedea51d55a31eb88261192cedac1aa8eaced79a926f576d76802acc1b2bce:image",
+          "id": "10e6ece56dcc8783fe15bb97d0bbc27db5653349a648360ce72f30ff7bf1538c:image",
           "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.webp",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img2.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "b2dd7b36f5143f933b3bf30706363a6ba7b91b392128d7399201554095f9dd00:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img3.webp",
           "alt": "平屋の間取り紹介！デザインのミサワホーム",
           "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
           "ollamaReview": {
@@ -7998,20 +7725,22 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "bdd735d126438718ee96540136fa32c7cfb5e79b627a1c72fc8cdb737cf95784",
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_imgfloor.webp",
       "title": "平屋の間取り紹介！デザインのミサワホーム",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
       "company": "misawa.co.jp",
-      "layout": "",
+      "layout": "3LDK",
       "floors": "平屋",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.webp"
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img1.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img3.webp"
       ],
       "imageCandidates": [
         {
@@ -8027,11 +7756,213 @@
             "confidence": 0.906,
             "reason": "accepted-floorplans only"
           }
+        },
+        {
+          "id": "dc439a9776fc5f14b44888f876114f267a4b6f9fbd79c22365f57c51ca57f73e:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img2.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.942,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "7944af40de227f7bc3acb272851e432f02809000e54016df7eed940dae31b1e3:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img3.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
         }
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_imgfloor.webp",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img3.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "8c3bb1dbff82d8aaf57c460c48a4e12546ecc6b7942d609273b583092eae5f95:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img1.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "6c289aba77a23d6cfc68aeb580b57a68135321cadd5be4471bd62f299d96da74:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img2.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "c94f7894e437153b826a6a9620df5bdfb3b147f6ca41bada306053372ffafa8c:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img3.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-06T00:42:32.631Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_imgfloor.webp",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img3.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "ec055b61c80e2182bda95ed455126694b7273a2ab59e7e9301b9816c7e860f43:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img1.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "4c7d578e9e39c45809702882cd3d99e6ecd648ca19ecfa913ca37bfd6a9cb378:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img2.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "1d13553b02e64f9ff71bec980b5dd6c70f080649a8165f5849d8c7fde7064378:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img3.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-06T00:42:32.631Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。3枚の階別画像を同じプランにまとめています。"
+    },
+    {
+      "id": "group:image:misawa.co.jp:https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_imgfloor.webp",
+      "title": "平屋の間取り紹介！デザインのミサワホーム",
+      "listingSource": "accepted misawa.co.jp",
+      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+      "company": "misawa.co.jp",
+      "layout": "3LDK",
+      "floors": "平屋",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.webp",
+        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img3.webp"
+      ],
+      "imageCandidates": [
+        {
+          "id": "a4fedea51d55a31eb88261192cedac1aa8eaced79a926f576d76802acc1b2bce:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img1.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        },
+        {
+          "id": "806dc18dd6c88871bec4f8d1f3e6b18d9ff69db0fcb0b396876b8fa268ecc285:image",
+          "kind": "floorplan",
+          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img3.webp",
+          "alt": "平屋の間取り紹介！デザインのミサワホーム",
+          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.906,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-06T00:42:32.631Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "03d20974792d0ad9795be187e31c3e99d65d2b33e670d8146dcd37123a5ba444",
@@ -8051,7 +7982,7 @@
           "id": "03d20974792d0ad9795be187e31c3e99d65d2b33e670d8146dcd37123a5ba444:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/madori-1.jpg",
-          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 1階",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
           "sourceUrl": "https://kh-house.jp/hiraya/",
           "ollamaReview": {
             "status": "checked",
@@ -10518,181 +10449,6 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "c94f7894e437153b826a6a9620df5bdfb3b147f6ca41bada306053372ffafa8c",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 113.92,
-      "tsubo": 34.46,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img3.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "c94f7894e437153b826a6a9620df5bdfb3b147f6ca41bada306053372ffafa8c:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori1_img3.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "1d13553b02e64f9ff71bec980b5dd6c70f080649a8165f5849d8c7fde7064378",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 97.51,
-      "tsubo": 29.5,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img3.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "1d13553b02e64f9ff71bec980b5dd6c70f080649a8165f5849d8c7fde7064378:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori5_img3.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "b2dd7b36f5143f933b3bf30706363a6ba7b91b392128d7399201554095f9dd00",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "2LDK",
-      "areaSqm": 84.66,
-      "tsubo": 25.61,
-      "floors": "平屋",
-      "entranceDirection": "東",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img3.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "b2dd7b36f5143f933b3bf30706363a6ba7b91b392128d7399201554095f9dd00:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori2_img3.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "806dc18dd6c88871bec4f8d1f3e6b18d9ff69db0fcb0b396876b8fa268ecc285",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 91.26,
-      "tsubo": 27.61,
-      "floors": "平屋",
-      "entranceDirection": "南",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img3.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "806dc18dd6c88871bec4f8d1f3e6b18d9ff69db0fcb0b396876b8fa268ecc285:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori3_img3.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "7944af40de227f7bc3acb272851e432f02809000e54016df7eed940dae31b1e3",
-      "title": "平屋の間取り紹介！デザインのミサワホーム",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-      "company": "misawa.co.jp",
-      "layout": "3LDK",
-      "areaSqm": 92.34,
-      "tsubo": 27.93,
-      "floors": "平屋",
-      "entranceDirection": "東",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img3.webp"
-      ],
-      "imageCandidates": [
-        {
-          "id": "7944af40de227f7bc3acb272851e432f02809000e54016df7eed940dae31b1e3:image",
-          "kind": "floorplan",
-          "url": "https://www.misawa.co.jp/kodate/guide/hiraya/images/madori/madori4_img3.webp",
-          "alt": "平屋の間取り紹介！デザインのミサワホーム",
-          "sourceUrl": "https://www.misawa.co.jp/kodate/guide/hiraya/madori.html",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.906,
-            "reason": "accepted-floorplans only"
-          }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
       "id": "e8d8c767a897e22f33727be59347a5b369f5efb9bb9d4f80aa5af1ca73fb420c",
       "title": "あたりまえの間取り集500プラン！ミサワホーム",
       "listingSource": "accepted misawa.co.jp",
@@ -11249,7 +11005,7 @@
           "id": "cde17f527008eabee8e7eec38b1021ef965c310bee975810df5f1fe8ee30233f:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/%E9%96%93%E5%8F%96%E3%82%8A-3.jpg",
-          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 3階",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
           "sourceUrl": "https://kh-house.jp/hiraya/",
           "ollamaReview": {
             "status": "checked",
@@ -11282,7 +11038,7 @@
           "id": "b030ddb525780145b643e30f1a1813c9c81818008ade27a6f280b99ed3020dc9:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/%E9%96%93%E5%8F%96%E3%82%8A-2.jpg",
-          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 2階",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
           "sourceUrl": "https://kh-house.jp/hiraya/",
           "ollamaReview": {
             "status": "checked",
@@ -15128,7 +14884,7 @@
       "layout": "4LDK",
       "areaSqm": 113.65,
       "tsubo": 34.38,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15178,7 +14934,7 @@
       "layout": "4LDK",
       "areaSqm": 120.06,
       "tsubo": 36.32,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15263,7 +15019,7 @@
       "layout": "3LDK",
       "areaSqm": 118.82,
       "tsubo": 35.94,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15313,7 +15069,7 @@
       "layout": "3LDK",
       "areaSqm": 133.31,
       "tsubo": 40.33,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -15363,7 +15119,7 @@
       "layout": "3LDK",
       "areaSqm": 114.26,
       "tsubo": 34.56,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -16026,7 +15782,7 @@
       "layout": "3LDK",
       "areaSqm": 99.17,
       "tsubo": 30,
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -16462,7 +16218,7 @@
       "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p16661/",
       "company": "BE ENOUGH",
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -16543,7 +16299,7 @@
       "sourceUrl": "https://be-enough.jp/layout-example/28%e5%9d%aa%ef%bd%9e/p11685/",
       "company": "BE ENOUGH",
       "layout": "2LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -16816,7 +16572,7 @@
       "sourceUrl": "https://be-enough.jp/layout-example/30%e5%9d%aa%ef%bd%9e/p10293/",
       "company": "BE ENOUGH",
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -16864,7 +16620,7 @@
       "sourceUrl": "https://be-enough.jp/layout-example/32%e5%9d%aa%ef%bd%9e/p10069/",
       "company": "BE ENOUGH",
       "layout": "4LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -18815,7 +18571,7 @@
           "id": "dc6519e05c6210a9ae050d19637b3e1369237b27d6826d893f3ed9d584d66f54:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/%E5%B9%B3%E9%9D%A21%E9%9A%8E-1.jpg",
-          "alt": "平屋プラン2 1階",
+          "alt": "平屋プラン2",
           "sourceUrl": "https://kh-house.jp/plan/",
           "ollamaReview": {
             "status": "checked",
@@ -19640,7 +19396,7 @@
           "id": "f406712545df1eef5484dcb5878b8bd0e840c239931f91e64b70ddada66e6b67:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/%E5%B9%B3%E9%9D%A21%E9%9A%8E-3.jpg",
-          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 3階",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
           "sourceUrl": "https://kh-house.jp/hiraya/",
           "ollamaReview": {
             "status": "checked",
@@ -19772,7 +19528,7 @@
           "id": "887c0f44baa4992766d275bf11417140cd6fe881a337f6abd4985359e5b4d14c:image",
           "kind": "floorplan",
           "url": "https://kh-house.jp/wp-content/uploads/2022/03/%E5%B9%B3%E9%9D%A21%E9%9A%8E-2.jpg",
-          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー 2階",
+          "alt": "平屋スタイル｜【公式】国分ハウジング｜鹿児島・宮崎・大分のハウスメーカー",
           "sourceUrl": "https://kh-house.jp/hiraya/",
           "ollamaReview": {
             "status": "checked",
@@ -19794,7 +19550,7 @@
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -19860,7 +19616,7 @@
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -20058,7 +19814,7 @@
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "5LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -20091,7 +19847,7 @@
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -20256,7 +20012,7 @@
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -20289,7 +20045,7 @@
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -20388,7 +20144,7 @@
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -20619,7 +20375,7 @@
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "5LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -22856,7 +22612,7 @@
           "id": "e51f06df680f33424c8034d369ad7d2bb6d348d46b61445309669359a58a86af:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/thinking/step01-1.png",
-          "alt": "理想の間取りの考え方と人気の間取り例｜一条工務店 1階",
+          "alt": "理想の間取りの考え方と人気の間取り例｜一条工務店",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -22872,39 +22628,24 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "group:image:ichijo.co.jp:https://www.ichijo.co.jp/lp/madori/images/thinking/step03.jpg",
-      "title": "理想の間取りの考え方と人気の間取り例",
+      "id": "e9bbe5fde1f5de1596f0b758f95e69e0c4a17f185db49b6adf0d54025d3f9665",
+      "title": "理想の間取りの考え方と人気の間取り例｜一条工務店",
       "listingSource": "accepted ichijo.co.jp",
       "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
       "company": "一条工務店",
       "layout": "",
-      "floors": "2階建",
+      "floors": "",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.ichijo.co.jp/lp/madori/images/thinking/step03-1.jpg",
-        "https://www.ichijo.co.jp/lp/madori/images/thinking/step03-2.jpg"
+        "https://www.ichijo.co.jp/lp/madori/images/thinking/step03-1.jpg"
       ],
       "imageCandidates": [
         {
           "id": "e9bbe5fde1f5de1596f0b758f95e69e0c4a17f185db49b6adf0d54025d3f9665:image",
           "kind": "floorplan",
           "url": "https://www.ichijo.co.jp/lp/madori/images/thinking/step03-1.jpg",
-          "alt": "理想の間取りの考え方と人気の間取り例｜一条工務店 1階",
-          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
-          "ollamaReview": {
-            "status": "checked",
-            "model": "accepted-pipeline",
-            "isFloorplan": true,
-            "confidence": 0.882,
-            "reason": "accepted-floorplans only"
-          }
-        },
-        {
-          "id": "494baec84b6c18ff073e17d76349f7a80830f715d5b54ebdb0057302c2e35e44:image",
-          "kind": "floorplan",
-          "url": "https://www.ichijo.co.jp/lp/madori/images/thinking/step03-2.jpg",
-          "alt": "理想の間取りの考え方と人気の間取り例｜一条工務店 2階",
+          "alt": "理想の間取りの考え方と人気の間取り例｜一条工務店",
           "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
           "ollamaReview": {
             "status": "checked",
@@ -22917,7 +22658,40 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
+      "memo": "accepted-floorplans.jsonl から生成"
+    },
+    {
+      "id": "494baec84b6c18ff073e17d76349f7a80830f715d5b54ebdb0057302c2e35e44",
+      "title": "理想の間取りの考え方と人気の間取り例｜一条工務店",
+      "listingSource": "accepted ichijo.co.jp",
+      "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+      "company": "一条工務店",
+      "layout": "",
+      "floors": "",
+      "entranceDirection": "",
+      "hasFloorplanImage": true,
+      "imageUrlCandidates": [
+        "https://www.ichijo.co.jp/lp/madori/images/thinking/step03-2.jpg"
+      ],
+      "imageCandidates": [
+        {
+          "id": "494baec84b6c18ff073e17d76349f7a80830f715d5b54ebdb0057302c2e35e44:image",
+          "kind": "floorplan",
+          "url": "https://www.ichijo.co.jp/lp/madori/images/thinking/step03-2.jpg",
+          "alt": "理想の間取りの考え方と人気の間取り例｜一条工務店",
+          "sourceUrl": "https://www.ichijo.co.jp/lp/madori/",
+          "ollamaReview": {
+            "status": "checked",
+            "model": "accepted-pipeline",
+            "isFloorplan": true,
+            "confidence": 0.882,
+            "reason": "accepted-floorplans only"
+          }
+        }
+      ],
+      "fetchedAt": "2026-07-06T00:42:32.631Z",
+      "errorInfo": "",
+      "memo": "accepted-floorplans.jsonl から生成"
     },
     {
       "id": "cd63a8a5b3d19252ebf8e03cf0d22152fad71d7e829b84a52840523dfec7aa8f",
@@ -26210,7 +25984,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26243,7 +26017,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26276,7 +26050,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26309,7 +26083,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26342,7 +26116,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26375,7 +26149,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26408,7 +26182,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26441,7 +26215,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26474,7 +26248,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26507,7 +26281,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26540,7 +26314,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26573,7 +26347,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26606,7 +26380,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26639,7 +26413,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26672,7 +26446,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26705,7 +26479,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26738,7 +26512,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26771,7 +26545,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26804,7 +26578,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26837,7 +26611,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26870,7 +26644,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26903,7 +26677,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26936,7 +26710,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -26969,7 +26743,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27002,7 +26776,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27035,7 +26809,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27068,7 +26842,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27101,7 +26875,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27134,7 +26908,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27167,7 +26941,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27200,7 +26974,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27233,7 +27007,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27266,7 +27040,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27299,7 +27073,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27332,7 +27106,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27365,7 +27139,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27398,7 +27172,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27431,7 +27205,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27464,7 +27238,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27497,7 +27271,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27530,7 +27304,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27563,7 +27337,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27596,7 +27370,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27629,7 +27403,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27662,7 +27436,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/index.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27695,7 +27469,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27728,7 +27502,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27761,7 +27535,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27794,7 +27568,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27827,7 +27601,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27860,7 +27634,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27893,7 +27667,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27926,7 +27700,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -27959,7 +27733,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/planhouse/three_sh.html",
       "company": "飯田産業",
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28058,7 +27832,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/barrierfree/index.html",
       "company": "飯田産業",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28091,7 +27865,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/barrierfree/index.html",
       "company": "飯田産業",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28124,7 +27898,7 @@
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/barrierfree/index.html",
       "company": "飯田産業",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28156,7 +27930,7 @@
       "listingSource": "accepted iidasangyo.co.jp",
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/owner/index.html",
       "company": "飯田産業",
-      "layout": "",
+      "layout": "1DK",
       "floors": "",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -28222,7 +27996,7 @@
       "listingSource": "accepted iidasangyo.co.jp",
       "sourceUrl": "https://www.iidasangyo.co.jp/order/plan/owner/index.html",
       "company": "飯田産業",
-      "layout": "",
+      "layout": "1LDK",
       "floors": "",
       "entranceDirection": "",
       "hasFloorplanImage": true,
@@ -28256,7 +28030,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/a411/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28289,7 +28063,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/a411/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28322,7 +28096,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/e410/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28355,7 +28129,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/e410/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28388,7 +28162,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/g508/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28421,7 +28195,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/g508/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28454,7 +28228,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/a401/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28487,7 +28261,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/a401/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28520,7 +28294,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/a404/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28553,7 +28327,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/a404/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28586,7 +28360,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/b502/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28619,7 +28393,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/b502/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28652,7 +28426,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/b502/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28685,7 +28459,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/b603/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28718,7 +28492,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/b603/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28751,7 +28525,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/f505/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28784,7 +28558,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/f505/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28817,7 +28591,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/c607/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28850,7 +28624,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/c607/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -28883,7 +28657,7 @@
       "sourceUrl": "https://www.universalhome.co.jp/concept_plan/nikai/c607/",
       "company": "ユニバーサルホーム",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -30850,7 +30624,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2200,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -32060,7 +31834,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1668,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -33263,7 +33037,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -33378,7 +33152,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -33554,7 +33328,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 3000,
       "layout": "2LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -34160,7 +33934,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_iwate/rn_140031/140031_0005/jitsurei/jc_0009/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -34584,7 +34358,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_iwate/rn_140031/140031_0002/jitsurei/jc_0003/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -35901,7 +35675,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_ishikawa/rn_takanohome/501307_0001/jitsurei/jc_0018/",
       "company": "SUUMO 注文住宅実例",
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -36033,7 +35807,7 @@
       "layout": "",
       "areaSqm": 116.03,
       "tsubo": 35.1,
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -36783,7 +36557,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_aichi/rn_foryourheartsarex/118861_0001/jitsurei/jc_0011/",
       "company": "SUUMO 注文住宅実例",
       "layout": "4LDK",
-      "floors": "平屋",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -37092,7 +36866,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 3000,
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -37601,7 +37375,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -37714,7 +37488,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -37763,7 +37537,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 3000,
       "layout": "4LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -40362,7 +40136,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -41211,7 +40985,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 3000,
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -41616,7 +41390,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_gumma/rn_140702/140702_0001/jitsurei/jc_0005/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -42060,7 +41834,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -42257,7 +42031,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_gumma/rn_cleverlyhome/023028_0000/jitsurei/jc_0072/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -42664,7 +42438,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -42907,7 +42681,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -44258,7 +44032,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2050,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -45879,7 +45653,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 4919,
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -46940,7 +46714,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -47400,7 +47174,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 4000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -47498,7 +47272,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1000,
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -47743,7 +47517,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -47839,7 +47613,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_osaka/rn_reposhouse/152109_0003/jitsurei/jc_0016/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -48200,7 +47974,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 3000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -48463,7 +48237,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 5000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -49616,7 +49390,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2706,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -50854,7 +50628,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_kumamoto/rn_shinsan/108245_0001/jitsurei/jc_0030/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -50902,7 +50676,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_kumamoto/rn_shinsan/108245_0001/jitsurei/jc_0028/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -51031,7 +50805,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_kumamoto/rn_shinsan/108245_0001/jitsurei/jc_0032/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -51079,7 +50853,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_kumamoto/rn_shinsan/108245_0001/jitsurei/jc_0037/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -51225,7 +50999,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2499,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -51274,7 +51048,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -51485,7 +51259,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -52568,7 +52342,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_iwate/rn_140031/140031_0020/jitsurei/jc_0001/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -52843,7 +52617,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 3000,
       "layout": "3LDK",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -53172,7 +52946,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_kanagawa/rn_135508/135508_0015/jitsurei/jc_0012/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -53397,7 +53171,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 4000,
       "layout": "",
-      "floors": "2階建て",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -54100,7 +53874,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -54299,7 +54073,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 3000,
       "layout": "3LDK",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -55129,7 +54903,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -55227,7 +55001,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -56558,7 +56332,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1990,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -56851,7 +56625,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "平屋",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -57160,7 +56934,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1000,
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -57305,7 +57079,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 1000,
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -57388,7 +57162,7 @@
       "company": "SUUMO 注文住宅実例",
       "priceManYen": 2000,
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58416,7 +58190,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58449,7 +58223,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58482,7 +58256,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58515,7 +58289,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58548,7 +58322,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58581,7 +58355,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58614,7 +58388,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58647,7 +58421,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58680,7 +58454,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58713,7 +58487,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58746,7 +58520,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58779,7 +58553,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -58812,7 +58586,7 @@
       "sourceUrl": "https://zerohome.jp/chumon/plan/two-story-house/",
       "company": "zerohome.jp",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "2階建",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -59437,7 +59211,7 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "deafa24ce8b381cb844e68ef6694dd400895e6ffc293a8d1d31e5001af0875d9",
+      "id": "group:sequence:misawa.co.jp:https://www.misawa.co.jp/totikatuyo/workspace/:misawa-work-01-2",
       "title": "2-worklabo 2階建 1階平面図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
@@ -59449,7 +59223,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-01-02@2x.png"
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-01-02@2x.png",
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-01-03@2x.png"
       ],
       "imageCandidates": [
         {
@@ -59465,26 +59240,7 @@
             "confidence": 0.943,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "6365ccd55ae8462b343663433db8c904c5c5fcebcbba781f4a31f8f01fb6f988",
-      "title": "2-worklabo 2階建 2階平面図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-01-03@2x.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "6365ccd55ae8462b343663433db8c904c5c5fcebcbba781f4a31f8f01fb6f988:image",
           "kind": "floorplan",
@@ -59502,10 +59258,10 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "d3dfdb48330355a7ada0d9c906a134aa38373b56d4dbf205c271fea84894a85c",
+      "id": "group:sequence:misawa.co.jp:https://www.misawa.co.jp/totikatuyo/workspace/:misawa-work-01-4",
       "title": "2-worklabo 2階建 1階平面図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
@@ -59517,7 +59273,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-01-04@2x.png"
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-01-04@2x.png",
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-01-05@2x.png"
       ],
       "imageCandidates": [
         {
@@ -59533,28 +59290,7 @@
             "confidence": 0.943,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "b8d27d07f49e85be1ca0d58c5f74a3de72c05047c40fb884f5633f47f838f0a7",
-      "title": "2-worklabo 2階建 2階平面図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "areaSqm": 161.47,
-      "tsubo": 48.84,
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-01-05@2x.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "b8d27d07f49e85be1ca0d58c5f74a3de72c05047c40fb884f5633f47f838f0a7:image",
           "kind": "floorplan",
@@ -59572,10 +59308,10 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "aa0051e54f0abf8fcc32a18a31804b075b5b424e1452cb24a6d54358beeab55a",
+      "id": "group:sequence:misawa.co.jp:https://www.misawa.co.jp/totikatuyo/workspace/:misawa-work-02-2",
       "title": "2-worklabo 2階建 1階平面図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
@@ -59585,7 +59321,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-02-02@2x.png"
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-02-02@2x.png",
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-02-03@2x.png"
       ],
       "imageCandidates": [
         {
@@ -59601,26 +59338,7 @@
             "confidence": 0.943,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "95fc879b2aece8d33997df74ab22efc78c20caba40d696614f587ce85609d7db",
-      "title": "2-worklabo 2階建 2階平面図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "3階建て",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-02-03@2x.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "95fc879b2aece8d33997df74ab22efc78c20caba40d696614f587ce85609d7db:image",
           "kind": "floorplan",
@@ -59638,10 +59356,10 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
-      "id": "c1e7045b8f22f9ec1baba937cb0d4296634fc2c1a3c6dfe91391f0c806e0f7e3",
+      "id": "group:sequence:misawa.co.jp:https://www.misawa.co.jp/totikatuyo/workspace/:misawa-work-03-2",
       "title": "2-worklabo 2階建 1階平面図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
@@ -59653,7 +59371,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-03-02@2x.png"
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-03-02@2x.png",
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-03-03@2x.png"
       ],
       "imageCandidates": [
         {
@@ -59669,26 +59388,7 @@
             "confidence": 0.943,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "15a053f9e6cfc2d9a4d48270c39110f4beecfca5488d1884af3ccbe30eba319d",
-      "title": "2-worklabo 2階建 2階平面図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-03-03@2x.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "15a053f9e6cfc2d9a4d48270c39110f4beecfca5488d1884af3ccbe30eba319d:image",
           "kind": "floorplan",
@@ -59706,7 +59406,7 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "6f1702fda37a674f0a448973f33b392f13a7fb5a03ce6071842a6ef066e47a01",
@@ -59742,7 +59442,7 @@
       "memo": "accepted-floorplans.jsonl から生成"
     },
     {
-      "id": "934ae8e0d51090dd13afcc61a30a1ea8122cd6aa7e26d7a42821443f7f72d248",
+      "id": "group:sequence:misawa.co.jp:https://www.misawa.co.jp/totikatuyo/workspace/:misawa-work-04-2",
       "title": "Come true 2階建 1階平面図",
       "listingSource": "accepted misawa.co.jp",
       "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
@@ -59752,7 +59452,8 @@
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-04-02@2x.png"
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-04-02@2x.png",
+        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-04-03@2x.png"
       ],
       "imageCandidates": [
         {
@@ -59768,26 +59469,7 @@
             "confidence": 0.943,
             "reason": "accepted-floorplans only"
           }
-        }
-      ],
-      "fetchedAt": "2026-07-06T00:42:32.631Z",
-      "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
-    },
-    {
-      "id": "f273a96d636349d04e21b238c063056b99c9eca24629af7703da35714cc7a85a",
-      "title": "Come true 2階建 2階平面図",
-      "listingSource": "accepted misawa.co.jp",
-      "sourceUrl": "https://www.misawa.co.jp/totikatuyo/workspace/",
-      "company": "misawa.co.jp",
-      "layout": "",
-      "floors": "2階建",
-      "entranceDirection": "",
-      "hasFloorplanImage": true,
-      "imageUrlCandidates": [
-        "https://www.misawa.co.jp/totikatuyo/workspace/assets/img/shohin-plan-tab-slide-04-03@2x.png"
-      ],
-      "imageCandidates": [
+        },
         {
           "id": "f273a96d636349d04e21b238c063056b99c9eca24629af7703da35714cc7a85a:image",
           "kind": "floorplan",
@@ -59805,7 +59487,7 @@
       ],
       "fetchedAt": "2026-07-06T00:42:32.631Z",
       "errorInfo": "",
-      "memo": "accepted-floorplans.jsonl から生成"
+      "memo": "accepted-floorplans.jsonl から生成。2枚の階別画像を同じプランにまとめています。"
     },
     {
       "id": "group:detail-page:suumo.jp:https://suumo.jp/chumon/tn_tokyo/rn_kkojima/075131_0001/jitsurei/jc_0009/",
@@ -61474,7 +61156,7 @@
       "sourceUrl": "https://suumo.jp/chumon/tn_ibaraki/rn_kinoshitakoumuten/148169_0000/jitsurei/jc_0058/",
       "company": "SUUMO 注文住宅実例",
       "layout": "",
-      "floors": "2階建て",
+      "floors": "3階建て",
       "entranceDirection": "",
       "hasFloorplanImage": true,
       "imageUrlCandidates": [
@@ -61597,14 +61279,14 @@
   ],
   "logs": [
     {
-      "id": "accepted_public_1783315836339",
-      "createdAt": "2026-07-06T05:30:36.205Z",
+      "id": "accepted_public_1783347106045",
+      "createdAt": "2026-07-06T14:11:45.954Z",
       "siteName": "accepted-floorplans",
       "domain": "-",
       "url": "data/accepted-floorplans.jsonl",
       "action": "候補保存",
       "result": "成功",
-      "message": "Accepted floorplan images: 2299. Public plan groups: 1458."
+      "message": "Accepted floorplan images: 2299. Public plan groups: 1441."
     }
   ]
 }
