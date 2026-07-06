@@ -1491,7 +1491,7 @@ export default function App() {
               }}
             />
           ) : null}
-          {settingsView === "history" ? <DataHistoryView history={floorplanHistory} status={floorplanHistoryStatus} /> : null}
+          {settingsView === "history" ? <DataHistoryView history={floorplanHistory} status={floorplanHistoryStatus} logs={logs} /> : null}
           {settingsView === "logs" ? <LogsView logs={logs} onClearLogs={clearLogs} /> : null}
         </main>
       ) : null}

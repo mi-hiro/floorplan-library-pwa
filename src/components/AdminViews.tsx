@@ -51,6 +51,7 @@ interface LogsViewProps {
 interface DataHistoryViewProps {
   history: FloorplanHistoryPackage | null;
   status: string;
+  logs: CrawlLog[];
 }
 
 function blankSite(): CrawlSite {
@@ -619,7 +620,7 @@ export function CandidatesView({
   );
 }
 
-export function DataHistoryView({ history, status }: DataHistoryViewProps) {
+export function DataHistoryView({ history, status, logs }: DataHistoryViewProps) {
   const months = history?.months ?? [];
   const latestMonth = months.at(-1)?.month ?? "";
   const [selectedMonth, setSelectedMonth] = useState(latestMonth);
@@ -630,6 +631,25 @@ export function DataHistoryView({ history, status }: DataHistoryViewProps) {
   const dailyAverage = currentMonth?.days.length
     ? Math.round((currentMonth.acceptedImageCount / currentMonth.days.length) * 10) / 10
     : 0;
+  const topDomains = topBreakdown(currentMonth?.byDomain ?? {}, 8);
+  const topSourceTypes = topBreakdown(currentMonth?.bySourceType ?? {}, 6);
+  const topDomainShare = currentMonth?.acceptedImageCount && topDomains.length > 0 ? topDomains[0][1] / currentMonth.acceptedImageCount : 0;
+  const failedLogs = useMemo(
+    () =>
+      logs.filter((log) => {
+        const monthKey = monthKeyFromIso(log.createdAt);
+        return (!currentMonth || monthKey === currentMonth.month) && log.result !== "成功" && log.result !== "上限到達";
+      }),
+    [logs, currentMonth]
+  );
+  const failedDomains = useMemo(() => {
+    const counts: Record<string, number> = {};
+    failedLogs.forEach((log) => {
+      const key = log.domain || log.siteName || "unknown";
+      counts[key] = (counts[key] ?? 0) + 1;
+    });
+    return counts;
+  }, [failedLogs]);
 
   useEffect(() => {
     if (!latestMonth) return;
@@ -696,6 +716,53 @@ export function DataHistoryView({ history, status }: DataHistoryViewProps) {
             <HistorySummary label="累積グループ" value={`${formatInteger(currentMonth.cumulativePlanGroupCount)}件`} />
             <HistorySummary label="累積複数画像" value={`${formatInteger(currentMonth.cumulativeMultiImageGroupCount)}件`} />
             <HistorySummary label="全取得元" value={`${formatInteger(history.totals.domainCount)}社・サイト`} />
+          </div>
+
+          <div className="history-insight-grid">
+            <section className="history-insight-card">
+              <div className="history-insight-heading">
+                <h3>取得元の偏り</h3>
+                <span>{topDomains[0] ? `${topDomains[0][0]} ${formatPercent(topDomainShare)}` : "-"}</span>
+              </div>
+              <p className="muted-text">
+                {topDomainShare >= 0.5
+                  ? "最大取得元の比率が高めです。住宅会社・工務店系の追加巡回を優先します。"
+                  : "取得元の偏りは大きすぎない状態です。"}
+              </p>
+              <div className="history-rank-list">
+                {topDomains.map(([label, count]) => (
+                  <HistoryRankBar key={label} label={label} count={count} total={currentMonth.acceptedImageCount} />
+                ))}
+              </div>
+            </section>
+
+            <section className="history-insight-card">
+              <div className="history-insight-heading">
+                <h3>取得種別</h3>
+                <span>{formatInteger(currentMonth.acceptedImageCount)}枚</span>
+              </div>
+              <div className="history-rank-list">
+                {topSourceTypes.map(([label, count]) => (
+                  <HistoryRankBar key={label} label={sourceTypeLabel(label)} count={count} total={currentMonth.acceptedImageCount} />
+                ))}
+              </div>
+            </section>
+
+            <section className="history-insight-card">
+              <div className="history-insight-heading">
+                <h3>巡回失敗</h3>
+                <span>{formatInteger(failedLogs.length)}件</span>
+              </div>
+              {failedLogs.length === 0 ? (
+                <p className="muted-text">この月の失敗ログはありません。</p>
+              ) : (
+                <div className="history-rank-list">
+                  {topBreakdown(failedDomains, 5).map(([label, count]) => (
+                    <HistoryRankBar key={label} label={label} count={count} total={failedLogs.length} />
+                  ))}
+                </div>
+              )}
+            </section>
           </div>
 
           <div className="history-subheading">
@@ -788,6 +855,21 @@ function HistorySummary({ label, value }: { label: string; value: string }) {
   );
 }
 
+function HistoryRankBar({ label, count, total }: { label: string; count: number; total: number }) {
+  const width = total > 0 ? Math.max(3, Math.round((count / total) * 100)) : 0;
+  return (
+    <div className="history-rank-row">
+      <div>
+        <span>{label}</span>
+        <strong>{formatInteger(count)}</strong>
+      </div>
+      <div className="history-rank-bar">
+        <span style={{ width: `${width}%` }} />
+      </div>
+    </div>
+  );
+}
+
 function topBreakdown(values: Record<string, number>, limit: number) {
   return Object.entries(values)
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ja"))
@@ -810,8 +892,34 @@ function formatDateOnly(date: string) {
   return year && month && day ? `${Number(month)}/${Number(day)}` : date;
 }
 
+function monthKeyFromIso(value: string) {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit"
+  }).format(date);
+}
+
 function formatInteger(value: number) {
   return Number.isFinite(value) ? value.toLocaleString("ja-JP") : "0";
+}
+
+function formatPercent(value: number) {
+  return Number.isFinite(value) ? `${Math.round(value * 100)}%` : "0%";
+}
+
+function sourceTypeLabel(value: string) {
+  const labels: Record<string, string> = {
+    portal: "ポータル",
+    sitemap: "サイトマップ",
+    adapter: "個別対応",
+    wordpress_rest: "WordPress",
+    common_crawl: "Common Crawl"
+  };
+  return labels[value] || value;
 }
 
 export function LogsView({ logs, onClearLogs }: LogsViewProps) {

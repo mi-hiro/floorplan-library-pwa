@@ -1719,6 +1719,75 @@ button:disabled {
   font-size: clamp(1.18rem, 2vw, 1.6rem);
 }
 
+.history-insight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.history-insight-card {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.history-insight-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.history-insight-heading span {
+  color: var(--primary-dark);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.history-rank-list {
+  display: grid;
+  gap: 8px;
+}
+
+.history-rank-row {
+  display: grid;
+  gap: 4px;
+}
+
+.history-rank-row > div:first-child {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.history-rank-row span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-rank-bar {
+  height: 9px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #edf4f8;
+}
+
+.history-rank-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--primary);
+}
+
 .history-chart {
   display: grid;
   gap: 8px;
@@ -1984,6 +2053,10 @@ button:disabled {
 
   .history-summary-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .history-insight-grid {
+    grid-template-columns: 1fr;
   }
 
   .history-day-row {

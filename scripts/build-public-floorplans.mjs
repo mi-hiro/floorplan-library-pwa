@@ -71,6 +71,9 @@ function acceptedGroupKey(record) {
   const pageImageKey = pageImageGroupKey(record);
   if (pageImageKey) return `page-image:${record.source?.sourceDomain || ""}:${pageImageKey}`;
 
+  const titleFloorKey = titleFloorGroupKey(record);
+  if (titleFloorKey) return `title-floor:${record.source?.sourceDomain || ""}:${titleFloorKey}`;
+
   const detailPageKey = detailPageFloorGroupKey(record);
   if (detailPageKey) return `detail-page:${record.source?.sourceDomain || ""}:${detailPageKey}`;
 
@@ -84,9 +87,11 @@ function floorSplitImageGroupKey(rawUrl) {
   let grouped = normalized
     .replace(/-\d+x\d+(?=\.(?:jpe?g|png|webp|gif)$)/i, "")
     .replace(/(_heimen)[0-9]+(?=\.(?:jpe?g|png|webp|gif)$)/i, "$1")
+    .replace(/(collection_plan[0-9]+)-[1-3](?=\.(?:jpe?g|png|webp|gif)$)/i, "$1-floor")
+    .replace(/(madori[0-9]+_img)[0-9]+(?=\.(?:jpe?g|png|webp|gif)$)/i, "$1floor")
     .replace(/(plan[0-9]+)-img0[23](?=\.(?:jpe?g|png|webp|gif)$)/i, "$1-img")
     .replace(/(\/case\/[^/]+\/images\/img_plan_)0?[1-3](?:_sp)?(?=\.(?:jpe?g|png|webp|gif)$)/i, "$1floor")
-    .replace(/([_-])(?:[1-3]|[1-3]f|[1-3]F|[１２３]|[１２３]f|[１２３]F|[一二三]階|[1-3]階)(?=\.(?:jpe?g|png|webp|gif)$)/i, "");
+    .replace(/([_-])(?:[1-3]f|[1-3]F|[１２３]f|[１２３]F|[一二三]階|[1-3]階)(?=\.(?:jpe?g|png|webp|gif)$)/i, "");
 
   if (grouped === normalized) return "";
   if (!extensionPattern.test(grouped)) return "";
@@ -116,6 +121,15 @@ function floorSequenceGroupKey(record) {
     return `${pageUrl}:${layout}:${area}:${title || "floorplan"}`;
   }
 
+  const misawaWorkMatch = imageUrl.match(/shohin-plan-tab-slide-([0-9]{2})-([0-9]{2})(?:@2x)?\.(?:png|jpe?g|webp)$/i);
+  if (misawaWorkMatch) {
+    const imageNumber = Number(misawaWorkMatch[2]);
+    if (Number.isFinite(imageNumber) && imageNumber >= 2) {
+      const pairStart = imageNumber % 2 === 0 ? imageNumber : imageNumber - 1;
+      return `${pageUrl}:misawa-work-${misawaWorkMatch[1]}-${pairStart}`;
+    }
+  }
+
   return "";
 }
 
@@ -129,6 +143,16 @@ function pageImageGroupKey(record) {
   if (forumuPlanPage && forumuImage) return `${pageUrl}:${forumuImage[1]}`;
 
   return "";
+}
+
+function titleFloorGroupKey(record) {
+  const pageUrl = normalizeUrl(record.source?.pageUrl || "");
+  const domain = record.source?.sourceDomain || "";
+  if (!pageUrl || floorOrder(record) >= 9) return "";
+  if (!/universalhome\.co\.jp|misawa\.co\.jp|eyefulhome\.jp/i.test(domain)) return "";
+  const baseTitle = normalizePlanTitleBase(record.title || record.context?.alt || record.context?.caption || "");
+  if (isGenericPlanTitle(baseTitle) || baseTitle.length < 6) return "";
+  return `${pageUrl}:${baseTitle}`;
 }
 
 function detailPageFloorGroupKey(record) {
@@ -167,17 +191,17 @@ function floorOrderFromSignal(signal) {
   if (/(?:^|[^0-9０-９])(?:2|２|二)階(?:部分|間取り)|(?:^|[^0-9０-９])(?:2|２|二)F(?:\s|$)/i.test(signal)) return 2;
   if (/(?:^|[^0-9０-９])(?:3|３|三)階(?:部分|間取り)|(?:^|[^0-9０-９])(?:3|３|三)F(?:\s|$)/i.test(signal)) return 3;
   if (/1\.5階|１\.５階/.test(signal)) return 1.5;
-  if (/(?:^|[_-])1f|(?:^|[_-])1F|1階|１階|一階|_heimen1|-[1１](?=\.)/.test(signal)) return 1;
-  if (/(?:^|[_-])2f|(?:^|[_-])2F|2階|２階|二階|_heimen2|-[2２](?=\.)/.test(signal)) return 2;
-  if (/(?:^|[_-])3f|(?:^|[_-])3F|3階|３階|三階|_heimen3|-[3３](?=\.)/.test(signal)) return 3;
+  if (/(?:^|[_-])1f|(?:^|[_-])1F|1階|１階|一階|_heimen1/.test(signal)) return 1;
+  if (/(?:^|[_-])2f|(?:^|[_-])2F|2階|２階|二階|_heimen2/.test(signal)) return 2;
+  if (/(?:^|[_-])3f|(?:^|[_-])3F|3階|３階|三階|_heimen3/.test(signal)) return 3;
   return 9;
 }
 
 function toCrawlCandidate(group) {
   const record = group[0];
   const imageCandidates = addCompanionImages(group.map((item, index) => toImageCandidate(item, index)));
-  const layout = record.metadata?.layout?.value || inferLayoutFromGroup(group);
-  const floors = record.metadata?.floors?.value || inferFloorsFromImages(imageCandidates, group);
+  const layout = bestLayoutForGroup(group);
+  const floors = bestFloorsForGroup(imageCandidates, group);
   return {
     id: group.length > 1 ? `group:${acceptedGroupKey(record)}` : record.id,
     title: displayTitle(group),
@@ -201,6 +225,18 @@ function toCrawlCandidate(group) {
   };
 }
 
+function bestLayoutForGroup(group) {
+  return firstMetadataValue(group, "layout") || inferLayoutFromGroup(group);
+}
+
+function bestFloorsForGroup(images, group) {
+  return inferFloorsFromImages(images, group) || firstMetadataValue(group, "floors");
+}
+
+function firstMetadataValue(group, key) {
+  return group.map((record) => record.metadata?.[key]?.value).find((value) => value) || "";
+}
+
 function inferLayoutFromGroup(group) {
   const text = group
     .map((record) => [
@@ -208,7 +244,9 @@ function inferLayoutFromGroup(group) {
       record.context?.alt,
       record.context?.caption,
       record.context?.nearImageText,
-      record.context?.sourceSnippet
+      record.context?.sourceSnippet,
+      record.source?.pageUrl,
+      record.source?.imageUrl
     ].filter(Boolean).join(" "))
     .join(" ");
   const match = text.match(/[1-7]\s*S?\s*LDK|[1-7]\s*DK/i);
@@ -219,12 +257,12 @@ function inferFloorsFromImages(images, group) {
   const text = group
     .map((record) => `${record.title || ""} ${record.context?.alt || ""} ${record.context?.nearImageText || ""}`)
     .join(" ");
-  if (/平屋/.test(text)) return "平屋";
 
   const orders = new Set(images.map(floorOrderFromImage).filter((value) => value < 9));
   if (orders.has(3)) return "3階建て";
   if (orders.has(1.5)) return "1.5階建て";
   if (orders.has(1) && orders.has(2)) return "2階建";
+  if (/平屋/.test(text)) return "平屋";
   if (/3階|三階|3F/i.test(text)) return "3階建て";
   if (/2階|二階|2F/i.test(text)) return "2階建";
   return "";
@@ -350,8 +388,6 @@ function buildHistory(records, groupedRecords, generatedAt) {
     day.acceptedImageCount += 1;
     incrementBreakdown(day.bySourceType, record.source?.sourceType || "unknown");
     incrementBreakdown(day.byDomain, record.source?.sourceDomain || "unknown");
-    incrementBreakdown(day.byLayout, record.metadata?.layout?.value || "未検出");
-    incrementBreakdown(day.byFloors, record.metadata?.floors?.value || "未検出");
   }
 
   for (const group of groupedRecords) {
@@ -360,6 +396,9 @@ function buildHistory(records, groupedRecords, generatedAt) {
     const day = getHistoryDay(dayMap, date);
     day.planGroupCount += 1;
     if (group.length > 1) day.multiImageGroupCount += 1;
+    const groupImages = group.map((item, index) => toImageCandidate(item, index));
+    incrementBreakdown(day.byLayout, bestLayoutForGroup(group) || "未検出", group.length);
+    incrementBreakdown(day.byFloors, bestFloorsForGroup(groupImages, group) || "未検出", group.length);
   }
 
   const days = [...dayMap.values()].sort((a, b) => a.date.localeCompare(b.date));
@@ -386,6 +425,10 @@ function buildHistory(records, groupedRecords, generatedAt) {
       cumulativeAcceptedImageCount: 0,
       cumulativePlanGroupCount: 0,
       cumulativeMultiImageGroupCount: 0,
+      bySourceType: {},
+      byDomain: {},
+      byLayout: {},
+      byFloors: {},
       days: []
     };
     month.acceptedImageCount += day.acceptedImageCount;
@@ -394,6 +437,10 @@ function buildHistory(records, groupedRecords, generatedAt) {
     month.cumulativeAcceptedImageCount = day.cumulativeAcceptedImageCount;
     month.cumulativePlanGroupCount = day.cumulativePlanGroupCount;
     month.cumulativeMultiImageGroupCount = day.cumulativeMultiImageGroupCount;
+    mergeBreakdown(month.bySourceType, day.bySourceType);
+    mergeBreakdown(month.byDomain, day.byDomain);
+    mergeBreakdown(month.byLayout, day.byLayout);
+    mergeBreakdown(month.byFloors, day.byFloors);
     month.days.push(day);
     monthMap.set(monthKey, month);
   }
@@ -434,9 +481,15 @@ function getHistoryDay(dayMap, date) {
   return day;
 }
 
-function incrementBreakdown(target, key) {
+function incrementBreakdown(target, key, count = 1) {
   const label = normalizeWhitespace(key || "未分類") || "未分類";
-  target[label] = (target[label] ?? 0) + 1;
+  target[label] = (target[label] ?? 0) + count;
+}
+
+function mergeBreakdown(target, source) {
+  for (const [key, count] of Object.entries(source || {})) {
+    incrementBreakdown(target, key, count);
+  }
 }
 
 function earliestHistoryDate(values) {

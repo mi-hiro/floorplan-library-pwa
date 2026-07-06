@@ -151,6 +151,10 @@ export interface FloorplanHistoryMonth {
   cumulativeAcceptedImageCount: number;
   cumulativePlanGroupCount: number;
   cumulativeMultiImageGroupCount: number;
+  bySourceType: Record<string, number>;
+  byDomain: Record<string, number>;
+  byLayout: Record<string, number>;
+  byFloors: Record<string, number>;
   days: FloorplanHistoryDay[];
 }
 
