@@ -363,6 +363,18 @@ function buildHistory(records, groupedRecords, generatedAt) {
   }
 
   const days = [...dayMap.values()].sort((a, b) => a.date.localeCompare(b.date));
+  let cumulativeAcceptedImageCount = 0;
+  let cumulativePlanGroupCount = 0;
+  let cumulativeMultiImageGroupCount = 0;
+  for (const day of days) {
+    cumulativeAcceptedImageCount += day.acceptedImageCount;
+    cumulativePlanGroupCount += day.planGroupCount;
+    cumulativeMultiImageGroupCount += day.multiImageGroupCount;
+    day.cumulativeAcceptedImageCount = cumulativeAcceptedImageCount;
+    day.cumulativePlanGroupCount = cumulativePlanGroupCount;
+    day.cumulativeMultiImageGroupCount = cumulativeMultiImageGroupCount;
+  }
+
   const monthMap = new Map();
   for (const day of days) {
     const monthKey = day.date.slice(0, 7);
@@ -371,11 +383,17 @@ function buildHistory(records, groupedRecords, generatedAt) {
       acceptedImageCount: 0,
       planGroupCount: 0,
       multiImageGroupCount: 0,
+      cumulativeAcceptedImageCount: 0,
+      cumulativePlanGroupCount: 0,
+      cumulativeMultiImageGroupCount: 0,
       days: []
     };
     month.acceptedImageCount += day.acceptedImageCount;
     month.planGroupCount += day.planGroupCount;
     month.multiImageGroupCount += day.multiImageGroupCount;
+    month.cumulativeAcceptedImageCount = day.cumulativeAcceptedImageCount;
+    month.cumulativePlanGroupCount = day.cumulativePlanGroupCount;
+    month.cumulativeMultiImageGroupCount = day.cumulativeMultiImageGroupCount;
     month.days.push(day);
     monthMap.set(monthKey, month);
   }
@@ -404,6 +422,9 @@ function getHistoryDay(dayMap, date) {
     acceptedImageCount: 0,
     planGroupCount: 0,
     multiImageGroupCount: 0,
+    cumulativeAcceptedImageCount: 0,
+    cumulativePlanGroupCount: 0,
+    cumulativeMultiImageGroupCount: 0,
     bySourceType: {},
     byDomain: {},
     byLayout: {},

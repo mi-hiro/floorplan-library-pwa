@@ -626,6 +626,7 @@ export function DataHistoryView({ history, status }: DataHistoryViewProps) {
   const monthOptions = useMemo(() => [...months].sort((a, b) => b.month.localeCompare(a.month)), [months]);
   const currentMonth = months.find((month) => month.month === selectedMonth) ?? months.at(-1);
   const maxDailyCount = Math.max(1, ...(currentMonth?.days.map((day) => day.acceptedImageCount) ?? [1]));
+  const maxCumulativeCount = Math.max(1, ...(currentMonth?.days.map((day) => day.cumulativeAcceptedImageCount) ?? [1]));
   const dailyAverage = currentMonth?.days.length
     ? Math.round((currentMonth.acceptedImageCount / currentMonth.days.length) * 10) / 10
     : 0;
@@ -690,6 +691,17 @@ export function DataHistoryView({ history, status }: DataHistoryViewProps) {
             <HistorySummary label="日平均" value={`${formatInteger(dailyAverage)}枚`} />
           </div>
 
+          <div className="history-summary-grid cumulative">
+            <HistorySummary label="累積採用画像" value={`${formatInteger(currentMonth.cumulativeAcceptedImageCount)}枚`} />
+            <HistorySummary label="累積グループ" value={`${formatInteger(currentMonth.cumulativePlanGroupCount)}件`} />
+            <HistorySummary label="累積複数画像" value={`${formatInteger(currentMonth.cumulativeMultiImageGroupCount)}件`} />
+            <HistorySummary label="全取得元" value={`${formatInteger(history.totals.domainCount)}社・サイト`} />
+          </div>
+
+          <div className="history-subheading">
+            <h3>日別の増加</h3>
+            <span>{formatMonthLabel(currentMonth.month)}に増えた数</span>
+          </div>
           <div className="history-chart" aria-label={`${formatMonthLabel(currentMonth.month)}の日別取得数`}>
             {currentMonth.days.map((day) => {
               const width = Math.max(4, Math.round((day.acceptedImageCount / maxDailyCount) * 100));
@@ -714,10 +726,36 @@ export function DataHistoryView({ history, status }: DataHistoryViewProps) {
             })}
           </div>
 
+          <div className="history-subheading">
+            <h3>累積推移</h3>
+            <span>その日終了時点の合計</span>
+          </div>
+          <div className="history-chart is-cumulative" aria-label={`${formatMonthLabel(currentMonth.month)}の累積取得数`}>
+            {currentMonth.days.map((day) => {
+              const width = Math.max(4, Math.round((day.cumulativeAcceptedImageCount / maxCumulativeCount) * 100));
+              return (
+                <article className="history-day-row" key={`cumulative-${day.date}`}>
+                  <div className="history-day-date">
+                    <strong>{formatDateOnly(day.date)}</strong>
+                    <span>累積 {formatInteger(day.cumulativeAcceptedImageCount)}枚</span>
+                  </div>
+                  <div className="history-bar">
+                    <span style={{ width: `${width}%` }} />
+                  </div>
+                  <div className="history-day-breakdown">
+                    <span>物件累積 {formatInteger(day.cumulativePlanGroupCount)}件</span>
+                    <span>複数累積 {formatInteger(day.cumulativeMultiImageGroupCount)}件</span>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
           <div className="history-table">
             <div className="history-table-row history-table-head">
               <span>日付</span>
               <span>変化数</span>
+              <span>累積</span>
               <span>グループ</span>
               <span>取得元</span>
               <span>間取り</span>
@@ -727,6 +765,7 @@ export function DataHistoryView({ history, status }: DataHistoryViewProps) {
               <div className="history-table-row" key={`table-${day.date}`}>
                 <span>{formatDateOnly(day.date)}</span>
                 <span>+{formatInteger(day.acceptedImageCount)}枚</span>
+                <span>{formatInteger(day.cumulativeAcceptedImageCount)}枚</span>
                 <span>{formatInteger(day.planGroupCount)}件</span>
                 <span>{formatBreakdown(day.byDomain)}</span>
                 <span>{formatBreakdown(day.byLayout)}</span>

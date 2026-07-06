@@ -134,6 +134,9 @@ export interface FloorplanHistoryDay {
   acceptedImageCount: number;
   planGroupCount: number;
   multiImageGroupCount: number;
+  cumulativeAcceptedImageCount: number;
+  cumulativePlanGroupCount: number;
+  cumulativeMultiImageGroupCount: number;
   bySourceType: Record<string, number>;
   byDomain: Record<string, number>;
   byLayout: Record<string, number>;
@@ -145,6 +148,9 @@ export interface FloorplanHistoryMonth {
   acceptedImageCount: number;
   planGroupCount: number;
   multiImageGroupCount: number;
+  cumulativeAcceptedImageCount: number;
+  cumulativePlanGroupCount: number;
+  cumulativeMultiImageGroupCount: number;
   days: FloorplanHistoryDay[];
 }
 
