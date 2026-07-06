@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-06T05:20:55.654Z",
+  "generatedAt": "2026-07-06T05:30:36.205Z",
   "source": "accepted-floorplans",
   "totals": {
     "acceptedImageCount": 2299,
@@ -16,12 +16,18 @@
       "acceptedImageCount": 758,
       "planGroupCount": 547,
       "multiImageGroupCount": 209,
+      "cumulativeAcceptedImageCount": 758,
+      "cumulativePlanGroupCount": 547,
+      "cumulativeMultiImageGroupCount": 209,
       "days": [
         {
           "date": "2026-06-26",
           "acceptedImageCount": 118,
           "planGroupCount": 104,
           "multiImageGroupCount": 15,
+          "cumulativeAcceptedImageCount": 118,
+          "cumulativePlanGroupCount": 104,
+          "cumulativeMultiImageGroupCount": 15,
           "bySourceType": {
             "adapter": 65,
             "sitemap": 52,
@@ -56,6 +62,9 @@
           "acceptedImageCount": 437,
           "planGroupCount": 300,
           "multiImageGroupCount": 134,
+          "cumulativeAcceptedImageCount": 555,
+          "cumulativePlanGroupCount": 404,
+          "cumulativeMultiImageGroupCount": 149,
           "bySourceType": {
             "adapter": 69,
             "sitemap": 368
@@ -91,6 +100,9 @@
           "acceptedImageCount": 88,
           "planGroupCount": 84,
           "multiImageGroupCount": 4,
+          "cumulativeAcceptedImageCount": 643,
+          "cumulativePlanGroupCount": 488,
+          "cumulativeMultiImageGroupCount": 153,
           "bySourceType": {
             "sitemap": 41,
             "adapter": 24,
@@ -122,6 +134,9 @@
           "acceptedImageCount": 115,
           "planGroupCount": 59,
           "multiImageGroupCount": 56,
+          "cumulativeAcceptedImageCount": 758,
+          "cumulativePlanGroupCount": 547,
+          "cumulativeMultiImageGroupCount": 209,
           "bySourceType": {
             "adapter": 115
           },
@@ -148,12 +163,18 @@
       "acceptedImageCount": 1541,
       "planGroupCount": 911,
       "multiImageGroupCount": 511,
+      "cumulativeAcceptedImageCount": 2299,
+      "cumulativePlanGroupCount": 1458,
+      "cumulativeMultiImageGroupCount": 720,
       "days": [
         {
           "date": "2026-07-01",
           "acceptedImageCount": 1195,
           "planGroupCount": 721,
           "multiImageGroupCount": 392,
+          "cumulativeAcceptedImageCount": 1953,
+          "cumulativePlanGroupCount": 1268,
+          "cumulativeMultiImageGroupCount": 601,
           "bySourceType": {
             "adapter": 272,
             "sitemap": 6,
@@ -194,6 +215,9 @@
           "acceptedImageCount": 256,
           "planGroupCount": 144,
           "multiImageGroupCount": 90,
+          "cumulativeAcceptedImageCount": 2209,
+          "cumulativePlanGroupCount": 1412,
+          "cumulativeMultiImageGroupCount": 691,
           "bySourceType": {
             "portal": 221,
             "sitemap": 35
@@ -219,6 +243,9 @@
           "acceptedImageCount": 13,
           "planGroupCount": 13,
           "multiImageGroupCount": 0,
+          "cumulativeAcceptedImageCount": 2222,
+          "cumulativePlanGroupCount": 1425,
+          "cumulativeMultiImageGroupCount": 691,
           "bySourceType": {
             "sitemap": 13
           },
@@ -238,6 +265,9 @@
           "acceptedImageCount": 56,
           "planGroupCount": 23,
           "multiImageGroupCount": 21,
+          "cumulativeAcceptedImageCount": 2278,
+          "cumulativePlanGroupCount": 1448,
+          "cumulativeMultiImageGroupCount": 712,
           "bySourceType": {
             "portal": 56
           },
@@ -256,6 +286,9 @@
           "acceptedImageCount": 21,
           "planGroupCount": 10,
           "multiImageGroupCount": 8,
+          "cumulativeAcceptedImageCount": 2299,
+          "cumulativePlanGroupCount": 1458,
+          "cumulativeMultiImageGroupCount": 720,
           "bySourceType": {
             "portal": 21
           },
