@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-06T05:20:55.654Z",
+  "source": "accepted-floorplans",
+  "totals": {
+    "acceptedImageCount": 2299,
+    "planGroupCount": 1458,
+    "multiImageGroupCount": 720,
+    "domainCount": 26,
+    "firstDate": "2026-06-26",
+    "lastDate": "2026-07-06"
+  },
+  "months": [
+    {
+      "month": "2026-06",
+      "acceptedImageCount": 758,
+      "planGroupCount": 547,
+      "multiImageGroupCount": 209,
+      "days": [
+        {
+          "date": "2026-06-26",
+          "acceptedImageCount": 118,
+          "planGroupCount": 104,
+          "multiImageGroupCount": 15,
+          "bySourceType": {
+            "adapter": 65,
+            "sitemap": 52,
+            "wordpress_rest": 1
+          },
+          "byDomain": {
+            "ichijo.co.jp": 22,
+            "suumo.jp": 1,
+            "zerohome.jp": 40,
+            "creatorhome.co.jp": 1,
+            "eyefulhome.jp": 4,
+            "kh-house.jp": 38,
+            "aerahome.com": 3,
+            "tanaken.co.jp": 1,
+            "sekisuiheim.com": 7,
+            "searshome.co.jp": 1
+          },
+          "byLayout": {
+            "3LDK": 22,
+            "未検出": 61,
+            "2LDK": 35
+          },
+          "byFloors": {
+            "平屋": 96,
+            "2階建て": 14,
+            "未検出": 5,
+            "3階建て": 3
+          }
+        },
+        {
+          "date": "2026-06-27",
+          "acceptedImageCount": 437,
+          "planGroupCount": 300,
+          "multiImageGroupCount": 134,
+          "bySourceType": {
+            "adapter": 69,
+            "sitemap": 368
+          },
+          "byDomain": {
+            "forumu.co.jp": 92,
+            "sfc.jp": 24,
+            "yuyuhome.co.jp": 10,
+            "genmai-home.com": 1,
+            "aidagroup.co.jp": 4,
+            "megasoft.co.jp": 9,
+            "eyefulhome.jp": 2,
+            "toyotahome.co.jp": 261,
+            "sekisuiheim.com": 14,
+            "irohaie.com": 8,
+            "cleverlyhome.com": 12
+          },
+          "byLayout": {
+            "3LDK": 69,
+            "4LDK": 47,
+            "未検出": 310,
+            "2LDK": 5,
+            "5LDK": 6
+          },
+          "byFloors": {
+            "未検出": 349,
+            "平屋": 62,
+            "2階建て": 26
+          }
+        },
+        {
+          "date": "2026-06-28",
+          "acceptedImageCount": 88,
+          "planGroupCount": 84,
+          "multiImageGroupCount": 4,
+          "bySourceType": {
+            "sitemap": 41,
+            "adapter": 24,
+            "common_crawl": 23
+          },
+          "byDomain": {
+            "searshome.co.jp": 12,
+            "misawa.co.jp": 34,
+            "aerahome.com": 5,
+            "megasoft.co.jp": 23,
+            "with-e-home.com": 5,
+            "hiyoriblog.com": 1,
+            "kh-house.jp": 8
+          },
+          "byLayout": {
+            "未検出": 45,
+            "4LDK": 24,
+            "3LDK": 17,
+            "2LDK": 2
+          },
+          "byFloors": {
+            "平屋": 39,
+            "2階建て": 2,
+            "未検出": 47
+          }
+        },
+        {
+          "date": "2026-06-30",
+          "acceptedImageCount": 115,
+          "planGroupCount": 59,
+          "multiImageGroupCount": 56,
+          "bySourceType": {
+            "adapter": 115
+          },
+          "byDomain": {
+            "be-enough.jp": 115
+          },
+          "byLayout": {
+            "未検出": 103,
+            "3LDK": 2,
+            "2LDK": 2,
+            "4LDK": 4,
+            "5LDK": 4
+          },
+          "byFloors": {
+            "平屋": 11,
+            "2階建て": 2,
+            "未検出": 102
+          }
+        }
+      ]
+    },
+    {
+      "month": "2026-07",
+      "acceptedImageCount": 1541,
+      "planGroupCount": 911,
+      "multiImageGroupCount": 511,
+      "days": [
+        {
+          "date": "2026-07-01",
+          "acceptedImageCount": 1195,
+          "planGroupCount": 721,
+          "multiImageGroupCount": 392,
+          "bySourceType": {
+            "adapter": 272,
+            "sitemap": 6,
+            "portal": 917
+          },
+          "byDomain": {
+            "ichijo.co.jp": 116,
+            "zerohome.jp": 6,
+            "kh-house.jp": 2,
+            "forumu.co.jp": 36,
+            "hirayakoubou.net": 11,
+            "iidasangyo.co.jp": 70,
+            "universalhome.co.jp": 35,
+            "suumo.jp": 917,
+            "be-enough.jp": 2
+          },
+          "byLayout": {
+            "3LDK": 66,
+            "未検出": 995,
+            "4LDK": 103,
+            "2LDK": 16,
+            "5LDK": 8,
+            "2DK": 2,
+            "1DK": 1,
+            "1K": 1,
+            "1LDK": 1,
+            "6LDK": 2
+          },
+          "byFloors": {
+            "2階建て": 108,
+            "平屋": 176,
+            "3階建て": 35,
+            "未検出": 876
+          }
+        },
+        {
+          "date": "2026-07-02",
+          "acceptedImageCount": 256,
+          "planGroupCount": 144,
+          "multiImageGroupCount": 90,
+          "bySourceType": {
+            "portal": 221,
+            "sitemap": 35
+          },
+          "byDomain": {
+            "suumo.jp": 221,
+            "eyefulhome.jp": 5,
+            "zerohome.jp": 30
+          },
+          "byLayout": {
+            "未検出": 245,
+            "3LDK": 11
+          },
+          "byFloors": {
+            "平屋": 33,
+            "未検出": 187,
+            "2階建て": 28,
+            "3階建て": 8
+          }
+        },
+        {
+          "date": "2026-07-03",
+          "acceptedImageCount": 13,
+          "planGroupCount": 13,
+          "multiImageGroupCount": 0,
+          "bySourceType": {
+            "sitemap": 13
+          },
+          "byDomain": {
+            "zerohome.jp": 2,
+            "misawa.co.jp": 11
+          },
+          "byLayout": {
+            "未検出": 13
+          },
+          "byFloors": {
+            "未検出": 13
+          }
+        },
+        {
+          "date": "2026-07-05",
+          "acceptedImageCount": 56,
+          "planGroupCount": 23,
+          "multiImageGroupCount": 21,
+          "bySourceType": {
+            "portal": 56
+          },
+          "byDomain": {
+            "suumo.jp": 56
+          },
+          "byLayout": {
+            "未検出": 56
+          },
+          "byFloors": {
+            "未検出": 56
+          }
+        },
+        {
+          "date": "2026-07-06",
+          "acceptedImageCount": 21,
+          "planGroupCount": 10,
+          "multiImageGroupCount": 8,
+          "bySourceType": {
+            "portal": 21
+          },
+          "byDomain": {
+            "suumo.jp": 21
+          },
+          "byLayout": {
+            "未検出": 21
+          },
+          "byFloors": {
+            "平屋": 2,
+            "未検出": 13,
+            "3階建て": 3,
+            "2階建て": 3
+          }
+        }
+      ]
+    }
+  ]
+}
