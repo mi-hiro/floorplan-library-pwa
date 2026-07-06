@@ -4,6 +4,7 @@ import path from "node:path";
 import { readJsonl } from "./lib/jsonl-store.mjs";
 
 const args = parseArgs(process.argv.slice(2));
+const COLLECTION_HISTORY_START_DATE = "2026-06-26";
 
 main().catch((error) => {
   console.error(error instanceof Error ? error.message : error);
@@ -14,6 +15,7 @@ async function main() {
   const input = args.input ?? "data/accepted-floorplans.jsonl";
   const out = args.out ?? "public/data/floorplans.json";
   const statsOut = args.statsOut ?? "public/data/floorplan-stats.json";
+  const historyOut = args.historyOut ?? "public/data/floorplan-history.json";
   const accepted = (await readJsonl(input)).filter((record) => record.status === "accepted");
   const now = new Date().toISOString();
   const groupedAccepted = groupAcceptedRecords(accepted);
@@ -37,10 +39,13 @@ async function main() {
     ]
   };
   const stats = buildStats(accepted, candidates, now);
+  const history = buildHistory(accepted, groupedAccepted, now);
   await mkdir(path.dirname(out), { recursive: true });
   await mkdir(path.dirname(statsOut), { recursive: true });
+  await mkdir(path.dirname(historyOut), { recursive: true });
   await writeFile(out, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
   await writeFile(statsOut, `${JSON.stringify(stats, null, 2)}\n`, "utf8");
+  await writeFile(historyOut, `${JSON.stringify(history, null, 2)}\n`, "utf8");
   console.log(`Built public floorplans: ${accepted.length} images -> ${candidates.length} groups -> ${out}`);
 }
 
@@ -333,6 +338,107 @@ function buildStats(records, candidates, generatedAt) {
     multiImageCandidateCount: candidates.filter((candidate) => (candidate.imageCandidates || []).length > 1).length,
     domains: byDomain
   };
+}
+
+function buildHistory(records, groupedRecords, generatedAt) {
+  const dayMap = new Map();
+
+  for (const record of records) {
+    const date = historyDateKey(record.firstSeenAt || record.lastSeenAt);
+    if (!date) continue;
+    const day = getHistoryDay(dayMap, date);
+    day.acceptedImageCount += 1;
+    incrementBreakdown(day.bySourceType, record.source?.sourceType || "unknown");
+    incrementBreakdown(day.byDomain, record.source?.sourceDomain || "unknown");
+    incrementBreakdown(day.byLayout, record.metadata?.layout?.value || "未検出");
+    incrementBreakdown(day.byFloors, record.metadata?.floors?.value || "未検出");
+  }
+
+  for (const group of groupedRecords) {
+    const date = earliestHistoryDate(group.map((record) => record.firstSeenAt || record.lastSeenAt));
+    if (!date) continue;
+    const day = getHistoryDay(dayMap, date);
+    day.planGroupCount += 1;
+    if (group.length > 1) day.multiImageGroupCount += 1;
+  }
+
+  const days = [...dayMap.values()].sort((a, b) => a.date.localeCompare(b.date));
+  const monthMap = new Map();
+  for (const day of days) {
+    const monthKey = day.date.slice(0, 7);
+    const month = monthMap.get(monthKey) ?? {
+      month: monthKey,
+      acceptedImageCount: 0,
+      planGroupCount: 0,
+      multiImageGroupCount: 0,
+      days: []
+    };
+    month.acceptedImageCount += day.acceptedImageCount;
+    month.planGroupCount += day.planGroupCount;
+    month.multiImageGroupCount += day.multiImageGroupCount;
+    month.days.push(day);
+    monthMap.set(monthKey, month);
+  }
+
+  return {
+    version: 1,
+    generatedAt,
+    source: "accepted-floorplans",
+    totals: {
+      acceptedImageCount: records.length,
+      planGroupCount: groupedRecords.length,
+      multiImageGroupCount: groupedRecords.filter((group) => group.length > 1).length,
+      domainCount: new Set(records.map((record) => record.source?.sourceDomain).filter(Boolean)).size,
+      firstDate: days[0]?.date || "",
+      lastDate: days.at(-1)?.date || ""
+    },
+    months: [...monthMap.values()].sort((a, b) => a.month.localeCompare(b.month))
+  };
+}
+
+function getHistoryDay(dayMap, date) {
+  const existing = dayMap.get(date);
+  if (existing) return existing;
+  const day = {
+    date,
+    acceptedImageCount: 0,
+    planGroupCount: 0,
+    multiImageGroupCount: 0,
+    bySourceType: {},
+    byDomain: {},
+    byLayout: {},
+    byFloors: {}
+  };
+  dayMap.set(date, day);
+  return day;
+}
+
+function incrementBreakdown(target, key) {
+  const label = normalizeWhitespace(key || "未分類") || "未分類";
+  target[label] = (target[label] ?? 0) + 1;
+}
+
+function earliestHistoryDate(values) {
+  const dates = values.map(historyDateKey).filter(Boolean).sort();
+  return dates[0] || "";
+}
+
+function historyDateKey(value) {
+  const date = dateKeyInJst(value);
+  if (!date) return "";
+  return date < COLLECTION_HISTORY_START_DATE ? COLLECTION_HISTORY_START_DATE : date;
+}
+
+function dateKeyInJst(value) {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(date);
 }
 
 function normalizeUrl(value) {

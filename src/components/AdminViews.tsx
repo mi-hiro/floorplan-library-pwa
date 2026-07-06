@@ -1,7 +1,8 @@
-import { AlertTriangle, Check, ClipboardList, Plus, Save, Trash2, Upload } from "lucide-react";
-import { useMemo, useState } from "react";
+import { AlertTriangle, BarChart3, Check, ClipboardList, Plus, Save, Trash2, Upload } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
 import type {
   CrawlCandidate,
+  FloorplanHistoryPackage,
   CrawlResultPackage,
   CrawlLog,
   CrawlMode,
@@ -45,6 +46,11 @@ interface CandidatesViewProps {
 interface LogsViewProps {
   logs: CrawlLog[];
   onClearLogs: () => void;
+}
+
+interface DataHistoryViewProps {
+  history: FloorplanHistoryPackage | null;
+  status: string;
 }
 
 function blankSite(): CrawlSite {
@@ -611,6 +617,162 @@ export function CandidatesView({
       </div>
     </section>
   );
+}
+
+export function DataHistoryView({ history, status }: DataHistoryViewProps) {
+  const months = history?.months ?? [];
+  const latestMonth = months.at(-1)?.month ?? "";
+  const [selectedMonth, setSelectedMonth] = useState(latestMonth);
+  const monthOptions = useMemo(() => [...months].sort((a, b) => b.month.localeCompare(a.month)), [months]);
+  const currentMonth = months.find((month) => month.month === selectedMonth) ?? months.at(-1);
+  const maxDailyCount = Math.max(1, ...(currentMonth?.days.map((day) => day.acceptedImageCount) ?? [1]));
+  const dailyAverage = currentMonth?.days.length
+    ? Math.round((currentMonth.acceptedImageCount / currentMonth.days.length) * 10) / 10
+    : 0;
+
+  useEffect(() => {
+    if (!latestMonth) return;
+    if (!selectedMonth || !months.some((month) => month.month === selectedMonth)) {
+      setSelectedMonth(latestMonth);
+    }
+  }, [latestMonth, months, selectedMonth]);
+
+  if (!history || months.length === 0) {
+    return (
+      <section className="admin-view history-view">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">取得履歴</p>
+            <h2>データ取得状況</h2>
+            <p className="muted-text">{status}</p>
+          </div>
+        </div>
+        <div className="empty-list">取得履歴データはまだ生成されていません。</div>
+      </section>
+    );
+  }
+
+  return (
+    <section className="admin-view history-view">
+      <div className="section-heading">
+        <div>
+          <p className="eyebrow">取得履歴</p>
+          <h2>データ取得状況</h2>
+          <p className="muted-text">最終生成：{formatDate(history.generatedAt)} / {status}</p>
+        </div>
+      </div>
+
+      <div className="history-toolbar">
+        <label className="field">
+          <span>表示月</span>
+          <select value={currentMonth?.month ?? ""} onChange={(event) => setSelectedMonth(event.target.value)}>
+            {monthOptions.map((month) => (
+              <option key={month.month} value={month.month}>
+                {formatMonthLabel(month.month)}
+              </option>
+            ))}
+          </select>
+        </label>
+        <div className="history-range">
+          <BarChart3 size={18} />
+          <span>
+            全期間 {formatDateOnly(history.totals.firstDate)} - {formatDateOnly(history.totals.lastDate)}
+          </span>
+        </div>
+      </div>
+
+      {currentMonth ? (
+        <>
+          <div className="history-summary-grid">
+            <HistorySummary label="採用画像" value={`${formatInteger(currentMonth.acceptedImageCount)}枚`} />
+            <HistorySummary label="物件グループ" value={`${formatInteger(currentMonth.planGroupCount)}件`} />
+            <HistorySummary label="複数画像" value={`${formatInteger(currentMonth.multiImageGroupCount)}件`} />
+            <HistorySummary label="日平均" value={`${formatInteger(dailyAverage)}枚`} />
+          </div>
+
+          <div className="history-chart" aria-label={`${formatMonthLabel(currentMonth.month)}の日別取得数`}>
+            {currentMonth.days.map((day) => {
+              const width = Math.max(4, Math.round((day.acceptedImageCount / maxDailyCount) * 100));
+              return (
+                <article className="history-day-row" key={day.date}>
+                  <div className="history-day-date">
+                    <strong>{formatDateOnly(day.date)}</strong>
+                    <span>+{formatInteger(day.acceptedImageCount)}枚</span>
+                  </div>
+                  <div className="history-bar">
+                    <span style={{ width: `${width}%` }} />
+                  </div>
+                  <div className="history-day-breakdown">
+                    <span>物件 {formatInteger(day.planGroupCount)}件</span>
+                    <span>複数 {formatInteger(day.multiImageGroupCount)}件</span>
+                    {topBreakdown(day.byDomain, 2).map(([label, count]) => (
+                      <span key={label}>{label} {count}</span>
+                    ))}
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          <div className="history-table">
+            <div className="history-table-row history-table-head">
+              <span>日付</span>
+              <span>変化数</span>
+              <span>グループ</span>
+              <span>取得元</span>
+              <span>間取り</span>
+              <span>階数</span>
+            </div>
+            {[...currentMonth.days].reverse().map((day) => (
+              <div className="history-table-row" key={`table-${day.date}`}>
+                <span>{formatDateOnly(day.date)}</span>
+                <span>+{formatInteger(day.acceptedImageCount)}枚</span>
+                <span>{formatInteger(day.planGroupCount)}件</span>
+                <span>{formatBreakdown(day.byDomain)}</span>
+                <span>{formatBreakdown(day.byLayout)}</span>
+                <span>{formatBreakdown(day.byFloors)}</span>
+              </div>
+            ))}
+          </div>
+        </>
+      ) : null}
+    </section>
+  );
+}
+
+function HistorySummary({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="history-summary-card">
+      <span>{label}</span>
+      <strong>{value}</strong>
+    </div>
+  );
+}
+
+function topBreakdown(values: Record<string, number>, limit: number) {
+  return Object.entries(values)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ja"))
+    .slice(0, limit);
+}
+
+function formatBreakdown(values: Record<string, number>) {
+  const entries = topBreakdown(values, 3);
+  return entries.length ? entries.map(([label, count]) => `${label} ${count}`).join(" / ") : "-";
+}
+
+function formatMonthLabel(month: string) {
+  const [year, monthNumber] = month.split("-");
+  return `${year}年${Number(monthNumber)}月`;
+}
+
+function formatDateOnly(date: string) {
+  if (!date) return "-";
+  const [year, month, day] = date.split("-");
+  return year && month && day ? `${Number(month)}/${Number(day)}` : date;
+}
+
+function formatInteger(value: number) {
+  return Number.isFinite(value) ? value.toLocaleString("ja-JP") : "0";
 }
 
 export function LogsView({ logs, onClearLogs }: LogsViewProps) {

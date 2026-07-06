@@ -1,4 +1,5 @@
 import {
+  BarChart3,
   ClipboardList,
   Database,
   FileDown,
@@ -13,7 +14,7 @@ import {
   SlidersHorizontal
 } from "lucide-react";
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
-import { CandidatesView, CrawlSettingsView, LogsView, SitesView } from "./components/AdminViews";
+import { CandidatesView, CrawlSettingsView, DataHistoryView, LogsView, SitesView } from "./components/AdminViews";
 import { CompareView } from "./components/CompareView";
 import { defaultFilters, FilterPanel } from "./components/FilterPanel";
 import { PropertyCard } from "./components/PropertyCard";
@@ -26,6 +27,7 @@ import type {
   CrawlResultPackage,
   CrawlSite,
   FilterState,
+  FloorplanHistoryPackage,
   FloorPlanProperty,
   PropertyImage,
   ViewKey
@@ -47,7 +49,7 @@ const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
   { key: "settings", label: "設定", icon: Settings }
 ];
 
-type SettingsTabKey = "sites" | "crawlSettings" | "candidates" | "logs";
+type SettingsTabKey = "sites" | "crawlSettings" | "history" | "candidates" | "logs";
 type SortKey = "newest" | "oldest" | "source" | "layout";
 type PageSize = 20 | 40 | 60 | 80 | 100;
 type FloorplanDisplayMode = "cards" | "compact";
@@ -55,11 +57,13 @@ type FloorplanDisplayMode = "cards" | "compact";
 const settingsTabs: { key: SettingsTabKey; label: string; icon: React.ElementType }[] = [
   { key: "sites", label: "サイト管理", icon: ShieldCheck },
   { key: "crawlSettings", label: "巡回設定", icon: SlidersHorizontal },
+  { key: "history", label: "取得履歴", icon: BarChart3 },
   { key: "candidates", label: "取得候補", icon: ClipboardList },
   { key: "logs", label: "巡回ログ", icon: Database }
 ];
 
 const AUTO_CRAWL_FEED_URL = `${import.meta.env.BASE_URL}data/floorplans.json`;
+const FLOORPLAN_HISTORY_FEED_URL = `${import.meta.env.BASE_URL}data/floorplan-history.json`;
 const LAST_AUTO_CRAWL_KEY = "floorplan-library:last-auto-crawl-generated-at:v3";
 const LAST_AUTO_CRAWL_COUNT_KEY = "floorplan-library:last-auto-crawl-count:v1";
 
@@ -587,6 +591,8 @@ export default function App() {
   const [isCreating, setIsCreating] = useState(false);
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [autoSyncStatus, setAutoSyncStatus] = useState("巡回データ確認待ち");
+  const [floorplanHistory, setFloorplanHistory] = useState<FloorplanHistoryPackage | null>(null);
+  const [floorplanHistoryStatus, setFloorplanHistoryStatus] = useState("取得履歴確認待ち");
   const [loading, setLoading] = useState(true);
 
   function setView(nextView: ViewKey) {
@@ -960,10 +966,33 @@ export default function App() {
     }
   }
 
+  async function syncFloorplanHistory() {
+    try {
+      const response = await fetch(`${FLOORPLAN_HISTORY_FEED_URL}?ts=${Date.now()}`, {
+        cache: "no-store"
+      });
+      if (response.status === 404) {
+        setFloorplanHistoryStatus("履歴データ未公開");
+        return;
+      }
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const history = (await response.json()) as FloorplanHistoryPackage;
+      setFloorplanHistory(history);
+      setFloorplanHistoryStatus(`採用 ${history.totals.acceptedImageCount.toLocaleString("ja-JP")}枚`);
+    } catch {
+      setFloorplanHistoryStatus("取得履歴確認エラー");
+    }
+  }
+
   useEffect(() => {
     if (loading) return;
     syncHostedCrawlPackage();
-    const timer = window.setInterval(() => syncHostedCrawlPackage(), 5 * 60 * 1000);
+    syncFloorplanHistory();
+    const timer = window.setInterval(() => {
+      syncHostedCrawlPackage();
+      syncFloorplanHistory();
+    }, 5 * 60 * 1000);
     return () => window.clearInterval(timer);
   }, [loading]);
 
@@ -1462,6 +1491,7 @@ export default function App() {
               }}
             />
           ) : null}
+          {settingsView === "history" ? <DataHistoryView history={floorplanHistory} status={floorplanHistoryStatus} /> : null}
           {settingsView === "logs" ? <LogsView logs={logs} onClearLogs={clearLogs} /> : null}
         </main>
       ) : null}

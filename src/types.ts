@@ -129,6 +129,40 @@ export interface CrawlResultPackage {
   logs: CrawlLog[];
 }
 
+export interface FloorplanHistoryDay {
+  date: string;
+  acceptedImageCount: number;
+  planGroupCount: number;
+  multiImageGroupCount: number;
+  bySourceType: Record<string, number>;
+  byDomain: Record<string, number>;
+  byLayout: Record<string, number>;
+  byFloors: Record<string, number>;
+}
+
+export interface FloorplanHistoryMonth {
+  month: string;
+  acceptedImageCount: number;
+  planGroupCount: number;
+  multiImageGroupCount: number;
+  days: FloorplanHistoryDay[];
+}
+
+export interface FloorplanHistoryPackage {
+  version: number;
+  generatedAt: string;
+  source: "accepted-floorplans";
+  totals: {
+    acceptedImageCount: number;
+    planGroupCount: number;
+    multiImageGroupCount: number;
+    domainCount: number;
+    firstDate: string;
+    lastDate: string;
+  };
+  months: FloorplanHistoryMonth[];
+}
+
 export type CrawlAction =
   | "robots確認"
   | "sitemap確認"
