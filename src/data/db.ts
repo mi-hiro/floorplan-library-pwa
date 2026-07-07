@@ -1,7 +1,7 @@
 import type { CrawlCandidate, CrawlLog, CrawlSite, FloorPlanProperty } from "../types";
 
-const DB_NAME = "floorplan-library-db";
-const DB_VERSION = 1;
+export const DB_NAME = "floorplan-library-db";
+export const DB_VERSION = 1;
 
 export const STORE_NAMES = {
   properties: "properties",

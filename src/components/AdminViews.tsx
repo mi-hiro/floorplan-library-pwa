@@ -1,5 +1,6 @@
-import { AlertTriangle, BarChart3, Check, ClipboardList, Plus, Save, Trash2, Upload } from "lucide-react";
+import { AlertTriangle, BarChart3, Check, ClipboardList, Download, Plus, Save, Trash2, Upload } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
+import { getMigrationCounts, normalizeMigrationBackup, type MigrationBackup, type MigrationImportMode, type MigrationImportResult } from "../data/migration";
 import type {
   CrawlCandidate,
   FloorplanHistoryPackage,
@@ -52,6 +53,11 @@ interface DataHistoryViewProps {
   history: FloorplanHistoryPackage | null;
   status: string;
   logs: CrawlLog[];
+}
+
+interface DataMigrationViewProps {
+  onExportMigrationData: () => Promise<MigrationBackup>;
+  onImportMigrationData: (backup: MigrationBackup, mode: MigrationImportMode) => Promise<MigrationImportResult>;
 }
 
 function blankSite(): CrawlSite {
@@ -842,6 +848,180 @@ export function DataHistoryView({ history, status, logs }: DataHistoryViewProps)
           </div>
         </>
       ) : null}
+    </section>
+  );
+}
+
+export function DataMigrationView({ onExportMigrationData, onImportMigrationData }: DataMigrationViewProps) {
+  const [selectedBackup, setSelectedBackup] = useState<MigrationBackup | null>(null);
+  const [importMode, setImportMode] = useState<MigrationImportMode>("merge");
+  const [message, setMessage] = useState("");
+  const [busy, setBusy] = useState(false);
+  const counts = selectedBackup ? getMigrationCounts(selectedBackup) : null;
+  const localStorageCount = selectedBackup ? Object.keys(selectedBackup.localStorage).length : 0;
+
+  async function exportBackup() {
+    setBusy(true);
+    setMessage("エクスポート中...");
+    try {
+      const backup = await onExportMigrationData();
+      const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      const dateStamp = backup.exportedAt.slice(0, 10).replaceAll("-", "");
+      anchor.href = url;
+      anchor.download = `floorplan-library-migration-${dateStamp}.json`;
+      document.body.append(anchor);
+      anchor.click();
+      anchor.remove();
+      URL.revokeObjectURL(url);
+      const backupCounts = getMigrationCounts(backup);
+      setMessage(
+        `エクスポートしました。登録 ${formatInteger(backupCounts.properties.count)}件 / サイト ${formatInteger(
+          backupCounts.sites.count
+        )}件 / 候補 ${formatInteger(backupCounts.candidates.count)}件 / ログ ${formatInteger(backupCounts.logs.count)}件`
+      );
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "エクスポートに失敗しました。");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function selectBackupFile(file: File | undefined) {
+    if (!file) return;
+    setBusy(true);
+    setMessage("JSONを確認中...");
+    try {
+      const parsed = normalizeMigrationBackup(JSON.parse(await file.text()));
+      setSelectedBackup(parsed);
+      setMessage("移行JSONを確認しました。件数を確認してからインポートしてください。");
+    } catch (error) {
+      setSelectedBackup(null);
+      setMessage(error instanceof Error ? error.message : "JSONの確認に失敗しました。");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function importBackup() {
+    if (!selectedBackup || !counts) return;
+    const modeLabel = importMode === "replace" ? "上書き" : "追加";
+    const confirmed = confirm(
+      `${modeLabel}でインポートします。\n\n登録 ${counts.properties.count}件\nサイト ${counts.sites.count}件\n候補 ${counts.candidates.count}件\nログ ${counts.logs.count}件\nlocalStorage ${localStorageCount}件\n\n続行しますか？`
+    );
+    if (!confirmed) return;
+
+    setBusy(true);
+    setMessage("インポート中...");
+    try {
+      const result = await onImportMigrationData(selectedBackup, importMode);
+      setMessage(
+        `インポートしました。登録 ${formatInteger(result.counts.properties.count)}件 / サイト ${formatInteger(
+          result.counts.sites.count
+        )}件 / 候補 ${formatInteger(result.counts.candidates.count)}件 / ログ ${formatInteger(
+          result.counts.logs.count
+        )}件 / localStorage ${formatInteger(result.localStorageCount)}件`
+      );
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "インポートに失敗しました。");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <section className="admin-view migration-view">
+      <div className="section-heading">
+        <div>
+          <p className="eyebrow">データ移行</p>
+          <h2>バックアップと復元</h2>
+          <p className="muted-text">この端末のブラウザに保存されているアプリデータをJSONで移せます。</p>
+        </div>
+      </div>
+
+      <div className="notice">
+        <AlertTriangle size={19} />
+        <div>
+          <strong>移行対象</strong>
+          <p>IndexedDBの登録物件、サイト、取得候補、ログと、このアプリ名で始まるlocalStorageだけを対象にします。</p>
+        </div>
+      </div>
+
+      <div className="migration-actions">
+        <section className="migration-card">
+          <div>
+            <h3>fujiseiで書き出す</h3>
+            <p className="muted-text">MSIへ持っていくJSONファイルをダウンロードします。</p>
+          </div>
+          <button className="primary-button" type="button" onClick={exportBackup} disabled={busy}>
+            <Download size={17} />
+            エクスポート
+          </button>
+        </section>
+
+        <section className="migration-card">
+          <div>
+            <h3>MSIで読み込む</h3>
+            <p className="muted-text">fujiseiで書き出したJSONを選び、件数を確認してから復元します。</p>
+          </div>
+          <label className="secondary-button file-action">
+            <Upload size={17} />
+            JSON選択
+            <input
+              type="file"
+              accept="application/json,.json"
+              disabled={busy}
+              onChange={(event) => {
+                selectBackupFile(event.target.files?.[0]);
+                event.currentTarget.value = "";
+              }}
+            />
+          </label>
+        </section>
+      </div>
+
+      {selectedBackup && counts ? (
+        <div className="migration-preview">
+          <div className="section-heading compact">
+            <div>
+              <p className="eyebrow">インポート前確認</p>
+              <h3>選択中の移行JSON</h3>
+              <p className="muted-text">
+                作成日時：{formatDate(selectedBackup.exportedAt)} / DB：{selectedBackup.indexedDbName} / version {selectedBackup.version}
+              </p>
+            </div>
+          </div>
+          <div className="migration-count-grid">
+            <HistorySummary label="登録物件" value={`${formatInteger(counts.properties.count)}件`} />
+            <HistorySummary label="サイト" value={`${formatInteger(counts.sites.count)}件`} />
+            <HistorySummary label="取得候補" value={`${formatInteger(counts.candidates.count)}件`} />
+            <HistorySummary label="ログ" value={`${formatInteger(counts.logs.count)}件`} />
+            <HistorySummary label="localStorage" value={`${formatInteger(localStorageCount)}件`} />
+          </div>
+          <div className="migration-mode-grid">
+            <label className="migration-mode-card">
+              <input type="radio" checked={importMode === "merge"} onChange={() => setImportMode("merge")} />
+              <span>
+                <strong>追加</strong>
+                <small>今あるデータを残し、同じIDだけ更新します。</small>
+              </span>
+            </label>
+            <label className="migration-mode-card">
+              <input type="radio" checked={importMode === "replace"} onChange={() => setImportMode("replace")} />
+              <span>
+                <strong>上書き</strong>
+                <small>既存データを消して、このJSONの内容に入れ替えます。</small>
+              </span>
+            </label>
+          </div>
+          <button className={importMode === "replace" ? "danger-button" : "primary-button"} type="button" onClick={importBackup} disabled={busy}>
+            {importMode === "replace" ? "上書きインポート" : "追加インポート"}
+          </button>
+        </div>
+      ) : null}
+
+      {message ? <p className="migration-message">{message}</p> : null}
     </section>
   );
 }

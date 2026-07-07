@@ -14,11 +14,12 @@ import {
   SlidersHorizontal
 } from "lucide-react";
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
-import { CandidatesView, CrawlSettingsView, DataHistoryView, LogsView, SitesView } from "./components/AdminViews";
+import { CandidatesView, CrawlSettingsView, DataHistoryView, DataMigrationView, LogsView, SitesView } from "./components/AdminViews";
 import { CompareView } from "./components/CompareView";
 import { defaultFilters, FilterPanel } from "./components/FilterPanel";
 import { PropertyCard } from "./components/PropertyCard";
 import { PropertyWorkspace } from "./components/PropertyWorkspace";
+import { createMigrationBackup, importMigrationBackup, type MigrationBackup, type MigrationImportMode } from "./data/migration";
 import { addInitialLog, addSampleProperties, ensureDefaultSites } from "./data/seeds";
 import { clearStore, deleteItem, getAllItems, putItem } from "./data/db";
 import type {
@@ -49,7 +50,7 @@ const navItems: { key: ViewKey; label: string; icon: React.ElementType }[] = [
   { key: "settings", label: "設定", icon: Settings }
 ];
 
-type SettingsTabKey = "sites" | "crawlSettings" | "history" | "candidates" | "logs";
+type SettingsTabKey = "sites" | "crawlSettings" | "history" | "migration" | "candidates" | "logs";
 type SortKey = "newest" | "oldest" | "source" | "layout";
 type PageSize = 20 | 40 | 60 | 80 | 100;
 type FloorplanDisplayMode = "cards" | "compact";
@@ -58,6 +59,7 @@ const settingsTabs: { key: SettingsTabKey; label: string; icon: React.ElementTyp
   { key: "sites", label: "サイト管理", icon: ShieldCheck },
   { key: "crawlSettings", label: "巡回設定", icon: SlidersHorizontal },
   { key: "history", label: "取得履歴", icon: BarChart3 },
+  { key: "migration", label: "データ移行", icon: FileDown },
   { key: "candidates", label: "取得候補", icon: ClipboardList },
   { key: "logs", label: "巡回ログ", icon: Database }
 ];
@@ -1011,6 +1013,20 @@ export default function App() {
     setLogs([]);
   }
 
+  async function exportMigrationData() {
+    return createMigrationBackup();
+  }
+
+  async function importMigrationData(backup: MigrationBackup, mode: MigrationImportMode) {
+    if (isReviewMode) {
+      blockReviewEdit();
+      throw new Error("確認用URLではデータ移行はできません。");
+    }
+    const result = await importMigrationBackup(backup, mode);
+    await refreshData();
+    return result;
+  }
+
   async function handleAddSamples() {
     if (isReviewMode) {
       blockReviewEdit();
@@ -1492,6 +1508,9 @@ export default function App() {
             />
           ) : null}
           {settingsView === "history" ? <DataHistoryView history={floorplanHistory} status={floorplanHistoryStatus} logs={logs} /> : null}
+          {settingsView === "migration" ? (
+            <DataMigrationView onExportMigrationData={exportMigrationData} onImportMigrationData={importMigrationData} />
+          ) : null}
           {settingsView === "logs" ? <LogsView logs={logs} onClearLogs={clearLogs} /> : null}
         </main>
       ) : null}
