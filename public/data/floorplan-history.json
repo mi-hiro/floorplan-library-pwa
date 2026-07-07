@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-06T14:11:45.954Z",
+  "generatedAt": "2026-07-07T08:03:38.199Z",
   "source": "accepted-floorplans",
   "totals": {
     "acceptedImageCount": 2299,
@@ -8,7 +8,7 @@
     "multiImageGroupCount": 733,
     "domainCount": 26,
     "firstDate": "2026-06-26",
-    "lastDate": "2026-07-06"
+    "lastDate": "2026-07-07"
   },
   "months": [
     {
@@ -368,7 +368,7 @@
           }
         },
         {
-          "date": "2026-07-06",
+          "date": "2026-07-07",
           "acceptedImageCount": 21,
           "planGroupCount": 10,
           "multiImageGroupCount": 8,
