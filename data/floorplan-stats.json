@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-29T00:37:26.585Z",
-  "acceptedCount": 2506,
-  "publicCandidateCount": 1552,
-  "multiImageCandidateCount": 822,
+  "generatedAt": "2026-07-30T00:35:51.760Z",
+  "acceptedCount": 2514,
+  "publicCandidateCount": 1557,
+  "multiImageCandidateCount": 825,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 138
@@ -20,7 +20,7 @@
       "acceptedCount": 1
     },
     "suumo.jp": {
-      "acceptedCount": 1423
+      "acceptedCount": 1431
     },
     "aidagroup.co.jp": {
       "acceptedCount": 4
