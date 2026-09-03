@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-01T01:04:19.212Z",
-  "acceptedCount": 2647,
-  "publicCandidateCount": 1631,
+  "generatedAt": "2026-09-03T01:21:42.621Z",
+  "acceptedCount": 2650,
+  "publicCandidateCount": 1634,
   "multiImageCandidateCount": 878,
   "domains": {
     "ichijo.co.jp": {
       "acceptedCount": 138
     },
     "forumu.co.jp": {
-      "acceptedCount": 128
+      "acceptedCount": 131
     },
     "sfc.jp": {
       "acceptedCount": 24
